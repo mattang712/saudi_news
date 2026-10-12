@@ -23,6 +23,7 @@ const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY || "";
 const AI_KEY = OPENAI_KEY || ANTHROPIC_KEY;
 const AI_MODEL = process.env.AI_MODEL || (OPENAI_KEY ? "gpt-5-mini" : "claude-haiku-5-5");
 const MAX_AI_ARTICLES = 60;
+const PROMPT_VERSION = 4; // AI 지시문을 고치면 숫자를 올린다
 const AI_EVERY_MIN = Number(process.env.AI_EVERY_MIN || 120); // 상황 요약·사건 묶기 간격(분)
 // 타임라인에 쓰는 출처 (국내 언론은 늦게 보도하는 경우가 많아 제외)
 const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)"]);
@@ -151,8 +152,15 @@ async function aiOrganize(arts, cachedSummaries, cachedTitles) {
 3. articleSummariesKo: summaryKoAlreadyDone이 없는 기사마다, 제목·요약에 있는 내용만으로 한국어 1~2문장(해요체) 요약
 3-1. articleTitlesKo: titleKoAlreadyDone이 없는 기사마다, 원문 제목을 자연스러운 한국어 제목 한 줄로 번역 (주장은 "~라고 주장"으로)
 4. irrelevant: 사우디 안전과 관계없는 기사 id 목록
-5. summaryKo: 지금 상황을 가족이 읽기 쉽게 한국어 3~5줄(해요체)로. 확인 정도(공식 확인/여러 언론/한 곳만/주장)를 드러내라.
-   "안전하다", "위험 없다", "공격 없다"처럼 단정하지 마라. 기사가 없으면 빈 배열.
+5. summaryKo: 여러 기사를 하나로 통합한 아주 짧은 상황 요약. 문장 배열로 2~4개.
+   - 문장 하나에 사건 하나만. 각 문장 35자 이내, 차분한 해요체
+   - 같은 사건을 다룬 기사들은 한 문장으로 합쳐라. 같은 내용을 두 번 쓰지 마라
+   - 순서: 담맘·자푸라·동부주 → 공항·항공편 → 다른 지역 공격 → 외교부 공지
+   - 확인 정도는 짧게 녹여라 (예: "로이터 보도", "국영통신 발표", "후티 주장, 미확인")
+   - 수식어, 배경 설명, 번호, 글머리 기호 없이
+   - "안전하다", "위험 없다", "공격 없다"처럼 단정하지 마라
+   - 최근 24시간 동안 눈에 띄는 일이 없으면 ["최근 24시간 동안 눈에 띄는 새 사건 보도는 없어요."]
+   - 기사가 하나도 없으면 빈 배열
 
 JSON만 출력하라. 형식:
 {"clusters":[{"articleIds":[],"titleKo":"","type":"","regions":[],"regionInferred":false,"inferNote":"","claimOnly":false,"evacuationOrder":false,"occurredAt":null}],"articleSummariesKo":{"id":"요약"},"articleTitlesKo":{"id":"한국어 제목"},"irrelevant":[],"summaryKo":[]}
@@ -261,6 +269,7 @@ function buildEvent(c, byId, ai) {
   const autoTitle = !krTitle && ((ai && c.titleKo) || TITLES_KO[arts[0].id]) ? true : false;
   return {
     id: idOf(arts.map((a) => a.id).sort().join(",")),
+    articleIds: arts.map((a) => a.id),
     type, sev: SEV[type] || "low", status, directive,
     title: krTitle || (ai && c.titleKo) || TITLES_KO[arts[0].id] || arts[0].title,
     titleAuto: autoTitle,
@@ -343,7 +352,8 @@ async function main() {
   TITLES_KO = titlesKo;
   const newIds = arts.filter((a) => !prevArticles.some((p) => p.id === a.id)).length;
   // 비용 절약: 사건 묶기·상황 요약은 AI_EVERY_MIN분에 한 번만. 그 사이 새 기사는 규칙으로 붙인다.
-  const aiDue = NOW - (cache.lastAiAt || 0) >= AI_EVERY_MIN * 60000;
+  // 요약 지시문을 바꾸면 2시간을 기다리지 않고 다음 수집 때 바로 새로 정리
+  const aiDue = NOW - (cache.lastAiAt || 0) >= AI_EVERY_MIN * 60000 || cache.promptVersion !== PROMPT_VERSION;
   const reuseAi = AI_KEY && cache.aiClusters && arts.length > 0 && (newIds === 0 || !aiDue);
   let lastAiAt = cache.lastAiAt || 0;
 
@@ -367,7 +377,7 @@ async function main() {
       for (const a of target) if (!used.has(a.id) && !irrelevant.has(a.id)) clusters.push({ articleIds: [a.id] });
       // 60건을 넘는 오래된 기사는 규칙으로 묶기
       clusters.push(...ruleClusters(arts.slice(MAX_AI_ARTICLES)).map((c) => ({ ...c, fromRule: true })));
-      summaryKo = Array.isArray(r.summaryKo) ? r.summaryKo.filter((s) => typeof s === "string").slice(0, 5) : null;
+      summaryKo = Array.isArray(r.summaryKo) ? r.summaryKo.filter((s) => typeof s === "string").map((s) => s.replace(/^\s*(\d+[.)]|[-•·*])\s*/, "").trim()).filter(Boolean).slice(0, 4) : null;
       aiOk = true;
       lastAiAt = NOW;
     } catch (e) {
@@ -438,6 +448,7 @@ async function main() {
       aiClusters: useAi ? clusters : null,
       aiSummaryKo: useAi ? summaryKo : null,
       lastAiAt,
+      promptVersion: lastAiAt === NOW ? PROMPT_VERSION : cache.promptVersion || null,
     },
   };
   await fs.writeFile(OUT, JSON.stringify(out, null, 1));

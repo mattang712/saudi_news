@@ -247,6 +247,7 @@ function StatusCard({ meta, loadError }) {
 /* ───────── 화면들 ───────── */
 function HomeView({ data, loadError, goTimeline }) {
   const { meta } = data;
+  const lines = meta.summaryKo;
   return (
     <div className="stack">
       <div className="card summary">
@@ -254,8 +255,12 @@ function HomeView({ data, loadError, goTimeline }) {
           <h2 className="sec-title">지금 사우디 상황</h2>
           {meta.aiSummary ? <span className="pill demo">AI 정리</span> : <span className="pill demo">자동 집계</span>}
         </div>
-        {meta.summaryKo.length ? <ol>{meta.summaryKo.map((l, i) => <li key={i}>{l}</li>)}</ol> : <Empty />}
-        {meta.aiSummary && <p className="muted small" style={{ margin: "8px 0 0" }}>AI가 기사 제목·요약만 보고 정리한 내용이에요. 시간 순서는 타임라인에서 확인해요.</p>}
+        {lines.length ? (
+          <ul className="brief-lines">
+            {lines.map((l, i) => <li key={i}>{l}</li>)}
+          </ul>
+        ) : <Empty />}
+        {meta.aiSummary && <p className="muted small" style={{ margin: "10px 0 0" }}>AI가 기사 제목·요약만 보고 정리한 내용이에요. 자세한 건 타임라인에서 확인해요.</p>}
       </div>
       <button className="iconbtn big" onClick={goTimeline}>타임라인 보기 →</button>
       <StatusCard meta={meta} loadError={loadError} />

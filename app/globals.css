@@ -165,3 +165,14 @@ button,input{font:inherit;color:inherit}
 
 .auto-tag{font-size:.78rem;font-weight:500;color:var(--muted);white-space:nowrap}
 .orig-title{margin:0;font-size:.84rem;color:var(--muted);overflow-wrap:anywhere}
+
+.brief{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.brief-lead{margin:0;font-family:var(--f-display);font-size:1.15rem;font-weight:700;line-height:1.45;text-wrap:balance}
+.brief-body{margin:0;font-size:1rem;line-height:1.75;color:var(--fg)}
+
+
+/* 상황 요약: 한 줄에 사건 하나 */
+.brief-lines{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+.brief-lines li{position:relative;padding-left:14px;font-size:1.02rem;line-height:1.5}
+.brief-lines li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.brief-lines li:first-child{font-weight:700;font-size:1.08rem}
