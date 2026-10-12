@@ -68,9 +68,14 @@ function normalize(json) {
     regions: e.regions?.length ? e.regions : ["all"],
     sources: (e.sources || []).map((s) => ({ ...s, reportedAt: toTs(s.reportedAt) })),
   }));
+  const timeline = (json.timeline || [])
+    .map((t) => ({ ...t, reportedAt: toTs(t.reportedAt), regions: t.regions?.length ? t.regions : ["all"] }))
+    .filter((t) => t.reportedAt)
+    .sort((a, b) => b.reportedAt - a.reportedAt);
   const m = json.meta || {};
   return {
     events,
+    timeline,
     meta: {
       ...m,
       lastSuccessAt: toTs(m.lastSuccessAt),
@@ -215,37 +220,59 @@ function StatusCard({ meta, loadError }) {
 }
 
 /* ───────── 화면들 ───────── */
-function HomeView({ data, events, region, setRegion, onOpen, loadError }) {
-  const now = Date.now();
-  const last24 = events.filter((e) => now - sortKey(e) <= 24 * H);
-  const priority = events.filter((e) => e.regions.some((r) => ["jafurah", "dammam", "eastern"].includes(r)));
-  const airport = events.filter((e) => e.type === "airport" || e.regions.includes("airport"));
-  const official = events.filter((e) => e.status === "official" || ["advisory", "korean", "evacuation"].includes(e.type));
+function HomeView({ data, loadError, goTimeline }) {
   const { meta } = data;
   return (
     <div className="stack">
-      <StatusCard meta={meta} loadError={loadError} />
       <div className="card summary">
         <div className="row">
           <h2 className="sec-title">지금 사우디 상황</h2>
           {meta.aiSummary ? <span className="pill demo">AI 정리</span> : <span className="pill demo">자동 집계</span>}
         </div>
         {meta.summaryKo.length ? <ol>{meta.summaryKo.map((l, i) => <li key={i}>{l}</li>)}</ol> : <Empty />}
-        {meta.aiSummary && <p className="muted small" style={{ margin: "8px 0 0" }}>AI가 기사 제목·요약만 보고 정리한 내용이에요. 자세한 건 아래 원문을 눌러 확인해요.</p>}
+        {meta.aiSummary && <p className="muted small" style={{ margin: "8px 0 0" }}>AI가 기사 제목·요약만 보고 정리한 내용이에요. 시간 순서는 타임라인에서 확인해요.</p>}
       </div>
-      <RegionChips region={region} setRegion={setRegion} />
-      <Section title="담맘 · 자푸라 · 동부주" list={priority} onOpen={onOpen} />
-      <Section title="최근 24시간 중요 사건" list={last24} onOpen={onOpen} />
-      <Section title="공항 · 항공편" list={airport} onOpen={onOpen} />
-      <Section title="외교부 · 대사관 공지" list={official} onOpen={onOpen} />
+      <button className="iconbtn big" onClick={goTimeline}>타임라인 보기 →</button>
+      <StatusCard meta={meta} loadError={loadError} />
     </div>
   );
 }
 
-function TimelineView({ events, region, setRegion, onOpen }) {
+const TL_STATUS = (t) => (t.official ? "official" : t.claim ? "claim" : null);
+
+function TimelineItem({ t }) {
+  const st = TL_STATUS(t);
+  return (
+    <a className={"ev sev-" + (t.sev || "low")} href={t.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
+      <div className="ev-meta">
+        <span className="tag" style={{ color: "var(--fg)" }}>{t.outlet}</span>
+        {st && <VBadge s={st} />}
+        <span className="tag">{TYPES[t.type] || "기타"}</span>
+      </div>
+      <h3>{t.titleKo || t.title}</h3>
+      {t.titleKo && <p className="muted small" style={{ margin: 0, overflowWrap: "anywhere" }}>{t.title}</p>}
+      {t.summary && <p style={{ margin: 0, fontSize: ".94rem" }}>{t.summary}</p>}
+      {t.regions.some((r) => r !== "all") && (
+        <div className="ev-meta">
+          {t.regions.filter((r) => r !== "all").map((r) => <span key={r} className="tag">{REGION_NAME[r] || r}</span>)}
+          {t.inferred && <span className="tag inferred">관련 지역 추정</span>}
+        </div>
+      )}
+      <dl className="times">
+        <dt>보도 · 사우디</dt><dd className="mono">{fmt(t.reportedAt, 3)}</dd>
+        <dt>보도 · 한국</dt><dd className="mono">{fmt(t.reportedAt, 9)}</dd>
+      </dl>
+      <span className="linkbtn" style={{ minHeight: 0 }}>원문 보기 ↗</span>
+    </a>
+  );
+}
+
+function TimelineView({ timeline, region, setRegion }) {
   const [range, setRange] = useState("24");
   const now = Date.now();
-  const list = events.filter((e) => range === "all" || now - sortKey(e) <= 24 * H);
+  const list = timeline
+    .filter((t) => region === "all" || t.regions.includes(region))
+    .filter((t) => range === "all" || now - t.reportedAt <= 24 * H);
   let lastDay = null;
   return (
     <div className="stack">
@@ -254,18 +281,18 @@ function TimelineView({ events, region, setRegion, onOpen }) {
         <button aria-pressed={range === "24"} onClick={() => setRange("24")}>최근 24시간</button>
         <button aria-pressed={range === "all"} onClick={() => setRange("all")}>전체 (최근 3일)</button>
       </div>
-      <p className="muted small" style={{ margin: 0 }}>최신 소식이 위로 와요. 언제 일어났는지 모르면 처음 보도된 시각으로 줄 세워요.</p>
+      <p className="muted small" style={{ margin: 0 }}>로이터와 사우디 국영통신(SPA) 보도만, 보도된 순서대로 보여줘요. 최신이 위예요.</p>
       {list.length === 0 ? <div className="card"><Empty /></div> : (
         <div className="tl">
-          {list.map((e) => {
-            const d = fmt(sortKey(e), 9).slice(0, 5);
+          {list.map((t) => {
+            const d = fmt(t.reportedAt, 3).slice(0, 5);
             const show = d !== lastDay; lastDay = d;
             return (
-              <React.Fragment key={e.id}>
-                {show && <div className="tl-day">한국 날짜 {d}</div>}
-                <div className={"tl-item sev-" + (e.sev || "low")}>
-                  <div className="ev-time mono" style={{ marginBottom: 4 }}>{ago(sortKey(e))}</div>
-                  <EventCard e={e} onOpen={onOpen} />
+              <React.Fragment key={t.id}>
+                {show && <div className="tl-day">사우디 날짜 {d}</div>}
+                <div className={"tl-item sev-" + (t.sev || "low")}>
+                  <div className="ev-time mono" style={{ marginBottom: 4 }}>{ago(t.reportedAt)}</div>
+                  <TimelineItem t={t} />
                 </div>
               </React.Fragment>
             );
@@ -479,8 +506,8 @@ export default function App() {
           <div className="stack"><div className="card"><Empty text="소식 불러오는 중이에요…" /></div></div>
         ) : (
           <>
-            {tab === "home" && <HomeView data={data} events={events} region={region} setRegion={setRegion} onOpen={setOpen} loadError={loadError} />}
-            {tab === "tl" && <TimelineView events={events} region={region} setRegion={setRegion} onOpen={setOpen} />}
+            {tab === "home" && <HomeView data={data} loadError={loadError} goTimeline={() => { setTab("tl"); window.scrollTo(0, 0); }} />}
+            {tab === "tl" && <TimelineView timeline={data.timeline} region={region} setRegion={setRegion} />}
             {tab === "news" && <NewsView events={events} />}
             {tab === "info" && <InfoView theme={theme} setTheme={setTheme} meta={data.meta} />}
           </>

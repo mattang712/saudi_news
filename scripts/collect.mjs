@@ -23,6 +23,8 @@ const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY || "";
 const AI_KEY = OPENAI_KEY || ANTHROPIC_KEY;
 const AI_MODEL = process.env.AI_MODEL || (OPENAI_KEY ? "gpt-5-mini" : "claude-haiku-5-5");
 const MAX_AI_ARTICLES = 60;
+// 타임라인에 쓰는 출처 (국내 언론은 늦게 보도하는 경우가 많아 제외)
+const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)"]);
 
 /* ───────── 도구 ───────── */
 const iso = (ts) => (ts == null ? null : new Date(ts).toISOString());
@@ -126,10 +128,11 @@ function ruleClusters(arts) {
 const VALID_TYPES = new Set(TYPE_RULES.map((t) => t.type));
 const VALID_REGIONS = new Set(["jafurah", "dammam", "eastern", "riyadh", "jeddah", "airport", "all"]);
 
-async function aiOrganize(arts, cachedSummaries) {
+async function aiOrganize(arts, cachedSummaries, cachedTitles) {
   const list = arts.map((a) => ({
     id: a.id, outlet: a.outlet, reportedAt: iso(a.reportedAt), title: a.title, snippet: a.snippet.slice(0, 300),
     ...(cachedSummaries[a.id] ? { summaryKoAlreadyDone: true } : {}),
+    ...(a.lang === "ko" || cachedTitles[a.id] ? { titleKoAlreadyDone: true } : {}),
   }));
   const prompt = `너는 사우디아라비아 동부(담맘·자푸라 가스전) 근처에서 일하는 가족을 둔 한국 가족을 위해 뉴스를 정리한다.
 아래 기사 목록(JSON)은 제목과 짧은 요약만 있다. 이 안에 적힌 내용만 사용하고, 없는 사실·숫자·시각을 절대 만들지 마라.
@@ -145,12 +148,13 @@ async function aiOrganize(arts, cachedSummaries) {
    - evacuationOrder: 공식 기관이 실제 대피를 지시했다고 기사에 명시된 경우만 true (단순 권고는 false)
    - occurredAt: 기사에 사건 발생 시각이 명시된 경우에만 ISO 8601(UTC)로, 아니면 null
 3. articleSummariesKo: summaryKoAlreadyDone이 없는 기사마다, 제목·요약에 있는 내용만으로 한국어 1~2문장(해요체) 요약
+3-1. articleTitlesKo: titleKoAlreadyDone이 없는 기사마다, 원문 제목을 자연스러운 한국어 제목 한 줄로 번역 (주장은 "~라고 주장"으로)
 4. irrelevant: 사우디 안전과 관계없는 기사 id 목록
 5. summaryKo: 지금 상황을 가족이 읽기 쉽게 한국어 3~5줄(해요체)로. 확인 정도(공식 확인/여러 언론/한 곳만/주장)를 드러내라.
    "안전하다", "위험 없다", "공격 없다"처럼 단정하지 마라. 기사가 없으면 빈 배열.
 
 JSON만 출력하라. 형식:
-{"clusters":[{"articleIds":[],"titleKo":"","type":"","regions":[],"regionInferred":false,"inferNote":"","claimOnly":false,"evacuationOrder":false,"occurredAt":null}],"articleSummariesKo":{"id":"요약"},"irrelevant":[],"summaryKo":[]}
+{"clusters":[{"articleIds":[],"titleKo":"","type":"","regions":[],"regionInferred":false,"inferNote":"","claimOnly":false,"evacuationOrder":false,"occurredAt":null}],"articleSummariesKo":{"id":"요약"},"articleTitlesKo":{"id":"한국어 제목"},"irrelevant":[],"summaryKo":[]}
 
 기사 목록:
 ${JSON.stringify(list)}`;
@@ -261,6 +265,7 @@ async function main() {
   const prevArticles = cache.articles || [];
   const firstSeen = Object.fromEntries(prevArticles.map((a) => [a.id, a.firstSeen]));
   const summaries = cache.summaries || {};
+  const titlesKo = cache.titlesKo || {};
 
   const results = await Promise.all(FEEDS.map(async (f) => {
     try { const items = await fetchFeed(f); return { feed: f, ok: true, items }; }
@@ -304,11 +309,14 @@ async function main() {
   if (AI_KEY && arts.length && !reuseAi) {
     try {
       const target = arts.slice(0, MAX_AI_ARTICLES);
-      const r = await aiOrganize(target, summaries);
+      const r = await aiOrganize(target, summaries, titlesKo);
       const ids = new Set(target.map((a) => a.id));
       const irrelevant = new Set((r.irrelevant || []).filter((id) => ids.has(id)));
       for (const [id, s] of Object.entries(r.articleSummariesKo || {})) {
         if (ids.has(id) && typeof s === "string" && s.length < 400) { summaries[id] = s; byId.get(id).summaryKo = s; }
+      }
+      for (const [id, t] of Object.entries(r.articleTitlesKo || {})) {
+        if (ids.has(id) && typeof t === "string" && t.length < 200) titlesKo[id] = t;
       }
       const used = new Set();
       clusters = (r.clusters || [])
@@ -338,9 +346,30 @@ async function main() {
 
   const finalSummary = useAi && summaryKo?.length ? summaryKo : countSummary(events);
 
+  // 타임라인: 묶지 않고 로이터·사우디 국영통신(SPA) 기사만 보도 시각 순서대로
+  const timeline = arts
+    .filter((a) => TIMELINE_FEEDS.has(a.feed) && a.reportedAt)
+    .sort((a, b) => b.reportedAt - a.reportedAt)
+    .map((a) => ({
+      id: a.id,
+      outlet: a.outlet,
+      official: !!a.official,
+      claim: !a.official && a.cls.claim,
+      type: a.cls.type,
+      sev: SEV[a.cls.type] || "low",
+      regions: a.cls.regions,
+      inferred: a.cls.inferred,
+      titleKo: titlesKo[a.id] || null,
+      title: a.title,
+      summary: summaries[a.id] || "",
+      reportedAt: iso(a.reportedAt),
+      url: a.url,
+    }));
+
   // 오래된 요약 캐시 정리
   const keepIds = new Set(arts.map((a) => a.id));
   for (const id of Object.keys(summaries)) if (!keepIds.has(id)) delete summaries[id];
+  for (const id of Object.keys(titlesKo)) if (!keepIds.has(id)) delete titlesKo[id];
 
   const out = {
     meta: {
@@ -353,9 +382,11 @@ async function main() {
       sources: sourcesMeta,
     },
     events,
+    timeline,
     _cache: {
       articles: arts.map(({ cls, summaryKo, ...a }) => a),
       summaries,
+      titlesKo,
       aiClusters: useAi ? clusters : null,
       aiSummaryKo: useAi ? summaryKo : null,
     },
