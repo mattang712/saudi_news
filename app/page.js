@@ -3,7 +3,22 @@ import React, { useState, useMemo, useEffect, useCallback } from "react";
 
 /* ───────── 고정 정보 ───────── */
 const H = 3600 * 1000;
-const STALE_MIN = 90; // 마지막 수집 성공 후 이 시간(분)이 지나면 경고
+const STALE_MIN = 40; // 마지막 수집 성공 후 이 시간(분)이 지나면 경고 (수집은 10분마다)
+const LIVE_URL = process.env.NEXT_PUBLIC_DATA_URL || "";
+
+// 1순위: GitHub에서 최신 데이터 바로 받기 / 실패하면 사이트에 들어 있는 데이터
+async function fetchNews() {
+  const tries = [LIVE_URL, "/data/news.json"].filter(Boolean);
+  let lastErr;
+  for (const u of tries) {
+    try {
+      const res = await fetch(u + "?t=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error(String(res.status));
+      return await res.json();
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr;
+}
 
 const REGIONS = [
   { id: "all", name: "사우디 전체" },
@@ -88,6 +103,16 @@ function normalize(json) {
 }
 
 /* ───────── 작은 부품 ───────── */
+const AutoTag = () => <span className="auto-tag">(자동번역)</span>;
+function TitleKo({ ko, en, auto }) {
+  if (!ko) return <h3>{en}</h3>;
+  return (
+    <>
+      <h3>{ko} {auto && <AutoTag />}</h3>
+      {auto && en && <p className="orig-title">{en}</p>}
+    </>
+  );
+}
 const VBadge = ({ s }) => <span className={"vs " + (VSTATUS[s] || VSTATUS.unver).cls}>{(VSTATUS[s] || VSTATUS.unver).label}</span>;
 
 function EventCard({ e, onOpen }) {
@@ -100,7 +125,7 @@ function EventCard({ e, onOpen }) {
         {e.directive === "advice" && <span className="tag">조심하라는 권고 (대피 지시는 아님)</span>}
         {e.directive === "evacuation" && <span className="tag evac">공식 대피 지시</span>}
       </div>
-      <h3>{e.title}</h3>
+      <h3>{e.title} {e.titleAuto && <AutoTag />}</h3>
       <div className="ev-meta">
         {e.regions.filter((r) => r !== "all").map((r) => <span key={r} className="tag">{REGION_NAME[r] || r}</span>)}
         {e.inferred && <span className="tag inferred">관련 지역 추정</span>}
@@ -153,7 +178,7 @@ function DetailSheet({ e, onClose }) {
             {e.sources.map((s, i) => (
               <div className="art" key={i}>
                 <div className="by"><b style={{ color: "var(--fg)" }}>{s.outlet}</b>{s.reportedAt && <span className="mono">{fmt(s.reportedAt, 9)} 한국</span>}</div>
-                <h3>{s.title}</h3>
+                <TitleKo ko={s.titleKo} en={s.title} auto={!!s.titleKo} />
                 {s.summary && <p>{s.summary}</p>}
                 <a className="linkbtn" href={s.url} target="_blank" rel="noopener noreferrer">원문 보기 ↗</a>
               </div>
@@ -249,8 +274,7 @@ function TimelineItem({ t }) {
         {st && <VBadge s={st} />}
         <span className="tag">{TYPES[t.type] || "기타"}</span>
       </div>
-      <h3>{t.titleKo || t.title}</h3>
-      {t.titleKo && <p className="muted small" style={{ margin: 0, overflowWrap: "anywhere" }}>{t.title}</p>}
+      <TitleKo ko={t.titleKo} en={t.title} auto={!!t.titleKo} />
       {t.summary && <p style={{ margin: 0, fontSize: ".94rem" }}>{t.summary}</p>}
       {t.regions.some((r) => r !== "all") && (
         <div className="ev-meta">
@@ -323,7 +347,7 @@ function NewsView({ events }) {
         {arts.length === 0 ? <Empty /> : arts.map((a, i) => (
           <div className="art" key={i}>
             <div className="by"><b style={{ color: "var(--fg)" }}>{a.outlet}</b><VBadge s={a.ev.status} /></div>
-            <h3>{a.title}</h3>
+            <TitleKo ko={a.titleKo} en={a.title} auto={!!a.titleKo} />
             {a.summary && <p>{a.summary}</p>}
             {a.reportedAt && <div className="by mono">보도 사우디 {fmt(a.reportedAt, 3)} · 한국 {fmt(a.reportedAt, 9)}</div>}
             <a className="linkbtn" href={a.url} target="_blank" rel="noopener noreferrer">원문 보기 ↗</a>
@@ -444,9 +468,7 @@ export default function App() {
   const load = useCallback(async (manual) => {
     setLoading(true);
     try {
-      const res = await fetch("/data/news.json?t=" + Date.now(), { cache: "no-store" });
-      if (!res.ok) throw new Error(String(res.status));
-      const next = normalize(await res.json());
+      const next = normalize(await fetchNews());
       setData(next);
       setLoadError(false);
       if (manual) {

@@ -23,6 +23,7 @@ const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY || "";
 const AI_KEY = OPENAI_KEY || ANTHROPIC_KEY;
 const AI_MODEL = process.env.AI_MODEL || (OPENAI_KEY ? "gpt-5-mini" : "claude-haiku-5-5");
 const MAX_AI_ARTICLES = 60;
+const AI_EVERY_MIN = Number(process.env.AI_EVERY_MIN || 120); // 상황 요약·사건 묶기 간격(분)
 // 타임라인에 쓰는 출처 (국내 언론은 늦게 보도하는 경우가 많아 제외)
 const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)"]);
 
@@ -159,10 +160,36 @@ JSON만 출력하라. 형식:
 기사 목록:
 ${JSON.stringify(list)}`;
 
-  const text = OPENAI_KEY ? await callOpenAI(prompt) : await callClaude(prompt);
+  const text = await callAI(prompt);
   const s = text.indexOf("{"), e = text.lastIndexOf("}");
   if (s < 0 || e < 0) throw new Error("AI 응답에 JSON이 없음");
   return JSON.parse(text.slice(s, e + 1));
+}
+
+const callAI = (prompt) => (OPENAI_KEY ? callOpenAI(prompt) : callClaude(prompt));
+
+// 영어 기사 제목만 한국어로 번역 (이미 번역한 건 다시 안 함). 80개씩 나눠서 요청.
+let TITLES_KO = {};
+async function translateTitles(arts, titlesKo) {
+  const todo = arts.filter((a) => a.lang !== "ko" && !titlesKo[a.id]);
+  for (let i = 0; i < todo.length; i += 80) {
+    const batch = todo.slice(i, i + 80).map((a) => ({ id: a.id, title: a.title }));
+    const prompt = `아래 영어 뉴스 제목들을 자연스러운 한국어 뉴스 제목으로 번역하라.
+- 원문에 없는 내용을 더하거나 빼지 마라. 숫자·지명·기관명은 그대로 옮긴다.
+- 누가 "주장했다(claim)"는 제목이면 주장이라는 점이 드러나게 번역한다.
+- 지명은 한국 언론 표기를 따른다 (Riyadh 리야드, Jeddah 제다, Dammam 담맘, Houthi 후티, Aramco 아람코).
+JSON만 출력: {"id": "한국어 제목", ...}
+
+${JSON.stringify(batch)}`;
+    const text = await callAI(prompt);
+    const s = text.indexOf("{"), e = text.lastIndexOf("}");
+    if (s < 0 || e < 0) throw new Error("번역 응답에 JSON이 없음");
+    const out = JSON.parse(text.slice(s, e + 1));
+    const ids = new Set(batch.map((b) => b.id));
+    for (const [id, t] of Object.entries(out)) {
+      if (ids.has(id) && typeof t === "string" && t.length > 0 && t.length < 200) titlesKo[id] = t.trim();
+    }
+  }
 }
 
 async function callOpenAI(prompt) {
@@ -174,6 +201,8 @@ async function callOpenAI(prompt) {
       messages: [{ role: "user", content: prompt }],
       response_format: { type: "json_object" },
       max_completion_tokens: 16000,
+      // gpt-5 계열은 '생각' 토큰도 요금이 붙어서 최소로
+      ...(AI_MODEL.startsWith("gpt-5") ? { reasoning_effort: "minimal" } : {}),
     }),
     signal: AbortSignal.timeout(180000),
   });
@@ -229,17 +258,19 @@ function buildEvent(c, byId, ai) {
   }
 
   const krTitle = arts.find((a) => a.lang === "ko")?.title;
+  const autoTitle = !krTitle && ((ai && c.titleKo) || TITLES_KO[arts[0].id]) ? true : false;
   return {
     id: idOf(arts.map((a) => a.id).sort().join(",")),
     type, sev: SEV[type] || "low", status, directive,
-    title: (ai && c.titleKo) || krTitle || arts[0].title,
+    title: krTitle || (ai && c.titleKo) || TITLES_KO[arts[0].id] || arts[0].title,
+    titleAuto: autoTitle,
     regions: regions.length ? regions : ["all"],
     inferred: inferred && regions.length > 0, inferNote,
     occurredAt: iso(occurredAt),
     collectedAt: iso(Math.min(...arts.map((a) => a.firstSeen))),
     aiNote: ai ? "제목과 요약은 AI가 기사 내용만 보고 정리했어요." : null,
     sources: arts.map((a) => ({
-      outlet: a.outlet, cat: a.cat, title: a.title, summary: a.summaryKo || (a.lang === "ko" ? a.snippet : "") || "",
+      outlet: a.outlet, cat: a.cat, title: a.title, titleKo: a.lang === "ko" ? null : TITLES_KO[a.id] || null, summary: a.summaryKo || (a.lang === "ko" ? a.snippet : "") || "",
       reportedAt: iso(a.reportedAt), url: a.url,
     })),
   };
@@ -303,8 +334,18 @@ async function main() {
   }
 
   let clusters = null, aiOk = false, aiError = null, summaryKo = null;
+
+  // 영어 제목 번역 (요약·묶기와 따로, 실패해도 나머지는 그대로 진행)
+  if (AI_KEY && arts.length) {
+    try { await translateTitles(arts, titlesKo); }
+    catch (e) { aiError = "제목 번역 실패: " + String(e.message || e).slice(0, 150); console.error(aiError); }
+  }
+  TITLES_KO = titlesKo;
   const newIds = arts.filter((a) => !prevArticles.some((p) => p.id === a.id)).length;
-  const reuseAi = AI_KEY && newIds === 0 && cache.aiClusters && arts.length > 0;
+  // 비용 절약: 사건 묶기·상황 요약은 AI_EVERY_MIN분에 한 번만. 그 사이 새 기사는 규칙으로 붙인다.
+  const aiDue = NOW - (cache.lastAiAt || 0) >= AI_EVERY_MIN * 60000;
+  const reuseAi = AI_KEY && cache.aiClusters && arts.length > 0 && (newIds === 0 || !aiDue);
+  let lastAiAt = cache.lastAiAt || 0;
 
   if (AI_KEY && arts.length && !reuseAi) {
     try {
@@ -328,12 +369,19 @@ async function main() {
       clusters.push(...ruleClusters(arts.slice(MAX_AI_ARTICLES)).map((c) => ({ ...c, fromRule: true })));
       summaryKo = Array.isArray(r.summaryKo) ? r.summaryKo.filter((s) => typeof s === "string").slice(0, 5) : null;
       aiOk = true;
+      lastAiAt = NOW;
     } catch (e) {
       aiError = String(e.message || e).slice(0, 200);
       console.error("AI 정리 실패, 규칙으로 대신 처리:", aiError);
     }
   } else if (reuseAi) {
-    clusters = cache.aiClusters; summaryKo = cache.aiSummaryKo || null; aiOk = true;
+    const covered = new Set();
+    clusters = cache.aiClusters
+      .map((c) => ({ ...c, articleIds: c.articleIds.filter((id) => byId.has(id) && !covered.has(id) && covered.add(id)) }))
+      .filter((c) => c.articleIds.length);
+    const fresh = arts.filter((a) => !covered.has(a.id));
+    clusters.push(...ruleClusters(fresh).map((c) => ({ ...c, fromRule: true })));
+    summaryKo = cache.aiSummaryKo || null; aiOk = true;
   }
 
   const useAi = aiOk && clusters;
@@ -389,6 +437,7 @@ async function main() {
       titlesKo,
       aiClusters: useAi ? clusters : null,
       aiSummaryKo: useAi ? summaryKo : null,
+      lastAiAt,
     },
   };
   await fs.writeFile(OUT, JSON.stringify(out, null, 1));
