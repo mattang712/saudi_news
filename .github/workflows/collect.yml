@@ -15,28 +15,41 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
 
       - name: 수집 도구 설치
         run: npm install --no-save --no-audit --no-fund fast-xml-parser@4.5.1
 
-      - name: 뉴스 가져오기
-        run: node scripts/collect.mjs
+      - name: 뉴스 가져와서 저장
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: 결과 저장
-        if: always()
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add public/data/news.json
-          git diff --staged --quiet || git commit -m "뉴스 갱신 $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push || (git pull --rebase && git push)
+
+          # 그 사이에 저장소가 바뀌어 저장이 막히면(파일을 새로 올린 경우 등),
+          # 최신 저장소를 다시 받아서 수집부터 다시 한다. 최대 3번.
+          for i in 1 2 3; do
+            node scripts/collect.mjs || echo "수집 중 오류 — 실패 상태로 기록됨"
+            git add public/data/news.json
+            if git diff --staged --quiet; then
+              echo "바뀐 내용 없음"; exit 0
+            fi
+            git commit -q -m "뉴스 갱신 $(date -u +%Y-%m-%dT%H:%MZ)"
+            if git push; then
+              echo "저장 완료"; exit 0
+            fi
+            echo "저장소가 그 사이 바뀜 — 최신으로 맞추고 다시 시도 ($i/3)"
+            git fetch -q origin "${GITHUB_REF_NAME}"
+            git reset -q --hard "origin/${GITHUB_REF_NAME}"
+            sleep 5
+          done
+          echo "3번 시도했지만 저장 실패"
+          exit 1
