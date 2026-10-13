@@ -6,19 +6,33 @@ const gnews = (q, lang) =>
     ? `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko`
     : `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
 
-const KR_Q =
-  "사우디 (담맘 OR 자푸라 OR 동부 OR 리야드 OR 제다 OR 공항 OR 미사일 OR 드론 OR 공격 OR 요격 OR 폭발 OR 화재 OR 대피 OR 여행경보 OR 교민) when:3d";
+// 구글 뉴스는 검색 한 번에 최대 100건, 그것도 '관련도순'으로 준다.
+// 기사가 많은 날엔 최신 기사가 잘리므로, 기간을 짧게 + 동부주·공항 전용 검색을 따로 돌려서 합친다.
+const KR_BASE = "사우디 (담맘 OR 자푸라 OR 동부 OR 리야드 OR 제다 OR 공항 OR 미사일 OR 드론 OR 공격 OR 요격 OR 폭발 OR 화재 OR 대피 OR 여행경보 OR 교민)";
+const KR_EAST = "(담맘 OR 자푸라 OR 사우디 동부 OR 다란 OR 주바일 OR 아람코)";
+const KR_AIR = "사우디 (공항 OR 항공편 OR 운항 OR 결항 OR 영공)";
+const EAST = '(Dammam OR Jafurah OR "Eastern Province" OR Dhahran OR Khobar OR Jubail OR "Ras Tanura" OR Abqaiq OR Qatif)';
+const AIR = "Saudi (airport OR flights OR airline OR airspace OR airways)";
+
+// site: 조건 하나로 세 가지 검색 주소를 만든다 (최근 12시간 전체 / 최근 2일 동부주 / 최근 1일 공항·항공)
+const wireUrls = (site) => [
+  gnews(`Saudi ${site} when:12h`, "en"),
+  gnews(`Saudi ${site} when:1d`, "en"),
+  gnews(`${EAST} ${site} when:2d`, "en"),
+  gnews(`${AIR} ${site} when:1d`, "en"),
+];
 
 // cat: kr(한국 뉴스) / wire(해외 통신사) / local(사우디·중동) / official(공식 공지)
 // domains: 이 주소에서 온 기사만 받는다 (다른 사이트가 섞이지 않게)
+// 지난 수집에서 받아 둔 기사는 3일 동안 계속 보관하므로, 검색 기간이 짧아도 3일 치가 유지된다.
 export const FEEDS = [
-  { name: "한국 주요 언론", cat: "kr", lang: "ko", url: gnews(KR_Q, "ko") },
-  { name: "Reuters", cat: "wire", lang: "en", outlet: "Reuters", domains: ["reuters.com"], url: gnews("Saudi site:reuters.com when:3d", "en") },
-  { name: "AP", cat: "wire", lang: "en", outlet: "AP", domains: ["apnews.com"], url: gnews("Saudi site:apnews.com when:3d", "en") },
-  { name: "AFP", cat: "wire", lang: "en", outlet: "AFP", domains: ["afp.com", "france24.com"], url: gnews("Saudi AFP (site:afp.com OR site:france24.com) when:3d", "en") },
-  { name: "Arab News", cat: "local", lang: "en", outlet: "Arab News", domains: ["arabnews.com"], url: gnews("site:arabnews.com Saudi when:3d", "en") },
-  { name: "Saudi Gazette", cat: "local", lang: "en", outlet: "Saudi Gazette", domains: ["saudigazette.com.sa"], url: gnews("site:saudigazette.com.sa when:3d", "en") },
-  { name: "SPA (사우디 국영통신)", cat: "local", lang: "en", outlet: "SPA (사우디 국영통신)", official: true, domains: ["spa.gov.sa"], url: gnews("site:spa.gov.sa when:3d", "en") },
+  { name: "한국 주요 언론", cat: "kr", lang: "ko", urls: [gnews(`${KR_BASE} when:12h`, "ko"), gnews(`${KR_BASE} when:1d`, "ko"), gnews(`${KR_EAST} when:2d`, "ko"), gnews(`${KR_AIR} when:1d`, "ko")] },
+  { name: "Reuters", cat: "wire", lang: "en", outlet: "Reuters", domains: ["reuters.com"], urls: wireUrls("site:reuters.com") },
+  { name: "AP", cat: "wire", lang: "en", outlet: "AP", domains: ["apnews.com"], urls: wireUrls("site:apnews.com") },
+  { name: "AFP", cat: "wire", lang: "en", outlet: "AFP", domains: ["afp.com", "france24.com"], urls: wireUrls("(site:afp.com OR site:france24.com)") },
+  { name: "Arab News", cat: "local", lang: "en", outlet: "Arab News", domains: ["arabnews.com"], urls: wireUrls("site:arabnews.com") },
+  { name: "Saudi Gazette", cat: "local", lang: "en", outlet: "Saudi Gazette", domains: ["saudigazette.com.sa"], urls: [gnews("site:saudigazette.com.sa when:1d", "en"), gnews(`${EAST} site:saudigazette.com.sa when:2d`, "en")] },
+  { name: "SPA (사우디 국영통신)", cat: "local", lang: "en", outlet: "SPA (사우디 국영통신)", official: true, domains: ["spa.gov.sa"], urls: [gnews("site:spa.gov.sa when:12h", "en"), gnews("site:spa.gov.sa when:1d", "en"), gnews(`${EAST} site:spa.gov.sa when:2d`, "en")] },
 ];
 
 // 한국 기사는 이 언론사들 것만 받는다 ("기타 주요 국내 언론" 포함)

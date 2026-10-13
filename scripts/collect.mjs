@@ -43,8 +43,9 @@ async function readJson(path, fallback) {
 /* ───────── 1. 가져오기 ───────── */
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
 
-async function fetchFeed(feed) {
-  const res = await fetch(feed.url, {
+// 검색 주소 하나에서 기사 목록 받기
+async function fetchUrl(feed, url) {
+  const res = await fetch(url, {
     headers: { "User-Agent": "Mozilla/5.0 (family news reader; contact via GitHub)" },
     signal: AbortSignal.timeout(20000),
   });
@@ -85,6 +86,22 @@ async function fetchFeed(feed) {
     });
   }
   return out;
+}
+
+// 출처 하나에 딸린 검색 주소 여러 개를 차례로 돌려서 합친다. 전부 실패할 때만 '실패'
+async function fetchFeed(feed) {
+  const urls = feed.urls || [feed.url];
+  const merged = new Map();
+  let okCount = 0, lastErr;
+  for (const u of urls) {
+    try {
+      for (const a of await fetchUrl(feed, u)) if (!merged.has(a.id)) merged.set(a.id, a);
+      okCount++;
+    } catch (e) { lastErr = e; }
+    await new Promise((r) => setTimeout(r, 300)); // 구글에 너무 몰아서 요청하지 않게
+  }
+  if (!okCount) throw lastErr || new Error("모든 검색 실패");
+  return [...merged.values()];
 }
 
 /* ───────── 2. 분류 (규칙) ───────── */
@@ -319,8 +336,9 @@ async function main() {
   // 실패한 출처는 지난번에 받아 둔 기사(3일 이내)를 그대로 유지
   const failedFeeds = new Set(results.filter((r) => !r.ok).map((r) => r.feed.name));
   let raw = results.flatMap((r) => r.items);
+  // 지난번에 받아 둔 기사도 3일 동안 계속 보관 (검색 기간을 짧게 잡아도 3일 치 유지, 실패한 출처 대비)
   for (const a of prevArticles) {
-    if (failedFeeds.has(a.feed) && a.reportedAt && NOW - a.reportedAt <= KEEP_HOURS * H) raw.push(a);
+    if (a.reportedAt && NOW - a.reportedAt <= KEEP_HOURS * H) raw.push(a);
   }
   const seen = new Set();
   raw = raw.filter((a) => !seen.has(a.id) && seen.add(a.id));
