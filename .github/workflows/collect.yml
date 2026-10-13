@@ -26,6 +26,8 @@ jobs:
           node-version: 22
 
       - name: 올린 zip 적용
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
@@ -40,6 +42,12 @@ jobs:
             git add -A
             git commit -q -m "업데이트 적용 (${zips[*]})"
             git push || (git pull --rebase && git push)
+            # 화면 파일이 바뀐 경우에만 Vercel에 '사이트 새로 만들기' 신호 (뉴스 저장 때는 배포 안 함)
+            if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+              curl -fsS -X POST "$VERCEL_DEPLOY_HOOK" && echo "Vercel 배포 요청 완료" || echo "Vercel 배포 요청 실패"
+            else
+              echo "VERCEL_DEPLOY_HOOK 없음 — Vercel에서 직접 Redeploy 해 주세요"
+            fi
           fi
 
       - name: 수집 도구 설치
