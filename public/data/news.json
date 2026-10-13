@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-13T06:50:33.181Z",
-  "lastAttemptAt": "2026-10-13T06:50:33.181Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-13T07:00:44.448Z",
+  "lastAttemptAt": "2026-10-13T07:00:44.448Z",
   "aiSummary": true,
   "summaryAt": "2026-10-13T06:40:29.954Z",
   "aiError": null,
@@ -26,17 +26,17 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 181
+    "count": 182
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 108
+    "count": 109
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 109
+    "count": 101
    },
    {
     "name": "Saudi Gazette",
@@ -51,56 +51,27 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 69
+    "count": 70
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 78
+    "count": 83
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-12",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-11",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "후티 반군의 중부지역 공격 관련 안전 유의 안내(10.8.)",
-    "date": "2026-10-08",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -108,8 +79,8 @@
    "articleIds": [
     "477d49017395"
    ],
-   "type": "security",
-   "sev": "mid",
+   "type": "missile",
+   "sev": "high",
    "status": "single",
    "directive": null,
    "title": "트럼프, 사우디 공격 후 후티가 ‘매우 심하게 못된 짓을 하고 있다’고 말해",
@@ -129,9 +100,9 @@
      "title": "Trump says Houthis are ‘misbehaving very badly’ following attacks on Saudi Arabia",
      "titleKo": "트럼프, 사우디 공격 후 후티가 ‘매우 심하게 못된 짓을 하고 있다’고 말해",
      "summary": "",
-     "reportedAt": "2026-10-13T06:44:53.000Z",
+     "reportedAt": "2026-10-13T06:43:56.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ05fek5WNUJVckZOcjdhMUI2ek5ramY4SjJBTXcycFhJSTZXMTY4SG5pWjJldkVrLUZEcXpKNVlqUFlOOE5OX1Jaakp0NjcxSkl4b3VHS3ByRklYVnVTaVhraEd1QW1zWkQ5VGhtbThBdWtwVjFCaVVsVGUxS0ZyNGNIWVR3R2RXbks2NVRYRDQ4bEtuc3hpRFNGeGl6RVl3SUtBYy1DcVd5cGhuYnhpaXRzcDZlMUo2QW0tSzJ0ZjJQOEU?oc=5"
+     "url": "https://www.arabnews.com/saudi-arabia/trump-says-houthis-are-misbehaving-very-badly-following-attacks-on-saudi-arabia-3006033"
     }
    ]
   },
@@ -959,6 +930,39 @@
      "reportedAt": "2026-10-13T00:11:54.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/middle-east/what-ideology-lies-behind-the-houthis-destructive-doctrine-3005874"
+    }
+   ]
+  },
+  {
+   "id": "001b5fc8df96",
+   "articleIds": [
+    "6b9535db1df8"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "이란 전쟁 실시간: 카타르, 걸프 해상 항로 안전 확보 위한 강력한 노력 촉구",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T07:00:44.448Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Qatar urges stronger efforts to secure Gulf maritime routes",
+     "titleKo": "이란 전쟁 실시간: 카타르, 걸프 해상 항로 안전 확보 위한 강력한 노력 촉구",
+     "summary": "",
+     "reportedAt": "2026-10-13T00:00:00.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss"
     }
    ]
   },
@@ -3133,6 +3137,38 @@
      "reportedAt": "2026-10-12T12:10:38.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/665342/saudi-arabia/coalition-detects-drone-and-cruise-missile-threats-against-saudi-arabia"
+    }
+   ]
+  },
+  {
+   "id": "84051517b166",
+   "articleIds": [
+    "e8dc39f08f9a"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "리비아, 사우디아라비아 겨냥한 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T07:00:44.448Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Libya Condemns Attacks Targeting Saudi Arabia",
+     "titleKo": "리비아, 사우디아라비아 겨냥한 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-12T12:02:35.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1FaEF1NFVwQk12bnJRN3U3dHR3cF9HMGprTmFfdnV0ZVdHUEpzaFdkVUJ6bVQweUN2Q2hPLUNLNkd3UTNHSUlBUHpR?oc=5"
     }
    ]
   },
@@ -7016,6 +7052,25 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcGZ4eWF0bzJySjRqNHBqU2NDSHVFRG14SmtLY2YyenQ4SjVCNHN5aWxibUZWU1o2ZEJQbEJiX21pUmdBZ3pfWDc5ckdnbHNmcnF0dlAyRVdPcmZhbWNvWW4zSm05RXhTbzZVU3NxdnNuQTlZQW02dEpqbDlDSnR4WWFZdUMtQU9Vb1JkNjltUXlUSTNKaVAzY0hZcmRfSWRycGFWWko0bHJsS1hWV1FZY3hQUGp4TlQ3dzZ5Q0VZZVBOeFFCWmdfSTg3aWJKZnJf?oc=5"
   },
   {
+   "id": "6b9535db1df8",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "airport",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "이란 전쟁 실시간: 카타르, 걸프 해상 항로 안전 확보 위한 강력한 노력 촉구",
+   "title": "Iran war live: Qatar urges stronger efforts to secure Gulf maritime routes",
+   "summary": "",
+   "reportedAt": "2026-10-13T00:00:00.000Z",
+   "dateOnly": false,
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss"
+  },
+  {
    "id": "3718d7ab79f7",
    "outlet": "Al Jazeera",
    "official": false,
@@ -7579,6 +7634,24 @@
    "reportedAt": "2026-10-12T12:47:21.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5328676"
+  },
+  {
+   "id": "e8dc39f08f9a",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "리비아, 사우디아라비아 겨냥한 공격 규탄",
+   "title": "Libya Condemns Attacks Targeting Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-12T12:02:35.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1FaEF1NFVwQk12bnJRN3U3dHR3cF9HMGprTmFfdnV0ZVdHUEpzaFdkVUJ6bVQweUN2Q2hPLUNLNkd3UTNHSUlBUHpR?oc=5"
   },
   {
    "id": "60271a06d3f8",
@@ -8442,9 +8515,9 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Trump says Houthis are ‘misbehaving very badly’ following attacks on Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ05fek5WNUJVckZOcjdhMUI2ek5ramY4SjJBTXcycFhJSTZXMTY4SG5pWjJldkVrLUZEcXpKNVlqUFlOOE5OX1Jaakp0NjcxSkl4b3VHS3ByRklYVnVTaVhraEd1QW1zWkQ5VGhtbThBdWtwVjFCaVVsVGUxS0ZyNGNIWVR3R2RXbks2NVRYRDQ4bEtuc3hpRFNGeGl6RVl3SUtBYy1DcVd5cGhuYnhpaXRzcDZlMUo2QW0tSzJ0ZjJQOEU?oc=5",
-    "reportedAt": 1791873893000,
+    "snippet": "DUBAI: US President Donald Trump said Yemen’s Houthis were “misbehaving very badly” as the group stepped up missile and drone attacks on Saudi Arabia, but did not outline any specific US response. “Well, the Houthis are misbehaving very badly. No good,” Trump told reporters late on Monday as he departed the White House for Ohio, when asked what he planned to do about the group. The remarks came af",
+    "url": "https://www.arabnews.com/saudi-arabia/trump-says-houthis-are-misbehaving-very-badly-following-attacks-on-saudi-arabia-3006033",
+    "reportedAt": 1791873836000,
     "assumeSaudi": false,
     "firstSeen": 1791874233181
    },
@@ -8895,6 +8968,20 @@
     "reportedAt": 1791849660000,
     "assumeSaudi": false,
     "firstSeen": 1791862442743
+   },
+   {
+    "id": "6b9535db1df8",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Qatar urges stronger efforts to secure Gulf maritime routes",
+    "snippet": "US President Trump condemns Yemen&#039;s Houthis over escalating attacks, as Saudi Arabia halts flights at Riyadh airport.",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
+    "reportedAt": 1791849600000,
+    "assumeSaudi": false,
+    "firstSeen": 1791874844448
    },
    {
     "id": "3718d7ab79f7",
@@ -10196,6 +10283,20 @@
     "reportedAt": 1791807038000,
     "assumeSaudi": false,
     "firstSeen": 1791820732399
+   },
+   {
+    "id": "e8dc39f08f9a",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Libya Condemns Attacks Targeting Saudi Arabia",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1FaEF1NFVwQk12bnJRN3U3dHR3cF9HMGprTmFfdnV0ZVdHUEpzaFdkVUJ6bVQweUN2Q2hPLUNLNkd3UTNHSUlBUHpR?oc=5",
+    "reportedAt": 1791806555000,
+    "assumeSaudi": false,
+    "firstSeen": 1791874844448
    },
    {
     "id": "2da360187f69",
@@ -12217,7 +12318,9 @@
    "f786860e5315": "리야드 공항 뚫렸다…사우디, 후티 미사일 방어 실패 조사 보도",
    "1e8e2ce8726f": "리야드 공항 피격에도 육로로 사우디 현장 찾은 SNT에너지",
    "b6202a81c429": "리야드 공항 피격 속 SNT에너지, 육로로 현장 찾아 사우디 진출 목표 보도",
-   "477d49017395": "트럼프, 사우디 공격 후 후티가 ‘매우 심하게 못된 짓을 하고 있다’고 말해"
+   "477d49017395": "트럼프, 사우디 공격 후 후티가 ‘매우 심하게 못된 짓을 하고 있다’고 말해",
+   "6b9535db1df8": "이란 전쟁 실시간: 카타르, 걸프 해상 항로 안전 확보 위한 강력한 노력 촉구",
+   "e8dc39f08f9a": "리비아, 사우디아라비아 겨냥한 공격 규탄"
   },
   "aiClusters": [
    {
@@ -13468,6 +13571,18 @@
    {
     "articleIds": [
      "477d49017395"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "6b9535db1df8"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "e8dc39f08f9a"
     ],
     "fromRule": true
    }
