@@ -260,7 +260,12 @@ function HomeView({ data, loadError, goTimeline }) {
             {lines.map((l, i) => <li key={i}>{l}</li>)}
           </ul>
         ) : <Empty />}
-        {meta.aiSummary && <p className="muted small" style={{ margin: "10px 0 0" }}>AI가 기사 제목·요약만 보고 정리한 내용이에요. 자세한 건 타임라인에서 확인해요.</p>}
+        {meta.aiSummary && (
+          <p className="muted small" style={{ margin: "10px 0 0" }}>
+            {meta.summaryAt && <b style={{ color: "var(--fg)" }}>{ago(Date.parse(meta.summaryAt))} 갱신 · </b>}
+            AI가 기사 제목만 보고 정리했어요. 새 소식이 있으면 2시간마다 다시 정리해요.
+          </p>
+        )}
       </div>
       <button className="iconbtn big" onClick={goTimeline}>타임라인 보기 →</button>
       <StatusCard meta={meta} loadError={loadError} />
