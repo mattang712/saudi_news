@@ -28,7 +28,7 @@ const SUMMARY_EVERY_MIN = Number(process.env.SUMMARY_EVERY_MIN || 120); // 상�
 const AI_EVERY_MIN = Number(process.env.AI_EVERY_MIN || 120); // 상황 요약·사건 묶기 간격(분)
 // 타임라인에 쓰는 출처 (국내 언론은 늦게 보도하는 경우가 많아 제외)
 // + 구글을 거치지 않고 직접 받아서 빠른 사우디·중동 언론
-const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)", "알야움 (담맘 지역지)", "Asharq Al-Awsat", "Al Arabiya", "Al Jazeera"]);
+const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)", "Asharq Al-Awsat", "Al Jazeera"]);
 
 /* ───────── 도구 ───────── */
 const iso = (ts) => (ts == null ? null : new Date(ts).toISOString());

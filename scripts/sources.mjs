@@ -1,10 +1,8 @@
 // 어디서, 어떤 단어로 뉴스를 가져올지 정하는 설정 파일.
 // 출처를 늘리거나 단어를 바꾸고 싶으면 이 파일만 고치면 된다.
 
-const gnews = (q, lang) =>
-  lang === "ko"
-    ? `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko`
-    : `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
+const GN_LANG = { ko: "hl=ko&gl=KR&ceid=KR:ko", en: "hl=en-US&gl=US&ceid=US:en", ar: "hl=ar&gl=SA&ceid=SA:ar" };
+const gnews = (q, lang) => `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&${GN_LANG[lang] || GN_LANG.en}`;
 
 // 구글 뉴스는 검색 한 번에 최대 100건, 그것도 '관련도순'으로 준다.
 // 기사가 많은 날엔 최신 기사가 잘리므로, 기간을 짧게 + 동부주·공항 전용 검색을 따로 돌려서 합친다.
@@ -35,10 +33,7 @@ export const FEEDS = [
   { name: "Arab News", cat: "local", lang: "en", outlet: "Arab News", domains: ["arabnews.com"], urls: [direct("https://www.arabnews.com/rss.xml"), ...wireUrls("site:arabnews.com")] },
   { name: "Saudi Gazette", cat: "local", lang: "en", outlet: "Saudi Gazette", domains: ["saudigazette.com.sa"], urls: [direct("https://saudigazette.com.sa/rssFeed/74"), gnews("site:saudigazette.com.sa when:1d", "en"), gnews(`${EAST} site:saudigazette.com.sa when:2d`, "en")] },
   // ── 언론사 RSS 직접 받기 (구글 뉴스 지연 없음) ──
-  // 알야움: 담맘에 본사가 있는 동부주 지역 일간지(아랍어). 지역지라 '사우디' 단어가 없어도 사우디 기사로 본다.
-  { name: "알야움 (담맘 지역지)", cat: "local", lang: "ar", outlet: "알야움 (담맘 지역지)", assumeSaudi: true, domains: ["alyaum.com"], urls: [direct("https://www.alyaum.com/rssFeed/1")] },
   { name: "Asharq Al-Awsat", cat: "local", lang: "en", outlet: "Asharq Al-Awsat", domains: ["aawsat.com"], urls: [direct("https://english.aawsat.com/feed")] },
-  { name: "Al Arabiya", cat: "local", lang: "en", outlet: "Al Arabiya", domains: ["alarabiya.net"], urls: [direct("https://english.alarabiya.net/feed/rss2/en.xml")] },
   { name: "Al Jazeera", cat: "local", lang: "en", outlet: "Al Jazeera", domains: ["aljazeera.com"], urls: [direct("https://www.aljazeera.com/xml/rss/all.xml"), ...wireUrls("site:aljazeera.com")] },  // 직접 받기가 막히면 구글 뉴스로 대신
   { name: "SPA (사우디 국영통신)", cat: "local", lang: "en", outlet: "SPA (사우디 국영통신)", official: true, domains: ["spa.gov.sa"], urls: [gnews("site:spa.gov.sa when:12h", "en"), gnews("site:spa.gov.sa when:1d", "en"), gnews(`${EAST} site:spa.gov.sa when:2d`, "en")] },
 ];
