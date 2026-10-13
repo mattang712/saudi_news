@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-13T10:10:31.907Z",
-  "lastAttemptAt": "2026-10-13T10:10:31.907Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-13T10:20:33.140Z",
+  "lastAttemptAt": "2026-10-13T10:20:33.140Z",
   "aiSummary": true,
   "summaryAt": "2026-10-13T08:50:27.471Z",
   "aiError": null,
@@ -15,33 +15,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 84
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 99
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 181
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 115
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 108
+    "count": 49,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 57
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +57,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 68
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 74
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -103,6 +111,38 @@
   ]
  },
  "events": [
+  {
+   "id": "a6a034c48fdf",
+   "articleIds": [
+    "66bf76a9ee42"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "UAE, 후티 공격에 따른 사우디아라비아에 대한 전적 연대 재확인",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T10:20:33.140Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "UAE Reaffirms Full Solidarity with Saudi Arabia Following Houthi Attacks",
+     "titleKo": "UAE, 후티 공격에 따른 사우디아라비아에 대한 전적 연대 재확인",
+     "summary": "",
+     "reportedAt": "2026-10-13T10:11:56.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5329050"
+    }
+   ]
+  },
   {
    "id": "3a6f3063d82d",
    "articleIds": [
@@ -7488,6 +7528,24 @@
  ],
  "timeline": [
   {
+   "id": "66bf76a9ee42",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "UAE, 후티 공격에 따른 사우디아라비아에 대한 전적 연대 재확인",
+   "title": "UAE Reaffirms Full Solidarity with Saudi Arabia Following Houthi Attacks",
+   "summary": "",
+   "reportedAt": "2026-10-13T10:11:56.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5329050"
+  },
+  {
    "id": "7a4e3c33bd89",
    "outlet": "Al Jazeera",
    "official": false,
@@ -9053,6 +9111,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "66bf76a9ee42",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "UAE Reaffirms Full Solidarity with Saudi Arabia Following Houthi Attacks",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5329050",
+    "reportedAt": 1791886316000,
+    "assumeSaudi": false,
+    "firstSeen": 1791886833140
+   },
    {
     "id": "3f8596884ec5",
     "feed": "한국 주요 언론",
@@ -13136,7 +13208,8 @@
    "8eb65764a326": "사우디 외무장관, UAE 외무장관으로부터 전화 받아",
    "41155b750b14": "항공사들, 안보 우려로 리야드행 항공편 운항 중단",
    "fe3560eebe01": "UAE, 후티의 사우디 공항 공격 규탄…왕국의 안보 조치 지지",
-   "4a7f7af259c4": "아니오, 이 사진들은 리야드의 킹 칼리드 공항에 대한 후티 공격을 보여주지 않는다 - Truth or Fake"
+   "4a7f7af259c4": "아니오, 이 사진들은 리야드의 킹 칼리드 공항에 대한 후티 공격을 보여주지 않는다 - Truth or Fake",
+   "66bf76a9ee42": "UAE, 후티 공격에 따른 사우디아라비아에 대한 전적 연대 재확인"
   },
   "aiClusters": [
    {
@@ -14507,6 +14580,12 @@
    {
     "articleIds": [
      "3f8596884ec5"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "66bf76a9ee42"
     ],
     "fromRule": true
    }
