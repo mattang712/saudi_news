@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-13T21:50:35.973Z",
-  "lastAttemptAt": "2026-10-13T21:50:35.973Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-13T22:00:16.927Z",
+  "lastAttemptAt": "2026-10-13T22:00:16.927Z",
   "aiSummary": true,
   "summaryAt": "2026-10-13T20:10:30.759Z",
   "aiError": null,
@@ -15,92 +15,71 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 77
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 164
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 132
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 141
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 154
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 58
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 151
+    "count": 152
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 70
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 76
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-12",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -168,6 +147,38 @@
    ]
   },
   {
+   "id": "03ace99304d7",
+   "articleIds": [
+    "fb806ab0113a"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "국방장관, 폴란드 부총리와 통화로 군사 협력 논의",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T22:00:16.927Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Defense Minister, Polish Deputy PM discuss military cooperation in phone call",
+     "titleKo": "국방장관, 폴란드 부총리와 통화로 군사 협력 논의",
+     "summary": "",
+     "reportedAt": "2026-10-13T21:21:18.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665397/saudi-arabia/defense-minister-polish-deputy-pm-discuss-military-cooperation-in-phone-call"
+    }
+   ]
+  },
+  {
    "id": "fef7eefb11e0",
    "articleIds": [
     "d98415c2718c"
@@ -196,6 +207,38 @@
      "reportedAt": "2026-10-13T21:18:18.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HQjlrNE1wMGZXM3p6OEtFTXRsOFBETFd0NTY0S2YwdVN6cllQY2xnRVRwUE92VU5qNmpNbjF2NDRROWFFUlVOd3NVeWpqRWs4XzNXYUVEZW45UDdYVnR1Tw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "e36290198de8",
+   "articleIds": [
+    "c112962b8c2e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "카타르·쿠웨이트 외교장관, 파이살 왕자와 통화서 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T22:00:16.927Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Qatari, Kuwaiti FMs condemn Houthi attacks in call with Prince Faisal",
+     "titleKo": "카타르·쿠웨이트 외교장관, 파이살 왕자와 통화서 후티 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-13T21:17:08.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665396/saudi-arabia/qatari-kuwaiti-fms-condemn-houthi-attacks-in-call-with-prince-faisal"
     }
    ]
   },
@@ -11730,6 +11773,20 @@
     "firstSeen": 1791927633289
    },
    {
+    "id": "fb806ab0113a",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Defense Minister, Polish Deputy PM discuss military cooperation in phone call",
+    "snippet": "RIYADH — Saudi Minister of Defense Prince Khalid bin Salman held on Tuesday a phone call with Poland's Deputy Prime Minister and Minister of National Defense Władysław Kosiniak-Kamysz.During the call, the ministers reviewed military and defensecooperation between the two friendly countries. They discussed ways to support regional security and stability. They also condemned the terrorist attacks la",
+    "url": "https://saudigazette.com.sa/article/665397/saudi-arabia/defense-minister-polish-deputy-pm-discuss-military-cooperation-in-phone-call",
+    "reportedAt": 1791926478000,
+    "assumeSaudi": false,
+    "firstSeen": 1791928816927
+   },
+   {
     "id": "d98415c2718c",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -11742,6 +11799,20 @@
     "reportedAt": 1791926298000,
     "assumeSaudi": false,
     "firstSeen": 1791927039645
+   },
+   {
+    "id": "c112962b8c2e",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Qatari, Kuwaiti FMs condemn Houthi attacks in call with Prince Faisal",
+    "snippet": "RIYADH — Saudi Minister of Foreign Affairs Prince Faisal bin Farhan received on Tuesday two separate phone calls from Qatar's Prime Minister and Minister of Foreign Affairs Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani and Kuwait's Minister of Foreign Affairs Sheikh Jarrah Jaber Al-Ahmad Al-Sabah.During the calls, the ministers discussed the latest developments in the region and renewed thei",
+    "url": "https://saudigazette.com.sa/article/665396/saudi-arabia/qatari-kuwaiti-fms-condemn-houthi-attacks-in-call-with-prince-faisal",
+    "reportedAt": 1791926228000,
+    "assumeSaudi": false,
+    "firstSeen": 1791928816927
    },
    {
     "id": "a4587ded964b",
@@ -17057,7 +17128,9 @@
    "2669e01204b6": "리야드에 대한 후티 공격으로 사망한 이집트 승무원 장례식",
    "5822bbd8af51": "후티 공격 뒤 사우디 연합군, 예멘 석유 시설 공습",
    "e8bb6dcd1add": "연합군, 후티가 사우디아라비아에 발사한 탄도미사일 2기·크루즈미사일 4기·무인기 6기 격추",
-   "91007dfce51c": "연합군: 리야드 지역에서 UAV 요격·파괴"
+   "91007dfce51c": "연합군: 리야드 지역에서 UAV 요격·파괴",
+   "fb806ab0113a": "국방장관, 폴란드 부총리와 통화로 군사 협력 논의",
+   "c112962b8c2e": "카타르·쿠웨이트 외교장관, 파이살 왕자와 통화서 후티 공격 규탄"
   },
   "aiClusters": [
    {
@@ -18829,6 +18902,18 @@
    {
     "articleIds": [
      "492e79538d65"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "fb806ab0113a"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c112962b8c2e"
     ],
     "fromRule": true
    }
