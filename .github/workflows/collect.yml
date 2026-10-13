@@ -2,8 +2,10 @@ name: 뉴스 수집
 
 on:
   schedule:
-    - cron: "3-59/10 * * * *" # 30분마다 (GitHub 사정으로 몇 분 늦어질 수 있음)
-  workflow_dispatch: {} # Actions 탭에서 "Run workflow"로 바로 실행 가능
+    - cron: "3-59/10 * * * *" # 10분마다
+  workflow_dispatch: {}
+  push:
+    paths: ["*.zip"] # zip 파일을 올리면 바로 풀어서 적용
 
 permissions:
   contents: write
@@ -23,6 +25,23 @@ jobs:
         with:
           node-version: 22
 
+      - name: 올린 zip 적용
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          shopt -s nullglob
+          zips=(*.zip)
+          if [ ${#zips[@]} -gt 0 ]; then
+            for z in "${zips[@]}"; do
+              echo "적용: $z"
+              unzip -o "$z" -x ".github/*" -d .
+              git rm -q "$z"
+            done
+            git add -A
+            git commit -q -m "업데이트 적용 (${zips[*]})"
+            git push || (git pull --rebase && git push)
+          fi
+
       - name: 수집 도구 설치
         run: npm install --no-save --no-audit --no-fund fast-xml-parser@4.5.1
 
@@ -32,11 +51,6 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MOFA_API_KEY: ${{ secrets.MOFA_API_KEY }}
         run: |
-          git config user.name "news-bot"
-          git config user.email "news-bot@users.noreply.github.com"
-
-          # 그 사이에 저장소가 바뀌어 저장이 막히면(파일을 새로 올린 경우 등),
-          # 최신 저장소를 다시 받아서 수집부터 다시 한다. 최대 3번.
           for i in 1 2 3; do
             node scripts/collect.mjs || echo "수집 중 오류 — 실패 상태로 기록됨"
             git add public/data/news.json
