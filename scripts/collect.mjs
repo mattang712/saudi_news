@@ -124,7 +124,13 @@ function findRows(j) {
 
 async function callMofa(path) {
   const qs = new URLSearchParams({ serviceKey: MOFA_KEY, returnType: "JSON", numOfRows: "20", pageNo: "1", "cond[country_iso_alp2::EQ]": "SA" });
-  const res = await fetch(`https://apis.data.go.kr/1262000/${path}?${qs}`, { signal: AbortSignal.timeout(20000) });
+  // 공공데이터포털은 https 인증서 문제로 접속이 끊기는 경우가 있어 http도 시도한다 (기술문서 주소도 http)
+  let res, errs = [];
+  for (const scheme of ["https", "http"]) {
+    try { res = await fetch(`${scheme}://apis.data.go.kr/1262000/${path}?${qs}`, { signal: AbortSignal.timeout(25000) }); break; }
+    catch (e) { errs.push(`${scheme}: ${e.cause?.code || e.cause?.message || e.message}`); }
+  }
+  if (!res) throw new Error("접속 실패 (" + errs.join(" / ") + ")");
   const text = await res.text();
   if (!res.ok) throw new Error(`HTTP ${res.status} ${clean(text).slice(0, 60)}`);
   let j;
