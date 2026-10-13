@@ -1,21 +1,22 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-13T01:20:33.266Z",
-  "lastAttemptAt": "2026-10-13T01:20:33.266Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-13T01:25:24.872Z",
+  "lastAttemptAt": "2026-10-13T01:25:24.872Z",
   "aiSummary": true,
+  "summaryAt": "2026-10-13T01:25:24.872Z",
   "aiError": null,
   "summaryKo": [
-   "리야드 공항 운영이 이번 주 폐쇄 연장됐다고 보도됐어요.",
-   "후티가 리야드 등 공항을 미사일·드론으로 공격했다고 주장했고 연합군이 요격을 시도했다고 보도됐어요.",
-   "공항 피격 소식에 국제유가가 상승했다고 여러 매체가 보도했어요.",
-   "여러 국가·국제기구가 후티 공격을 규탄했다는 보도가 나왔어요."
+   "최근 보도에 따르면 후티가 사우디 동부 담맘·자푸라 등 동부주를 겨냥한 공격을 이어갔다는 보도가 잇따릅니다(로이터·연합뉴스).",
+   "리야드와 담맘 공항은 공격으로 항공편 운항이 중단되거나 폐쇄가 연장됐다고 보도되었습니다(로이터·한국일보).",
+   "후티는 리야드 등 공항과 수도를 사흘째 공격했다고 주장했으나 일부 요격도 있었다는 보도가 있습니다(후티 주장, 연합군 요격 보도).",
+   "사우디는 방공망 요격 실패 원인을 조사 중이며 국영통신과 국제 인사들이 후티 공격을 규탄했습니다(SPA·연합뉴스)."
   ],
   "sources": [
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 84
+    "count": 80
    },
    {
     "name": "Reuters",
@@ -25,7 +26,7 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 74
+    "count": 79
    },
    {
     "name": "AFP",
@@ -35,12 +36,33 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 103
+    "count": 110
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 32
+    "count": 56
+   },
+   {
+    "name": "알야움 (담맘 지역지)",
+    "ok": true,
+    "count": 0
+   },
+   {
+    "name": "Asharq Al-Awsat",
+    "ok": true,
+    "count": 125
+   },
+   {
+    "name": "Al Arabiya",
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 403"
+   },
+   {
+    "name": "Al Jazeera",
+    "ok": true,
+    "count": 25
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -272,6 +294,37 @@
    ]
   },
   {
+   "id": "e8aa0e33bfa0",
+   "articleIds": [
+    "b0277f9dfd1c"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "claim",
+   "directive": null,
+   "title": "후티의 파괴적 교리 뒤에 어떤 이데올로기가 있나?",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "What ideology lies behind the Houthis’ destructive doctrine?",
+     "titleKo": "후티의 파괴적 교리 뒤에 어떤 이데올로기가 있나?",
+     "summary": "",
+     "reportedAt": "2026-10-13T00:11:54.000Z",
+     "url": "https://www.arabnews.com/middle-east/what-ideology-lies-behind-the-houthis-destructive-doctrine-3005874"
+    }
+   ]
+  },
+  {
    "id": "0e1abfa9f9fc",
    "articleIds": [
     "4ed24b99b2ed"
@@ -334,6 +387,38 @@
    ]
   },
   {
+   "id": "ec9b53c46eb3",
+   "articleIds": [
+    "3718d7ab79f7"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "이란 전쟁 실시간: 트럼프, 후티들이 '행동을 잘못하고 있다'고 비난…리야드 항공편 중단",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
+     "titleKo": "이란 전쟁 실시간: 트럼프, 후티들이 '행동을 잘못하고 있다'고 비난…리야드 항공편 중단",
+     "summary": "",
+     "reportedAt": "2026-10-13T00:00:00.000Z",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss"
+    }
+   ]
+  },
+  {
    "id": "252aef9ef8f2",
    "articleIds": [
     "d4b95cb5f4a7"
@@ -361,6 +446,38 @@
      "summary": "",
      "reportedAt": "2026-10-12T23:54:54.000Z",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGUtWGlRWGVfTVVCaFlXbDQ3UTA4bmlUN2QxdV9yT19EOUZGTkhKNW5xR2hQcDJmaE1pX1F1Tmg4TEZ6VTMxcWl5QzdHdVdZa2U1ZDF5Vm5ONGhhNDFPd00xLXZKNXVSaXJGYTB2QVV6dkJ6WmtBS29uMTNyNko5dlptaEdjWngxR2gxa3FfNTc4bzdmaElUOHVzZTVfN0oxeXhwdExKLWxycEpBRGNna0QzM2N5NGRfaVE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "0f24e7159909",
+   "articleIds": [
+    "075f862fccd1"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "claim",
+   "directive": null,
+   "title": "후티 미사일 공격, 사흘 연속으로 사우디 수도 리야드 겨냥",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+     "titleKo": "후티 미사일 공격, 사흘 연속으로 사우디 수도 리야드 겨냥",
+     "summary": "",
+     "reportedAt": "2026-10-12T23:54:05.000Z",
+     "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss"
     }
    ]
   },
@@ -458,8 +575,8 @@
      "title": "Saudi Arabia extends suspension of operations at Riyadh airport following Houthi attacks",
      "titleKo": "리야드 공항 운영 중단 연장 보도",
      "summary": "리야드 공항 운영 중단이 연장됐다고 보도합니다.",
-     "reportedAt": "2026-10-12T10:08:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZU01LemJOcTNsOGZ2UUVocUM0Yk1zTzdlZHZEQkRYVGlpaDBYblJIWXhhcndHMUR5SC1Pa2loR3A0MnNLWXNVTXpTa1E3RzU3TTVMVg?oc=5"
+     "reportedAt": "2026-10-12T10:08:43.000Z",
+     "url": "https://saudigazette.com.sa/article/665336/saudi-arabia/saudi-arabia-extends-suspension-of-operations-at-riyadh-airport-following-houthi-attacks"
     },
     {
      "outlet": "뉴스1",
@@ -604,8 +721,8 @@
      "title": "Coalition detects drone, cruise missile threats targeting Saudi Arabia",
      "titleKo": "연합군이 드론과 순항미사일 위협을 탐지했다고 보도",
      "summary": "연합군이 드론·순항미사일 위협을 탐지했다고 보도합니다.",
-     "reportedAt": "2026-10-12T12:10:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKOTMtenkzTEZ3TUVLcGRLZlZLeWhnb1d2c2M4RnR1X3ZGN3FTVkJoOUFmM3B1Z3dzYThCbGpELXhfVjZjNWFDbUcxSDVzQTRvelZlaw?oc=5"
+     "reportedAt": "2026-10-12T12:10:38.000Z",
+     "url": "https://saudigazette.com.sa/article/665342/saudi-arabia/coalition-detects-drone-and-cruise-missile-threats-against-saudi-arabia"
     },
     {
      "outlet": "JTBC",
@@ -731,7 +848,7 @@
      "titleKo": "미국인들, 공격 관련 사진으로 사우디에 억류",
      "summary": "미국인이 공격 관련 사진으로 사우디에 억류됐다고 미 대사관이 전했다고 보도했어요.",
      "reportedAt": "2026-10-12T18:57:11.000Z",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT0V6YTlwYkRaV1J4dkZoNHMyZFNkbGFVcDlfSTlGWUltdWd1WHdFYzBqNHNaSlZjdmw0RFROU19BOUs1Y29XeGIxZjdjU2hwVmYxUGttSGtNMFc1Y1N4RXBzeWpIZUJCODFQcVlrM3huSW81RDc1QUkxR2ZBUTRIbFVMZzRqcDM0UFBRMXF3NkpJVm0tYjJia1pCQmdnQk5SYmlpQm1MVUhUVGk2a2RkS3ctRUdVS01VZzl4cUZKS0Rrb2xmNlE?oc=5"
+     "url": "https://www.arabnews.com/saudi-arabia/americans-detained-in-saudi-arabia-over-photos-related-to-attacks-us-embassy-says-3005976"
     },
     {
      "outlet": "SBS",
@@ -948,6 +1065,110 @@
    ]
   },
   {
+   "id": "83d6198bb1ae",
+   "articleIds": [
+    "f68cd95af66d"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드 공항 공격 피해자들 살린 의료진 400명",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "400 Medical Staff Save Victims of Riyadh Airport Attack",
+     "titleKo": "리야드 공항 공격 피해자들 살린 의료진 400명",
+     "summary": "",
+     "reportedAt": "2026-10-12T22:26:26.000Z",
+     "url": "https://english.aawsat.com/node/5328911"
+    }
+   ]
+  },
+  {
+   "id": "745bc721ef3e",
+   "articleIds": [
+    "03d90ced701b"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "Al-Dossary: 사우디아라비아는 모든 비상사태에 대응할 준비가 돼 있다",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Al-Dossary: Saudi Arabia is prepared to deal with any emergency situation",
+     "titleKo": "Al-Dossary: 사우디아라비아는 모든 비상사태에 대응할 준비가 돼 있다",
+     "summary": "",
+     "reportedAt": "2026-10-12T22:21:31.000Z",
+     "url": "https://saudigazette.com.sa/article/665361/saudi-arabia/al-dossary-saudi-arabia-is-prepared-to-deal-with-any-emergency-situation"
+    }
+   ]
+  },
+  {
+   "id": "56c5efe77e60",
+   "articleIds": [
+    "9242648d5314",
+    "240c5f2a9c8c"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "multi",
+   "directive": null,
+   "title": "유엔 인권 최고대표, 사우디 공항에 대한 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "UN Human Rights Chief condemns Houthi attacks on Saudi airports",
+     "titleKo": "유엔 인권 최고대표, 사우디 공항에 대한 후티 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-12T21:16:59.000Z",
+     "url": "https://saudigazette.com.sa/article/665360/saudi-arabia/un-human-rights-chief-condemns-houthi-attacks-on-saudi-airports"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "UN Human Rights Chief ‘Appalled’ by Attacks on Airports Saudi Arabia",
+     "titleKo": "유엔 인권 최고대표, 사우디 항공기지에 대한 공격에 '경악'",
+     "summary": "",
+     "reportedAt": "2026-10-12T21:56:38.000Z",
+     "url": "https://english.aawsat.com/node/5328903"
+    }
+   ]
+  },
+  {
    "id": "c75d01e221a1",
    "articleIds": [
     "1d4cbcc91873"
@@ -1017,6 +1238,99 @@
      "summary": "국제유가가 사우디의 대응 약속 속에 상승했다고 AFP가 보도했어요.",
      "reportedAt": "2026-10-12T21:47:56.000Z",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9UY2Zka2piVFBuM0pOeDZZemYwWGpLb1Q2X3lRaDlWenFaVzBVSE1NaExCQWNwczhNcU9lYnB2em5QOXdURTRIUGlFczd5RVU5RWdTVjNOQXUzVW9TMkF0a2dxTUxaUG5MaE1KY0M0bkR6NlVX?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "d5c39fa88d12",
+   "articleIds": [
+    "f5ac22202581"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 대무프티: 후티 민병대의 성지 공격은 중대한 범죄로 심각한 결과 초래",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Saudi Grand Mufti: Houthi Militia's Targeting of Holy Sites Is a Grave Crime with Dire Consequences",
+     "titleKo": "사우디 대무프티: 후티 민병대의 성지 공격은 중대한 범죄로 심각한 결과 초래",
+     "summary": "",
+     "reportedAt": "2026-10-12T21:37:59.000Z",
+     "url": "https://english.aawsat.com/node/5328898"
+    }
+   ]
+  },
+  {
+   "id": "a9f0363ab075",
+   "articleIds": [
+    "e2e269e85073"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "70여 개국 각료·이슬람 인사들, 사우디 겨냥한 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Ministers, Islamic Figures from Over 70 Countries Condemn Houthi Attacks Targeting Saudi Arabia",
+     "titleKo": "70여 개국 각료·이슬람 인사들, 사우디 겨냥한 후티 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-12T21:18:47.000Z",
+     "url": "https://english.aawsat.com/node/5328891"
+    }
+   ]
+  },
+  {
+   "id": "097fc9dd90c8",
+   "articleIds": [
+    "f5c5c27f489e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "대무프티: 성지로 향하는 예배자들 겨냥한 후티의 공격은 최악의 범죄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Grand Mufti: Houthi&#039;s targeting of worshipers heading to holy mosques is the gravest crime",
+     "titleKo": "대무프티: 성지로 향하는 예배자들 겨냥한 후티의 공격은 최악의 범죄",
+     "summary": "",
+     "reportedAt": "2026-10-12T21:14:14.000Z",
+     "url": "https://saudigazette.com.sa/article/665359/saudi-arabia/grand-mufti-houthis-targeting-of-worshipers-heading-to-holy-mosques-is-the-gravest-crime"
     }
    ]
   },
@@ -1178,6 +1492,37 @@
    ]
   },
   {
+   "id": "2c68044940d8",
+   "articleIds": [
+    "692877497c3c"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "이슬람 지도자들, 순례자 안전 위협하는 치명적 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Islamic leaders condemn deadly Houthi attacks on Saudi Arabia that threaten safety of pilgrims",
+     "titleKo": "이슬람 지도자들, 순례자 안전 위협하는 치명적 후티 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-12T20:19:34.000Z",
+     "url": "https://www.arabnews.com/saudi-arabia/islamic-leaders-condemn-deadly-houthi-attacks-on-saudi-arabia-that-threaten-safety-of-pilgrims-3005981"
+    }
+   ]
+  },
+  {
    "id": "e01043f20f4a",
    "articleIds": [
     "012eeace6c18",
@@ -1215,6 +1560,37 @@
      "summary": "",
      "reportedAt": "2026-10-12T19:59:24.000Z",
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE85SmdFWlM5NHhLd2d3NjRHOC1va0s2SXNpdzBURG11RkowVTdJeVAwdHQtRm9OV2x0LXpOOTlUTWQ5XzBDMVNhN3BR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "8649010cb25d",
+   "articleIds": [
+    "00dac549a9fb"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 리야드를 향해 발사된 후티의 탄도미사일 요격",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition forces intercept ballistic missile fired by Houthis toward Riyadh",
+     "titleKo": "연합군, 리야드를 향해 발사된 후티의 탄도미사일 요격",
+     "summary": "",
+     "reportedAt": "2026-10-12T19:55:20.000Z",
+     "url": "https://saudigazette.com.sa/article/665355/saudi-arabia/coalition-forces-intercept-ballistic-missile-fired-by-houthis-toward-riyadh"
     }
    ]
   },
@@ -1464,7 +1840,7 @@
      "titleKo": "연합군, 후티가 리야드를 향해 발사한 탄도미사일을 요격했다고 밝혀",
      "summary": "",
      "reportedAt": "2026-10-12T18:30:32.000Z",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVG9sZnVydnRxUmFOck91aE1xUTlfNTJfeFV5MXZKaF9fZ24yd2FwYUloX2VsUE9zOGV5WDhmb3VCNmtVcW1UOVQ0OW42ZXNFLS1CY1FGUXZmT0xkdG1uT2tXNmQ2cHk5NkUzOEs2ZVRHb0hIemkxQ3pVOGJGZzgyVWNvQ2EwNDhpaTUzVUNoMmpvTDhnbXdOcjFuZXNVX1lFcDU1aUlMeEt5aUNJQk9lVnBKVGYxdTMyY2xCam5n?oc=5"
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-says-ballistic-missile-fired-by-houthis-toward-riyadh-intercepted-3005972"
     }
    ]
   },
@@ -1573,7 +1949,8 @@
    "title": "사우디 미디어 장관, 후티 공격 후 국민들에게 공식 정보에 의존할 것을 촉구",
    "titleAuto": true,
    "regions": [
-    "all"
+    "riyadh",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
@@ -1588,7 +1965,69 @@
      "titleKo": "사우디 미디어 장관, 후티 공격 후 국민들에게 공식 정보에 의존할 것을 촉구",
      "summary": "",
      "reportedAt": "2026-10-12T16:59:04.000Z",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWTlTcXJQdF96a29JaTFwMkIwM0Fuc2xkZk9vQ1hYWEhhTHFxQV82VlhFUXRkMUlYakxIMkc1QkZyVlkwdnVqSGxYQTlyR3I2ejFaU3lramU2VjhqU05hRlNVSC1sTlRid1EzVmN4amRXNGttV1FUcUZnX29GMnlYVXFldlZ1dVJ4dXI1aGJwNVVWWTdRdjY2ZWgxQkw3cVRzeVJGYkM2emR6dWpERk42YW80V2U3cFU2ZldWOE1INU9rbjJQX1AwZ1BSbGoyeXNYZzBXTDA0SQ?oc=5"
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabias-media-minister-urges-public-to-rely-on-official-information-after-houthi-attacks-3005960"
+    }
+   ]
+  },
+  {
+   "id": "9bd8b4d9d826",
+   "articleIds": [
+    "c0224cfae1a0"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드 주지사, 후티 공격 부상자들에 위로: 사우디 지도부가 전폭적으로 함께한다",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Riyadh Governor Reassures Those Injured in Houthi Attack: Saudi Leadership Stands with You Wholeheartedly",
+     "titleKo": "리야드 주지사, 후티 공격 부상자들에 위로: 사우디 지도부가 전폭적으로 함께한다",
+     "summary": "",
+     "reportedAt": "2026-10-12T16:21:30.000Z",
+     "url": "https://english.aawsat.com/node/5328804"
+    }
+   ]
+  },
+  {
+   "id": "32f9d4c6fef7",
+   "articleIds": [
+    "3c4117926c8d"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "요르단 국왕, 통화에서 사우디에 대한 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Jordan king condemns Houthi attacks on Saudi Arabia during phone call",
+     "titleKo": "요르단 국왕, 통화에서 사우디에 대한 후티 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-12T16:19:13.000Z",
+     "url": "https://www.arabnews.com/saudi-arabia/jordan-king-condemns-houthi-attacks-on-saudi-arabia-during-phone-call-3005962"
     }
    ]
   },
@@ -1624,6 +2063,68 @@
    ]
   },
   {
+   "id": "599835a487e0",
+   "articleIds": [
+    "3182fd7cc0f9"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "요르단 국왕, 후티의 사우디 공격 규탄하며 국왕이 왕세자에게 전화",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Crown Prince Receives Call from King of Jordan Condemning Houthi Attacks on Saudi Arabia",
+     "titleKo": "요르단 국왕, 후티의 사우디 공격 규탄하며 국왕이 왕세자에게 전화",
+     "summary": "",
+     "reportedAt": "2026-10-12T16:07:33.000Z",
+     "url": "https://english.aawsat.com/node/5328795"
+    }
+   ]
+  },
+  {
+   "id": "72d41f3a9528",
+   "articleIds": [
+    "2a35ab2fdc94"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "아브둘라 국왕, 왕세자에게 전화해 요르단의 사우디 전폭적 지지 재확인",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "King Abdullah calls Crown Prince to reaffirm Jordan’s full support for Saudi Arabia",
+     "titleKo": "아브둘라 국왕, 왕세자에게 전화해 요르단의 사우디 전폭적 지지 재확인",
+     "summary": "",
+     "reportedAt": "2026-10-12T16:02:14.000Z",
+     "url": "https://saudigazette.com.sa/article/665353/saudi-arabia/king-abdullah-calls-crown-prince-to-reaffirm-jordans-full-support-for-saudi-arabia"
+    }
+   ]
+  },
+  {
    "id": "81e3f0261702",
    "articleIds": [
     "da60064c4ed7"
@@ -1636,6 +2137,7 @@
    "titleAuto": true,
    "regions": [
     "riyadh",
+    "jeddah",
     "airport"
    ],
    "inferred": false,
@@ -1651,7 +2153,38 @@
      "titleKo": "리야드 주지사, 공항 공격 부상자들에게 왕실의 위문 전해",
      "summary": "",
      "reportedAt": "2026-10-12T15:17:44.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRk1mLTVQcHZZYnZzUC1sWTV2cWFMTEF0LUROSU1sWUlLSHpwbHR6b05CT0ZlX3NjVUFXNUJXeVZkNnBYTmhNaDk4WjdmOEZmNERhSHhXbDc3ZktIci1mdExsSTB6UG1LQVpUcTlxZUdIc3BhbTlnVmJUdGc3OUY4SS1CQVRjOEYyTVFpTVI4UXdQWUJ0bm96ZTlKZzQwNjVoZ0hod1UyNVlwdDJjM2ZOR0JBd2k5WHpXbTVN?oc=5"
+     "url": "https://www.arabnews.com/saudi-arabia/riyadh-governor-conveys-royal-greetings-to-injured-airport-attack-victims-3005944"
+    }
+   ]
+  },
+  {
+   "id": "e0e67c4f9d86",
+   "articleIds": [
+    "a3bf5d91b58f"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "리야드·카미스무샤이트로 발사된 탄도미사일 3발 파괴",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "3 Ballistic Missiles Fired at Riyadh, Khamis Mushait Are Destroyed",
+     "titleKo": "리야드·카미스무샤이트로 발사된 탄도미사일 3발 파괴",
+     "summary": "",
+     "reportedAt": "2026-10-12T15:03:49.000Z",
+     "url": "https://english.aawsat.com/node/5328568"
     }
    ]
   },
@@ -1714,6 +2247,38 @@
      "summary": "로이터는 공항에 대한 대규모 공격 이후 사우디가 추가 미사일·드론 공격을 겪었다고 전했어요.",
      "reportedAt": "2026-10-12T14:28:45.000Z",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjQ4VHZvYkdYQm9yVEk1YjFFMmpzdkZlZURhdnpYUlNHTl9KMDZrbVFMSXB6WGRlU2ZIb2NnZm9yMjYwb2hYTnh0YnBrc2RkWWs0MzdxX01TUzllWERDajRXZHhxVXFIVmJhX0ljT0NWVHZMejdIdFhmWlZaOUFPQkVLUXZiN2hGVG1velpDX3FvTzY0VVhiQlpCQ1hoejRmSjhBZlVnYlNUcUlQOF9PeWVlMS0xT1RzS2Rlb1FUQlBwQQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "2832330d1025",
+   "articleIds": [
+    "868b317975d1"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드 주지사, 킹 칼리드 국제공항 후티 공격 부상 시민 방문",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Riyadh emir visits civilians injured in Houthi attack on King Khalid International Airport",
+     "titleKo": "리야드 주지사, 킹 칼리드 국제공항 후티 공격 부상 시민 방문",
+     "summary": "",
+     "reportedAt": "2026-10-12T14:12:37.000Z",
+     "url": "https://saudigazette.com.sa/article/665349/saudi-arabia/riyadh-emir-prince-faisal-bin-bandar-visits-victims-of-houthi-airport-attacks"
     }
    ]
   },
@@ -1781,6 +2346,38 @@
    ]
   },
   {
+   "id": "2638fdebb726",
+   "articleIds": [
+    "8853ef7f667b"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "영국·바레인 외교장관, 파이살 왕자에 전화해 사우디에 대한 연대 재확인",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "FMs of UK, Bahrain call Prince Faisal to reaffirm solidarity with Saudi Arabia",
+     "titleKo": "영국·바레인 외교장관, 파이살 왕자에 전화해 사우디에 대한 연대 재확인",
+     "summary": "",
+     "reportedAt": "2026-10-12T13:15:33.000Z",
+     "url": "https://saudigazette.com.sa/article/665345/saudi-arabia/fms-of-uk-bahrain-call-prince-faisal-to-reaffirm-solidarity-with-saudi-arabia"
+    }
+   ]
+  },
+  {
    "id": "50fc7a2e3f43",
    "articleIds": [
     "05a45f819bb6"
@@ -1812,6 +2409,37 @@
    ]
   },
   {
+   "id": "91b3028cf5b1",
+   "articleIds": [
+    "aa1d8565d29b"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "아람코 사장 겸 CEO: 지역 에너지 인프라 공격은 세계 경제 위협",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Aramco President & CEO: Attacks on the Region’s Energy Infrastructure Threaten Global Economies",
+     "titleKo": "아람코 사장 겸 CEO: 지역 에너지 인프라 공격은 세계 경제 위협",
+     "summary": "",
+     "reportedAt": "2026-10-12T12:47:21.000Z",
+     "url": "https://english.aawsat.com/node/5328676"
+    }
+   ]
+  },
+  {
    "id": "24a746fd9152",
    "articleIds": [
     "a4d29a97cf82"
@@ -1839,6 +2467,37 @@
      "summary": "",
      "reportedAt": "2026-10-12T12:44:00.000Z",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iMkwzbDZMQjktVDZrUFNOTjJLQW91RjlmTkY0THR2bmt5WW1QRFRwLWliOFUzT1p2Wk1xR0I5NWRLUG1xWUZVd2Jja2Y5Zk9XS2VDRHVXWXBUdmcwSVV6YVJjVmx4VFE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "b3f639175522",
+   "articleIds": [
+    "2da360187f69"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "아브둘아지즈 왕자: 사우디는 도전 극복하고 글로벌 에너지 약속 지킬 것",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi Arabia will overcome challenges, uphold global energy commitments, Prince Abdulaziz says",
+     "titleKo": "아브둘아지즈 왕자: 사우디는 도전 극복하고 글로벌 에너지 약속 지킬 것",
+     "summary": "",
+     "reportedAt": "2026-10-12T11:47:50.000Z",
+     "url": "https://saudigazette.com.sa/article/665341/saudi-arabia/saudi-arabia-will-overcome-challenges-uphold-energy-commitments-prince-abdulaziz-says"
     }
    ]
   },
@@ -1994,7 +2653,7 @@
      "titleKo": null,
      "summary": "MBC는 산업부가 여행경보 3단계 상황에서도 사우디를 방문했다고 보도했어요.",
      "reportedAt": "2026-10-12T09:32:54.000Z",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hMjFQWjZJY3J6MFZhSnFRRDdhdWtkNmFkdWk1dHZndXZwaVJZMEp5ajNPWEVSY3gtZ2Fwc29hNkpyek9UX2NLdkNuem1DSFA4d1VWdFJTOUVIZEhFTGVHVnl4Yy12T2J1V3hZakR1cWF3eFFK0gF0QVVfeXFMTmEyMVBaNkljcnowVmFKcVFEN2F1a2Q2YWR1aTV0dmd1dnBpUlkwSnlqM09YRVJjeC1nYXBzb2E2SnJ6T1RfY0t2Q256bUNIUDh3VVZ0UlM5RUhkSEVMZUdWeXhjLXZPYnVXeFlqRHVxYXd4UUo?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGMGpjWE16ZG1abG90X19LOXBtMVZZTDgzX2hBMmRMVjhyQmNDOUhUcXBEcTBUZmt1SWhpbVpxOXVtdFA5T0hLY1ZmQ2NsMmtOb2E0WFBkWS0xX0xrUzFiYVVSZk5hT0ZFTVpOdUduaWdab3VL0gF0QVVfeXFMTmEyMVBaNkljcnowVmFKcVFEN2F1a2Q2YWR1aTV0dmd1dnBpUlkwSnlqM09YRVJjeC1nYXBzb2E2SnJ6T1RfY0t2Q256bUNIUDh3VVZ0UlM5RUhkSEVMZUdWeXhjLXZPYnVXeFlqRHVxYXd4UUo?oc=5"
     }
    ]
   },
@@ -2765,8 +3424,8 @@
      "title": "Pakistani resident killed, 11 injured in Sunday’s attack on Riyadh airport",
      "titleKo": "일요일 리야드 공항 공격으로 파키스탄 거주민 사망·11명 부상",
      "summary": "",
-     "reportedAt": "2026-10-11T23:09:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aWWt5YWhKTms3SG9qcGlidlpmakNCTWtkNTNzMmZIUnBOaHQ4N2hJdmJyX19hUDNMLW9ub1JxNFlMT2RXajVCYmtYc0hwSjB2aG83cQ?oc=5"
+     "reportedAt": "2026-10-11T23:09:59.000Z",
+     "url": "https://saudigazette.com.sa/article/665327/saudi-arabia/pakistani-resident-killed-11-injured-in-riyadh-airport-attack"
     }
    ]
   },
@@ -2834,6 +3493,37 @@
    ]
   },
   {
+   "id": "b75ef3361a55",
+   "articleIds": [
+    "0b8b9f87df61"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디·이란 외교장관, 지역 긴장 논의…영국·시리아는 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Saudi, Iranian FMs Discuss Regional Tensions as UK, Syria Condemn Houthi Attack",
+     "titleKo": "사우디·이란 외교장관, 지역 긴장 논의…영국·시리아는 후티 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-11T21:22:57.000Z",
+     "url": "https://english.aawsat.com/node/5328466"
+    }
+   ]
+  },
+  {
    "id": "512a8f2c981e",
    "articleIds": [
     "99bd9f815024"
@@ -2845,7 +3535,8 @@
    "title": "메카에서 리야드까지, 후티들이 순례객들을 향해 무기 사용",
    "titleAuto": true,
    "regions": [
-    "riyadh"
+    "riyadh",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
@@ -2859,8 +3550,8 @@
      "title": "From Makkah to Riyadh, Houthis turn their weapons on pilgrims",
      "titleKo": "메카에서 리야드까지, 후티들이 순례객들을 향해 무기 사용",
      "summary": "",
-     "reportedAt": "2026-10-11T21:19:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YaGxEX0xwcV9QaWN3X3BFdmwyTzJjbXNOaC1OVzczOHdXSUllSG40VDFZR20zbjhMX2tmZ3VyNVBLNDZIMDI2TldOQjRaUmthaTltbw?oc=5"
+     "reportedAt": "2026-10-11T21:19:26.000Z",
+     "url": "https://saudigazette.com.sa/article/665325/saudi-arabia/houthi-attack-on-riyadh-airport-threatens-umrah-pilgrims-recalls-attacks-on-makkah-and-madinah"
     }
    ]
   },
@@ -2892,6 +3583,40 @@
      "summary": "",
      "reportedAt": "2026-10-11T21:16:36.000Z",
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9RSk9zZEtBX09IYzc4VlFzdnhlbHlXWVgzU0FBZHV1YWk3b3NjTU5Nc1V1VkJwTENlMFlaTzFiZTFiMUZ2d3FmOXRn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "9b64750dfcde",
+   "articleIds": [
+    "7ec60996487e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "GACA: 리야드·담맘 공항에 대한 두 차례 신규 공격으로 주민 1명 사망·11명 부상",
+   "titleAuto": true,
+   "regions": [
+    "dammam",
+    "riyadh",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "GACA: Resident Killed, 11 Others Wounded in Two New Attacks on Riyadh, Dammam Airports",
+     "titleKo": "GACA: 리야드·담맘 공항에 대한 두 차례 신규 공격으로 주민 1명 사망·11명 부상",
+     "summary": "",
+     "reportedAt": "2026-10-11T21:13:05.000Z",
+     "url": "https://english.aawsat.com/node/5328465"
     }
    ]
   },
@@ -2991,6 +3716,38 @@
    ]
   },
   {
+   "id": "b8c0bb6e5f1a",
+   "articleIds": [
+    "8e86841b5a42"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디·시리아 외교장관, 전화로 지역 안보를 위한 공동 노력 논의",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi, Syrian FMs discuss over phone joint efforts for regional security",
+     "titleKo": "사우디·시리아 외교장관, 전화로 지역 안보를 위한 공동 노력 논의",
+     "summary": "",
+     "reportedAt": "2026-10-11T20:49:37.000Z",
+     "url": "https://saudigazette.com.sa/article/665322/saudi-arabia/saudi-syrian-fms-discuss-over-phone-joint-efforts-for-regional-security"
+    }
+   ]
+  },
+  {
    "id": "aed7994a980f",
    "articleIds": [
     "936bf0ae7599"
@@ -3002,7 +3759,7 @@
    "title": "R4 그룹 국가들, 후티 공격 격퇴 위해 사우디아라비아에 전폭적 지지 재확인",
    "titleAuto": true,
    "regions": [
-    "all"
+    "riyadh"
    ],
    "inferred": false,
    "inferNote": null,
@@ -3016,8 +3773,8 @@
      "title": "R4 Group States reaffirm full support to Saudi Arabia to repel Houthi attacks",
      "titleKo": "R4 그룹 국가들, 후티 공격 격퇴 위해 사우디아라비아에 전폭적 지지 재확인",
      "summary": "",
-     "reportedAt": "2026-10-11T20:14:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Lc0ZWYjMtclVFZXVrWVpiZC1Dd1B6SkNKcUM2Wk9HWlh6NlJsZmJYZGVfMUdzYkVVNkdOU0ZSTmpXMUpkUlhwRnZWMG8wNVpYR2FfOQ?oc=5"
+     "reportedAt": "2026-10-11T20:14:30.000Z",
+     "url": "https://saudigazette.com.sa/article/665321/saudi-arabia/r4-group-states-reaffirm-full-support-to-saudi-arabia-to-repel-houthi-attacks"
     }
    ]
   },
@@ -3141,8 +3898,8 @@
      "title": "Health minister visits Riyadh hospitals to reassure health of those injured in airport attack",
      "titleKo": "보건장관, 공항 공격 부상자들의 건강 안심시키기 위해 리야드 병원 방문",
      "summary": "",
-     "reportedAt": "2026-10-11T17:21:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0VVNFSm9RV2lXQVhrYVlUdjgyRERQVXp0Nm5VNWRtS0NGQWoycGJJdlNnbkQtX0h1OVU5MU1jNjlxQjdKcmMwUENpVHMtWXVycF8wWA?oc=5"
+     "reportedAt": "2026-10-11T17:21:01.000Z",
+     "url": "https://saudigazette.com.sa/article/665319/saudi-arabia/health-minister-visits-riyadh-hospitals-to-reassure-health-of-those-injured-in-airport-attack"
     }
    ]
   },
@@ -3284,7 +4041,8 @@
    "title": "요르단 외무, 후티의 침략 규탄 위해 사우디 상대에게 전화",
    "titleAuto": true,
    "regions": [
-    "all"
+    "riyadh",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
@@ -3298,8 +4056,8 @@
      "title": "Jordanian FM calls Saudi counterpart to condemn Houthi aggression",
      "titleKo": "요르단 외무, 후티의 침략 규탄 위해 사우디 상대에게 전화",
      "summary": "",
-     "reportedAt": "2026-10-11T16:15:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51bjRxcVE2b2pxNEhBS0dXZExtdXlBREdzMGV3dThLdzd2MjdWRnJxVWNENWJJTV80dEZvU1ZrWHlteXhkcjZRMngxX1ExLVM4X3pHRg?oc=5"
+     "reportedAt": "2026-10-11T16:15:39.000Z",
+     "url": "https://saudigazette.com.sa/article/665318/saudi-arabia/jordanian-fm-calls-saudi-counterpart-to-condemn-houthi-aggression"
     }
    ]
   },
@@ -3339,8 +4097,8 @@
    "articleIds": [
     "529e63473f32"
    ],
-   "type": "fire",
-   "sev": "mid",
+   "type": "missile",
+   "sev": "high",
    "status": "single",
    "directive": null,
    "title": "발사체, 리야드 공항 터미널 4에 명중해 화재 및 부상 초래",
@@ -3361,8 +4119,8 @@
      "title": "Projectile hits Terminal 4 of Riyadh airport, causing fire and injuries",
      "titleKo": "발사체, 리야드 공항 터미널 4에 명중해 화재 및 부상 초래",
      "summary": "",
-     "reportedAt": "2026-10-11T15:24:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tR1lsdC1xZDBJNVoweWwwcmxtMHhMbnczOEhpSVZtWUNqbFhnci1OQmR3RjcwUlQySGRrVXA0bzFfTktWdGUzeWJIWk1iOHdGTE1uNA?oc=5"
+     "reportedAt": "2026-10-11T15:24:01.000Z",
+     "url": "https://saudigazette.com.sa/article/665312/saudi-arabia/projectile-hits-terminal-4-of-riyadh-airport-causing-fire"
     }
    ]
   },
@@ -3431,6 +4189,37 @@
    ]
   },
   {
+   "id": "f5313dae11a8",
+   "articleIds": [
+    "90931a31a8d8"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "영국 주재 사우디 대사관, 항공편 지연 피해 국민에 공관에 연락할 것 촉구",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-12T23:30:35.536Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi Embassy in UK urges citizens hit by flight disruptions to contact mission",
+     "titleKo": "영국 주재 사우디 대사관, 항공편 지연 피해 국민에 공관에 연락할 것 촉구",
+     "summary": "",
+     "reportedAt": "2026-10-11T14:51:32.000Z",
+     "url": "https://saudigazette.com.sa/article/665311/saudi-arabia/saudi-embassy-in-uk-urges-citizens-hit-by-flight-disruptions-to-contact-mission"
+    }
+   ]
+  },
+  {
    "id": "ff21e42959fe",
    "articleIds": [
     "7a5bf6241572"
@@ -3458,37 +4247,6 @@
      "summary": "",
      "reportedAt": "2026-10-11T14:51:11.000Z",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQURBNTJkT2QzYi04NlZJaTJKYy1HU1FycDJTZ0R3empaV3d2MDdiUHdOUXl5TEJPeGpXRjloUG8xTjVKT3BJLVVjODY4UFVGdFV4RHdoMldJZExSdnZrMVAyZHRQVGQtWXJwc3N3dTROMEwyeDlJallqVzN1QXlYUVIyd3ZBTEZuNGhPSXY3elRFREJ5eDh4cUZZdUdtcFFlQno1OHNpa2lBdDBuampmOE5iUDV4aFZRaUdQUXNpWQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "f5313dae11a8",
-   "articleIds": [
-    "90931a31a8d8"
-   ],
-   "type": "airport",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "영국 주재 사우디 대사관, 항공편 지연 피해 국민에 공관에 연락할 것 촉구",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-12T23:30:35.536Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Saudi Embassy in UK urges citizens hit by flight disruptions to contact mission",
-     "titleKo": "영국 주재 사우디 대사관, 항공편 지연 피해 국민에 공관에 연락할 것 촉구",
-     "summary": "",
-     "reportedAt": "2026-10-11T14:51:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYklVS0MwR3F5OFBSWERMVGRCejJaRmM3V3pVU2pkRWhvWXZnZjE3QjFEaTRLZDVPVUpTWHZuaHA4WjRPNFd5OHVob3RyRE9LOW5tZXdwdlVDUmpSNTVPd3R0a2VCdUpWaExQaU5TUDJqUmI5QlhfV2M5c0drN1QtYjd3TURsWWRiVzJMTWgyYnMzdl9fcXNlZ2xUdDhoWlNEc0lOenlTQkJPVTBGTWJReWJOM1lwUmlEWllxRGVYWUZqMUE1S2REdUVjZEVYSWFibU5zcEV2dW5MclE?oc=5"
     }
    ]
   },
@@ -3550,8 +4308,40 @@
      "title": "Jordanian father of two killed in Houthi attack on Riyadh airport",
      "titleKo": "리야드 공항 후티 공격으로 요르단인 두 자녀의 아버지 사망",
      "summary": "",
-     "reportedAt": "2026-10-11T13:41:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKcjdTcVZnUllVSlhRQm9EMXFQYmlaZXhYLWppZTJLVzRPcFdyQS1ZbHBGM0F0Um9XTzdjeEg2Nzd0YTVBV0lsY3R3TE1YQjh0TGNsXw?oc=5"
+     "reportedAt": "2026-10-11T13:41:06.000Z",
+     "url": "https://saudigazette.com.sa/article/665308/saudi-arabia/jordanian-father-of-two-killed-in-houthi-attack-on-riyadh-airport"
+    }
+   ]
+  },
+  {
+   "id": "8a8bf4c36b42",
+   "articleIds": [
+    "2185564f2f14"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "결혼을 며칠 앞둔 이집트 승무원, 리야드 공항 공격으로 사망",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Egyptian flight attendant killed in Riyadh airport attack days before her wedding",
+     "titleKo": "결혼을 며칠 앞둔 이집트 승무원, 리야드 공항 공격으로 사망",
+     "summary": "",
+     "reportedAt": "2026-10-11T13:38:40.000Z",
+     "url": "https://saudigazette.com.sa/article/665307/saudi-arabia/egyptian-flynas-flight-attendant-killed-in-riyadh-airport-attack-days-before-wedding"
     }
    ]
   },
@@ -3618,6 +4408,38 @@
    ]
   },
   {
+   "id": "167e9646d3cd",
+   "articleIds": [
+    "1afc4140fb0b"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "Global condemnation mounts over deadly Houthi attack on Saudi Arabia’s Riyadh airport",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Global condemnation mounts over deadly Houthi attack on Saudi Arabia’s Riyadh airport",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-11T12:48:55.000Z",
+     "url": "https://saudigazette.com.sa/article/665306/saudi-arabia/global-condemnation-mounts-over-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    }
+   ]
+  },
+  {
    "id": "4075eac95614",
    "articleIds": [
     "2fa2d4bbc338"
@@ -3675,8 +4497,8 @@
      "title": "Houthi attack on Riyadh airport shows disregard for civilian lives, Yemen’s Al-Alimi says",
      "titleKo": "리야드 공항에 대한 후티 공격은 민간인 생명 경시를 보여준다고 예멘의 알-알리미가 말해",
      "summary": "",
-     "reportedAt": "2026-10-11T11:27:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FXzlidVJocm5Fc1ZZMWdJVVRJdVNWMXNRc2RzMGF2RjRiWFEyckZrZlhTOUVJVmZqT3JpOUluam1UWFFyMV9CckZ1alk4SEdXU3ZHdg?oc=5"
+     "reportedAt": "2026-10-11T11:27:25.000Z",
+     "url": "https://saudigazette.com.sa/article/665303/saudi-arabia/yemens-al-alimi-says-saudi-security-is-tied-to-yemens"
     }
    ]
   },
@@ -3707,8 +4529,50 @@
      "title": "EU’s Kaja Kallas condemns Houthi attack on Riyadh airport as ‘appalling act of terror’",
      "titleKo": "EU의 카야 칼라스, 리야드 공항에 대한 후티 공격을 ‘끔찍한 테러 행위’라고 규탄",
      "summary": "",
-     "reportedAt": "2026-10-11T11:07:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBISnA5NWdTWGdjS2RNVlZBbmJtUTZjTVdZbC1nbjMwU3ZWZktjRHRqbEhPaWpEVHpxcEFnSk1SRW5feF92MGotc3JTeGY5RVpLcUFTSQ?oc=5"
+     "reportedAt": "2026-10-11T11:07:22.000Z",
+     "url": "https://saudigazette.com.sa/article/665302/saudi-arabia/eus-kaja-kallas-condemns-houthi-attack-on-riyadh-airport-as-appalling-act-of-terror"
+    }
+   ]
+  },
+  {
+   "id": "0072966f97f6",
+   "articleIds": [
+    "a5c513b2ea9d",
+    "f8053130bfef"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "multi",
+   "directive": null,
+   "title": "리야드 공항 공격으로 12명 사망·309명 부상, GACA 확인",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "12 killed, 309 injured in attack on Riyadh airport, GACA confirms",
+     "titleKo": "리야드 공항 공격으로 12명 사망·309명 부상, GACA 확인",
+     "summary": "",
+     "reportedAt": "2026-10-10T22:37:11.000Z",
+     "url": "https://saudigazette.com.sa/article/665290/saudi-arabia/12-killed-309-injured-in-riyadh-airport-attack-saudi-aviation-authority-confirms"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "12 Killed, 309 Injured in Attack on Riyadh Airport; Coalition Vows Response",
+     "titleKo": "리야드 공항 공격으로 12명 사망·309명 부상; 연합군 대응 약속",
+     "summary": "",
+     "reportedAt": "2026-10-11T10:34:01.000Z",
+     "url": "https://english.aawsat.com/node/5328277"
     }
    ]
   },
@@ -3739,8 +4603,8 @@
      "title": "UN chief Guterres ‘deeply shocked’ by deadly Houthi attack on Riyadh airport",
      "titleKo": "유엔 사무총장 구테흐스, 리야드 공항에 대한 치명적 후티 공격에 ‘깊은 충격’",
      "summary": "",
-     "reportedAt": "2026-10-11T10:31:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IMGJ5RjYwam8wVm5RaUdCczhpa3hZTEw3S2lwRDdoRk42dEtOLTROVi1tT3BKY2puQ3QwQjBBXy1uUHNZdTA4Y2RyUU5HOG1IM1pzWQ?oc=5"
+     "reportedAt": "2026-10-11T10:31:22.000Z",
+     "url": "https://saudigazette.com.sa/article/665300/saudi-arabia/un-chief-guterres-deeply-shocked-by-deadly-houthi-attack-on-riyadh-airport"
     }
    ]
   },
@@ -3802,8 +4666,40 @@
      "title": "Pakistan PM Shehbaz Sharif condemns deadly Houthi attack on Riyadh airport, reaffirms solidarity with Saudi Arabia",
      "titleKo": "파키스탄 총리 셰바즈 샤리프, 리야드 공항에 대한 치명적 후티 공격 규탄·사우디에 연대 재확인",
      "summary": "",
-     "reportedAt": "2026-10-11T10:07:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBweUt5QXVwSDZYNi1jMG9tY1hEOGFtQzBpRDhyRkt0UnBTYjVfajl6bjNsM3h1aUFOMXR0UV9tNndtaGE5MXlnX0JWWG5VcnBQLXJaZw?oc=5"
+     "reportedAt": "2026-10-11T10:07:08.000Z",
+     "url": "https://saudigazette.com.sa/article/665296/saudi-arabia/pakistan-pm-shehbaz-sharif-condemns-deadly-houthi-attack-on-riyadh-airport-reaffirms-solidarity-with-saudi-arabia"
+    }
+   ]
+  },
+  {
+   "id": "632ca9398f99",
+   "articleIds": [
+    "0f708a927c81"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "영국 국방장관: 리야드 공항에 대한 후티 공격은 '위험한 고조'이자 '비열한 행위'",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "UK Defense Minister: Houthi Attack on Riyadh Airport 'Dangerous Escalation' and 'Contemptible'",
+     "titleKo": "영국 국방장관: 리야드 공항에 대한 후티 공격은 '위험한 고조'이자 '비열한 행위'",
+     "summary": "",
+     "reportedAt": "2026-10-11T09:48:07.000Z",
+     "url": "https://english.aawsat.com/node/5328257"
     }
    ]
   },
@@ -3819,7 +4715,8 @@
    "title": "캐나다 총리, 후티의 사우디 공격을 ‘혐오스럽다’며 규탄",
    "titleAuto": true,
    "regions": [
-    "all"
+    "riyadh",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
@@ -3833,8 +4730,8 @@
      "title": "Canadian PM condemns Houthi attacks on Saudi Arabia as ‘abhorrent’",
      "titleKo": "캐나다 총리, 후티의 사우디 공격을 ‘혐오스럽다’며 규탄",
      "summary": "",
-     "reportedAt": "2026-10-11T09:45:00.000Z",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QVDJPZmNzUUFaTzJUNzZJN3o3TE1iaXNhR3k5V0l0a2hCSjZnUUpvZlFIcHc2UjF1My1TTTFQZ1pCa3pZU0I1Wk0tQUVXejAtTXdHWg?oc=5"
+     "reportedAt": "2026-10-11T09:45:48.000Z",
+     "url": "https://saudigazette.com.sa/article/665295/saudi-arabia/canadian-pm-condemns-houthi-attacks-on-saudi-arabia-as-abhorrent"
     }
    ]
   },
@@ -3997,6 +4894,69 @@
    ]
   },
   {
+   "id": "eb41dc158a2c",
+   "articleIds": [
+    "758ab2b2539e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드 공항에 대한 후티 공격에 대한 광범위한 지역·국제적 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Widespread Regional, Int’l Condemnation of Houthi Attack on Riyadh Airport",
+     "titleKo": "리야드 공항에 대한 후티 공격에 대한 광범위한 지역·국제적 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-11T05:54:28.000Z",
+     "url": "https://english.aawsat.com/node/5328211"
+    }
+   ]
+  },
+  {
+   "id": "7a7df6d3921a",
+   "articleIds": [
+    "9e6b06fe9677"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "유엔 예멘 특사: 사우디에 대한 후티 공격은 지역 안보 위협",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "UN Yemen Envoy: Houthi Attacks on Saudi Arabia Threaten Regional Security",
+     "titleKo": "유엔 예멘 특사: 사우디에 대한 후티 공격은 지역 안보 위협",
+     "summary": "",
+     "reportedAt": "2026-10-11T05:10:00.000Z",
+     "url": "https://english.aawsat.com/node/5328207"
+    }
+   ]
+  },
+  {
    "id": "57f91cf6fed1",
    "articleIds": [
     "48a49f9eb95a"
@@ -4061,6 +5021,101 @@
    ]
   },
   {
+   "id": "48a1cbb1480a",
+   "articleIds": [
+    "e8251dc33f1a"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "트럼프, 리야드 공항에 대한 후티 공격 '용납할 수 없다'고 발언",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Trump Says Houthi Attack on Riyadh Airport ‘Unacceptable’",
+     "titleKo": "트럼프, 리야드 공항에 대한 후티 공격 '용납할 수 없다'고 발언",
+     "summary": "",
+     "reportedAt": "2026-10-11T04:58:08.000Z",
+     "url": "https://english.aawsat.com/node/5328205"
+    }
+   ]
+  },
+  {
+   "id": "a67388969d9d",
+   "articleIds": [
+    "9ce91ac9d815"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "루비오: 우리는 후티 공격을 규탄한다…사우디와 함께 서겠다",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Rubio: We Condemn Houthi Attacks ...We Stand with Saudi Arabia",
+     "titleKo": "루비오: 우리는 후티 공격을 규탄한다…사우디와 함께 서겠다",
+     "summary": "",
+     "reportedAt": "2026-10-11T04:48:03.000Z",
+     "url": "https://english.aawsat.com/node/5328204"
+    }
+   ]
+  },
+  {
+   "id": "0a6aaac4473d",
+   "articleIds": [
+    "388a9093428d"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 동부 지역에서 드론 파괴하며 리야드 공항 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Coalition Destroys Drone in Eastern Region, Denounces Attack on Riyadh Airport",
+     "titleKo": "연합군, 동부 지역에서 드론 파괴하며 리야드 공항 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-11T04:34:02.000Z",
+     "url": "https://english.aawsat.com/node/5328202"
+    }
+   ]
+  },
+  {
    "id": "113c4c2ab35b",
    "articleIds": [
     "b2b488c61277"
@@ -4089,6 +5144,38 @@
      "summary": "",
      "reportedAt": "2026-10-11T04:27:30.000Z",
      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbEw1OExhYXZWcGlkc1RlV05Eb1hwcl9CUTRWbUM2TnlraGRWVDRWQTYxZXZBSHZNc1hpcG54N1BUV0psMTBGeXB3QkVyREpnemhadUdVNDhEMkZvOW40R1ltamJIeHgyQlB3WGpEdEJOeXFGLUN2dW0xVy1WUTNSdGRCdFBDQkhZV1JLQVJDNmE3S09LaEp2ZHNpMzJOLVZrbExHMnhuYXVEWFoydElDZ3dDdXlqT0l4TGlSZ3dsenZQQ3JmWDh3TDRBNEFYMUFjU290S0RqVnphSV9HSGh0cA?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "24450b48f97c",
+   "articleIds": [
+    "fef2c0247e21"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "루비오, 리야드 공항에 대한 치명적 후티 공격 규탄하며 미·사우디 연대 표명",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Rubio condemns deadly Houthi attack on Riyadh airport, says US stands with Saudi Arabia",
+     "titleKo": "루비오, 리야드 공항에 대한 치명적 후티 공격 규탄하며 미·사우디 연대 표명",
+     "summary": "",
+     "reportedAt": "2026-10-11T02:27:42.000Z",
+     "url": "https://saudigazette.com.sa/article/665294/saudi-arabia/rubio-condemns-houthi-attack-on-riyadh-airport-confirms-american-among-victims"
     }
    ]
   },
@@ -4151,6 +5238,72 @@
      "summary": "",
      "reportedAt": "2026-10-10T23:19:00.000Z",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbTc2anRyaUVLUU5xSFlJT3RyWE84ZENwbHhRcFVWUW5OMW53c2NVSlJtendUTlREMk5sVjV6bWRrOE52ZU5UQXJQRFZuek93UzFtcnNwbEdvcjF4N2F2Q3J5Sm9rU01OWks3emItTndwVnhMa3NIUnIzMi1zdGN1c0N3Uk8wTFE5VGkwaVVSY3lQTlRLbVlBendaRnAwbE1TMUF6Y2R3?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "067ca5485fa6",
+   "articleIds": [
+    "4e7ef7fe224d"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 리야드 공항에서의 전쟁범죄에 단호히 대응하겠다고 맹세",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition vows firm response to Houthi war crime at Riyadh airport",
+     "titleKo": "연합군, 리야드 공항에서의 전쟁범죄에 단호히 대응하겠다고 맹세",
+     "summary": "",
+     "reportedAt": "2026-10-10T23:06:23.000Z",
+     "url": "https://saudigazette.com.sa/article/665293/saudi-arabia/coalition-vows-firm-response-to-houthi-attack-on-riyadh-airport-calls-it-war-crime"
+    }
+   ]
+  },
+  {
+   "id": "a3cfefb47365",
+   "articleIds": [
+    "91a74eb7baf3"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "연합군: 발사체가 담맘의 킹 파드 국제공항 인근에 착탄",
+   "titleAuto": true,
+   "regions": [
+    "dammam",
+    "riyadh",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Projectile lands near King Fahd International Airport in Dammam, coalition says",
+     "titleKo": "연합군: 발사체가 담맘의 킹 파드 국제공항 인근에 착탄",
+     "summary": "",
+     "reportedAt": "2026-10-10T22:40:51.000Z",
+     "url": "https://saudigazette.com.sa/article/665291/saudi-arabia/projectile-lands-near-king-fahd-international-airport-in-dammam-coalition-confirms"
     }
    ]
   },
@@ -4246,6 +5399,38 @@
      "summary": "",
      "reportedAt": "2026-10-10T18:03:32.000Z",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY3ltenFGZXktY2E1dS1FU0NVdDkzamJxYTRrcGhpM2s2VkpjYzBTcDIzZzNLcnBiYjdEczktS052UlBMXzBueGR2WUM0dGkxTVNUdXF6VmVxRmZnOGlwY1gxWUttbWFybEtFcDFwMDN5M2tUUm9CWkZUTHdUVW4zRTFkRUp5NlllQVlOLXZ2bDhnelpsUEpLXzlMZHhoRFlFUkIyWWFSWUtUSjh1RXExWmhqY3NyMURqU3E0QkFObFdWdlNRMWc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "22bbd70fda0d",
+   "articleIds": [
+    "eb381d6531c6"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "GACA: 공격 이후 리야드 공항 운영 일시 중단",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "GACA: Operations at Riyadh Airport Temporarily Suspended after Attack",
+     "titleKo": "GACA: 공격 이후 리야드 공항 운영 일시 중단",
+     "summary": "",
+     "reportedAt": "2026-10-10T17:00:54.000Z",
+     "url": "https://english.aawsat.com/node/5328111"
     }
    ]
   },
@@ -4396,6 +5581,24 @@
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxON3hKM0tyUDRYZ0ptS1I1ZGpDMzdHLU9zbER2LTNSb1QzcHk2SkR3VzY4VHBpQXIxR2hRcjk3d19pbTVqLWkzQTRtVkQ4R0lWV25rSFpzVGQwdkhMTGxaSDdDMVR5RUhEQ3FXS1RfY01heEl1ek5hSHFkNlBkOU83cnN1VkFVQjhUMlJuTUpqYnVxQV9zVkpBMGc3SkhadUhqMXJOM3lqVTdSRFBvbzdITWlSSVB3RW9HWkZnVEM5Skx4aWhNVjlfZWZOS3ROdw?oc=5"
   },
   {
+   "id": "3718d7ab79f7",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "airport",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "이란 전쟁 실시간: 트럼프, 후티들이 '행동을 잘못하고 있다'고 비난…리야드 항공편 중단",
+   "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
+   "summary": "",
+   "reportedAt": "2026-10-13T00:00:00.000Z",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss"
+  },
+  {
    "id": "d4b95cb5f4a7",
    "outlet": "Reuters",
    "official": false,
@@ -4413,6 +5616,59 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGUtWGlRWGVfTVVCaFlXbDQ3UTA4bmlUN2QxdV9yT19EOUZGTkhKNW5xR2hQcDJmaE1pX1F1Tmg4TEZ6VTMxcWl5QzdHdVdZa2U1ZDF5Vm5ONGhhNDFPd00xLXZKNXVSaXJGYTB2QVV6dkJ6WmtBS29uMTNyNko5dlptaEdjWngxR2gxa3FfNTc4bzdmaElUOHVzZTVfN0oxeXhwdExKLWxycEpBRGNna0QzM2N5NGRfaVE?oc=5"
   },
   {
+   "id": "075f862fccd1",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": true,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "후티 미사일 공격, 사흘 연속으로 사우디 수도 리야드 겨냥",
+   "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+   "summary": "",
+   "reportedAt": "2026-10-12T23:54:05.000Z",
+   "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss"
+  },
+  {
+   "id": "f68cd95af66d",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 공항 공격 피해자들 살린 의료진 400명",
+   "title": "400 Medical Staff Save Victims of Riyadh Airport Attack",
+   "summary": "",
+   "reportedAt": "2026-10-12T22:26:26.000Z",
+   "url": "https://english.aawsat.com/node/5328911"
+  },
+  {
+   "id": "240c5f2a9c8c",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "유엔 인권 최고대표, 사우디 항공기지에 대한 공격에 '경악'",
+   "title": "UN Human Rights Chief ‘Appalled’ by Attacks on Airports Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-12T21:56:38.000Z",
+   "url": "https://english.aawsat.com/node/5328903"
+  },
+  {
    "id": "1d4cbcc91873",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -4428,6 +5684,40 @@
    "summary": "",
    "reportedAt": "2026-10-12T21:54:55.000Z",
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1jQzM0XzNVTFM4Wkt0NXRjQVdiVENBRkpzdGhxUFVDcVpwQkkxem1PRm9Wa3RkSTVyS2dCV1FHU0JZanNzMVoxWURn?oc=5"
+  },
+  {
+   "id": "f5ac22202581",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "사우디 대무프티: 후티 민병대의 성지 공격은 중대한 범죄로 심각한 결과 초래",
+   "title": "Saudi Grand Mufti: Houthi Militia's Targeting of Holy Sites Is a Grave Crime with Dire Consequences",
+   "summary": "",
+   "reportedAt": "2026-10-12T21:37:59.000Z",
+   "url": "https://english.aawsat.com/node/5328898"
+  },
+  {
+   "id": "e2e269e85073",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "70여 개국 각료·이슬람 인사들, 사우디 겨냥한 후티 공격 규탄",
+   "title": "Ministers, Islamic Figures from Over 70 Countries Condemn Houthi Attacks Targeting Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-12T21:18:47.000Z",
+   "url": "https://english.aawsat.com/node/5328891"
   },
   {
    "id": "123133a8f021",
@@ -4584,6 +5874,40 @@
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9BLTFXNVZpb09JUDkyeXF2Vy1qdUlPSXFqUlMxX2JIbHBYbG9xRGtNMjh4TUZRc25OY2FfamotYkJySUZaWTFFZGNn?oc=5"
   },
   {
+   "id": "c0224cfae1a0",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 주지사, 후티 공격 부상자들에 위로: 사우디 지도부가 전폭적으로 함께한다",
+   "title": "Riyadh Governor Reassures Those Injured in Houthi Attack: Saudi Leadership Stands with You Wholeheartedly",
+   "summary": "",
+   "reportedAt": "2026-10-12T16:21:30.000Z",
+   "url": "https://english.aawsat.com/node/5328804"
+  },
+  {
+   "id": "3182fd7cc0f9",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "요르단 국왕, 후티의 사우디 공격 규탄하며 국왕이 왕세자에게 전화",
+   "title": "Crown Prince Receives Call from King of Jordan Condemning Houthi Attacks on Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-12T16:07:33.000Z",
+   "url": "https://english.aawsat.com/node/5328795"
+  },
+  {
    "id": "f59701515910",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -4600,6 +5924,23 @@
    "summary": "리야드 공항 공격 피해자들을 지역 관리가 방문했다고 보도했어요.",
    "reportedAt": "2026-10-12T15:05:33.000Z",
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBvQ3ZxZDl6eDlqT0tLMXFWZl9XOGd4UUQ5bDNhMjUta2lHVF9LN1FUZll0V2VvOVFJVjRXWllHUW5XY0VKVkpiN0dR?oc=5"
+  },
+  {
+   "id": "a3bf5d91b58f",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "리야드·카미스무샤이트로 발사된 탄도미사일 3발 파괴",
+   "title": "3 Ballistic Missiles Fired at Riyadh, Khamis Mushait Are Destroyed",
+   "summary": "",
+   "reportedAt": "2026-10-12T15:03:49.000Z",
+   "url": "https://english.aawsat.com/node/5328568"
   },
   {
    "id": "e3e0d2680e39",
@@ -4704,6 +6045,23 @@
    "summary": "로이터는 두 차례 공항 공격 여파로 사우디 주식이 하락했다고 보도했어요.",
    "reportedAt": "2026-10-12T13:44:30.000Z",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDJseDNYUmxPQzZqWnBZM1hRbXJhaGQwdklnQVZBUWp3WEY2SUczaGpYejg3bXRDYzdDN3ctYzRVNVhBc05Rc084QzdOemRFX1l0a2J5TElELVFXUldBZEd6WVItdjVaeFZfWTVEdjJ5VGVkVmxiLVZ5ZWg3ckFLclRTcG1OaExuTnZXamxFcElNalR0SWlPUm5qY2lIa0dFQVJmc24wX0F2WG1nc3hnV3Z0dXEyN0pLWmhnRXJHeFVJTVU?oc=5"
+  },
+  {
+   "id": "aa1d8565d29b",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "아람코 사장 겸 CEO: 지역 에너지 인프라 공격은 세계 경제 위협",
+   "title": "Aramco President & CEO: Attacks on the Region’s Energy Infrastructure Threaten Global Economies",
+   "summary": "",
+   "reportedAt": "2026-10-12T12:47:21.000Z",
+   "url": "https://english.aawsat.com/node/5328676"
   },
   {
    "id": "26a779095801",
@@ -4862,6 +6220,23 @@
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1CeU9iVXhIV1VmSTlHczhSMDZ3YXJpb2xtalZydVAxSUxybXItRFhkTVIxaThqTkVWbF95ZGhaU2FMWjRodVZrUHl3?oc=5"
   },
   {
+   "id": "0b8b9f87df61",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "사우디·이란 외교장관, 지역 긴장 논의…영국·시리아는 후티 공격 규탄",
+   "title": "Saudi, Iranian FMs Discuss Regional Tensions as UK, Syria Condemn Houthi Attack",
+   "summary": "",
+   "reportedAt": "2026-10-11T21:22:57.000Z",
+   "url": "https://english.aawsat.com/node/5328466"
+  },
+  {
    "id": "df271d5d076c",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -4877,6 +6252,26 @@
    "summary": "",
    "reportedAt": "2026-10-11T21:16:36.000Z",
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9RSk9zZEtBX09IYzc4VlFzdnhlbHlXWVgzU0FBZHV1YWk3b3NjTU5Nc1V1VkJwTENlMFlaTzFiZTFiMUZ2d3FmOXRn?oc=5"
+  },
+  {
+   "id": "7ec60996487e",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "dammam",
+    "riyadh",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "titleKo": "GACA: 리야드·담맘 공항에 대한 두 차례 신규 공격으로 주민 1명 사망·11명 부상",
+   "title": "GACA: Resident Killed, 11 Others Wounded in Two New Attacks on Riyadh, Dammam Airports",
+   "summary": "",
+   "reportedAt": "2026-10-11T21:13:05.000Z",
+   "url": "https://english.aawsat.com/node/5328465"
   },
   {
    "id": "297b2d209c8d",
@@ -4968,6 +6363,24 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLTJfSWlWVlBITGJXYmNLS29KSWh1OHhQM2lLXzBBNE5FaXNiUHN2Z3k2T3Z4U3FRaE52T0VEeHhvMV9EUFNDOUd5SUF6UDBpYnR3dktGZVdKQUJVQ0oxc3RnaE44akh5d1FpZFJSQTdSY0lXUkVPUWpXQkhQZ19uR0U3QlZlTGFucDRRZEpsejJJX1RHNEJMbF85cU5LSUx4WXctVGprc3lQRnA5amc?oc=5"
   },
   {
+   "id": "f8053130bfef",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 공항 공격으로 12명 사망·309명 부상; 연합군 대응 약속",
+   "title": "12 Killed, 309 Injured in Attack on Riyadh Airport; Coalition Vows Response",
+   "summary": "",
+   "reportedAt": "2026-10-11T10:34:01.000Z",
+   "url": "https://english.aawsat.com/node/5328277"
+  },
+  {
    "id": "d048ab4d669d",
    "outlet": "Reuters",
    "official": false,
@@ -4983,6 +6396,24 @@
    "summary": "",
    "reportedAt": "2026-10-11T10:23:00.000Z",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5"
+  },
+  {
+   "id": "0f708a927c81",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "영국 국방장관: 리야드 공항에 대한 후티 공격은 '위험한 고조'이자 '비열한 행위'",
+   "title": "UK Defense Minister: Houthi Attack on Riyadh Airport 'Dangerous Escalation' and 'Contemptible'",
+   "summary": "",
+   "reportedAt": "2026-10-11T09:48:07.000Z",
+   "url": "https://english.aawsat.com/node/5328257"
   },
   {
    "id": "996d44947a76",
@@ -5020,6 +6451,94 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMUlyV0IybXFzanN6N1FSS3JuaEljNFhGMWtwXzJwR3g0S0NTVkNvUW1CSW4tSWxzY2txeTAxZGxvR2Y2RW53cklmbF8tNGVpaEFTRXlMeW15RkpkVGQ3clNwejJoOXBmQnhYd1ZXWGFJMVVBZ1hpUGFPWDdXeWV4LU1ORFVoekJleFlnOHFRenp4d29OVmV4U0c4eUJJY051RGFna01qMUJ2WFp3cGdHUm5kV0lSZ1hMMFJpdExQN21wMkJHcm1GU01yWQ?oc=5"
   },
   {
+   "id": "758ab2b2539e",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 공항에 대한 후티 공격에 대한 광범위한 지역·국제적 규탄",
+   "title": "Widespread Regional, Int’l Condemnation of Houthi Attack on Riyadh Airport",
+   "summary": "",
+   "reportedAt": "2026-10-11T05:54:28.000Z",
+   "url": "https://english.aawsat.com/node/5328211"
+  },
+  {
+   "id": "9e6b06fe9677",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "유엔 예멘 특사: 사우디에 대한 후티 공격은 지역 안보 위협",
+   "title": "UN Yemen Envoy: Houthi Attacks on Saudi Arabia Threaten Regional Security",
+   "summary": "",
+   "reportedAt": "2026-10-11T05:10:00.000Z",
+   "url": "https://english.aawsat.com/node/5328207"
+  },
+  {
+   "id": "e8251dc33f1a",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "트럼프, 리야드 공항에 대한 후티 공격 '용납할 수 없다'고 발언",
+   "title": "Trump Says Houthi Attack on Riyadh Airport ‘Unacceptable’",
+   "summary": "",
+   "reportedAt": "2026-10-11T04:58:08.000Z",
+   "url": "https://english.aawsat.com/node/5328205"
+  },
+  {
+   "id": "9ce91ac9d815",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "루비오: 우리는 후티 공격을 규탄한다…사우디와 함께 서겠다",
+   "title": "Rubio: We Condemn Houthi Attacks ...We Stand with Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-11T04:48:03.000Z",
+   "url": "https://english.aawsat.com/node/5328204"
+  },
+  {
+   "id": "388a9093428d",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "drone",
+   "sev": "high",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "연합군, 동부 지역에서 드론 파괴하며 리야드 공항 공격 규탄",
+   "title": "Coalition Destroys Drone in Eastern Region, Denounces Attack on Riyadh Airport",
+   "summary": "",
+   "reportedAt": "2026-10-11T04:34:02.000Z",
+   "url": "https://english.aawsat.com/node/5328202"
+  },
+  {
    "id": "5b500b09da80",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -5052,6 +6571,24 @@
    "summary": "",
    "reportedAt": "2026-10-10T18:50:30.000Z",
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxc1JjLXR2LXY5aFJQY1NUd2l2TUo1RlNLSVZWTVE4Nmdrc2JveU04Y2dwVEoyZ21zX2xCUnhqUnRBcDlMb1lkcTRR?oc=5"
+  },
+  {
+   "id": "eb381d6531c6",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "airport",
+   "sev": "mid",
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "GACA: 공격 이후 리야드 공항 운영 일시 중단",
+   "title": "GACA: Operations at Riyadh Airport Temporarily Suspended after Attack",
+   "summary": "",
+   "reportedAt": "2026-10-10T17:00:54.000Z",
+   "url": "https://english.aawsat.com/node/5328111"
   },
   {
    "id": "0d10350f47ac",
@@ -5118,6 +6655,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Fa0JkS2IydzJwUjY5djFZSl9XSEJRRDlJX3NWQWgtS2tLeE8wbHlpZWtjTVdKYXNNc2F1VkM4VWF5UDVQdXJvakYzcmRNcWZFQUdId0EtU3ZkcUpGTUhJaTVhV3NOS0k?oc=5",
     "reportedAt": 1791853380000,
+    "assumeSaudi": false,
     "firstSeen": 1791853831251
    },
    {
@@ -5131,6 +6669,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYTBHS2tyUUF5OG9GcElJX29vbGhTYm5yRWF5cl8tMU5FMnlibUtwNUlYOTBrSGJBQTY0OGRyYTNkZll0RkpiXzVoNWxPalQtVlNDS3RsSHBSTnZrSjQzdWZPNmcxbG5sMVpvSTdOMGRrWUc5eXRUY3QtVnJ3bThkbGZhQQ?oc=5",
     "reportedAt": 1791852960000,
+    "assumeSaudi": false,
     "firstSeen": 1791853831251
    },
    {
@@ -5144,6 +6683,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02YXdSZFhOM3Nkbld5WW9tSTlfc29iVUNTWTZES09OTWF6NkduV0VzNGJxaFZvSVlod2tZa09odC1qMFpNOV9LMXp2UnBPang1dUljQzhXVlY5Q03SAWBBVV95cUxNV01mVGw5RF9Vb2JQU19qRm9DZWhuUXRKNU5tX3g2N0Q5VV94d3psWWJhdFUxMnBHcXFWM0dlM1NocGlIaVdIM3JMcFhITjc1THdDcF9MVW5GZlI5ODhaeEo?oc=5",
     "reportedAt": 1791852779000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5157,6 +6697,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrQWNEUGtlckJ0TDdoRUpqRHFHbzA1b1l3cXBEUUc5WWRZNkN1RTZ5RW9VUFc5RnNtX2M4S2EzSnBaSjA4R2N2UVhQVHExU3BXZHRIaUwwdXNzR2vSAWBBVV95cUxORWVVOXdyYng0MlJvQ01TTHlKWTl2WENQY0NJWnBuMGxQY0JNdEpZcm9ROHVlb1FJWDZHTW1fcVRCOTlvam01VmhnVzhNSlNfSGdITTJYTE01WWpWa0s4Mi0?oc=5",
     "reportedAt": 1791852730000,
+    "assumeSaudi": false,
     "firstSeen": 1791853326808
    },
    {
@@ -5170,6 +6711,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxON3hKM0tyUDRYZ0ptS1I1ZGpDMzdHLU9zbER2LTNSb1QzcHk2SkR3VzY4VHBpQXIxR2hRcjk3d19pbTVqLWkzQTRtVkQ4R0lWV25rSFpzVGQwdkhMTGxaSDdDMVR5RUhEQ3FXS1RfY01heEl1ek5hSHFkNlBkOU83cnN1VkFVQjhUMlJuTUpqYnVxQV9zVkpBMGc3SkhadUhqMXJOM3lqVTdSRFBvbzdITWlSSVB3RW9HWkZnVEM5Skx4aWhNVjlfZWZOS3ROdw?oc=5",
     "reportedAt": 1791851160000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5183,6 +6725,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxWGZRbi1lYVVGb1gtU1NuTmR6X1pBUkFQMy16Vm5tVVFWVG81YV9EcDJjdWFTeGY2TnFiN0pZcTNSZmVTanFrMmdqdHNOZkh1RDU2Nkpkcm5ERld6Ty16V9IBeEFVX3lxTE9HOXNHMXhxU0JEaUhZZ3dXUk9fVTFHNm9zUzVWd01rdjRZU3k1YlZCdHlpTEIwWG11dmtnQzFZeTlzSWRUaExSeEVZNll4MFhzeXgydjdhSktQZDExbDhzOXowVkszSDJlRWhfWW03Vm1SVjc4YzRSWg?oc=5",
     "reportedAt": 1791850782000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5199,6 +6742,20 @@
     "firstSeen": 1791853948085
    },
    {
+    "id": "b0277f9dfd1c",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "What ideology lies behind the Houthis’ destructive doctrine?",
+    "snippet": "CAIRO: International observers have tended to explain the Houthis’ attacks on Saudi airports and other civilian targets in recent days through the prism of military strategy, regional rivalry and the militia’s alliance with Iran. But behind the missiles and drones lies an ideology that divides the world into allies and enemies, claims exclusive religious legitimacy and presents confrontation as a ",
+    "url": "https://www.arabnews.com/middle-east/what-ideology-lies-behind-the-houthis-destructive-doctrine-3005874",
+    "reportedAt": 1791850314000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
     "id": "4ed24b99b2ed",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -5209,6 +6766,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LeWwxZFBUby1TQkROQ1dzOGp6TDZFM0hqcGxqMWwwdkVkUWhRUGMzTk1zbFJFbnVmTGhjVDdmLXBuTU9sT0IwWkotQ04zQmZ0NTRid2lPbWVMRVFxcmtLWkhB?oc=5",
     "reportedAt": 1791850134000,
+    "assumeSaudi": false,
     "firstSeen": 1791850832839
    },
    {
@@ -5222,7 +6780,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qWW1WVVdlRDZocE10X1ViOUJtVUxTTTFJdnFoeVRmV3QwY21XajBBWVViVE8xTXhLZnZSaE4tX1I2Mm15UHlUZzVDVElVbFE2RWtNcDltSEttSDZRd2c?oc=5",
     "reportedAt": 1791849960000,
+    "assumeSaudi": false,
     "firstSeen": 1791850832839
+   },
+   {
+    "id": "3718d7ab79f7",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
+    "snippet": "US President Trump condemns Yemen&#039;s Houthis over escalating attacks, as Saudi Arabia halts flights at Riyadh airport.",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
+    "reportedAt": 1791849600000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "d4b95cb5f4a7",
@@ -5235,7 +6808,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGUtWGlRWGVfTVVCaFlXbDQ3UTA4bmlUN2QxdV9yT19EOUZGTkhKNW5xR2hQcDJmaE1pX1F1Tmg4TEZ6VTMxcWl5QzdHdVdZa2U1ZDF5Vm5ONGhhNDFPd00xLXZKNXVSaXJGYTB2QVV6dkJ6WmtBS29uMTNyNko5dlptaEdjWngxR2gxa3FfNTc4bzdmaElUOHVzZTVfN0oxeXhwdExKLWxycEpBRGNna0QzM2N5NGRfaVE?oc=5",
     "reportedAt": 1791849294000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "075f862fccd1",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+    "snippet": "Saudi Arabia claims it downed a ballistic missile fired at Riyadh, as the Houthis say they targeted King Khalid airport.",
+    "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss",
+    "reportedAt": 1791849245000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "be690376d1ab",
@@ -5248,6 +6836,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmQjRySzE2bFlyT1dNVDJYbEZMM0tBYUJSQWlpQ25OUXZDQzVmWlg4c2tVNHVCd0JyYXVFNDFidktCNFlBSWQzUThIcVhndlpqby02S1RMS1J6LWJtMTZRQXZtV3JxNUJLTkt6MUFpeWxNNXB5?oc=5",
     "reportedAt": 1791848600000,
+    "assumeSaudi": false,
     "firstSeen": 1791849034379
    },
    {
@@ -5261,6 +6850,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mSkxOekZGZHdyU1pSRXViU2tVQk9ZSmtFSmNnWnVLVHZfZXY3cEpuc0dWNjBnblI0RXBFNWYxQWUtQXpBZHcwM0R0UEt0a1VNdVRJSmJUR0xxaVVfdVRhVkZYc9IBY0FVX3lxTE1mSkxOekZGZHdyU1pSRXViU2tVQk9ZSmtFSmNnWnVLVHZfZXY3cEpuc0dWNjBnblI0RXBFNWYxQWUtQXpBZHcwM0R0UEt0a1VNdVRJSmJUR0xxaVVfdVRhVkZYcw?oc=5",
     "reportedAt": 1791845880000,
+    "assumeSaudi": false,
     "firstSeen": 1791850832839
    },
    {
@@ -5274,6 +6864,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSNFZNUENmYW9mWTY0SFdTVHFHQjFKOTB4eEpkYWVvQU5taUt0VlBsR0luQlQ3WjhJYzlKcEcxMWxXakdBMVNpdk9SLVBkcWZRN3AzOV8wTlEwU2xoaW0wTjZNV18yNHhFWVFPUFZTTkV5YXBFbDBIS9IBeEFVX3lxTFBSNFZNUENmYW9mWTY0SFdTVHFHQjFKOTB4eEpkYWVvQU5taUt0VlBsR0luQlQ3WjhJYzlKcEcxMWxXakdBMVNpdk9SLVBkcWZRN3AzOV8wTlEwU2xoaW0wTjZNV18yNHhFWVFPUFZTTkV5YXBFbDBISw?oc=5",
     "reportedAt": 1791845839000,
+    "assumeSaudi": false,
     "firstSeen": 1791846629820
    },
    {
@@ -5287,6 +6878,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5",
     "reportedAt": 1791845640000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -5300,6 +6892,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RZTh5bGg0eGlSMXE5NEtvVUV0eHVOcmZSUHpKQjZrTEZZVWFkbzVTdlRfVFZQMXdvY0NWbmhLV1R6VkU1STVzbEg0RG1UZ0pybFFHc3VfRXJyNnRrNEM4NEhGWWNUTVBKdWdKMHgtUUNDN3dyT0thY9IBeEFVX3lxTE9RZTh5bGg0eGlSMXE5NEtvVUV0eHVOcmZSUHpKQjZrTEZZVWFkbzVTdlRfVFZQMXdvY0NWbmhLV1R6VkU1STVzbEg0RG1UZ0pybFFHc3VfRXJyNnRrNEM4NEhGWWNUTVBKdWdKMHgtUUNDN3dyT0thYw?oc=5",
     "reportedAt": 1791845544000,
+    "assumeSaudi": false,
     "firstSeen": 1791845789727
    },
    {
@@ -5313,6 +6906,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KLUhkZVVGVTQ1X290c2VVRHBINkZ6Y19kY2ZiamZVTks0NURJcG1faV9sRVYxT0tjTHBJbVlZU2ctSVR4TXNqeGdXX2xsc3pHbS1TQm54QlRXTzlfSi1Ta2pIV2loMlU?oc=5",
     "reportedAt": 1791844680000,
+    "assumeSaudi": false,
     "firstSeen": 1791845433242
    },
    {
@@ -5326,7 +6920,50 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzSWlQWjBTUFZGeldsclRTc0FrZFFOTEdEZHFoTFhRSjEtVWNaUHVpVUVBT0ZpaGhvN0VVUVk0d25yS3dhOXZnYWlNSWtrdW1lNFpZam9SbHVtb1JCUEJBam5FY0wwU3RyXzUxaWQtbi1aNEXSAXNBVV95cUxQM0lpUFowU1BWRnpXbHJUU3NBa2RRTkxHRGRxaExYUUoxLVVjWlB1aVVFQU9GaWhobzdFVVFZNHduckt3YTl2Z2FpTUlra3VtZTRaWWpvUmx1bW9SQlBCQWpuRWNMMFN0cl81MWlkLW4tWjRF?oc=5",
     "reportedAt": 1791844320000,
+    "assumeSaudi": false,
     "firstSeen": 1791849647133
+   },
+   {
+    "id": "f68cd95af66d",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "400 Medical Staff Save Victims of Riyadh Airport Attack",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328911",
+    "reportedAt": 1791843986000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "03d90ced701b",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Al-Dossary: Saudi Arabia is prepared to deal with any emergency situation",
+    "snippet": "RIYADH — Minister of Media Salman Al-Dossary expressed pride over the resilience and preparedness of Saudi security forces in repelling the Houthi terrorist attacks that target civilians and civilian infrastructure in the Kingdom. He affirmed that the Kingdom would remain strong and capable of safeguarding its security and protecting its resources, while continuing its unwavering pursuit of constr",
+    "url": "https://saudigazette.com.sa/article/665361/saudi-arabia/al-dossary-saudi-arabia-is-prepared-to-deal-with-any-emergency-situation",
+    "reportedAt": 1791843691000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "240c5f2a9c8c",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "UN Human Rights Chief ‘Appalled’ by Attacks on Airports Saudi Arabia",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328903",
+    "reportedAt": 1791842198000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "1d4cbcc91873",
@@ -5339,6 +6976,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1jQzM0XzNVTFM4Wkt0NXRjQVdiVENBRkpzdGhxUFVDcVpwQkkxem1PRm9Wa3RkSTVyS2dCV1FHU0JZanNzMVoxWURn?oc=5",
     "reportedAt": 1791842095000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5352,7 +6990,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9UY2Zka2piVFBuM0pOeDZZemYwWGpLb1Q2X3lRaDlWenFaVzBVSE1NaExCQWNwczhNcU9lYnB2em5QOXdURTRIUGlFczd5RVU5RWdTVjNOQXUzVW9TMkF0a2dxTUxaUG5MaE1KY0M0bkR6NlVX?oc=5",
     "reportedAt": 1791841676000,
+    "assumeSaudi": false,
     "firstSeen": 1791841827519
+   },
+   {
+    "id": "f5ac22202581",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Saudi Grand Mufti: Houthi Militia's Targeting of Holy Sites Is a Grave Crime with Dire Consequences",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328898",
+    "reportedAt": 1791841079000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "b7452c99052d",
@@ -5365,7 +7018,36 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YQ1M5emtTRlQ2OGp2LV9mbVlKZDZYZjlUUU4ydUtaY1RYVldpSVFoVnNHUjE1dzgyTFdmUGxsRHBtWWZPV2c5NHRDUDJDaEVKTXdTMjd6RmVLdEFJdlA5UXhoaGdEYnhxZGfSAWZBVV95cUxNeFViMFZGZ0pYSDhwNEJYVnc0ZmRsR0RuUHRJUGxoOXN5UjJad3AtY1NVSUVnOWY0VWtjY2M4ZXNKcHVYd1B3dVlHTFNGZU1fdzRzMGFUQW9saDJPUWJ6ei1Wd1RiYmc?oc=5",
     "reportedAt": 1791840156000,
+    "assumeSaudi": false,
     "firstSeen": 1791841089920
+   },
+   {
+    "id": "e2e269e85073",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Ministers, Islamic Figures from Over 70 Countries Condemn Houthi Attacks Targeting Saudi Arabia",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328891",
+    "reportedAt": 1791839927000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "9242648d5314",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "UN Human Rights Chief condemns Houthi attacks on Saudi airports",
+    "snippet": "WASHINGTON — United Nations High Commissioner for Human Rights Volker Türk condemned the repeated attacks carried out by the Houthis in recent days on airports in Saudi Arabia. Türk noted that attacks on civilians and civilian infrastructure are prohibited under international humanitarian law. He stressed the need to investigate these attacks and other violations and hold those responsible account",
+    "url": "https://saudigazette.com.sa/article/665360/saudi-arabia/un-human-rights-chief-condemns-houthi-attacks-on-saudi-airports",
+    "reportedAt": 1791839819000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "f0c77940eae2",
@@ -5378,6 +7060,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00MWpVSEl0eW1wTVdHZVNCZUJ3aG44VGZ4TE8tdmxRRm5sZE9DTV96alRubEwyVU5NakRVeWZ6eTNOYXRKSGN2Mi1sd1JjVWJjcG9QeXVvWndWZVk?oc=5",
     "reportedAt": 1791839700000,
+    "assumeSaudi": false,
     "firstSeen": 1791840637909
    },
    {
@@ -5391,7 +7074,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GQnJfQUU2YWlPYjRZcUFfS3c2amh0XzFsdVNfblJqUllFbGNPSUVkWkhsZURMWWRJaUZ1UDlpSkdOcHVHekF3ZjMxS1ROaVZsbzlZRHZqN2pjTU1QZlQ3bHJMSmhfZFVuTXRBQjN3M3Ywa3BrTmxDVXRR0gF6QVVfeXFMT09wdVRLZDhWcEdNcW5DRW9GV3NzNFpNa0RTbGFYdXRScU8tUTVjUVBMclRzYUgxa3QxWFNnY1VTVGhqa1BHMkp6WXcxTG1YdmRRbUJwV2JvTk5SOGFHa18xZDBUWG5qTDdRTm0yMGZnSWhkclhldUZveGc?oc=5",
     "reportedAt": 1791839686000,
+    "assumeSaudi": false,
     "firstSeen": 1791840637909
+   },
+   {
+    "id": "f5c5c27f489e",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Grand Mufti: Houthi&#039;s targeting of worshipers heading to holy mosques is the gravest crime",
+    "snippet": "RIYADH — Grand Mufti of Saudi Arabia, Chairman of the Council of Senior Scholars, and Head of the General Presidency of Scholarly Research and Ifta Sheikh Saleh Al-Fawzan said that Houthi's act of targeting worshipers heading to the Two Holy Mosques is a grave crime. \"The terrorist Houthi militia's targeting of civilian facilities and the killing of innocent people, including worshippers heading t",
+    "url": "https://saudigazette.com.sa/article/665359/saudi-arabia/grand-mufti-houthis-targeting-of-worshipers-heading-to-holy-mosques-is-the-gravest-crime",
+    "reportedAt": 1791839654000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "39424c612041",
@@ -5404,6 +7102,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uQ2ZGWnh6YzgyYTdKaXB5ZHgyUXdESzRGQTVqaVU1b3NxbzVzTDlkZC1ScUEya05Ha2xnUXY3aHhtOXRfcWRPZFF3MlVuRmJIeVozakI1NTAyS0VTZGRVYmtn?oc=5",
     "reportedAt": 1791839511000,
+    "assumeSaudi": false,
     "firstSeen": 1791839899198
    },
    {
@@ -5417,6 +7116,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZeTdIYnNrUXoxakpmUzl6YVlZY2o0ZGNwWExDcnQ4LU5ZMVVoUC1iNEx1SXFOWlFiVjlkb0tNYmFIZDQwNjFIVzJ0UDZHanBCY0JqdzdBeWVtSnFSUENuRkRVTUp0UjdOVVpJYjZDWmFCcjQ10gF0QVVfeXFMTVl5N0hic2tRejFqSmZTOXphWVljajRkY3BYTENydDgtTlkxVWhQLWI0THVJcU5aUWJWOWRvS01iYUhkNDA2MUhXMnRQNkdqcEJjQmp3N0F5ZW1KcVJQQ25GRFVNSnRSN05VWkliNkNaYUJyNDU?oc=5",
     "reportedAt": 1791839431000,
+    "assumeSaudi": false,
     "firstSeen": 1791852628483
    },
    {
@@ -5430,6 +7130,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OTjBhSE5jRnVxd3dnOVhIcXpuRlNUWTFwRzFGS1FlZ1dnV1VvN2FFT2JwRi0xWm5KR1dGT0FJdF95ZGtIeHdWVXVsVURwWVM1Vk9GQzJfcnFub3NqQ1Fnd1BpTkstRmc?oc=5",
     "reportedAt": 1791839340000,
+    "assumeSaudi": false,
     "firstSeen": 1791839899198
    },
    {
@@ -5443,6 +7144,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pN25DbFFfZFB4SnNQU1drTGhHVEFPcDI0TXUwTEI3MG1HUzdibnVFUHZYbnNtVDdLQ1gzY3JIVGZVTWxwSERicXdvLUtMRjF1UkdwWFZKQnjSAVhBVV95cUxPaTduQ2xRX2RQeEpzUFNXa0xoR1RBT3AyNE11MExCNzBtR1M3Ym51RVB2WG5zbVQ3S0NYM2NySFRmVU1scEhEYnF3by1LTEYxdVJHcFhWSkJ4?oc=5",
     "reportedAt": 1791838980000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5456,6 +7158,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUDFwS2RSQmhiZGtwVUVtLWp6NDBsaWx3VlNGSnltU3NxVU5PcU9rNXdZSk8tUmtuOVBmMHRaNG83X0lhVzFEX2hSN1hrMVZrM2dlOTE5ZkowU016dG1TV0wwcE1GUDBvWldNM2YzRHJOOHpRX3FFRXowLXU2dUltNEtKZTZGZzctRGtNQ2tvdU5TR1Z5d2RIOTEtNjNLS0ZReDh1bGhreElsd1hQWlNRU2d0OUFneU5iVmdqRHBzcFItZ1FmYldxb2l3SGFJaVhuSlExSw?oc=5",
     "reportedAt": 1791838758000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5469,6 +7172,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5abzl6Uk9PT3RxbWNRa2dzZnoySktLTkgwQUZTbmtIQlRtUkQwMXU1VnZzSW0zenhoWVF1VkZBMGpkZ3FCdDJDRUJZaUpubnRTWVNidmphSjUtcEZRTGloakpsbFo0aUk?oc=5",
     "reportedAt": 1791838680000,
+    "assumeSaudi": false,
     "firstSeen": 1791839431517
    },
    {
@@ -5482,6 +7186,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zUkZNV2Qyeld1OVh1OENKOENMZElBZ04xNmlSSUY4TzdKb3FZNm5sY09NbFpCRFZWYjlkWFA0NjJBbjg4eWZ5VDRhM1doR1JuNndwYjQtREI5TFRRdWRyTkd5MldmSWJuUXJ1bE5hTUl6ZklUT2dkQ9IBeEFVX3lxTE8zUkZNV2Qyeld1OVh1OENKOENMZElBZ04xNmlSSUY4TzdKb3FZNm5sY09NbFpCRFZWYjlkWFA0NjJBbjg4eWZ5VDRhM1doR1JuNndwYjQtREI5TFRRdWRyTkd5MldmSWJuUXJ1bE5hTUl6ZklUT2dkQw?oc=5",
     "reportedAt": 1791838432000,
+    "assumeSaudi": false,
     "firstSeen": 1791843029082
    },
    {
@@ -5495,6 +7200,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqSWtxZ3JzQzQ5RU1uZlFnRl9DQmdyYkJET1lzUHNGSGcyZEphMVBiSW5jNlRuUzZqTVRraWR0NGNkVzdYOEtWaGJRd2hMa2JKNjZzaWpB?oc=5",
     "reportedAt": 1791838157000,
+    "assumeSaudi": false,
     "firstSeen": 1791838844660
    },
    {
@@ -5508,6 +7214,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QZ240enBQaU02bTRla2stZDhjdDBVTnBtXzdnb1ZkaHd2aEV5X0JVYnotZ01MbmxMc3k4Z2c5R3JXaExXbTNiTkYyWGk3a2pKUjdLMnRJVXJOcGc3eThVMg?oc=5",
     "reportedAt": 1791837499000,
+    "assumeSaudi": false,
     "firstSeen": 1791837630089
    },
    {
@@ -5521,7 +7228,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVzZCUTExWncwX2F4VWNKYnZULWUyZHAwVjVINzFtVXoxanFJd2VCTHVXbWlGSzBpNFYzc3hJUFBpU2o2X29FLW1BQllVOGg2aFZrVXJ4LTRuZVpWMnBQNXlCTmpDeVd5bjI2VzFOVkhzS2ZTem9IcnJxalhzNHA0dXdBajJHLWdfY0ZLdFUySdIBbEFVX3lxTE9HRW5JQkpiRVFzX2RMSzk1TFdfZ3QyNVZoVEJpUVB5S2pGQS1VcmZBdlNsUEVyQWR6WWNqdDI5bC1BNFRuSWJ0Z0ZZMTh4UDhwazhOazRwTl9nTm1HR21USm5TeWVneW5uUU9HWA?oc=5",
     "reportedAt": 1791837420000,
+    "assumeSaudi": false,
     "firstSeen": 1791844237890
+   },
+   {
+    "id": "692877497c3c",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Islamic leaders condemn deadly Houthi attacks on Saudi Arabia that threaten safety of pilgrims",
+    "snippet": "Minister Sheikh Abdullatif Al-Asheikh received support from 176 global leaders condemning the recent Houthi attacks in Riyadh that killed 12 and injured 309, including a Bangladeshi Islamic scholar heading to perform Umrah. They emphasized the threats posed to the sanctity of the Two Holy Mosques and expressed solidarity with Saudi Arabia's efforts to ensure security and stability, denouncing the ",
+    "url": "https://www.arabnews.com/saudi-arabia/islamic-leaders-condemn-deadly-houthi-attacks-on-saudi-arabia-that-threaten-safety-of-pilgrims-3005981",
+    "reportedAt": 1791836374000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "bf649230f46d",
@@ -5534,6 +7256,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkcDgwa1VhSUZaVmE0bnB3REkyeGdOckdsT0kwTXhoVlpvR3RHYVV4OVF6b1M1bVlpRHJHb1BIWlZDMEZxYW5rcElBUGJqOEJCMDQwaXJwc0hzd0JGZndqMEJKekd3bUZRdmtVeDdQSVRHdGV30gF0QVVfeXFMTi1RcE0tS25LNl9GUzlFNmJETTA0SVJHTmUyQVlTOGtaRllDeFMtZ0RtVnJOSFhySlZJbGlLREpMTnBsWndyUDlkQkNma0ptdHBVTEhEVU1sc1JxMllNaElxcnZGdE9zT2tZcDB1M25rd0FoSW8?oc=5",
     "reportedAt": 1791835986000,
+    "assumeSaudi": false,
     "firstSeen": 1791837630089
    },
    {
@@ -5547,6 +7270,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50ZHA2TG9FSUNZQ3YzSTh6WThrZVJyNURBdDNpdkxoNW9YNnRRQ3RReThzNnE5LWJ6RUpIUzY3U3ZmOUhRZG1oT2FqLVM4OE50ZzI2RWwzMjY3c3c?oc=5",
     "reportedAt": 1791835980000,
+    "assumeSaudi": false,
     "firstSeen": 1791836430649
    },
    {
@@ -5560,6 +7284,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uOEYxWm5ZYi1LY2c2bzF5UGxIbzZiWDhBNkllTUNtSnFtMF8zd291M2xvWjNzbWlnY3E5bDV5bVFwdmV5czJLaEZyOUpiMW9CM3Q0a2tYbldWVzVxUVNkZUpkcU5xZnc?oc=5",
     "reportedAt": 1791835667000,
+    "assumeSaudi": false,
     "firstSeen": 1791836430649
    },
    {
@@ -5573,7 +7298,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE85SmdFWlM5NHhLd2d3NjRHOC1va0s2SXNpdzBURG11RkowVTdJeVAwdHQtRm9OV2x0LXpOOTlUTWQ5XzBDMVNhN3BR?oc=5",
     "reportedAt": 1791835164000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "00dac549a9fb",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Coalition forces intercept ballistic missile fired by Houthis toward Riyadh",
+    "snippet": "RIYADH — Coalition forces intercepted and destroyed a ballistic missile launched by the terrorist Houthi militia toward Riyadh on Monday. This was revealed by Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Restore Legitimacy in Yemen. Earlier on Monday, the Coalition said it was responding to a Houthi attack involving drones and cruise missiles.",
+    "url": "https://saudigazette.com.sa/article/665355/saudi-arabia/coalition-forces-intercept-ballistic-missile-fired-by-houthis-toward-riyadh",
+    "reportedAt": 1791834920000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "16b58ec46dcb",
@@ -5586,6 +7326,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ySDdTYUVGRGpFbEtIN0ZtdzZ2emgzN3RwOFNjajBGUFRGY1AzUWg0TlNPM2IwN2plVHpaRzBUbDA4dlpXVFNEUXdoTjU2bFBaRlhUdFN6V2dMYm_SAWBBVV95cUxQOVl6eHBCcGpBZlhPaXlfUFd2Z282WWhCOFRXSmx2TmpZNFo5emJVaEhDTG0zNEEweUdVbXlYcDNQeENZM3UxQTNETWNPTkdVWkgxRkh1bjUwT2Q2bXBEcjU?oc=5",
     "reportedAt": 1791834905000,
+    "assumeSaudi": false,
     "firstSeen": 1791845433242
    },
    {
@@ -5599,6 +7340,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBfMjMyQmVKUTFwRWY0NU5oWE1YRUVrNFhabkhiY0FneGJ5MXVpZ2Y1ZHlBMTFvSEJDVE5mS2hqYnhlcTI5UnV0V3N3?oc=5",
     "reportedAt": 1791834570000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5612,6 +7354,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjYnA3RTkxRS1hWUNoRHNrbjdzOHFWMUZQZjkxMGRSbXdHdmlBdnh1dWlWME56QjRvZmxfU2Rwbl9WMURrWVY2VmZTZW9EZDNTTmNocGl5UDdxbTTSAWBBVV95cUxPQ3FqeVBvWFdNOWFVWnJyWnVOMEJtZjhVXzc2V1hTTlpSZnRGUndtRC1WTGtGbmtxSHRUaHhaaWxjUmJuU1dNc0JlMzk3QTNNZmFfdWRnN09OajBPdGNlNFI?oc=5",
     "reportedAt": 1791834327000,
+    "assumeSaudi": false,
     "firstSeen": 1791850832839
    },
    {
@@ -5638,6 +7381,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGszbTdESk0xU0twcE1ZOHg4VFpzN2lzeWQ0ZDJseVpKczh6cE44eTNOb3ZDS3dnVnZJN3RCNE1wVDI0djVodU41LTN3WkVIemI0NWlucWpKY0tvU3JMeEM2YVN1OTBsdW5mZDVXeWhFcXdyQ1pGRjBVNTR6SmpBSXhzSXRObWtSTjlYcEJzOUxsX2Ezb28yZ1FrU083bzNpNmd2VlpjUkxnaE5PdEliNWpxeU5QNkp1V1JmcXlFdUJ1S01zcHc?oc=5",
     "reportedAt": 1791833795000,
+    "assumeSaudi": false,
     "firstSeen": 1791822014771
    },
    {
@@ -5651,6 +7395,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FREJ5b0dsZGZaR3FXbDRCOXlxbGFzU1A0NzJfend5RHR5ZDZTdnp2alRIbkloQVM1SmlGVUVnbDdLSG5DTnZva1hJVXk4eU5jU3NTeTJQcWxjTDBmQ0d3d00yMUZoUdIBZkFVX3lxTE1FREJ5b0dsZGZaR3FXbDRCOXlxbGFzU1A0NzJfend5RHR5ZDZTdnp2alRIbkloQVM1SmlGVUVnbDdLSG5DTnZva1hJVXk4eU5jU3NTeTJQcWxjTDBmQ0d3d00yMUZoUQ?oc=5",
     "reportedAt": 1791833400000,
+    "assumeSaudi": false,
     "firstSeen": 1791834027732
    },
    {
@@ -5664,6 +7409,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yZjVWdHlSZEpKUU1hWkJodTFqb2N6anhqamtZUTM5bTM0NXc2NXpHS3NDU3NOSTNWSEZRaGNfa3B4QzlmcWhob1oxU21xa3ZNLWxVaUk1Y1k1cWpOaTY1MzRYaEQ2aHpKUGc?oc=5",
     "reportedAt": 1791833328000,
+    "assumeSaudi": false,
     "firstSeen": 1791840637909
    },
    {
@@ -5677,6 +7423,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45akQ1TFZuUXM0WWM5MUE5aGdIOTJtRGIteXFFUHozX0tnVW9OUVhtaXF6ZzhFaFJhS0RRQ3FJbUZ5dzl4VTFaWVlUUFRPSWVvZzhVZ2NuS1NqaVFuZFdKRHRKbGRNbjBPYjRCWG95eFRPdHpS0gF0QVVfeXFMTnI2TXRKSDhobWlyRmZNZ2tWdGdlSmppZWtQOERwSkZMNmctTGRJTUxNU0d3aUFnZkVZLVY5Z1pYYVJSNEtUa2VuVWtFb29WUUh4VjFtQnlWc25lcmxUdGpidkIyVFpHVnlfdXd3b2VndHVBZFQ?oc=5",
     "reportedAt": 1791832293000,
+    "assumeSaudi": false,
     "firstSeen": 1791853326808
    },
    {
@@ -5687,9 +7434,10 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Americans detained in Saudi Arabia over photos related to attacks, US embassy says",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT0V6YTlwYkRaV1J4dkZoNHMyZFNkbGFVcDlfSTlGWUltdWd1WHdFYzBqNHNaSlZjdmw0RFROU19BOUs1Y29XeGIxZjdjU2hwVmYxUGttSGtNMFc1Y1N4RXBzeWpIZUJCODFQcVlrM3huSW81RDc1QUkxR2ZBUTRIbFVMZzRqcDM0UFBRMXF3NkpJVm0tYjJia1pCQmdnQk5SYmlpQm1MVUhUVGk2a2RkS3ctRUdVS01VZzl4cUZKS0Rrb2xmNlE?oc=5",
+    "snippet": "RIYADH: The US embassy in Riyadh said on Monday that American citizens had been detained for filming recent events in Saudi Arabia, which has suffered a string of deadly attacks by the Houthi militia. The US mission said “American citizens have been detained for taking photos of recent events,” without specifying how many were arrested. It noted that Saudi authorities have warned that “filming, pu",
+    "url": "https://www.arabnews.com/saudi-arabia/americans-detained-in-saudi-arabia-over-photos-related-to-attacks-us-embassy-says-3005976",
     "reportedAt": 1791831431000,
+    "assumeSaudi": false,
     "firstSeen": 1791831649930
    },
    {
@@ -5703,6 +7451,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBOS3dPdGtibEVzamNMLVgxYndtdWluRk80VlVPS2F3Tlp3TzNHQ3ZvX2toRGgtV05JeGpXQ2xpRUhoQkpJVXF2YjJR?oc=5",
     "reportedAt": 1791831274000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5716,6 +7465,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1HZVZGMGJUMndyMVhLWnRWTTFDVmZtWmpOSDFDd1ZVZU5VelcybXl6RWlfS2x3c2NEemtaUUxBS0RyaUNBb3lSTU5R?oc=5",
     "reportedAt": 1791830591000,
+    "assumeSaudi": false,
     "firstSeen": 1791839899198
    },
    {
@@ -5729,6 +7479,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQSDFUMUNJeWVOZF9Bb3gxUkhmLVdrTklSd3Y2S19GT0x2UUFkeG5VUjBQdmNNa3pocUhiNmRNOENsUmNZYkowQUdZa1RDNDJ6Z09kQ3VJeFlrcXfSAWBBVV95cUxNZk1yZFlqZUpyWkFlR2tVTFNXN3RQU3dpWUg4VFkxZ3BVV3YwNTRFbUR6MHNRd1hZbktMbUlrdFdtZ3RUNnZfYUdpbjRUYmlEcHJESWVsNUJIdWQ1WWE3Rkw?oc=5",
     "reportedAt": 1791830484000,
+    "assumeSaudi": false,
     "firstSeen": 1791837630089
    },
    {
@@ -5742,6 +7493,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRDZhZnVVTVk0RzlRWkh3clZ2enhSTkVNd1lRTzRVVVg3SXJQcUtyU0Q3QTJRMjJLZUhnejVfNGkxaGJmVFdrZEhCVkFTWUx5aDJSZGxscGR0RFVjS3YtMDJaLUdacEFBU080bXg4Sk84Mlo4dHA3eUc0ZDUwY0lKQkRRaDAwbTJnRmFVcVFodF9IcXJLbzJIcUxWeEVJQkpKUG1OcWFKeno1c2Rvam5fMlh6em9XUzFqemxhOENTTUFZUDdvdkhzYWt1V1RrXzky?oc=5",
     "reportedAt": 1791829992000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5752,9 +7504,10 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Coalition says ballistic missile fired by Houthis toward Riyadh intercepted",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVG9sZnVydnRxUmFOck91aE1xUTlfNTJfeFV5MXZKaF9fZ24yd2FwYUloX2VsUE9zOGV5WDhmb3VCNmtVcW1UOVQ0OW42ZXNFLS1CY1FGUXZmT0xkdG1uT2tXNmQ2cHk5NkUzOEs2ZVRHb0hIemkxQ3pVOGJGZzgyVWNvQ2EwNDhpaTUzVUNoMmpvTDhnbXdOcjFuZXNVX1lFcDU1aUlMeEt5aUNJQk9lVnBKVGYxdTMyY2xCam5n?oc=5",
+    "snippet": "RIYADH: The Coalition to Restore Legitimacy in Yemen said Monday that its forces intercepted a ballistic missile fired by the Houthis at the Saudi capital Riyadh. “Interception and destruction of a ballistic missile launched by the terrorist Houthi militia toward Riyadh,” Maj. Gen. Turki Al-Malki, spokesman for the coalition, wrote on X. Just after midnight on Tuesday, the coalition said that two ",
+    "url": "https://www.arabnews.com/saudi-arabia/coalition-says-ballistic-missile-fired-by-houthis-toward-riyadh-intercepted-3005972",
     "reportedAt": 1791829832000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5768,6 +7521,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE15U3VtazIyblRsXzVfeU1Id2dfVVZ6MnB2RDFMYWZvVzBNNEkteHBTVzdrZnpMbUpraFR1bzIzclNiTVkwNDhrVF9n?oc=5",
     "reportedAt": 1791829721000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5781,6 +7535,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdFZXdXoyS25SWEFjcG8tR1NrRmhxcUEtMjZHV3BESHFtb0FPSE1ldjVGdERDRjZScHhJbzIteGhOVUtDcUdZMDdKVUI0c0lpSF9nUmlKVC1WMDdqWGlaMWZfU1JJeHhsOVRaWkpmMFJLNXBPZFBnLXJ6MGxmOWRRcWp4QksyMzdSSjRXdl9lMGZROUFFdUZNRUYydFhZbWU2MkIwNFNoX05qY2o1WWtBTkpvbExXRHozaFVmR1FOMGpSWllyb1p3RW1B?oc=5",
     "reportedAt": 1791829553000,
+    "assumeSaudi": false,
     "firstSeen": 1791849336443
    },
    {
@@ -5794,6 +7549,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aX2hGZXJjc21QbHlPRUJZVW9NSkJrUldfMkZTUU41OVdJaFBDM05uaXgxOUE4T3ZCVHhqS2NXV3c2aGMzeUxXTndOYmN0MEs4RzBvNzF5b3hZdDTSAWBBVV95cUxNRFJ0azIzMjdYUW9PazJRcmdnaldQOFA0eDBuMzB5eWlFelFrckpCOXY5MW5DaUZsNGNaU25GT3ZkQk1kMUFUNmVxdzBtQ1FLRktwSi1EdzEtbHktWFBKYjE?oc=5",
     "reportedAt": 1791828763000,
+    "assumeSaudi": false,
     "firstSeen": 1791829838231
    },
    {
@@ -5807,6 +7563,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMUlYQWxaMEhFYWJOVjJ6MmVyaVJlTzh4NUU2S25qSk5xcTY0WVJWMk1GejkwX3VPa0ZoLVd3ZDJSM2cwZzBaUzFaTDVUVGI1N250cGpqX1h4STQ5NlZWNmU0UkM0OXpod0ZzYS1QaGNKQUItSUtDcU9iSDFidGdHZXdINFJCSmZJVTVEMlkySUJ1SWgzWDVzRFdwcWN0enE1QXNj?oc=5",
     "reportedAt": 1791827863000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5820,6 +7577,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XU1g0M01YTVdhcmVJY3ZCMjdqZjZjVUI2bWV2clpsQ2trbEFjYm1ZR0lNenhxX0tZdW9ubDV1bDdJX0haMXVZOVNsRQ?oc=5",
     "reportedAt": 1791826447000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -5830,9 +7588,10 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Saudi Arabia’s media minister urges public to rely on official information after Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWTlTcXJQdF96a29JaTFwMkIwM0Fuc2xkZk9vQ1hYWEhhTHFxQV82VlhFUXRkMUlYakxIMkc1QkZyVlkwdnVqSGxYQTlyR3I2ejFaU3lramU2VjhqU05hRlNVSC1sTlRid1EzVmN4amRXNGttV1FUcUZnX29GMnlYVXFldlZ1dVJ4dXI1aGJwNVVWWTdRdjY2ZWgxQkw3cVRzeVJGYkM2emR6dWpERk42YW80V2U3cFU2ZldWOE1INU9rbjJQX1AwZ1BSbGoyeXNYZzBXTDA0SQ?oc=5",
+    "snippet": "RIYADH: Saudi Arabia’s Media Minister Salman Al-Dossary on Monday urged the public to rely on official sources and avoid circulating images, videos or information about security and military operations from unknown or unreliable sources. “Accurate information is part of safeguarding security,” he told a government press conference, following Iran-backed Houthi attacks on Riyadh’s airport that kill",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-arabias-media-minister-urges-public-to-rely-on-official-information-after-houthi-attacks-3005960",
     "reportedAt": 1791824344000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5846,7 +7605,36 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9BLTFXNVZpb09JUDkyeXF2Vy1qdUlPSXFqUlMxX2JIbHBYbG9xRGtNMjh4TUZRc25OY2FfamotYkJySUZaWTFFZGNn?oc=5",
     "reportedAt": 1791822201000,
+    "assumeSaudi": false,
     "firstSeen": 1791828046368
+   },
+   {
+    "id": "c0224cfae1a0",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Riyadh Governor Reassures Those Injured in Houthi Attack: Saudi Leadership Stands with You Wholeheartedly",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328804",
+    "reportedAt": 1791822090000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "3c4117926c8d",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Jordan king condemns Houthi attacks on Saudi Arabia during phone call",
+    "snippet": "RIYADH: King Abdullah expressed Jordan’s condemnation of ongoing Houthi attacks against the Kingdom, the Saudi Press Agency reported on Monday. In a phone call with Saudi Crown Prince Mohammed bin Salman, the king affirmed Jordan’s full solidarity with the Kingdom in confronting any threats to its security and the safety of its citizens and residents. King Abdullah also expressed Amman’s full supp",
+    "url": "https://www.arabnews.com/saudi-arabia/jordan-king-condemns-houthi-attacks-on-saudi-arabia-during-phone-call-3005962",
+    "reportedAt": 1791821953000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "cf804f30aa86",
@@ -5859,7 +7647,36 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU21wZVJ0RndVOXlWYTBJTWd6LURocGlXTDQzWkhQcWZ2Mm5RY0Z5V1U0dS1jN0RONzhtOUo0ZUZfUEFwNC1XN0hSbW5CNDcxS1JsM3pRWENnZ3phRS15YnVCVUZnRFpqbmt4aXNHbWFKOURUVExJMV9WSGRhZXpidU1rNm5QeWdPWW1Id3ZILW5WaHYxdGZac1V0X0laSFpUTXF2ZFlqMGNNM3ppQ19IeW5YRQ?oc=5",
     "reportedAt": 1791821485000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "3182fd7cc0f9",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Crown Prince Receives Call from King of Jordan Condemning Houthi Attacks on Saudi Arabia",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328795",
+    "reportedAt": 1791821253000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "2a35ab2fdc94",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "King Abdullah calls Crown Prince to reaffirm Jordan’s full support for Saudi Arabia",
+    "snippet": "RIYADH — Crown Prince and Prime Minister Mohammed bin Salman received on Monday a phone call from King Abdullah of Jordan. During the call, the King expressed Jordan's condemnation of the terrorist attacks launched by the Houthi militia against Saudi Arabia. King Abdullah affirmed Jordan's full support for Saudi Arabia in confronting all threats to its security and the safety of its citizens and r",
+    "url": "https://saudigazette.com.sa/article/665353/saudi-arabia/king-abdullah-calls-crown-prince-to-reaffirm-jordans-full-support-for-saudi-arabia",
+    "reportedAt": 1791820934000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "2012bdc9ce87",
@@ -5872,6 +7689,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3FvVEsyLUxWN0VHLWxPZ3Npdm1fRWZuZklNWHRQakE0eVp3VUx5d0ZJd3V4MnpuR2tURWQwVlVQYldsOVhaYTZ4OF90UkdMb0RfbnhTWUd3VXZkc1p2VFdYQTd3bmVnN21JZFhaTlZGN24tTTBnTVd1c0VpTXhjY2l5WGdIVGVaYlcxTFpoTk12cTZQeVVfVnUzVGUwUQ?oc=5",
     "reportedAt": 1791820080000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -5885,6 +7703,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3S9IBeEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3Sw?oc=5",
     "reportedAt": 1791819715000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -5895,9 +7714,10 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Riyadh governor conveys royal greetings to injured airport attack victims",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRk1mLTVQcHZZYnZzUC1sWTV2cWFMTEF0LUROSU1sWUlLSHpwbHR6b05CT0ZlX3NjVUFXNUJXeVZkNnBYTmhNaDk4WjdmOEZmNERhSHhXbDc3ZktIci1mdExsSTB6UG1LQVpUcTlxZUdIc3BhbTlnVmJUdGc3OUY4SS1CQVRjOEYyTVFpTVI4UXdQWUJ0bm96ZTlKZzQwNjVoZ0hod1UyNVlwdDJjM2ZOR0JBd2k5WHpXbTVN?oc=5",
+    "snippet": "JEDDAH/RIYADH: Riyadh Gov. Prince Faisal bin Bandar has visited people injured in the Houthi attack on King Khalid International Airport, and conveyed greetings from King Salman and Crown Prince Mohammed bin Salman wishing victims a speedy recovery, according to a video posted by Al Ekhbariya. The governor told patients: “I convey to you the greetings of the king, the crown prince and the entire r",
+    "url": "https://www.arabnews.com/saudi-arabia/riyadh-governor-conveys-royal-greetings-to-injured-airport-attack-victims-3005944",
     "reportedAt": 1791818264000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5911,6 +7731,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTYVRLajVxVWlKU1ZaZGRkWmlhbjFlSHotSi1WQnhXbWhSa051VExBTmlzUl96V3NweG9WWUNzNDljUGtGaTltYlBNekY5dG5KSUZGbDJEcmFBQUFtNmpvRXIzdkM4QVE3bklfMFgtRnlXTEtYVE5yTtIBeEFVX3lxTE9JS2J0R1BNdURqcUhmcnIzeFpRTFMxYkhsZjdZS1huZjhYQ2lFa0hiclBCdjIxOEJoWlhMU0ZHT2hMUmJLSGxhb25EeklSWGN2QklyVGRhd0Q4QkVncmdmMm0tbmJubGh6N0FjaXJ3RTg5TFBlNVZ6Tw?oc=5",
     "reportedAt": 1791817800000,
+    "assumeSaudi": false,
     "firstSeen": 1791826239103
    },
    {
@@ -5924,7 +7745,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBvQ3ZxZDl6eDlqT0tLMXFWZl9XOGd4UUQ5bDNhMjUta2lHVF9LN1FUZll0V2VvOVFJVjRXWllHUW5XY0VKVkpiN0dR?oc=5",
     "reportedAt": 1791817533000,
+    "assumeSaudi": false,
     "firstSeen": 1791828046368
+   },
+   {
+    "id": "a3bf5d91b58f",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "3 Ballistic Missiles Fired at Riyadh, Khamis Mushait Are Destroyed",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328568",
+    "reportedAt": 1791817429000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "e3e0d2680e39",
@@ -5937,6 +7773,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV2IxbVRMM1FQaTJjRjkzYldNOEtYS1FPLUhINTlNYUFiR1d6LVlLNkZsejYyOVFOTENmNmZVVVl6STRkZjREMzA4NGZ5aWZNcDRfOEJQYmZETTVFVU1EWXdKQWVPMjl0UkpZRkZFNFpZRXA5cXQ0T0ZuZ1ItSWFFY0o5bE41UEtLNGgwenpnMGF0OXRPWDNFRm9ubmRreXZSWUJMczFWYmNuSEhKZmNkTDd0cHcwME1VdFBKamhaS3I?oc=5",
     "reportedAt": 1791816702000,
+    "assumeSaudi": false,
     "firstSeen": 1791843497697
    },
    {
@@ -5950,6 +7787,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX0c4YlJSYUNrT1pqLTA2TmFjdDZUdmh2Z3pXbG9vWF9mdS0tZFZ6M2tYTVUzRjZVTzhodnh4WU0waXV1bjZENURjUVhmRVZPN251V2laQmNMZ3JoNmIzZE5hWU82YkxIWTdvd2xNczBkNnEta0xGdzlmaGlFNkZ5M1lxcGZUNW5pRnMxV1pPT0NxMXZmOWpEUmpBNXRUcksyZWQ5Sm9pM1QweFFWdmZYVkdid0s1dUJSanNN?oc=5",
     "reportedAt": 1791816485000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -5976,6 +7814,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5FNld4QW5BeEEwUlUtcG5Fd0s3V0VrU0pSMlNMMGlnYzFURG9ld1R1Z1d6RXpNZlh3a0pqd194cEpaZEExODBaWXNn?oc=5",
     "reportedAt": 1791816358000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -5989,6 +7828,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EeFdqYmhjbFlPSU5oNzJUd0pQM3MwWWdNNmhrSXRBVmxlQ3ZZM3lIMGNlVGxQcTZnS0NYenpGakx1dUd5cEtYVERKcS1JVjdZb002NkVfa0ZPSkk1cFhwSFFB?oc=5",
     "reportedAt": 1791815837000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6002,7 +7842,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjQ4VHZvYkdYQm9yVEk1YjFFMmpzdkZlZURhdnpYUlNHTl9KMDZrbVFMSXB6WGRlU2ZIb2NnZm9yMjYwb2hYTnh0YnBrc2RkWWs0MzdxX01TUzllWERDajRXZHhxVXFIVmJhX0ljT0NWVHZMejdIdFhmWlZaOUFPQkVLUXZiN2hGVG1velpDX3FvTzY0VVhiQlpCQ1hoejRmSjhBZlVnYlNUcUlQOF9PeWVlMS0xT1RzS2Rlb1FUQlBwQQ?oc=5",
     "reportedAt": 1791815325000,
+    "assumeSaudi": false,
     "firstSeen": 1791827868527
+   },
+   {
+    "id": "868b317975d1",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Riyadh emir visits civilians injured in Houthi attack on King Khalid International Airport",
+    "snippet": "RIYADH — Riyadh Emir Prince Faisal bin Bandar visited civilians injured in the Houthi attacks on King Khalid International Airport on Monday, checking on their conditions as they received treatment at several hospitals across the capital.During the visits, Prince Faisal conveyed the greetings of Custodian of the Two Holy Mosques King Salman and Crown Prince and Prime Minister Mohammed bin Salman, ",
+    "url": "https://saudigazette.com.sa/article/665349/saudi-arabia/riyadh-emir-prince-faisal-bin-bandar-visits-victims-of-houthi-airport-attacks",
+    "reportedAt": 1791814357000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "83e88a03c624",
@@ -6015,6 +7870,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZENLRXVWdDdZX1BvTXFQN3E2TnRnYnJxUER4aldTVHFiR1pyenp6RllPeTMxeG55MjVrUE9TR3R2NzF2U1FEbjVHbS13S3JSNlJ5dldvWktocXZ6QzBkSEx6WV83SVBTN216X1BPYlhrSVoxZWp5a0REZkJjaVpBb2IteXBLN212R0lkRFJGeFdLaUhtb0ZuWFY1Q1BMT0pYWUZCZlhzX3JyUQ?oc=5",
     "reportedAt": 1791814046000,
+    "assumeSaudi": false,
     "firstSeen": 1791834591971
    },
    {
@@ -6028,6 +7884,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmVvYVloSjFMMlJnZW5CcUQ3dFlEVkE5QkpvajBoTUhuVjdKSDRWNWl0bXo3RGV2QVBFU09EalFibnNVNHhCU0Nsdm9kYVBmR1ZYd2JzZUhpS2NKY2tnRmJRWHBhQUVzaFp0bzBNUkdXb2VCOTBPMzFocVRtMEZBM0pYRGotdVFHQzVQTm5Va3pBMW12NjkxaW1YQTdsLUdkVXlYNm5iYmZGNXEyOW1ZVHZmNlFPVUE?oc=5",
     "reportedAt": 1791813661000,
+    "assumeSaudi": false,
     "firstSeen": 1791846041475
    },
    {
@@ -6041,6 +7898,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ3NSTzhiZ1BaenVlYkxBRF9QVGRRdnhFQWM2cmIxQmp3dTdsdTdKSWQzZ1NmSVlLTTRRb2VMNWZKcldVRHd2TnRLV1ZzZHlhRVZLOERJZmxmVlJXN0hxYTVXbk13Y1RNT1NhY2dlTkFQUDZYczdOems1S2ZTTWcwWllBNWFDRnlmcnZwRzlfb2plNVctRGtUZnBOWWV1S1hTbTM3SmVsV3FQZExHek9NX0hmbkJmUQ?oc=5",
     "reportedAt": 1791813576000,
+    "assumeSaudi": false,
     "firstSeen": 1791853241190
    },
    {
@@ -6054,6 +7912,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDJseDNYUmxPQzZqWnBZM1hRbXJhaGQwdklnQVZBUWp3WEY2SUczaGpYejg3bXRDYzdDN3ctYzRVNVhBc05Rc084QzdOemRFX1l0a2J5TElELVFXUldBZEd6WVItdjVaeFZfWTVEdjJ5VGVkVmxiLVZ5ZWg3ckFLclRTcG1OaExuTnZXamxFcElNalR0SWlPUm5qY2lIa0dFQVJmc24wX0F2WG1nc3hnV3Z0dXEyN0pLWmhnRXJHeFVJTVU?oc=5",
     "reportedAt": 1791812670000,
+    "assumeSaudi": false,
     "firstSeen": 1791824180167
    },
    {
@@ -6067,7 +7926,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50LUNSRXYzemZoNjhvLXJDd04tNWc0a0ROVXc4NDBXM3VkcnY0RnVnWlE3U0NSRjRtZFlvZEVOTXZUMnhlZTd6bTFVZUFEYUsxNVJ0M0Uyal9RVldTdDVOeXQ4VWh0MUlrbVVDa1hJYkhuOTJl0gF0QVVfeXFMTnQtQ1JFdjN6Zmg2OG8tckN3Ti01ZzRrRE5Vdzg0MFczdWRydjRGdWdaUTdTQ1JGNG1kWW9kRU5NdlQyeGVlN3ptMVVlQURhSzE1UnQzRTJqX1FWV1N0NU55dDhVaHQxSWttVUNrWEliSG45MmU?oc=5",
     "reportedAt": 1791811287000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
+   },
+   {
+    "id": "8853ef7f667b",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "FMs of UK, Bahrain call Prince Faisal to reaffirm solidarity with Saudi Arabia",
+    "snippet": "RIYADH — Minister of Foreign Affairs Prince Faisal bin Farhan received on Monday phone calls from Secretary of State for Foreign, Commonwealth and Development Affairs of the United Kingdom Edward Miliband and Bahraini Minister of Foreign Affairs Abdullatif Al-Zayani.During the call, Prince Faisal and Miliband discussed Houthi militia attacks on King Khalid International Airport. Miliband affirmed ",
+    "url": "https://saudigazette.com.sa/article/665345/saudi-arabia/fms-of-uk-bahrain-call-prince-faisal-to-reaffirm-solidarity-with-saudi-arabia",
+    "reportedAt": 1791810933000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "05a45f819bb6",
@@ -6080,7 +7954,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZLU5mWmxheE54ZTl6S1k0emYxdjV6UF9RV1RNZGdURElqdXN2OWhfM1ZPNUxVZmwzSnM2S2NiWU5zYnphcUNxMW9MRjZGM0lCWl9ES1J5aEkyZw?oc=5",
     "reportedAt": 1791809481000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "aa1d8565d29b",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Aramco President & CEO: Attacks on the Region’s Energy Infrastructure Threaten Global Economies",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328676",
+    "reportedAt": 1791809241000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "a4d29a97cf82",
@@ -6093,6 +7982,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iMkwzbDZMQjktVDZrUFNOTjJLQW91RjlmTkY0THR2bmt5WW1QRFRwLWliOFUzT1p2Wk1xR0I5NWRLUG1xWUZVd2Jja2Y5Zk9XS2VDRHVXWXBUdmcwSVV6YVJjVmx4VFE?oc=5",
     "reportedAt": 1791809040000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6106,6 +7996,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Nd3oyQTMtMzZTZnBTUzZmbWtHVV9aYnFsaVJjbGhCM1ZURnBnbXNVTVFIdi1LSVhGTXQ0SHMtVzNibmNENUQ4emtGdGE0U09iOFB3SXVQRDQ4MFXSAWBBVV95cUxOcGstaXhOMmFUcDl2b1NaNF82dWNxUGl3SnhNNFdYRWI1Y1cxSEhCLXBwQkRRaU9uOFhkMkw1ek92QzhfWWtIaXZyRFdCT0oyMWdBQnk1RC1TVEhna2JJTUs?oc=5",
     "reportedAt": 1791808618000,
+    "assumeSaudi": false,
     "firstSeen": 1791829233904
    },
    {
@@ -6119,6 +8010,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5teXhRT3RKUzNOQ1RXSjZhb2tKQmpQN2VkQl9XRGlJZ3JnZFh2U3RWb2haZWh1RnNxU0U4bmtSaTk4RTVnYy1CalByWHJPVERXSlRGdg?oc=5",
     "reportedAt": 1791808320000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6129,10 +8021,25 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Coalition detects drone, cruise missile threats targeting Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKOTMtenkzTEZ3TUVLcGRLZlZLeWhnb1d2c2M4RnR1X3ZGN3FTVkJoOUFmM3B1Z3dzYThCbGpELXhfVjZjNWFDbUcxSDVzQTRvelZlaw?oc=5",
-    "reportedAt": 1791807000000,
+    "snippet": "RIYADH — The Coalition to Support Legitimacy in Yemen said it has detected and is tracking threats involving drones and cruise missiles targeting Saudi Arabia, with forces currently responding to the threats.Coalition spokesman Maj. Gen. Turki Al-Maliki said the threats were being monitored and that measures were underway to address them.The announcement follows a series of missile and drone attac",
+    "url": "https://saudigazette.com.sa/article/665342/saudi-arabia/coalition-detects-drone-and-cruise-missile-threats-against-saudi-arabia",
+    "reportedAt": 1791807038000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
+   },
+   {
+    "id": "2da360187f69",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Saudi Arabia will overcome challenges, uphold global energy commitments, Prince Abdulaziz says",
+    "snippet": "RIYADH — Saudi Energy Minister Prince Abdulaziz bin Salman said Monday that Saudi Arabia would overcome current challenges, honor its international energy commitments and continue advancing its ambitious transformation.Speaking at the opening of the 25th WPC Energy Congress in Riyadh, Prince Abdulaziz said recent regional developments and attacks on infrastructure had demonstrated that energy secu",
+    "url": "https://saudigazette.com.sa/article/665341/saudi-arabia/saudi-arabia-will-overcome-challenges-uphold-energy-commitments-prince-abdulaziz-says",
+    "reportedAt": 1791805670000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "1d8292284406",
@@ -6145,6 +8052,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Ta0dTczZDVU9sNHV3bEdqRWdnakIwWWNEbjZLcW1wd2FMekY2Ri0yT1Z1Z0lJUnB0aVQ5bWliOTA0QVR1SVZZanpvMlRLWG9nRlRkdtIBVEFVX3lxTE1Ta0dTczZDVU9sNHV3bEdqRWdnakIwWWNEbjZLcW1wd2FMekY2Ri0yT1Z1Z0lJUnB0aVQ5bWliOTA0QVR1SVZZanpvMlRLWG9nRlRkdg?oc=5",
     "reportedAt": 1791803619000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6158,6 +8066,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NUkhnek9NSGtzcTlYb2Z2amN1U0FJTzVkQ1VOd0doY29lNV95d0NsVURYMjhvQnpzbjNNcUdQcTJEckNoY3J1eGhQbEo2dUlROV9ENnBJSEVaUdIBX0FVX3lxTFBmdWQtYjNpY0haQW9CbnFKd1lUT0lVb2xWRXdweFJaYlNMV0E4LTBvT1RhdFd1TEU4bldZLVJfUFRtN0VORkg3SEM2UVdYOFp4NWhyRDlvNFNPaDUyUVF3?oc=5",
     "reportedAt": 1791803340000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6171,6 +8080,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcHdnSTZPR3JBNE94VUNzRmdzdFdqNExWWXhIZ0NkNTVRWjFqaTVXVDhLWTMzV0lQNlFGTVVhSHJJeDIyN1YzTHl0ZXhnQ1htQzlMa2tpQTFwcjdXc004NTEzZ1RTcnJSY3FmZThaejNKNUJQcmMwUC1WMjRtZ0hNbDJXMm1XcnM1QUZWU09fZUZqUQ?oc=5",
     "reportedAt": 1791802569000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6184,6 +8094,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPX255SlhqWlhIMndBQTYwUWJnZXUzVmFTVzc4T0tsR0F4aWVSejdta0o1YXJnQ2pzNktpem9DRGwxQm1vai0zWHpnQzUwSGRyRThGRHFiSDItYnk3Q0RRcm5jMUl4SmM4V3pzZW5qOWJzS3c?oc=5",
     "reportedAt": 1791801360000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6197,6 +8108,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9USkM5d3FhOHVEdld5UTNTWl9QZVNScll4RjBqWHBvY0J1QV9yRTRrUkdvTUxlNW9QWlVEOXNCYVF3Ym9yYk1TTlR0U0xmeHVweFJ3QmJ2Mkt1UElHbDhKOdIBYEFVX3lxTE9USkM5d3FhOHVEdld5UTNTWl9QZVNScll4RjBqWHBvY0J1QV9yRTRrUkdvTUxlNW9QWlVEOXNCYVF3Ym9yYk1TTlR0U0xmeHVweFJ3QmJ2Mkt1UElHbDhKOQ?oc=5",
     "reportedAt": 1791801312000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6210,6 +8122,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9qSm9XYzVwQjYxVDJ1QS1JSHU4RmJFQm4zdVU5TE16NlFEcEZiMkpTZV9wWUZUdjlUbVFuNTRmY2VKMEx1UmhlMFRB?oc=5",
     "reportedAt": 1791800955000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6223,6 +8136,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVHowazgtOXRpWnZZb2N2cTZvVmx1YUhfdkw0QmF3OEpxUzFMLVJKajg3dkFLNHo3OF9xbHpHRmRVbVRYc3dUeHNWVUd2SUVUa1ZIaG1rUm1icHdESE00ckNXVnFQWVAtY3JsNkZrZGV6Mlg3SGpJUVhBZFFGcDAwblF1a3VlTHF4NlowdFFBa0Fva0hmeDN6ay1FV0hHUm5WSHh6RnRYTFgzYnM0cjNMZ2FWR0ViV0tvZVdZUEdwanFaNTBZVm9VMlFJcVU?oc=5",
     "reportedAt": 1791800863000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6233,9 +8147,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Saudi Arabia extends suspension of operations at Riyadh airport following Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZU01LemJOcTNsOGZ2UUVocUM0Yk1zTzdlZHZEQkRYVGlpaDBYblJIWXhhcndHMUR5SC1Pa2loR3A0MnNLWXNVTXpTa1E3RzU3TTVMVg?oc=5",
-    "reportedAt": 1791799680000,
+    "snippet": "RIYADH — Saudi Arabia's General Authority of Civil Aviation (GACA) announced Monday that the suspension of operations at King Khalid International Airport in Riyadh has been extended as authorities continue safety inspections following a series of Houthi attacks targeting the airport. The authority said the extension was necessary to complete procedures to verify the safety of airport facilities a",
+    "url": "https://saudigazette.com.sa/article/665336/saudi-arabia/saudi-arabia-extends-suspension-of-operations-at-riyadh-airport-following-houthi-attacks",
+    "reportedAt": 1791799723000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6247,8 +8162,9 @@
     "outlet": "MBC",
     "title": "산업부, '여행경보 3단계' 사우디 찾아 에너지 협력 강화",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hMjFQWjZJY3J6MFZhSnFRRDdhdWtkNmFkdWk1dHZndXZwaVJZMEp5ajNPWEVSY3gtZ2Fwc29hNkpyek9UX2NLdkNuem1DSFA4d1VWdFJTOUVIZEhFTGVHVnl4Yy12T2J1V3hZakR1cWF3eFFK0gF0QVVfeXFMTmEyMVBaNkljcnowVmFKcVFEN2F1a2Q2YWR1aTV0dmd1dnBpUlkwSnlqM09YRVJjeC1nYXBzb2E2SnJ6T1RfY0t2Q256bUNIUDh3VVZ0UlM5RUhkSEVMZUdWeXhjLXZPYnVXeFlqRHVxYXd4UUo?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGMGpjWE16ZG1abG90X19LOXBtMVZZTDgzX2hBMmRMVjhyQmNDOUhUcXBEcTBUZmt1SWhpbVpxOXVtdFA5T0hLY1ZmQ2NsMmtOb2E0WFBkWS0xX0xrUzFiYVVSZk5hT0ZFTVpOdUduaWdab3VL0gF0QVVfeXFMTmEyMVBaNkljcnowVmFKcVFEN2F1a2Q2YWR1aTV0dmd1dnBpUlkwSnlqM09YRVJjeC1nYXBzb2E2SnJ6T1RfY0t2Q256bUNIUDh3VVZ0UlM5RUhkSEVMZUdWeXhjLXZPYnVXeFlqRHVxYXd4UUo?oc=5",
     "reportedAt": 1791797574000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6262,6 +8178,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1obnpWRDdzcVh1aW13VFdBR2puaFhuZDRFcmFTdWg2WWpFcEp4V3lhZ19QNVlyZ0VKX0FTRUFyazk2b05GZ0VxdVc0LTlvd2RNTFFsbTFNOFpnRXhPMU9FQdIBYEFVX3lxTE1obnpWRDdzcVh1aW13VFdBR2puaFhuZDRFcmFTdWg2WWpFcEp4V3lhZ19QNVlyZ0VKX0FTRUFyazk2b05GZ0VxdVc0LTlvd2RNTFFsbTFNOFpnRXhPMU9FQQ?oc=5",
     "reportedAt": 1791797405000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6275,6 +8192,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWQtMDRPN05hVWltQzRWWGdZLUVfT3lnZXNrVDBteWp6NWJfZEFBaEgzZEVVaGRUaXJuTVhSTXNBV29fcUFvZVcxV19yRnU1Sk9zM3p5MWcwYkNsaDI0bV9DeW9tc3NQamVDb3ZZeFpGb0hPRGk1N1gyMW9QU3VidVlZMVhZZlF0RWdMZy1KcFJIbDlDXzN6c0xHajFhWHVmckI0SVZuU3lFZTVKc3hWNEZ6eTZrYkk?oc=5",
     "reportedAt": 1791796740000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6288,6 +8206,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX3pfYk9VQjJ6TGVRcnNIcldaUVVKMC1CUl9tcElsdjhDakZ6blJJQnpPMlJRX0pJejVSTXVNM1A0QVV2Y1oxZkpETFRPTXlFdV9vUnoxMFlYam9NYnp1WUJpRFFubmlweC16SDNHYTZ5S2MyZ0xHU2MzZlM5a0FEa2pUdk5nMjQtRVkyblZ0RGo?oc=5",
     "reportedAt": 1791796635000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6301,6 +8220,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqMUZjRmpFYU00ZGY0VVRNSmV5SmpBd3Blc250X3FWMnV0bjhFMld2a3pTSVhoSHRjaDgzY0ZMbjdtTTBSMnF5YU4zdl92cUZUOWprNGZDYTdzdjDSAWBBVV95cUxPTzJpSTkzaFZiNFpMamhZdVd4UmZjZkRaTjhfU0FMWGVLay1lSVpmNHY5WFE0Z3RKUnJpRElsYkV1MmlaUWF6dTFacXpwQzRLTzZDVjc3eTBXWUhSYWxEdlE?oc=5",
     "reportedAt": 1791795111000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6314,6 +8234,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YVmZKYjh1NC0xLWlCczJqVk9oTjNaSUdBVTl0cFE5NUhfTDBlbHJPYUgxWFZYMHhvWFBFWnJXYUl1MjdaeEkwZ1dXV3F4VFNSeUHSAVNBVV95cUxQcEhEOHBqWV9GdGZtMlVvQVprODYxVmc3UEdoTUtkVmFVQThRZlZOUUJuRl84VkFmZUpxSVJ3TnR0YUlmeTUzNkdUeTlYVXEzYThLcw?oc=5",
     "reportedAt": 1791793851000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6327,6 +8248,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5S3ZVSmlJbzhnclIyQXBjb2YycUZwMFZ4NHZOblVPRkpkb3VFUG9nRTNZTGN2Y3JXbUtKMDl2MVFMbzYwcWl0V3BFQ0s1UFh1WmtkdHJodVBpR2xvdzk2MFIzeXhJVWNXMUZwODFn0gFzQVVfeXFMT3l2U2NtOWdSVFJ5ZklhanhVb0FKNExOSFJtWlJNWDdHWHpxUk1MSG53TW13Q3Zzc0JaTHpGZ2ZRU2ZBcWpmRVd3Z0FKT0kwang5U1ItamZhNW5GOWd5TWFWamd5SzRnbjZpOWtwYnF0WF94Zw?oc=5",
     "reportedAt": 1791793800000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6340,6 +8262,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYnBxR2o2aXJjdDdueFQ4NEx2aDZwVTlsMExkd2syNmwzSlZYWVhiVnJqc3RPODJLQS1YbkRhQjJUdVlPSGN1RUpUYVFmUV9PZ3ZDeDY0TDN1NlFBVGxEeWdJdlpwMDFrR0xPUmRrZFFseG92OFBMOUF2U0xmNUxJUVlBLTlsNzYzeDZma0FpZkJSRWZuNi1MTlpEU2JVWFpEWmtSTDRvREQ3QVZnUnZZTFlqV2R5QjktTFV4aEtPWk11RzBFdGJJaGlRbkZOc01BT1N6SHl3VQ?oc=5",
     "reportedAt": 1791793332000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6353,6 +8276,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16RHRYcTR6YXZRQUtCV3gyQmxQVTZtNWp2WWE4eWt3amRCZUN6cUUtaU1UQmR1TUxpelJSRjNCSlAyQ1NuYnRfUnR3aXlZZDVZOU5pMTB2bVdjMEdLQ0ZldU1HUnpZbWRzWFJXeVFmX3EyREpiQVZYcdIBeEFVX3lxTE5iYTkzOUxtaUs0MmJBWGRvRm1UZFpBMUtGcmR2c24ybDhJYVRBWk1OOVplaGZoWWxaYnp4aDdCTUFneGs3ZVYzcnl1VUN3R1lBYXVTVlFXcmJPQzVXWW9iVVVuaGxqZ3htMVk2SmstVHZ5bjRtVFBfTw?oc=5",
     "reportedAt": 1791792108000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6366,6 +8290,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3ZjlHUy1ESnZyVF9weDV4aE1nMEplaXBWYmlGbHJub05hVWpNOHRDWFBGYTUxZk1PNGFDRWppOUNKdUdfR2VWQk9kNzRycklKMXJSMXF4aXdpejVlbUd4TGN0czlQWDlrSVZTT3U3b9IBb0FVX3lxTFA3ZjlHUy1ESnZyVF9weDV4aE1nMEplaXBWYmlGbHJub05hVWpNOHRDWFBGYTUxZk1PNGFDRWppOUNKdUdfR2VWQk9kNzRycklKMXJSMXF4aXdpejVlbUd4TGN0czlQWDlrSVZTT3U3bw?oc=5",
     "reportedAt": 1791791400000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6379,6 +8304,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON2ViZnVZMF9rNmdObkFhVjI4bWVZY0JnN0J6Ny0tYjlPcTJZc2h6NkNCaUhBRnRwOHFXX0FCdzQ1cHVwdWEwMzAwX2ZYeDA4a3poamRGZ0FyUWRtYXZ3RmtmM0JDTS1ua1FHajRKV1BvdnVMOGRvQTEzZHhRMXRjRVZmSzlYUnh3N0p0TWxSdlVueHhsUEdaREhtWjhUQlEyaS1ZOGFqTGxxTFA0eWNZ?oc=5",
     "reportedAt": 1791790515000,
+    "assumeSaudi": false,
     "firstSeen": 1791833333768
    },
    {
@@ -6392,6 +8318,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLTFMweVRkTlVNZ25EU2tVZnNUNmo5M2hHby1SQUNabUpzLUxxWFZ6Q3Nrdm91OHBZV0VwWEtKZ0xvN2toNGJZQVZQWHdtUVh2QzhOMGhvR3dsTWs?oc=5",
     "reportedAt": 1791785220000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6405,6 +8332,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FQzM4SDg5YWV1ZmF2QXM5WTFTS0lKdmdHbXFRMEZFVDlwMmgxOVgyd1FEZ041LUltdEs4aGxkNTJsUTZxVlU2LWZsTUlWcTYxaURDNlhLWTlRMlhNQ2ZodXAya3BXaWc?oc=5",
     "reportedAt": 1791784650000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6418,6 +8346,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMF95Nm5HV1pQeTVrX1hkaU52bkVfQUNCcjlMMVVUazlFalZpd3dnTVdvOTAxMWdZMk1wU1hfNHkyYXBVY2ZnbnVUa0N2Nm9uOTVTYVQzeGphOExkTWtoRElvUzBqMS1PWkpOQ1VpZy1VN0tUQ2hmYzV5WG1uRVFBb00yb3RjZDZ6andza0lBak9HVXl2QVFZeWk4NXVpc0d4OTVnX2FSY203allXNVlLa1lENGI1bnFLWG1IQVZlS0NyYjZWTUE?oc=5",
     "reportedAt": 1791781860000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6431,6 +8360,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BSzdfWmJwSmh2ODdCR2l5Y0ZBN2MxNjgxeU80RGNFdC1nOUZ1UU9icVpXMUVDTFp1OTUtcWR1YnAxOU1MQ3N0Y0JxZ3YyTU8xWnBGMUg2UUhLbDVRUXc4?oc=5",
     "reportedAt": 1791780660000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6444,6 +8374,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNajh6Xy1YdVJQS2FILVVEZUpfWkpTeTFqZkxlTjlTZWhJaFJzTmszTjFmOUh5c282c0hPTFZkTC1XOFY4eWFzN0tvUmJITExqX21mOUxoRDRkSFpDSkRsMDZWQmZNeHdFWWxIYXNQMjF3cjJjbzBhOXVJcTdEZVlGOHlB?oc=5",
     "reportedAt": 1791779100000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6457,6 +8388,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVTVjbVk4YVpVYTZiZGg2dkpQQjRPdHp0eUpnQWhWM1A4aWgwMWVLMjItMEZnQi12R0FLLV94aWVlUFl0NTQ0dmhNWWVoUDZvb21HRlJJU1BuSjM4eGt1T2JrTERmelhxVlphUUtqSHl2dEMzOU1hMGtLMUNnOFJpaThHZmhEUV9pc0RRajhFVDh2cGIzQ1dLUzVrWmdiVkJvUTZPMDdES3FNc3FOeXJ2cE56clhvT21BWjN4LTV1WVpjLWFQcm9Kc2M3ZEg?oc=5",
     "reportedAt": 1791778680000,
+    "assumeSaudi": false,
     "firstSeen": 1791829838231
    },
    {
@@ -6470,6 +8402,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVEVNWlc0NWd0djlKQjJlYUNrLXM4TUhqVUFOMEFTUkdMVmdrNnFIQ01WLVVnLUdNOXdnYUhPenp6cVFyaUpfa3BKRlJRQVM3NGtIaWRBOUFHeWEwR0thZXE5T294N0wxb2RlbFJQYXg3akJNOUFUNFlYTzAxRjJIcUh2WmtBdzZTWV83QWppUVJzbUkyaG43d2V4MExGMEJibVNQQUQtWTNJb2RBSkh1S09OcUVHS1IzNFVj?oc=5",
     "reportedAt": 1791774180000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6483,6 +8416,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSVFha2g2T042N2RNWmF1NDMwenBsY1hQRXJ1ME9OeVROUm8wdEY3emhxMUVoMnFKMjA3ZzNqbFdnR0FBbC1zRGtpZjlsYUdXTDYyNnRkdnlqUFZwTWxfWV9jbGljUWQ4ZzVnVXh0X1l5YnJMS05VYWVCWEpRdkFfaV9UZE1HQzJhcXlZZXB3?oc=5",
     "reportedAt": 1791774146000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6496,6 +8430,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd2h4ZXgySjBFQzhBcGE2V3pnVDYyZExXcjg0aVBXbTNOYUM3dU9hYlVSY0FEQVR4N0psX20yc0w2cmN4elU3bzVuZ3dOcHBJbWoxMmRSTTRreERpNG56bVZsVkhIanNMUUxjeS1CcnA3ZHNaT1pWTTkzdTFYRWNtcHlHOTI3UHF6RFZxbE5TNUM4S0hJaW1RQjFoOEFrVU5sZG4tbm5vb19kaXkzNUk1cWZrWDhBZw?oc=5",
     "reportedAt": 1791773472000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6522,6 +8457,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GTUVCaXlvSER6NUU2aWZqT2hOQW9xcEpfZy1Kb2hfYy1BUkdqRkJKN2ItZmNJRmVjM1VLLUY0Q3VBZ2ZrZFJQdnRlS2NWek80cjVpNmhPV1N5Mkk?oc=5",
     "reportedAt": 1791771900000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6535,6 +8471,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iQXRHOUVUQTJvTl9nVmFYUzZKX21RbHY0SzJkOFlBYWdZbnFERUFWcm50RlcyVFQ5aE1GWkp0SXpkTHl2ZENRbkRB?oc=5",
     "reportedAt": 1791768432000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6548,6 +8485,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWE9fVlV1VWUwX2lfQkpnQ0RCbFpzZ1c5V3ZYWjQ1RUwwU19xV2MxeG9mMEgtOURkMm1EY043MXJyT09UUlg3emlvR3JqbUJTaGFad2FSYWpwZVBUeTR3RlpudkVtWWNBbEJiOEloX1BSWlRCeXc1YTNqNVNTMnFQS1F6ejJEVjZZcWhF?oc=5",
     "reportedAt": 1791766899000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6561,6 +8499,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pM0NvaDljUHhUYW5SNEZZMUV6NkdjWEg3ei02YjRJZzNSV1NFR2ltNG1CVmExZjllcWpnMU9PdG5qeC1jRzZfWnR0RkpfRmVfbFc4Rm1PX090SXFHdmtqLdIBYEFVX3lxTE1pM0NvaDljUHhUYW5SNEZZMUV6NkdjWEg3ei02YjRJZzNSV1NFR2ltNG1CVmExZjllcWpnMU9PdG5qeC1jRzZfWnR0RkpfRmVfbFc4Rm1PX090SXFHdmtqLQ?oc=5",
     "reportedAt": 1791762732000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6584,9 +8523,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Pakistani resident killed, 11 injured in Sunday’s attack on Riyadh airport",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aWWt5YWhKTms3SG9qcGlidlpmakNCTWtkNTNzMmZIUnBOaHQ4N2hJdmJyX19hUDNMLW9ub1JxNFlMT2RXajVCYmtYc0hwSjB2aG83cQ?oc=5",
-    "reportedAt": 1791760140000,
+    "snippet": "RIYADH — A Pakistani resident was killed and 11 others were injured in Sunday's attack on King Khalid International Airport in Riyadh, Saudi Arabia's General Authority of Civil Aviation (GACA) confirmed in an updated statement.The authority said the injured were immediately transported to hospitals to receive the necessary medical care.It added that authorities were continuing to assess the materi",
+    "url": "https://saudigazette.com.sa/article/665327/saudi-arabia/pakistani-resident-killed-11-injured-in-riyadh-airport-attack",
+    "reportedAt": 1791760199000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6616,6 +8556,20 @@
     "firstSeen": 1791845433242
    },
    {
+    "id": "0b8b9f87df61",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Saudi, Iranian FMs Discuss Regional Tensions as UK, Syria Condemn Houthi Attack",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328466",
+    "reportedAt": 1791753777000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
     "id": "99bd9f815024",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -6623,9 +8577,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "From Makkah to Riyadh, Houthis turn their weapons on pilgrims",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YaGxEX0xwcV9QaWN3X3BFdmwyTzJjbXNOaC1OVzczOHdXSUllSG40VDFZR20zbjhMX2tmZ3VyNVBLNDZIMDI2TldOQjRaUmthaTltbw?oc=5",
-    "reportedAt": 1791753540000,
+    "snippet": "RIYADH — The Houthi militia’s attack on King Khalid International Airport in Riyadh has brought its campaign of violence against Saudi Arabia to a new and dangerous level, threatening Umrah pilgrims, families and civilian travelers passing through one of the Kingdom’s busiest international gateways.The attack has renewed attention on the militia’s previous assaults targeting Makkah and Madinah, ex",
+    "url": "https://saudigazette.com.sa/article/665325/saudi-arabia/houthi-attack-on-riyadh-airport-threatens-umrah-pilgrims-recalls-attacks-on-makkah-and-madinah",
+    "reportedAt": 1791753566000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6640,6 +8595,20 @@
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9RSk9zZEtBX09IYzc4VlFzdnhlbHlXWVgzU0FBZHV1YWk3b3NjTU5Nc1V1VkJwTENlMFlaTzFiZTFiMUZ2d3FmOXRn?oc=5",
     "reportedAt": 1791753396000,
     "firstSeen": 1791820732399
+   },
+   {
+    "id": "7ec60996487e",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "GACA: Resident Killed, 11 Others Wounded in Two New Attacks on Riyadh, Dammam Airports",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328465",
+    "reportedAt": 1791753185000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "d813c33ebf4b",
@@ -6678,7 +8647,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HckdMREpIekZlVHZTaHhWRFhWM3lXdXJBMnVFQzBCcW93TnlIQlNsMVZPSDdBcF9XZVZaQVgyWkphUzNtcEdxczJzWmZVZm5mcHhGSUZ6dWF1ckJ4WEhIenJn?oc=5",
     "reportedAt": 1791751916000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "8e86841b5a42",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Saudi, Syrian FMs discuss over phone joint efforts for regional security",
+    "snippet": "RIYADH — Minister of Foreign Affairs Prince Faisal bin Farhan received on Sunday a phone call from Syrian Minister of Foreign Affairs and Expatriates Asaad Al-Shaibani.During the call, Al-Shaibani condemned the Houthi militia's brutal attacks on King Khalid International Airport in Riyadh. He stressed that Saudi Arabia's security is inseparable from that of Syria and the entire region.The two mini",
+    "url": "https://saudigazette.com.sa/article/665322/saudi-arabia/saudi-syrian-fms-discuss-over-phone-joint-efforts-for-regional-security",
+    "reportedAt": 1791751777000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "936bf0ae7599",
@@ -6688,9 +8672,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "R4 Group States reaffirm full support to Saudi Arabia to repel Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Lc0ZWYjMtclVFZXVrWVpiZC1Dd1B6SkNKcUM2Wk9HWlh6NlJsZmJYZGVfMUdzYkVVNkdOU0ZSTmpXMUpkUlhwRnZWMG8wNVpYR2FfOQ?oc=5",
-    "reportedAt": 1791749640000,
+    "snippet": "RIYADH — The States of the R4 Group, comprising Saudi Arabia, Egypt, Pakistan, and Türkiye, reaffirmed their solidarity with Saudi Arabia in repelling the ongoing hostile attacks perpetrated by the Houthi militia. The group pledged full support for all legitimate measures and steps Saudi Arabia takes to counter these attacks, deter the sources of their threats, and prevent their recurrence, in def",
+    "url": "https://saudigazette.com.sa/article/665321/saudi-arabia/r4-group-states-reaffirm-full-support-to-saudi-arabia-to-repel-houthi-attacks",
+    "reportedAt": 1791749670000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6704,6 +8689,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QMjVseXhIVmw2LUJySV8yQzRKaEpjalpkRDZZQlEtcktwRE9qUE1zOFpvME5jU2IxU05iUUMwcGVSS01uY0Y5QjNB?oc=5",
     "reportedAt": 1791747169000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6730,6 +8716,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQzBYS0ZsS0JUUFljd3VDOTJHbHNPcmdjQzNYNnNnTk9fV3BBeTN1eEdpQmhkaXpTR3NQeWh1VkVLMGxLSlVYU0NYcngwcUpMVERhb0hxZHg5SHZDZVIzSVdnbkJxdVF6NUxhNjg4VEpnOGt0YVQ3MTVnRzZLaG5vYzNRb3BickpGT3NyZ1NsSXRrUWZGel9ITGdZSHVEVHAzZUQ2Y3ExeE43N3RycFlvS3NzTS1KaGRJc1Myc2xBdGFMUQ?oc=5",
     "reportedAt": 1791741358000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6753,9 +8740,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Health minister visits Riyadh hospitals to reassure health of those injured in airport attack",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0VVNFSm9RV2lXQVhrYVlUdjgyRERQVXp0Nm5VNWRtS0NGQWoycGJJdlNnbkQtX0h1OVU5MU1jNjlxQjdKcmMwUENpVHMtWXVycF8wWA?oc=5",
-    "reportedAt": 1791739260000,
+    "snippet": "RIYADH — Minister of Health Fahd Al-Jalajel visited on Sunday those, who are admitted to Riyadh hospitals, after sustaining injuries in the terrorist Houthi militia attack on King Khalid International Airport. The minister reassured their health and followed up on the level of utmost medical care being provided to them. During the visit, the minister listened to a briefing from the medical teams t",
+    "url": "https://saudigazette.com.sa/article/665319/saudi-arabia/health-minister-visits-riyadh-hospitals-to-reassure-health-of-those-injured-in-airport-attack",
+    "reportedAt": 1791739261000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6808,6 +8796,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWE41ZWtsVi11Z2NQMms5dnRGdF81YndGOVhRN2ZIVlZ6U2JfbTJfX3BPQVhhVlpZaHBPTHBiTUptYzA4NnlzQUFqN3diSERGN2NiU0l2MThYY0RtWkRnMjdpWmJycTlLeXA5c3NPMXNseEdrbDJZTWVmTmE4MnlZcDZsTzhaTlVMQk5oXy1VNjFqcEc4R2pfY0RwaTdPRVJXTVlFUDdTWWxSUUNF?oc=5",
     "reportedAt": 1791735850000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6818,9 +8807,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Jordanian FM calls Saudi counterpart to condemn Houthi aggression",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51bjRxcVE2b2pxNEhBS0dXZExtdXlBREdzMGV3dThLdzd2MjdWRnJxVWNENWJJTV80dEZvU1ZrWHlteXhkcjZRMngxX1ExLVM4X3pHRg?oc=5",
-    "reportedAt": 1791735300000,
+    "snippet": "RIYADH — Saudi Minister of Foreign Affairs Prince Faisal bin Farhan received on Sunday a phone call from Jordanian Deputy Prime Minister and Minister of Foreign Affairs and Expatriates Ayman Safadi.During the call, Safadi conveyed Jordan's condemnation of the Houthi militia's brutal attacks on King Khalid International Airport and its absolute solidarity with Saudi Arabia. He also commended the Sa",
+    "url": "https://saudigazette.com.sa/article/665318/saudi-arabia/jordanian-fm-calls-saudi-counterpart-to-condemn-houthi-aggression",
+    "reportedAt": 1791735339000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6844,9 +8834,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Projectile hits Terminal 4 of Riyadh airport, causing fire and injuries",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tR1lsdC1xZDBJNVoweWwwcmxtMHhMbnczOEhpSVZtWUNqbFhnci1OQmR3RjcwUlQySGRrVXA0bzFfTktWdGUzeWJIWk1iOHdGTE1uNA?oc=5",
-    "reportedAt": 1791732240000,
+    "snippet": "RIYADH — A projectile caused fire at Terminal 4 of King Khalid International Airport in Riyadh on Sunday, according to Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Restore Legitimacy in Yemen. “The Coalition also intercepted and destroyed a cruise missile in the vicinity of the airport,” he said.Al-Maliki said that that Terminal 4 of the airport was targeted by an unidentified proje",
+    "url": "https://saudigazette.com.sa/article/665312/saudi-arabia/projectile-hits-terminal-4-of-riyadh-airport-causing-fire",
+    "reportedAt": 1791732241000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6860,6 +8851,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQktNV0NkYVZIZ1o4REI3Y0h2SDFhR2lPd2lWNERIVTc1dHdoUE9Hak1HeDQ2NW9qa0VfRVBza3dIMzF3TlFzQ2RpVnRLczVPZHo2ZVNpd2pnNDFoN1Rfc1pDdUpzUENUTENQZTRwQTVqMlhpT2JIdjJxTXJlbExPRWVaRkNVcGtkaW1aSzNkQ0l5TkRIMXVxN3pSdnZFR1pSX2xv?oc=5",
     "reportedAt": 1791730740000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6873,6 +8865,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObVpOZldvWU1lT3hQaUVjQTRmMEtldUpWdDdRS1I3QWNQUThBSHZoUl9UTkVONE1reEdIempmOFZEY3RSNUxXZC1GbmpkSFNuem9TeEh3Z0o1OXFkbkZTLTFfeVh4S19MTldsYTllM1ZXLU1GTThZQ2V5bzdJdXFpZHJSRUp0Q2FqdzdqbGNsdnlkSmM1Mmx1bGpidlFXZ1lMYW1WUkQtcFU1LW1YSzBiSEczZ20?oc=5",
     "reportedAt": 1791730740000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -6889,6 +8882,20 @@
     "firstSeen": 1791820732399
    },
    {
+    "id": "90931a31a8d8",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Saudi Embassy in UK urges citizens hit by flight disruptions to contact mission",
+    "snippet": "RIYADH — The Embassy of Saudi Arabia in the United Kingdom has called on Saudi citizens, whose flights have been affected by cancellations, delays, or inability to reach their destinations, to contact the embassy for assistance and guidance. The embassy explained that citizens can contact it via the emergency number (00447799519495) or visit its headquarters at (30 Charles Street, London W1J 5DZ).",
+    "url": "https://saudigazette.com.sa/article/665311/saudi-arabia/saudi-embassy-in-uk-urges-citizens-hit-by-flight-disruptions-to-contact-mission",
+    "reportedAt": 1791730292000,
+    "assumeSaudi": false,
+    "firstSeen": 1791847835536
+   },
+   {
     "id": "7a5bf6241572",
     "feed": "Arab News",
     "cat": "local",
@@ -6899,20 +8906,8 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQURBNTJkT2QzYi04NlZJaTJKYy1HU1FycDJTZ0R3empaV3d2MDdiUHdOUXl5TEJPeGpXRjloUG8xTjVKT3BJLVVjODY4UFVGdFV4RHdoMldJZExSdnZrMVAyZHRQVGQtWXJwc3N3dTROMEwyeDlJallqVzN1QXlYUVIyd3ZBTEZuNGhPSXY3elRFREJ5eDh4cUZZdUdtcFFlQno1OHNpa2lBdDBuampmOE5iUDV4aFZRaUdQUXNpWQ?oc=5",
     "reportedAt": 1791730271000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
-   },
-   {
-    "id": "90931a31a8d8",
-    "feed": "Saudi Gazette",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Saudi Gazette",
-    "title": "Saudi Embassy in UK urges citizens hit by flight disruptions to contact mission",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYklVS0MwR3F5OFBSWERMVGRCejJaRmM3V3pVU2pkRWhvWXZnZjE3QjFEaTRLZDVPVUpTWHZuaHA4WjRPNFd5OHVob3RyRE9LOW5tZXdwdlVDUmpSNTVPd3R0a2VCdUpWaExQaU5TUDJqUmI5QlhfV2M5c0drN1QtYjd3TURsWWRiVzJMTWgyYnMzdl9fcXNlZ2xUdDhoWlNEc0lOenlTQkJPVTBGTWJReWJOM1lwUmlEWllxRGVYWUZqMUE1S2REdUVjZEVYSWFibU5zcEV2dW5MclE?oc=5",
-    "reportedAt": 1791730260000,
-    "firstSeen": 1791847835536
    },
    {
     "id": "a42b2de671b2",
@@ -6935,10 +8930,25 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Jordanian father of two killed in Houthi attack on Riyadh airport",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKcjdTcVZnUllVSlhRQm9EMXFQYmlaZXhYLWppZTJLVzRPcFdyQS1ZbHBGM0F0Um9XTzdjeEg2Nzd0YTVBV0lsY3R3TE1YQjh0TGNsXw?oc=5",
-    "reportedAt": 1791726060000,
+    "snippet": "RIYADH — A 33-year-old Jordanian father of two who had been working in Saudi Arabia to support his family was among the 12 people killed in Saturday's Houthi attack on King Khalid International Airport in Riyadh.Mahmoud Hussein Al-Barqawi, a married father of two young children, had been living and working in the Kingdom for nearly two years, according to his family.Al-Barqawi was employed at a ca",
+    "url": "https://saudigazette.com.sa/article/665308/saudi-arabia/jordanian-father-of-two-killed-in-houthi-attack-on-riyadh-airport",
+    "reportedAt": 1791726066000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "2185564f2f14",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Egyptian flight attendant killed in Riyadh airport attack days before her wedding",
+    "snippet": "CAIRO — A 28-year-old Egyptian flight attendant who was preparing to return home for her wedding was among those killed in Saturday's Houthi attack on King Khalid International Airport in Riyadh, sparking widespread grief in her hometown in Egypt's Beheira governorate.Azza Ramzi, a flight attendant with Saudi carrier flynas, died from severe injuries sustained while performing her duties at the ai",
+    "url": "https://saudigazette.com.sa/article/665307/saudi-arabia/egyptian-flynas-flight-attendant-killed-in-riyadh-airport-attack-days-before-wedding",
+    "reportedAt": 1791725920000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "063dcac064cc",
@@ -6951,6 +8961,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWJvTGloMlRpN3ladDFPaElhd2Zldkpia2ZRMXM1SFVTcGN5OXRTYWtEMkZlbkpKWnM2alFXa2tIS3UwR184RnQ1YXl5eGtTWF91bGFScTJKMmFEbGNYaUd1c1lRRWVDZ3l4RXU5a2hzanp6YkU4S2hrcXFvSHVuRVB4R0R6M01jVlRTejdvVzBqR3Q3ZXFxSVN5MThlMlpBTmc?oc=5",
     "reportedAt": 1791725600000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6964,7 +8975,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02dDlLbERQVXBDaXR0amZHWThrOC03UVktY3VDdi10WVNHU1p1UmhleFpHR2ZWZ25iQ3A2THNTZU1ZRmg2cHgyQ0dTZmVxVVBXLWpMRzdIQjNEd1FjenZKadIBYEFVX3lxTE02dDlLbERQVXBDaXR0amZHWThrOC03UVktY3VDdi10WVNHU1p1UmhleFpHR2ZWZ25iQ3A2THNTZU1ZRmg2cHgyQ0dTZmVxVVBXLWpMRzdIQjNEd1FjenZKaQ?oc=5",
     "reportedAt": 1791725236000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "1afc4140fb0b",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Global condemnation mounts over deadly Houthi attack on Saudi Arabia’s Riyadh airport",
+    "snippet": "RIYADH — Countries, senior officials and international organizations have strongly condemned the deadly Houthi attack on King Khalid International Airport in Riyadh, expressing solidarity with Saudi Arabia and warning of threats to civilian lives and regional security and stability. The United Arab Emirates strongly condemned the Houthi attack on King Khalid International Airport, which killed 12 ",
+    "url": "https://saudigazette.com.sa/article/665306/saudi-arabia/global-condemnation-mounts-over-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+    "reportedAt": 1791722935000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "2fa2d4bbc338",
@@ -6977,6 +9003,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0hGZ0JLUjNCdE9oNUYwVkJTd2RqWGpfSV9PN1hZMzFuVUtldWNsNWhEd3dJc19VVW1DcDRHNUVlcS1PVDAwMF9wMGxMUkx6cGt3ZEsya1BuRlpLYXBiZnZRcHoweE5JaGIyTDdIRDlEbFRVUFRFQXMyRmY4OWxKcE1HSXM0YlF3NWdYQlZMQU8xSWt0c0FJZTc2ZnZtZw?oc=5",
     "reportedAt": 1791720060000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -6987,9 +9014,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Houthi attack on Riyadh airport shows disregard for civilian lives, Yemen’s Al-Alimi says",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FXzlidVJocm5Fc1ZZMWdJVVRJdVNWMXNRc2RzMGF2RjRiWFEyckZrZlhTOUVJVmZqT3JpOUluam1UWFFyMV9CckZ1alk4SEdXU3ZHdg?oc=5",
-    "reportedAt": 1791718020000,
+    "snippet": "ADEN — Yemen’s Presidential Leadership Council Chairman Rashad Al-Alimi strongly condemned the Houthi attack on King Khalid International Airport in Riyadh, saying it reflected the group's disregard for civilian lives and the interests of the Yemeni people. In a statement issued Sunday, Al-Alimi extended his condolences to Saudi Arabia's leadership, government and people on behalf of himself, fell",
+    "url": "https://saudigazette.com.sa/article/665303/saudi-arabia/yemens-al-alimi-says-saudi-security-is-tied-to-yemens",
+    "reportedAt": 1791718045000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -7000,10 +9028,25 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "EU’s Kaja Kallas condemns Houthi attack on Riyadh airport as ‘appalling act of terror’",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBISnA5NWdTWGdjS2RNVlZBbmJtUTZjTVdZbC1nbjMwU3ZWZktjRHRqbEhPaWpEVHpxcEFnSk1SRW5feF92MGotc3JTeGY5RVpLcUFTSQ?oc=5",
-    "reportedAt": 1791716820000,
+    "snippet": "BRUSSELS — European Union foreign policy chief Kaja Kallas strongly condemned the Houthi attack on King Khalid International Airport in Riyadh, describing it as an “appalling act of terror” and reaffirming the EU’s solidarity with Saudi Arabia. In a statement posted on X, Kallas denounced attacks targeting civilians and civilian infrastructure, stressing that such violence could not be justified. ",
+    "url": "https://saudigazette.com.sa/article/665302/saudi-arabia/eus-kaja-kallas-condemns-houthi-attack-on-riyadh-airport-as-appalling-act-of-terror",
+    "reportedAt": 1791716842000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "f8053130bfef",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "12 Killed, 309 Injured in Attack on Riyadh Airport; Coalition Vows Response",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328277",
+    "reportedAt": 1791714841000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "e11ccaa436b1",
@@ -7013,9 +9056,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "UN chief Guterres ‘deeply shocked’ by deadly Houthi attack on Riyadh airport",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IMGJ5RjYwam8wVm5RaUdCczhpa3hZTEw3S2lwRDdoRk42dEtOLTROVi1tT3BKY2puQ3QwQjBBXy1uUHNZdTA4Y2RyUU5HOG1IM1pzWQ?oc=5",
-    "reportedAt": 1791714660000,
+    "snippet": "NEW YORK — United Nations Secretary-General António Guterres expressed deep shock over the deadly Houthi attack on King Khalid International Airport in Riyadh, strongly condemning the violence and calling for an immediate end to such attacks. In a statement posted on X, Guterres denounced Saturday's attack, which killed 12 people and injured 309 civilians. “I am deeply shocked by & strongly condem",
+    "url": "https://saudigazette.com.sa/article/665300/saudi-arabia/un-chief-guterres-deeply-shocked-by-deadly-houthi-attack-on-riyadh-airport",
+    "reportedAt": 1791714682000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -7029,6 +9073,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
     "reportedAt": 1791714180000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
    },
    {
@@ -7039,10 +9084,25 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Pakistan PM Shehbaz Sharif condemns deadly Houthi attack on Riyadh airport, reaffirms solidarity with Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBweUt5QXVwSDZYNi1jMG9tY1hEOGFtQzBpRDhyRkt0UnBTYjVfajl6bjNsM3h1aUFOMXR0UV9tNndtaGE5MXlnX0JWWG5VcnBQLXJaZw?oc=5",
-    "reportedAt": 1791713220000,
+    "snippet": "ISLAMABAD — Pakistani Prime Minister Shehbaz Sharif strongly condemned the Houthi attack on King Khalid International Airport in Riyadh, describing it as “heinous” and reaffirming Pakistan’s unwavering commitment to Saudi Arabia’s sovereignty, territorial integrity and security. In a statement, Sharif denounced the attack, which killed 12 people and injured 309 others, according to Saudi Arabia's ",
+    "url": "https://saudigazette.com.sa/article/665296/saudi-arabia/pakistan-pm-shehbaz-sharif-condemns-deadly-houthi-attack-on-riyadh-airport-reaffirms-solidarity-with-saudi-arabia",
+    "reportedAt": 1791713228000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "0f708a927c81",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "UK Defense Minister: Houthi Attack on Riyadh Airport 'Dangerous Escalation' and 'Contemptible'",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328257",
+    "reportedAt": 1791712087000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "2d683fce0dc9",
@@ -7052,9 +9112,10 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Canadian PM condemns Houthi attacks on Saudi Arabia as ‘abhorrent’",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QVDJPZmNzUUFaTzJUNzZJN3o3TE1iaXNhR3k5V0l0a2hCSjZnUUpvZlFIcHc2UjF1My1TTTFQZ1pCa3pZU0I1Wk0tQUVXejAtTXdHWg?oc=5",
-    "reportedAt": 1791711900000,
+    "snippet": "OTTAWA — Canadian Prime Minister Mark Carney strongly condemned the recent Houthi attacks on Saudi Arabia, particularly the deadly strike on King Khalid International Airport in Riyadh, describing them as “abhorrent” and declaring that attacks on civilian infrastructure can never be justified. In a statement issued Sunday, Carney denounced the targeting of civilians and stressed that no political ",
+    "url": "https://saudigazette.com.sa/article/665295/saudi-arabia/canadian-pm-condemns-houthi-attacks-on-saudi-arabia-as-abhorrent",
+    "reportedAt": 1791711948000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -7068,6 +9129,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CUnBnc202Si1PYWxlZVlSZ3dSWGZtU2lhNkdqcS1uMjRRVk5Zb1BERXV4ZmZRVzdScGRmVjhUTlJ0bjdRWFBBZUJMYzdmdGx0RVhfSUlCN2JxaHYwS2RHRNIBYEFVX3lxTE9CUnBnc202Si1PYWxlZVlSZ3dSWGZtU2lhNkdqcS1uMjRRVk5Zb1BERXV4ZmZRVzdScGRmVjhUTlJ0bjdRWFBBZUJMYzdmdGx0RVhfSUlCN2JxaHYwS2RHRA?oc=5",
     "reportedAt": 1791706232000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -7081,6 +9143,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOczBaU3Rsd09pXzduTE9pZlFoT0NPV3pwbmtlNlZJUmxvd1MwM2xoUW5LTUNXcnp6Y3dPS1ExRnRjWHFFMTJHYnQxZmNONW5xRE10VmUzU0tqMHBTMDdRWXpJMWJGb21rUDctY01ROHpaRnpybE9LZlFub1dWM2RDRHBLcTZuWWRGd0FBVllvdk9vR0g2ODgzZWlrYWdsamlldmZ2QklUNVRtOElIazBiV1VMeUpKTXpG?oc=5",
     "reportedAt": 1791705817000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -7120,7 +9183,36 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2R4RTdtNzBfbkplbG5ySFFUVnVwODV0bUNFQ0dnRVhiaTZ6d0tzVFppeE9UN2g5MnZwWHRoaEVuNWdWZzlOc0JHWGx1OEdET0lhZzBYeElqamVYSW85X3p1RzZXdkktQUJIZ1BJcXZ4N1dKcFZWMHdhUXZUQ2pkZjE5bng5STlKdGc1ZksxYmlOV2pOVjd6UGZONDZMeEVwV3Q5MWRXUkF2VGNnUE5zUjktZVJTQzY2bHhMcQ?oc=5",
     "reportedAt": 1791699710000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
+   },
+   {
+    "id": "758ab2b2539e",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Widespread Regional, Int’l Condemnation of Houthi Attack on Riyadh Airport",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328211",
+    "reportedAt": 1791698068000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "9e6b06fe9677",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "UN Yemen Envoy: Houthi Attacks on Saudi Arabia Threaten Regional Security",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328207",
+    "reportedAt": 1791695400000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "48a49f9eb95a",
@@ -7146,7 +9238,50 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOGd2UXJfMllFWTZtcDA3azE0OVZJbnNjcnZWN3ZIblA5dE1HVXplSmFKUDBZY1hWN1R3bDBWTEwxRWdCYlZYY3llTmk3REQ5Wk5pVU1pYmlCbVNQd3U3RXdYM180VzNIdWo4THFXNHJMRkdkenpRb2htTzUxdmVOWVo5VHdCYVlpNXdHaUNwOWl0QUtOai00ZmpoNldEMHRydkVTYThlTGFnOGN0eGQzRkpmUEZWSWFFWmMtQ1NKNFRjaHpwQ2cwazh6czNUWFE?oc=5",
     "reportedAt": 1791695066000,
+    "assumeSaudi": false,
     "firstSeen": 1791820732399
+   },
+   {
+    "id": "e8251dc33f1a",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Trump Says Houthi Attack on Riyadh Airport ‘Unacceptable’",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328205",
+    "reportedAt": 1791694688000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "9ce91ac9d815",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Rubio: We Condemn Houthi Attacks ...We Stand with Saudi Arabia",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328204",
+    "reportedAt": 1791694083000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "388a9093428d",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Coalition Destroys Drone in Eastern Region, Denounces Attack on Riyadh Airport",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328202",
+    "reportedAt": 1791693242000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "b2b488c61277",
@@ -7159,7 +9294,22 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbEw1OExhYXZWcGlkc1RlV05Eb1hwcl9CUTRWbUM2TnlraGRWVDRWQTYxZXZBSHZNc1hpcG54N1BUV0psMTBGeXB3QkVyREpnemhadUdVNDhEMkZvOW40R1ltamJIeHgyQlB3WGpEdEJOeXFGLUN2dW0xVy1WUTNSdGRCdFBDQkhZV1JLQVJDNmE3S09LaEp2ZHNpMzJOLVZrbExHMnhuYXVEWFoydElDZ3dDdXlqT0l4TGlSZ3dsenZQQ3JmWDh3TDRBNEFYMUFjU290S0RqVnphSV9HSGh0cA?oc=5",
     "reportedAt": 1791692850000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
+   },
+   {
+    "id": "fef2c0247e21",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Rubio condemns deadly Houthi attack on Riyadh airport, says US stands with Saudi Arabia",
+    "snippet": "WASHINGTON — US Secretary of State Marco Rubio strongly condemned the Houthi attacks on Saudi Arabia, including Saturday's deadly strike on King Khalid International Airport in Riyadh that killed 12 people, among them an American citizen.“The United States strongly condemns the recent attacks on the Kingdom of Saudi Arabia by the terrorist Houthis, including today’s strike on King Khalid Internati",
+    "url": "https://saudigazette.com.sa/article/665294/saudi-arabia/rubio-condemns-houthi-attack-on-riyadh-airport-confirms-american-among-victims",
+    "reportedAt": 1791685662000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "5b500b09da80",
@@ -7188,6 +9338,48 @@
     "firstSeen": 1791820732399
    },
    {
+    "id": "4e7ef7fe224d",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Coalition vows firm response to Houthi war crime at Riyadh airport",
+    "snippet": "RIYADH — The Coalition to Support Legitimacy in Yemen said Saturday's Houthi attack on King Khalid International Airport in Riyadh constituted a war crime and vowed a firm response in accordance with international humanitarian law.Coalition spokesman Maj. Gen. Turki Al-Maliki said the October 10 attack, which targeted a passenger terminal at the airport and caused civilian deaths and injuries, con",
+    "url": "https://saudigazette.com.sa/article/665293/saudi-arabia/coalition-vows-firm-response-to-houthi-attack-on-riyadh-airport-calls-it-war-crime",
+    "reportedAt": 1791673583000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "91a74eb7baf3",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Projectile lands near King Fahd International Airport in Dammam, coalition says",
+    "snippet": "RIYADH — The Coalition to Support Legitimacy in Yemen said that a projectile had landed in the vicinity of King Fahd International Airport in Dammam.Coalition spokesman Maj. Gen. Turki Al-Maliki confirmed on Saturday the incident.The announcement comes amid a series of attacks targeting aviation facilities in Saudi Arabia, including King Khalid International Airport in Riyadh, where 12 people were",
+    "url": "https://saudigazette.com.sa/article/665291/saudi-arabia/projectile-lands-near-king-fahd-international-airport-in-dammam-coalition-confirms",
+    "reportedAt": 1791672051000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
+    "id": "a5c513b2ea9d",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "12 killed, 309 injured in attack on Riyadh airport, GACA confirms",
+    "snippet": "RIYADH — Saudi Arabia's General Authority of Civil Aviation (GACA) announced early Sunday that 12 people were killed and 309 others injured in Saturday's attack on King Khalid International Airport in Riyadh.GACA confirmed that the fatalities included four Saudi citizens, two Bangladeshis, and one national each from the United States, Egypt, Jordan, Syria, Palestine and Sudan.The authority said th",
+    "url": "https://saudigazette.com.sa/article/665290/saudi-arabia/12-killed-309-injured-in-riyadh-airport-attack-saudi-aviation-authority-confirms",
+    "reportedAt": 1791671831000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
+   },
+   {
     "id": "6b1ee36a5dad",
     "feed": "Arab News",
     "cat": "local",
@@ -7211,6 +9403,7 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxc1JjLXR2LXY5aFJQY1NUd2l2TUo1RlNLSVZWTVE4Nmdrc2JveU04Y2dwVEoyZ21zX2xCUnhqUnRBcDlMb1lkcTRR?oc=5",
     "reportedAt": 1791658230000,
+    "assumeSaudi": false,
     "firstSeen": 1791853948085
    },
    {
@@ -7225,6 +9418,20 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY3ltenFGZXktY2E1dS1FU0NVdDkzamJxYTRrcGhpM2s2VkpjYzBTcDIzZzNLcnBiYjdEczktS052UlBMXzBueGR2WUM0dGkxTVNUdXF6VmVxRmZnOGlwY1gxWUttbWFybEtFcDFwMDN5M2tUUm9CWkZUTHdUVW4zRTFkRUp5NlllQVlOLXZ2bDhnelpsUEpLXzlMZHhoRFlFUkIyWWFSWUtUSjh1RXExWmhqY3NyMURqU3E0QkFObFdWdlNRMWc?oc=5",
     "reportedAt": 1791655412000,
     "firstSeen": 1791820732399
+   },
+   {
+    "id": "eb381d6531c6",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "GACA: Operations at Riyadh Airport Temporarily Suspended after Attack",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5328111",
+    "reportedAt": 1791651654000,
+    "assumeSaudi": false,
+    "firstSeen": 1791854724872
    },
    {
     "id": "0d10350f47ac",
@@ -7468,7 +9675,44 @@
    "2d683fce0dc9": "캐나다 총리, 후티의 사우디 공격을 ‘혐오스럽다’며 규탄",
    "05e29d3f7e61": "리야드 공항에 대한 치명적 후티 공격 이후 국제적 분노 확산",
    "b2b488c61277": "연합군, 리야드 공항 공격에 단호히 대응하겠다고 맹세, 트럼프는 후티 공격을 ‘용납할 수 없다’고 말해",
-   "354124c367f9": "외교부, 킹 칼리드 공항 운항 차질로 피해를 본 국민들에게 사우디 공관에 연락할 것을 권고"
+   "354124c367f9": "외교부, 킹 칼리드 공항 운항 차질로 피해를 본 국민들에게 사우디 공관에 연락할 것을 권고",
+   "b0277f9dfd1c": "후티의 파괴적 교리 뒤에 어떤 이데올로기가 있나?",
+   "3718d7ab79f7": "이란 전쟁 실시간: 트럼프, 후티들이 '행동을 잘못하고 있다'고 비난…리야드 항공편 중단",
+   "075f862fccd1": "후티 미사일 공격, 사흘 연속으로 사우디 수도 리야드 겨냥",
+   "f68cd95af66d": "리야드 공항 공격 피해자들 살린 의료진 400명",
+   "03d90ced701b": "Al-Dossary: 사우디아라비아는 모든 비상사태에 대응할 준비가 돼 있다",
+   "240c5f2a9c8c": "유엔 인권 최고대표, 사우디 항공기지에 대한 공격에 '경악'",
+   "f5ac22202581": "사우디 대무프티: 후티 민병대의 성지 공격은 중대한 범죄로 심각한 결과 초래",
+   "e2e269e85073": "70여 개국 각료·이슬람 인사들, 사우디 겨냥한 후티 공격 규탄",
+   "9242648d5314": "유엔 인권 최고대표, 사우디 공항에 대한 후티 공격 규탄",
+   "f5c5c27f489e": "대무프티: 성지로 향하는 예배자들 겨냥한 후티의 공격은 최악의 범죄",
+   "692877497c3c": "이슬람 지도자들, 순례자 안전 위협하는 치명적 후티 공격 규탄",
+   "00dac549a9fb": "연합군, 리야드를 향해 발사된 후티의 탄도미사일 요격",
+   "c0224cfae1a0": "리야드 주지사, 후티 공격 부상자들에 위로: 사우디 지도부가 전폭적으로 함께한다",
+   "3c4117926c8d": "요르단 국왕, 통화에서 사우디에 대한 후티 공격 규탄",
+   "3182fd7cc0f9": "요르단 국왕, 후티의 사우디 공격 규탄하며 국왕이 왕세자에게 전화",
+   "2a35ab2fdc94": "아브둘라 국왕, 왕세자에게 전화해 요르단의 사우디 전폭적 지지 재확인",
+   "a3bf5d91b58f": "리야드·카미스무샤이트로 발사된 탄도미사일 3발 파괴",
+   "868b317975d1": "리야드 주지사, 킹 칼리드 국제공항 후티 공격 부상 시민 방문",
+   "8853ef7f667b": "영국·바레인 외교장관, 파이살 왕자에 전화해 사우디에 대한 연대 재확인",
+   "aa1d8565d29b": "아람코 사장 겸 CEO: 지역 에너지 인프라 공격은 세계 경제 위협",
+   "2da360187f69": "아브둘아지즈 왕자: 사우디는 도전 극복하고 글로벌 에너지 약속 지킬 것",
+   "0b8b9f87df61": "사우디·이란 외교장관, 지역 긴장 논의…영국·시리아는 후티 공격 규탄",
+   "7ec60996487e": "GACA: 리야드·담맘 공항에 대한 두 차례 신규 공격으로 주민 1명 사망·11명 부상",
+   "8e86841b5a42": "사우디·시리아 외교장관, 전화로 지역 안보를 위한 공동 노력 논의",
+   "2185564f2f14": "결혼을 며칠 앞둔 이집트 승무원, 리야드 공항 공격으로 사망",
+   "f8053130bfef": "리야드 공항 공격으로 12명 사망·309명 부상; 연합군 대응 약속",
+   "0f708a927c81": "영국 국방장관: 리야드 공항에 대한 후티 공격은 '위험한 고조'이자 '비열한 행위'",
+   "758ab2b2539e": "리야드 공항에 대한 후티 공격에 대한 광범위한 지역·국제적 규탄",
+   "9e6b06fe9677": "유엔 예멘 특사: 사우디에 대한 후티 공격은 지역 안보 위협",
+   "e8251dc33f1a": "트럼프, 리야드 공항에 대한 후티 공격 '용납할 수 없다'고 발언",
+   "9ce91ac9d815": "루비오: 우리는 후티 공격을 규탄한다…사우디와 함께 서겠다",
+   "388a9093428d": "연합군, 동부 지역에서 드론 파괴하며 리야드 공항 공격 규탄",
+   "fef2c0247e21": "루비오, 리야드 공항에 대한 치명적 후티 공격 규탄하며 미·사우디 연대 표명",
+   "4e7ef7fe224d": "연합군, 리야드 공항에서의 전쟁범죄에 단호히 대응하겠다고 맹세",
+   "91a74eb7baf3": "연합군: 발사체가 담맘의 킹 파드 국제공항 인근에 착탄",
+   "a5c513b2ea9d": "리야드 공항 공격으로 12명 사망·309명 부상, GACA 확인",
+   "eb381d6531c6": "GACA: 공격 이후 리야드 공항 운영 일시 중단"
   },
   "aiClusters": [
    {
@@ -8297,15 +10541,234 @@
      "1391e7461097"
     ],
     "fromRule": true
+   },
+   {
+    "articleIds": [
+     "b0277f9dfd1c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3718d7ab79f7"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "075f862fccd1"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f68cd95af66d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "03d90ced701b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "240c5f2a9c8c",
+     "9242648d5314"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f5ac22202581"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "e2e269e85073"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f5c5c27f489e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "692877497c3c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "00dac549a9fb"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c0224cfae1a0"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3c4117926c8d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3182fd7cc0f9"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "2a35ab2fdc94"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a3bf5d91b58f"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "868b317975d1"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "8853ef7f667b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "aa1d8565d29b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "2da360187f69"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "0b8b9f87df61"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "7ec60996487e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "8e86841b5a42"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "2185564f2f14"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "1afc4140fb0b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f8053130bfef",
+     "a5c513b2ea9d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "0f708a927c81"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "758ab2b2539e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "9e6b06fe9677"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "e8251dc33f1a"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "9ce91ac9d815"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "388a9093428d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "fef2c0247e21"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "4e7ef7fe224d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "91a74eb7baf3"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "eb381d6531c6"
+    ],
+    "fromRule": true
    }
   ],
   "aiSummaryKo": [
-   "리야드 공항 운영이 이번 주 폐쇄 연장됐다고 보도됐어요.",
-   "후티가 리야드 등 공항을 미사일·드론으로 공격했다고 주장했고 연합군이 요격을 시도했다고 보도됐어요.",
-   "공항 피격 소식에 국제유가가 상승했다고 여러 매체가 보도했어요.",
-   "여러 국가·국제기구가 후티 공격을 규탄했다는 보도가 나왔어요."
+   "최근 보도에 따르면 후티가 사우디 동부 담맘·자푸라 등 동부주를 겨냥한 공격을 이어갔다는 보도가 잇따릅니다(로이터·연합뉴스).",
+   "리야드와 담맘 공항은 공격으로 항공편 운항이 중단되거나 폐쇄가 연장됐다고 보도되었습니다(로이터·한국일보).",
+   "후티는 리야드 등 공항과 수도를 사흘째 공격했다고 주장했으나 일부 요격도 있었다는 보도가 있습니다(후티 주장, 연합군 요격 보도).",
+   "사우디는 방공망 요격 실패 원인을 조사 중이며 국영통신과 국제 인사들이 후티 공격을 규탄했습니다(SPA·연합뉴스)."
   ],
   "lastAiAt": 1791848429212,
+  "summaryAt": "2026-10-13T01:25:24.872Z",
   "promptVersion": 4
  }
 }
