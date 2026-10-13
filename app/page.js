@@ -475,6 +475,45 @@ const ICONS = {
 };
 const Icon = ({ n }) => <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">{ICONS[n]}</svg>;
 
+/* ───────── 홈 화면 앱 설치 안내 ───────── */
+function InstallBanner() {
+  const [mode, setMode] = useState(null); // "prompt" | "ios" | "inapp" | null
+  useEffect(() => {
+    const standalone = window.matchMedia?.("(display-mode: standalone)").matches || navigator.standalone;
+    if (standalone) return; // 이미 앱으로 설치해서 여는 중
+    try { if (Date.now() - Number(localStorage.getItem("installHideAt") || 0) < 3 * 86400000) return; } catch {}
+    if (window.__inApp) { setMode("inapp"); return; }
+    if (window.__bip) setMode("prompt");
+    else if (window.__ios) setMode("ios");
+    const onReady = () => setMode("prompt");
+    window.addEventListener("bip-ready", onReady);
+    const onInstalled = () => setMode(null);
+    window.addEventListener("appinstalled", onInstalled);
+    return () => { window.removeEventListener("bip-ready", onReady); window.removeEventListener("appinstalled", onInstalled); };
+  }, []);
+  if (!mode) return null;
+  const hide = () => { setMode(null); try { localStorage.setItem("installHideAt", String(Date.now())); } catch {} };
+  const install = async () => {
+    const e = window.__bip; if (!e) return;
+    e.prompt();
+    try { const r = await e.userChoice; if (r.outcome === "accepted") setMode(null); } catch {}
+    window.__bip = null;
+  };
+  return (
+    <div className="install">
+      <div className="install-txt">
+        {mode === "prompt" && <><b>홈 화면에 앱으로 설치</b>아이콘 한 번 눌러서 바로 열 수 있어요.</>}
+        {mode === "ios" && <><b>홈 화면에 추가하기</b>아래 공유 버튼(□↑) → <b style={{ display: "inline" }}>홈 화면에 추가</b>를 눌러 주세요.</>}
+        {mode === "inapp" && <><b>크롬이나 사파리로 열어 주세요</b>오른쪽 위 메뉴(⋮ 또는 ···)에서 "다른 브라우저로 열기"를 누르면 앱으로 설치할 수 있어요.</>}
+      </div>
+      <div className="install-btns">
+        {mode === "prompt" && <button className="iconbtn primary" onClick={install}>앱 설치</button>}
+        <button className="iconbtn" onClick={hide} aria-label="닫기">닫기</button>
+      </div>
+    </div>
+  );
+}
+
 const EMPTY = normalize({});
 
 export default function App() {
@@ -556,6 +595,7 @@ export default function App() {
       </header>
 
       <main className="wrap">
+        <InstallBanner />
         {loading && data === EMPTY ? (
           <div className="stack"><div className="card"><Empty text="소식 불러오는 중이에요…" /></div></div>
         ) : (
