@@ -405,7 +405,7 @@ function InfoView({ theme, setTheme, meta }) {
           <ul className="srclist">
             {meta.sources.map((s) => (
               <li key={s.name}>
-                <span>{s.name}</span>
+                <span>{s.name}{(s.error || s.note) && <small className="muted" style={{ display: "block", fontSize: ".78rem" }}>{s.error || s.note}</small>}</span>
                 {s.ok ? <span className="pill ok">{s.count}건</span> : <span className="pill fail">실패</span>}
               </li>
             ))}
