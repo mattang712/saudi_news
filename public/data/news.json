@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-13T18:07:09.653Z",
-  "lastAttemptAt": "2026-10-13T18:07:09.653Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-13T18:10:39.527Z",
+  "lastAttemptAt": "2026-10-13T18:10:39.527Z",
   "aiSummary": true,
   "summaryAt": "2026-10-13T18:00:51.732Z",
   "aiError": null,
@@ -16,7 +16,7 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 84
+    "count": 86
    },
    {
     "name": "Reuters",
@@ -26,7 +26,7 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 180
+    "count": 183
    },
    {
     "name": "AFP",
@@ -36,12 +36,12 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 133
+    "count": 138
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 56
+    "count": 58
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,56 +51,27 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 64
+    "count": 63
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 68
+    "count": 74
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-12",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -1155,61 +1126,6 @@
    ]
   },
   {
-   "id": "7f7a8f3cb514",
-   "articleIds": [
-    "3718d7ab79f7",
-    "3be3d756c118",
-    "d1ff099acff5"
-   ],
-   "type": "airport",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T01:25:24.872Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
-     "titleKo": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
-     "summary": "알자지라가 트럼프 발언과 함께 리야드 공항 운항 중단 소식을 전했어요.",
-     "reportedAt": "2026-10-13T00:00:00.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
-     "titleKo": "사우디 '미사일 요격' 주장과 후티의 '미 개입 말라' 경고",
-     "summary": "알자지라가 트럼프의 후티 비판과 함께 리야드 항공 운항 중단을 보도했어요.",
-     "reportedAt": "2026-10-13T00:08:52.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcGZ4eWF0bzJySjRqNHBqU2NDSHVFRG14SmtLY2YyenQ4SjVCNHN5aWxibUZWU1o2ZEJQbEJiX21pUmdBZ3pfWDc5ckdnbHNmcnF0dlAyRVdPcmZhbWNvWW4zSm05RXhTbzZVU3NxdnNuQTlZQW02dEpqbDlDSnR4WWFZdUMtQU9Vb1JkNjltUXlUSTNKaVAzY0hZcmRfSWRycGFWWko0bHJsS1hWV1FZY3hQUGp4TlQ3dzZ5Q0VZZVBOeFFCWmdfSTg3aWJKZnJf?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
-     "titleKo": "리야드 항공편 운항 중단 관련 보도",
-     "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
-     "reportedAt": "2026-10-13T12:29:33.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb3o5OGZfVzFueE9McmxRTE9RQ1dBMHhRd0tJWEVwNXlRb2dMSW1YX3ZOXy1LYzk2ZEtJVERldjZyQ2ppdTVZTExjdTBtaUk3TTNTQi1jRWJ2N2hBakh3ZXpFQ0ZhbGtfemlldnBzY1g0ZHk5dFpzVVlmQ0x4cnlpTU0wRFh0bkl1WUNWZGNYcTdWMENnMTRuZnJhNnprWFN5WWJYbkJudUhGTnJEX3hGNlJzWWZFcDB6M2hvdktPTXdIZUtfRWxoSFdYSWJxU1RU?oc=5"
-    }
-   ]
-  },
-  {
    "id": "2dbac3e55803",
    "articleIds": [
     "ed90fa23e9c4"
@@ -1623,6 +1539,61 @@
      "reportedAt": "2026-10-13T06:50:21.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ZeXNxWEp1RjlHV081VURzOEs1aVQ1dVJfVW9PeUdheDBCMk9venRrak1nN3FqaGZpU2FKVEZrdlZwRG41U2NRQU80bkJZblM4bDFRVW1SU2VENndINUkwVy1pejFMVnRCemVXNVJDVdIBb0FVX3lxTE9ZeXNxWEp1RjlHV081VURzOEs1aVQ1dVJfVW9PeUdheDBCMk9venRrak1nN3FqaGZpU2FKVEZrdlZwRG41U2NRQU80bkJZblM4bDFRVW1SU2VENndINUkwVy1pejFMVnRCemVXNVJDVQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "7f7a8f3cb514",
+   "articleIds": [
+    "3718d7ab79f7",
+    "3be3d756c118",
+    "d1ff099acff5"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T01:25:24.872Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
+     "titleKo": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
+     "summary": "알자지라가 트럼프 발언과 함께 리야드 공항 운항 중단 소식을 전했어요.",
+     "reportedAt": "2026-10-13T00:00:00.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
+     "titleKo": "사우디 '미사일 요격' 주장과 후티의 '미 개입 말라' 경고",
+     "summary": "알자지라가 트럼프의 후티 비판과 함께 리야드 항공 운항 중단을 보도했어요.",
+     "reportedAt": "2026-10-13T00:08:52.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcGZ4eWF0bzJySjRqNHBqU2NDSHVFRG14SmtLY2YyenQ4SjVCNHN5aWxibUZWU1o2ZEJQbEJiX21pUmdBZ3pfWDc5ckdnbHNmcnF0dlAyRVdPcmZhbWNvWW4zSm05RXhTbzZVU3NxdnNuQTlZQW02dEpqbDlDSnR4WWFZdUMtQU9Vb1JkNjltUXlUSTNKaVAzY0hZcmRfSWRycGFWWko0bHJsS1hWV1FZY3hQUGp4TlQ3dzZ5Q0VZZVBOeFFCWmdfSTg3aWJKZnJf?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
+     "titleKo": "리야드 항공편 운항 중단 관련 보도",
+     "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
+     "reportedAt": "2026-10-13T06:44:58.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORXFPdUt4ZmN6TzN6dUlod2dqYXZPV1d6b0NoMUp2V0ctZHhwbkMwUHBLUHFCZU5wRFdWdkFmWU4yYzlJRjl1b2hwZXpFWE5zZkljQmQycnlLY042bC1YWU10M3J1X0QwOHpkRXBMcGVFQU55djB5RFBHel84YnQ1ZmtQa3Bqa01mdXpHeWVzcWR5dGk2TmNCbFJfYWRfNGhHQnNwVFh1OXpXZXJGbF83ZUVtTmlfU3FZQmhac05QdmFTeFNYbGFMbTJOdTVkR0FD?oc=5"
     }
    ]
   },
@@ -6140,6 +6111,40 @@
    ]
   },
   {
+   "id": "b76791153f08",
+   "articleIds": [
+    "af7b0f16a73c"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "GACA: 담맘 킹 파흐드 공항 공격 대상으로 지목",
+   "titleAuto": true,
+   "regions": [
+    "dammam",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-12T15:58:52.399Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "GACA: Attack Targets King Fahd International Airport in Dammam",
+     "titleKo": "GACA: 담맘 킹 파흐드 공항 공격 대상으로 지목",
+     "summary": "GACA가 담맘의 킹 파흐드 공항을 공격 대상으로 지적했다고 보도했어요.",
+     "reportedAt": "2026-10-12T07:06:30.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCRW5Wd0wxbGc1Y21ZLXdGcklvZHk5WTRHV2t1clVPWW1YMUxaNTZlLUZ4QkhLanZLSzVubFI4aWFZWExLVFctYW53?oc=5"
+    }
+   ]
+  },
+  {
    "id": "d39a7b0e06a4",
    "articleIds": [
     "de81371932ed"
@@ -7089,40 +7094,6 @@
      "reportedAt": "2026-10-11T20:00:54.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "b76791153f08",
-   "articleIds": [
-    "af7b0f16a73c"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "GACA: 담맘 킹 파흐드 공항 공격 대상으로 지목",
-   "titleAuto": true,
-   "regions": [
-    "dammam",
-    "airport",
-    "eastern"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-12T15:58:52.399Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "GACA: Attack Targets King Fahd International Airport in Dammam",
-     "titleKo": "GACA: 담맘 킹 파흐드 공항 공격 대상으로 지목",
-     "summary": "GACA가 담맘의 킹 파흐드 공항을 공격 대상으로 지적했다고 보도했어요.",
-     "reportedAt": "2026-10-11T19:32:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QMjVseXhIVmw2LUJySV8yQzRKaEpjalpkRDZZQlEtcktwRE9qUE1zOFpvME5jU2IxU05iUUMwcGVSS01uY0Y5QjNB?oc=5"
     }
    ]
   },
@@ -8942,24 +8913,6 @@
    "url": "https://english.aawsat.com/node/5329173"
   },
   {
-   "id": "d1ff099acff5",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "airport",
-   "sev": "mid",
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "titleKo": "리야드 항공편 운항 중단 관련 보도",
-   "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
-   "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
-   "reportedAt": "2026-10-13T12:29:33.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb3o5OGZfVzFueE9McmxRTE9RQ1dBMHhRd0tJWEVwNXlRb2dMSW1YX3ZOXy1LYzk2ZEtJVERldjZyQ2ppdTVZTExjdTBtaUk3TTNTQi1jRWJ2N2hBakh3ZXpFQ0ZhbGtfemlldnBzY1g0ZHk5dFpzVVlmQ0x4cnlpTU0wRFh0bkl1WUNWZGNYcTdWMENnMTRuZnJhNnprWFN5WWJYbkJudUhGTnJEX3hGNlJzWWZFcDB6M2hvdktPTXdIZUtfRWxoSFdYSWJxU1RU?oc=5"
-  },
-  {
    "id": "a5de3e730b74",
    "outlet": "Reuters",
    "official": false,
@@ -8994,6 +8947,24 @@
    "reportedAt": "2026-10-13T10:11:56.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5329050"
+  },
+  {
+   "id": "d1ff099acff5",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "airport",
+   "sev": "mid",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 항공편 운항 중단 관련 보도",
+   "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
+   "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
+   "reportedAt": "2026-10-13T06:44:58.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORXFPdUt4ZmN6TzN6dUlod2dqYXZPV1d6b0NoMUp2V0ctZHhwbkMwUHBLUHFCZU5wRFdWdkFmWU4yYzlJRjl1b2hwZXpFWE5zZkljQmQycnlLY042bC1YWU10M3J1X0QwOHpkRXBMcGVFQU55djB5RFBHel84YnQ1ZmtQa3Bqa01mdXpHeWVzcWR5dGk2TmNCbFJfYWRfNGhHQnNwVFh1OXpXZXJGbF83ZUVtTmlfU3FZQmhac05QdmFTeFNYbGFMbTJOdTVkR0FD?oc=5"
   },
   {
    "id": "a2eb51880a1a",
@@ -9891,6 +9862,26 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTlFnT25MeVEwZXJqcENmSjRYbS1XLVByLVc4X3FHMEVCSTRBdlBoc09jUnhiWGg2RHA5TlRNNnBYamVHMlJJZkFSMmlCRmVEMEVMSWR0aDZydXZncERiNWRXQnRGR3IwRGE4N2NTalBnTmZ5eHNUTDJJd1FYMkh2MnlIaXB4emFZT2FWbGQyaG81X2xDNTVJZl9OZVZqTWhzQWpWRzFyOGtua1pKUDlJVVRrMnI3c2hq0gG-AUFVX3lxTE4yRFdubzRkU241c0ZZU1hpZ2xrZ3JEN1R6QVFUUENXRHVyWXNMbHN4b3ZTMWlCakFUT2FmaWl6UVkzUHBEalBuZWlDdG4tUEUzOFhKY09FWlZjemdMZXg0NHJFRHdva004c3B1TkNmOGc5RmZMUTRnTmFDNmlhM285bkk5RDFyX1dneWJvQzRTN0NLblhSTXQtenVwQVhQaFYtZEFja0N3MjZmU3dpbDU5LWhIRDJvSWh0MVItZ0E?oc=5"
   },
   {
+   "id": "af7b0f16a73c",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "dammam",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "titleKo": "GACA: 담맘 킹 파흐드 공항 공격 대상으로 지목",
+   "title": "GACA: Attack Targets King Fahd International Airport in Dammam",
+   "summary": "GACA가 담맘의 킹 파흐드 공항을 공격 대상으로 지적했다고 보도했어요.",
+   "reportedAt": "2026-10-12T07:06:30.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCRW5Wd0wxbGc1Y21ZLXdGcklvZHk5WTRHV2t1clVPWW1YMUxaNTZlLUZ4QkhLanZLSzVubFI4aWFZWExLVFctYW53?oc=5"
+  },
+  {
    "id": "de81371932ed",
    "outlet": "Al Jazeera",
    "official": false,
@@ -10130,26 +10121,6 @@
    "reportedAt": "2026-10-11T20:00:54.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5"
-  },
-  {
-   "id": "af7b0f16a73c",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "dammam",
-    "airport",
-    "eastern"
-   ],
-   "inferred": false,
-   "titleKo": "GACA: 담맘 킹 파흐드 공항 공격 대상으로 지목",
-   "title": "GACA: Attack Targets King Fahd International Airport in Dammam",
-   "summary": "GACA가 담맘의 킹 파흐드 공항을 공격 대상으로 지적했다고 보도했어요.",
-   "reportedAt": "2026-10-11T19:32:49.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QMjVseXhIVmw2LUJySV8yQzRKaEpjalpkRDZZQlEtcktwRE9qUE1zOFpvME5jU2IxU05iUUMwcGVSS01uY0Y5QjNB?oc=5"
   },
   {
    "id": "400bbb03df63",
@@ -11147,20 +11118,6 @@
     "firstSeen": 1791897034867
    },
    {
-    "id": "d1ff099acff5",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb3o5OGZfVzFueE9McmxRTE9RQ1dBMHhRd0tJWEVwNXlRb2dMSW1YX3ZOXy1LYzk2ZEtJVERldjZyQ2ppdTVZTExjdTBtaUk3TTNTQi1jRWJ2N2hBakh3ZXpFQ0ZhbGtfemlldnBzY1g0ZHk5dFpzVVlmQ0x4cnlpTU0wRFh0bkl1WUNWZGNYcTdWMENnMTRuZnJhNnprWFN5WWJYbkJudUhGTnJEX3hGNlJzWWZFcDB6M2hvdktPTXdIZUtfRWxoSFdYSWJxU1RU?oc=5",
-    "reportedAt": 1791894573000,
-    "assumeSaudi": false,
-    "firstSeen": 1791855004428
-   },
-   {
     "id": "a3bb2f2f951c",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -11495,6 +11452,20 @@
     "reportedAt": 1791874221000,
     "assumeSaudi": false,
     "firstSeen": 1791876643387
+   },
+   {
+    "id": "d1ff099acff5",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORXFPdUt4ZmN6TzN6dUlod2dqYXZPV1d6b0NoMUp2V0ctZHhwbkMwUHBLUHFCZU5wRFdWdkFmWU4yYzlJRjl1b2hwZXpFWE5zZkljQmQycnlLY042bC1YWU10M3J1X0QwOHpkRXBMcGVFQU55djB5RFBHel84YnQ1ZmtQa3Bqa01mdXpHeWVzcWR5dGk2TmNCbFJfYWRfNGhHQnNwVFh1OXpXZXJGbF83ZUVtTmlfU3FZQmhac05QdmFTeFNYbGFMbTJOdTVkR0FD?oc=5",
+    "reportedAt": 1791873898000,
+    "assumeSaudi": false,
+    "firstSeen": 1791855004428
    },
    {
     "id": "477d49017395",
@@ -13768,6 +13739,20 @@
     "firstSeen": 1791833333768
    },
    {
+    "id": "af7b0f16a73c",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "GACA: Attack Targets King Fahd International Airport in Dammam",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCRW5Wd0wxbGc1Y21ZLXdGcklvZHk5WTRHV2t1clVPWW1YMUxaNTZlLUZ4QkhLanZLSzVubFI4aWFZWExLVFctYW53?oc=5",
+    "reportedAt": 1791788790000,
+    "assumeSaudi": false,
+    "firstSeen": 1791820732399
+   },
+   {
     "id": "de81371932ed",
     "feed": "Al Jazeera",
     "cat": "local",
@@ -14181,20 +14166,6 @@
     "reportedAt": 1791748854000,
     "assumeSaudi": false,
     "firstSeen": 1791855004428
-   },
-   {
-    "id": "af7b0f16a73c",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "GACA: Attack Targets King Fahd International Airport in Dammam",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QMjVseXhIVmw2LUJySV8yQzRKaEpjalpkRDZZQlEtcktwRE9qUE1zOFpvME5jU2IxU05iUUMwcGVSS01uY0Y5QjNB?oc=5",
-    "reportedAt": 1791747169000,
-    "assumeSaudi": false,
-    "firstSeen": 1791820732399
    },
    {
     "id": "400bbb03df63",
