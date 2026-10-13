@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-13T16:44:21.715Z",
-  "lastAttemptAt": "2026-10-13T16:44:21.715Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-13T16:50:28.742Z",
+  "lastAttemptAt": "2026-10-13T16:50:28.742Z",
   "aiSummary": true,
   "summaryAt": "2026-10-13T15:30:41.082Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 83
+    "count": 85
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 126
+    "count": 122
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 182
+    "count": 184
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 134
+    "count": 136
    },
    {
     "name": "Saudi Gazette",
@@ -51,58 +51,61 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 68
+    "count": 65
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 58
+    "count": 67
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-12",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "babc962325c0",
+   "articleIds": [
+    "9a4c700d1a00"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디아라비아가 최근 후티의 공격으로부터 스스로를 방어하는 데 어려움을 겪는 이유",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T16:50:28.742Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Why Saudi Arabia has struggled to defend itself against the Houthis’ recent attacks",
+     "titleKo": "사우디아라비아가 최근 후티의 공격으로부터 스스로를 방어하는 데 어려움을 겪는 이유",
+     "summary": "",
+     "reportedAt": "2026-10-13T16:43:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0tLX1FqSV84dmlSbmFFRlFIa2hLVXowbkNhWkg5alRncU1qNFdJVC1QbW5JRGEycFQ0SGh2d3NKUDF0RlMtU1NISTE1WnFnQU1OTjE1N1BZdHJnQ29oOHdkNUhhZV9SVGlSTVRHYS1jV2MyMGNTUlhrUW5iNFVfUHRmSVVKNUdvT3A4?oc=5"
+    }
+   ]
+  },
   {
    "id": "b498d5344700",
    "articleIds": [
@@ -700,9 +703,9 @@
      "title": "사우디 연합군, 후티측 석유시설 인근 대피령…공습 시작한듯",
      "titleKo": null,
      "summary": "",
-     "reportedAt": "2026-10-13T14:50:59.000Z",
+     "reportedAt": "2026-10-13T14:53:07.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KRnR2eHhRMVp2X3JFaHNiTE02S3M3dDdTZ1B1b3hzYldzczZYeWQ4eDNDbkJuLXduY1pjMlBkZ2xaV3o1SFRmRGZRTlcyRV9WRm9RNXNnWXI1UWFlWGVCd9IBeEFVX3lxTE04RU9sbWpMT2o2UnRSZ1dmQlFiS2JXeEpOSnBHeVRsRmlPRHpTcWhtMTN1V0QyN0xaa29YQ3o0YXg0My1UNzNRNUgtRk80SHdBbHNkaDFoc3U4Z0ZhN3A0bEltRVRZc2dHRlVlZkVEbl9xVl9JbmU0ag?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04RU9sbWpMT2o2UnRSZ1dmQlFiS2JXeEpOSnBHeVRsRmlPRHpTcWhtMTN1V0QyN0xaa29YQ3o0YXg0My1UNzNRNUgtRk80SHdBbHNkaDFoc3U4Z0ZhN3A0bEltRVRZc2dHRlVlZkVEbl9xVl9JbmU0atIBeEFVX3lxTE04RU9sbWpMT2o2UnRSZ1dmQlFiS2JXeEpOSnBHeVRsRmlPRHpTcWhtMTN1V0QyN0xaa29YQ3o0YXg0My1UNzNRNUgtRk80SHdBbHNkaDFoc3U4Z0ZhN3A0bEltRVRZc2dHRlVlZkVEbl9xVl9JbmU0ag?oc=5"
     }
    ]
   },
@@ -846,7 +849,6 @@
     "a2eb51880a1a",
     "ef58bf49ad3a",
     "a10cbc43ea19",
-    "d1ff099acff5",
     "f8c2bbf13a0b",
     "a6478bd256bd",
     "477d49017395",
@@ -859,6 +861,7 @@
     "3f8596884ec5",
     "65c179782233",
     "a5c7e99bb727",
+    "d1ff099acff5",
     "ffbdd68df515"
    ],
    "type": "airport",
@@ -928,16 +931,6 @@
      "reportedAt": "2026-10-13T05:10:05.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYUU94MDktU1NNbHN1elJ3MVVMOVk5ZmlkUzVaZjN3TzJoT1Z0SnhWcGozN3JnVjB5NGhKTlhXa0ZSc0duemIyV3YzXy1rQ0tYOG5Mc3dWMG1FcnlhMWduMA?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
-     "titleKo": "리야드 항공편 운항 중단 관련 보도",
-     "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
-     "reportedAt": "2026-10-13T05:46:56.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLU1SZE15VDBkTnF5S0hOdThMa3djR3l6Wkt4UXhaNVE5OUg4SExVTFdleHJPX0ptVEJhcG9xM29PcmhWWjFPeGxRVjFUZ2lMcjI0SmdRR1FITmxSOFRuUlZqa3BGeXNUMU1FeHdsSldXQjdXTm1TNHlRM3pSUUdIempuNloxT2dDUWtfbVNlOThDVUJYWDVOeTh5UWZlb0NsLVNPMUlWUE9zZUZ0cFNFQkhGRkk1T1lmT3FOUUhmR0NnbEdDdG90b2RvaFhtX3gy?oc=5"
     },
     {
      "outlet": "머니투데이",
@@ -1058,6 +1051,16 @@
      "reportedAt": "2026-10-13T13:32:39.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ2hVVURMU1VlYk1BLXNlUlc2YWtSZExtdzJNVG9EVHJPMXU5eUZ5cVVhQjJRNk1EU0EyTl9zeHM1VTFXZXM0OGpPT0JoV014Qk1QdkdjUWNPVEVhcTdXSC1YNWhPZlUtZDlfMjRrU1RhcDNkb0lVbkc4UHhmUmQyT2t4bjh3STZ3OEJIZUxMS1JmZGxU?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
+     "titleKo": "리야드 항공편 운항 중단 관련 보도",
+     "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
+     "reportedAt": "2026-10-13T13:57:37.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY1Y4MzhHdGJSOUlHbkZ1Zy1TNVdrdy1PSTU5aWI2Vmx1MUpNYWhJdjY5bkJ5OUE0bzNyb0k3Ni1nVjBNM1RoQnQ5S3lwRXhwcHNVS0NtV2dzUUt6QkpMaXI0VXBCOThQb2p4MW1oZkZwOGdlRDltZWotUkdvYWE0MWhJd0tFS3pWNlNJUC14ZjZJN1VoRVYwSW96eWFVakl0bWxzYUUyX1g2dVpkbkhXYktSWTNXb20zcnJ5VmFXNEdhdDdxWF9CTklVM0FGRXRL?oc=5"
     },
     {
      "outlet": "Arab News",
@@ -4220,7 +4223,7 @@
      "summary": "사우디가 후티에 엄중 대응을 경고했다고 보도했어요.",
      "reportedAt": "2026-10-12T15:41:55.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5veFNraHEzSXpGUEpLalRMOUoybUV0ZE1RSFhpY1QzZFBtdjcyOHY4STJDdTFVQjVyeXZ3ckJOZkwzSC1WYjhBbkFaWWQxVVN3am0tazgySXRZZUdtXzdTWtIBeEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3Sw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3S9IBeEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3Sw?oc=5"
     }
    ]
   },
@@ -8689,6 +8692,24 @@
    "url": "https://english.aawsat.com/node/5329173"
   },
   {
+   "id": "d1ff099acff5",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "airport",
+   "sev": "mid",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 항공편 운항 중단 관련 보도",
+   "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
+   "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
+   "reportedAt": "2026-10-13T13:57:37.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY1Y4MzhHdGJSOUlHbkZ1Zy1TNVdrdy1PSTU5aWI2Vmx1MUpNYWhJdjY5bkJ5OUE0bzNyb0k3Ni1nVjBNM1RoQnQ5S3lwRXhwcHNVS0NtV2dzUUt6QkpMaXI0VXBCOThQb2p4MW1oZkZwOGdlRDltZWotUkdvYWE0MWhJd0tFS3pWNlNJUC14ZjZJN1VoRVYwSW96eWFVakl0bWxzYUUyX1g2dVpkbkhXYktSWTNXb20zcnJ5VmFXNEdhdDdxWF9CTklVM0FGRXRL?oc=5"
+  },
+  {
    "id": "a5de3e730b74",
    "outlet": "Reuters",
    "official": false,
@@ -8723,24 +8744,6 @@
    "reportedAt": "2026-10-13T10:11:56.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5329050"
-  },
-  {
-   "id": "d1ff099acff5",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "airport",
-   "sev": "mid",
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "titleKo": "리야드 항공편 운항 중단 관련 보도",
-   "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
-   "summary": "리야드 항공편 운항 중단과 관련한 보도를 전하고 있어요.",
-   "reportedAt": "2026-10-13T05:46:56.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLU1SZE15VDBkTnF5S0hOdThMa3djR3l6Wkt4UXhaNVE5OUg4SExVTFdleHJPX0ptVEJhcG9xM29PcmhWWjFPeGxRVjFUZ2lMcjI0SmdRR1FITmxSOFRuUlZqa3BGeXNUMU1FeHdsSldXQjdXTm1TNHlRM3pSUUdIempuNloxT2dDUWtfbVNlOThDVUJYWDVOeTh5UWZlb0NsLVNPMUlWUE9zZUZ0cFNFQkhGRkk1T1lmT3FOUUhmR0NnbEdDdG90b2RvaFhtX3gy?oc=5"
   },
   {
    "id": "a2eb51880a1a",
@@ -10255,6 +10258,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "9a4c700d1a00",
+    "feed": "AP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AP",
+    "title": "Why Saudi Arabia has struggled to defend itself against the Houthis’ recent attacks",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0tLX1FqSV84dmlSbmFFRlFIa2hLVXowbkNhWkg5alRncU1qNFdJVC1QbW5JRGEycFQ0SGh2d3NKUDF0RlMtU1NISTE1WnFnQU1OTjE1N1BZdHJnQ29oOHdkNUhhZV9SVGlSTVRHYS1jV2MyMGNTUlhrUW5iNFVfUHRmSVVKNUdvT3A4?oc=5",
+    "reportedAt": 1791909780000,
+    "assumeSaudi": false,
+    "firstSeen": 1791910228742
+   },
+   {
     "id": "5df3fca71209",
     "feed": "Arab News",
     "cat": "local",
@@ -10515,8 +10532,8 @@
     "outlet": "뉴시스",
     "title": "사우디 연합군, 후티측 석유시설 인근 대피령…공습 시작한듯",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KRnR2eHhRMVp2X3JFaHNiTE02S3M3dDdTZ1B1b3hzYldzczZYeWQ4eDNDbkJuLXduY1pjMlBkZ2xaV3o1SFRmRGZRTlcyRV9WRm9RNXNnWXI1UWFlWGVCd9IBeEFVX3lxTE04RU9sbWpMT2o2UnRSZ1dmQlFiS2JXeEpOSnBHeVRsRmlPRHpTcWhtMTN1V0QyN0xaa29YQ3o0YXg0My1UNzNRNUgtRk80SHdBbHNkaDFoc3U4Z0ZhN3A0bEltRVRZc2dHRlVlZkVEbl9xVl9JbmU0ag?oc=5",
-    "reportedAt": 1791903059000,
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04RU9sbWpMT2o2UnRSZ1dmQlFiS2JXeEpOSnBHeVRsRmlPRHpTcWhtMTN1V0QyN0xaa29YQ3o0YXg0My1UNzNRNUgtRk80SHdBbHNkaDFoc3U4Z0ZhN3A0bEltRVRZc2dHRlVlZkVEbl9xVl9JbmU0atIBeEFVX3lxTE04RU9sbWpMT2o2UnRSZ1dmQlFiS2JXeEpOSnBHeVRsRmlPRHpTcWhtMTN1V0QyN0xaa29YQ3o0YXg0My1UNzNRNUgtRk80SHdBbHNkaDFoc3U4Z0ZhN3A0bEltRVRZc2dHRlVlZkVEbl9xVl9JbmU0ag?oc=5",
+    "reportedAt": 1791903187000,
     "assumeSaudi": false,
     "firstSeen": 1791906630762
    },
@@ -10603,6 +10620,20 @@
     "reportedAt": 1791900058000,
     "assumeSaudi": false,
     "firstSeen": 1791900630918
+   },
+   {
+    "id": "d1ff099acff5",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY1Y4MzhHdGJSOUlHbkZ1Zy1TNVdrdy1PSTU5aWI2Vmx1MUpNYWhJdjY5bkJ5OUE0bzNyb0k3Ni1nVjBNM1RoQnQ5S3lwRXhwcHNVS0NtV2dzUUt6QkpMaXI0VXBCOThQb2p4MW1oZkZwOGdlRDltZWotUkdvYWE0MWhJd0tFS3pWNlNJUC14ZjZJN1VoRVYwSW96eWFVakl0bWxzYUUyX1g2dVpkbkhXYktSWTNXb20zcnJ5VmFXNEdhdDdxWF9CTklVM0FGRXRL?oc=5",
+    "reportedAt": 1791899857000,
+    "assumeSaudi": false,
+    "firstSeen": 1791855004428
    },
    {
     "id": "667ccadad261",
@@ -11163,20 +11194,6 @@
     "reportedAt": 1791870660000,
     "assumeSaudi": false,
     "firstSeen": 1791883233708
-   },
-   {
-    "id": "d1ff099acff5",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Trump says Houthis 'misbehaving' as Riyadh flights halted - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLU1SZE15VDBkTnF5S0hOdThMa3djR3l6Wkt4UXhaNVE5OUg4SExVTFdleHJPX0ptVEJhcG9xM29PcmhWWjFPeGxRVjFUZ2lMcjI0SmdRR1FITmxSOFRuUlZqa3BGeXNUMU1FeHdsSldXQjdXTm1TNHlRM3pSUUdIempuNloxT2dDUWtfbVNlOThDVUJYWDVOeTh5UWZlb0NsLVNPMUlWUE9zZUZ0cFNFQkhGRkk1T1lmT3FOUUhmR0NnbEdDdG90b2RvaFhtX3gy?oc=5",
-    "reportedAt": 1791870416000,
-    "assumeSaudi": false,
-    "firstSeen": 1791855004428
    },
    {
     "id": "a10cbc43ea19",
@@ -12614,7 +12631,7 @@
     "outlet": "뉴시스",
     "title": "사우디, 후티 반군에 \"엄중 대응\" 경고…공항 공격에 사망자 속출",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5veFNraHEzSXpGUEpLalRMOUoybUV0ZE1RSFhpY1QzZFBtdjcyOHY4STJDdTFVQjVyeXZ3ckJOZkwzSC1WYjhBbkFaWWQxVVN3am0tazgySXRZZUdtXzdTWtIBeEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3Sw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3S9IBeEFVX3lxTFA1dXMtRW0wcW15WDhvYlVyMFFTR0M2cTN4engwTDI5TFd2d1VKOWpFOHBmWW9FSC1LV1hoQWNkb3BwVkxFN0QwNUpZd3FVQ05JaU1BMnpnUHdrZG1QTEplOHdBYm15ZDdjUFplcnlaZi1kS05XOVI3Sw?oc=5",
     "reportedAt": 1791819715000,
     "assumeSaudi": false,
     "firstSeen": 1791820732399
@@ -15066,7 +15083,8 @@
    "87e77a0084f1": "“조국이 우리의 핏속을 흐른다”고 사우디 인플루언서 Yara Alnamlah가 말하다",
    "5df3fca71209": "이집트, 후티에 대응해 사우디아라비아에 ‘어떠한 형태의 지원’도 준비돼 있다고 밝혀",
    "58b417c849ae": "사우디아라비아에 대한 어떤 공격도 파키스탄에 대한 공격이라며 주장한 종교담당 장관",
-   "a6e734bfca5b": "사우디아라비아에 대한 어떠한 공격도 파키스탄에 대한 공격이라고 종교부 장관 주장"
+   "a6e734bfca5b": "사우디아라비아에 대한 어떠한 공격도 파키스탄에 대한 공격이라고 종교부 장관 주장",
+   "9a4c700d1a00": "사우디아라비아가 최근 후티의 공격으로부터 스스로를 방어하는 데 어려움을 겪는 이유"
   },
   "aiClusters": [
    {
@@ -16603,6 +16621,12 @@
    {
     "articleIds": [
      "a6e734bfca5b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "9a4c700d1a00"
     ],
     "fromRule": true
    }
