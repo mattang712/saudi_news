@@ -493,6 +493,13 @@ function InstallBanner() {
   }, []);
   if (!mode) return null;
   const hide = () => { setMode(null); try { localStorage.setItem("installHideAt", String(Date.now())); } catch {} };
+  // 앱 안 브라우저에서 바깥 브라우저로 여는 주소 (사람이 직접 눌러야 잘 넘어간다)
+  const outUrl = () => {
+    const u = location.href;
+    if (window.__kakao) return "kakaotalk://web/openExternal?url=" + encodeURIComponent(u);
+    if (window.__android) return "intent://" + u.replace(/^https?:\/\//, "") + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + encodeURIComponent(u) + ";end";
+    return null;
+  };
   const install = async () => {
     const e = window.__bip; if (!e) return;
     e.prompt();
@@ -504,10 +511,11 @@ function InstallBanner() {
       <div className="install-txt">
         {mode === "prompt" && <><b>홈 화면에 앱으로 설치</b>아이콘 한 번 눌러서 바로 열 수 있어요.</>}
         {mode === "ios" && <><b>홈 화면에 추가하기</b>아래 공유 버튼(□↑) → <b style={{ display: "inline" }}>홈 화면에 추가</b>를 눌러 주세요.</>}
-        {mode === "inapp" && <><b>크롬이나 사파리로 열어 주세요</b>오른쪽 위 메뉴(⋮ 또는 ···)에서 "다른 브라우저로 열기"를 누르면 앱으로 설치할 수 있어요.</>}
+        {mode === "inapp" && <><b>{window.__ios ? "사파리로 열어 주세요" : "크롬으로 열어 주세요"}</b>여기서는 앱 설치가 안 돼요. 오른쪽 버튼을 누르거나, 메뉴(⋮ 또는 ···)에서 "다른 브라우저로 열기"를 눌러 주세요.</>}
       </div>
       <div className="install-btns">
         {mode === "prompt" && <button className="iconbtn primary" onClick={install}>앱 설치</button>}
+        {mode === "inapp" && outUrl() && <a className="iconbtn primary" href={outUrl()} style={{ textDecoration: "none" }}>{window.__ios ? "사파리로 열기" : "크롬으로 열기"}</a>}
         <button className="iconbtn" onClick={hide} aria-label="닫기">닫기</button>
       </div>
     </div>

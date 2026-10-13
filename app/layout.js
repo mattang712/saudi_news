@@ -34,7 +34,7 @@ if(inapp&&!sessionStorage.getItem("outTried")){
   if(kakao){location.href="kakaotalk://web/openExternal?url="+encodeURIComponent(url);}
   else if(android){location.href="intent://"+url.replace(/^https?:\\/\\//,"")+"#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url="+encodeURIComponent(url)+";end";}
 }
-window.__inApp=inapp;window.__ios=ios;
+window.__inApp=inapp;window.__ios=ios;window.__kakao=kakao;window.__android=android;
 window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();window.__bip=e;window.dispatchEvent(new Event("bip-ready"));});
 }catch(e){}})();`;
 const swBoot = `if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})})}`;
