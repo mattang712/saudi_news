@@ -24,9 +24,11 @@ const AI_KEY = OPENAI_KEY || ANTHROPIC_KEY;
 const AI_MODEL = process.env.AI_MODEL || (OPENAI_KEY ? "gpt-5-mini" : "claude-haiku-5-5");
 const MAX_AI_ARTICLES = 60;
 const PROMPT_VERSION = 4; // AI 지시문을 고치면 숫자를 올린다
+const SUMMARY_EVERY_MIN = Number(process.env.SUMMARY_EVERY_MIN || 120); // 상황 요약 갱신 최소 간격(분)
 const AI_EVERY_MIN = Number(process.env.AI_EVERY_MIN || 120); // 상황 요약·사건 묶기 간격(분)
 // 타임라인에 쓰는 출처 (국내 언론은 늦게 보도하는 경우가 많아 제외)
-const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)"]);
+// + 구글을 거치지 않고 직접 받아서 빠른 사우디·중동 언론
+const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)", "알야움 (담맘 지역지)", "Asharq Al-Awsat", "Al Arabiya", "Al Jazeera"]);
 
 /* ───────── 도구 ───────── */
 const iso = (ts) => (ts == null ? null : new Date(ts).toISOString());
@@ -44,7 +46,8 @@ async function readJson(path, fallback) {
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
 
 // 검색 주소 하나에서 기사 목록 받기
-async function fetchUrl(feed, url) {
+// direct: 구글 뉴스를 거치지 않고 언론사 RSS(또는 Atom)를 직접 받는 주소
+async function fetchUrl(feed, url, direct = false) {
   const res = await fetch(url, {
     headers: { "User-Agent": "Mozilla/5.0 (family news reader; contact via GitHub)" },
     signal: AbortSignal.timeout(20000),
@@ -52,13 +55,22 @@ async function fetchUrl(feed, url) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const xml = await res.text();
   const doc = parser.parse(xml);
-  let items = doc?.rss?.channel?.item || [];
+  let items = doc?.rss?.channel?.item || doc?.["rdf:RDF"]?.item || [];
   if (!Array.isArray(items)) items = [items];
+  // Atom 형식 피드도 RSS 모양으로 맞춘다
+  let entries = doc?.feed?.entry || [];
+  if (!Array.isArray(entries)) entries = [entries];
+  for (const en of entries) {
+    const links = Array.isArray(en.link) ? en.link : [en.link];
+    const alt = links.find((l) => l && (l["@_rel"] === "alternate" || !l["@_rel"])) || links[0] || {};
+    items.push({ title: en.title?.["#text"] ?? en.title, link: alt["@_href"] || "", pubDate: en.published || en.updated, description: en.summary?.["#text"] ?? en.summary ?? "" });
+  }
 
   const out = [];
   for (const it of items) {
-    const srcName = stripTags(typeof it.source === "object" ? it.source["#text"] : it.source);
-    const srcUrl = typeof it.source === "object" ? it.source["@_url"] : "";
+    const link = typeof it.link === "object" ? it.link["#text"] || it.link["@_href"] || "" : String(it.link || "");
+    const srcName = direct ? "" : stripTags(typeof it.source === "object" ? it.source["#text"] : it.source);
+    const srcUrl = direct ? link : typeof it.source === "object" ? it.source["@_url"] : "";
     let title = stripTags(it.title);
     if (srcName && title.endsWith(" - " + srcName)) title = title.slice(0, -(srcName.length + 3));
     let snippet = stripTags(it.description);
@@ -76,13 +88,14 @@ async function fetchUrl(feed, url) {
       if (!feed.domains.some((d) => h === d || h.endsWith("." + d))) continue;
     }
 
-    const reportedAt = Date.parse(it.pubDate) || null;
+    const reportedAt = Date.parse(it.pubDate || it["dc:date"]) || null;
+    if (!title || !link) continue;
     if (reportedAt && NOW - reportedAt > KEEP_HOURS * H) continue;
 
     out.push({
       id: idOf(outlet + "|" + title.toLowerCase()),
       feed: feed.name, cat: feed.cat, official: !!feed.official, lang: feed.lang,
-      outlet, title, snippet, url: it.link, reportedAt,
+      outlet, title, snippet: snippet.slice(0, 400), url: link, reportedAt, assumeSaudi: !!feed.assumeSaudi,
     });
   }
   return out;
@@ -95,7 +108,8 @@ async function fetchFeed(feed) {
   let okCount = 0, lastErr;
   for (const u of urls) {
     try {
-      for (const a of await fetchUrl(feed, u)) if (!merged.has(a.id)) merged.set(a.id, a);
+      const direct = typeof u === "object";
+      for (const a of await fetchUrl(feed, direct ? u.url : u, direct)) if (!merged.has(a.id)) merged.set(a.id, a);
       okCount++;
     } catch (e) { lastErr = e; }
     await new Promise((r) => setTimeout(r, 300)); // 구글에 너무 몰아서 요청하지 않게
@@ -107,7 +121,7 @@ async function fetchFeed(feed) {
 /* ───────── 2. 분류 (규칙) ───────── */
 function classify(a) {
   const text = `${a.title} ${a.snippet}`;
-  if (!hasAny(text, SAUDI_WORDS)) return null;
+  if (!a.assumeSaudi && !hasAny(text, SAUDI_WORDS)) return null;
 
   let type = null;
   for (const r of TYPE_RULES) {
@@ -191,6 +205,50 @@ ${JSON.stringify(list)}`;
   return JSON.parse(text.slice(s, e + 1));
 }
 
+// 중요한 새 기사가 들어왔을 때 상황 요약만 빠르게 다시 쓰기 (사건 묶기 없이 가벼운 요청 하나)
+const SUMMARY_RULES = `- 여러 기사를 하나로 통합한 아주 짧은 상황 요약. 문장 2~4개.
+- 문장 하나에 사건 하나만. 각 문장 35자 이내, 차분한 해요체
+- 같은 사건을 다룬 기사들은 한 문장으로 합쳐라. 같은 내용을 두 번 쓰지 마라
+- 가장 최근에 새로 나온 중요한 소식을 첫 문장에
+- 그다음 순서: 담맘·자푸라·동부주 → 공항·항공편 → 다른 지역 공격 → 외교부 공지
+- 확인 정도는 짧게 녹여라 (예: "로이터 보도", "국영통신 발표", "후티 주장, 미확인")
+- 수식어, 배경 설명, 번호, 글머리 기호 없이
+- "안전하다", "위험 없다", "공격 없다"처럼 단정하지 마라
+- 기사에 없는 사실·숫자를 만들지 마라`;
+
+async function quickSummary(arts) {
+  const recent = arts
+    .filter((a) => a.reportedAt && NOW - a.reportedAt <= 24 * H)
+    .sort((a, b) => b.reportedAt - a.reportedAt)
+    .slice(0, 50)
+    .map((a) => ({
+      outlet: a.outlet,
+      official: a.official || undefined,
+      claim: a.cls.claim || undefined,
+      new: a.firstSeen === NOW || undefined,
+      reportedAt: iso(a.reportedAt),
+      title: a.lang === "ko" ? a.title : TITLES_KO[a.id] || a.title,
+    }));
+  if (!recent.length) return ["최근 24시간 동안 눈에 띄는 새 사건 보도는 없어요."];
+  const prompt = `사우디 동부(담맘·자푸라)에 가족이 있는 한국 가족을 위해, 아래 최근 24시간 기사 제목 목록만 보고 상황 요약을 써라.
+new: true 는 방금 새로 들어온 기사, official: true 는 사우디 국영통신 등 공식 발표, claim: true 는 공격 주체의 주장이다.
+${SUMMARY_RULES}
+JSON만 출력: {"summaryKo": ["문장", ...]}
+
+${JSON.stringify(recent)}`;
+  const text = await callAI(prompt);
+  const st = text.indexOf("{"), en = text.lastIndexOf("}");
+  if (st < 0 || en < 0) throw new Error("요약 응답에 JSON이 없음");
+  const r = JSON.parse(text.slice(st, en + 1));
+  const lines = Array.isArray(r.summaryKo) ? r.summaryKo.filter((x) => typeof x === "string").map((x) => x.replace(/^\s*(\d+[.)]|[-•·*])\s*/, "").trim()).filter(Boolean).slice(0, 4) : [];
+  if (!lines.length) throw new Error("요약이 비어 있음");
+  return lines;
+}
+
+// '중요한' 새 기사: 동부주·공항 지역이거나, 공격·대피·여행경보 같은 안전 관련 종류
+const URGENT_TYPES = new Set(["evacuation", "advisory", "korean", "missile", "drone", "energy", "airport", "fire", "security"]);
+const isUrgent = (a) => URGENT_TYPES.has(a.cls.type) || a.cls.regions.some((r) => ["jafurah", "dammam", "eastern", "airport"].includes(r));
+
 const callAI = (prompt) => (OPENAI_KEY ? callOpenAI(prompt) : callClaude(prompt));
 
 // 영어 기사 제목만 한국어로 번역 (이미 번역한 건 다시 안 함). 80개씩 나눠서 요청.
@@ -199,7 +257,7 @@ async function translateTitles(arts, titlesKo) {
   const todo = arts.filter((a) => a.lang !== "ko" && !titlesKo[a.id]);
   for (let i = 0; i < todo.length; i += 80) {
     const batch = todo.slice(i, i + 80).map((a) => ({ id: a.id, title: a.title }));
-    const prompt = `아래 영어 뉴스 제목들을 자연스러운 한국어 뉴스 제목으로 번역하라.
+    const prompt = `아래 영어·아랍어 뉴스 제목들을 자연스러운 한국어 뉴스 제목으로 번역하라.
 - 원문에 없는 내용을 더하거나 빼지 마라. 숫자·지명·기관명은 그대로 옮긴다.
 - 누가 "주장했다(claim)"는 제목이면 주장이라는 점이 드러나게 번역한다.
 - 지명은 한국 언론 표기를 따른다 (Riyadh 리야드, Jeddah 제다, Dammam 담맘, Houthi 후티, Aramco 아람코).
@@ -413,6 +471,22 @@ async function main() {
   }
 
   const useAi = aiOk && clusters;
+
+  // 요약 갱신: 마지막 요약 후 1시간이 지났고 그 사이 새 기사가 있으면 요약만 다시 쓴다 (비용 때문에 1시간에 최대 1번)
+  let summaryAt = cache.summaryAt || null;
+  if (lastAiAt === NOW && summaryKo?.length) summaryAt = iso(NOW);
+  const lastSum = Date.parse(summaryAt || 0) || 0;
+  const newSince = arts.filter((a) => a.firstSeen > lastSum && a.reportedAt && NOW - a.reportedAt <= 24 * H);
+  if (AI_KEY && newSince.length && lastAiAt !== NOW && NOW - lastSum >= SUMMARY_EVERY_MIN * 60000) {
+    try {
+      summaryKo = await quickSummary(arts);
+      summaryAt = iso(NOW);
+      console.log(`새 기사 ${newSince.length}건 → 요약 갱신`);
+    } catch (e) {
+      aiError = "실시간 요약 실패: " + String(e.message || e).slice(0, 150);
+      console.error(aiError);
+    }
+  }
   if (!useAi) clusters = ruleClusters(arts);
 
   const events = clusters
@@ -420,7 +494,8 @@ async function main() {
     .filter(Boolean)
     .sort((a, b) => Date.parse(b.sources.at(-1).reportedAt || b.collectedAt) - Date.parse(a.sources.at(-1).reportedAt || a.collectedAt));
 
-  const finalSummary = useAi && summaryKo?.length ? summaryKo : countSummary(events);
+  const aiSummaryOk = !!(AI_KEY && summaryKo?.length);
+  const finalSummary = aiSummaryOk ? summaryKo : countSummary(events);
 
   // 타임라인: 묶지 않고 로이터·사우디 국영통신(SPA) 기사만 보도 시각 순서대로
   const timeline = arts
@@ -452,7 +527,8 @@ async function main() {
       status,
       lastSuccessAt: iso(NOW),
       lastAttemptAt: iso(NOW),
-      aiSummary: !!(useAi && summaryKo?.length),
+      aiSummary: aiSummaryOk,
+      summaryAt: aiSummaryOk ? summaryAt : null,
       aiError,
       summaryKo: finalSummary,
       sources: sourcesMeta,
@@ -464,8 +540,9 @@ async function main() {
       summaries,
       titlesKo,
       aiClusters: useAi ? clusters : null,
-      aiSummaryKo: useAi ? summaryKo : null,
+      aiSummaryKo: aiSummaryOk ? summaryKo : null,
       lastAiAt,
+      summaryAt,
       promptVersion: lastAiAt === NOW ? PROMPT_VERSION : cache.promptVersion || null,
     },
   };

@@ -22,6 +22,8 @@ const wireUrls = (site) => [
   gnews(`${AIR} ${site} when:1d`, "en"),
 ];
 
+const direct = (url) => ({ url }); // 언론사 RSS 주소 (구글 뉴스 아님)
+
 // cat: kr(한국 뉴스) / wire(해외 통신사) / local(사우디·중동) / official(공식 공지)
 // domains: 이 주소에서 온 기사만 받는다 (다른 사이트가 섞이지 않게)
 // 지난 수집에서 받아 둔 기사는 3일 동안 계속 보관하므로, 검색 기간이 짧아도 3일 치가 유지된다.
@@ -30,8 +32,14 @@ export const FEEDS = [
   { name: "Reuters", cat: "wire", lang: "en", outlet: "Reuters", domains: ["reuters.com"], urls: wireUrls("site:reuters.com") },
   { name: "AP", cat: "wire", lang: "en", outlet: "AP", domains: ["apnews.com"], urls: wireUrls("site:apnews.com") },
   { name: "AFP", cat: "wire", lang: "en", outlet: "AFP", domains: ["afp.com", "france24.com"], urls: wireUrls("(site:afp.com OR site:france24.com)") },
-  { name: "Arab News", cat: "local", lang: "en", outlet: "Arab News", domains: ["arabnews.com"], urls: wireUrls("site:arabnews.com") },
-  { name: "Saudi Gazette", cat: "local", lang: "en", outlet: "Saudi Gazette", domains: ["saudigazette.com.sa"], urls: [gnews("site:saudigazette.com.sa when:1d", "en"), gnews(`${EAST} site:saudigazette.com.sa when:2d`, "en")] },
+  { name: "Arab News", cat: "local", lang: "en", outlet: "Arab News", domains: ["arabnews.com"], urls: [direct("https://www.arabnews.com/rss.xml"), ...wireUrls("site:arabnews.com")] },
+  { name: "Saudi Gazette", cat: "local", lang: "en", outlet: "Saudi Gazette", domains: ["saudigazette.com.sa"], urls: [direct("https://saudigazette.com.sa/rssFeed/74"), gnews("site:saudigazette.com.sa when:1d", "en"), gnews(`${EAST} site:saudigazette.com.sa when:2d`, "en")] },
+  // ── 언론사 RSS 직접 받기 (구글 뉴스 지연 없음) ──
+  // 알야움: 담맘에 본사가 있는 동부주 지역 일간지(아랍어). 지역지라 '사우디' 단어가 없어도 사우디 기사로 본다.
+  { name: "알야움 (담맘 지역지)", cat: "local", lang: "ar", outlet: "알야움 (담맘 지역지)", assumeSaudi: true, domains: ["alyaum.com"], urls: [direct("https://www.alyaum.com/rssFeed/1")] },
+  { name: "Asharq Al-Awsat", cat: "local", lang: "en", outlet: "Asharq Al-Awsat", domains: ["aawsat.com"], urls: [direct("https://english.aawsat.com/feed")] },
+  { name: "Al Arabiya", cat: "local", lang: "en", outlet: "Al Arabiya", domains: ["alarabiya.net"], urls: [direct("https://english.alarabiya.net/feed/rss2/en.xml")] },
+  { name: "Al Jazeera", cat: "local", lang: "en", outlet: "Al Jazeera", domains: ["aljazeera.com"], urls: [direct("https://www.aljazeera.com/xml/rss/all.xml")] },
   { name: "SPA (사우디 국영통신)", cat: "local", lang: "en", outlet: "SPA (사우디 국영통신)", official: true, domains: ["spa.gov.sa"], urls: [gnews("site:spa.gov.sa when:12h", "en"), gnews("site:spa.gov.sa when:1d", "en"), gnews(`${EAST} site:spa.gov.sa when:2d`, "en")] },
 ];
 
@@ -46,33 +54,34 @@ export const KR_OUTLETS = [
 export const SAUDI_WORDS = [
   "사우디", "saudi", "riyadh", "리야드", "jeddah", "제다", "dammam", "담맘", "dhahran", "다란",
   "aramco", "아람코", "jafurah", "자푸라", "eastern province", "동부주", "khobar", "코바르", "jubail", "주바일",
+  "السعودية", "السعودي", "المملكة", "الرياض", "جدة", "الدمام", "الجافورة", "الشرقية", "الظهران", "الخبر", "الجبيل", "أرامكو",
 ];
 
 // 사건 종류 (위에 있을수록 먼저 정해진다)
 export const TYPE_RULES = [
-  { type: "evacuation", words: ["대피령", "대피 지시", "대피 명령", "철수 권고", "evacuation order", "ordered to evacuate", "evacuate"] },
-  { type: "advisory", words: ["여행경보", "여행금지", "특별여행주의보", "출국권고", "travel advisory", "travel warning", "do not travel"] },
+  { type: "evacuation", words: ["대피령", "대피 지시", "대피 명령", "철수 권고", "evacuation order", "ordered to evacuate", "evacuate", "إخلاء"] },
+  { type: "advisory", words: ["여행경보", "여행금지", "특별여행주의보", "출국권고", "travel advisory", "travel warning", "do not travel", "تحذير من السفر"] },
   { type: "korean", words: ["교민", "한국인", "재외국민", "우리 국민", "주사우디", "korean nationals", "south korean"] },
-  { type: "missile", words: ["미사일", "탄도", "missile", "ballistic"] },
-  { type: "drone", words: ["드론", "무인기", "drone", "uav"] },
-  { type: "energy", words: ["아람코", "가스전", "정유", "석유 시설", "에너지 시설", "aramco", "refinery", "gas field", "oil field", "oil facilit", "gas facilit", "gas plant", "energy facilit", "pipeline", "jafurah", "자푸라"], needs: "INCIDENT" },
-  { type: "airport", words: ["공항", "항공편", "영공", "airport", "flight", "airspace", "airline"], needs: "DISRUPT" },
-  { type: "fire", words: ["폭발", "화재", "explosion", "blast", "\\bfire\\b", "blaze"] },
-  { type: "security", words: ["공격", "피격", "요격", "후티", "attack", "strike", "intercept", "houthi"] },
+  { type: "missile", words: ["미사일", "탄도", "missile", "ballistic", "صاروخ", "صواريخ", "باليستي"] },
+  { type: "drone", words: ["드론", "무인기", "drone", "uav", "مسيرة", "مسيّرة", "مسيرات", "طائرة بدون طيار"] },
+  { type: "energy", words: ["아람코", "가스전", "정유", "석유 시설", "에너지 시설", "aramco", "refinery", "gas field", "oil field", "oil facilit", "gas facilit", "gas plant", "energy facilit", "pipeline", "jafurah", "자푸라", "أرامكو", "مصفاة", "حقل غاز", "منشأة نفطية", "الجافورة"], needs: "INCIDENT" },
+  { type: "airport", words: ["공항", "항공편", "영공", "airport", "flight", "airspace", "airline", "مطار", "رحلات", "الطيران", "المجال الجوي"], needs: "DISRUPT" },
+  { type: "fire", words: ["폭발", "화재", "explosion", "blast", "\\bfire\\b", "blaze", "انفجار", "حريق"] },
+  { type: "security", words: ["공격", "피격", "요격", "후티", "attack", "strike", "intercept", "houthi", "هجوم", "استهداف", "اعتراض", "الحوثي"] },
 ];
 
-export const INCIDENT_WORDS = ["공격", "피격", "요격", "드론", "미사일", "폭발", "화재", "attack", "strike", "drone", "missile", "explosion", "blast", "\\bfire\\b", "intercept", "sabotage"];
-export const DISRUPT_WORDS = ["폐쇄", "결항", "지연", "운항 중단", "운항 차질", "회항", "closed", "closure", "suspend", "cancel", "delay", "divert", "disrupt", "halt", "grounded"];
+export const INCIDENT_WORDS = ["공격", "피격", "요격", "드론", "미사일", "폭발", "화재", "attack", "strike", "drone", "missile", "explosion", "blast", "\\bfire\\b", "intercept", "sabotage", "هجوم", "استهداف", "اعتراض", "انفجار", "حريق", "صاروخ", "مسيرة", "مسيّرة"];
+export const DISRUPT_WORDS = ["폐쇄", "결항", "지연", "운항 중단", "운항 차질", "회항", "closed", "closure", "suspend", "cancel", "delay", "divert", "disrupt", "halt", "grounded", "إغلاق", "تعليق", "إلغاء", "تأخير", "تحويل"];
 
 // 지역
 export const REGION_RULES = [
-  { id: "jafurah", words: ["jafurah", "자푸라"] },
-  { id: "dammam", words: ["dammam", "담맘", "king fahd international"] },
-  { id: "eastern", words: ["eastern province", "동부주", "동부 지역", "sharqiya", "ras tanura", "라스타누라", "abqaiq", "아브카이크", "jubail", "주바일", "dhahran", "다란", "khobar", "코바르", "qatif", "카티프"] },
-  { id: "riyadh", words: ["riyadh", "리야드"] },
-  { id: "jeddah", words: ["jeddah", "제다"] },
-  { id: "airport", words: ["airport", "공항"] },
+  { id: "jafurah", words: ["jafurah", "자푸라", "الجافورة"] },
+  { id: "dammam", words: ["dammam", "담맘", "king fahd international", "الدمام", "مطار الملك فهد"] },
+  { id: "eastern", words: ["eastern province", "동부주", "동부 지역", "sharqiya", "ras tanura", "라스타누라", "abqaiq", "아브카이크", "jubail", "주바일", "dhahran", "다란", "khobar", "코바르", "qatif", "카티프", "المنطقة الشرقية", "الشرقية", "الظهران", "الخبر", "الجبيل", "رأس تنورة", "بقيق", "القطيف"] },
+  { id: "riyadh", words: ["riyadh", "리야드", "الرياض"] },
+  { id: "jeddah", words: ["jeddah", "제다", "جدة"] },
+  { id: "airport", words: ["airport", "공항", "مطار"] },
 ];
 
 // 공격 주체가 "주장"만 한 경우를 찾는 표현
-export const CLAIM_WORDS = ["주장", "\\bclaim\\b", "claimed", "claims", "claim responsibility", "claimed responsibility", "said it targeted", "said they targeted", "said it had targeted", "yahya saree", "야히야 사리"];
+export const CLAIM_WORDS = ["주장", "\\bclaim\\b", "claimed", "claims", "claim responsibility", "claimed responsibility", "said it targeted", "said they targeted", "said it had targeted", "yahya saree", "야히야 사리", "تبنت", "تبنّت", "يزعم", "زعم", "ادعى"];
