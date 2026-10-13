@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-10-13T15:10:35.064Z",
-  "lastAttemptAt": "2026-10-13T15:10:35.064Z",
+  "lastSuccessAt": "2026-10-13T15:20:32.654Z",
+  "lastAttemptAt": "2026-10-13T15:20:32.654Z",
   "aiSummary": true,
   "summaryAt": "2026-10-13T13:20:34.017Z",
   "aiError": null,
@@ -21,7 +21,7 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 136
+    "count": 129
    },
    {
     "name": "AP",
@@ -31,7 +31,7 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 129
+    "count": 133
    },
    {
     "name": "Arab News",
@@ -41,7 +41,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 56
+    "count": 57
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +51,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 68
+    "count": 69
    },
    {
     "name": "외교부 여행경보",
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "8628fbe91562",
+   "articleIds": [
+    "19d54e76bb5e"
+   ],
+   "type": "evacuation",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 사우디아라비아 아람코 시설과 공항 위협",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T15:20:32.654Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
+     "titleKo": "후티, 사우디아라비아 아람코 시설과 공항 위협",
+     "summary": "",
+     "reportedAt": "2026-10-13T15:01:36.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports?traffic_source=rss"
+    }
+   ]
+  },
   {
    "id": "5e1cb1e67de4",
    "articleIds": [
@@ -7980,6 +8012,24 @@
  ],
  "timeline": [
   {
+   "id": "19d54e76bb5e",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "evacuation",
+   "sev": "high",
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "후티, 사우디아라비아 아람코 시설과 공항 위협",
+   "title": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
+   "summary": "",
+   "reportedAt": "2026-10-13T15:01:36.000Z",
+   "dateOnly": false,
+   "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports?traffic_source=rss"
+  },
+  {
    "id": "3513a5fc72ae",
    "outlet": "Asharq Al-Awsat",
    "official": false,
@@ -9526,6 +9576,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "19d54e76bb5e",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
+    "snippet": "Explosions in Sanaa reported shortly after Saudi-led coalition&#039;s evacuation order as Houthis promise &#039;harsh&#039; response.",
+    "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports?traffic_source=rss",
+    "reportedAt": 1791903696000,
+    "assumeSaudi": false,
+    "firstSeen": 1791904832654
+   },
    {
     "id": "c74d39446524",
     "feed": "AFP",
@@ -14005,7 +14069,8 @@
    "9391d16e969f": "이집트, 사우디아라비아에 군사 지원 제공 준비돼 있다고 외교장관 밝혀",
    "fec899c77e84": "독일 총리·터키·레바논 대통령, 왕세자와 통화에서 사우디아라비아에 대한 전적 지지 확인",
    "c74d39446524": "후티, 예멘 수도 사나 인근 석유 시설을 사우디아라비아가 타격했다고 주장",
-   "ea0a334746bc": "이집트인과 카타르인들, 항공편 차질로 피해 본 사우디인들에게 집과 차 제공"
+   "ea0a334746bc": "이집트인과 카타르인들, 항공편 차질로 피해 본 사우디인들에게 집과 차 제공",
+   "19d54e76bb5e": "후티, 사우디아라비아 아람코 시설과 공항 위협"
   },
   "aiClusters": [
    {
@@ -15418,6 +15483,12 @@
    {
     "articleIds": [
      "ea0a334746bc"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "19d54e76bb5e"
     ],
     "fromRule": true
    }
