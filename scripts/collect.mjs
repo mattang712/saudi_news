@@ -28,7 +28,7 @@ const SUMMARY_EVERY_MIN = Number(process.env.SUMMARY_EVERY_MIN || 120); // 상�
 const AI_EVERY_MIN = Number(process.env.AI_EVERY_MIN || 120); // 상황 요약·사건 묶기 간격(분)
 // 타임라인에 쓰는 출처 (국내 언론은 늦게 보도하는 경우가 많아 제외)
 // + 구글을 거치지 않고 직접 받아서 빠른 사우디·중동 언론
-const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)", "Asharq Al-Awsat", "Al Jazeera"]);
+const TIMELINE_FEEDS = new Set(["Reuters", "SPA (사우디 국영통신)", "Asharq Al-Awsat", "Al Jazeera", "외교부 여행경보", "외교부 안전공지"]);
 
 /* ───────── 도구 ───────── */
 const iso = (ts) => (ts == null ? null : new Date(ts).toISOString());
@@ -105,7 +105,67 @@ async function fetchUrl(feed, url, direct = false) {
 }
 
 // 출처 하나에 딸린 검색 주소 여러 개를 차례로 돌려서 합친다. 전부 실패할 때만 '실패'
+/* ───────── 외교부 공공데이터 API (data.go.kr) ─────────
+   여행경보 조정(CountryHistoryService2)은 기술문서 기준.
+   안전공지(CountrySafetyService7)는 문서가 없어 같은 계열 형식으로 추정하고, 응답 모양을 넓게 받아들인다. */
+const MOFA_KEY = process.env.MOFA_API_KEY || "";
+const clean = (v) => stripTags(String(v || "").replace(/&amp;/g, "&").replace(/&nbsp;/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">"));
+const pick = (o, keys) => { for (const k of keys) if (o[k] != null && o[k] !== "") return o[k]; return null; };
+
+// JSON 안에서 '객체가 든 배열'을 찾아낸다 (data / response.body.items.item 등 모양이 달라도)
+function findRows(j) {
+  if (Array.isArray(j)) return j.some((x) => x && typeof x === "object") ? j : null;
+  if (j && typeof j === "object") {
+    for (const k of ["data", "items", "item", "body", "response"]) if (j[k] != null) { const r = findRows(j[k]); if (r) return r; }
+    for (const v of Object.values(j)) { const r = findRows(v); if (r) return r; }
+  }
+  return null;
+}
+
+async function callMofa(path) {
+  const qs = new URLSearchParams({ serviceKey: MOFA_KEY, returnType: "JSON", numOfRows: "20", pageNo: "1", "cond[country_iso_alp2::EQ]": "SA" });
+  const res = await fetch(`https://apis.data.go.kr/1262000/${path}?${qs}`, { signal: AbortSignal.timeout(20000) });
+  const text = await res.text();
+  if (!res.ok) throw new Error(`HTTP ${res.status} ${clean(text).slice(0, 60)}`);
+  let j;
+  try { j = JSON.parse(text); } catch { throw new Error("응답이 JSON 아님: " + clean(text).slice(0, 70)); }
+  const code = pick(j, ["resultCode"]) ?? j?.response?.header?.resultCode;
+  if (code != null && String(code) !== "0" && String(code) !== "00") throw new Error(`결과코드 ${code} ${pick(j, ["resultMsg"]) ?? j?.response?.header?.resultMsg ?? ""}`);
+  return findRows(j) || [];
+}
+
+async function fetchMofa(feed) {
+  if (!MOFA_KEY) throw new Error("MOFA_API_KEY 없음 (GitHub Secrets에 넣어 주세요)");
+  let rows = null, lastErr;
+  for (const path of feed.mofa) {
+    try { rows = await callMofa(path); break; } catch (e) { lastErr = e; }
+  }
+  if (!rows) throw lastErr;
+  const all = [];
+  for (const o of rows) {
+    const title = clean(pick(o, ["title", "sfty_notice_title", "ttl", "notice_title"]));
+    const date = String(pick(o, ["wrt_dt", "wrtDt", "reg_dt", "regDt", "write_dt", "updt_dt"]) || "").slice(0, 10);
+    if (!title) continue;
+    const text = `${title} ${pick(o, ["country_nm"]) || ""} ${pick(o, ["country_iso_alp2"]) || ""} ${pick(o, ["other_country_iso_alp2"]) || ""}`;
+    if (!/SA|사우디/.test(text)) continue; // 조건 검색이 안 먹혔을 때 대비해 사우디 것만
+    const day = /^\d{4}-\d{2}-\d{2}$/.test(date) ? Date.parse(date + "T00:00:00+09:00") : null;
+    all.push({
+      id: idOf("mofa|" + (pick(o, ["hist_id", "sfty_notice_id", "id", "notice_id"]) || title + date)),
+      feed: feed.name, cat: "official", official: true, lang: "ko",
+      outlet: feed.outlet, title,
+      snippet: clean(pick(o, ["txt_origin_cn", "content", "cn"])).slice(0, 400),
+      url: "https://www.0404.go.kr", reportedAt: day, dateOnly: true, presetType: feed.presetType, assumeSaudi: true,
+    });
+  }
+  all.sort((a, b) => (b.reportedAt || 0) - (a.reportedAt || 0));
+  // 3일 이내 공지만 기사로, 최근 3건은 오래됐어도 '공식·연락처' 화면용으로 따로 보관
+  const recent = all.filter((a) => a.reportedAt && NOW - a.reportedAt <= KEEP_HOURS * H);
+  recent.latest = all.slice(0, 3).map((a) => ({ title: a.title, date: new Date((a.reportedAt || 0) + 9 * H).toISOString().slice(0, 10), outlet: a.outlet }));
+  return recent;
+}
+
 async function fetchFeed(feed) {
+  if (feed.mofa) return fetchMofa(feed);
   const urls = feed.urls || [feed.url];
   const merged = new Map();
   let okCount = 0, lastErr;
@@ -126,6 +186,11 @@ async function fetchFeed(feed) {
 /* ───────── 2. 분류 (규칙) ───────── */
 function classify(a) {
   const text = `${a.title} ${a.snippet}`;
+  if (a.presetType) {
+    // 외교부 공지: 종류는 API가 정해 주고, 지역만 본문에서 찾는다
+    const regions = REGION_RULES.filter((r) => hasAny(text, r.words)).map((r) => r.id);
+    return { type: a.presetType, regions: regions.length ? regions : ["all"], inferred: false, inferNote: null, claim: false };
+  }
   if (!a.assumeSaudi && !hasAny(text, SAUDI_WORDS)) return null;
 
   let type = null;
@@ -360,7 +425,7 @@ function buildEvent(c, byId, ai) {
     aiNote: ai ? "제목과 요약은 AI가 기사 내용만 보고 정리했어요." : null,
     sources: arts.map((a) => ({
       outlet: a.outlet, cat: a.cat, title: a.title, titleKo: a.lang === "ko" ? null : TITLES_KO[a.id] || null, summary: a.summaryKo || (a.lang === "ko" ? a.snippet : "") || "",
-      reportedAt: iso(a.reportedAt), url: a.url,
+      reportedAt: iso(a.reportedAt), dateOnly: !!a.dateOnly, url: a.url,
     })),
   };
 }
@@ -393,6 +458,7 @@ async function main() {
   }));
 
   const okCount = results.filter((r) => r.ok).length;
+  const mofaLatest = results.flatMap((r) => r.items.latest || []);
   const sourcesMeta = results.map((r) => ({ name: r.feed.name, ok: r.ok, count: r.items.length, ...(r.ok ? (r.items.partialError ? { note: "일부 주소 실패: " + r.items.partialError } : {}) : { error: r.error }) }));
   const status = okCount === FEEDS.length ? "ok" : okCount === 0 ? "failed" : "partial";
 
@@ -400,8 +466,10 @@ async function main() {
   const failedFeeds = new Set(results.filter((r) => !r.ok).map((r) => r.feed.name));
   let raw = results.flatMap((r) => r.items);
   // 지난번에 받아 둔 기사도 3일 동안 계속 보관 (검색 기간을 짧게 잡아도 3일 치 유지, 실패한 출처 대비)
+  // 단, 출처 목록에서 뺀 언론사(예: Al Arabiya)의 예전 기사는 보관하지 않는다
+  const activeFeeds = new Set(FEEDS.map((f) => f.name));
   for (const a of prevArticles) {
-    if (a.reportedAt && NOW - a.reportedAt <= KEEP_HOURS * H) raw.push(a);
+    if (activeFeeds.has(a.feed) && a.reportedAt && NOW - a.reportedAt <= KEEP_HOURS * H) raw.push(a);
   }
   const seen = new Set();
   raw = raw.filter((a) => !seen.has(a.id) && seen.add(a.id));
@@ -519,6 +587,7 @@ async function main() {
       title: a.title,
       summary: summaries[a.id] || "",
       reportedAt: iso(a.reportedAt),
+      dateOnly: !!a.dateOnly,
       url: a.url,
     }));
 
@@ -537,6 +606,7 @@ async function main() {
       aiError,
       summaryKo: finalSummary,
       sources: sourcesMeta,
+      mofaLatest,
     },
     events,
     timeline,

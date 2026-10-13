@@ -71,6 +71,8 @@ function ago(ts) {
   const h = Math.floor(m / 60);
   return h < 48 ? `${h}시간 전` : `${Math.floor(h / 24)}일 전`;
 }
+// 외교부 공지는 작성 '날짜'만 있고 시각이 없어서, 시각을 지어내지 않고 날짜만 보여준다
+const dayKST = (ts) => new Date(ts + 9 * H).toISOString().slice(0, 10).replace(/-/g, ".");
 const firstReport = (e) => (e.sources.length ? Math.min(...e.sources.map((s) => s.reportedAt)) : null);
 const sortKey = (e) => e.occurredAt ?? firstReport(e) ?? e.collectedAt;
 
@@ -168,7 +170,7 @@ function DetailSheet({ e, onClose }) {
             <div className="label">시간 정보</div>
             <dl className="times">
               <dt>사건 발생</dt><dd><TwoZone ts={e.occurredAt} /></dd>
-              <dt>첫 보도</dt><dd><TwoZone ts={firstReport(e)} unknown="보도 시각 정보 없음" /></dd>
+              <dt>첫 보도</dt><dd>{e.sources.length > 0 && e.sources.every((x) => x.dateOnly) ? <span className="mono">작성일 {dayKST(firstReport(e))}</span> : <TwoZone ts={firstReport(e)} unknown="보도 시각 정보 없음" />}</dd>
               <dt>가져온 시각</dt><dd><TwoZone ts={e.collectedAt} unknown="정보 없음" /></dd>
             </dl>
           </div>
@@ -177,7 +179,7 @@ function DetailSheet({ e, onClose }) {
             {e.sources.length === 0 && <p className="muted" style={{ margin: "8px 0 0" }}>확인할 수 있는 출처가 없어서 내용은 정리하지 않았어요.</p>}
             {e.sources.map((s, i) => (
               <div className="art" key={i}>
-                <div className="by"><b style={{ color: "var(--fg)" }}>{s.outlet}</b>{s.reportedAt && <span className="mono">{fmt(s.reportedAt, 9)} 한국</span>}</div>
+                <div className="by"><b style={{ color: "var(--fg)" }}>{s.outlet}</b>{s.reportedAt && <span className="mono">{s.dateOnly ? `작성일 ${dayKST(s.reportedAt)}` : `${fmt(s.reportedAt, 9)} 한국`}</span>}</div>
                 <TitleKo ko={s.titleKo} en={s.title} auto={!!s.titleKo} />
                 {s.summary && <p>{s.summary}</p>}
                 <a className="linkbtn" href={s.url} target="_blank" rel="noopener noreferrer">원문 보기 ↗</a>
@@ -293,8 +295,14 @@ function TimelineItem({ t }) {
         </div>
       )}
       <dl className="times">
-        <dt>보도 · 사우디</dt><dd className="mono">{fmt(t.reportedAt, 3)}</dd>
-        <dt>보도 · 한국</dt><dd className="mono">{fmt(t.reportedAt, 9)}</dd>
+        {t.dateOnly ? (
+          <><dt>작성일</dt><dd className="mono">{dayKST(t.reportedAt)} (시각 미표기)</dd></>
+        ) : (
+          <>
+            <dt>보도 · 사우디</dt><dd className="mono">{fmt(t.reportedAt, 3)}</dd>
+            <dt>보도 · 한국</dt><dd className="mono">{fmt(t.reportedAt, 9)}</dd>
+          </>
+        )}
       </dl>
       <span className="linkbtn" style={{ minHeight: 0 }}>원문 보기 ↗</span>
     </a>
@@ -319,13 +327,13 @@ function TimelineView({ timeline, region, setRegion }) {
       {list.length === 0 ? <div className="card"><Empty /></div> : (
         <div className="tl">
           {list.map((t) => {
-            const d = fmt(t.reportedAt, 3).slice(0, 5);
+            const d = fmt(t.reportedAt, t.dateOnly ? 9 : 3).slice(0, 5);
             const show = d !== lastDay; lastDay = d;
             return (
               <React.Fragment key={t.id}>
                 {show && <div className="tl-day">사우디 날짜 {d}</div>}
                 <div className={"tl-item sev-" + (t.sev || "low")}>
-                  <div className="ev-time mono" style={{ marginBottom: 4 }}>{ago(t.reportedAt)}</div>
+                  <div className="ev-time mono" style={{ marginBottom: 4 }}>{t.dateOnly ? "외교부 공지 · 날짜만 표기" : ago(t.reportedAt)}</div>
                   <TimelineItem t={t} />
                 </div>
               </React.Fragment>
@@ -352,14 +360,14 @@ function NewsView({ events }) {
         <h2 className="sec-title">{c.name} <span className="count">{arts.length}건</span></h2>
         <p className="muted small" style={{ margin: "4px 0 6px" }}>여기서 모아 봐요: {c.who}</p>
         {cat === "official" && arts.length === 0 && (
-          <p className="small" style={{ margin: "0 0 6px" }}>외교부·대사관 공지 자동 수집은 준비 중이에요. 지금은 <b>공식·연락처</b> 탭의 바로가기로 직접 확인해 주세요.</p>
+          <p className="small" style={{ margin: "0 0 6px" }}>최근 3일 안에 나온 외교부 공지가 없어요. 이전 공지는 <b>공식·연락처</b> 탭에서 볼 수 있어요.</p>
         )}
         {arts.length === 0 ? <Empty /> : arts.map((a, i) => (
           <div className="art" key={i}>
             <div className="by"><b style={{ color: "var(--fg)" }}>{a.outlet}</b><VBadge s={a.ev.status} /></div>
             <TitleKo ko={a.titleKo} en={a.title} auto={!!a.titleKo} />
             {a.summary && <p>{a.summary}</p>}
-            {a.reportedAt && <div className="by mono">보도 사우디 {fmt(a.reportedAt, 3)} · 한국 {fmt(a.reportedAt, 9)}</div>}
+            {a.reportedAt && <div className="by mono">{a.dateOnly ? `작성일 ${dayKST(a.reportedAt)}` : `보도 사우디 ${fmt(a.reportedAt, 3)} · 한국 ${fmt(a.reportedAt, 9)}`}</div>}
             <a className="linkbtn" href={a.url} target="_blank" rel="noopener noreferrer">원문 보기 ↗</a>
           </div>
         ))}
@@ -391,6 +399,21 @@ function InfoView({ theme, setTheme, meta }) {
             </a>
           ))}
         </div>
+      </div>
+      <div className="card">
+        <h2 className="sec-title">외교부 최근 공지 (사우디)</h2>
+        {(meta.mofaLatest || []).length === 0 ? (
+          <p className="muted small" style={{ margin: "8px 0 0" }}>아직 가져온 공지가 없어요.</p>
+        ) : (
+          <ul className="srclist">
+            {meta.mofaLatest.map((m, i) => (
+              <li key={i} style={{ alignItems: "flex-start" }}>
+                <span><small className="muted" style={{ display: "block", fontSize: ".78rem" }}>{m.outlet} · 작성일 {m.date}</small>{m.title}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+        <a className="linkbtn" href="https://www.0404.go.kr" target="_blank" rel="noopener noreferrer">해외안전여행 사이트에서 전문 보기 ↗</a>
       </div>
       <div className="card">
         <h2 className="sec-title">외교부 영사콜센터 (24시간)</h2>
@@ -436,7 +459,6 @@ function InfoView({ theme, setTheme, meta }) {
       <div className="card">
         <div className="row"><h2 className="sec-title">아직 준비 중인 기능</h2><span className="pill demo">곧 추가</span></div>
         <ul className="todo">
-          <li>외교부·대사관 공지 자동 수집</li>
           <li>중요한 소식 생기면 휴대폰 알림</li>
         </ul>
       </div>

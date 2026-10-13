@@ -35,6 +35,9 @@ export const FEEDS = [
   // ── 언론사 RSS 직접 받기 (구글 뉴스 지연 없음) ──
   { name: "Asharq Al-Awsat", cat: "local", lang: "en", outlet: "Asharq Al-Awsat", domains: ["aawsat.com"], urls: [direct("https://english.aawsat.com/feed")] },
   { name: "Al Jazeera", cat: "local", lang: "en", outlet: "Al Jazeera", domains: ["aljazeera.com"], urls: [direct("https://www.aljazeera.com/xml/rss/all.xml"), ...wireUrls("site:aljazeera.com")] },  // 직접 받기가 막히면 구글 뉴스로 대신
+  // ── 외교부 공공데이터 API (GitHub Secrets의 MOFA_API_KEY 필요) ──
+  { name: "외교부 여행경보", cat: "official", lang: "ko", outlet: "외교부 여행경보", official: true, presetType: "advisory", mofa: ["CountryHistoryService2/getCountryHistoryList2"] },
+  { name: "외교부 안전공지", cat: "official", lang: "ko", outlet: "외교부 안전공지", official: true, presetType: "korean", mofa: ["CountrySafetyService7/getCountrySafetyList7", "CountrySafetyService7/getCountrySafetyList"] },
   { name: "SPA (사우디 국영통신)", cat: "local", lang: "en", outlet: "SPA (사우디 국영통신)", official: true, domains: ["spa.gov.sa"], urls: [gnews("site:spa.gov.sa when:12h", "en"), gnews("site:spa.gov.sa when:1d", "en"), gnews(`${EAST} site:spa.gov.sa when:2d`, "en")] },
 ];
 
