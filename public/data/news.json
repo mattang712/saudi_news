@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-13T14:50:28.979Z",
-  "lastAttemptAt": "2026-10-13T14:50:28.979Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-13T15:00:51.435Z",
+  "lastAttemptAt": "2026-10-13T15:00:51.435Z",
   "aiSummary": true,
   "summaryAt": "2026-10-13T13:20:34.017Z",
   "aiError": null,
@@ -16,32 +16,32 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 84
+    "count": 85
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 138
+    "count": 132
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 181
+    "count": 182
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 126
+    "count": 129
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 123
+    "count": 118
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 55
+    "count": 56
    },
    {
     "name": "Asharq Al-Awsat",
@@ -55,54 +55,89 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 57
+    "count": 55
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-12",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-11",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "후티 반군의 중부지역 공격 관련 안전 유의 안내(10.8.)",
-    "date": "2026-10-08",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "5e1cb1e67de4",
+   "articleIds": [
+    "c74d39446524"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 예멘 수도 사나 인근 석유 시설을 사우디아라비아가 타격했다고 주장",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T15:00:51.435Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Oil facility near Yemen capital Sanaa hit by Saudi Arabia, Houthis say",
+     "titleKo": "후티, 예멘 수도 사나 인근 석유 시설을 사우디아라비아가 타격했다고 주장",
+     "summary": "",
+     "reportedAt": "2026-10-13T14:53:39.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQk1ROHJ2ZHk2ZW9FVV9RR0M1LWx6a0VlYWE4ZC1hZ1dHMWFBZmVaOWFCdGJNekxiSnlobnU2ZXk3MjdBVzBhUm1odTRCakEtd09mSmlhQzdScGI2SWotckRoOUR6WmFYYy1Ccmt3MHp6LS0tTGxfSUtXRC1MQU53dVdvUnpjRlRfdzl1LUF1WWp0MTdZaVpKOWFHLTFNbU4wVVRGbEdFRmViYnNpV2F2QlVQTXppeUYxVVE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "dcc429028a2b",
+   "articleIds": [
+    "ea0a334746bc"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "이집트인과 카타르인들, 항공편 차질로 피해 본 사우디인들에게 집과 차 제공",
+   "titleAuto": true,
+   "regions": [
+    "jeddah"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T15:00:51.435Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Egyptians and Qataris offer homes and cars to Saudis affected by flight disruptions",
+     "titleKo": "이집트인과 카타르인들, 항공편 차질로 피해 본 사우디인들에게 집과 차 제공",
+     "summary": "",
+     "reportedAt": "2026-10-13T14:49:52.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/egyptians-and-qataris-offer-homes-and-cars-to-saudis-affected-by-flight-disruptions-3006102"
+    }
+   ]
+  },
   {
    "id": "754d305143e4",
    "articleIds": [
@@ -893,7 +928,7 @@
      "summary": "사우디 방공망을 교란하는 '드론 미끼' 작전을 보도했어요.",
      "reportedAt": "2026-10-13T10:23:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yNmlwYl9LY0R5SUFsRTREU0FjM1hjNURyMHU5NGxKYnM5VE8yOFV0NHM5RDVqS1cyTEF2YTFuQnFzenBWWnNfQ21GekQzVUt1d3BFejFDVVNYQ09MR2fSAWNBVV95cUxNTnFyZ29aWTZ3V2xVUVdPaHBKVThVbUQyVDhWQ2dLeHkzSm9Wdk95S3lWZVBHSjF2dDVLSWJ6UTBaRFhsX1lrUXRySWgyaHJ4NlY3Qk5HQVNPVXROT3pMd3NzOVE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OcXJnb1pZNndXbFVRV09ocEpVOFVtRDJUOFZDZ0t4eTNKb1Z2T3lLeVZlUEdKMXZ0NUtJYnpRMFpEWGxfWWtRdHJJaDJocng2VjdCTkdBU09VdE5Pekx3c3M5UdIBY0FVX3lxTE1OcXJnb1pZNndXbFVRV09ocEpVOFVtRDJUOFZDZ0t4eTNKb1Z2T3lLeVZlUEdKMXZ0NUtJYnpRMFpEWGxfWWtRdHJJaDJocng2VjdCTkdBU09VdE5Pekx3c3M5UQ?oc=5"
     },
     {
      "outlet": "채널A",
@@ -7912,71 +7947,6 @@
      "url": "https://english.aawsat.com/node/5328111"
     }
    ]
-  },
-  {
-   "id": "8aa241414b91",
-   "articleIds": [
-    "1142f9059232"
-   ],
-   "type": "advisory",
-   "sev": "mid",
-   "status": "official",
-   "directive": "advice",
-   "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T02:25:12.660Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "외교부 여행경보",
-     "cat": "official",
-     "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-     "titleKo": null,
-     "summary": "□ 외교부는 10.11(일) 22:00부로 사우디아라비아 전역에 대한 여행경보를 3단계(출국권고)로 상향 조정한다고 발표했습니다. □ 이에 따라 외교부는 사우디아라비아에 체류 중인 우리 국민은 긴요한 용무가 아닌 한 출국하고, 여행예정자는 여행을 취소하거나 연기해줄 것을 권고했습니다. ※ 금번 조정 후 사우디아라비아 여행경보 - 3단계(출국권고) : 전 지역 □ 외교부는 계속해서 현지 정세를 예의주시하며 여행경보 추가 조정 필요성을 검토해 나갈 예정입니다. 붙임 : 사우디아라비아 여행경보 지도. 끝.",
-     "reportedAt": "2026-10-10T15:00:00.000Z",
-     "dateOnly": true,
-     "url": "https://www.0404.go.kr"
-    }
-   ]
-  },
-  {
-   "id": "bafca3a5ef41",
-   "articleIds": [
-    "c1f403c85bdf"
-   ],
-   "type": "korean",
-   "sev": "mid",
-   "status": "official",
-   "directive": "advice",
-   "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-   "titleAuto": false,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T02:25:12.660Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "외교부 안전공지",
-     "cat": "official",
-     "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-     "titleKo": null,
-     "summary": "10.8.(목) 및 10.10.(토) 리야드 킹칼리드 국제공항에 대한 공격이 발생하였으며, 이로 인해 항공편 결항 및 회항 등 운항 차질이 발생하고 있습니다. 이에 주사우디아라비아 대한민국 대사관은 우리 국민 여러분께 당분간 킹칼리드 국제공항 및 주변 지역에 대한 접근을 가급적 피하실 것을 권고 드리며, 아래 안전수칙을 준수하여 주시기 바랍니다. ㅇ 리야드 출도착 항공편을 이용할 예정인 경우, 공항으로 이동하기 전에 해당 항공사의 공식 안내를 통해 항공편 운항 여부 및 공항 이용 가능 여부를 반드시 확인하여 주시기 바랍니다. ㅇ 현지 당국의 안전 관련 공지 및 비상경보에 주의를 기울이고, 당국의 통제 조치와 안전 지침을 준수하여 주시기 바랍니다. ㅇ 공항 등 위험 상황이 발생한 지역에 이미 체류 중인 경우,",
-     "reportedAt": "2026-10-10T15:00:00.000Z",
-     "dateOnly": true,
-     "url": "https://www.0404.go.kr"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -9523,47 +9493,38 @@
    "reportedAt": "2026-10-10T17:00:54.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5328111"
-  },
-  {
-   "id": "1142f9059232",
-   "outlet": "외교부 여행경보",
-   "official": true,
-   "claim": false,
-   "type": "advisory",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": null,
-   "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-   "summary": "",
-   "reportedAt": "2026-10-10T15:00:00.000Z",
-   "dateOnly": true,
-   "url": "https://www.0404.go.kr"
-  },
-  {
-   "id": "c1f403c85bdf",
-   "outlet": "외교부 안전공지",
-   "official": true,
-   "claim": false,
-   "type": "korean",
-   "sev": "mid",
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "titleKo": null,
-   "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-   "summary": "",
-   "reportedAt": "2026-10-10T15:00:00.000Z",
-   "dateOnly": true,
-   "url": "https://www.0404.go.kr"
   }
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "c74d39446524",
+    "feed": "AFP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AFP",
+    "title": "Oil facility near Yemen capital Sanaa hit by Saudi Arabia, Houthis say",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQk1ROHJ2ZHk2ZW9FVV9RR0M1LWx6a0VlYWE4ZC1hZ1dHMWFBZmVaOWFCdGJNekxiSnlobnU2ZXk3MjdBVzBhUm1odTRCakEtd09mSmlhQzdScGI2SWotckRoOUR6WmFYYy1Ccmt3MHp6LS0tTGxfSUtXRC1MQU53dVdvUnpjRlRfdzl1LUF1WWp0MTdZaVpKOWFHLTFNbU4wVVRGbEdFRmViYnNpV2F2QlVQTXppeUYxVVE?oc=5",
+    "reportedAt": 1791903219000,
+    "assumeSaudi": false,
+    "firstSeen": 1791903651435
+   },
+   {
+    "id": "ea0a334746bc",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Egyptians and Qataris offer homes and cars to Saudis affected by flight disruptions",
+    "snippet": "JEDDAH: Egyptians and Qataris offered their homes, cars and food to Saudi citizens affected by flight cancellations and delays, responding to appeals from Saudi diplomatic missions with messages of solidarity. The Saudi Embassy in Cairo urged citizens in Egypt whose flights or onward journeys had been disrupted to contact it for assistance and guidance. In a statement posted on its official X acco",
+    "url": "https://www.arabnews.com/saudi-arabia/egyptians-and-qataris-offer-homes-and-cars-to-saudis-affected-by-flight-disruptions-3006102",
+    "reportedAt": 1791902992000,
+    "assumeSaudi": false,
+    "firstSeen": 1791903651435
+   },
    {
     "id": "513a75a5f55e",
     "feed": "Arab News",
@@ -9937,7 +9898,7 @@
     "outlet": "채널A",
     "title": "사우디 방공망 뚫은 ‘드론 미끼’ 작전",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yNmlwYl9LY0R5SUFsRTREU0FjM1hjNURyMHU5NGxKYnM5VE8yOFV0NHM5RDVqS1cyTEF2YTFuQnFzenBWWnNfQ21GekQzVUt1d3BFejFDVVNYQ09MR2fSAWNBVV95cUxNTnFyZ29aWTZ3V2xVUVdPaHBKVThVbUQyVDhWQ2dLeHkzSm9Wdk95S3lWZVBHSjF2dDVLSWJ6UTBaRFhsX1lrUXRySWgyaHJ4NlY3Qk5HQVNPVXROT3pMd3NzOVE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OcXJnb1pZNndXbFVRV09ocEpVOFVtRDJUOFZDZ0t4eTNKb1Z2T3lLeVZlUEdKMXZ0NUtJYnpRMFpEWGxfWWtRdHJJaDJocng2VjdCTkdBU09VdE5Pekx3c3M5UdIBY0FVX3lxTE1OcXJnb1pZNndXbFVRV09ocEpVOFVtRDJUOFZDZ0t4eTNKb1Z2T3lLeVZlUEdKMXZ0NUtJYnpRMFpEWGxfWWtRdHJJaDJocng2VjdCTkdBU09VdE5Pekx3c3M5UQ?oc=5",
     "reportedAt": 1791886980000,
     "assumeSaudi": false,
     "firstSeen": 1791888307221
@@ -13618,38 +13579,6 @@
     "reportedAt": 1791651654000,
     "assumeSaudi": false,
     "firstSeen": 1791854724872
-   },
-   {
-    "id": "1142f9059232",
-    "feed": "외교부 여행경보",
-    "cat": "official",
-    "official": true,
-    "lang": "ko",
-    "outlet": "외교부 여행경보",
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "snippet": "□ 외교부는 10.11(일) 22:00부로 사우디아라비아 전역에 대한 여행경보를 3단계(출국권고)로 상향 조정한다고 발표했습니다. □ 이에 따라 외교부는 사우디아라비아에 체류 중인 우리 국민은 긴요한 용무가 아닌 한 출국하고, 여행예정자는 여행을 취소하거나 연기해줄 것을 권고했습니다. ※ 금번 조정 후 사우디아라비아 여행경보 - 3단계(출국권고) : 전 지역 □ 외교부는 계속해서 현지 정세를 예의주시하며 여행경보 추가 조정 필요성을 검토해 나갈 예정입니다. 붙임 : 사우디아라비아 여행경보 지도. 끝.",
-    "url": "https://www.0404.go.kr",
-    "reportedAt": 1791644400000,
-    "dateOnly": true,
-    "presetType": "advisory",
-    "assumeSaudi": true,
-    "firstSeen": 1791858312660
-   },
-   {
-    "id": "c1f403c85bdf",
-    "feed": "외교부 안전공지",
-    "cat": "official",
-    "official": true,
-    "lang": "ko",
-    "outlet": "외교부 안전공지",
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "snippet": "10.8.(목) 및 10.10.(토) 리야드 킹칼리드 국제공항에 대한 공격이 발생하였으며, 이로 인해 항공편 결항 및 회항 등 운항 차질이 발생하고 있습니다. 이에 주사우디아라비아 대한민국 대사관은 우리 국민 여러분께 당분간 킹칼리드 국제공항 및 주변 지역에 대한 접근을 가급적 피하실 것을 권고 드리며, 아래 안전수칙을 준수하여 주시기 바랍니다. ㅇ 리야드 출도착 항공편을 이용할 예정인 경우, 공항으로 이동하기 전에 해당 항공사의 공식 안내를 통해 항공편 운항 여부 및 공항 이용 가능 여부를 반드시 확인하여 주시기 바랍니다. ㅇ 현지 당국의 안전 관련 공지 및 비상경보에 주의를 기울이고, 당국의 통제 조치와 안전 지침을 준수하여 주시기 바랍니다. ㅇ 공항 등 위험 상황이 발생한 지역에 이미 체류 중인 경우,",
-    "url": "https://www.0404.go.kr",
-    "reportedAt": 1791644400000,
-    "dateOnly": true,
-    "presetType": "korean",
-    "assumeSaudi": true,
-    "firstSeen": 1791858312660
    }
   ],
   "summaries": {
@@ -14045,7 +13974,9 @@
    "513a75a5f55e": "이집트, 이란과 통화에서 후티의 사우디아라비아 공격 즉각 중단 요구",
    "3513a5fc72ae": "사우디 왕세자, 터키·레바논·독일 지도자들로부터 후티 공격 규탄 전화 받아",
    "9391d16e969f": "이집트, 사우디아라비아에 군사 지원 제공 준비돼 있다고 외교장관 밝혀",
-   "fec899c77e84": "독일 총리·터키·레바논 대통령, 왕세자와 통화에서 사우디아라비아에 대한 전적 지지 확인"
+   "fec899c77e84": "독일 총리·터키·레바논 대통령, 왕세자와 통화에서 사우디아라비아에 대한 전적 지지 확인",
+   "c74d39446524": "후티, 예멘 수도 사나 인근 석유 시설을 사우디아라비아가 타격했다고 주장",
+   "ea0a334746bc": "이집트인과 카타르인들, 항공편 차질로 피해 본 사우디인들에게 집과 차 제공"
   },
   "aiClusters": [
    {
@@ -15367,18 +15298,6 @@
    },
    {
     "articleIds": [
-     "1142f9059232"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "c1f403c85bdf"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "ed90fa23e9c4"
     ],
     "fromRule": true
@@ -15458,6 +15377,18 @@
    {
     "articleIds": [
      "fec899c77e84"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c74d39446524"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "ea0a334746bc"
     ],
     "fromRule": true
    }
