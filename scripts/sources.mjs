@@ -39,7 +39,7 @@ export const FEEDS = [
   { name: "알야움 (담맘 지역지)", cat: "local", lang: "ar", outlet: "알야움 (담맘 지역지)", assumeSaudi: true, domains: ["alyaum.com"], urls: [direct("https://www.alyaum.com/rssFeed/1")] },
   { name: "Asharq Al-Awsat", cat: "local", lang: "en", outlet: "Asharq Al-Awsat", domains: ["aawsat.com"], urls: [direct("https://english.aawsat.com/feed")] },
   { name: "Al Arabiya", cat: "local", lang: "en", outlet: "Al Arabiya", domains: ["alarabiya.net"], urls: [direct("https://english.alarabiya.net/feed/rss2/en.xml")] },
-  { name: "Al Jazeera", cat: "local", lang: "en", outlet: "Al Jazeera", domains: ["aljazeera.com"], urls: [direct("https://www.aljazeera.com/xml/rss/all.xml")] },
+  { name: "Al Jazeera", cat: "local", lang: "en", outlet: "Al Jazeera", domains: ["aljazeera.com"], urls: [direct("https://www.aljazeera.com/xml/rss/all.xml"), ...wireUrls("site:aljazeera.com")] },  // 직접 받기가 막히면 구글 뉴스로 대신
   { name: "SPA (사우디 국영통신)", cat: "local", lang: "en", outlet: "SPA (사우디 국영통신)", official: true, domains: ["spa.gov.sa"], urls: [gnews("site:spa.gov.sa when:12h", "en"), gnews("site:spa.gov.sa when:1d", "en"), gnews(`${EAST} site:spa.gov.sa when:2d`, "en")] },
 ];
 

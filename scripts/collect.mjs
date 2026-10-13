@@ -49,7 +49,10 @@ const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_
 // direct: 구글 뉴스를 거치지 않고 언론사 RSS(또는 Atom)를 직접 받는 주소
 async function fetchUrl(feed, url, direct = false) {
   const res = await fetch(url, {
-    headers: { "User-Agent": "Mozilla/5.0 (family news reader; contact via GitHub)" },
+    // 일부 언론사는 브라우저가 아닌 접속을 막아서, 언론사 직접 주소에는 일반 브라우저와 같은 정보를 보낸다
+    headers: direct
+      ? { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", Accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.8" }
+      : { "User-Agent": "Mozilla/5.0 (family news reader; contact via GitHub)" },
     signal: AbortSignal.timeout(20000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -115,7 +118,9 @@ async function fetchFeed(feed) {
     await new Promise((r) => setTimeout(r, 300)); // 구글에 너무 몰아서 요청하지 않게
   }
   if (!okCount) throw lastErr || new Error("모든 검색 실패");
-  return [...merged.values()];
+  const items = [...merged.values()];
+  if (lastErr) items.partialError = String(lastErr.message || lastErr).slice(0, 80);
+  return items;
 }
 
 /* ───────── 2. 분류 (규칙) ───────── */
@@ -388,7 +393,7 @@ async function main() {
   }));
 
   const okCount = results.filter((r) => r.ok).length;
-  const sourcesMeta = results.map((r) => ({ name: r.feed.name, ok: r.ok, count: r.items.length, ...(r.ok ? {} : { error: r.error }) }));
+  const sourcesMeta = results.map((r) => ({ name: r.feed.name, ok: r.ok, count: r.items.length, ...(r.ok ? (r.items.partialError ? { note: "일부 주소 실패: " + r.items.partialError } : {}) : { error: r.error }) }));
   const status = okCount === FEEDS.length ? "ok" : okCount === 0 ? "failed" : "partial";
 
   // 실패한 출처는 지난번에 받아 둔 기사(3일 이내)를 그대로 유지
