@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-14T08:10:43.038Z",
-  "lastAttemptAt": "2026-10-14T08:10:43.038Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-14T08:20:26.904Z",
+  "lastAttemptAt": "2026-10-14T08:20:26.904Z",
   "aiSummary": true,
   "summaryAt": "2026-10-14T07:10:33.092Z",
   "aiError": null,
@@ -15,33 +15,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 71
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 167
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 90
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 131
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 134
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 63
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,58 +57,63 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 107
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 94
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "date": "2026-10-12",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "ac40c6d77b00",
+   "articleIds": [
+    "650205679e73"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 인플루언서 Alanoud Badr, 왕국에 대한 자부심 메시지 공유",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T08:20:26.904Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi influencer Alanoud Badr shares message of pride in the Kingdom",
+     "titleKo": "사우디 인플루언서 Alanoud Badr, 왕국에 대한 자부심 메시지 공유",
+     "summary": "",
+     "reportedAt": "2026-10-14T08:17:12.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/fashion/saudi-influencer-alanoud-badr-shares-message-of-pride-in-the-kingdom-3006261"
+    }
+   ]
+  },
   {
    "id": "5dc92c62eb00",
    "articleIds": [
@@ -13026,6 +13037,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "650205679e73",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi influencer Alanoud Badr shares message of pride in the Kingdom",
+    "snippet": "DUBAI: Saudi Lebanese fashion designer and influencer Alanoud Badr, known on social media as Fozaza, has shared a message of pride and solidarity with Saudi Arabia, describing the Kingdom as a nation that “will always remain proud and resilient” amid a wave of attacks on its airports. “We are the children of a solid land that cannot be defeated by crises or divided by lies. We stand with our natio",
+    "url": "https://www.arabnews.com/fashion/saudi-influencer-alanoud-badr-shares-message-of-pride-in-the-kingdom-3006261",
+    "reportedAt": 1791965832000,
+    "assumeSaudi": false,
+    "firstSeen": 1791966026904
+   },
+   {
     "id": "6728866502bd",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -19330,7 +19355,8 @@
    "9dce6bcc20dc": "아람코 본사 미사일 피격·화재…후티 소행 추정",
    "24746c756880": "미사일 속보와 아시안컵 개최 가능성 논의",
    "e402517b1b07": "사우디 수도 리야드 주민들, 리야드에서 새 폭발음 들었다고 밝혀",
-   "dfe8784b31e2": "후티의 리야드 겨냥 미사일 요격…요격 잔해에 4명 부상"
+   "dfe8784b31e2": "후티의 리야드 겨냥 미사일 요격…요격 잔해에 4명 부상",
+   "650205679e73": "사우디 인플루언서 Alanoud Badr, 왕국에 대한 자부심 메시지 공유"
   },
   "aiClusters": [
    {
@@ -21309,6 +21335,12 @@
    {
     "articleIds": [
      "dfe8784b31e2"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "650205679e73"
     ],
     "fromRule": true
    }
