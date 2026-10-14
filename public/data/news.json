@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-14T21:50:30.696Z",
-  "lastAttemptAt": "2026-10-14T21:50:30.696Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-14T22:00:47.157Z",
+  "lastAttemptAt": "2026-10-14T22:00:47.157Z",
   "aiSummary": true,
   "summaryAt": "2026-10-14T20:10:04.188Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 75
+    "count": 77
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 138
+    "count": 140
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 197
+    "count": 204
    },
    {
     "name": "AFP",
@@ -46,63 +46,66 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 163
+    "count": 166
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 106
+    "count": 103
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 74
+    "count": 75
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
-    "date": "2026-10-14",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "b694475dfef2",
+   "articleIds": [
+    "794229e59ebc"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 사우디 공항 연일 공격…“킹칼리드에 미사일 타격”",
+   "titleAuto": false,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T22:00:47.157Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "경향신문",
+     "cat": "kr",
+     "title": "후티, 사우디 공항 연일 공격…“킹칼리드에 미사일 타격”",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-14T21:41:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXA0WkRJM0xJWG5CMTVpVGdVNHV0OGM4X1RybEtWYjN1MDlPOUNucFhIN0VkMzhEWUs3cTFWRUgwaEc2bVNmUFFnNlNmRFZzRFoyVnpKZkJOSTFVQnNjRTNnZTVfVUliZEhtSXZTZmVUOExJbGR5Ry1GYjNpZ1JXdmtjVE9ITzJZeHNZY2NNWjJGSHlQZjNqc3YxN3U0MU5rYndMQm5DMHNhUdIBX0FVX3lxTE1pdVh6LTBvd1h1SkY0enBNZ2kxYWM3Q29SMXJDOXFISWlnRGxLSkYydFAtRmp3UE9mcjFGNTZ2T01kV1FkTFNSdVZxa2VOMXExNWZwcUpiblZ1cW5jT0RJ?oc=5"
+    }
+   ]
+  },
   {
    "id": "f2e7d0901e0f",
    "articleIds": [
@@ -500,6 +503,38 @@
    ]
   },
   {
+   "id": "6fb5f68a576c",
+   "articleIds": [
+    "b2ae18aedf30"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T22:00:47.157Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-14T20:25:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oZUxaQXB6M29ReXEyTDQwOU1rN0NNcFRwdmF1WHFDZy1HNDJhLUJETFdab2xVV2F0a2pLMDBCa3dwOU5LeVZHakw5bU5zTnl6Zl9NUnhGTDZvS0NHTDk2S9IBYEFVX3lxTE9oZUxaQXB6M29ReXEyTDQwOU1rN0NNcFRwdmF1WHFDZy1HNDJhLUJETFdab2xVV2F0a2pLMDBCa3dwOU5LeVZHakw5bU5zTnl6Zl9NUnhGTDZvS0NHTDk2Sw?oc=5"
+    }
+   ]
+  },
+  {
    "id": "71fa42c79098",
    "articleIds": [
     "032ae21e9819"
@@ -534,8 +569,8 @@
   {
    "id": "f4f76810d7e2",
    "articleIds": [
-    "533e29a73d36",
     "6a0b04d0f422",
+    "533e29a73d36",
     "196a59547a06",
     "f9d57e985e04",
     "43b706110e09",
@@ -573,6 +608,16 @@
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
+     "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
+     "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
+     "reportedAt": "2026-10-14T04:32:17.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQR3JHZ1B2ZFpsQnkwcmE5S05GUkRVVEw3MDlzbVF2WDJDWWhFZVVVczhaQVZiVS0xSWFYNENIXzNQcC02UkxaZUZHVk5kdmhjS1Q5bTlBcjRYeFg1M215S3ZVdkw0NlV2UkR6SVV1bUlfUUU3c2dPWEdwQWUwVVJNZ21SN3Mza285ZzBQeGlSNUFLTHV0bHh0djh0aDRaNWk1M3hMbDVaWlhTVW81VW9Nekl2UmtmSklvZVVzMVVvNE1EdFIteTNKV3oxYzVIdk5YcHViazBB?oc=5"
+    },
+    {
      "outlet": "MBC",
      "cat": "kr",
      "title": "후티 \"사우디 아람코·공항에 미사일·드론 공격‥며칠간 계속\"",
@@ -581,16 +626,6 @@
      "reportedAt": "2026-10-14T10:10:07.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYMXVJdWl2TUxteE1oTXdlekRJb215dThPcTBQN1RQNW9uV2Jib2V0T0lvUHBucE5jb0JkVGxrRFZ0cEVPMGUtaGZTYl9jYkp4Mm1FSnJndXNuVkdIdWxTMnhQY2dIdDBqSDdQTFpfN3hIdWxp0gF0QVVfeXFMUGhhMWw1VVk4WmJWSmgycmpKR3JHVnZLeF80b1JIa3FCaDUwNVdSaXFFNWtxcUxpaTI1T3Zpa1pJRjQxcW9zWnZReUg2R01PbUlDUE5nUm1sOVhtMXQ1RmtBdHdOd1B1WFJ5ZVBIZEV1ajJvUF8?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
-     "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
-     "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
-     "reportedAt": "2026-10-14T10:15:57.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZlRXbkw1MnRBNVl1bHJuU3lia19HNXUwM1VXUGQ4OW5DRnd1NUpPNXhsUGNyUjRDRUs5ZVBMbXNsRVNmRmNmRDVEdDFpQ0pzZl9BYWtmQlVYY2VSdThFTi1ROHZkNXpHUzNSS1RlWjJLSXRLQ2gzclpDYUNGN0NKcmVENXBHREJtUVQ2Ul96cTk0ZVVsSXVMeXhfV2x0U2JWczduYkhEdnJNalBMT1pEUmI3algwNnlweWxVWWxibjkzYVBCTmVoay1XU2Q5TVd2NDB4UFRB?oc=5"
     },
     {
      "outlet": "뉴스1",
@@ -12661,24 +12696,6 @@
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEY0UDJsbGo1MXFVX1FoY1RIdkFLeW96R3hMOEkwQTNRTFpLby1wZEFGRy10SThxSkhSaXZKQ1psYmdiQVZQd19uaDFtZFBZa1pJZzZCT0dsd0lSdmV1UWV0dExiRmU2Y2lVUS1SaWs1UzNkZ25lUnRJaklfWnlOeEFVQTg2dDVQTWF4UWp1aTcyR2JsUWN5d0JzSWRqMlp1ZDY3OXpncUZDN2FuVk9tN0VuaGtIMVpXM1F4RU5QX00xek9q?oc=5"
   },
   {
-   "id": "6a0b04d0f422",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
-   "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
-   "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
-   "reportedAt": "2026-10-14T10:15:57.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZlRXbkw1MnRBNVl1bHJuU3lia19HNXUwM1VXUGQ4OW5DRnd1NUpPNXhsUGNyUjRDRUs5ZVBMbXNsRVNmRmNmRDVEdDFpQ0pzZl9BYWtmQlVYY2VSdThFTi1ROHZkNXpHUzNSS1RlWjJLSXRLQ2gzclpDYUNGN0NKcmVENXBHREJtUVQ2Ul96cTk0ZVVsSXVMeXhfV2x0U2JWczduYkhEdnJNalBMT1pEUmI3algwNnlweWxVWWxibjkzYVBCTmVoay1XU2Q5TVd2NDB4UFRB?oc=5"
-  },
-  {
    "id": "b44eff45d85b",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -12767,6 +12784,24 @@
    "reportedAt": "2026-10-14T06:36:18.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5329398"
+  },
+  {
+   "id": "6a0b04d0f422",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
+   "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
+   "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
+   "reportedAt": "2026-10-14T04:32:17.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQR3JHZ1B2ZFpsQnkwcmE5S05GUkRVVEw3MDlzbVF2WDJDWWhFZVVVczhaQVZiVS0xSWFYNENIXzNQcC02UkxaZUZHVk5kdmhjS1Q5bTlBcjRYeFg1M215S3ZVdkw0NlV2UkR6SVV1bUlfUUU3c2dPWEdwQWUwVVJNZ21SN3Mza285ZzBQeGlSNUFLTHV0bHh0djh0aDRaNWk1M3hMbDVaWlhTVW81VW9Nekl2UmtmSklvZVVzMVVvNE1EdFIteTNKV3oxYzVIdk5YcHViazBB?oc=5"
   },
   {
    "id": "04dc6d0c3a08",
@@ -14390,6 +14425,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "794229e59ebc",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "경향신문",
+    "title": "후티, 사우디 공항 연일 공격…“킹칼리드에 미사일 타격”",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXA0WkRJM0xJWG5CMTVpVGdVNHV0OGM4X1RybEtWYjN1MDlPOUNucFhIN0VkMzhEWUs3cTFWRUgwaEc2bVNmUFFnNlNmRFZzRFoyVnpKZkJOSTFVQnNjRTNnZTVfVUliZEhtSXZTZmVUOExJbGR5Ry1GYjNpZ1JXdmtjVE9ITzJZeHNZY2NNWjJGSHlQZjNqc3YxN3U0MU5rYndMQm5DMHNhUdIBX0FVX3lxTE1pdVh6LTBvd1h1SkY0enBNZ2kxYWM3Q29SMXJDOXFISWlnRGxLSkYydFAtRmp3UE9mcjFGNTZ2T01kV1FkTFNSdVZxa2VOMXExNWZwcUpiblZ1cW5jT0RJ?oc=5",
+    "reportedAt": 1792014060000,
+    "assumeSaudi": false,
+    "firstSeen": 1792015247157
+   },
+   {
     "id": "096c9b227edc",
     "feed": "Arab News",
     "cat": "local",
@@ -14542,6 +14591,20 @@
     "reportedAt": 1792009504000,
     "assumeSaudi": false,
     "firstSeen": 1792010481282
+   },
+   {
+    "id": "b2ae18aedf30",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oZUxaQXB6M29ReXEyTDQwOU1rN0NNcFRwdmF1WHFDZy1HNDJhLUJETFdab2xVV2F0a2pLMDBCa3dwOU5LeVZHakw5bU5zTnl6Zl9NUnhGTDZvS0NHTDk2S9IBYEFVX3lxTE9oZUxaQXB6M29ReXEyTDQwOU1rN0NNcFRwdmF1WHFDZy1HNDJhLUJETFdab2xVV2F0a2pLMDBCa3dwOU5LeVZHakw5bU5zTnl6Zl9NUnhGTDZvS0NHTDk2Sw?oc=5",
+    "reportedAt": 1792009503000,
+    "assumeSaudi": false,
+    "firstSeen": 1792015247157
    },
    {
     "id": "6fa0853cb3bf",
@@ -15468,20 +15531,6 @@
     "firstSeen": 1791973924383
    },
    {
-    "id": "6a0b04d0f422",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZlRXbkw1MnRBNVl1bHJuU3lia19HNXUwM1VXUGQ4OW5DRnd1NUpPNXhsUGNyUjRDRUs5ZVBMbXNsRVNmRmNmRDVEdDFpQ0pzZl9BYWtmQlVYY2VSdThFTi1ROHZkNXpHUzNSS1RlWjJLSXRLQ2gzclpDYUNGN0NKcmVENXBHREJtUVQ2Ul96cTk0ZVVsSXVMeXhfV2x0U2JWczduYkhEdnJNalBMT1pEUmI3algwNnlweWxVWWxibjkzYVBCTmVoay1XU2Q5TVd2NDB4UFRB?oc=5",
-    "reportedAt": 1791972957000,
-    "assumeSaudi": false,
-    "firstSeen": 1791945041320
-   },
-   {
     "id": "533e29a73d36",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -15970,6 +16019,20 @@
     "reportedAt": 1791955380000,
     "assumeSaudi": false,
     "firstSeen": 1791946846875
+   },
+   {
+    "id": "6a0b04d0f422",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQR3JHZ1B2ZFpsQnkwcmE5S05GUkRVVEw3MDlzbVF2WDJDWWhFZVVVczhaQVZiVS0xSWFYNENIXzNQcC02UkxaZUZHVk5kdmhjS1Q5bTlBcjRYeFg1M215S3ZVdkw0NlV2UkR6SVV1bUlfUUU3c2dPWEdwQWUwVVJNZ21SN3Mza285ZzBQeGlSNUFLTHV0bHh0djh0aDRaNWk1M3hMbDVaWlhTVW81VW9Nekl2UmtmSklvZVVzMVVvNE1EdFIteTNKV3oxYzVIdk5YcHViazBB?oc=5",
+    "reportedAt": 1791952337000,
+    "assumeSaudi": false,
+    "firstSeen": 1791945041320
    },
    {
     "id": "e2f38a9fc9e2",
@@ -23665,6 +23728,18 @@
    {
     "articleIds": [
      "6ff399790b3c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "794229e59ebc"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "b2ae18aedf30"
     ],
     "fromRule": true
    }
