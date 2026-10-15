@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-15T05:10:31.084Z",
-  "lastAttemptAt": "2026-10-15T05:10:31.084Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-15T05:20:30.449Z",
+  "lastAttemptAt": "2026-10-15T05:20:30.449Z",
   "aiSummary": true,
   "summaryAt": "2026-10-15T04:50:31.986Z",
   "aiError": null,
@@ -16,27 +16,27 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 75
+    "count": 78
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 130
+    "count": 131
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 213
+    "count": 210
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 140
+    "count": 139
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 140
+    "count": 142
    },
    {
     "name": "Saudi Gazette",
@@ -46,7 +46,7 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 169
+    "count": 168
    },
    {
     "name": "Al Jazeera",
@@ -55,13 +55,15 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,38 +71,7 @@
     "count": 80
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
-    "date": "2026-10-14",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -178,7 +149,7 @@
      "summary": "사우디 공격 여파로 테니스 대회가 연기되면서 대회 일정에 차질이 발생했다고 보도했어요.",
      "reportedAt": "2026-10-15T03:19:35.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ua3VaMWJaQ0paT0lGNXlsZzF2aG5yaC1lMjJsQTVWRHhNOF80elF4UFI4MDZyenVka1RiQjMwSUlXMjhDN0JuWFUxUkZHM2FHeVpKazR4MGgwaFhvV0FfXzNGc0xRMTFBVUHSAW9BVV95cUxQTFJEeFdMYVYzR3o2aTVVRkdMQmJqeF9XX1lINktjWFVHUnJGSmVrTExrU1RGMnB2aW9vcHBYWWZRR1o4N1dxU2dHRUVmNmNWTEY1c3p5MUNMNnBicFBDRDhodEQzSm9GRTRRMTV1XzQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMUkR4V0xhVjNHejZpNVVGR0xCYmp4X1dfWUg2S2NYVUdSckZKZWtMTGtTVEYycHZpb29wcFhZZlFHWjg3V3FTZ0dFRWY2Y1ZMRjVzenkxQ0w2cGJwUENEOGh0RDNKb0ZFNFExNXVfNNIBb0FVX3lxTFBMUkR4V0xhVjNHejZpNVVGR0xCYmp4X1dfWUg2S2NYVUdSckZKZWtMTGtTVEYycHZpb29wcFhZZlFHWjg3V3FTZ0dFRWY2Y1ZMRjVzenkxQ0w2cGJwUENEOGh0RDNKb0ZFNFExNXVfNA?oc=5"
     },
     {
      "outlet": "Reuters",
@@ -991,6 +962,38 @@
    ]
   },
   {
+   "id": "4e6a9554737a",
+   "articleIds": [
+    "40b048f469c3"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 공격 속 사우디 테니스 대회 연기",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T17:30:39.421Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
+     "titleKo": "후티 공격 속 사우디 테니스 대회 연기",
+     "summary": "사우디의 시범 테니스 대회인 Six Kings Slam이 후티 공격으로 10월에서 12월로 연기됐어요.",
+     "reportedAt": "2026-10-14T18:27:46.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS0hXM084SldHSTFMX1VYLXppOTJkSVB0akp1ZGE0a2VsWG05NElYRV9oVnQ1OTNKTV9hOUlHRE5xbmQ2RTc5Y0htODAyalFCMHZvbFNnQkNoVnVIc2RKdklXLUtidTFObmtoLWo1RmVPQV9CVGxnVktWYUdrSW5EWjk1THpTbUhTNmN6d25QZ3dETjlubmxmZDFHd3hjb3c1cFM5RG9PT211Tm9CZlpmd3VQd9IBuAFBVV95cUxNX0hNbGxNWFdKRHEtYUZseDAwSTNTdW9nd0NTU3d0LWg4TVIybHpldXkxZ19RbU94eW9FcnZLaUtHMlFRQ2E5YWthRVBzWnBlbk5iRWY1MnpNWW1sZ1h1bW1YejAxeG01MnhoVHhxTDJPaGZzTVVCNHlHNXhsdEYwQlNMLWx0VVlQUkVfYVZzUmVFYU9paXNHT2xJM1MzRUJ1b0dERml1NU9fTHpfcEVpNHAzZXdyTmN4?oc=5"
+    }
+   ]
+  },
+  {
    "id": "ab46a3bbc85c",
    "articleIds": [
     "6047578ce1a2"
@@ -1094,38 +1097,6 @@
      "reportedAt": "2026-10-14T17:24:36.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yVG9uOWY1VTVqR1VOM1M3czhKYVNiS1FrX2RJU291UHdXdXl2QVJYMW9pa2ktYUtBWnZZSDRxSkJ6SnhnV3pScXg4SkZtZXhaQVdPVnlOYWdRejDSAWBBVV95cUxQNVdVLWF6X0lrNVpQTTdrQzhabjQ2VjdoU2hJZWpTMHUxYnotanl1VFZ5VXl3MVE4RTZ0dXZtcXNIdkgydVhTTGxHaTEtanhvYWJqN0xYd0lSNzgyTnQxOFI?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "4e6a9554737a",
-   "articleIds": [
-    "40b048f469c3"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티 공격 속 사우디 테니스 대회 연기",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T17:30:39.421Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
-     "titleKo": "후티 공격 속 사우디 테니스 대회 연기",
-     "summary": "사우디의 시범 테니스 대회인 Six Kings Slam이 후티 공격으로 10월에서 12월로 연기됐어요.",
-     "reportedAt": "2026-10-14T17:12:25.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0hNbGxNWFdKRHEtYUZseDAwSTNTdW9nd0NTU3d0LWg4TVIybHpldXkxZ19RbU94eW9FcnZLaUtHMlFRQ2E5YWthRVBzWnBlbk5iRWY1MnpNWW1sZ1h1bW1YejAxeG01MnhoVHhxTDJPaGZzTVVCNHlHNXhsdEYwQlNMLWx0VVlQUkVfYVZzUmVFYU9paXNHT2xJM1MzRUJ1b0dERml1NU9fTHpfcEVpNHAzZXdyTmN40gG4AUFVX3lxTE1fSE1sbE1YV0pEcS1hRmx4MDBJM1N1b2d3Q1NTd3QtaDhNUjJsemV1eTFnX1FtT3h5b0VydktpS0cyUVFDYTlha2FFUHNacGVuTmJFZjUyek1ZbWxnWHVtbVh6MDF4bTUyeGhUeHFMMk9oZnNNVUI0eUc1eGx0RjBCU0wtbHRVWVBSRV9hVnNSZUVhT2lpc0dPbEkzUzNFQnVvR0RGaXU1T19Mel9wRWk0cDNld3JOY3g?oc=5"
     }
    ]
   },
@@ -3009,6 +2980,38 @@
    ]
   },
   {
+   "id": "aa3f94b1690f",
+   "articleIds": [
+    "6a0b04d0f422"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T02:30:41.320Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
+     "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
+     "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
+     "reportedAt": "2026-10-14T05:38:17.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNG1ONVNnQm5JdWl6ZGFYV0tzbVlrZ2c1X2RMa21aVmQ2aWQ5S1dhVGdldDMxdWh2dzM4V1RfTERnUUdYMGlDelF4dThXcmhUWTZSTjBXb0MzN3FMWlBIYkdJcTBldEx1T040cGdHclZEVVh0d1Z2ZjBNZF9Xd3hOWXNqYklKZXlwcEduRjZyY0ZDYWItOWZmSlFtM3NCWDRTLUJZRWZSZ25Nc2ZTMzFFem0yTXVySFA2WjkwNFdsLUxScEUybTFlT0tCQzU1bUxOeWk2TDN3?oc=5"
+    }
+   ]
+  },
+  {
    "id": "04b2ee0a8884",
    "articleIds": [
     "bfac6fa9f965"
@@ -3112,38 +3115,6 @@
      "reportedAt": "2026-10-14T05:23:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR002VVo0b3ZvU0RXV3V5TWdvX0Jmc1NiQjBDNjljbTVWbFZnQ1hIUm5WTUNHZFZSNlV4WWoxZVBDNFhwZUEzZF9kVUlla0dZOWstVWZQQnA1TGpqeXI4Y05KbkpOay00U3NLYkZxZ1BHQWQ4ay14eEk3bHlfSzBMVzlrd2tuQ1hyaHoteGZSZ0pyYjdvYjB1QlEtOTR1YVNZZnZTRw?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "aa3f94b1690f",
-   "articleIds": [
-    "6a0b04d0f422"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T02:30:41.320Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
-     "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
-     "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
-     "reportedAt": "2026-10-14T05:16:17.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRUpfNzNoWFpoalE3b3E3WmlXemt0azdoOHRBelBmWk5ZSlN1dW02OEZDUE1iQmhmMVNjaFpGck9KaS1BT1JERkhKZS1mdDE2Zi1BMzhjR21BTnFXeTdVU3dUQlp1SHM3WlFRZE1iQWE1M0daaTlLMTFtMVRvNmpfTktSRmlDTmlaLU4wSGg3c2Q1LU0tTC1Hc2VEcHIyYktseFI0OU1NaUt6TV9ZLTVFU3RfU0o1TlhRODNSaHZfRFotc1JZWWM1UVZNeWtIZkd6TjduckxB?oc=5"
     }
    ]
   },
@@ -10855,37 +10826,25 @@
    ]
   },
   {
-   "id": "ca600139aef0",
+   "id": "ceb4237f6f9b",
    "articleIds": [
-    "eecdb93b33ee",
     "c84fd999f50b"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "multi",
+   "status": "single",
    "directive": null,
-   "title": "여러 국가가 리야드 공항 공격을 규탄",
+   "title": "사우디아라비아·이집트·파키스탄·터키, 후티의 왕국 공격 규탄",
    "titleAuto": true,
    "regions": [
-    "riyadh",
-    "airport"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-12T15:58:52.399Z",
+   "collectedAt": "2026-10-13T01:00:41.190Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on Riyadh airport",
-     "titleKo": "여러 국가가 리야드 공항 공격을 규탄",
-     "summary": "로이터는 복수의 국가가 리야드 공항 공격을 규탄했다고 보도했어요.",
-     "reportedAt": "2026-10-12T05:11:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMF95Nm5HV1pQeTVrX1hkaU52bkVfQUNCcjlMMVVUazlFalZpd3dnTVdvOTAxMWdZMk1wU1hfNHkyYXBVY2ZnbnVUa0N2Nm9uOTVTYVQzeGphOExkTWtoRElvUzBqMS1PWkpOQ1VpZy1VN0tUQ2hmYzV5WG1uRVFBb00yb3RjZDZ6andza0lBak9HVXl2QVFZeWk4NXVpc0d4OTVnX2FSY203allXNVlLa1lENGI1bnFLWG1IQVZlS0NyYjZWTUE?oc=5"
-    },
     {
      "outlet": "Arab News",
      "cat": "local",
@@ -12325,6 +12284,24 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNUlSVS00aUZXckNpMHVPaDN5cXM3eUNzSEFiVzlJMzlseUlfLWRtVVR6U3Q0YU1JSGhNUU5TeE5MQVJWMjIwOGplQkRqdWt1VnB1SW9LRWNfRWg2MXZiWVR5Q29NV2tZOG5yUVlPQXZYM0NCeWdXZzNjYlNvX2x3aW5EaDB4UEYwRk45a3VVTVhfSjVvVlhZOHhyd0N1QnpfWi1STjR6QTJuVmVjeGdEVFBka1Bia2tFdFRsTVZXbGVCeXBjQ1htMENNT0I?oc=5"
   },
   {
+   "id": "40b048f469c3",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "후티 공격 속 사우디 테니스 대회 연기",
+   "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
+   "summary": "사우디의 시범 테니스 대회인 Six Kings Slam이 후티 공격으로 10월에서 12월로 연기됐어요.",
+   "reportedAt": "2026-10-14T18:27:46.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS0hXM084SldHSTFMX1VYLXppOTJkSVB0akp1ZGE0a2VsWG05NElYRV9oVnQ1OTNKTV9hOUlHRE5xbmQ2RTc5Y0htODAyalFCMHZvbFNnQkNoVnVIc2RKdklXLUtidTFObmtoLWo1RmVPQV9CVGxnVktWYUdrSW5EWjk1THpTbUhTNmN6d25QZ3dETjlubmxmZDFHd3hjb3c1cFM5RG9PT211Tm9CZlpmd3VQd9IBuAFBVV95cUxNX0hNbGxNWFdKRHEtYUZseDAwSTNTdW9nd0NTU3d0LWg4TVIybHpldXkxZ19RbU94eW9FcnZLaUtHMlFRQ2E5YWthRVBzWnBlbk5iRWY1MnpNWW1sZ1h1bW1YejAxeG01MnhoVHhxTDJPaGZzTVVCNHlHNXhsdEYwQlNMLWx0VVlQUkVfYVZzUmVFYU9paXNHT2xJM1MzRUJ1b0dERml1NU9fTHpfcEVpNHAzZXdyTmN4?oc=5"
+  },
+  {
    "id": "3b4363a03524",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -12359,24 +12336,6 @@
    "reportedAt": "2026-10-14T17:30:46.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RNHE3clJrUkVRWFJveFJXZ0VPUWMxNzNuU3VESElqcW11UEhrcHdLa0I4d0UzZUVxOS1COEpDczJtUGJIczc1S0N3?oc=5"
-  },
-  {
-   "id": "40b048f469c3",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "후티 공격 속 사우디 테니스 대회 연기",
-   "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
-   "summary": "사우디의 시범 테니스 대회인 Six Kings Slam이 후티 공격으로 10월에서 12월로 연기됐어요.",
-   "reportedAt": "2026-10-14T17:12:25.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0hNbGxNWFdKRHEtYUZseDAwSTNTdW9nd0NTU3d0LWg4TVIybHpldXkxZ19RbU94eW9FcnZLaUtHMlFRQ2E5YWthRVBzWnBlbk5iRWY1MnpNWW1sZ1h1bW1YejAxeG01MnhoVHhxTDJPaGZzTVVCNHlHNXhsdEYwQlNMLWx0VVlQUkVfYVZzUmVFYU9paXNHT2xJM1MzRUJ1b0dERml1NU9fTHpfcEVpNHAzZXdyTmN40gG4AUFVX3lxTE1fSE1sbE1YV0pEcS1hRmx4MDBJM1N1b2d3Q1NTd3QtaDhNUjJsemV1eTFnX1FtT3h5b0VydktpS0cyUVFDYTlha2FFUHNacGVuTmJFZjUyek1ZbWxnWHVtbVh6MDF4bTUyeGhUeHFMMk9oZnNNVUI0eUc1eGx0RjBCU0wtbHRVWVBSRV9hVnNSZUVhT2lpc0dPbEkzUzNFQnVvR0RGaXU1T19Mel9wRWk0cDNld3JOY3g?oc=5"
   },
   {
    "id": "3b0223b1485d",
@@ -12752,9 +12711,9 @@
    "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
    "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
-   "reportedAt": "2026-10-14T05:16:17.000Z",
+   "reportedAt": "2026-10-14T05:38:17.000Z",
    "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRUpfNzNoWFpoalE3b3E3WmlXemt0azdoOHRBelBmWk5ZSlN1dW02OEZDUE1iQmhmMVNjaFpGck9KaS1BT1JERkhKZS1mdDE2Zi1BMzhjR21BTnFXeTdVU3dUQlp1SHM3WlFRZE1iQWE1M0daaTlLMTFtMVRvNmpfTktSRmlDTmlaLU4wSGg3c2Q1LU0tTC1Hc2VEcHIyYktseFI0OU1NaUt6TV9ZLTVFU3RfU0o1TlhRODNSaHZfRFotc1JZWWM1UVZNeWtIZkd6TjduckxB?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNG1ONVNnQm5JdWl6ZGFYV0tzbVlrZ2c1X2RMa21aVmQ2aWQ5S1dhVGdldDMxdWh2dzM4V1RfTERnUUdYMGlDelF4dThXcmhUWTZSTjBXb0MzN3FMWlBIYkdJcTBldEx1T040cGdHclZEVVh0d1Z2ZjBNZF9Xd3hOWXNqYklKZXlwcEduRjZyY0ZDYWItOWZmSlFtM3NCWDRTLUJZRWZSZ25Nc2ZTMzFFem0yTXVySFA2WjkwNFdsLUxScEUybTFlT0tCQzU1bUxOeWk2TDN3?oc=5"
   },
   {
    "id": "04dc6d0c3a08",
@@ -14299,25 +14258,6 @@
    "reportedAt": "2026-10-12T05:57:30.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FQzM4SDg5YWV1ZmF2QXM5WTFTS0lKdmdHbXFRMEZFVDlwMmgxOVgyd1FEZ041LUltdEs4aGxkNTJsUTZxVlU2LWZsTUlWcTYxaURDNlhLWTlRMlhNQ2ZodXAya3BXaWc?oc=5"
-  },
-  {
-   "id": "eecdb93b33ee",
-   "outlet": "Reuters",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "titleKo": "여러 국가가 리야드 공항 공격을 규탄",
-   "title": "Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on Riyadh airport",
-   "summary": "로이터는 복수의 국가가 리야드 공항 공격을 규탄했다고 보도했어요.",
-   "reportedAt": "2026-10-12T05:11:00.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMF95Nm5HV1pQeTVrX1hkaU52bkVfQUNCcjlMMVVUazlFalZpd3dnTVdvOTAxMWdZMk1wU1hfNHkyYXBVY2ZnbnVUa0N2Nm9uOTVTYVQzeGphOExkTWtoRElvUzBqMS1PWkpOQ1VpZy1VN0tUQ2hmYzV5WG1uRVFBb00yb3RjZDZ6andza0lBak9HVXl2QVFZeWk4NXVpc0d4OTVnX2FSY203allXNVlLa1lENGI1bnFLWG1IQVZlS0NyYjZWTUE?oc=5"
   }
  ],
  "_cache": {
@@ -14373,7 +14313,7 @@
     "outlet": "머니투데이",
     "title": "아시안컵만 난리냐, 테니스는 벌써 대회 연기... 사우디 공격 여파에 '조코비치·알카라스 출전' 식스 킹스 슬램 12월로 밀렸다 - 머니투데이",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ua3VaMWJaQ0paT0lGNXlsZzF2aG5yaC1lMjJsQTVWRHhNOF80elF4UFI4MDZyenVka1RiQjMwSUlXMjhDN0JuWFUxUkZHM2FHeVpKazR4MGgwaFhvV0FfXzNGc0xRMTFBVUHSAW9BVV95cUxQTFJEeFdMYVYzR3o2aTVVRkdMQmJqeF9XX1lINktjWFVHUnJGSmVrTExrU1RGMnB2aW9vcHBYWWZRR1o4N1dxU2dHRUVmNmNWTEY1c3p5MUNMNnBicFBDRDhodEQzSm9GRTRRMTV1XzQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMUkR4V0xhVjNHejZpNVVGR0xCYmp4X1dfWUg2S2NYVUdSckZKZWtMTGtTVEYycHZpb29wcFhZZlFHWjg3V3FTZ0dFRWY2Y1ZMRjVzenkxQ0w2cGJwUENEOGh0RDNKb0ZFNFExNXVfNNIBb0FVX3lxTFBMUkR4V0xhVjNHejZpNVVGR0xCYmp4X1dfWUg2S2NYVUdSckZKZWtMTGtTVEYycHZpb29wcFhZZlFHWjg3V3FTZ0dFRWY2Y1ZMRjVzenkxQ0w2cGJwUENEOGh0RDNKb0ZFNFExNXVfNA?oc=5",
     "reportedAt": 1792034375000,
     "assumeSaudi": false,
     "firstSeen": 1792036232742
@@ -14953,6 +14893,20 @@
     "firstSeen": 1792003230898
    },
    {
+    "id": "40b048f469c3",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS0hXM084SldHSTFMX1VYLXppOTJkSVB0akp1ZGE0a2VsWG05NElYRV9oVnQ1OTNKTV9hOUlHRE5xbmQ2RTc5Y0htODAyalFCMHZvbFNnQkNoVnVIc2RKdklXLUtidTFObmtoLWo1RmVPQV9CVGxnVktWYUdrSW5EWjk1THpTbUhTNmN6d25QZ3dETjlubmxmZDFHd3hjb3c1cFM5RG9PT211Tm9CZlpmd3VQd9IBuAFBVV95cUxNX0hNbGxNWFdKRHEtYUZseDAwSTNTdW9nd0NTU3d0LWg4TVIybHpldXkxZ19RbU94eW9FcnZLaUtHMlFRQ2E5YWthRVBzWnBlbk5iRWY1MnpNWW1sZ1h1bW1YejAxeG01MnhoVHhxTDJPaGZzTVVCNHlHNXhsdEYwQlNMLWx0VVlQUkVfYVZzUmVFYU9paXNHT2xJM1MzRUJ1b0dERml1NU9fTHpfcEVpNHAzZXdyTmN4?oc=5",
+    "reportedAt": 1792002466000,
+    "assumeSaudi": false,
+    "firstSeen": 1791999039421
+   },
+   {
     "id": "6e942da10ee6",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -15035,20 +14989,6 @@
     "reportedAt": 1791998676000,
     "assumeSaudi": false,
     "firstSeen": 1791999640568
-   },
-   {
-    "id": "40b048f469c3",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0hNbGxNWFdKRHEtYUZseDAwSTNTdW9nd0NTU3d0LWg4TVIybHpldXkxZ19RbU94eW9FcnZLaUtHMlFRQ2E5YWthRVBzWnBlbk5iRWY1MnpNWW1sZ1h1bW1YejAxeG01MnhoVHhxTDJPaGZzTVVCNHlHNXhsdEYwQlNMLWx0VVlQUkVfYVZzUmVFYU9paXNHT2xJM1MzRUJ1b0dERml1NU9fTHpfcEVpNHAzZXdyTmN40gG4AUFVX3lxTE1fSE1sbE1YV0pEcS1hRmx4MDBJM1N1b2d3Q1NTd3QtaDhNUjJsemV1eTFnX1FtT3h5b0VydktpS0cyUVFDYTlha2FFUHNacGVuTmJFZjUyek1ZbWxnWHVtbVh6MDF4bTUyeGhUeHFMMk9oZnNNVUI0eUc1eGx0RjBCU0wtbHRVWVBSRV9hVnNSZUVhT2lpc0dPbEkzUzNFQnVvR0RGaXU1T19Mel9wRWk0cDNld3JOY3g?oc=5",
-    "reportedAt": 1791997945000,
-    "assumeSaudi": false,
-    "firstSeen": 1791999039421
    },
    {
     "id": "2a0a6ee11527",
@@ -16143,6 +16083,20 @@
     "firstSeen": 1791957649208
    },
    {
+    "id": "6a0b04d0f422",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNG1ONVNnQm5JdWl6ZGFYV0tzbVlrZ2c1X2RMa21aVmQ2aWQ5S1dhVGdldDMxdWh2dzM4V1RfTERnUUdYMGlDelF4dThXcmhUWTZSTjBXb0MzN3FMWlBIYkdJcTBldEx1T040cGdHclZEVVh0d1Z2ZjBNZF9Xd3hOWXNqYklKZXlwcEduRjZyY0ZDYWItOWZmSlFtM3NCWDRTLUJZRWZSZ25Nc2ZTMzFFem0yTXVySFA2WjkwNFdsLUxScEUybTFlT0tCQzU1bUxOeWk2TDN3?oc=5",
+    "reportedAt": 1791956297000,
+    "assumeSaudi": false,
+    "firstSeen": 1791945041320
+   },
+   {
     "id": "bfac6fa9f965",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -16183,20 +16137,6 @@
     "reportedAt": 1791955380000,
     "assumeSaudi": false,
     "firstSeen": 1791946846875
-   },
-   {
-    "id": "6a0b04d0f422",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRUpfNzNoWFpoalE3b3E3WmlXemt0azdoOHRBelBmWk5ZSlN1dW02OEZDUE1iQmhmMVNjaFpGck9KaS1BT1JERkhKZS1mdDE2Zi1BMzhjR21BTnFXeTdVU3dUQlp1SHM3WlFRZE1iQWE1M0daaTlLMTFtMVRvNmpfTktSRmlDTmlaLU4wSGg3c2Q1LU0tTC1Hc2VEcHIyYktseFI0OU1NaUt6TV9ZLTVFU3RfU0o1TlhRODNSaHZfRFotc1JZWWM1UVZNeWtIZkd6TjduckxB?oc=5",
-    "reportedAt": 1791954977000,
-    "assumeSaudi": false,
-    "firstSeen": 1791945041320
    },
    {
     "id": "e2f38a9fc9e2",
@@ -20836,20 +20776,6 @@
     "reportedAt": 1791784650000,
     "assumeSaudi": false,
     "firstSeen": 1791853948085
-   },
-   {
-    "id": "eecdb93b33ee",
-    "feed": "Reuters",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "Reuters",
-    "title": "Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on Riyadh airport",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMF95Nm5HV1pQeTVrX1hkaU52bkVfQUNCcjlMMVVUazlFalZpd3dnTVdvOTAxMWdZMk1wU1hfNHkyYXBVY2ZnbnVUa0N2Nm9uOTVTYVQzeGphOExkTWtoRElvUzBqMS1PWkpOQ1VpZy1VN0tUQ2hmYzV5WG1uRVFBb00yb3RjZDZ6andza0lBak9HVXl2QVFZeWk4NXVpc0d4OTVnX2FSY203allXNVlLa1lENGI1bnFLWG1IQVZlS0NyYjZWTUE?oc=5",
-    "reportedAt": 1791781860000,
-    "assumeSaudi": false,
-    "firstSeen": 1791820732399
    }
   ],
   "summaries": {
@@ -20874,7 +20800,6 @@
    "695973bfda07": "로이터는 주요 석유사 경영진이 일정에서 빠졌다고 보도했어요.",
    "2d5f5c943045": "연합뉴스의 별도 보도에서도 이란 외무부의 우려와 중재 의사를 전했어요.",
    "02822c318c1e": "KBS는 CCTV 영상에 공항 피격 순간의 섬광이 담겼다고 보도했어요.",
-   "eecdb93b33ee": "로이터는 복수의 국가가 리야드 공항 공격을 규탄했다고 보도했어요.",
    "11d2be28d485": "미국인이 공격 관련 사진으로 사우디에 억류됐다고 미 대사관이 전했다고 보도했어요.",
    "a915eeedd043": "리야드에서 '적대적 위협' 경보가 발령되고 세 차례 폭발음이 들렸다고 보도했어요.",
    "784fee4afddb": "리야드 부지사가 킹 칼리드 공항 공격 피해자들을 방문했다고 전했어요.",
@@ -21225,7 +21150,6 @@
    "b9e1e193408f": "리야드 공항 운항 중단 연장 보도",
    "3263ae70c6cb": "리야드 공항 운영 중단 연장 보도",
    "695973bfda07": "리야드 공격 뒤 주요 석유 임원들 일정 취소",
-   "eecdb93b33ee": "여러 국가가 리야드 공항 공격을 규탄",
    "2012bdc9ce87": "후티, 미사일·드론 혼합으로 방공망 무력화 주장",
    "b6a23a9b98f2": "사우디, 후티에 엄중 대응 경고",
    "fd532400202b": "리야드 공항 17일까지 폐쇄돼 항공편 대다수 결항",
@@ -23537,8 +23461,7 @@
    },
    {
     "articleIds": [
-     "c84fd999f50b",
-     "eecdb93b33ee"
+     "c84fd999f50b"
     ],
     "fromRule": true
    },
