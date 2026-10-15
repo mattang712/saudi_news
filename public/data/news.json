@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-15T13:00:53.281Z",
-  "lastAttemptAt": "2026-10-15T13:00:53.281Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-15T13:08:50.509Z",
+  "lastAttemptAt": "2026-10-15T13:08:50.509Z",
   "aiSummary": true,
   "summaryAt": "2026-10-15T11:12:19.864Z",
   "aiError": null,
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 144
+    "count": 143
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 217
+    "count": 219
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 156
+    "count": 160
    },
    {
     "name": "Saudi Gazette",
@@ -51,29 +51,122 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 55
+    "count": 56
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 3
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 82
+    "count": 76
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
+    "date": "2026-10-14",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "556d0afb9a81",
+   "articleIds": [
+    "b138e0db7199"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 항공편 차질로 발 묶인 여행객들, 가족과 연락 유지",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T13:08:50.509Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Stranded travelers stay connected with families amid Saudi flight disruptions",
+     "titleKo": "사우디 항공편 차질로 발 묶인 여행객들, 가족과 연락 유지",
+     "summary": "",
+     "reportedAt": "2026-10-15T13:05:00.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/stranded-travelers-stay-connected-with-families-amid-saudi-flight-disruptions-3006464"
+    }
+   ]
+  },
+  {
+   "id": "335d77616ff6",
+   "articleIds": [
+    "fa8d05962cf7"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드 학생들, 학교 원격 수업 전환으로 다시 화면 앞 복귀",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T13:08:50.509Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Riyadh students return to screens as schools shift to remote learning",
+     "titleKo": "리야드 학생들, 학교 원격 수업 전환으로 다시 화면 앞 복귀",
+     "summary": "",
+     "reportedAt": "2026-10-15T13:03:43.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/riyadh-students-return-to-screens-as-schools-shift-to-remote-learning-3006461"
+    }
+   ]
+  },
   {
    "id": "4560442b3947",
    "articleIds": [
@@ -372,6 +465,7 @@
     "3114d9613132",
     "e3718ba5cb1e",
     "032ae21e9819",
+    "63bde5bca2b9",
     "794229e59ebc",
     "d54f41c3087e",
     "7b5608b17c72",
@@ -392,7 +486,6 @@
     "4d3f53713312",
     "79a0c2a0a1d4",
     "7f2e320ef1c8",
-    "63bde5bca2b9",
     "194096ae503d",
     "0e7bec032677",
     "312a6a51507a",
@@ -480,6 +573,16 @@
      "reportedAt": "2026-10-14T20:19:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PN1NMTUJwd0YyX0pTWWdOMGVKYTVBQk5ZV1ExbGNkclhMUkdnbDNDSE1Bb0VjcjhYTjdlOG9DMkFnb0FpQlJ2amw0T1NMdmRIUGZVVHo0cDhaZ2lmeEV1RlRwMjdtMFk?oc=5"
+    },
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "후티 “리야드 국제공항 미사일로 명중”…사우디 스포츠 행사 ‘불똥’",
+     "titleKo": null,
+     "summary": "KBS가 후티가 리야드 공항을 미사일로 명중시켰다고 보도했어요.",
+     "reportedAt": "2026-10-14T21:03:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00c1V5Y0s2YndHdEZGSHJ1N0lZTlZtQlNkMkl1V0tPZDZOdkt5SXJib2NtcXcxajFuTVJnSWZ5aHo3RUlZbFpRNHRWRlRVNWJfSE1UN1NOZFgtaHM?oc=5"
     },
     {
      "outlet": "경향신문",
@@ -680,16 +783,6 @@
      "reportedAt": "2026-10-15T07:52:51.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDUVZfQVRxVlY4elNKdWc3b0czbThIa2k3bC01bDVuXy1nUnNmai1OdHdtaDA2dUxienRPODF5TEdJc0ZtTmExeno3eTVOWVBDdlFibGFZMEs?oc=5"
-    },
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "후티 “리야드 국제공항 미사일로 명중”…사우디 스포츠 행사 ‘불똥’",
-     "titleKo": null,
-     "summary": "KBS가 후티가 리야드 공항을 미사일로 명중시켰다고 보도했어요.",
-     "reportedAt": "2026-10-15T08:15:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlV1BQYmFOVXpHanliSkhSMlFMUTF2WGNqOGNZM1g2T1dzRHVmU25lTUZKdHRhVEh2RzQycmN3YzktOGJEaE9pbmE5Z0lya3pGMldVZjJQMGVNTE9rVTZXelFGY2dqZw?oc=5"
     },
     {
      "outlet": "Arab News",
@@ -940,7 +1033,7 @@
      "summary": "사우디 공항이 여러 차례 공격을 받아 국제행사가 중단됐다고 보도했어요.",
      "reportedAt": "2026-10-15T10:32:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BNTlob2VYZjRqY0dyZzhtZmhWbW1JaG1TZGprdGVFVkEtTVVwSm1tbVlWUVExX2dSRWdIems1eGpORXB1MzVDYnFmOFhWQjV4MkJtM3JjMjJwbW5XZTlfVWdBSdIBY0FVX3lxTE1BNTlob2VYZjRqY0dyZzhtZmhWbW1JaG1TZGprdGVFVkEtTVVwSm1tbVlWUVExX2dSRWdIems1eGpORXB1MzVDYnFmOFhWQjV4MkJtM3JjMjJwbW5XZTlfVWdBSQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zcU83anM0c1pKRnBBQnZLZlZKNlh3eWU2UjJJc2UxODdjN3BIaWlPVC1zRnl2X0g4b3lCVUlEMkNid21UNTV6WjFTbURnMnEtUkVVSDl6dDAyV3N1NHfSAWNBVV95cUxNQTU5aG9lWGY0amNHcmc4bWZoVm1tSWhtU2Rqa3RlRVZBLU1VcEptbW1ZVlFRMV9nUkVnSHprNXhqTkVwdTM1Q2JxZjhYVkI1eDJCbTNyYzIycG1uV2U5X1VnQUk?oc=5"
     }
    ]
   },
@@ -11806,39 +11899,6 @@
      "url": "https://saudigazette.com.sa/article/665345/saudi-arabia/fms-of-uk-bahrain-call-prince-faisal-to-reaffirm-solidarity-with-saudi-arabia"
     }
    ]
-  },
-  {
-   "id": "adfeb0461920",
-   "articleIds": [
-    "f78372a9904c"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디: 리야드 공항이 다시 예멘 후티의 공격을 받아",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T01:12:28.085Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Saudi Arabia: Riyadh airport struck again by Yemen's Houthis",
-     "titleKo": "사우디: 리야드 공항이 다시 예멘 후티의 공격을 받아",
-     "summary": "",
-     "reportedAt": "2026-10-12T13:06:42.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2OFh1a3JfNU9FaGVsMVczdDhBOVVVaHpnVXU1Sy1rOUxXNnM1Rm04bGx3ZURxSVFuOVpMUXZTcmdqdDdPWm01eTUtT1JMLVlCcDdXb1dIQXNVSUNuNGlualAxTFQ2VkV5RXVXdi14TWVlZEx4aHVoNUt4TzY?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -13838,6 +13898,34 @@
  "_cache": {
   "articles": [
    {
+    "id": "b138e0db7199",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Stranded travelers stay connected with families amid Saudi flight disruptions",
+    "snippet": "RIYADH: Saudi telecom operator STC Group is offering free, unlimited calls to and from the Kingdom for roaming customers abroad amid ongoing flight disruptions, helping travelers stay connected with their families. The initiative, announced on X, runs from Oct. 12 to Oct. 19. “We understand how difficult it can be to be away from family, particularly during times like these,” STC Group told Arab N",
+    "url": "https://www.arabnews.com/saudi-arabia/stranded-travelers-stay-connected-with-families-amid-saudi-flight-disruptions-3006464",
+    "reportedAt": 1792069500000,
+    "assumeSaudi": false,
+    "firstSeen": 1792069730509
+   },
+   {
+    "id": "fa8d05962cf7",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Riyadh students return to screens as schools shift to remote learning",
+    "snippet": "RIYADH: Students in Riyadh returned to online classrooms this week, swapping desks and school corridors for laptops and tablets at home following the recent attacks on the capital. While some students welcome the change, citing improved concentration, longer sleeping hours and less time spent commuting, others say they miss classroom interaction and find it harder to stay focused at home. For 12-y",
+    "url": "https://www.arabnews.com/saudi-arabia/riyadh-students-return-to-screens-as-schools-shift-to-remote-learning-3006461",
+    "reportedAt": 1792069423000,
+    "assumeSaudi": false,
+    "firstSeen": 1792069730509
+   },
+   {
     "id": "feaf968037b4",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -14042,7 +14130,7 @@
     "outlet": "채널A",
     "title": "사우디 공항 6번 반복 공격에 국제행사 올스톱",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BNTlob2VYZjRqY0dyZzhtZmhWbW1JaG1TZGprdGVFVkEtTVVwSm1tbVlWUVExX2dSRWdIems1eGpORXB1MzVDYnFmOFhWQjV4MkJtM3JjMjJwbW5XZTlfVWdBSdIBY0FVX3lxTE1BNTlob2VYZjRqY0dyZzhtZmhWbW1JaG1TZGprdGVFVkEtTVVwSm1tbVlWUVExX2dSRWdIems1eGpORXB1MzVDYnFmOFhWQjV4MkJtM3JjMjJwbW5XZTlfVWdBSQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zcU83anM0c1pKRnBBQnZLZlZKNlh3eWU2UjJJc2UxODdjN3BIaWlPVC1zRnl2X0g4b3lCVUlEMkNid21UNTV6WjFTbURnMnEtUkVVSDl6dDAyV3N1NHfSAWNBVV95cUxNQTU5aG9lWGY0amNHcmc4bWZoVm1tSWhtU2Rqa3RlRVZBLU1VcEptbW1ZVlFRMV9nUkVnSHprNXhqTkVwdTM1Q2JxZjhYVkI1eDJCbTNyYzIycG1uV2U5X1VnQUk?oc=5",
     "reportedAt": 1792060320000,
     "assumeSaudi": false,
     "firstSeen": 1792062631955
@@ -14172,20 +14260,6 @@
     "reportedAt": 1792052660000,
     "assumeSaudi": false,
     "firstSeen": 1792053037657
-   },
-   {
-    "id": "63bde5bca2b9",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "KBS",
-    "title": "후티 “리야드 국제공항 미사일로 명중”…사우디 스포츠 행사 ‘불똥’",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlV1BQYmFOVXpHanliSkhSMlFMUTF2WGNqOGNZM1g2T1dzRHVmU25lTUZKdHRhVEh2RzQycmN3YzktOGJEaE9pbmE5Z0lya3pGMldVZjJQMGVNTE9rVTZXelFGY2dqZw?oc=5",
-    "reportedAt": 1792052100000,
-    "assumeSaudi": false,
-    "firstSeen": 1792013451765
    },
    {
     "id": "7f2e320ef1c8",
@@ -14604,6 +14678,20 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZbHhiU3lyNFZfNnpTMHgtUGdQZklxSEJpX3lDNGZvNmV5WGE5R0IxWVk0dEJCYmg1Y2E4RWstRkF3NE01Y3hUdUp4OWJSYS1Eemh1NW1VVVZnVE4tOG5FSw?oc=5",
     "reportedAt": 1792012200000,
+    "assumeSaudi": false,
+    "firstSeen": 1792013451765
+   },
+   {
+    "id": "63bde5bca2b9",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "KBS",
+    "title": "후티 “리야드 국제공항 미사일로 명중”…사우디 스포츠 행사 ‘불똥’",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00c1V5Y0s2YndHdEZGSHJ1N0lZTlZtQlNkMkl1V0tPZDZOdkt5SXJib2NtcXcxajFuTVJnSWZ5aHo3RUlZbFpRNHRWRlRVNWJfSE1UN1NOZFgtaHM?oc=5",
+    "reportedAt": 1792011780000,
     "assumeSaudi": false,
     "firstSeen": 1792013451765
    },
@@ -20239,20 +20327,6 @@
     "reportedAt": 1791810933000,
     "assumeSaudi": false,
     "firstSeen": 1791854724872
-   },
-   {
-    "id": "f78372a9904c",
-    "feed": "AFP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AFP",
-    "title": "Saudi Arabia: Riyadh airport struck again by Yemen's Houthis",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2OFh1a3JfNU9FaGVsMVczdDhBOVVVaHpnVXU1Sy1rOUxXNnM1Rm04bGx3ZURxSVFuOVpMUXZTcmdqdDdPWm01eTUtT1JMLVlCcDdXb1dIQXNVSUNuNGlualAxTFQ2VkV5RXVXdi14TWVlZEx4aHVoNUt4TzY?oc=5",
-    "reportedAt": 1791810402000,
-    "assumeSaudi": false,
-    "firstSeen": 1791853948085
    }
   ],
   "summaries": {
@@ -20679,7 +20753,6 @@
    "cf804f30aa86": "사우디, 리야드 공항 운항 중단 연장·후티 공격에 치명적 대응 약속",
    "da60064c4ed7": "리야드 주지사, 공항 공격 부상자들에게 왕실의 위문 전해",
    "012eeace6c18": "덴마크, 후티의 사우디 공격을 강력히 규탄",
-   "f78372a9904c": "사우디: 리야드 공항이 다시 예멘 후티의 공격을 받아",
    "3718d7ab79f7": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
    "075f862fccd1": "후티 미사일, 사우디 수도 리야드 겨냥",
    "f68cd95af66d": "리야드 공항 공격 피해자 400명 의료진이 구했다고 보도",
@@ -21031,7 +21104,9 @@
    "5a501cdb48e7": "리야드에서 열릴 예정이던 GCC-EU 정상회의, 후티 공격으로 연기",
    "0e58ef7de6d2": "일본·사우디, 호르무즈 안정 회복 위해 협력 확인",
    "00e11094baa9": "걸프국가들은 대리전쟁을 다른 사람의 문제로 여기는 것을 멈춰야 한다",
-   "2a74238a778f": "연합군, 공격 고조 속 마디나 상공서 후티 순항미사일 요격"
+   "2a74238a778f": "연합군, 공격 고조 속 마디나 상공서 후티 순항미사일 요격",
+   "b138e0db7199": "사우디 항공편 차질로 발 묶인 여행객들, 가족과 연락 유지",
+   "fa8d05962cf7": "리야드 학생들, 학교 원격 수업 전환으로 다시 화면 앞 복귀"
   },
   "aiClusters": [
    {
@@ -23033,12 +23108,6 @@
    },
    {
     "articleIds": [
-     "f78372a9904c"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "2ddc26049b01"
     ],
     "fromRule": true
@@ -23094,6 +23163,18 @@
    {
     "articleIds": [
      "feaf968037b4"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "b138e0db7199"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "fa8d05962cf7"
     ],
     "fromRule": true
    }
