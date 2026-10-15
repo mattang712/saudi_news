@@ -1,22 +1,22 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-10-15T04:40:29.127Z",
-  "lastAttemptAt": "2026-10-15T04:40:29.127Z",
+  "lastSuccessAt": "2026-10-15T04:50:31.986Z",
+  "lastAttemptAt": "2026-10-15T04:50:31.986Z",
   "aiSummary": true,
-  "summaryAt": "2026-10-15T04:20:27.432Z",
+  "summaryAt": "2026-10-15T04:50:31.986Z",
   "aiError": null,
   "summaryKo": [
-   "최근 보도에 따르면 리야드에서 미사일 잔해가 주거지에 떨어졌다고 AP가 전했습니다.",
-   "후티는 리야드 국제공항과 아람코 본사 등 목표 타격을 주장했다고 연합뉴스·AP 등 보도했습니다.",
-   "사우디 국영통신은 리야드 등에서 무인기·순항미사일 요격을 발표했습니다.",
-   "공항·아람코 피격 여파로 다수 스포츠 행사가 연기되고 있다고 로이터·각 언론이 전했습니다."
+   "후티가 리야드 국제공항에 탄도미사일 명중을 주장했다고 보도돼요(후티 주장, 미확인).",
+   "후티가 아람코 본사도 미사일·드론로 공격했다고 주장했고 일부 매체는 피해를 전했어요(로이터·AP 등 보도).",
+   "몇 차례 요격 시도와 요격 잔해가 리야드 주거지에 떨어졌다고 보도됐어요(국영통신·AP 등 보도).",
+   "FIFA 등 여러 국제행사가 연기됐고 외교국가들이 후티 공격을 규탄했다고 보도됐어요."
   ],
   "sources": [
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 75
+    "count": 73
    },
    {
     "name": "Reuters",
@@ -26,7 +26,7 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 209
+    "count": 212
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 141
+    "count": 140
    },
    {
     "name": "Saudi Gazette",
@@ -46,12 +46,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 166
+    "count": 169
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 65
+    "count": 64
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 79
+    "count": 80
    }
   ],
   "mofaLatest": [
@@ -104,66 +104,69 @@
  },
  "events": [
   {
-   "id": "65b46913285d",
+   "id": "71c0765e4d15",
    "articleIds": [
-    "c479ce65d201"
+    "7b5608b17c72",
+    "940ff3bdda4f",
+    "c479ce65d201",
+    "db09278fce47"
    ],
-   "type": "security",
+   "type": "advisory",
    "sev": "mid",
-   "status": "single",
+   "status": "multi",
    "directive": null,
-   "title": "스포츠 - 공격 발생으로 사우디아라비아에서 열릴 예정이던 FIFAe 파이널 연기",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-15T03:50:32.742Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Sports-FIFA postpones FIFAe Finals in Saudi Arabia following attacks",
-     "titleKo": "스포츠 - 공격 발생으로 사우디아라비아에서 열릴 예정이던 FIFAe 파이널 연기",
-     "summary": "",
-     "reportedAt": "2026-10-15T03:30:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXBtWkJRSlV6SGoxVUpRVHZsSWMwTldtZURhUWlldTFtSGlLSmFJYzJjaHBqOHZ6SEJMQlByYW5SeGlPa2F2YTNfLXRwNWZTdnVpUWJQVHBZbmhyUkNLYlNaVlIxb3poOEdZRkc1LWJnRG1CWTljM3QyMjhXU0pJMzhSd3plaThOdTFkNTU5Q09JOVoxT2ozNVNDdEU3UFVEUDM4aEVPeXh2RXFVUkx5OGtuQ3RPdw?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "d6535c9cb95e",
-   "articleIds": [
-    "940ff3bdda4f"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "아시안컵만 난리냐, 테니스는 벌써 대회 연기... 사우디 공격 여파에 '조코비치·알카라스 출전' 식스 킹스 슬램 12월로 밀렸다 - 머니투데이",
+   "title": "미사일 공습에 연기된 사우디 대형 테니스 이벤트…내년 1월 아시안컵도 안갯속",
    "titleAuto": false,
    "regions": [
-    "all"
+    "riyadh",
+    "jeddah",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-15T03:50:32.742Z",
-   "aiNote": null,
+   "collectedAt": "2026-10-14T22:20:31.179Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "서울경제",
+     "cat": "kr",
+     "title": "미사일 공습에 연기된 사우디 대형 테니스 이벤트…내년 1월 아시안컵도 안갯속",
+     "titleKo": null,
+     "summary": "미사일 공습 여파로 사우디의 대형 테니스 이벤트가 연기됐다고 보도했어요.",
+     "reportedAt": "2026-10-14T22:02:46.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HTWRjdGpjd21tUWU3Z1BPc05NY2IzQnh4U3dudTFvMkVtcUJ3VEt6UHBpbEk4R0RHbzhMSkRFVEVacHBvVlNMMXFWNDFUeTRQcXfSAVNBVV95cUxPYlJmeE54bFY1d1FoTlhwNDZJOTdJSUItY1JITXNZdHJMZDQzVmV5MzB0cHJDbk5OWUxBWmpMczEwZERfbHpkVm5vLXF5bGNwSXVGOA?oc=5"
+    },
     {
      "outlet": "머니투데이",
      "cat": "kr",
      "title": "아시안컵만 난리냐, 테니스는 벌써 대회 연기... 사우디 공격 여파에 '조코비치·알카라스 출전' 식스 킹스 슬램 12월로 밀렸다 - 머니투데이",
      "titleKo": null,
-     "summary": "",
+     "summary": "사우디 공격 여파로 테니스 대회가 연기되면서 대회 일정에 차질이 발생했다고 보도했어요.",
      "reportedAt": "2026-10-15T03:19:35.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ua3VaMWJaQ0paT0lGNXlsZzF2aG5yaC1lMjJsQTVWRHhNOF80elF4UFI4MDZyenVka1RiQjMwSUlXMjhDN0JuWFUxUkZHM2FHeVpKazR4MGgwaFhvV0FfXzNGc0xRMTFBVUHSAW9BVV95cUxQTFJEeFdMYVYzR3o2aTVVRkdMQmJqeF9XX1lINktjWFVHUnJGSmVrTExrU1RGMnB2aW9vcHBYWWZRR1o4N1dxU2dHRUVmNmNWTEY1c3p5MUNMNnBicFBDRDhodEQzSm9GRTRRMTV1XzQ?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Sports-FIFA postpones FIFAe Finals in Saudi Arabia following attacks",
+     "titleKo": "FIFA, 사우디 공격으로 FIFAe 파이널 연기",
+     "summary": "FIFA가 사우디에서 열릴 FIFAe 파이널을 최근의 공격을 이유로 연기했다고 전했어요.",
+     "reportedAt": "2026-10-15T03:30:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXBtWkJRSlV6SGoxVUpRVHZsSWMwTldtZURhUWlldTFtSGlLSmFJYzJjaHBqOHZ6SEJMQlByYW5SeGlPa2F2YTNfLXRwNWZTdnVpUWJQVHBZbmhyUkNLYlNaVlIxb3poOEdZRkc1LWJnRG1CWTljM3QyMjhXU0pJMzhSd3plaThOdTFkNTU5Q09JOVoxT2ozNVNDdEU3UFVEUDM4aEVPeXh2RXFVUkx5OGtuQ3RPdw?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "FIFA postpones FIFAe Finals in Saudi Arabia following attacks",
+     "titleKo": "FIFA, 사우디에서의 공격으로 FIFAe 파이널 연기",
+     "summary": "FIFA와 사우디 e스포츠 연맹이 최근 사우디에 대한 공격으로 제다에서 열릴 FIFAe 파이널을 연기했다고 보도했어요.",
+     "reportedAt": "2026-10-15T04:47:51.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/sport/fifa-postpones-fifae-finals-in-saudi-arabia-following-attacks-3006440"
     }
    ]
   },
@@ -176,7 +179,7 @@
    "sev": "high",
    "status": "single",
    "directive": null,
-   "title": "리야드에 요격된 후티 미사일 잔해 2발이 주거 지역에 낙하",
+   "title": "리야드에 요격된 미사일 잔해가 주거지에 낙하했다고 보도",
    "titleAuto": true,
    "regions": [
     "riyadh"
@@ -185,14 +188,14 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-10-15T03:00:49.858Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "AP",
      "cat": "wire",
      "title": "Debris from two intercepted Houthi missiles falls on residential areas in Riyadh",
-     "titleKo": "리야드에 요격된 후티 미사일 잔해 2발이 주거 지역에 낙하",
-     "summary": "",
+     "titleKo": "요격된 후티 미사일 잔해가 리야드 주거지에 낙하",
+     "summary": "요격된 두 발의 후티 미사일 잔해가 리야드의 주거지역에 떨어졌다고 전했어요.",
      "reportedAt": "2026-10-15T02:53:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWVpNzg4U1dGSHVWX2ZlNmkwUmpVbVg4STlfd1E0bXg0VlVIemtVMkJsSlhGTmhLME9DUnQtMkp1MWRTZERTeWlINUNoRFh3UFVFTW5MeDlIYWRiczJ5alN5b0RfZTdCdTVQVFg3WTZzUkVfeEoxMV9yVzhTSEpyUU1vOEZHaGdRdG9aSkVTZkZtQWVCWVEwU0pYZnNscFlIMU1xSHFTQXFGdU5qaVdOamhqRDk0N2o3QXh3cjdOSGRScURVVjAwV3dxdWZFc1c2V2RXXw?oc=5"
@@ -200,49 +203,135 @@
    ]
   },
   {
-   "id": "d91236e2cdc4",
+   "id": "e0a71f0be0b4",
    "articleIds": [
+    "cd7cdc2a2399",
+    "d8dfdc841673",
+    "3b0223b1485d",
+    "a66a006e5581",
+    "2aed56d3a15d",
+    "e3718ba5cb1e",
+    "032ae21e9819",
+    "9f10227c74fd",
     "b2ae18aedf30",
-    "6fa0853cb3bf",
     "8ab3e664e5d8",
-    "88fe8b13e2b1",
+    "b221c9e57a27",
+    "f09fa8f235c3",
+    "096c9b227edc",
     "d54f41c3087e",
+    "7941cd38416c",
+    "6c542629f469",
+    "0c05e1bf5374",
     "62e16c5da1f6"
    ],
    "type": "energy",
    "sev": "high",
    "status": "multi",
    "directive": null,
-   "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
+   "title": "후티 \"사우디 아람코·공항 공격\"...사우디 \"후티 공격에 1명 부상\"",
    "titleAuto": false,
    "regions": [
-    "eastern"
+    "dammam",
+    "jafurah",
+    "eastern",
+    "airport",
+    "riyadh"
    ],
    "inferred": true,
-   "inferNote": "아람코 시설 피해와 국제유가 연관 보도로 아람코 위치(동부주)를 추정했어요.",
+   "inferNote": "아람코 본사·석유 시설 언급으로 동부주(담맘·자푸라) 관련 가능성이 있어 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-10-14T20:30:42.161Z",
+   "collectedAt": "2026-10-14T10:00:46.294Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "YTN",
+     "cat": "kr",
+     "title": "후티 \"사우디 아람코·공항 공격\"...사우디 \"후티 공격에 1명 부상\"",
+     "titleKo": null,
+     "summary": "후티 공격으로 사우디가 1명 부상했다고 보도했고 아람코와 공항을 공격했다고 전했어요.",
+     "reportedAt": "2026-10-14T14:57:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1hTm5OQzJOeWVOYzZ1a0pVcVROekg4N255SFo1bEJSTWRhY1ZNSlVFZXNILWRDS3E3MHlnZ253ckFicnRWd0NBWU1HeW1aQWNvQ3dLZUUyUUttMHZ2b2c?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Several injured in Riyadh from Houthi missiles interceptions, Saudi Aramco building targeted",
+     "titleKo": "리야드 요격 과정 중 부상자 발생·아람코 건물 표적",
+     "summary": "리야드에서 부상자 발생과 아람코 건물 표적화 등 후티 공격 후 상황을 전했어요.",
+     "reportedAt": "2026-10-14T14:59:32.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLTNaNnU4QkR5N2o5OGhPRENnRGJ6RXhKYWVTYk90VXBoZVZJNW5QckNMdU01em4yQmRQcFZEMXRVLS1SVmRwMzlFZEJDQU10a3BoaGZPQlJ0ek1xVnhRcEY2N2pNUVRVdjg1REhzeE1uYnhYb3IyQ3dDUnBwd2pEUDNUdk9xZF9PNnJxUXpYREYzVjE2VG9LY29CUmhRblNWdTNFeTkzU0xJM3JtY0JDcjUxYmU3N1czOUduVDZyX2JsU3VXbmtsem1OcmFfaXNBZkJZ?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iraq’s PM tells Saudi crown prince Iraqi territory will not be used for attacks",
+     "titleKo": "이라크 총리, 사우디 영토 공격 사용 거부 약속",
+     "summary": "알자지라는 이라크 총리가 사우디 영토가 공격에 사용되지 않도록 약속했다고 보도했어요.",
+     "reportedAt": "2026-10-14T16:10:28.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa1ZNUmRkT2VrbHFocU9PMFdSeGNZbThYdnNFUTdWRG9FQS1XWGxSbk11MW11bmFTTjRlelVvVU13MXhXOGpuQ2JlVTRLcjVTeXZiUVlGeTB2eW5ENnpQYWdQd3FVS3g0WmtpUFhlSzZvSDY1dDVKNU50Zi16SGttMDhsX290RVdKZWRpSVVleWRMeEJGLVhyVW9YdmJNVlp0RERaRUd5bV85Zlo3dXJaZDJPSFB0Z9IBuwFBVV95cUxPVTlRWXJDYUUyUS1nZXRvNHdNUXBtMnFZSG5qNWRuZXFDbkxBOG5YMV9uOE03dldfVGdoUXUwdTh3RlNtZVltODVMSWpOWXd4MGViU19VaGpyUGdtZ0hqZEROM1hIVW5sSDZWUngySi1ybHRNWEZJT0FsVGRLVWZURVJOYUZVU3BwUC10N0JqcGFGV2haTURWNXJwSnNOcDJXLVVpeGVLcjNGOElsN1VMMjRQWVFZOFhDX2w0?oc=5"
+    },
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Houthis threaten escalation after strike on Saudi oil giant Aramco",
+     "titleKo": "AFP: 후티, 아람코 공격 후 추가 공격 위협",
+     "summary": "AFP는 후티가 아람코 공격 후 추가 공격을 위협했다고 보도했어요.",
+     "reportedAt": "2026-10-14T16:21:53.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZnFoblRlOGxWWTJiWTZITTk2eWd4akYwQVVBOUVXeGMtbkxkLThkV3dpZnZDSEZ5Q2VMR2lQSEdYckhBanVaaWdkOFBpQmhZRld0aGhEYU5Kb2MyRGtqaDZwdWhUT0tkTUlibU9xVGxQREpwakNHTHA4T0l3bzdPOXNZY25tWWlacUdkMFdkRFBfTHZYN29BVmpWN2p5S0NtYVl2azRMNG8tcTFsZUZPUVdRZUk2UGtTbzNnTVhiLU8?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi tennis 'slam' with Alcaraz, Djokovic postponed amid Houthi attacks - Al Jazeera",
+     "titleKo": "사우디 테니스 대회 연기 알림",
+     "summary": "알자지라는 후티 공격으로 테니스 대회가 연기됐다고 보도했어요.",
+     "reportedAt": "2026-10-14T18:47:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNUlSVS00aUZXckNpMHVPaDN5cXM3eUNzSEFiVzlJMzlseUlfLWRtVVR6U3Q0YU1JSGhNUU5TeE5MQVJWMjIwOGplQkRqdWt1VnB1SW9LRWNfRWg2MXZiWVR5Q29NV2tZOG5yUVlPQXZYM0NCeWdXZzNjYlNvX2x3aW5EaDB4UEYwRk45a3VVTVhfSjVvVlhZOHhyd0N1QnpfWi1STjR6QTJuVmVjeGdEVFBka1Bia2tFdFRsTVZXbGVCeXBjQ1htMENNT0I?oc=5"
+    },
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Houthis say targeted Saudi oil giant Aramco, vow more attacks",
+     "titleKo": "후티, 사우디 아람코 겨냥 공격·추가 공격 경고",
+     "summary": "후티가 아람코를 겨냥했다고 밝히고 추가 공세를 경고했다고 보도했어요.",
+     "reportedAt": "2026-10-14T20:18:06.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUEJ2ZzVicGNBVzlrN21rWjhoZjlYNm9YUGRkbEVUYmtPd09ac2FKRlE5VzJPemxOOXRldnR4dXdCZTItR3J5YU1XVHAwcWk5di1VZXJuRjZRRm9GMkFubDNpQmhMQlZvRGlXRmFDVlJiQU9STl9zemFMRHNWdG1YQ293UmUzSzdfVlA0?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티 \"사우디 아람코·공항에 미사일·드론 공격\"",
+     "titleKo": null,
+     "summary": "후티가 아람코와 공항을 미사일·드론으로 공격했다고 주장했다고 보도됐어요.",
+     "reportedAt": "2026-10-14T20:19:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PN1NMTUJwd0YyX0pTWWdOMGVKYTVBQk5ZV1ExbGNkclhMUkdnbDNDSE1Bb0VjcjhYTjdlOG9DMkFnb0FpQlJ2amw0T1NMdmRIUGZVVHo0cDhaZ2lmeEV1RlRwMjdtMFk?oc=5"
+    },
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
+     "titleKo": null,
+     "summary": "아람코 피격 소식이 국제유가 상승에 영향을 미쳤다고 보도됐어요.",
+     "reportedAt": "2026-10-14T20:25:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3WjlPZ1dqOFBwSDZOU2dBb0ItRUJ2NkNoQTc0MEtHQnZlMlZTbFNYRVNSRWozRlBwcDBabUNYMlRjRVdEQ1l1LTdIZ0YySzJOWWdwd3NHTzYzalpkYVB3ejlZa0VFZmtMS1hja25ScVJRVEpkbGtPZFc2V1Y?oc=5"
+    },
     {
      "outlet": "연합뉴스",
      "cat": "kr",
      "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
      "titleKo": null,
-     "summary": "아람코 피격 소식과 IEA 경고로 국제유가가 올랐다고 보도됐어요.",
+     "summary": "국제유가가 아람코 피격 영향으로 상승했다고 보도했어요.",
      "reportedAt": "2026-10-14T20:25:03.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oZUxaQXB6M29ReXEyTDQwOU1rN0NNcFRwdmF1WHFDZy1HNDJhLUJETFdab2xVV2F0a2pLMDBCa3dwOU5LeVZHakw5bU5zTnl6Zl9NUnhGTDZvS0NHTDk2S9IBYEFVX3lxTE9oZUxaQXB6M29ReXEyTDQwOU1rN0NNcFRwdmF1WHFDZy1HNDJhLUJETFdab2xVV2F0a2pLMDBCa3dwOU5LeVZHakw5bU5zTnl6Zl9NUnhGTDZvS0NHTDk2Sw?oc=5"
-    },
-    {
-     "outlet": "매일경제",
-     "cat": "kr",
-     "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
-     "titleKo": null,
-     "summary": "후티가 석유시설과 공항을 미사일·드론로 공격했다고 주장했고 1명 부상 소식이 전해졌어요.",
-     "reportedAt": "2026-10-14T20:25:03.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JODRmYnYwZ0tteF8tTE5PSlB5NWN2b2RLWTdXc1VPcjlTa1ZNUXJabHlLS0tuZ2Q1dnAyX05laUx5elNkNnpfQ2tjUDNndEZZdFE?oc=5"
     },
     {
      "outlet": "KBS",
@@ -255,31 +344,81 @@
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DZ0NxMF8zWjl5WTNyTWUwYWJBRGV3VzFEODlsMUozRldGTUlJWmJFQzZXMkYwbFFmNk9YZG1PSVYycUZIRDJvdFJqR1E0Mk44ckRtQ1hsUHQ4VkU?oc=5"
     },
     {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "국제유가 상승…IEA 공급난 경고에 사우디 아람코 시설 피격",
-     "titleKo": null,
-     "summary": "국제유가가 IEA 경고와 아람코 시설 피격 소식에 상승했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T21:16:52.000Z",
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+     "titleKo": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
+     "summary": "후티가 아람코 본사 타격 후 공항과 석유시설에 대한 추가 공격을 예고했다고 보도했어요.",
+     "reportedAt": "2026-10-14T21:12:59.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBQlRUcFhYN0JETjZ5V3FNZVFCWUgwTnVHWDNrVlFjWU9ITGRORjdhNU5sdVRweDdOb0lTbDdIWTM5ekZlVnA5eHFLT1ZsUlhMZ1VBMlRNNzdxcFBaRWh5UlRQQ3VYVXM?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Saudi FM Receives Phone Call from Italian Counterpart Condemning Houthi Attacks on Kingdom",
+     "titleKo": "사우디 외교장관, 이탈리아 장관과 통화해 후티 공격 논의",
+     "summary": "사우디 외무장관이 이탈리아 장관과 통화하며 규탄을 받았다고 보도됐어요.",
+     "reportedAt": "2026-10-14T21:14:47.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5329718"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Italy expresses support for Saudi Arabia amid Houthi attacks",
+     "titleKo": "이탈리아, 후티의 사우디 공격 규탄하며 연대 표명",
+     "summary": "이탈리아 외교부 장관이 전화 통화에서 후티 공격을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-10-14T21:40:42.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/italy-expresses-support-for-saudi-arabia-amid-houthi-attacks-3006398"
     },
     {
      "outlet": "YTN",
      "cat": "kr",
      "title": "국제 유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
      "titleKo": null,
-     "summary": "국제 유가가 아람코 피격과 IEA 공급 경고로 상승했다고 보도됐어요.",
+     "summary": "국제 유가가 아람코 피격과 IEA 공급 경고 영향으로 상승했다고 전했어요.",
      "reportedAt": "2026-10-14T21:57:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rVUtGNTdZQjZBcFJybHloOXpCd0RkSU1jVi1JcmlFNjhocHdwQ2pXcldLcERKQl9ZRGhRbE5SdGFYQVc5bXFqYkkyTlU0TU1PQkNLdWdYLUVNc2g3TXc?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Scenes of Riyadh’s skyline after strikes in Saudi Arabia by Iran-backed Houthis",
+     "titleKo": "리야드 스카이라인 장면(후티의 사우디 공격 이후)",
+     "summary": "리야드 공격 이후의 스카이라인 장면을 보여주며 상황을 전했어요.",
+     "reportedAt": "2026-10-15T00:00:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSXprZ2VLUndMRUtFQWRXUm45WlBqanJLb1hqSXhvaDJHVVpFNU1wVjlBRjZsc1JXQmNzaDdVanNZY2wxMXRvbWU5RmJhWlpUUUhHRUkwWUxqWmFMSkllR3FfVVd0Q01hU0s3WEZnOHV2eE5MY1o0TFhVRVRTbDFDeTRNSW5tbWtlXzhpbDMwWktJV2JONHI4YjZja1BaZHlfei1qdDR5aF84WkNQcklocTZwMXpkVnhwRW94d3h0Q1RocUQ0V05PMFFxbmdXY0pGR0E?oc=5"
+    },
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "프로축구선수협, '사우디 피격' 아시안컵 관련 \"안전 보장 촉구\"",
+     "titleKo": null,
+     "summary": "프로축구선수협이 사우디 피격과 관련해 선수 안전 보장을 촉구했다고 전했어요.",
+     "reportedAt": "2026-10-15T00:40:39.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUQmdxTWNXVFJNYjd3TGsxU2xIQ25iZXZiVGdaR2J5Wk94X1F6WXpJSExFMVpKQThkalpobHphaW12Vi1hUkVZUE1PSVRJcmFYY0t5SFNoZTF3cXZKYVcyUFY1Rm15eS0tZGQ1SExkaXpDWGFLV2VzcdIBeEFVX3lxTFBUQmdxTWNXVFJNYjd3TGsxU2xIQ25iZXZiVGdaR2J5Wk94X1F6WXpJSExFMVpKQThkalpobHphaW12Vi1hUkVZUE1PSVRJcmFYY0t5SFNoZTF3cXZKYVcyUFY1Rm15eS0tZGQ1SExkaXpDWGFLV2VzcQ?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+     "titleKo": "이란 지원 후티, 아람코 본사 타격했다고 사우디 당국자들 언급",
+     "summary": "이란 지원 후티가 사우디 아람코 본사를 공격했다고 사우디 관리들을 인용해 보도했어요.",
+     "reportedAt": "2026-10-15T00:45:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
     },
     {
      "outlet": "뉴스1",
      "cat": "kr",
      "title": "\"사우디 아람코 본사, 후티 공격에 심각 피해…CEO 집무실도 파손\"",
      "titleKo": null,
-     "summary": "사우디 아람코 본사가 후티 공격으로 심각한 피해를 봤으며 CEO 집무실도 파손됐다고 보도돼요.",
+     "summary": "아람코 본사가 후티 공격으로 심각한 피해를 입었고 CEO 집무실도 파손됐다고 보도했어요.",
      "reportedAt": "2026-10-15T01:58:48.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92cl9fWXlLc2ZCc21EcnhsOTViZjl2VzYwM1dUTVFheTBraE56VUZzWnBFLXgwY2tDY1dnN29wRWJTOEtWcF9GenJkUG81TEdVVFhUekgzNDh0S2JuM3pSWnB3?oc=5"
@@ -287,38 +426,15 @@
    ]
   },
   {
-   "id": "2adf0d6d61ed",
+   "id": "309c488ef30a",
    "articleIds": [
-    "d982ff9672c0",
-    "c218e650f0b5",
-    "dfc27d4c3d8e",
-    "3b4363a03524",
-    "eebc0092f001",
-    "6bf307fe4496",
-    "3f37df105b6a",
-    "3a55aa1990e9",
-    "3114d9613132",
-    "7b397f8dad9d",
-    "a3ec7a45b4cd",
-    "9f10227c74fd",
-    "6ff399790b3c",
-    "667040e23e99",
-    "63bde5bca2b9",
-    "f09fa8f235c3",
-    "ba0b754d049a",
-    "48d6db591cc2",
-    "096c9b227edc",
-    "794229e59ebc",
-    "7941cd38416c",
-    "3bf19d8bd389",
-    "ee6cf2b87e04",
     "86ebaf6cb7cb"
    ],
-   "type": "airport",
-   "sev": "mid",
-   "status": "official",
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
    "directive": null,
-   "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격…명중\"",
+   "title": "후티 “사우디 수도 국제공항 탄도미사일로 타격”…리야드 또 겨냥",
    "titleAuto": false,
    "regions": [
     "riyadh",
@@ -327,49 +443,123 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-13T22:10:31.467Z",
+   "collectedAt": "2026-10-15T01:40:39.094Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Ronaldo’s among three Saudi Arabia games postponed due to Houthi attacks",
-     "titleKo": "후티 공격으로 사우디 경기들 연기",
-     "summary": "후티 공격으로 사우디의 축구 경기들이 연기됐다고 보도됐어요.",
-     "reportedAt": "2026-10-14T15:52:16.000Z",
+     "outlet": "중앙일보",
+     "cat": "kr",
+     "title": "후티 “사우디 수도 국제공항 탄도미사일로 타격”…리야드 또 겨냥",
+     "titleKo": null,
+     "summary": "후티가 리야드 국제공항을 탄도미사일로 타격했다고 주장했다고 전했어요.",
+     "reportedAt": "2026-10-15T01:30:43.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUWo4NVdGemZFQ01iMHhPTlBoVHlDU242ZDZKbHQySC03bEFldXd0aklHb2lSV3RWQVVhWEtCVm9yOS1TRkpCOXJ6bmZ5NXF1N0I4Njh1T1NoY3B5UTliSWhJcmRDbndyUUJBSDJfdFJpSFBPWWhNdk1NX2dmamZ3QWxCajVJdkFRMzBjTmRpX1JWdXpjU3JLbGE1eTBETnhqeW9xTXVidFY0VS1KNmJzdVozVkdDd9IBuwFBVV95cUxPQ0ZJS2RVSFRha1g1UUkwT2xsUW5LbzF0WFJWUFcwbGZTY3ZLeVlpZ1lYcl9ERkZwZlh2cldER3RhdmhXLVNmRjJXc3UtN1VHbV9ENjJIVUh4Z0s0T1FMS2pnU0RoU3Q2Q0VrYkI4Rk42SVVOT2JlTFFGMEZWZU96N01ad1BHZEFuLXpQekpqT1ZqMG5JbmdOWkN3bTkzQ2NlcXByQXdNQXhnLW5ZZUR6aWIydGtwdzcwSW5N?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqQ2R3OG01WXpZYXpvejMxOFdfdm9MZUpwZFhIRU14S281WTMtSWNHbHZmWW1vemJibmR3VmNacTkyMGd5b3pjUWROOHFtaWJNVndmVndn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "f92edbf02e64",
+   "articleIds": [
+    "ee6cf2b87e04"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티 \"사우디에 미사일 명중\"…스포츠 행사도 차질",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T01:20:28.915Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Pilgrims caught up in Houthi strikes on Saudi Arabia",
-     "titleKo": "Reuters: 순례객들이 후티 공격으로 영향받았다고 보도",
-     "summary": "로이터는 순례객들이 후티 공격으로 영향을 받고 있다고 보도했어요.",
-     "reportedAt": "2026-10-14T16:03:43.000Z",
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티 \"사우디에 미사일 명중\"…스포츠 행사도 차질",
+     "titleKo": null,
+     "summary": "후티가 사우디에 미사일 명중을 주장했고, 이로 인해 스포츠 행사에 차질이 생겼다고 보도했어요.",
+     "reportedAt": "2026-10-15T01:12:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTWUzYUQwXzFUVGJsY2RZTUhiY055eFFGRGtYMDR0TkU0TkRLaWZaQ1VLdnhNbTFkOTBFOW1ZVEJTWWEwWDFBZHBPZTgyY19MZURTTVExR1hvRWtub2hZUGtTNWs2Z3JLMFZYVWhvZ0FrQmxSRWVrYkxyc1VzWWk3RUZGajF5OFRxZHJWZTBvdWJ2VFRhM0IyZkZwRXBHd2F1SUE?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96TmlWNUc1OFZIT3JEVkNTbXpmd0VPcWZ2U0xKbWMzLWhhYWV6blc5SHhLQUg3WVN6cVRoN21WR1d3WkZURWx4NVMwNE1Gck9HazI1dkhqTlowRjVBVVp4SExoYUlXM1E?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "27180b0e85f7",
+   "articleIds": [
+    "3bf19d8bd389"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격‥명중\"",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T00:50:33.605Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Cruise Missile Intercepted, Destroyed in Riyadh Region",
-     "titleKo": "연합군: 리야드 지역에서 순항미사일 요격·파괴 발표",
-     "summary": "연합군이 리야드 지역에서 순항미사일을 요격해 파괴했다고 사우디 통신이 발표했어요.",
-     "reportedAt": "2026-10-14T17:30:46.000Z",
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격‥명중\"",
+     "titleKo": null,
+     "summary": "후티가 리야드 국제공항을 탄도미사일로 공격해 명중했다고 주장했다고 보도했어요.",
+     "reportedAt": "2026-10-15T00:38:38.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RNHE3clJrUkVRWFJveFJXZ0VPUWMxNzNuU3VESElqcW11UEhrcHdLa0I4d0UzZUVxOS1COEpDczJtUGJIczc1S0N3?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Two UAVs Intercepted, Destroyed in Riyadh Region, Southern Region",
-     "titleKo": "연합군: 리야드·남부 지역에서 무인기 2대 요격·격파 발표",
-     "summary": "연합군이 리야드 및 남부 지역에서 무인기를 요격해 격파했다고 사우디 통신이 발표했어요.",
-     "reportedAt": "2026-10-14T17:30:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hMm5mdWlwN3JGOTBVNjhjVjBJUGtETWRHc05zWTAxeFJfWHRFSVlNY0VpeEVWanNDc3ZuamlTTUpKcS1JYnRuc0pn?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43RmotV2ZFcFhTeTJvOHFCU0dySmJCdDdMWmMyVXpzOXRJaVpPOXY5WlZsQWEzUnA3bkl2UDlCY0ZHMDFGemdyVFB5UVd2OVYtZkxURXh4MmpnR0JhTno0WDQxQVVLNndMbGxlLVc0QVByN3ln0gF0QVVfeXFMTjJzOGRuYmdvcTNwMm5pVndWdVNMUE1ZRktHVDRVN1NmNTZFMnVYMzN3dUxyek43bjhGRnhLclo5U2IyU05IZkFTc29UOEtTSk1PekktaGxlakdsZkJEOS1UWXhfMXZIT0ZMX0Z3dGVfWWRBdTM?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "2ae37e74c29c",
+   "articleIds": [
+    "eebc0092f001",
+    "6e942da10ee6",
+    "6bf307fe4496",
+    "dc7c20a79278",
+    "4a8bebe18303",
+    "3f37df105b6a",
+    "3a55aa1990e9",
+    "3114d9613132",
+    "a3ec7a45b4cd",
+    "6fa0853cb3bf",
+    "63bde5bca2b9",
+    "ba0b754d049a",
+    "794229e59ebc",
+    "d972e4cfaac2",
+    "28599e60140c",
+    "d26667010f7d"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "claim",
+   "directive": null,
+   "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격…명중\"",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "eastern",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T18:40:30.898Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
      "outlet": "연합뉴스",
      "cat": "kr",
@@ -381,6 +571,16 @@
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51cVdoMDhhdDZEcUNhYUlQNFgtUEQ4ZS1xX1JEbGp4bW9ISUpnSlA2RzRyTlFndXZpTGxTdDN2bGV5My1pYXAxbW1qeDZyTWEyRWtFczNJS0FELUHSAWBBVV95cUxOb2FxcmI0bmdXNTd5TGE5Sy12bHllQmpNSjBvOTJzR2FHN0NvcXNQOTAySklMdkp0SGhwNkhHM09BZThpY3ZKOXVTMDhMblhMb3Y1LTdETTdaZzA0aDd2RlE?oc=5"
     },
     {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "후티 공격에 사우디 특급 테니스 대회 연기‥스포츠 행사 차질 잇따라",
+     "titleKo": null,
+     "summary": "MBC는 후티 공격으로 테니스 대회가 연기됐고 스포츠 차질이 잇따른다고 보도했어요.",
+     "reportedAt": "2026-10-14T18:22:45.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SNzVDVS0wbGZVQmJudEx1UHUtekVVd19vOVZTTFJkaXZQNjdTcGtjRHpIVjEwQ3NyRlBsZ0wwaVpJMjNTYW5YQ0I0OVhoQU1sOTFZdmFDLTRPTzViRG1HQzRQVVRrTVY4M29IdmxtTHFjUGFS0gF0QVVfeXFMT1I3NUNVLTBsZlVCYm50THVQdS16RVV3X285VlNMUmRpdlA2N1Nwa2NEekhWMTBDc3JGUGxnTDBpWkkyM1NhblhDQjQ5WGhBTWw5MVl2YUMtNE9PNWJEbUdDNFBVVGtNVjgzb0h2bG1McWNQYVI?oc=5"
+    },
+    {
      "outlet": "SBS",
      "cat": "kr",
      "title": "후티 \"사우디 리야드 국제공항 탄도미사일로 공격 성공\"",
@@ -389,6 +589,26 @@
      "reportedAt": "2026-10-14T18:33:11.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11WEE2ZmYydVpMQzBwa0dsZVJuZ3NzUG82STlHYmtGU1dyZ0JKUlljM1phV3BrQ2diMlgyYWRkbTVLdTZVam9kLTlHRWw3UzRvNmcyd296Tks3N3ppT3pwNDBTRjIxODZLTEE?oc=5"
+    },
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "사우디, 친이란 후티 공격 지속되자 테니스대회 연말로 연기",
+     "titleKo": null,
+     "summary": "뉴스1은 테니스대회가 후티 공격으로 연말로 연기됐다고 보도했어요.",
+     "reportedAt": "2026-10-14T18:48:34.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9scXRzRk4xWjQ3OGJmbjRkZHBqcXQxUlhhRlpyQTVYM2l4cTV5YUNlVE1qNUM0czZHTnVLM2tVZVhVNnlqclBpb2pVa2VHUjQ4VzdHNzdrY0djbmhfbkJGWUtB?oc=5"
+    },
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "후티 공격으로 사우디 스포츠 국제행사 ‘연기’",
+     "titleKo": null,
+     "summary": "알자지라는 테니스 대회 연기가 후티 공격 때문이라고 보도했어요.",
+     "reportedAt": "2026-10-14T19:25:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YQm1DTlkxalVuQ2dfSzZjNlhWY2d5YUhSZXJkaFZ3VjhDbE1VQXpxVHJtdXkxZUdwV0k2anBBUVdEUFZzcEo4MnFTQ1FHWnptX2U2NUVoSlhjck0?oc=5"
     },
     {
      "outlet": "뉴스1",
@@ -421,16 +641,6 @@
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MWNBUFVpYjkyd0N3eHBibEFwcnZhQ3Z6djkzUi1UckMxVkJoaG1TM1BYWWRLV2NhTF9CTHZ3MUgzT2g5SmZGbWFGcXdkZkRCSGhScDRkangyaFhucHdXMtIBeEFVX3lxTFBOREJRQjdBVnVKbkJzZlJURUJBWWkwMkRpSmRGZzVOM0d4R1F6MS1zVTlhay02bjVORk9iU2dPMksyM1N5RmNwNllMOURPVVBtdTdxQVJvRWVWV0ZFUGdNVEp5YVdCOXRLdmhwOTdQNjVqSlRpazdmMw?oc=5"
     },
     {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "PODCAST: Inflation climbs, self-replicating AI warning, Houthis hit Aramco HQ (Updated)",
-     "titleKo": "뉴스레터: 후티가 아람코 본부를 타격",
-     "summary": "후티의 아람코 본부 타격 소식이 경제 뉴스레터 등에 반영됐다고 보도됐어요.",
-     "reportedAt": "2026-10-14T19:54:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVExPUC1WTWU5MXJoVy00ZGpsaU03VV83SlZfUHQ5SzlLOTZQUVFEdFVjVnNUZXNDX3Y3UXUtMjR1c0E1eDB0VDNhUDkzMUhmSU1zVFRnQlRySTdNdmRJRU5ESTMyTTRSbDhYTFJXbEQ5Z3pUdl9PRHh4MjdKY1BlbWliODJmSmIyYnJTMUl5WTNEUHNuUFhvVHIzcHVrb0hVc3dWb0p4bVY?oc=5"
-    },
-    {
      "outlet": "국민일보",
      "cat": "kr",
      "title": "후티 “리야드 국제공항·사우디 군 집결지에 탄도미사일 명중”",
@@ -441,54 +651,24 @@
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGsyNXdOMzBDUTV0X1QwSkIxQlBMOEZxc3FtaElyWnB1VnpOUC1ieFNKelBjRzhMS09WQzRXYmpERFdIODBtcEVfOHluV2lKbzBSSUc3d0RMcE85UElDTlhDYnByZzlZalhVN19KU21yelpteXVUNDFsN1dQMGQ3WnRBNEtYa2NQZWfSAWxBVV95cUxPTFVKNmEtWGNqS053LTNCWnZyY1VzZ0N6dWFEZGVjZVRTVzFFT2VaZ0wzM0hKMENGWHpFZlNHTDlmWWIyaWNXVzdCbXRyRE80b1ZQU0dBNFplUE9yTG0ybUFJVVNKWVBwT0ZnejQ?oc=5"
     },
     {
-     "outlet": "한국경제",
+     "outlet": "매일경제",
      "cat": "kr",
      "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승",
      "titleKo": null,
-     "summary": "아람코 피격 소식이 국제유가 상승에 영향을 미쳤다고 보도됐어요.",
-     "reportedAt": "2026-10-14T20:25:00.000Z",
+     "summary": "후티가 석유시설과 공항을 미사일·드론로 공격했다고 주장했고 1명 부상 소식이 전해졌어요.",
+     "reportedAt": "2026-10-14T20:25:03.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3WjlPZ1dqOFBwSDZOU2dBb0ItRUJ2NkNoQTc0MEtHQnZlMlZTbFNYRVNSRWozRlBwcDBabUNYMlRjRVdEQ1l1LTdIZ0YySzJOWWdwd3NHTzYzalpkYVB3ejlZa0VFZmtMS1hja25ScVJRVEpkbGtPZFc2V1Y?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Bahrain Condemns Houthi Attacks on Saudi Arabia, Urges Decisive Security Council Measures",
-     "titleKo": "바레인, 후티 공격 규탄 및 안보리 조치 촉구",
-     "summary": "바레인이 후티 공격을 규탄하고 유엔의 조치를 촉구했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T20:56:39.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdHJWWUIyNjFHTXNQVmRIbW1sZUg1ZXNodGYyUmNwaGxtMVJDdDhTd1R2cG4zY1hZZEwwZGNleW5BS1EwS0pqNzdR?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Italian FM expresses solidarity with Saudi Arabia in call with Prince Faisal",
-     "titleKo": "이탈리아 장관, 사우디와 연대 표명",
-     "summary": "이탈리아 외교장관이 사우디와 연대한다고 전화 통화에서 표현했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T21:02:16.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665429/saudi-arabia/italian-fm-expresses-solidarity-with-saudi-arabia-in-call-with-prince-faisal"
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JODRmYnYwZ0tteF8tTE5PSlB5NWN2b2RLWTdXc1VPcjlTa1ZNUXJabHlLS0tuZ2Q1dnAyX05laUx5elNkNnpfQ2tjUDNndEZZdFE?oc=5"
     },
     {
      "outlet": "KBS",
      "cat": "kr",
      "title": "후티 “리야드 국제공항 미사일로 명중”…사우디 스포츠 행사 ‘불똥’",
      "titleKo": null,
-     "summary": "후티는 리야드 국제공항이 미사일로 명중했다고 주장했고 스포츠 행사가 영향을 받았다고 보도됐어요.",
+     "summary": "후티가 리야드 국제공항에 미사일로 명중했다고 주장하며 스포츠 행사에 영향을 줬다고 보도했어요.",
      "reportedAt": "2026-10-14T21:03:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00c1V5Y0s2YndHdEZGSHJ1N0lZTlZtQlNkMkl1V0tPZDZOdkt5SXJib2NtcXcxajFuTVJnSWZ5aHo3RUlZbFpRNHRWRlRVNWJfSE1UN1NOZFgtaHM?oc=5"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Saudi FM Receives Phone Call from Italian Counterpart Condemning Houthi Attacks on Kingdom",
-     "titleKo": "사우디 외교장관, 이탈리아 장관과 통화해 후티 공격 논의",
-     "summary": "사우디 외무장관이 이탈리아 장관과 통화하며 규탄을 받았다고 보도됐어요.",
-     "reportedAt": "2026-10-14T21:14:47.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5329718"
     },
     {
      "outlet": "SBS",
@@ -501,435 +681,44 @@
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMG9BajRUV0dmazhoZVNhREFrX0xaWW5wZk14WG1FaGYyV2k1eF9tMm5UZTBOZ1VNTGx1OTVmNkpFQVRDcHNwc0tvTmVIS1JHMFBCcnk4NVFOd2dkR0VzcjFQUVJCQ1RTWnZacXlKLW5WR3MwcVQ1TkI0Y3VzTnF5bHBNemxXZ9IBZkFVX3lxTE1WX2Jta25udUJoUXVGeTVOSTlSdkRUbW54d3JTZGdjbDhHaHJuREtzRWlKUUFBalRnRXpvZ1RWdGJ0NnJUQzA0LVFtdktad2NHQVUzNlVKM1F3cmVpTWFvUUVuWl9UUQ?oc=5"
     },
     {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Bahrain Condemns Houthi Attacks on Saudi Arabia, Urges Decisive Security Council Measures",
-     "titleKo": "바레인, 후티의 사우디 공격 규탄",
-     "summary": "바레인이 후티 공격을 규탄하며 안보리의 단호한 조치를 촉구했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T21:30:56.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5329724"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Italy expresses support for Saudi Arabia amid Houthi attacks",
-     "titleKo": "이탈리아, 후티의 사우디 공격 규탄하며 연대 표명",
-     "summary": "이탈리아 외교장관이 후티 공격을 규탄하고 사우디에 지지 의사를 전했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T21:40:42.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/italy-expresses-support-for-saudi-arabia-amid-houthi-attacks-3006398"
-    },
-    {
      "outlet": "경향신문",
      "cat": "kr",
      "title": "후티, 사우디 공항 연일 공격…“킹칼리드에 미사일 타격”",
      "titleKo": null,
-     "summary": "후티가 킹칼리드 공항에 미사일 타격을 주장하며 공항 공격이 이어진다고 보도됐어요.",
+     "summary": "후티의 공항 공격이 연일 이어진다고 보도했어요.",
      "reportedAt": "2026-10-14T21:41:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pdVh6LTBvd1h1SkY0enBNZ2kxYWM3Q29SMXJDOXFISWlnRGxLSkYydFAtRmp3UE9mcjFGNTZ2T01kV1FkTFNSdVZxa2VOMXExNWZwcUpiblZ1cW5jT0RJ0gFfQVVfeXFMTWl1WHotMG93WHVKRjR6cE1naTFhYzdDb1IxckM5cUhJaWdEbEtKRjJ0UC1GandQT2ZyMUY1NnZPTWRXUWRMU1J1VnFrZU4xcTE1ZnBxSmJuVnVxbmNPREk?oc=5"
     },
     {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Scenes of Riyadh’s skyline after strikes in Saudi Arabia by Iran-backed Houthis",
-     "titleKo": "리야드 스카이라인 장면(후티의 사우디 공격 이후)",
-     "summary": "리야드 스카이라인이 후티의 공격 이후 장면으로 보도됐어요.",
-     "reportedAt": "2026-10-15T00:00:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSXprZ2VLUndMRUtFQWRXUm45WlBqanJLb1hqSXhvaDJHVVpFNU1wVjlBRjZsc1JXQmNzaDdVanNZY2wxMXRvbWU5RmJhWlpUUUhHRUkwWUxqWmFMSkllR3FfVVd0Q01hU0s3WEZnOHV2eE5MY1o0TFhVRVRTbDFDeTRNSW5tbWtlXzhpbDMwWktJV2JONHI4YjZja1BaZHlfei1qdDR5aF84WkNQcklocTZwMXpkVnhwRW94d3h0Q1RocUQ0V05PMFFxbmdXY0pGR0E?oc=5"
-    },
-    {
-     "outlet": "MBC",
+     "outlet": "SBS",
      "cat": "kr",
-     "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격‥명중\"",
+     "title": "후티 반군 사우디 리야드 공항 명중…아람코 본사도 피격",
      "titleKo": null,
-     "summary": "후티 반군이 리야드 국제공항을 탄도미사일로 공격해 명중했다고 주장했다고 보도돼요.",
-     "reportedAt": "2026-10-15T00:38:38.000Z",
+     "summary": "후티가 리야드 공항 명중과 아람코 본사 피격을 주장했다고 보도했어요.",
+     "reportedAt": "2026-10-14T22:42:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43RmotV2ZFcFhTeTJvOHFCU0dySmJCdDdMWmMyVXpzOXRJaVpPOXY5WlZsQWEzUnA3bkl2UDlCY0ZHMDFGemdyVFB5UVd2OVYtZkxURXh4MmpnR0JhTno0WDQxQVVLNndMbGxlLVc0QVByN3ln0gF0QVVfeXFMTjJzOGRuYmdvcTNwMm5pVndWdVNMUE1ZRktHVDRVN1NmNTZFMnVYMzN3dUxyek43bjhGRnhLclo5U2IyU05IZkFTc29UOEtTSk1PekktaGxlakdsZkJEOS1UWXhfMXZIT0ZMX0Z3dGVfWWRBdTM?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGek5fZG8zcllJVFF2STd0S0VkTmpsV25yNU1hLVNIczlPdGxuRW53M1lZbXNERWJtMXNRVFJGV2lnMVd2MUxGdnl2QlFGdWhrZ3dj0gFYQVVfeXFMTlZ5X0c3NkRKcE9YYlo3SnF1bmV0Wk1XdHJVVzFlV3l3WDdLRFlEeDNhZlptR1FsSFNObDVlaGdvNTNNZVVVSUFEcHBBeG1hMWdEZmVETkZHaA?oc=5"
     },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티 \"사우디에 미사일 명중\"…스포츠 행사도 차질",
-     "titleKo": null,
-     "summary": "후티가 사우디에 미사일이 명중했다고 주장했고 이로 인해 스포츠 행사에 차질이 빚어졌다고 보도돼요.",
-     "reportedAt": "2026-10-15T01:12:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96TmlWNUc1OFZIT3JEVkNTbXpmd0VPcWZ2U0xKbWMzLWhhYWV6blc5SHhLQUg3WVN6cVRoN21WR1d3WkZURWx4NVMwNE1Gck9HazI1dkhqTlowRjVBVVp4SExoYUlXM1E?oc=5"
-    },
-    {
-     "outlet": "중앙일보",
-     "cat": "kr",
-     "title": "후티 “사우디 수도 국제공항 탄도미사일로 타격”…리야드 또 겨냥",
-     "titleKo": null,
-     "summary": "후티는 리야드 수도 국제공항을 탄도미사일로 타격했다고 주장했다고 보도돼요.",
-     "reportedAt": "2026-10-15T01:30:43.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqQ2R3OG01WXpZYXpvejMxOFdfdm9MZUpwZFhIRU14S281WTMtSWNHbHZmWW1vemJibmR3VmNacTkyMGd5b3pjUWROOHFtaWJNVndmVndn?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "b64be871ba3a",
-   "articleIds": [
-    "3078d73a72ec",
-    "2d16d5832c74",
-    "47d67ee303ba",
-    "3d2c366f3331",
-    "f37706ee4254",
-    "3b0223b1485d",
-    "a66a006e5581",
-    "6047578ce1a2",
-    "e3718ba5cb1e",
-    "032ae21e9819",
-    "b221c9e57a27",
-    "0c05e1bf5374"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "후티 \"사우디 아람코·공항에 미사일·드론 공격\"",
-   "titleAuto": false,
-   "regions": [
-    "eastern",
-    "riyadh",
-    "airport"
-   ],
-   "inferred": true,
-   "inferNote": "아람코(사우디 석유기업) 본사가 위치한 동부 지역을 가리키는 것으로 보아 동부주와 연관 있다고 추정했어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T10:00:46.294Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Why is Saudi Arabia struggling to defend itself against Houthi attacks?",
-     "titleKo": "사우디 방어 취약성 배경 보도",
-     "summary": "AP는 왜 사우디가 후티 공격에 대응하기 어려운지 배경을 설명했다고 보도했어요.",
-     "reportedAt": "2026-10-14T14:28:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVkZpS3c5U01DTXJtaW8xYlRQMC1UY2hBQkdQVHJxNGpOZTZpdGI0RG9RZlFEd3hwaXhXRjJ5OFZOQllEQnUzQjZKRjcwZGZIRkJ3OWpSckFLTkstUHZLTC1WaEI1UG9Rblp4V0R1VTVSdlpxMFNzSG1xVGZrc2V0SFBPMFVWTkZsMEZLN0ZuWThrLXhFeC1hQmFXUVF0Y19SdnVtTS1oNDZVaGxKTGs3ZTdJLXRmNWhyQ2xHeGFqdXRHR3Rsc2hF?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Sudan’s defense minister condemns Houthi attacks on Saudi Arabia as ‘barbaric criminal acts’",
-     "titleKo": "수단 국방장관, 후티 공격 규탄",
-     "summary": "수단 국방장관이 후티 공격을 야만적이라고 규탄했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T14:46:58.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTGdzYS01SDVvVWdKbWszUmI4MFNaZW5nT3NlN2ZXZnBVZk9rb3pEbklvMzZKRnpURjBSeUoxcDZpTjUyTXpXSng3LXI1bmM5RUZ0MThHcmRXeTAwX2o1MkRJMF9mSVlCSHFwX0FjRFFDRlR2SDRiSU1JUGswaXZSbmE0QWkwNzQ1Mi1xeGdndEVtWkxYTl9xWUJ5bEpPeEliVENleGRIY3JRcHlqZUVxWFJyeHJHUjU0Qks3T0JmTS1Yc2FDWXAwVUlRQnhKUVVs?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi Arabia’s national spirit in the face of Houthi attacks",
-     "titleKo": "사우디 국민 결집 보도",
-     "summary": "사우디의 국민적 결속을 다루는 사설성 보도가 나왔다고 보도됐어요.",
-     "reportedAt": "2026-10-14T14:51:26.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGVEV3VqcTVZYUpnT0FORmpGS3djVV8yNGVPSTZvZi1GeTM4UUJFR2lXQXE4UHJ4UlZ6Q2NQdHBnTGFlMTFqTkpSOVByLWU5VXdZc3hWTy1Cc0tTS21HMFd0TmlBazc3MFlHTmhUV2JtWDZSU1Y3dXpDUG1xWjVsemNxUVBkZHVqdExDaVlTT1YteGZMd0xZc1JCWXJ5NlRna2c?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Iraqi PM condemns Houthi attacks on Saudi Arabia during meeting with Crown Prince",
-     "titleKo": "이라크 총리, 사우디 공습 규탄과 영토 사용 중지 촉구",
-     "summary": "이라크 총리가 회담에서 후티 공격을 규탄했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T14:55:44.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665423/saudi-arabia/iraqi-pm-condemns-attacks-on-saudi-arabia-in-meeting-with-crown-prince"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "HRH the Crown Prince, Iraqi Prime Minister Hold Talks in Riyadh; Al-Zaidi Affirms Rejection of Attacks on Saudi Arabia",
-     "titleKo": "사우디 왕실·이라크 정상 통화에서 공격 규탄",
-     "summary": "",
-     "reportedAt": "2026-10-14T15:45:18.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE02YzNwMVJjZEdnTDJhZVBkYjZlMlZqVUNKZFREd3dOMjJpcHBVTk9PQjIyTjNPOVZieHJuLWwzc1lOTEtha3g1QWNR?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iraq’s PM tells Saudi crown prince Iraqi territory will not be used for attacks",
-     "titleKo": "이라크 총리, 사우디 영토 공격 사용 거부 약속",
-     "summary": "알자지라는 이라크 총리가 사우디 영토가 공격에 사용되지 않도록 약속했다고 보도했어요.",
-     "reportedAt": "2026-10-14T16:10:28.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa1ZNUmRkT2VrbHFocU9PMFdSeGNZbThYdnNFUTdWRG9FQS1XWGxSbk11MW11bmFTTjRlelVvVU13MXhXOGpuQ2JlVTRLcjVTeXZiUVlGeTB2eW5ENnpQYWdQd3FVS3g0WmtpUFhlSzZvSDY1dDVKNU50Zi16SGttMDhsX290RVdKZWRpSVVleWRMeEJGLVhyVW9YdmJNVlp0RERaRUd5bV85Zlo3dXJaZDJPSFB0Z9IBuwFBVV95cUxPVTlRWXJDYUUyUS1nZXRvNHdNUXBtMnFZSG5qNWRuZXFDbkxBOG5YMV9uOE03dldfVGdoUXUwdTh3RlNtZVltODVMSWpOWXd4MGViU19VaGpyUGdtZ0hqZEROM1hIVW5sSDZWUngySi1ybHRNWEZJT0FsVGRLVWZURVJOYUZVU3BwUC10N0JqcGFGV2haTURWNXJwSnNOcDJXLVVpeGVLcjNGOElsN1VMMjRQWVFZOFhDX2w0?oc=5"
-    },
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Houthis threaten escalation after strike on Saudi oil giant Aramco",
-     "titleKo": "AFP: 후티, 아람코 공격 후 추가 공격 위협",
-     "summary": "AFP는 후티가 아람코 공격 후 추가 공격을 위협했다고 보도했어요.",
-     "reportedAt": "2026-10-14T16:21:53.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZnFoblRlOGxWWTJiWTZITTk2eWd4akYwQVVBOUVXeGMtbkxkLThkV3dpZnZDSEZ5Q2VMR2lQSEdYckhBanVaaWdkOFBpQmhZRld0aGhEYU5Kb2MyRGtqaDZwdWhUT0tkTUlibU9xVGxQREpwakNHTHA4T0l3bzdPOXNZY25tWWlacUdkMFdkRFBfTHZYN29BVmpWN2p5S0NtYVl2azRMNG8tcTFsZUZPUVdRZUk2UGtTbzNnTVhiLU8?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Labour MP questions failure to proscribe Houthis after deadly Saudi airport attacks",
-     "titleKo": "영국 의원들, 후티 단체 지정 촉구",
-     "summary": "한 노동당 의원이 영국 정부가 최근 치명적 사우디 공항 공격 이후에도 후티를 테러조직으로 지정하지 않은 점을 강하게 비판했어요.",
-     "reportedAt": "2026-10-14T17:58:23.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/world/labour-mp-questions-failure-to-proscribe-houthis-after-deadly-saudi-airport-attacks-3006368"
-    },
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Houthis say targeted Saudi oil giant Aramco, vow more attacks",
-     "titleKo": "후티, 사우디 아람코 겨냥 공격·추가 공격 경고",
-     "summary": "후티가 아람코를 표적 삼았으며 추가 공격을 예고했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T20:18:06.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUEJ2ZzVicGNBVzlrN21rWjhoZjlYNm9YUGRkbEVUYmtPd09ac2FKRlE5VzJPemxOOXRldnR4dXdCZTItR3J5YU1XVHAwcWk5di1VZXJuRjZRRm9GMkFubDNpQmhMQlZvRGlXRmFDVlJiQU9STl9zemFMRHNWdG1YQ293UmUzSzdfVlA0?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티 \"사우디 아람코·공항에 미사일·드론 공격\"",
-     "titleKo": null,
-     "summary": "후티가 아람코와 공항을 미사일·드론으로 공격했다고 주장했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T20:19:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PN1NMTUJwd0YyX0pTWWdOMGVKYTVBQk5ZV1ExbGNkclhMUkdnbDNDSE1Bb0VjcjhYTjdlOG9DMkFnb0FpQlJ2amw0T1NMdmRIUGZVVHo0cDhaZ2lmeEV1RlRwMjdtMFk?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
-     "titleKo": "후티, 아람코 본사 타격 후 공항·유전 추가 공격 약속",
-     "summary": "후티가 아람코 본사 타격 뒤 공항·석유시설에 대한 추가 공격을 약속했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T21:12:59.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
-    },
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
-     "titleKo": "후티, 사우디 아람코 본사 공격했다고 주장",
-     "summary": "연합뉴스는 후티가 사우디 아람코와 공항에 미사일·드론 공격을 가했다고 보도했어요.",
-     "reportedAt": "2026-10-15T00:45:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "d6b290fc01fc",
-   "articleIds": [
-    "80f8c2ffa633",
-    "6e942da10ee6",
-    "2aed56d3a15d",
-    "dc7c20a79278",
-    "4a8bebe18303",
-    "3472dd1ed35f",
-    "7b5608b17c72",
-    "6c542629f469"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "multi",
-   "directive": null,
-   "title": "후티 공격받는 사우디, 스포츠에 '불똥'…테니스대회 연기",
-   "titleAuto": false,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": true,
-   "inferNote": "연기된 테니스 등 주요 행사가 리야드 등에서 열린 보도로 리야드 관련으로 추정했어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T17:40:40.568Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티 공격받는 사우디, 스포츠에 '불똥'…테니스대회 연기",
-     "titleKo": null,
-     "summary": "연합뉴스는 후티 공격으로 테니스대회가 연기됐다고 보도했어요.",
-     "reportedAt": "2026-10-14T17:24:36.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yVG9uOWY1VTVqR1VOM1M3czhKYVNiS1FrX2RJU291UHdXdXl2QVJYMW9pa2ktYUtBWnZZSDRxSkJ6SnhnV3pScXg4SkZtZXhaQVdPVnlOYWdRejDSAWBBVV95cUxQNVdVLWF6X0lrNVpQTTdrQzhabjQ2VjdoU2hJZWpTMHUxYnotanl1VFZ5VXl3MVE4RTZ0dXZtcXNIdkgydVhTTGxHaTEtanhvYWJqN0xYd0lSNzgyTnQxOFI?oc=5"
-    },
-    {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "후티 공격에 사우디 특급 테니스 대회 연기‥스포츠 행사 차질 잇따라",
-     "titleKo": null,
-     "summary": "MBC는 후티 공격으로 테니스 대회가 연기됐고 스포츠 차질이 잇따른다고 보도했어요.",
-     "reportedAt": "2026-10-14T18:22:45.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SNzVDVS0wbGZVQmJudEx1UHUtekVVd19vOVZTTFJkaXZQNjdTcGtjRHpIVjEwQ3NyRlBsZ0wwaVpJMjNTYW5YQ0I0OVhoQU1sOTFZdmFDLTRPTzViRG1HQzRQVVRrTVY4M29IdmxtTHFjUGFS0gF0QVVfeXFMT1I3NUNVLTBsZlVCYm50THVQdS16RVV3X285VlNMUmRpdlA2N1Nwa2NEekhWMTBDc3JGUGxnTDBpWkkyM1NhblhDQjQ5WGhBTWw5MVl2YUMtNE9PNWJEbUdDNFBVVGtNVjgzb0h2bG1McWNQYVI?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi tennis 'slam' with Alcaraz, Djokovic postponed amid Houthi attacks - Al Jazeera",
-     "titleKo": "사우디 테니스 대회 연기 알림",
-     "summary": "알자지라는 후티 공격으로 테니스 대회가 연기됐다고 보도했어요.",
-     "reportedAt": "2026-10-14T18:47:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNUlSVS00aUZXckNpMHVPaDN5cXM3eUNzSEFiVzlJMzlseUlfLWRtVVR6U3Q0YU1JSGhNUU5TeE5MQVJWMjIwOGplQkRqdWt1VnB1SW9LRWNfRWg2MXZiWVR5Q29NV2tZOG5yUVlPQXZYM0NCeWdXZzNjYlNvX2x3aW5EaDB4UEYwRk45a3VVTVhfSjVvVlhZOHhyd0N1QnpfWi1STjR6QTJuVmVjeGdEVFBka1Bia2tFdFRsTVZXbGVCeXBjQ1htMENNT0I?oc=5"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "사우디, 친이란 후티 공격 지속되자 테니스대회 연말로 연기",
-     "titleKo": null,
-     "summary": "뉴스1은 테니스대회가 후티 공격으로 연말로 연기됐다고 보도했어요.",
-     "reportedAt": "2026-10-14T18:48:34.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9scXRzRk4xWjQ3OGJmbjRkZHBqcXQxUlhhRlpyQTVYM2l4cTV5YUNlVE1qNUM0czZHTnVLM2tVZVhVNnlqclBpb2pVa2VHUjQ4VzdHNzdrY0djbmhfbkJGWUtB?oc=5"
-    },
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "후티 공격으로 사우디 스포츠 국제행사 ‘연기’",
-     "titleKo": null,
-     "summary": "알자지라는 테니스 대회 연기가 후티 공격 때문이라고 보도했어요.",
-     "reportedAt": "2026-10-14T19:25:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YQm1DTlkxalVuQ2dfSzZjNlhWY2d5YUhSZXJkaFZ3VjhDbE1VQXpxVHJtdXkxZUdwV0k2anBBUVdEUFZzcEo4MnFTQ1FHWnptX2U2NUVoSlhjck0?oc=5"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "미사일 떨어지는 사우디, 어쩌나…11월 성수기 여행업계 '긴장'",
-     "titleKo": null,
-     "summary": "뉴스1은 미사일로 인한 여행업계 긴장 상황을 보도했어요.",
-     "reportedAt": "2026-10-14T21:10:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZbHhiU3lyNFZfNnpTMHgtUGdQZklxSEJpX3lDNGZvNmV5WGE5R0IxWVk0dEJCYmg1Y2E4RWstRkF3NE01Y3hUdUp4OWJSYS1Eemh1NW1VVVZnVE4tOG5FSw?oc=5"
-    },
-    {
-     "outlet": "서울경제",
-     "cat": "kr",
-     "title": "미사일 공습에 연기된 사우디 대형 테니스 이벤트…내년 1월 아시안컵도 안갯속",
-     "titleKo": null,
-     "summary": "미사일 공습으로 대형 테니스 이벤트가 연기됐고 내년 1월 아시안컵 일정에 불확실성이 있다고 보도됐어요.",
-     "reportedAt": "2026-10-14T22:02:46.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HTWRjdGpjd21tUWU3Z1BPc05NY2IzQnh4U3dudTFvMkVtcUJ3VEt6UHBpbEk4R0RHbzhMSkRFVEVacHBvVlNMMXFWNDFUeTRQcXfSAVNBVV95cUxPYlJmeE54bFY1d1FoTlhwNDZJOTdJSUItY1JITXNZdHJMZDQzVmV5MzB0cHJDbk5OWUxBWmpMczEwZERfbHpkVm5vLXF5bGNwSXVGOA?oc=5"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "프로축구선수협, '사우디 피격' 아시안컵 관련 \"안전 보장 촉구\"",
-     "titleKo": null,
-     "summary": "프로축구선수협이 사우디 피격 관련 아시안컵 안전 보장을 촉구했다고 보도돼요.",
-     "reportedAt": "2026-10-15T00:40:39.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUQmdxTWNXVFJNYjd3TGsxU2xIQ25iZXZiVGdaR2J5Wk94X1F6WXpJSExFMVpKQThkalpobHphaW12Vi1hUkVZUE1PSVRJcmFYY0t5SFNoZTF3cXZKYVcyUFY1Rm15eS0tZGQ1SExkaXpDWGFLV2VzcdIBeEFVX3lxTFBUQmdxTWNXVFJNYjd3TGsxU2xIQ25iZXZiVGdaR2J5Wk94X1F6WXpJSExFMVpKQThkalpobHphaW12Vi1hUkVZUE1PSVRJcmFYY0t5SFNoZTF3cXZKYVcyUFY1Rm15eS0tZGQ1SExkaXpDWGFLV2VzcQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "50a8d10166d0",
-   "articleIds": [
-    "d26667010f7d"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티 \"사우디 공항에 미사일 명중\"…스포츠 행사도 차질",
-   "titleAuto": false,
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T23:50:31.100Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티 \"사우디 공항에 미사일 명중\"…스포츠 행사도 차질",
-     "titleKo": null,
-     "summary": "후티가 공항에 미사일 명중을 주장했고 스포츠 행사에 차질이 있다고 보도됐어요.",
-     "reportedAt": "2026-10-14T23:44:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtUDdueF85MDY4ZlR5cllkZmd2SlVUQ255NElUa1Y5U3UyNVMxLXZrY3JIeTNWZ05ZSC11NUF2WU84R1ljVzlwcE5rbUs4azgyTDFtZGpReGtRYlp2YWpOYlpTeU5pZWs?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "bffc1338e9d2",
-   "articleIds": [
-    "28599e60140c"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티 \"사우디 공항 정확히 타격\"…스포츠 경기도 차질",
-   "titleAuto": false,
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T23:00:47.624Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
     {
      "outlet": "연합뉴스",
      "cat": "kr",
      "title": "후티 \"사우디 공항 정확히 타격\"…스포츠 경기도 차질",
      "titleKo": null,
-     "summary": "후티가 공항을 정확히 타격했다고 주장했고 스포츠 경기가 차질을 빚는다고 보도됐어요.",
+     "summary": "후티가 사우디 공항을 정확히 타격했다고 주장하며 스포츠 경기에도 차질이 있다고 전했어요.",
      "reportedAt": "2026-10-14T22:47:27.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TbENudEFBNV9pbUU2VlZfRC1adHZzQ3U3SkJjSmdaOGV4clJOUFlHQzVybEU1Xy1uQm9QSVFzTFdWZjVHeUhsTFJEMzRxOUhlbWJYdVZqNXBDNkp2WWxwUlNlajMtN0ktN3JSNjliUXctbFdK?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "ad4904b2ef78",
-   "articleIds": [
-    "d972e4cfaac2"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티 반군 사우디 리야드 공항 명중…아람코 본사도 피격",
-   "titleAuto": false,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-15T02:54:32.553Z",
-   "aiNote": null,
-   "sources": [
+    },
     {
-     "outlet": "SBS",
+     "outlet": "연합뉴스",
      "cat": "kr",
-     "title": "후티 반군 사우디 리야드 공항 명중…아람코 본사도 피격",
+     "title": "후티 \"사우디 공항에 미사일 명중\"…스포츠 행사도 차질",
      "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-14T22:42:00.000Z",
+     "summary": "후티가 사우디 공항에 미사일 명중을 주장했고 스포츠 행사에 차질이 있다고 보도했어요.",
+     "reportedAt": "2026-10-14T23:44:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGek5fZG8zcllJVFF2STd0S0VkTmpsV25yNU1hLVNIczlPdGxuRW53M1lZbXNERWJtMXNRVFJGV2lnMVd2MUxGdnl2QlFGdWhrZ3dj0gFYQVVfeXFMTlZ5X0c3NkRKcE9YYlo3SnF1bmV0Wk1XdHJVVzFlV3l3WDdLRFlEeDNhZlptR1FsSFNObDVlaGdvNTNNZVVVSUFEcHBBeG1hMWdEZmVETkZHaA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtUDdueF85MDY4ZlR5cllkZmd2SlVUQ255NElUa1Y5U3UyNVMxLXZrY3JIeTNWZ05ZSC11NUF2WU84R1ljVzlwcE5rbUs4azgyTDFtZGpReGtRYlp2YWpOYlpTeU5pZWs?oc=5"
     }
    ]
   },
@@ -958,10 +747,182 @@
      "cat": "kr",
      "title": "후티 “사우디 아람코·공항에 미사일·드론 공격”…1명 부상",
      "titleKo": null,
-     "summary": "후티가 아람코·공항에 미사일·드론 공격을 했고 1명 부상이 발생했다고 보도됐어요.",
+     "summary": "후티가 아람코와 공항에 미사일·드론 공격을 했다고 주장하며 1명 부상이 보고됐다고 전했어요.",
      "reportedAt": "2026-10-14T22:27:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44TjQycjhEaWVjeld5YXAxWE9FMHlVSXVSbnlDaU56MnBVS1dMZDlzcmF4QmlyZmRjdGUtbkVRcUJKX1FUQl90Z2VPOWNEMnhjbGpmZFZOR3dnWm1NcWFmeHZ3VdIBY0FVX3lxTE44TjQycjhEaWVjeld5YXAxWE9FMHlVSXVSbnlDaU56MnBVS1dMZDlzcmF4QmlyZmRjdGUtbkVRcUJKX1FUQl90Z2VPOWNEMnhjbGpmZFZOR3dnWm1NcWFmeHZ3VQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "3a829d44062d",
+   "articleIds": [
+    "f37706ee4254",
+    "1919287cea11",
+    "6ff399790b3c",
+    "667040e23e99",
+    "48d6db591cc2"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "이탈리아 등 외교국가들, 후티 공격 규탄·연대 표명",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T15:59:26.383Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "HRH the Crown Prince, Iraqi Prime Minister Hold Talks in Riyadh; Al-Zaidi Affirms Rejection of Attacks on Saudi Arabia",
+     "titleKo": "사우디 왕실·이라크 정상 통화에서 공격 규탄",
+     "summary": "사우디 왕세자와 이라크 총리의 회담을 전하며 공격에 대한 거부를 확인했다고 전했어요.",
+     "reportedAt": "2026-10-14T15:45:18.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE02YzNwMVJjZEdnTDJhZVBkYjZlMlZqVUNKZFREd3dOMjJpcHBVTk9PQjIyTjNPOVZieHJuLWwzc1lOTEtha3g1QWNR?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Lebanese political and business leaders united in condemnation of Houthi attacks on Saudi Arabia",
+     "titleKo": "레바논 지도자들, 후티 공격 규탄",
+     "summary": "레바논 지도자들이 후티 공격을 규탄했다고 보도됐어요.",
+     "reportedAt": "2026-10-14T15:51:51.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUdoUEdqMTlqMDBlMC1waVdYWFVpVUZWVHdrZlpzejdPaFgyTEgyRXE3SG1TYmxqNFI0SnhQbHZsdlowNUMzbGRibGxKb2V5ejJUSDBTVEJ2cDdodFQxbldGR0ZqTXdOMnNZejVIeTlNcW51OGFTaTdBclNmdGpjYmo0bFlSaUZkQ3lnYUYwYXVxbjFERThhSnlYQWtqUzROSWNuOFB0T01qc18wNnllTF9zVW5JeExRa2xiVEQ3VXFuN1VMX2NjM09selpyMzRXLXFtTmstOFM?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Bahrain Condemns Houthi Attacks on Saudi Arabia, Urges Decisive Security Council Measures",
+     "titleKo": "바레인, 후티 공격 규탄 및 유엔 안보리 조치 촉구",
+     "summary": "바레인이 후티 공격을 규탄하고 안보리 조치를 촉구했다고 보도했어요.",
+     "reportedAt": "2026-10-14T20:56:39.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdHJWWUIyNjFHTXNQVmRIbW1sZUg1ZXNodGYyUmNwaGxtMVJDdDhTd1R2cG4zY1hZZEwwZGNleW5BS1EwS0pqNzdR?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Italian FM expresses solidarity with Saudi Arabia in call with Prince Faisal",
+     "titleKo": "이탈리아 외무장관, 전화로 사우디에 연대 표명",
+     "summary": "이탈리아 외무장관이 후티 공격을 규탄하며 사우디와 연대를 표명했다고 보도했어요.",
+     "reportedAt": "2026-10-14T21:02:16.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665429/saudi-arabia/italian-fm-expresses-solidarity-with-saudi-arabia-in-call-with-prince-faisal"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Bahrain Condemns Houthi Attacks on Saudi Arabia, Urges Decisive Security Council Measures",
+     "titleKo": "바레인, 후티의 사우디 공격 규탄",
+     "summary": "바레인이 후티 공격을 규탄하며 유엔 안보리의 결정적 조치를 촉구했다고 전했어요.",
+     "reportedAt": "2026-10-14T21:30:56.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5329724"
+    }
+   ]
+  },
+  {
+   "id": "6bb520adf5ea",
+   "articleIds": [
+    "88fe8b13e2b1"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "국제유가 상승…IEA 공급난 경고에 사우디 아람코 시설 피격",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T21:30:51.765Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "국제유가 상승…IEA 공급난 경고에 사우디 아람코 시설 피격",
+     "titleKo": null,
+     "summary": "국제유가가 IEA 경고와 아람코 시설 피격 소식에 상승했다고 보도됐어요.",
+     "reportedAt": "2026-10-14T21:16:52.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBQlRUcFhYN0JETjZ5V3FNZVFCWUgwTnVHWDNrVlFjWU9ITGRORjdhNU5sdVRweDdOb0lTbDdIWTM5ekZlVnA5eHFLT1ZsUlhMZ1VBMlRNNzdxcFBaRWh5UlRQQ3VYVXM?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "f66f4249582c",
+   "articleIds": [
+    "3472dd1ed35f"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "미사일 떨어지는 사우디, 어쩌나…11월 성수기 여행업계 '긴장'",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T21:30:51.765Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "미사일 떨어지는 사우디, 어쩌나…11월 성수기 여행업계 '긴장'",
+     "titleKo": null,
+     "summary": "미사일 낙하 사태로 여행업계가 긴장하고 있다고 전했어요.",
+     "reportedAt": "2026-10-14T21:10:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZbHhiU3lyNFZfNnpTMHgtUGdQZklxSEJpX3lDNGZvNmV5WGE5R0IxWVk0dEJCYmg1Y2E4RWstRkF3NE01Y3hUdUp4OWJSYS1Eemh1NW1VVVZnVE4tOG5FSw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "6c95269b7ff6",
+   "articleIds": [
+    "7b397f8dad9d"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "뉴스레터: 후티가 아람코 본부를 타격",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T21:00:52.036Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "PODCAST: Inflation climbs, self-replicating AI warning, Houthis hit Aramco HQ (Updated)",
+     "titleKo": "뉴스레터: 후티가 아람코 본부를 타격",
+     "summary": "후티의 아람코 본부 타격 소식이 경제 뉴스레터 등에 반영됐다고 보도됐어요.",
+     "reportedAt": "2026-10-14T19:54:49.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVExPUC1WTWU5MXJoVy00ZGpsaU03VV83SlZfUHQ5SzlLOTZQUVFEdFVjVnNUZXNDX3Y3UXUtMjR1c0E1eDB0VDNhUDkzMUhmSU1zVFRnQlRySTdNdmRJRU5ESTMyTTRSbDhYTFJXbEQ5Z3pUdl9PRHh4MjdKY1BlbWliODJmSmIyYnJTMUl5WTNEUHNuUFhvVHIzcHVrb0hVc3dWb0p4bVY?oc=5"
     }
    ]
   },
@@ -994,6 +955,113 @@
      "reportedAt": "2026-10-14T18:48:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHJqSGhySVVZXy02Zk5GMWRyNjA2bURRWWpVbU9FdEREM2xBY1h6dnZUZ0lWVGFobjFCWjZhZTdra1Z3MjNGV1hkcUNaUkxueHdPTDlTSGI2V1JFRzl5WHRVQWNEM0dxZEs3MzRLSFhtam5qME1GQ2dudVNMMXZ3RnpsTE4?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "ab46a3bbc85c",
+   "articleIds": [
+    "6047578ce1a2"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "영국 의원들, 후티 단체 지정 촉구",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T18:00:48.748Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Labour MP questions failure to proscribe Houthis after deadly Saudi airport attacks",
+     "titleKo": "영국 의원들, 후티 단체 지정 촉구",
+     "summary": "한 노동당 의원이 영국 정부가 최근 치명적 사우디 공항 공격 이후에도 후티를 테러조직으로 지정하지 않은 점을 강하게 비판했어요.",
+     "reportedAt": "2026-10-14T17:58:23.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/world/labour-mp-questions-failure-to-proscribe-houthis-after-deadly-saudi-airport-attacks-3006368"
+    }
+   ]
+  },
+  {
+   "id": "069e552aa87f",
+   "articleIds": [
+    "dfc27d4c3d8e",
+    "3b4363a03524"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "연합군, 리야드 지역에서 UAV·순항미사일 요격했다고 발표",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-13T22:10:31.467Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Cruise Missile Intercepted, Destroyed in Riyadh Region",
+     "titleKo": "연합군, 리야드 지역 순항미사일 요격·파괴 발표",
+     "summary": "연합군이 리야드 지역에서 순항미사일을 요격·파괴했다고 발표했다고 전했어요.",
+     "reportedAt": "2026-10-14T17:30:46.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RNHE3clJrUkVRWFJveFJXZ0VPUWMxNzNuU3VESElqcW11UEhrcHdLa0I4d0UzZUVxOS1COEpDczJtUGJIczc1S0N3?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Two UAVs Intercepted, Destroyed in Riyadh Region, Southern Region",
+     "titleKo": "사우디 국영통신: 리야드 지역 UAV 2대 요격·파괴",
+     "summary": "연합군이 리야드 및 남부 지역에서 UAV 요격·파괴를 발표했다고 사우디 국영통신이 보도했어요.",
+     "reportedAt": "2026-10-14T17:30:49.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hMm5mdWlwN3JGOTBVNjhjVjBJUGtETWRHc05zWTAxeFJfWHRFSVlNY0VpeEVWanNDc3ZuamlTTUpKcS1JYnRuc0pn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "08552e962d68",
+   "articleIds": [
+    "80f8c2ffa633"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 공격받는 사우디, 스포츠에 '불똥'…테니스대회 연기",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T17:40:40.568Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티 공격받는 사우디, 스포츠에 '불똥'…테니스대회 연기",
+     "titleKo": null,
+     "summary": "연합뉴스는 후티 공격으로 테니스대회가 연기됐다고 보도했어요.",
+     "reportedAt": "2026-10-14T17:24:36.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yVG9uOWY1VTVqR1VOM1M3czhKYVNiS1FrX2RJU291UHdXdXl2QVJYMW9pa2ktYUtBWnZZSDRxSkJ6SnhnV3pScXg4SkZtZXhaQVdPVnlOYWdRejDSAWBBVV95cUxQNVdVLWF6X0lrNVpQTTdrQzhabjQ2VjdoU2hJZWpTMHUxYnotanl1VFZ5VXl3MVE4RTZ0dXZtcXNIdkgydVhTTGxHaTEtanhvYWJqN0xYd0lSNzgyTnQxOFI?oc=5"
     }
    ]
   },
@@ -1062,15 +1130,15 @@
    ]
   },
   {
-   "id": "0a007e809964",
+   "id": "36f7a4531d9c",
    "articleIds": [
-    "1919287cea11"
+    "c218e650f0b5"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "레바논 지도자들, 후티 공격 규탄",
+   "title": "Reuters: 순례객들이 후티 공격으로 영향받았다고 보도",
    "titleAuto": true,
    "regions": [
     "all"
@@ -1078,82 +1146,179 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-14T15:59:26.383Z",
+   "collectedAt": "2026-10-14T16:20:36.680Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Lebanese political and business leaders united in condemnation of Houthi attacks on Saudi Arabia",
-     "titleKo": "레바논 지도자들, 후티 공격 규탄",
-     "summary": "레바논 지도자들이 후티 공격을 규탄했다고 보도됐어요.",
-     "reportedAt": "2026-10-14T15:51:51.000Z",
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Pilgrims caught up in Houthi strikes on Saudi Arabia",
+     "titleKo": "Reuters: 순례객들이 후티 공격으로 영향받았다고 보도",
+     "summary": "로이터는 순례객들이 후티 공격으로 영향을 받고 있다고 보도했어요.",
+     "reportedAt": "2026-10-14T16:03:43.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUdoUEdqMTlqMDBlMC1waVdYWFVpVUZWVHdrZlpzejdPaFgyTEgyRXE3SG1TYmxqNFI0SnhQbHZsdlowNUMzbGRibGxKb2V5ejJUSDBTVEJ2cDdodFQxbldGR0ZqTXdOMnNZejVIeTlNcW51OGFTaTdBclNmdGpjYmo0bFlSaUZkQ3lnYUYwYXVxbjFERThhSnlYQWtqUzROSWNuOFB0T01qc18wNnllTF9zVW5JeExRa2xiVEQ3VXFuN1VMX2NjM09selpyMzRXLXFtTmstOFM?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTWUzYUQwXzFUVGJsY2RZTUhiY055eFFGRGtYMDR0TkU0TkRLaWZaQ1VLdnhNbTFkOTBFOW1ZVEJTWWEwWDFBZHBPZTgyY19MZURTTVExR1hvRWtub2hZUGtTNWs2Z3JLMFZYVWhvZ0FrQmxSRWVrYkxyc1VzWWk3RUZGajF5OFRxZHJWZTBvdWJ2VFRhM0IyZkZwRXBHd2F1SUE?oc=5"
     }
    ]
   },
   {
-   "id": "5f7756a1e175",
+   "id": "caac8ccb876f",
    "articleIds": [
-    "d8dfdc841673"
+    "d982ff9672c0"
    ],
-   "type": "missile",
-   "sev": "high",
+   "type": "security",
+   "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "리야드 요격 과정 중 부상자 발생·아람코 건물 표적",
+   "title": "후티 공격으로 사우디 경기들 연기",
    "titleAuto": true,
    "regions": [
-    "riyadh"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-14T15:50:31.985Z",
+   "collectedAt": "2026-10-14T16:10:29.130Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Arab News",
+     "outlet": "Al Jazeera",
      "cat": "local",
-     "title": "Several injured in Riyadh from Houthi missiles interceptions, Saudi Aramco building targeted",
-     "titleKo": "리야드 요격 과정 중 부상자 발생·아람코 건물 표적",
-     "summary": "리야드에서 요격 과정 중 다수가 다쳤고 아람코 건물이 표적이 됐다고 보도됐어요.",
-     "reportedAt": "2026-10-14T14:59:32.000Z",
+     "title": "Ronaldo’s among three Saudi Arabia games postponed due to Houthi attacks",
+     "titleKo": "후티 공격으로 사우디 경기들 연기",
+     "summary": "후티 공격으로 사우디의 축구 경기들이 연기됐다고 보도됐어요.",
+     "reportedAt": "2026-10-14T15:52:16.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLTNaNnU4QkR5N2o5OGhPRENnRGJ6RXhKYWVTYk90VXBoZVZJNW5QckNMdU01em4yQmRQcFZEMXRVLS1SVmRwMzlFZEJDQU10a3BoaGZPQlJ0ek1xVnhRcEY2N2pNUVRVdjg1REhzeE1uYnhYb3IyQ3dDUnBwd2pEUDNUdk9xZF9PNnJxUXpYREYzVjE2VG9LY29CUmhRblNWdTNFeTkzU0xJM3JtY0JDcjUxYmU3N1czOUduVDZyX2JsU3VXbmtsem1OcmFfaXNBZkJZ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUWo4NVdGemZFQ01iMHhPTlBoVHlDU242ZDZKbHQySC03bEFldXd0aklHb2lSV3RWQVVhWEtCVm9yOS1TRkpCOXJ6bmZ5NXF1N0I4Njh1T1NoY3B5UTliSWhJcmRDbndyUUJBSDJfdFJpSFBPWWhNdk1NX2dmamZ3QWxCajVJdkFRMzBjTmRpX1JWdXpjU3JLbGE1eTBETnhqeW9xTXVidFY0VS1KNmJzdVozVkdDd9IBuwFBVV95cUxPQ0ZJS2RVSFRha1g1UUkwT2xsUW5LbzF0WFJWUFcwbGZTY3ZLeVlpZ1lYcl9ERkZwZlh2cldER3RhdmhXLVNmRjJXc3UtN1VHbV9ENjJIVUh4Z0s0T1FMS2pnU0RoU3Q2Q0VrYkI4Rk42SVVOT2JlTFFGMEZWZU96N01ad1BHZEFuLXpQekpqT1ZqMG5JbmdOWkN3bTkzQ2NlcXByQXdNQXhnLW5ZZUR6aWIydGtwdzcwSW5N?oc=5"
     }
    ]
   },
   {
-   "id": "c165c92dea6e",
+   "id": "7dc59d5e1f0e",
    "articleIds": [
-    "cd7cdc2a2399"
+    "3d2c366f3331"
    ],
-   "type": "energy",
-   "sev": "high",
+   "type": "security",
+   "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "후티 \"사우디 아람코·공항 공격\"...사우디 \"후티 공격에 1명 부상\"",
-   "titleAuto": false,
+   "title": "이라크 총리, 사우디 공습 규탄과 영토 사용 중지 촉구",
+   "titleAuto": true,
    "regions": [
+    "riyadh",
     "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-14T22:13:01.795Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-10-14T15:10:30.561Z",
+   "aiNote": null,
    "sources": [
     {
-     "outlet": "YTN",
-     "cat": "kr",
-     "title": "후티 \"사우디 아람코·공항 공격\"...사우디 \"후티 공격에 1명 부상\"",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-14T14:57:00.000Z",
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Iraqi PM condemns Houthi attacks on Saudi Arabia during meeting with Crown Prince",
+     "titleKo": "이라크 총리, 사우디 공습 규탄과 영토 사용 중지 촉구",
+     "summary": "이라크 총리가 회담에서 후티 공격을 규탄했다고 보도됐어요.",
+     "reportedAt": "2026-10-14T14:55:44.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1hTm5OQzJOeWVOYzZ1a0pVcVROekg4N255SFo1bEJSTWRhY1ZNSlVFZXNILWRDS3E3MHlnZ253ckFicnRWd0NBWU1HeW1aQWNvQ3dLZUUyUUttMHZ2b2c?oc=5"
+     "url": "https://saudigazette.com.sa/article/665423/saudi-arabia/iraqi-pm-condemns-attacks-on-saudi-arabia-in-meeting-with-crown-prince"
+    }
+   ]
+  },
+  {
+   "id": "51ec9d861871",
+   "articleIds": [
+    "47d67ee303ba"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 국민 결집 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T15:10:30.561Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi Arabia’s national spirit in the face of Houthi attacks",
+     "titleKo": "사우디 국민 결집 보도",
+     "summary": "사우디의 국민적 결속을 다루는 사설성 보도가 나왔다고 보도됐어요.",
+     "reportedAt": "2026-10-14T14:51:26.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGVEV3VqcTVZYUpnT0FORmpGS3djVV8yNGVPSTZvZi1GeTM4UUJFR2lXQXE4UHJ4UlZ6Q2NQdHBnTGFlMTFqTkpSOVByLWU5VXdZc3hWTy1Cc0tTS21HMFd0TmlBazc3MFlHTmhUV2JtWDZSU1Y3dXpDUG1xWjVsemNxUVBkZHVqdExDaVlTT1YteGZMd0xZc1JCWXJ5NlRna2c?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "87980188606a",
+   "articleIds": [
+    "2d16d5832c74"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "수단 국방장관, 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T14:50:30.783Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Sudan’s defense minister condemns Houthi attacks on Saudi Arabia as ‘barbaric criminal acts’",
+     "titleKo": "수단 국방장관, 후티 공격 규탄",
+     "summary": "수단 국방장관이 후티 공격을 야만적이라고 규탄했다고 보도됐어요.",
+     "reportedAt": "2026-10-14T14:46:58.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTGdzYS01SDVvVWdKbWszUmI4MFNaZW5nT3NlN2ZXZnBVZk9rb3pEbklvMzZKRnpURjBSeUoxcDZpTjUyTXpXSng3LXI1bmM5RUZ0MThHcmRXeTAwX2o1MkRJMF9mSVlCSHFwX0FjRFFDRlR2SDRiSU1JUGswaXZSbmE0QWkwNzQ1Mi1xeGdndEVtWkxYTl9xWUJ5bEpPeEliVENleGRIY3JRcHlqZUVxWFJyeHJHUjU0Qks3T0JmTS1Yc2FDWXAwVUlRQnhKUVVs?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "bb0c78e03834",
+   "articleIds": [
+    "3078d73a72ec"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 방어 취약성 배경 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T14:40:39.795Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Why is Saudi Arabia struggling to defend itself against Houthi attacks?",
+     "titleKo": "사우디 방어 취약성 배경 보도",
+     "summary": "AP는 왜 사우디가 후티 공격에 대응하기 어려운지 배경을 설명했다고 보도했어요.",
+     "reportedAt": "2026-10-14T14:28:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVkZpS3c5U01DTXJtaW8xYlRQMC1UY2hBQkdQVHJxNGpOZTZpdGI0RG9RZlFEd3hwaXhXRjJ5OFZOQllEQnUzQjZKRjcwZGZIRkJ3OWpSckFLTkstUHZLTC1WaEI1UG9Rblp4V0R1VTVSdlpxMFNzSG1xVGZrc2V0SFBPMFVWTkZsMEZLN0ZuWThrLXhFeC1hQmFXUVF0Y19SdnVtTS1oNDZVaGxKTGs3ZTdJLXRmNWhyQ2xHeGFqdXRHR3Rsc2hF?oc=5"
     }
    ]
   },
@@ -5573,14 +5738,14 @@
   {
    "id": "de0632a4a2f0",
    "articleIds": [
-    "a6cd3c578b32",
-    "f22c6b7a9c40"
+    "f22c6b7a9c40",
+    "a6cd3c578b32"
    ],
    "type": "missile",
    "sev": "high",
    "status": "single",
    "directive": null,
-   "title": "연합군, 사우디아라비아 겨냥한 드론 5대·미사일 6발 요격·격파했다고 밝혀",
+   "title": "연합군, 리야드 북부 등에서 드론·미사일 요격했다고 발표",
    "titleAuto": true,
    "regions": [
     "all"
@@ -5594,22 +5759,22 @@
     {
      "outlet": "Arab News",
      "cat": "local",
-     "title": "Coalition says it intercepted, destroyed 5 drones and 6 missiles targeting Saudi Arabia",
-     "titleKo": "연합군, 사우디아라비아 겨냥한 드론 5대·미사일 6발 요격·격파했다고 밝혀",
-     "summary": "연합군이 5기 드론과 6기 미사일을 요격·파괴했다고 보도했다.",
-     "reportedAt": "2026-10-13T15:44:41.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNlM3R3cwZ2s2YzdTZzBwMGhYc3BMQlYxUHo4SWcyX19nVDhLNmpyc1IwYWNsXzBlTXRlWGxmY0d2RFJUY0Z5NEtXNW43dERwajdqMFRIT2tlWmREdkw5eEJkTVZ2eUlkZ1ZwMjhqamRPd3BOU1llYWg1Qk40MnNCem1yeEtxU21QN3FMaUF3bmxCR25ERi1QSWVpWFdlaHYxSFRhZUNfQXg5cERqT09xWDJ1cFN1b1M0N3g5MUkxdWdBNTRsdkppMnZXa0Y?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
      "title": "Coalition says it intercepted, destroyed 5 drones and 5 missiles targeting Saudi Arabia",
      "titleKo": "연합군, 리야드 북부 등에서 드론·미사일 요격했다고 발표",
      "summary": "연합군이 리야드 북부와 다수 지역에서 드론과 미사일을 요격했다고 밝혔다.",
      "reportedAt": "2026-10-13T15:44:41.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHo2ZF9uYktTRXh6bjNzVVdKM1l6VHM3SUxVbjgwZU1OVDI2VUsyU25pMGFTaEdHU0RibkRlOFhMUFcxbFVSYjFCZDFxTnhIbl84NWZ5S1VBbUVxZm5SdE5aOEgtdEJ6SnZYWHBTeG9DcVZXdXJRY0k4ZE1BTXNYUmNhbG5raDNsNU1LbW1QMXdQcWdESjVVYmxwVkw1RXhWazczRndfaFBDSThmbWNmcC1IRGVVMzIwbWhnOFFFTFBrU09hVWYyT2VtZlo?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition says it intercepted, destroyed 5 drones and 6 missiles targeting Saudi Arabia",
+     "titleKo": "연합군, 사우디아라비아 겨냥한 드론 5대·미사일 6발 요격·격파했다고 밝혀",
+     "summary": "연합군이 5기 드론과 6기 미사일을 요격·파괴했다고 보도했다.",
+     "reportedAt": "2026-10-13T15:44:41.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNlM3R3cwZ2s2YzdTZzBwMGhYc3BMQlYxUHo4SWcyX19nVDhLNmpyc1IwYWNsXzBlTXRlWGxmY0d2RFJUY0Z5NEtXNW43dERwajdqMFRIT2tlWmREdkw5eEJkTVZ2eUlkZ1ZwMjhqamRPd3BOU1llYWg1Qk40MnNCem1yeEtxU21QN3FMaUF3bmxCR25ERi1QSWVpWFdlaHYxSFRhZUNfQXg5cERqT09xWDJ1cFN1b1M0N3g5MUkxdWdBNTRsdkppMnZXa0Y?oc=5"
     }
    ]
   },
@@ -12026,9 +12191,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "스포츠 - 공격 발생으로 사우디아라비아에서 열릴 예정이던 FIFAe 파이널 연기",
+   "titleKo": "FIFA, 사우디 공격으로 FIFAe 파이널 연기",
    "title": "Sports-FIFA postpones FIFAe Finals in Saudi Arabia following attacks",
-   "summary": "",
+   "summary": "FIFA가 사우디에서 열릴 FIFAe 파이널을 최근의 공격을 이유로 연기했다고 전했어요.",
    "reportedAt": "2026-10-15T03:30:00.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXBtWkJRSlV6SGoxVUpRVHZsSWMwTldtZURhUWlldTFtSGlLSmFJYzJjaHBqOHZ6SEJMQlByYW5SeGlPa2F2YTNfLXRwNWZTdnVpUWJQVHBZbmhyUkNLYlNaVlIxb3poOEdZRkc1LWJnRG1CWTljM3QyMjhXU0pJMzhSd3plaThOdTFkNTU5Q09JOVoxT2ozNVNDdEU3UFVEUDM4aEVPeXh2RXFVUkx5OGtuQ3RPdw?oc=5"
@@ -12046,7 +12211,7 @@
    "inferred": false,
    "titleKo": "바레인, 후티의 사우디 공격 규탄",
    "title": "Bahrain Condemns Houthi Attacks on Saudi Arabia, Urges Decisive Security Council Measures",
-   "summary": "바레인이 후티 공격을 규탄하며 안보리의 단호한 조치를 촉구했다고 보도됐어요.",
+   "summary": "바레인이 후티 공격을 규탄하며 유엔 안보리의 결정적 조치를 촉구했다고 전했어요.",
    "reportedAt": "2026-10-14T21:30:56.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5329724"
@@ -12080,9 +12245,9 @@
     "airport"
    ],
    "inferred": false,
-   "titleKo": "후티, 아람코 본사 타격 후 공항·유전 추가 공격 약속",
+   "titleKo": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
    "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
-   "summary": "후티가 아람코 본사 타격 뒤 공항·석유시설에 대한 추가 공격을 약속했다고 보도됐어요.",
+   "summary": "후티가 아람코 본사 타격 후 공항과 석유시설에 대한 추가 공격을 예고했다고 보도했어요.",
    "reportedAt": "2026-10-14T21:12:59.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
@@ -12098,9 +12263,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "바레인, 후티 공격 규탄 및 안보리 조치 촉구",
+   "titleKo": "바레인, 후티 공격 규탄 및 유엔 안보리 조치 촉구",
    "title": "Bahrain Condemns Houthi Attacks on Saudi Arabia, Urges Decisive Security Council Measures",
-   "summary": "바레인이 후티 공격을 규탄하고 유엔의 조치를 촉구했다고 보도됐어요.",
+   "summary": "바레인이 후티 공격을 규탄하고 안보리 조치를 촉구했다고 보도했어요.",
    "reportedAt": "2026-10-14T20:56:39.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdHJWWUIyNjFHTXNQVmRIbW1sZUg1ZXNodGYyUmNwaGxtMVJDdDhTd1R2cG4zY1hZZEwwZGNleW5BS1EwS0pqNzdR?oc=5"
@@ -12170,9 +12335,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군: 리야드·남부 지역에서 무인기 2대 요격·격파 발표",
+   "titleKo": "사우디 국영통신: 리야드 지역 UAV 2대 요격·파괴",
    "title": "Coalition: Two UAVs Intercepted, Destroyed in Riyadh Region, Southern Region",
-   "summary": "연합군이 리야드 및 남부 지역에서 무인기를 요격해 격파했다고 사우디 통신이 발표했어요.",
+   "summary": "연합군이 리야드 및 남부 지역에서 UAV 요격·파괴를 발표했다고 사우디 국영통신이 보도했어요.",
    "reportedAt": "2026-10-14T17:30:49.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hMm5mdWlwN3JGOTBVNjhjVjBJUGtETWRHc05zWTAxeFJfWHRFSVlNY0VpeEVWanNDc3ZuamlTTUpKcS1JYnRuc0pn?oc=5"
@@ -12188,9 +12353,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군: 리야드 지역에서 순항미사일 요격·파괴 발표",
+   "titleKo": "연합군, 리야드 지역 순항미사일 요격·파괴 발표",
    "title": "Coalition: Cruise Missile Intercepted, Destroyed in Riyadh Region",
-   "summary": "연합군이 리야드 지역에서 순항미사일을 요격해 파괴했다고 사우디 통신이 발표했어요.",
+   "summary": "연합군이 리야드 지역에서 순항미사일을 요격·파괴했다고 발표했다고 전했어요.",
    "reportedAt": "2026-10-14T17:30:46.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RNHE3clJrUkVRWFJveFJXZ0VPUWMxNzNuU3VESElqcW11UEhrcHdLa0I4d0UzZUVxOS1COEpDczJtUGJIczc1S0N3?oc=5"
@@ -12280,7 +12445,7 @@
    "inferred": false,
    "titleKo": "사우디 왕실·이라크 정상 통화에서 공격 규탄",
    "title": "HRH the Crown Prince, Iraqi Prime Minister Hold Talks in Riyadh; Al-Zaidi Affirms Rejection of Attacks on Saudi Arabia",
-   "summary": "",
+   "summary": "사우디 왕세자와 이라크 총리의 회담을 전하며 공격에 대한 거부를 확인했다고 전했어요.",
    "reportedAt": "2026-10-14T15:45:18.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE02YzNwMVJjZEdnTDJhZVBkYjZlMlZqVUNKZFREd3dOMjJpcHBVTk9PQjIyTjNPOVZieHJuLWwzc1lOTEtha3g1QWNR?oc=5"
@@ -14157,6 +14322,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "db09278fce47",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "FIFA postpones FIFAe Finals in Saudi Arabia following attacks",
+    "snippet": "FIFA and the Saudi Esports Federation have postponed the FIFAe Finals 2026 in Jeddah due to recent attacks on Saudi Arabia. The move follows a deadly strike on Riyadh’s airport, claimed by Yemen’s Houthi movement.",
+    "url": "https://www.arabnews.com/sport/fifa-postpones-fifae-finals-in-saudi-arabia-following-attacks-3006440",
+    "reportedAt": 1792039671000,
+    "assumeSaudi": false,
+    "firstSeen": 1792039831986
+   },
    {
     "id": "c479ce65d201",
     "feed": "Reuters",
@@ -20858,9 +21037,9 @@
    "e8bb6dcd1add": "연합이 후티가 발사한 탄도·순항미사일과 드론을 파괴했다고 보도했어요.",
    "7680f40acddf": "아람코 본사가 후티 공격 중 피격돼 화재가 발생했고 진압 중이라고 보도했다.",
    "91007dfce51c": "연합군이 리야드 지역에서 무인기(UAV)를 요격·파괴했다고 발표했어요.",
-   "dfc27d4c3d8e": "연합군이 리야드 지역에서 순항미사일을 요격해 파괴했다고 사우디 통신이 발표했어요.",
+   "dfc27d4c3d8e": "연합군이 리야드 지역에서 순항미사일을 요격·파괴했다고 발표했다고 전했어요.",
    "053ff2360809": "연합군이 리야드와 남부 지역에서 순항미사일 3발을 요격했다고 발표했어요.",
-   "3b4363a03524": "연합군이 리야드 및 남부 지역에서 무인기를 요격해 격파했다고 사우디 통신이 발표했어요.",
+   "3b4363a03524": "연합군이 리야드 및 남부 지역에서 UAV 요격·파괴를 발표했다고 사우디 국영통신이 보도했어요.",
    "6f811301a2c7": "사우디가 리야드·남부를 겨냥한 순항미사일과 드론을 요격했다고 보도했다.",
    "2669e01204b6": "리야드 공항 공격으로 숨진 이집트 승무원의 장례가 치러졌다고 보도했어요.",
    "933cb30cc2e1": "아람코 본사 인근에서 폭발음이 들렸다고 보도했어요.",
@@ -20955,7 +21134,7 @@
    "5c7e30fd16fd": "후티가 사우디의 아람코와 공항을 미사일·드론으로 공격하겠다고 밝혔습니다.",
    "2415a6feea16": "한국일보는 사우디와 후티의 맞공격이 유가에 혼조 영향을 줬다고 보도했어요.",
    "aa087f56917e": "보고서는 후티가 중국 부품으로 미사일을 개발하려 한다고 전했습니다.",
-   "e3718ba5cb1e": "후티가 아람코를 표적 삼았으며 추가 공격을 예고했다고 보도됐어요.",
+   "e3718ba5cb1e": "후티가 아람코를 겨냥했다고 밝히고 추가 공세를 경고했다고 보도했어요.",
    "d63ea25ea860": "이란 지원을 받는 후티가 아람코의 임원 사무실을 타격했다고 관청들이 말했다고 보도됐어요.",
    "426be26e5ed5": "사우디 민방위는 요격 파편으로 리야드에서 주택과 차량이 피해를 입었다고 발표했어요.",
    "601d45d56cc9": "Arab News는 사우디 방공이 리야드 상공에서 후티 미사일을 요격했다고 보도했어요.",
@@ -20975,7 +21154,7 @@
    "40b048f469c3": "사우디의 시범 테니스 대회인 Six Kings Slam이 후티 공격으로 10월에서 12월로 연기됐어요.",
    "2a0a6ee11527": "예멘 정부군이 후티에 맞서 싸우겠다고 선언했다고 보도됐어요.",
    "a66a006e5581": "AFP는 후티가 아람코 공격 후 추가 공격을 위협했다고 보도했어요.",
-   "0c05e1bf5374": "연합뉴스는 후티가 사우디 아람코와 공항에 미사일·드론 공격을 가했다고 보도했어요.",
+   "0c05e1bf5374": "이란 지원 후티가 사우디 아람코 본사를 공격했다고 사우디 관리들을 인용해 보도했어요.",
    "c218e650f0b5": "로이터는 순례객들이 후티 공격으로 영향을 받고 있다고 보도했어요.",
    "d982ff9672c0": "후티 공격으로 사우디의 축구 경기들이 연기됐다고 보도됐어요.",
    "61165294f214": "Al Jazeera는 이라크 총리가 사우디 영토가 공격에 사용되지 않도록 하겠다고 전했다고 보도했어요.",
@@ -20987,21 +21166,21 @@
    "e7a030d37c85": "SBS가 사우디의 반격과 트럼프의 개입 시사 보도를 전했어요.",
    "f9d57e985e04": "AP는 후티가 공항과 석유시설을 공격했다고 주장했다고 보도했어요.",
    "43b706110e09": "SBS는 후티가 아람코 등 대규모 공격을 감행했다고 보도했어요.",
-   "d8dfdc841673": "리야드에서 요격 과정 중 다수가 다쳤고 아람코 건물이 표적이 됐다고 보도됐어요.",
-   "096c9b227edc": "이탈리아 외교장관이 후티 공격을 규탄하고 사우디에 지지 의사를 전했다고 보도됐어요.",
-   "b221c9e57a27": "후티가 아람코 본사 타격 뒤 공항·석유시설에 대한 추가 공격을 약속했다고 보도됐어요.",
-   "d54f41c3087e": "국제 유가가 아람코 피격과 IEA 공급 경고로 상승했다고 보도됐어요.",
+   "d8dfdc841673": "리야드에서 부상자 발생과 아람코 건물 표적화 등 후티 공격 후 상황을 전했어요.",
+   "096c9b227edc": "이탈리아 외교부 장관이 전화 통화에서 후티 공격을 규탄했다고 보도했어요.",
+   "b221c9e57a27": "후티가 아람코 본사 타격 후 공항과 석유시설에 대한 추가 공격을 예고했다고 보도했어요.",
+   "d54f41c3087e": "국제 유가가 아람코 피격과 IEA 공급 경고 영향으로 상승했다고 전했어요.",
    "88fe8b13e2b1": "국제유가가 IEA 경고와 아람코 시설 피격 소식에 상승했다고 보도됐어요.",
-   "b2ae18aedf30": "아람코 피격 소식과 IEA 경고로 국제유가가 올랐다고 보도됐어요.",
+   "b2ae18aedf30": "국제유가가 아람코 피격 영향으로 상승했다고 보도했어요.",
    "6fa0853cb3bf": "후티가 석유시설과 공항을 미사일·드론로 공격했다고 주장했고 1명 부상 소식이 전해졌어요.",
    "9f10227c74fd": "아람코 피격 소식이 국제유가 상승에 영향을 미쳤다고 보도됐어요.",
    "f09fa8f235c3": "사우디 외무장관이 이탈리아 장관과 통화하며 규탄을 받았다고 보도됐어요.",
-   "794229e59ebc": "후티가 킹칼리드 공항에 미사일 타격을 주장하며 공항 공격이 이어진다고 보도됐어요.",
-   "63bde5bca2b9": "후티는 리야드 국제공항이 미사일로 명중했다고 주장했고 스포츠 행사가 영향을 받았다고 보도됐어요.",
+   "794229e59ebc": "후티의 공항 공격이 연일 이어진다고 보도했어요.",
+   "63bde5bca2b9": "후티가 리야드 국제공항에 미사일로 명중했다고 주장하며 스포츠 행사에 영향을 줬다고 보도했어요.",
    "3114d9613132": "후티가 샤우디 리야드 공항을 탄도미사일로 공격했다고 보도됐어요.",
    "3f37df105b6a": "후티가 리야드 공항에 탄도미사일이 명중했다고 주장했다고 보도됐어요.",
    "6bf307fe4496": "사우디 내 테니스 대회가 후티 공격으로 연기됐다고 보도됐어요.",
-   "6ff399790b3c": "바레인이 후티 공격을 규탄하고 유엔의 조치를 촉구했다고 보도됐어요.",
+   "6ff399790b3c": "바레인이 후티 공격을 규탄하고 안보리 조치를 촉구했다고 보도했어요.",
    "2aed56d3a15d": "알자지라는 후티 공격으로 테니스 대회가 연기됐다고 보도했어요.",
    "eebc0092f001": "연합뉴스는 후티가 리야드 공항에 탄도미사일을 발사·명중했다고 주장했다고 전했어요.",
    "032ae21e9819": "후티가 아람코와 공항을 미사일·드론으로 공격했다고 주장했다고 보도됐어요.",
@@ -21010,24 +21189,31 @@
    "6e942da10ee6": "MBC는 후티 공격으로 테니스 대회가 연기됐고 스포츠 차질이 잇따른다고 보도했어요.",
    "8fd0022ed750": "후티가 리야드에 전쟁을 가져왔다고 영문 리포트가 전했다고 보도됐어요.",
    "7b397f8dad9d": "후티의 아람코 본부 타격 소식이 경제 뉴스레터 등에 반영됐다고 보도됐어요.",
-   "7941cd38416c": "리야드 스카이라인이 후티의 공격 이후 장면으로 보도됐어요.",
-   "d26667010f7d": "후티가 공항에 미사일 명중을 주장했고 스포츠 행사에 차질이 있다고 보도됐어요.",
-   "28599e60140c": "후티가 공항을 정확히 타격했다고 주장했고 스포츠 경기가 차질을 빚는다고 보도됐어요.",
-   "a6a883fe9a56": "후티가 아람코·공항에 미사일·드론 공격을 했고 1명 부상이 발생했다고 보도됐어요.",
-   "7b5608b17c72": "미사일 공습으로 대형 테니스 이벤트가 연기됐고 내년 1월 아시안컵 일정에 불확실성이 있다고 보도됐어요.",
-   "48d6db591cc2": "바레인이 후티 공격을 규탄하며 안보리의 단호한 조치를 촉구했다고 보도됐어요.",
+   "7941cd38416c": "리야드 공격 이후의 스카이라인 장면을 보여주며 상황을 전했어요.",
+   "d26667010f7d": "후티가 사우디 공항에 미사일 명중을 주장했고 스포츠 행사에 차질이 있다고 보도했어요.",
+   "28599e60140c": "후티가 사우디 공항을 정확히 타격했다고 주장하며 스포츠 경기에도 차질이 있다고 전했어요.",
+   "a6a883fe9a56": "후티가 아람코와 공항에 미사일·드론 공격을 했다고 주장하며 1명 부상이 보고됐다고 전했어요.",
+   "7b5608b17c72": "미사일 공습 여파로 사우디의 대형 테니스 이벤트가 연기됐다고 보도했어요.",
+   "48d6db591cc2": "바레인이 후티 공격을 규탄하며 유엔 안보리의 결정적 조치를 촉구했다고 전했어요.",
    "ba0b754d049a": "후티가 공항에 미사일 명중을 주장했고 스포츠 행사에 영향이 있다고 보도됐어요.",
-   "3472dd1ed35f": "뉴스1은 미사일로 인한 여행업계 긴장 상황을 보도했어요.",
-   "667040e23e99": "이탈리아 외교장관이 사우디와 연대한다고 전화 통화에서 표현했다고 보도됐어요.",
+   "3472dd1ed35f": "미사일 낙하 사태로 여행업계가 긴장하고 있다고 전했어요.",
+   "667040e23e99": "이탈리아 외무장관이 후티 공격을 규탄하며 사우디와 연대를 표명했다고 보도했어요.",
    "8ab3e664e5d8": "아람코 피격·IEA 경고로 국제유가가 상승했다고 보도됐어요.",
    "3a55aa1990e9": "후티가 리야드 킹칼리드 공항을 탄도미사일로 공격했다고 보도됐어요.",
    "47d67ee303ba": "사우디의 국민적 결속을 다루는 사설성 보도가 나왔다고 보도됐어요.",
    "2d16d5832c74": "수단 국방장관이 후티 공격을 야만적이라고 규탄했다고 보도됐어요.",
-   "62e16c5da1f6": "사우디 아람코 본사가 후티 공격으로 심각한 피해를 봤으며 CEO 집무실도 파손됐다고 보도돼요.",
-   "86ebaf6cb7cb": "후티는 리야드 수도 국제공항을 탄도미사일로 타격했다고 주장했다고 보도돼요.",
-   "ee6cf2b87e04": "후티가 사우디에 미사일이 명중했다고 주장했고 이로 인해 스포츠 행사에 차질이 빚어졌다고 보도돼요.",
-   "6c542629f469": "프로축구선수협이 사우디 피격 관련 아시안컵 안전 보장을 촉구했다고 보도돼요.",
-   "3bf19d8bd389": "후티 반군이 리야드 국제공항을 탄도미사일로 공격해 명중했다고 주장했다고 보도돼요."
+   "62e16c5da1f6": "아람코 본사가 후티 공격으로 심각한 피해를 입었고 CEO 집무실도 파손됐다고 보도했어요.",
+   "86ebaf6cb7cb": "후티가 리야드 국제공항을 탄도미사일로 타격했다고 주장했다고 전했어요.",
+   "ee6cf2b87e04": "후티가 사우디에 미사일 명중을 주장했고, 이로 인해 스포츠 행사에 차질이 생겼다고 보도했어요.",
+   "6c542629f469": "프로축구선수협이 사우디 피격과 관련해 선수 안전 보장을 촉구했다고 전했어요.",
+   "3bf19d8bd389": "후티가 리야드 국제공항을 탄도미사일로 공격해 명중했다고 주장했다고 보도했어요.",
+   "db09278fce47": "FIFA와 사우디 e스포츠 연맹이 최근 사우디에 대한 공격으로 제다에서 열릴 FIFAe 파이널을 연기했다고 보도했어요.",
+   "c479ce65d201": "FIFA가 사우디에서 열릴 FIFAe 파이널을 최근의 공격을 이유로 연기했다고 전했어요.",
+   "940ff3bdda4f": "사우디 공격 여파로 테니스 대회가 연기되면서 대회 일정에 차질이 발생했다고 보도했어요.",
+   "e61a00172730": "요격된 두 발의 후티 미사일 잔해가 리야드의 주거지역에 떨어졌다고 전했어요.",
+   "d972e4cfaac2": "후티가 리야드 공항 명중과 아람코 본사 피격을 주장했다고 보도했어요.",
+   "f37706ee4254": "사우디 왕세자와 이라크 총리의 회담을 전하며 공격에 대한 거부를 확인했다고 전했어요.",
+   "cd7cdc2a2399": "후티 공격으로 사우디가 1명 부상했다고 보도했고 아람코와 공항을 공격했다고 전했어요."
   },
   "titlesKo": {
    "dda09c9cc972": "사우디 수도 공항 이번 주 폐쇄, 항공사 운항 취소",
@@ -21261,9 +21447,9 @@
    "91007dfce51c": "연합군, 리야드에서 무인기 요격·파괴 발표",
    "c112962b8c2e": "외교장관들의 후티 공격 비난 통화 보도",
    "fb806ab0113a": "사우디 국방장관, 폴란드와 군사협력 논의 보도",
-   "dfc27d4c3d8e": "연합군: 리야드 지역에서 순항미사일 요격·파괴 발표",
+   "dfc27d4c3d8e": "연합군, 리야드 지역 순항미사일 요격·파괴 발표",
    "053ff2360809": "연합군, 리야드·남부에서 순항미사일 3발 요격 발표",
-   "3b4363a03524": "연합군: 리야드·남부 지역에서 무인기 2대 요격·격파 발표",
+   "3b4363a03524": "사우디 국영통신: 리야드 지역 UAV 2대 요격·파괴",
    "e7c28850ebc7": "유가 혼조 마감, 미·러 디젤 거래·Saudi의 예멘 공격 주목",
    "7680f40acddf": "사우디 아람코 본사 인근 폭발·화재 발생 보도",
    "6f811301a2c7": "사우디, 리야드·남부 겨냥 순항미사일·드론 요격(보도)",
@@ -21340,7 +21526,7 @@
    "5d8d8c82d827": "사우디와 후티, 보복의 악순환 지속",
    "075328775f14": "사우디 방공망 뚫려…후티 공세에 취약",
    "2fd19b68eb97": "단독: 소식통들 \"사우디, 공격 이후 경영진들의 FII 회의 원격 참석 허용할 방침\"",
-   "b221c9e57a27": "후티, 아람코 본사 타격 후 공항·유전 추가 공격 약속",
+   "b221c9e57a27": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
    "b44eff45d85b": "사우디 토요타 챔피언십 타임어택 최종 라운드 내일 제다에서 개막",
    "9134287afcd1": "리야드 주민들, 상공 폭발음 들었다고 전해",
    "7d31bc7012eb": "로이터: 다흐란 아람코 본사 광범위 피해",
@@ -21392,7 +21578,7 @@
    "a66a006e5581": "AFP: 후티, 아람코 공격 후 추가 공격 위협",
    "2a0a6ee11527": "예멘 정부군, 후티 포위 격파 다짐",
    "f37706ee4254": "사우디 왕실·이라크 정상 통화에서 공격 규탄",
-   "0c05e1bf5374": "후티, 사우디 아람코 본사 공격했다고 주장",
+   "0c05e1bf5374": "이란 지원 후티, 아람코 본사 타격했다고 사우디 당국자들 언급",
    "40b048f469c3": "후티 공격 속 사우디 테니스 대회 연기",
    "6047578ce1a2": "영국 의원들, 후티 단체 지정 촉구",
    "e03118073e58": "후티 \"아람코·공항에 미사일·드론 공격\"…1명 부상 보도",
@@ -21408,17 +21594,17 @@
    "7b397f8dad9d": "뉴스레터: 후티가 아람코 본부를 타격",
    "f09fa8f235c3": "사우디 외교장관, 이탈리아 장관과 통화해 후티 공격 논의",
    "48d6db591cc2": "바레인, 후티의 사우디 공격 규탄",
-   "667040e23e99": "이탈리아 장관, 사우디와 연대 표명",
+   "667040e23e99": "이탈리아 외무장관, 전화로 사우디에 연대 표명",
    "096c9b227edc": "이탈리아, 후티의 사우디 공격 규탄하며 연대 표명",
-   "6ff399790b3c": "바레인, 후티 공격 규탄 및 안보리 조치 촉구",
-   "d54f41c3087e": "국제유가, 아람코 피격·IEA 경고에 상승",
+   "6ff399790b3c": "바레인, 후티 공격 규탄 및 유엔 안보리 조치 촉구",
+   "d54f41c3087e": "국제유가, 아람코 피격 영향으로 상승",
    "88fe8b13e2b1": "국제유가 상승…IEA 공급 경고에 아람코 시설 피격 보도",
    "b2ae18aedf30": "국제유가, 아람코 피격·IEA 경고에 상승",
    "6fa0853cb3bf": "후티 \"사우디 석유시설·공항에 미사일·드론 공격\"…1명 부상",
    "9f10227c74fd": "국제유가, 아람코 피격·IEA 경고에 상승",
-   "794229e59ebc": "후티, 사우디 공항 연일 공격…“킹칼리드에 미사일 타격”",
+   "794229e59ebc": "후티, 연일 사우디 공항 공격 지속 보도",
    "63bde5bca2b9": "후티 “리야드 국제공항 미사일로 명중”이라고 주장",
-   "3114d9613132": "후티, 샤우디 리야드 킹칼리드 공항 탄도미사일 공격이라고 주장",
+   "3114d9613132": "후티, 샤우디 리야드 킹칼리드 공항 탄도미사일 공격",
    "3f37df105b6a": "친이란 후티 \"리야드 공항에 탄도미사일 명중\"(종합)",
    "6bf307fe4496": "후티 \"리야드 국제공항 탄도미사일로 공격 성공\"이라고 주장",
    "eebc0092f001": "후티 반군 \"사우디 리야드 공항 탄도미사일로 공격…명중\"이라고 주장",
@@ -21431,80 +21617,49 @@
    "7941cd38416c": "리야드 스카이라인 장면(후티의 사우디 공격 이후)",
    "d26667010f7d": "후티 \"사우디 공항에 미사일 명중\"…스포츠 행사도 차질",
    "28599e60140c": "후티 \"사우디 공항 정확히 타격\"…스포츠 경기도 차질",
-   "a6a883fe9a56": "후티 “사우디 아람코·공항에 미사일·드론 공격”…1명 부상",
-   "7b5608b17c72": "미사일 공습에 연기된 사우디 대형 테니스 이벤트",
+   "a6a883fe9a56": "후티 “아람코·공항에 미사일·드론 공격”…1명 부상",
+   "7b5608b17c72": "미사일 공습 여파로 사우디 대형 테니스 이벤트 연기",
    "ba0b754d049a": "후티 \"사우디 공항 미사일 명중\"…스포츠에도 '불똥'",
    "3472dd1ed35f": "미사일 떨어지는 사우디, 여행업계 '긴장'",
    "8ab3e664e5d8": "국제유가, 아람코 피격·IEA 경고에 상승",
-   "3a55aa1990e9": "후티, 리야드 킹칼리드 공항 탄도미사일 공격이라고 주장",
+   "3a55aa1990e9": "후티, 사우디 리야드 킹칼리드 공항 탄도미사일 공격",
    "96f688898987": "임박한 공격: 사우디, 후티의 공격이 아람코 화재와 리야드에서 4명 부상 촉발했다고 주장",
    "86ebaf6cb7cb": "후티 “리야드 국제공항을 탄도미사일로 타격”이라고 주장",
-   "3bf19d8bd389": "후티 반군 \"리야드 국제공항 탄도미사일로 공격‥명중\"이라고 주장",
+   "3bf19d8bd389": "후티 반군, 리야드 공항 탄도미사일 명중 주장",
    "ee6cf2b87e04": "후티 \"사우디에 미사일 명중\"이라고 주장",
    "62e16c5da1f6": "사우디 아람코 본사, 후티 공격에 심각 피해…CEO 집무실도 파손",
    "6c542629f469": "프로축구선수협, 사우디 피격 아시안컵 안전 촉구",
-   "e61a00172730": "리야드에 요격된 후티 미사일 잔해 2발이 주거 지역에 낙하",
-   "c479ce65d201": "스포츠 - 공격 발생으로 사우디아라비아에서 열릴 예정이던 FIFAe 파이널 연기"
+   "e61a00172730": "요격된 후티 미사일 잔해가 리야드 주거지에 낙하",
+   "c479ce65d201": "FIFA, 사우디 공격으로 FIFAe 파이널 연기",
+   "db09278fce47": "FIFA, 사우디에서의 공격으로 FIFAe 파이널 연기",
+   "940ff3bdda4f": "사우디 공격 여파로 테니스 대회 등 일정 연기",
+   "d972e4cfaac2": "후티 반군, 리야드 공항 명중·아람코 본사 피격 주장"
   },
   "aiClusters": [
    {
     "articleIds": [
-     "0c05e1bf5374",
-     "032ae21e9819",
-     "e3718ba5cb1e",
-     "a66a006e5581",
-     "b221c9e57a27",
-     "3b0223b1485d",
-     "f37706ee4254",
-     "3d2c366f3331",
-     "47d67ee303ba",
-     "2d16d5832c74",
-     "3078d73a72ec",
-     "6047578ce1a2"
-    ],
-    "titleKo": "후티, 사우디 아람코 본사 및 석유 시설 목표로 공격했다고 주장",
-    "type": "energy",
-    "regions": [
-     "eastern"
-    ],
-    "regionInferred": true,
-    "inferNote": "아람코(사우디 석유기업) 본사가 위치한 동부 지역을 가리키는 것으로 보아 동부주와 연관 있다고 추정했어요.",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "86ebaf6cb7cb",
-     "3bf19d8bd389",
-     "ee6cf2b87e04",
-     "3f37df105b6a",
      "eebc0092f001",
-     "63bde5bca2b9",
+     "3f37df105b6a",
      "6bf307fe4496",
      "3a55aa1990e9",
      "3114d9613132",
-     "7b397f8dad9d",
-     "794229e59ebc",
-     "6ff399790b3c",
-     "dfc27d4c3d8e",
-     "3b4363a03524",
-     "d982ff9672c0",
-     "c218e650f0b5",
-     "9f10227c74fd",
-     "7941cd38416c",
-     "f09fa8f235c3",
-     "48d6db591cc2",
-     "096c9b227edc",
-     "667040e23e99",
+     "63bde5bca2b9",
+     "d26667010f7d",
+     "28599e60140c",
+     "d972e4cfaac2",
+     "a3ec7a45b4cd",
      "ba0b754d049a",
-     "a3ec7a45b4cd"
+     "6e942da10ee6",
+     "4a8bebe18303",
+     "dc7c20a79278",
+     "794229e59ebc",
+     "6fa0853cb3bf"
     ],
-    "titleKo": "후티, 리야드 국제공항에 탄도미사일로 타격했다고 주장",
+    "titleKo": "후티, 리야드 국제공항에 탄도미사일 명중이라고 주장",
     "type": "airport",
     "regions": [
      "riyadh",
-     "airport"
+     "eastern"
     ],
     "regionInferred": false,
     "inferNote": "",
@@ -21514,54 +21669,117 @@
    },
    {
     "articleIds": [
+     "0c05e1bf5374",
+     "032ae21e9819",
+     "e3718ba5cb1e",
+     "a66a006e5581",
+     "b221c9e57a27",
+     "d8dfdc841673",
+     "cd7cdc2a2399",
+     "6c542629f469",
      "62e16c5da1f6",
+     "2aed56d3a15d",
      "d54f41c3087e",
-     "88fe8b13e2b1",
      "b2ae18aedf30",
-     "6fa0853cb3bf",
-     "8ab3e664e5d8"
+     "8ab3e664e5d8",
+     "9f10227c74fd",
+     "f09fa8f235c3",
+     "096c9b227edc",
+     "3b0223b1485d",
+     "7941cd38416c"
     ],
-    "titleKo": "아람코 본사 피격으로 국제유가 상승 보고",
+    "titleKo": "후티, 아람코 본사도 미사일·드론로 공격했다고 주장",
     "type": "energy",
     "regions": [
+     "dammam",
+     "jafurah",
      "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "아람코 시설 피해와 국제유가 연관 보도로 아람코 위치(동부주)를 추정했어요.",
+    "inferNote": "아람코 본사·석유 시설 언급으로 동부주(담맘·자푸라) 관련 가능성이 있어 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "4a8bebe18303",
-     "2aed56d3a15d",
-     "6e942da10ee6",
-     "7b5608b17c72",
-     "80f8c2ffa633",
-     "6c542629f469",
-     "dc7c20a79278",
-     "3472dd1ed35f"
+     "e61a00172730"
     ],
-    "titleKo": "후티 공격으로 사우디 내 스포츠 행사 연기·차질 보고",
+    "titleKo": "리야드에 요격된 미사일 잔해가 주거지에 낙하했다고 보도",
+    "type": "missile",
+    "regions": [
+     "riyadh"
+    ],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "db09278fce47",
+     "c479ce65d201",
+     "940ff3bdda4f",
+     "7b5608b17c72"
+    ],
+    "titleKo": "FIFA 등 국제행사 연기 또는 취소 보도",
+    "type": "advisory",
+    "regions": [],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "6ff399790b3c",
+     "48d6db591cc2",
+     "1919287cea11",
+     "667040e23e99",
+     "f37706ee4254"
+    ],
+    "titleKo": "이탈리아 등 외교국가들, 후티 공격 규탄·연대 표명",
     "type": "security",
     "regions": [
      "riyadh"
     ],
-    "regionInferred": true,
-    "inferNote": "연기된 테니스 등 주요 행사가 리야드 등에서 열린 보도로 리야드 관련으로 추정했어요.",
+    "regionInferred": false,
+    "inferNote": "",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "d26667010f7d"
+     "dfc27d4c3d8e",
+     "3b4363a03524"
+    ],
+    "titleKo": "연합군, 리야드 지역에서 UAV·순항미사일 요격했다고 발표",
+    "type": "security",
+    "regions": [
+     "riyadh"
+    ],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "86ebaf6cb7cb"
     ]
    },
    {
     "articleIds": [
-     "28599e60140c"
+     "ee6cf2b87e04"
+    ]
+   },
+   {
+    "articleIds": [
+     "3bf19d8bd389"
     ]
    },
    {
@@ -21571,7 +21789,32 @@
    },
    {
     "articleIds": [
+     "88fe8b13e2b1"
+    ]
+   },
+   {
+    "articleIds": [
+     "3472dd1ed35f"
+    ]
+   },
+   {
+    "articleIds": [
+     "7b397f8dad9d"
+    ]
+   },
+   {
+    "articleIds": [
      "8fd0022ed750"
+    ]
+   },
+   {
+    "articleIds": [
+     "6047578ce1a2"
+    ]
+   },
+   {
+    "articleIds": [
+     "80f8c2ffa633"
     ]
    },
    {
@@ -21586,22 +21829,35 @@
    },
    {
     "articleIds": [
-     "1919287cea11"
+     "c218e650f0b5"
     ]
    },
    {
     "articleIds": [
-     "d8dfdc841673"
+     "d982ff9672c0"
     ]
    },
    {
     "articleIds": [
-     "cd7cdc2a2399"
-    ]
+     "3d2c366f3331"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
-     "db9e372c01a0"
+     "47d67ee303ba"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "2d16d5832c74"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3078d73a72ec"
     ],
     "fromRule": true
    },
@@ -21629,6 +21885,12 @@
    {
     "articleIds": [
      "d63ea25ea860"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "db9e372c01a0"
     ],
     "fromRule": true
    },
@@ -22366,8 +22628,8 @@
    },
    {
     "articleIds": [
-     "a6cd3c578b32",
-     "f22c6b7a9c40"
+     "f22c6b7a9c40",
+     "a6cd3c578b32"
     ],
     "fromRule": true
    },
@@ -23520,40 +23782,16 @@
      "1b6934877ec6"
     ],
     "fromRule": true
-   },
-   {
-    "articleIds": [
-     "d972e4cfaac2"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "e61a00172730"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "c479ce65d201"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "940ff3bdda4f"
-    ],
-    "fromRule": true
    }
   ],
   "aiSummaryKo": [
-   "최근 보도에 따르면 리야드에서 미사일 잔해가 주거지에 떨어졌다고 AP가 전했습니다.",
-   "후티는 리야드 국제공항과 아람코 본사 등 목표 타격을 주장했다고 연합뉴스·AP 등 보도했습니다.",
-   "사우디 국영통신은 리야드 등에서 무인기·순항미사일 요격을 발표했습니다.",
-   "공항·아람코 피격 여파로 다수 스포츠 행사가 연기되고 있다고 로이터·각 언론이 전했습니다."
+   "후티가 리야드 국제공항에 탄도미사일 명중을 주장했다고 보도돼요(후티 주장, 미확인).",
+   "후티가 아람코 본사도 미사일·드론로 공격했다고 주장했고 일부 매체는 피해를 전했어요(로이터·AP 등 보도).",
+   "몇 차례 요격 시도와 요격 잔해가 리야드 주거지에 떨어졌다고 보도됐어요(국영통신·AP 등 보도).",
+   "FIFA 등 여러 국제행사가 연기됐고 외교국가들이 후티 공격을 규탄했다고 보도됐어요."
   ],
-  "lastAiAt": 1792030230921,
-  "summaryAt": "2026-10-15T04:20:27.432Z",
+  "lastAiAt": 1792039831986,
+  "summaryAt": "2026-10-15T04:50:31.986Z",
   "promptVersion": 4
  }
 }
