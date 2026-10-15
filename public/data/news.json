@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-15T05:40:32.618Z",
-  "lastAttemptAt": "2026-10-15T05:40:32.618Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-15T05:41:54.738Z",
+  "lastAttemptAt": "2026-10-15T05:41:54.738Z",
   "aiSummary": true,
   "summaryAt": "2026-10-15T04:50:31.986Z",
   "aiError": null,
@@ -21,7 +21,7 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 134
+    "count": 135
    },
    {
     "name": "AP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 145
+    "count": 144
    },
    {
     "name": "Saudi Gazette",
@@ -55,13 +55,15 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,38 +71,7 @@
     "count": 79
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
-    "date": "2026-10-14",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -205,7 +176,6 @@
   {
    "id": "e0a71f0be0b4",
    "articleIds": [
-    "b221c9e57a27",
     "cd7cdc2a2399",
     "d8dfdc841673",
     "3b0223b1485d",
@@ -216,6 +186,7 @@
     "9f10227c74fd",
     "b2ae18aedf30",
     "8ab3e664e5d8",
+    "b221c9e57a27",
     "f09fa8f235c3",
     "096c9b227edc",
     "d54f41c3087e",
@@ -243,16 +214,6 @@
    "collectedAt": "2026-10-14T10:00:46.294Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
-     "titleKo": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
-     "summary": "후티가 아람코 본사 타격 후 공항과 석유시설에 대한 추가 공격을 예고했다고 보도했어요.",
-     "reportedAt": "2026-10-14T09:51:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
-    },
     {
      "outlet": "YTN",
      "cat": "kr",
@@ -352,6 +313,16 @@
      "reportedAt": "2026-10-14T20:34:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DZ0NxMF8zWjl5WTNyTWUwYWJBRGV3VzFEODlsMUozRldGTUlJWmJFQzZXMkYwbFFmNk9YZG1PSVYycUZIRDJvdFJqR1E0Mk44ckRtQ1hsUHQ4VkU?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+     "titleKo": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
+     "summary": "후티가 아람코 본사 타격 후 공항과 석유시설에 대한 추가 공격을 예고했다고 보도했어요.",
+     "reportedAt": "2026-10-14T21:12:59.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
     },
     {
      "outlet": "Asharq Al-Awsat",
@@ -730,7 +701,7 @@
      "summary": "후티가 리야드 공항 명중과 아람코 본사 피격을 주장했다고 보도했어요.",
      "reportedAt": "2026-10-14T22:42:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WeV9HNzZESnBPWGJaN0pxdW5ldFpNV3RyVVcxZVd5d1g3S0RZRHgzYWZabUdRbEhTTmw1ZWhnbzUzTWVVVUlBRHBwQXhtYTFnRGZlRE5GR2jSAVhBVV95cUxOVnlfRzc2REpwT1hiWjdKcXVuZXRaTVd0clVXMWVXeXdYN0tEWUR4M2FmWm1HUWxIU05sNWVoZ281M01lVVVJQURwcEF4bWExZ0RmZURORkdo?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGek5fZG8zcllJVFF2STd0S0VkTmpsV25yNU1hLVNIczlPdGxuRW53M1lZbXNERWJtMXNRVFJGV2lnMVd2MUxGdnl2QlFGdWhrZ3dj0gFYQVVfeXFMTlZ5X0c3NkRKcE9YYlo3SnF1bmV0Wk1XdHJVVzFlV3l3WDdLRFlEeDNhZlptR1FsSFNObDVlaGdvNTNNZVVVSUFEcHBBeG1hMWdEZmVETkZHaA?oc=5"
     },
     {
      "outlet": "연합뉴스",
@@ -12223,6 +12194,24 @@
    "url": "https://english.aawsat.com/node/5329718"
   },
   {
+   "id": "b221c9e57a27",
+   "outlet": "Reuters",
+   "official": false,
+   "claim": false,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
+   "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+   "summary": "후티가 아람코 본사 타격 후 공항과 석유시설에 대한 추가 공격을 예고했다고 보도했어요.",
+   "reportedAt": "2026-10-14T21:12:59.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
+  },
+  {
    "id": "6ff399790b3c",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -12635,24 +12624,6 @@
    "reportedAt": "2026-10-14T09:59:45.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OaDh1NkVOcktGdXJkX0ZiU1lRZ21GVHRRaFhDRWJLS1pkUHpZMS1rbnhFQWRKSlAyNlFTd0M4TTIxNE1HeUZwUDNR?oc=5"
-  },
-  {
-   "id": "b221c9e57a27",
-   "outlet": "Reuters",
-   "official": false,
-   "claim": false,
-   "type": "energy",
-   "sev": "high",
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "titleKo": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
-   "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
-   "summary": "후티가 아람코 본사 타격 후 공항과 석유시설에 대한 추가 공격을 예고했다고 보도했어요.",
-   "reportedAt": "2026-10-14T09:51:00.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
   },
   {
    "id": "9ed2934edda7",
@@ -14496,7 +14467,7 @@
     "outlet": "SBS",
     "title": "후티 반군 사우디 리야드 공항 명중…아람코 본사도 피격",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WeV9HNzZESnBPWGJaN0pxdW5ldFpNV3RyVVcxZVd5d1g3S0RZRHgzYWZabUdRbEhTTmw1ZWhnbzUzTWVVVUlBRHBwQXhtYTFnRGZlRE5GR2jSAVhBVV95cUxOVnlfRzc2REpwT1hiWjdKcXVuZXRaTVd0clVXMWVXeXdYN0tEWUR4M2FmWm1HUWxIU05sNWVoZ281M01lVVVJQURwcEF4bWExZ0RmZURORkdo?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGek5fZG8zcllJVFF2STd0S0VkTmpsV25yNU1hLVNIczlPdGxuRW53M1lZbXNERWJtMXNRVFJGV2lnMVd2MUxGdnl2QlFGdWhrZ3dj0gFYQVVfeXFMTlZ5X0c3NkRKcE9YYlo3SnF1bmV0Wk1XdHJVVzFlV3l3WDdLRFlEeDNhZlptR1FsSFNObDVlaGdvNTNNZVVVSUFEcHBBeG1hMWdEZmVETkZHaA?oc=5",
     "reportedAt": 1792017720000,
     "assumeSaudi": false,
     "firstSeen": 1792032872553
@@ -14626,6 +14597,20 @@
     "reportedAt": 1792012487000,
     "assumeSaudi": false,
     "firstSeen": 1792012834315
+   },
+   {
+    "id": "b221c9e57a27",
+    "feed": "Reuters",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "Reuters",
+    "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5",
+    "reportedAt": 1792012379000,
+    "assumeSaudi": false,
+    "firstSeen": 1791972046294
    },
    {
     "id": "3472dd1ed35f",
@@ -15676,20 +15661,6 @@
     "reportedAt": 1791971985000,
     "assumeSaudi": false,
     "firstSeen": 1791975027871
-   },
-   {
-    "id": "b221c9e57a27",
-    "feed": "Reuters",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "Reuters",
-    "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5",
-    "reportedAt": 1791971460000,
-    "assumeSaudi": false,
-    "firstSeen": 1791972046294
    },
    {
     "id": "b7d7a03a23a4",
