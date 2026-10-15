@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-15T06:20:27.655Z",
-  "lastAttemptAt": "2026-10-15T06:20:27.655Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-15T06:30:40.123Z",
+  "lastAttemptAt": "2026-10-15T06:30:40.123Z",
   "aiSummary": true,
   "summaryAt": "2026-10-15T04:50:31.986Z",
   "aiError": null,
@@ -16,7 +16,7 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 77
+    "count": 78
    },
    {
     "name": "Reuters",
@@ -26,7 +26,7 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 217
+    "count": 218
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 143
+    "count": 149
    },
    {
     "name": "Saudi Gazette",
@@ -55,23 +55,52 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 3
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 48
+    "count": 74
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
+    "date": "2026-10-14",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -2980,6 +3009,38 @@
    ]
   },
   {
+   "id": "aa3f94b1690f",
+   "articleIds": [
+    "6a0b04d0f422"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T02:30:41.320Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
+     "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
+     "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
+     "reportedAt": "2026-10-14T05:38:17.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNG1ONVNnQm5JdWl6ZGFYV0tzbVlrZ2c1X2RMa21aVmQ2aWQ5S1dhVGdldDMxdWh2dzM4V1RfTERnUUdYMGlDelF4dThXcmhUWTZSTjBXb0MzN3FMWlBIYkdJcTBldEx1T040cGdHclZEVVh0d1Z2ZjBNZF9Xd3hOWXNqYklKZXlwcEduRjZyY0ZDYWItOWZmSlFtM3NCWDRTLUJZRWZSZ25Nc2ZTMzFFem0yTXVySFA2WjkwNFdsLUxScEUybTFlT0tCQzU1bUxOeWk2TDN3?oc=5"
+    }
+   ]
+  },
+  {
    "id": "04b2ee0a8884",
    "articleIds": [
     "bfac6fa9f965"
@@ -3083,38 +3144,6 @@
      "reportedAt": "2026-10-14T05:23:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR002VVo0b3ZvU0RXV3V5TWdvX0Jmc1NiQjBDNjljbTVWbFZnQ1hIUm5WTUNHZFZSNlV4WWoxZVBDNFhwZUEzZF9kVUlla0dZOWstVWZQQnA1TGpqeXI4Y05KbkpOay00U3NLYkZxZ1BHQWQ4ay14eEk3bHlfSzBMVzlrd2tuQ1hyaHoteGZSZ0pyYjdvYjB1QlEtOTR1YVNZZnZTRw?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "aa3f94b1690f",
-   "articleIds": [
-    "6a0b04d0f422"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T02:30:41.320Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
-     "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
-     "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
-     "reportedAt": "2026-10-14T05:16:17.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRUpfNzNoWFpoalE3b3E3WmlXemt0azdoOHRBelBmWk5ZSlN1dW02OEZDUE1iQmhmMVNjaFpGck9KaS1BT1JERkhKZS1mdDE2Zi1BMzhjR21BTnFXeTdVU3dUQlp1SHM3WlFRZE1iQWE1M0daaTlLMTFtMVRvNmpfTktSRmlDTmlaLU4wSGg3c2Q1LU0tTC1Hc2VEcHIyYktseFI0OU1NaUt6TV9ZLTVFU3RfU0o1TlhRODNSaHZfRFotc1JZWWM1UVZNeWtIZkd6TjduckxB?oc=5"
     }
    ]
   },
@@ -12615,9 +12644,9 @@
    "titleKo": "전쟁 상황: 사우디 연합군 후티 표적 타격, 동부 아람코 사무실 피격",
    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
    "summary": "Al Jazeera는 알자지라·사우디 연합군이 후티 미사일을 요격했고 동부 아람코 사무실이 타격을 받았다고 보도했어요.",
-   "reportedAt": "2026-10-14T05:16:17.000Z",
+   "reportedAt": "2026-10-14T05:38:17.000Z",
    "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRUpfNzNoWFpoalE3b3E3WmlXemt0azdoOHRBelBmWk5ZSlN1dW02OEZDUE1iQmhmMVNjaFpGck9KaS1BT1JERkhKZS1mdDE2Zi1BMzhjR21BTnFXeTdVU3dUQlp1SHM3WlFRZE1iQWE1M0daaTlLMTFtMVRvNmpfTktSRmlDTmlaLU4wSGg3c2Q1LU0tTC1Hc2VEcHIyYktseFI0OU1NaUt6TV9ZLTVFU3RfU0o1TlhRODNSaHZfRFotc1JZWWM1UVZNeWtIZkd6TjduckxB?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNG1ONVNnQm5JdWl6ZGFYV0tzbVlrZ2c1X2RMa21aVmQ2aWQ5S1dhVGdldDMxdWh2dzM4V1RfTERnUUdYMGlDelF4dThXcmhUWTZSTjBXb0MzN3FMWlBIYkdJcTBldEx1T040cGdHclZEVVh0d1Z2ZjBNZF9Xd3hOWXNqYklKZXlwcEduRjZyY0ZDYWItOWZmSlFtM3NCWDRTLUJZRWZSZ25Nc2ZTMzFFem0yTXVySFA2WjkwNFdsLUxScEUybTFlT0tCQzU1bUxOeWk2TDN3?oc=5"
   },
   {
    "id": "04dc6d0c3a08",
@@ -15951,6 +15980,20 @@
     "firstSeen": 1791957649208
    },
    {
+    "id": "6a0b04d0f422",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNG1ONVNnQm5JdWl6ZGFYV0tzbVlrZ2c1X2RMa21aVmQ2aWQ5S1dhVGdldDMxdWh2dzM4V1RfTERnUUdYMGlDelF4dThXcmhUWTZSTjBXb0MzN3FMWlBIYkdJcTBldEx1T040cGdHclZEVVh0d1Z2ZjBNZF9Xd3hOWXNqYklKZXlwcEduRjZyY0ZDYWItOWZmSlFtM3NCWDRTLUJZRWZSZ25Nc2ZTMzFFem0yTXVySFA2WjkwNFdsLUxScEUybTFlT0tCQzU1bUxOeWk2TDN3?oc=5",
+    "reportedAt": 1791956297000,
+    "assumeSaudi": false,
+    "firstSeen": 1791945041320
+   },
+   {
     "id": "bfac6fa9f965",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -15991,20 +16034,6 @@
     "reportedAt": 1791955380000,
     "assumeSaudi": false,
     "firstSeen": 1791946846875
-   },
-   {
-    "id": "6a0b04d0f422",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRUpfNzNoWFpoalE3b3E3WmlXemt0azdoOHRBelBmWk5ZSlN1dW02OEZDUE1iQmhmMVNjaFpGck9KaS1BT1JERkhKZS1mdDE2Zi1BMzhjR21BTnFXeTdVU3dUQlp1SHM3WlFRZE1iQWE1M0daaTlLMTFtMVRvNmpfTktSRmlDTmlaLU4wSGg3c2Q1LU0tTC1Hc2VEcHIyYktseFI0OU1NaUt6TV9ZLTVFU3RfU0o1TlhRODNSaHZfRFotc1JZWWM1UVZNeWtIZkd6TjduckxB?oc=5",
-    "reportedAt": 1791954977000,
-    "assumeSaudi": false,
-    "firstSeen": 1791945041320
    },
    {
     "id": "e2f38a9fc9e2",
