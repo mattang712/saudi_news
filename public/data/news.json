@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-15T13:40:36.704Z",
-  "lastAttemptAt": "2026-10-15T13:40:36.704Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-15T13:49:39.210Z",
+  "lastAttemptAt": "2026-10-15T13:49:39.210Z",
   "aiSummary": true,
   "summaryAt": "2026-10-15T13:20:32.503Z",
   "aiError": null,
@@ -21,57 +21,86 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 143
+    "count": 155
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 208
+    "count": 204
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 117
+    "count": 118
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 155
+    "count": 156
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 68
+    "count": 67
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 179
+    "count": 180
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 62
+    "count": 60
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 3
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 79
+    "count": 78
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
+    "date": "2026-10-14",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -202,6 +231,71 @@
      "reportedAt": "2026-10-15T13:16:26.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/coalition-houthis-have-carried-out-20-attacks-on-king-khalid-international-airport-since-oct-1-3006534"
+    }
+   ]
+  },
+  {
+   "id": "aec0f144fd38",
+   "articleIds": [
+    "26bb02dd9b71"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "연합군: 후티, 10월에 킹 칼리드 국제공항에 20차례 공격",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T13:49:39.210Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition: Houthis have carried out 20 attacks on King Khalid International Airport in October",
+     "titleKo": "연합군: 후티, 10월에 킹 칼리드 국제공항에 20차례 공격",
+     "summary": "",
+     "reportedAt": "2026-10-15T13:16:26.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-houthis-have-carried-out-20-attacks-on-king-khalid-international-airport-in-october-3006534"
+    }
+   ]
+  },
+  {
+   "id": "2d5dab9336a9",
+   "articleIds": [
+    "6005a5d46505"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디, ‘이슬람 성지’ 메디나서 미사일 요격…후티 “거짓말”",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T13:49:39.210Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "한겨레",
+     "cat": "kr",
+     "title": "사우디, ‘이슬람 성지’ 메디나서 미사일 요격…후티 “거짓말”",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-15T13:15:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jcjVGLWFqOXAyaXhWWVNybTFGdDBSeENNcEppeWhabndkWnlKRjA5amVGWjYyM0haVlQ4aC1JS1QwalFENW5VT3liTGxsVnFzcERhVWRxWWdxa3NPLUp1MEY3NmdXT0N3bW5rMmQ5a1QzTFk?oc=5"
     }
    ]
   },
@@ -2446,6 +2540,38 @@
    ]
   },
   {
+   "id": "5ae52fc40250",
+   "articleIds": [
+    "db9e372c01a0"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "AFP: 후티 공격으로 사우디 리그 3경기 연기",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-14T13:50:34.549Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Saudi league postpones three matches after Houthi attacks",
+     "titleKo": "AFP: 후티 공격으로 사우디 리그 3경기 연기",
+     "summary": "AFP는 후티 공격으로 사우디 리그 경기 3경기가 연기됐다고 보도했어요.",
+     "reportedAt": "2026-10-14T14:22:55.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONk1xT1llcW92WWhEMGtzdkRKMUdVMVcwMi0wMk9QMXB2Y0lkaFV2Z3o0cXpPSHZYNmw5Q1dSYndHbmVsRWdQWHZmb2VoeElzd3pUa21JZmMxRDN5VTQxWFh3cnNwcFlHaGpVZkUwd2dVeUJOTWpkZWNsbUNBaTg0RUZ1TW9tdHM?oc=5"
+    }
+   ]
+  },
+  {
    "id": "809ddb78435a",
    "articleIds": [
     "d63ea25ea860"
@@ -2474,38 +2600,6 @@
      "reportedAt": "2026-10-14T13:47:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "5ae52fc40250",
-   "articleIds": [
-    "db9e372c01a0"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "AFP: 후티 공격으로 사우디 리그 3경기 연기",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T13:50:34.549Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Saudi league postpones three matches after Houthi attacks",
-     "titleKo": "AFP: 후티 공격으로 사우디 리그 3경기 연기",
-     "summary": "AFP는 후티 공격으로 사우디 리그 경기 3경기가 연기됐다고 보도했어요.",
-     "reportedAt": "2026-10-14T13:41:42.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFNzdmg3dUlNTWFxcDB2ZVpqQWJXd2RrWEMwQzdhNEJVbS1waUlHMFFTQXJ4WVByUTMtTEhfTU0wRWxIckJUbFdQZkNwRUVvM2piVGk1anZZT0Exc3gtaFNNVDh2Tm4wbF9PRFA5bERfdV9UY0ltcHU0amhsSTNlN1RRZ2VocnFtUGY0MmRvNzZpQm9ZTzI4eHdXbWViZTVtc01XZmJIMA?oc=5"
     }
    ]
   },
@@ -11888,38 +11982,6 @@
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ3NSTzhiZ1BaenVlYkxBRF9QVGRRdnhFQWM2cmIxQmp3dTdsdTdKSWQzZ1NmSVlLTTRRb2VMNWZKcldVRHd2TnRLV1ZzZHlhRVZLOERJZmxmVlJXN0hxYTVXbk13Y1RNT1NhY2dlTkFQUDZYczdOems1S2ZTTWcwWllBNWFDRnlmcnZwRzlfb2plNVctRGtUZnBOWWV1S1hTbTM3SmVsV3FQZExHek9NX0hmbkJmUQ?oc=5"
     }
    ]
-  },
-  {
-   "id": "9d202751e492",
-   "articleIds": [
-    "9cadb5f8a795"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "리야드 공항 2차 공격에 따른 사우디 주가 하락 보도",
-   "titleAuto": true,
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-12T16:56:20.167Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi shares fall after second airport attack as Gulf trade stays cautious",
-     "titleKo": "리야드 공항 2차 공격에 따른 사우디 주가 하락 보도",
-     "summary": "로이터는 두 차례 공항 공격 여파로 사우디 주식이 하락했다고 보도했어요.",
-     "reportedAt": "2026-10-12T13:44:30.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDJseDNYUmxPQzZqWnBZM1hRbXJhaGQwdklnQVZBUWp3WEY2SUczaGpYejg3bXRDYzdDN3ctYzRVNVhBc05Rc084QzdOemRFX1l0a2J5TElELVFXUldBZEd6WVItdjVaeFZfWTVEdjJ5VGVkVmxiLVZ5ZWg3ckFLclRTcG1OaExuTnZXamxFcElNalR0SWlPUm5qY2lIa0dFQVJmc24wX0F2WG1nc3hnV3Z0dXEyN0pLWmhnRXJHeFVJTVU?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -13896,24 +13958,6 @@
    "reportedAt": "2026-10-12T14:07:26.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZENLRXVWdDdZX1BvTXFQN3E2TnRnYnJxUER4aldTVHFiR1pyenp6RllPeTMxeG55MjVrUE9TR3R2NzF2U1FEbjVHbS13S3JSNlJ5dldvWktocXZ6QzBkSEx6WV83SVBTN216X1BPYlhrSVoxZWp5a0REZkJjaVpBb2IteXBLN212R0lkRFJGeFdLaUhtb0ZuWFY1Q1BMT0pYWUZCZlhzX3JyUQ?oc=5"
-  },
-  {
-   "id": "9cadb5f8a795",
-   "outlet": "Reuters",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "titleKo": "리야드 공항 2차 공격에 따른 사우디 주가 하락 보도",
-   "title": "Saudi shares fall after second airport attack as Gulf trade stays cautious",
-   "summary": "로이터는 두 차례 공항 공격 여파로 사우디 주식이 하락했다고 보도했어요.",
-   "reportedAt": "2026-10-12T13:44:30.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDJseDNYUmxPQzZqWnBZM1hRbXJhaGQwdklnQVZBUWp3WEY2SUczaGpYejg3bXRDYzdDN3ctYzRVNVhBc05Rc084QzdOemRFX1l0a2J5TElELVFXUldBZEd6WVItdjVaeFZfWTVEdjJ5VGVkVmxiLVZ5ZWg3ckFLclRTcG1OaExuTnZXamxFcElNalR0SWlPUm5qY2lIa0dFQVJmc24wX0F2WG1nc3hnV3Z0dXEyN0pLWmhnRXJHeFVJTVU?oc=5"
   }
  ],
  "_cache": {
@@ -13961,6 +14005,20 @@
     "firstSeen": 1792071043565
    },
    {
+    "id": "26bb02dd9b71",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Coalition: Houthis have carried out 20 attacks on King Khalid International Airport in October",
+    "snippet": "RIYADH: The Houthis have carried out 20 attacks on King Khalid International Airport since Oct. 1, the Coalition to Restore Legitimacy said on Thursday. During a press conference, the spokesperson for the coalition Maj. Gen. Turki Al-Maliki said 17 people have died and more than 330 have been injured in attacks on the airport in Riyadh. “These brutal terrorist attacks—including the brutal attack t",
+    "url": "https://www.arabnews.com/saudi-arabia/coalition-houthis-have-carried-out-20-attacks-on-king-khalid-international-airport-in-october-3006534",
+    "reportedAt": 1792070186000,
+    "assumeSaudi": false,
+    "firstSeen": 1792072179210
+   },
+   {
     "id": "58cf0ac7355d",
     "feed": "Arab News",
     "cat": "local",
@@ -13973,6 +14031,20 @@
     "reportedAt": 1792070186000,
     "assumeSaudi": false,
     "firstSeen": 1792071043565
+   },
+   {
+    "id": "6005a5d46505",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "한겨레",
+    "title": "사우디, ‘이슬람 성지’ 메디나서 미사일 요격…후티 “거짓말”",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jcjVGLWFqOXAyaXhWWVNybTFGdDBSeENNcEppeWhabndkWnlKRjA5amVGWjYyM0haVlQ4aC1JS1QwalFENW5VT3liTGxsVnFzcERhVWRxWWdxa3NPLUp1MEY3NmdXT0N3bW5rMmQ5a1QzTFk?oc=5",
+    "reportedAt": 1792070100000,
+    "assumeSaudi": false,
+    "firstSeen": 1792072179210
    },
    {
     "id": "ba6e1e317cc0",
@@ -15305,6 +15377,20 @@
     "firstSeen": 1791988839795
    },
    {
+    "id": "db9e372c01a0",
+    "feed": "AFP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AFP",
+    "title": "Saudi league postpones three matches after Houthi attacks",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONk1xT1llcW92WWhEMGtzdkRKMUdVMVcwMi0wMk9QMXB2Y0lkaFV2Z3o0cXpPSHZYNmw5Q1dSYndHbmVsRWdQWHZmb2VoeElzd3pUa21JZmMxRDN5VTQxWFh3cnNwcFlHaGpVZkUwd2dVeUJOTWpkZWNsbUNBaTg0RUZ1TW9tdHM?oc=5",
+    "reportedAt": 1791987775000,
+    "assumeSaudi": false,
+    "firstSeen": 1791985834549
+   },
+   {
     "id": "ff747c94fdd9",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -15373,20 +15459,6 @@
     "reportedAt": 1791985620000,
     "assumeSaudi": false,
     "firstSeen": 1791984999365
-   },
-   {
-    "id": "db9e372c01a0",
-    "feed": "AFP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AFP",
-    "title": "Saudi league postpones three matches after Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFNzdmg3dUlNTWFxcDB2ZVpqQWJXd2RrWEMwQzdhNEJVbS1waUlHMFFTQXJ4WVByUTMtTEhfTU0wRWxIckJUbFdQZkNwRUVvM2piVGk1anZZT0Exc3gtaFNNVDh2Tm4wbF9PRFA5bERfdV9UY0ltcHU0amhsSTNlN1RRZ2VocnFtUGY0MmRvNzZpQm9ZTzI4eHdXbWViZTVtc01XZmJIMA?oc=5",
-    "reportedAt": 1791985302000,
-    "assumeSaudi": false,
-    "firstSeen": 1791985834549
    },
    {
     "id": "941da3ad16d0",
@@ -20362,20 +20434,6 @@
     "reportedAt": 1791813576000,
     "assumeSaudi": false,
     "firstSeen": 1791853241190
-   },
-   {
-    "id": "9cadb5f8a795",
-    "feed": "Reuters",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "Reuters",
-    "title": "Saudi shares fall after second airport attack as Gulf trade stays cautious",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDJseDNYUmxPQzZqWnBZM1hRbXJhaGQwdklnQVZBUWp3WEY2SUczaGpYejg3bXRDYzdDN3ctYzRVNVhBc05Rc084QzdOemRFX1l0a2J5TElELVFXUldBZEd6WVItdjVaeFZfWTVEdjJ5VGVkVmxiLVZ5ZWg3ckFLclRTcG1OaExuTnZXamxFcElNalR0SWlPUm5qY2lIa0dFQVJmc24wX0F2WG1nc3hnV3Z0dXEyN0pLWmhnRXJHeFVJTVU?oc=5",
-    "reportedAt": 1791812670000,
-    "assumeSaudi": false,
-    "firstSeen": 1791824180167
    }
   ],
   "summaries": {
@@ -20391,7 +20449,6 @@
    "784fee4afddb": "리야드 부지사가 킹 칼리드 공항 공격 피해자들을 방문했다고 전했어요.",
    "93c43fdd5f20": "공항에서 탑승 대기 중 섬광이 목격됐다고 보도했어요.",
    "f59701515910": "리야드 공항 공격 피해자들을 지역 관리가 방문했다고 보도했어요.",
-   "9cadb5f8a795": "로이터는 두 차례 공항 공격 여파로 사우디 주식이 하락했다고 보도했어요.",
    "f0c77940eae2": "후티가 추가 공격을 하고 사우디는 요격했다고 보도했으며 후티는 미국 개입 시 보복하겠다고 경고했다고 전했어요.",
    "3b96b0e32022": "사우디는 후티 미사일을 요격했다고 발표했고 후티는 미국 개입을 경고했다고 보도했어요.",
    "39424c612041": "후티가 리야드를 또 공격했고 연합군이 요격했다고 보도했어요.",
@@ -20761,7 +20818,6 @@
    "2012bdc9ce87": "후티, 미사일·드론 혼합으로 방공망 무력화 주장",
    "b6a23a9b98f2": "사우디, 후티에 엄중 대응 경고",
    "fd532400202b": "리야드 공항 17일까지 폐쇄돼 항공편 대다수 결항",
-   "9cadb5f8a795": "리야드 공항 2차 공격에 따른 사우디 주가 하락 보도",
    "784fee4afddb": "리야드 부지사, 공항 공격 피해자 방문",
    "f59701515910": "리야드 공항 공격 피해자들 방문",
    "11d2be28d485": "미국인들, 공격 관련 사진으로 사우디에 억류",
@@ -21167,7 +21223,8 @@
    "c495f93db0c8": "EU, 사우디서 예정된 걸프국 정상회의 연기",
    "c9d137b12962": "아버지, 리야드 공항 공격으로 숨진 아브하 학생 애도",
    "58cf0ac7355d": "연합군, 후티가 10월 1일 이후 킹칼리드 국제공항에 20차례 공격했다고 주장",
-   "ff26c0d42022": "후티가 어떻게 이란의 사우디아라비아 압박 수단이 되고 있는가"
+   "ff26c0d42022": "후티가 어떻게 이란의 사우디아라비아 압박 수단이 되고 있는가",
+   "26bb02dd9b71": "연합군: 후티, 10월에 킹 칼리드 국제공항에 20차례 공격"
   },
   "aiClusters": [
    {
@@ -23245,12 +23302,6 @@
    },
    {
     "articleIds": [
-     "9cadb5f8a795"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "0277710804b0"
     ],
     "fromRule": true
@@ -23270,6 +23321,18 @@
    {
     "articleIds": [
      "ff26c0d42022"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "26bb02dd9b71"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "6005a5d46505"
     ],
     "fromRule": true
    }
