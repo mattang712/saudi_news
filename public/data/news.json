@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-15T15:35:10.656Z",
-  "lastAttemptAt": "2026-10-15T15:35:10.656Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-15T15:40:33.118Z",
+  "lastAttemptAt": "2026-10-15T15:40:33.118Z",
   "aiSummary": true,
   "summaryAt": "2026-10-15T15:20:33.713Z",
   "aiError": null,
@@ -26,7 +26,7 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 170
+    "count": 172
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 149
+    "count": 158
    },
    {
     "name": "Saudi Gazette",
@@ -55,13 +55,15 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,40 +71,41 @@
     "count": 80
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
-    "date": "2026-10-14",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "f791b1ec1c3e",
+   "articleIds": [
+    "079751f0b3d3"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "아람코, 공격 속에서도 석유 생산 유지하는 법을 익히다",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T15:40:33.118Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "How Aramco learned to keep pumping oil under fire",
+     "titleKo": "아람코, 공격 속에서도 석유 생산 유지하는 법을 익히다",
+     "summary": "",
+     "reportedAt": "2026-10-15T15:35:43.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5"
+    }
+   ]
+  },
   {
    "id": "7a423d240aa3",
    "articleIds": [
@@ -142,10 +145,10 @@
     "660ddfcf0a62",
     "2a74238a778f",
     "0e58ef7de6d2",
+    "76e5fee01a3b",
     "54a4b4b2adf2",
     "6005a5d46505",
     "420c703293aa",
-    "76e5fee01a3b",
     "10ec88a172a7",
     "7a14f35a99fc",
     "fe3ac6fc5e77"
@@ -198,6 +201,16 @@
      "url": "https://www.arabnews.com/saudi-arabia/japan-saudi-arabia-confirm-cooperation-to-restore-hormuz-stability-3006503"
     },
     {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Asian Cup in Saudi Arabia could be postponed by a year amid Houthi attacks - Al Jazeera",
+     "titleKo": "아시안컵, 후티 공격으로 개최 연기 가능성 보도",
+     "summary": "아시안컵 개최 연기 가능성을 보도했고 대회 연기에 대한 논의가 있다고 전했어요.",
+     "reportedAt": "2026-10-15T12:27:15.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSEg0NTRPR2hZenBRMm5TUW45VzVnNDVjSG5zYnlpMWlSUU02Q0JpOEN2a0dFTEJIaTFkWkVrZ0FVa1pUQ2IydkJfaWx6ajhoNk1vRlJjY2ZuSmdTNmxobjA5Y1poU1hrVi1NS29BdlJhRmYya1h4bm1XSHdRX0VWaUhKbjQweVR2dWtyRHNiN0I3Y3o2VWdqWDZCYUhhSVZLN1IwenhKV0psSlZQQlZkaXRkOGNfUnJINFlvcnB6R2lzSU85Vkc3cDJ0aG16aW9vSHZR?oc=5"
+    },
+    {
      "outlet": "KBS",
      "cat": "kr",
      "title": "사우디 겨눈 후티 공격에 EU, 걸프국과 정상회의 연기",
@@ -226,16 +239,6 @@
      "reportedAt": "2026-10-15T13:50:50.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlRURuSFgwLTRyd1VXNl9XVlV3a1g0OE1sTndPLXQ2LWc0ZS1EUnJzWlpTUV91aHU2MUdMVURGSmI0LURoc3hLNUV6cHI1T0xtbWxrYTFfWERRNkxxXzNEemRJMXFYUjc1cnBqNG1aWDJnaTJG?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Asian Cup in Saudi Arabia could be postponed by a year amid Houthi attacks - Al Jazeera",
-     "titleKo": "아시안컵, 후티 공격으로 개최 연기 가능성 보도",
-     "summary": "아시안컵 개최 연기 가능성을 보도했고 대회 연기에 대한 논의가 있다고 전했어요.",
-     "reportedAt": "2026-10-15T14:27:47.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSEg0NTRPR2hZenBRMm5TUW45VzVnNDVjSG5zYnlpMWlSUU02Q0JpOEN2a0dFTEJIaTFkWkVrZ0FVa1pUQ2IydkJfaWx6ajhoNk1vRlJjY2ZuSmdTNmxobjA5Y1poU1hrVi1NS29BdlJhRmYya1h4bm1XSHdRX0VWaUhKbjQweVR2dWtyRHNiN0I3Y3o2VWdqWDZCYUhhSVZLN1IwenhKV0psSlZQQlZkaXRkOGNfUnJINFlvcnB6R2lzSU85Vkc3cDJ0aG16aW9vSHZR?oc=5"
     },
     {
      "outlet": "SPA (사우디 국영통신)",
@@ -511,7 +514,7 @@
      "summary": "사우디가 이달 리야드 공항에 대해 후티의 20차례 공격과 사상자 집계를 발표했다는 보도예요.",
      "reportedAt": "2026-10-15T13:47:04.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56NmdUMVJIYnBtMzRqNm5NazRTWGlBcDZhc3BDTkVUdmhYalFwdnB4UjFja1djNzZRaG5HT1diNEpiUTZVTmdLWkV2WHMxY1o4YndwN0Ywa2lveEt4dExidtIBYEFVX3lxTE56NmdUMVJIYnBtMzRqNm5NazRTWGlBcDZhc3BDTkVUdmhYalFwdnB4UjFja1djNzZRaG5HT1diNEpiUTZVTmdLWkV2WHMxY1o4YndwN0Ywa2lveEt4dExidg?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41SlN1YXVrZFlxcXA3SDFkb0ZyeVJlZmZWcDVSQkw2RzJBN2tjWHR5c2taalU0bGhoLUVGUm5hWHVhcE04VVhST2ctWldNUkUtWmtqOHZmZ0NseFo4ckF0Nm5ZOVhpM2RuMDctbUhkOHlTWHVv?oc=5"
     },
     {
      "outlet": "KBS",
@@ -835,7 +838,7 @@
      "summary": "후티 공세로 인해 EU-걸프 정상회의가 연기됐다는 보도예요.",
      "reportedAt": "2026-10-15T13:07:06.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FRmVuQ2hLRnBsa0xOZjFpa1p4Zk5RY0dMOFJQM3JsWmJFR3o2MXFoR0lkWTZJYjUwMU52cjl2ZlJYSXliblBHZm5zcXJYbnV5dV84UtIBVEFVX3lxTE1FRmVuQ2hLRnBsa0xOZjFpa1p4Zk5RY0dMOFJQM3JsWmJFR3o2MXFoR0lkWTZJYjUwMU52cjl2ZlJYSXliblBHZm5zcXJYbnV5dV84Ug?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxUWl2bUx1UVNsa2czR1N3dXpGc0xDbUlqNHJxbVVpaXNYMENaV1RrRjQ5TUdLZHU0OW9hcVZQVlQ5SUljUUZlR0lNaVdnLWIxb3VodEFrT07SAVRBVV95cUxNRUZlbkNoS0ZwbGtMTmYxaWtaeGZOUWNHTDhSUDNybFpiRUd6NjFxaEdJZFk2SWI1MDFOdnI5dmZSWEl5Ym5QR2Zuc3FyWG51eXVfOFI?oc=5"
     },
     {
      "outlet": "머니투데이",
@@ -1536,7 +1539,7 @@
      "summary": "SBS가 후티가 리야드 공항 명중과 아람코 본사 피격을 보도했어요.",
      "reportedAt": "2026-10-14T22:42:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WeV9HNzZESnBPWGJaN0pxdW5ldFpNV3RyVVcxZVd5d1g3S0RZRHgzYWZabUdRbEhTTmw1ZWhnbzUzTWVVVUlBRHBwQXhtYTFnRGZlRE5GR2jSAVhBVV95cUxOVnlfRzc2REpwT1hiWjdKcXVuZXRaTVd0clVXMWVXeXdYN0tEWUR4M2FmWm1HUWxIU05sNWVoZ281M01lVVVJQURwcEF4bWExZ0RmZURORkdo?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGek5fZG8zcllJVFF2STd0S0VkTmpsV25yNU1hLVNIczlPdGxuRW53M1lZbXNERWJtMXNRVFJGV2lnMVd2MUxGdnl2QlFGdWhrZ3dj0gFYQVVfeXFMTlZ5X0c3NkRKcE9YYlo3SnF1bmV0Wk1XdHJVVzFlV3l3WDdLRFlEeDNhZlptR1FsSFNObDVlaGdvNTNNZVVVSUFEcHBBeG1hMWdEZmVETkZHaA?oc=5"
     }
    ]
   },
@@ -11833,6 +11836,24 @@
  ],
  "timeline": [
   {
+   "id": "079751f0b3d3",
+   "outlet": "Reuters",
+   "official": false,
+   "claim": false,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "아람코, 공격 속에서도 석유 생산 유지하는 법을 익히다",
+   "title": "How Aramco learned to keep pumping oil under fire",
+   "summary": "",
+   "reportedAt": "2026-10-15T15:35:43.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5"
+  },
+  {
    "id": "fe3ac6fc5e77",
    "outlet": "Asharq Al-Awsat",
    "official": false,
@@ -11923,24 +11944,6 @@
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1XdFFBQ0JKRWJiV29WdFZJbVVGSlJVaWdJdVpyZ3lxODBEX2ozZDhOYkRCZ2JtN2NSaUwxU1JKU0F2eUtKcVlpOEZB?oc=5"
   },
   {
-   "id": "76e5fee01a3b",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "아시안컵, 후티 공격으로 개최 연기 가능성 보도",
-   "title": "Asian Cup in Saudi Arabia could be postponed by a year amid Houthi attacks - Al Jazeera",
-   "summary": "아시안컵 개최 연기 가능성을 보도했고 대회 연기에 대한 논의가 있다고 전했어요.",
-   "reportedAt": "2026-10-15T14:27:47.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSEg0NTRPR2hZenBRMm5TUW45VzVnNDVjSG5zYnlpMWlSUU02Q0JpOEN2a0dFTEJIaTFkWkVrZ0FVa1pUQ2IydkJfaWx6ajhoNk1vRlJjY2ZuSmdTNmxobjA5Y1poU1hrVi1NS29BdlJhRmYya1h4bm1XSHdRX0VWaUhKbjQweVR2dWtyRHNiN0I3Y3o2VWdqWDZCYUhhSVZLN1IwenhKV0psSlZQQlZkaXRkOGNfUnJINFlvcnB6R2lzSU85Vkc3cDJ0aG16aW9vSHZR?oc=5"
-  },
-  {
    "id": "32abaf03f9f2",
    "outlet": "Reuters",
    "official": false,
@@ -11975,6 +11978,24 @@
    "reportedAt": "2026-10-15T13:54:50.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRno4UkRJYXkzMldxaU9XbzNpLWtsNVd4SmUtelluWEFxOHNCTjdpSmVJVzBac0h1TDF6TE8wY2FZNHBHaF9XTjZ0WTByY29yOTR4SDVKaG02YWItZkNVdXlQWWF6bWROd0ZSRDM5SDRSSEs2M0dBZHRVekJTVHhpYnMzemVCa3RQY3dmZ3g5UFBUZ2ZySWRjT0g0M2FuZElsaVkzUk1KSHB4ODRTdjBkbzJR?oc=5"
+  },
+  {
+   "id": "76e5fee01a3b",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "아시안컵, 후티 공격으로 개최 연기 가능성 보도",
+   "title": "Asian Cup in Saudi Arabia could be postponed by a year amid Houthi attacks - Al Jazeera",
+   "summary": "아시안컵 개최 연기 가능성을 보도했고 대회 연기에 대한 논의가 있다고 전했어요.",
+   "reportedAt": "2026-10-15T12:27:15.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSEg0NTRPR2hZenBRMm5TUW45VzVnNDVjSG5zYnlpMWlSUU02Q0JpOEN2a0dFTEJIaTFkWkVrZ0FVa1pUQ2IydkJfaWx6ajhoNk1vRlJjY2ZuSmdTNmxobjA5Y1poU1hrVi1NS29BdlJhRmYya1h4bm1XSHdRX0VWaUhKbjQweVR2dWtyRHNiN0I3Y3o2VWdqWDZCYUhhSVZLN1IwenhKV0psSlZQQlZkaXRkOGNfUnJINFlvcnB6R2lzSU85Vkc3cDJ0aG16aW9vSHZR?oc=5"
   },
   {
    "id": "9f7ef5a2fd66",
@@ -13771,6 +13792,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "079751f0b3d3",
+    "feed": "Reuters",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "Reuters",
+    "title": "How Aramco learned to keep pumping oil under fire",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5",
+    "reportedAt": 1792078543000,
+    "assumeSaudi": false,
+    "firstSeen": 1792078833118
+   },
+   {
     "id": "f5f84b59e838",
     "feed": "Arab News",
     "cat": "local",
@@ -13925,20 +13960,6 @@
     "firstSeen": 1792075237590
    },
    {
-    "id": "76e5fee01a3b",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Asian Cup in Saudi Arabia could be postponed by a year amid Houthi attacks - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSEg0NTRPR2hZenBRMm5TUW45VzVnNDVjSG5zYnlpMWlSUU02Q0JpOEN2a0dFTEJIaTFkWkVrZ0FVa1pUQ2IydkJfaWx6ajhoNk1vRlJjY2ZuSmdTNmxobjA5Y1poU1hrVi1NS29BdlJhRmYya1h4bm1XSHdRX0VWaUhKbjQweVR2dWtyRHNiN0I3Y3o2VWdqWDZCYUhhSVZLN1IwenhKV0psSlZQQlZkaXRkOGNfUnJINFlvcnB6R2lzSU85Vkc3cDJ0aG16aW9vSHZR?oc=5",
-    "reportedAt": 1792074467000,
-    "assumeSaudi": false,
-    "firstSeen": 1792072228305
-   },
-   {
     "id": "32abaf03f9f2",
     "feed": "Reuters",
     "cat": "wire",
@@ -14031,7 +14052,7 @@
     "outlet": "연합뉴스",
     "title": "사우디 \"후티, 10월 들어 리야드 공항 20회 공격…17명 사망\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56NmdUMVJIYnBtMzRqNm5NazRTWGlBcDZhc3BDTkVUdmhYalFwdnB4UjFja1djNzZRaG5HT1diNEpiUTZVTmdLWkV2WHMxY1o4YndwN0Ywa2lveEt4dExidtIBYEFVX3lxTE56NmdUMVJIYnBtMzRqNm5NazRTWGlBcDZhc3BDTkVUdmhYalFwdnB4UjFja1djNzZRaG5HT1diNEpiUTZVTmdLWkV2WHMxY1o4YndwN0Ywa2lveEt4dExidg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41SlN1YXVrZFlxcXA3SDFkb0ZyeVJlZmZWcDVSQkw2RzJBN2tjWHR5c2taalU0bGhoLUVGUm5hWHVhcE04VVhST2ctWldNUkUtWmtqOHZmZ0NseFo4ckF0Nm5ZOVhpM2RuMDctbUhkOHlTWHVv?oc=5",
     "reportedAt": 1792072024000,
     "assumeSaudi": false,
     "firstSeen": 1792072850758
@@ -14143,7 +14164,7 @@
     "outlet": "세계일보",
     "title": "후티 공세에 사우디 하늘길 막히자…EU-걸프 정상회의 연기",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FRmVuQ2hLRnBsa0xOZjFpa1p4Zk5RY0dMOFJQM3JsWmJFR3o2MXFoR0lkWTZJYjUwMU52cjl2ZlJYSXliblBHZm5zcXJYbnV5dV84UtIBVEFVX3lxTE1FRmVuQ2hLRnBsa0xOZjFpa1p4Zk5RY0dMOFJQM3JsWmJFR3o2MXFoR0lkWTZJYjUwMU52cjl2ZlJYSXliblBHZm5zcXJYbnV5dV84Ug?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxUWl2bUx1UVNsa2czR1N3dXpGc0xDbUlqNHJxbVVpaXNYMENaV1RrRjQ5TUdLZHU0OW9hcVZQVlQ5SUljUUZlR0lNaVdnLWIxb3VodEFrT07SAVRBVV95cUxNRUZlbkNoS0ZwbGtMTmYxaWtaeGZOUWNHTDhSUDNybFpiRUd6NjFxaEdJZFk2SWI1MDFOdnI5dmZSWEl5Ym5QR2Zuc3FyWG51eXVfOFI?oc=5",
     "reportedAt": 1792069626000,
     "assumeSaudi": false,
     "firstSeen": 1792070432503
@@ -14231,6 +14252,20 @@
     "reportedAt": 1792067350000,
     "assumeSaudi": false,
     "firstSeen": 1792067441160
+   },
+   {
+    "id": "76e5fee01a3b",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Asian Cup in Saudi Arabia could be postponed by a year amid Houthi attacks - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSEg0NTRPR2hZenBRMm5TUW45VzVnNDVjSG5zYnlpMWlSUU02Q0JpOEN2a0dFTEJIaTFkWkVrZ0FVa1pUQ2IydkJfaWx6ajhoNk1vRlJjY2ZuSmdTNmxobjA5Y1poU1hrVi1NS29BdlJhRmYya1h4bm1XSHdRX0VWaUhKbjQweVR2dWtyRHNiN0I3Y3o2VWdqWDZCYUhhSVZLN1IwenhKV0psSlZQQlZkaXRkOGNfUnJINFlvcnB6R2lzSU85Vkc3cDJ0aG16aW9vSHZR?oc=5",
+    "reportedAt": 1792067235000,
+    "assumeSaudi": false,
+    "firstSeen": 1792072228305
    },
    {
     "id": "0e58ef7de6d2",
@@ -14759,7 +14794,7 @@
     "outlet": "SBS",
     "title": "후티 반군 사우디 리야드 공항 명중…아람코 본사도 피격",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WeV9HNzZESnBPWGJaN0pxdW5ldFpNV3RyVVcxZVd5d1g3S0RZRHgzYWZabUdRbEhTTmw1ZWhnbzUzTWVVVUlBRHBwQXhtYTFnRGZlRE5GR2jSAVhBVV95cUxOVnlfRzc2REpwT1hiWjdKcXVuZXRaTVd0clVXMWVXeXdYN0tEWUR4M2FmWm1HUWxIU05sNWVoZ281M01lVVVJQURwcEF4bWExZ0RmZURORkdo?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGek5fZG8zcllJVFF2STd0S0VkTmpsV25yNU1hLVNIczlPdGxuRW53M1lZbXNERWJtMXNRVFJGV2lnMVd2MUxGdnl2QlFGdWhrZ3dj0gFYQVVfeXFMTlZ5X0c3NkRKcE9YYlo3SnF1bmV0Wk1XdHJVVzFlV3l3WDdLRFlEeDNhZlptR1FsSFNObDVlaGdvNTNNZVVVSUFEcHBBeG1hMWdEZmVETkZHaA?oc=5",
     "reportedAt": 1792017720000,
     "assumeSaudi": false,
     "firstSeen": 1792032872553
@@ -21052,7 +21087,8 @@
    "ba6e1e317cc0": "후티 공세로 EU-걸프 정상회의 연기",
    "82e760840e69": "사우디 '메디나서 순항미사일 요격'…후티는 '거짓말' 반박",
    "c32bef923bb3": "후티가 사우디 공항들을 연일 공격하고 있다는 보도",
-   "f5f84b59e838": "리야드 공격 당시 승객들을 안전하게 안내한 사우디 공항 직원에 대한 찬사"
+   "f5f84b59e838": "리야드 공격 당시 승객들을 안전하게 안내한 사우디 공항 직원에 대한 찬사",
+   "079751f0b3d3": "아람코, 공격 속에서도 석유 생산 유지하는 법을 익히다"
   },
   "aiClusters": [
    {
@@ -23124,6 +23160,12 @@
    {
     "articleIds": [
      "f5f84b59e838"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "079751f0b3d3"
     ],
     "fromRule": true
    }
