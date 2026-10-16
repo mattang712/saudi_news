@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-16T07:00:49.501Z",
-  "lastAttemptAt": "2026-10-16T07:00:49.501Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-16T07:08:06.004Z",
+  "lastAttemptAt": "2026-10-16T07:08:06.004Z",
   "aiSummary": true,
   "summaryAt": "2026-10-16T05:45:36.345Z",
   "aiError": null,
@@ -15,12 +15,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 80
+    "count": 82
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 135
+    "count": 129
    },
    {
     "name": "AP",
@@ -40,7 +40,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 57
+    "count": 58
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,58 +50,61 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 67
+    "count": 65
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 90
+    "count": 88
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
-    "date": "2026-10-14",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "d0faab5c0b44",
+   "articleIds": [
+    "2b7bd4780dd0"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "예멘 후티, 사우디 공항 집중공격…빈살만 '탈석유' 계획에 직격탄 - 머니투데이",
+   "titleAuto": false,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-16T07:08:06.004Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "예멘 후티, 사우디 공항 집중공격…빈살만 '탈석유' 계획에 직격탄 - 머니투데이",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-16T06:54:04.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFYXVQVHYzZ21ZNXhuUGFEWnJCbGlxX2NsQlhleEFaOWF0MFhnUTR5cThYMkhPNk5kaEtUNEZidkJNS2lfN3hyNnJueVFqX1RERVlTNU0yVi1oUm5BZ2xlSXJLNm56VDBKeXFGNjNXS3IxNmhGVHfSAXtBVV95cUxNZWtLTWtsTTZHcVBBaFViSzlvUUJObVhxMnVWNGJKMExLdld3WDFrcVhBRDhiV0lxNF9HV2kzYVFnaE5PUDRab1l1MHdmTlN0U2ZLRFdhTXFjc0o1SE9udnR4cDV2aUNFRVZTVXZZdEswcDFfRHRvS0dYSWc?oc=5"
+    }
+   ]
+  },
   {
    "id": "4320c5e19ca8",
    "articleIds": [
@@ -462,7 +465,7 @@
      "summary": "아시안컵 개최 관련 사우디 조직위가 준비는 예정대로 진행된다고 밝혔어요.",
      "reportedAt": "2026-10-16T05:34:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EMUZDSUgtZFJjeVp2aUpaODVhbmNNendKWXNvUWphVk9wb3p1V3lhenZuZmdFd2NWMmRqVE4wNGtwWHRoV2pqUzZUaTZKaTFESXUtMkhGQWVLNzg?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HVThiSDRRZF80UVN4cXRYNGlfeklhWVJGOTFEcGxBSGd5LWNvYU9TdER6R2FlUXpRdnJSUE1FSERQMnF1ejZack90MW96dk5adVNSX1BBRjFTMlg0WWVFTE1FX3EzVmFBSEdoclVR?oc=5"
     }
    ]
   },
@@ -494,7 +497,7 @@
      "summary": "",
      "reportedAt": "2026-10-16T05:01:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FaC13QW9zMzJMZWxuLUpzemtNWHJmNmJJa19wVGFKLVBfR2NUUVdwbllCdVcwSDlHR3dyblFxYzJYLW1qSW1oM1ZycEtxZnFjSm1ibFh6REbSAVhBVV95cUxNRWgtd0FvczMyTGVsbi1Kc3prTVhyZjZiSWtfcFRhSi1QX0djVFFXcG5ZQnVXMEg5R0d3cm5RcWMyWC1takltaDNWcnBLcWZxY0ptYmxYekRG?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iNGxReW1WeDZSODZSS2IySFljdlZYdGdsOGhDc0E2azBKVUFWSTdYclZfLU5JMDlmblFoaG1fODRZT3BpT0tCeW5FZjdKS3RUY1lV0gFYQVVfeXFMTUVoLXdBb3MzMkxlbG4tSnN6a01YcmY2YklrX3BUYUotUF9HY1RRV3BuWUJ1VzBIOUdHd3JuUXFjMlgtbWpJbWgzVnJwS3FmcWNKbWJsWHpERg?oc=5"
     }
    ]
   },
@@ -2612,38 +2615,6 @@
    ]
   },
   {
-   "id": "ffe8dd88e9a6",
-   "articleIds": [
-    "48b1c60e009d"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "Al Jazeera: 이란 전쟁 생중계: 사우디 연합군, 후티 지역 타격; 동부 아람코 사무소 타격",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-15T22:40:35.593Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Al Jazeera:Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
-     "titleKo": "Al Jazeera: 이란 전쟁 생중계: 사우디 연합군, 후티 지역 타격; 동부 아람코 사무소 타격",
-     "summary": "",
-     "reportedAt": "2026-10-14T22:47:25.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQk9MZm5nZ3FHeWQyZEhrVEFhOEpQNGItNnpLMkN3anFYNUZyUk50QnJKTWltSUwxM1JqZG1XVDdHNE1xM3RqVmJlTGp4eUhsX2pDd0gzT2diXzV2cDVrZGU5cWJOWFBuVGctMndCWlp3WEJQSHR2Tll3WlJ4em1SU3ZXdkt5N1ZnTGhaVEtoNndUbFZOcUdWWjhwWHc0Y3hobjhuNWpsMzNuYWU3SnBtZFBmOGsya1ZwZ1dLVHAzN0duN2cybWZDaGpWUEZ6dFBjbEloRW13?oc=5"
-    }
-   ]
-  },
-  {
    "id": "ad4904b2ef78",
    "articleIds": [
     "d972e4cfaac2"
@@ -3018,6 +2989,38 @@
      "reportedAt": "2026-10-14T21:14:47.000Z",
      "dateOnly": false,
      "url": "https://english.aawsat.com/node/5329718"
+    }
+   ]
+  },
+  {
+   "id": "ffe8dd88e9a6",
+   "articleIds": [
+    "48b1c60e009d"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "Al Jazeera: 이란 전쟁 생중계: 사우디 연합군, 후티 지역 타격; 동부 아람코 사무소 타격",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-15T22:40:35.593Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Al Jazeera:Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+     "titleKo": "Al Jazeera: 이란 전쟁 생중계: 사우디 연합군, 후티 지역 타격; 동부 아람코 사무소 타격",
+     "summary": "",
+     "reportedAt": "2026-10-14T21:11:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWjlUeU5jV1hEVlU2VE93M0ZCb3QzVUllX1FQZURldG9jYzVCRE1QX25JME9nZE1qMUs3bng4WE03RGJBZFlOZ05Yb0xZbVdEMzJydEZFTTV2a2pWdkFSN25oNmFfOVdERWRlWUFfRllndDlBS1NrMXozZzltdGJDQVFUNjZueXZETXdGRE5Nc3k4dF83ZDN1S29lRUQ3VVhnZF80Z2JPUkE5ekRjU29MWGw5bHlqREozdV9SbEtjbldIVjFBeEVOVS0wcXd5RGNMVjBRd3p3?oc=5"
     }
    ]
   },
@@ -9898,70 +9901,6 @@
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yWnZDNFpjUVFEN2RvaUdBRlNBTVo5N1JjTC1BcVJWeTR2N291eVp6ejlIUGk5ZkxSSmsyRHBqVzR1TzMtNTgtTENYVlMwQkN2eWc?oc=5"
     }
    ]
-  },
-  {
-   "id": "6ec53ebfc5ea",
-   "articleIds": [
-    "446971a09f71"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 피격에 축구장도 멈췄다…11월 원정·아시안컵 촉각",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T08:20:31.283Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "국민일보",
-     "cat": "kr",
-     "title": "사우디 피격에 축구장도 멈췄다…11월 원정·아시안컵 촉각",
-     "titleKo": null,
-     "summary": "사우디 피격으로 축구장 경기가 중단되고 아시안컵 우려가 커졌다고 보도했어요.",
-     "reportedAt": "2026-10-13T07:04:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84dV9sYTV4ckxjemcxdDV3aHRQcVVyRm5qWnRndkE0LV94YWp6S2Etam0wSjREYVFkM1FuZkQ1cDR1NkpfVzdhUk9VUlQ3cHk4OVdVbWg4V0RDUEhZUmFPX29zZ25RRjJmeUt6cNIBbEFVX3lxTE84dV9sYTV4ckxjemcxdDV3aHRQcVVyRm5qWnRndkE0LV94YWp6S2Etam0wSjREYVFkM1FuZkQ1cDR1NkpfVzdhUk9VUlQ3cHk4OVdVbWg4V0RDUEhZUmFPX29zZ25RRjJmeUt6cA?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "2e36d78950cd",
-   "articleIds": [
-    "b655f163ddbb"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "호주축구협회, '사우디 피격' 아시안컵 우려…\"안전·복지 최우선\"",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T07:09:48.649Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "호주축구협회, '사우디 피격' 아시안컵 우려…\"안전·복지 최우선\"",
-     "titleKo": null,
-     "summary": "호주축구협회가 사우디 피격을 우려하며 선수 안전을 최우선으로 한다고 밝혔어요.",
-     "reportedAt": "2026-10-13T07:02:15.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5yeFp6NXU4ak5ZTWFnY29aaHAwN3Y0OWtWYlNmVE9jUE9reHFzN1JiMlB2czV3MkVJZk9kZDUydXVabUdZYXlKSkQxTkdQMnhacW1WWFRFa0dJTWhjdXpoVEZ1endqeEFGcEVyU3ltdTEwUG9xbEtZVNIBeEFVX3lxTE5yeFp6NXU4ak5ZTWFnY29aaHAwN3Y0OWtWYlNmVE9jUE9reHFzN1JiMlB2czV3MkVJZk9kZDUydXVabUdZYXlKSkQxTkdQMnhacW1WWFRFa0dJTWhjdXpoVEZ1endqeEFGcEVyU3ltdTEwUG9xbEtZVA?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -10398,24 +10337,6 @@
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXBtWkJRSlV6SGoxVUpRVHZsSWMwTldtZURhUWlldTFtSGlLSmFJYzJjaHBqOHZ6SEJMQlByYW5SeGlPa2F2YTNfLXRwNWZTdnVpUWJQVHBZbmhyUkNLYlNaVlIxb3poOEdZRkc1LWJnRG1CWTljM3QyMjhXU0pJMzhSd3plaThOdTFkNTU5Q09JOVoxT2ozNVNDdEU3UFVEUDM4aEVPeXh2RXFVUkx5OGtuQ3RPdw?oc=5"
   },
   {
-   "id": "48b1c60e009d",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "Al Jazeera: 이란 전쟁 생중계: 사우디 연합군, 후티 지역 타격; 동부 아람코 사무소 타격",
-   "title": "Al Jazeera:Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
-   "summary": "",
-   "reportedAt": "2026-10-14T22:47:25.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQk9MZm5nZ3FHeWQyZEhrVEFhOEpQNGItNnpLMkN3anFYNUZyUk50QnJKTWltSUwxM1JqZG1XVDdHNE1xM3RqVmJlTGp4eUhsX2pDd0gzT2diXzV2cDVrZGU5cWJOWFBuVGctMndCWlp3WEJQSHR2Tll3WlJ4em1SU3ZXdkt5N1ZnTGhaVEtoNndUbFZOcUdWWjhwWHc0Y3hobjhuNWpsMzNuYWU3SnBtZFBmOGsya1ZwZ1dLVHAzN0duN2cybWZDaGpWUEZ6dFBjbEloRW13?oc=5"
-  },
-  {
    "id": "48d6db591cc2",
    "outlet": "Asharq Al-Awsat",
    "official": false,
@@ -10450,6 +10371,24 @@
    "reportedAt": "2026-10-14T21:14:47.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5329718"
+  },
+  {
+   "id": "48b1c60e009d",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "Al Jazeera: 이란 전쟁 생중계: 사우디 연합군, 후티 지역 타격; 동부 아람코 사무소 타격",
+   "title": "Al Jazeera:Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+   "summary": "",
+   "reportedAt": "2026-10-14T21:11:20.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWjlUeU5jV1hEVlU2VE93M0ZCb3QzVUllX1FQZURldG9jYzVCRE1QX25JME9nZE1qMUs3bng4WE03RGJBZFlOZ05Yb0xZbVdEMzJydEZFTTV2a2pWdkFSN25oNmFfOVdERWRlWUFfRllndDlBS1NrMXozZzltdGJDQVFUNjZueXZETXdGRE5Nc3k4dF83ZDN1S29lRUQ3VVhnZF80Z2JPUkE5ekRjU29MWGw5bHlqREozdV9SbEtjbldIVjFBeEVOVS0wcXd5RGNMVjBRd3p3?oc=5"
   },
   {
    "id": "6ff399790b3c",
@@ -11537,6 +11476,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "2b7bd4780dd0",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "머니투데이",
+    "title": "예멘 후티, 사우디 공항 집중공격…빈살만 '탈석유' 계획에 직격탄 - 머니투데이",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFYXVQVHYzZ21ZNXhuUGFEWnJCbGlxX2NsQlhleEFaOWF0MFhnUTR5cThYMkhPNk5kaEtUNEZidkJNS2lfN3hyNnJueVFqX1RERVlTNU0yVi1oUm5BZ2xlSXJLNm56VDBKeXFGNjNXS3IxNmhGVHfSAXtBVV95cUxNZWtLTWtsTTZHcVBBaFViSzlvUUJObVhxMnVWNGJKMExLdld3WDFrcVhBRDhiV0lxNF9HV2kzYVFnaE5PUDRab1l1MHdmTlN0U2ZLRFdhTXFjc0o1SE9udnR4cDV2aUNFRVZTVXZZdEswcDFfRHRvS0dYSWc?oc=5",
+    "reportedAt": 1792133644000,
+    "assumeSaudi": false,
+    "firstSeen": 1792134486004
+   },
+   {
     "id": "afcabee5ea87",
     "feed": "Arab News",
     "cat": "local",
@@ -11573,7 +11526,7 @@
     "outlet": "KBS",
     "title": "미사일 공격 잇따르는 ‘아시안컵 개최’ 사우디…조직위 “준비는 예정대로”",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EMUZDSUgtZFJjeVp2aUpaODVhbmNNendKWXNvUWphVk9wb3p1V3lhenZuZmdFd2NWMmRqVE4wNGtwWHRoV2pqUzZUaTZKaTFESXUtMkhGQWVLNzg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HVThiSDRRZF80UVN4cXRYNGlfeklhWVJGOTFEcGxBSGd5LWNvYU9TdER6R2FlUXpRdnJSUE1FSERQMnF1ejZack90MW96dk5adVNSX1BBRjFTMlg0WWVFTE1FX3EzVmFBSEdoclVR?oc=5",
     "reportedAt": 1792128840000,
     "assumeSaudi": false,
     "firstSeen": 1792129536345
@@ -11587,7 +11540,7 @@
     "outlet": "SBS",
     "title": "후티, 2천만원 드론에 사우디, 40억대 미사일",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FaC13QW9zMzJMZWxuLUpzemtNWHJmNmJJa19wVGFKLVBfR2NUUVdwbllCdVcwSDlHR3dyblFxYzJYLW1qSW1oM1ZycEtxZnFjSm1ibFh6REbSAVhBVV95cUxNRWgtd0FvczMyTGVsbi1Kc3prTVhyZjZiSWtfcFRhSi1QX0djVFFXcG5ZQnVXMEg5R0d3cm5RcWMyWC1takltaDNWcnBLcWZxY0ptYmxYekRG?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iNGxReW1WeDZSODZSS2IySFljdlZYdGdsOGhDc0E2azBKVUFWSTdYclZfLU5JMDlmblFoaG1fODRZT3BpT0tCeW5FZjdKS3RUY1lV0gFYQVVfeXFMTUVoLXdBb3MzMkxlbG4tSnN6a01YcmY2YklrX3BUYUotUF9HY1RRV3BuWUJ1VzBIOUdHd3JuUXFjMlgtbWpJbWgzVnJwS3FmcWNKbWJsWHpERg?oc=5",
     "reportedAt": 1792126860000,
     "assumeSaudi": false,
     "firstSeen": 1792131035436
@@ -13091,20 +13044,6 @@
     "firstSeen": 1792018847624
    },
    {
-    "id": "48b1c60e009d",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Al Jazeera:Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQk9MZm5nZ3FHeWQyZEhrVEFhOEpQNGItNnpLMkN3anFYNUZyUk50QnJKTWltSUwxM1JqZG1XVDdHNE1xM3RqVmJlTGp4eUhsX2pDd0gzT2diXzV2cDVrZGU5cWJOWFBuVGctMndCWlp3WEJQSHR2Tll3WlJ4em1SU3ZXdkt5N1ZnTGhaVEtoNndUbFZOcUdWWjhwWHc0Y3hobjhuNWpsMzNuYWU3SnBtZFBmOGsya1ZwZ1dLVHAzN0duN2cybWZDaGpWUEZ6dFBjbEloRW13?oc=5",
-    "reportedAt": 1792018045000,
-    "assumeSaudi": false,
-    "firstSeen": 1792104035593
-   },
-   {
     "id": "d972e4cfaac2",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -13243,6 +13182,20 @@
     "reportedAt": 1792012487000,
     "assumeSaudi": false,
     "firstSeen": 1792012834315
+   },
+   {
+    "id": "48b1c60e009d",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Al Jazeera:Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWjlUeU5jV1hEVlU2VE93M0ZCb3QzVUllX1FQZURldG9jYzVCRE1QX25JME9nZE1qMUs3bng4WE03RGJBZFlOZ05Yb0xZbVdEMzJydEZFTTV2a2pWdkFSN25oNmFfOVdERWRlWUFfRllndDlBS1NrMXozZzltdGJDQVFUNjZueXZETXdGRE5Nc3k4dF83ZDN1S29lRUQ3VVhnZF80Z2JPUkE5ekRjU29MWGw5bHlqREozdV9SbEtjbldIVjFBeEVOVS0wcXd5RGNMVjBRd3p3?oc=5",
+    "reportedAt": 1792012280000,
+    "assumeSaudi": false,
+    "firstSeen": 1792104035593
    },
    {
     "id": "3472dd1ed35f",
@@ -17039,34 +16992,6 @@
     "reportedAt": 1791876474000,
     "assumeSaudi": false,
     "firstSeen": 1791898830826
-   },
-   {
-    "id": "446971a09f71",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "국민일보",
-    "title": "사우디 피격에 축구장도 멈췄다…11월 원정·아시안컵 촉각",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84dV9sYTV4ckxjemcxdDV3aHRQcVVyRm5qWnRndkE0LV94YWp6S2Etam0wSjREYVFkM1FuZkQ1cDR1NkpfVzdhUk9VUlQ3cHk4OVdVbWg4V0RDUEhZUmFPX29zZ25RRjJmeUt6cNIBbEFVX3lxTE84dV9sYTV4ckxjemcxdDV3aHRQcVVyRm5qWnRndkE0LV94YWp6S2Etam0wSjREYVFkM1FuZkQ1cDR1NkpfVzdhUk9VUlQ3cHk4OVdVbWg4V0RDUEhZUmFPX29zZ25RRjJmeUt6cA?oc=5",
-    "reportedAt": 1791875040000,
-    "assumeSaudi": false,
-    "firstSeen": 1791879631283
-   },
-   {
-    "id": "b655f163ddbb",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴시스",
-    "title": "호주축구협회, '사우디 피격' 아시안컵 우려…\"안전·복지 최우선\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5yeFp6NXU4ak5ZTWFnY29aaHAwN3Y0OWtWYlNmVE9jUE9reHFzN1JiMlB2czV3MkVJZk9kZDUydXVabUdZYXlKSkQxTkdQMnhacW1WWFRFa0dJTWhjdXpoVEZ1endqeEFGcEVyU3ltdTEwUG9xbEtZVNIBeEFVX3lxTE5yeFp6NXU4ak5ZTWFnY29aaHAwN3Y0OWtWYlNmVE9jUE9reHFzN1JiMlB2czV3MkVJZk9kZDUydXVabUdZYXlKSkQxTkdQMnhacW1WWFRFa0dJTWhjdXpoVEZ1endqeEFGcEVyU3ltdTEwUG9xbEtZVA?oc=5",
-    "reportedAt": 1791874935000,
-    "assumeSaudi": false,
-    "firstSeen": 1791875388649
    }
   ],
   "summaries": {
@@ -17074,8 +16999,6 @@
    "2ee109f89ca4": "여러 항공사가 리야드행 항공편을 취소했다고 보도했어요.",
    "f0c77940eae2": "후티가 추가 공격을 하고 사우디는 요격했다고 보도했으며 후티는 미국 개입 시 보복하겠다고 경고했다고 전했어요.",
    "c82646a06ace": "연합뉴스 영상 보도는 사막에서 장갑차와 군용트럭이 폭발하는 장면과 공항 공격을 전했어요.",
-   "446971a09f71": "사우디 피격으로 축구장 경기가 중단되고 아시안컵 우려가 커졌다고 보도했어요.",
-   "b655f163ddbb": "호주축구협회가 사우디 피격을 우려하며 선수 안전을 최우선으로 한다고 밝혔어요.",
    "17c861080cd5": "SBS는 이스라엘이 후티 공격에 가담했는지 보도하며 네타냐후의 사우디 승인 타진설을 전했어요.",
    "3f8596884ec5": "후티가 이란의 지원을 받는다고 보도하며 공항을 연이어 공격했다고 전하고 있어요.",
    "41155b750b14": "항공사들이 보안 우려로 리야드행 항공편 운항을 중단했다고 보도했어요.",
@@ -17425,8 +17348,6 @@
    "2ee109f89ca4": "항공사들, 리야드행 항공편 취소",
    "f0c77940eae2": "후티 또 공격, 사우디는 요격…후티는 미국 개입 경고",
    "c82646a06ace": "사막서 장갑차·군용트럭 폭발…후티, 공항도 공격",
-   "446971a09f71": "사우디 피격으로 축구경기 중단·아시안컵 우려 확산",
-   "b655f163ddbb": "호주축구협회, 사우디 피격에 아시안컵 우려 표명",
    "17c861080cd5": "이스라엘도 후티 공격 가담 여부 관련 보도",
    "41155b750b14": "항공사들, 보안 우려로 리야드행 운항 중단",
    "fe3560eebe01": "UAE, 리야드 공항 공격 규탄 및 사우디 보안 조치 지지",
@@ -19475,18 +19396,6 @@
    },
    {
     "articleIds": [
-     "446971a09f71"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "b655f163ddbb"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "ed24c2c5fcec"
     ],
     "fromRule": true
@@ -19506,6 +19415,12 @@
    {
     "articleIds": [
      "0e3801686740"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "2b7bd4780dd0"
     ],
     "fromRule": true
    }
