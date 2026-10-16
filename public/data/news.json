@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-16T14:00:50.486Z",
-  "lastAttemptAt": "2026-10-16T14:00:50.486Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-16T14:10:29.880Z",
+  "lastAttemptAt": "2026-10-16T14:10:29.880Z",
   "aiSummary": true,
   "summaryAt": "2026-10-16T12:10:32.860Z",
   "aiError": null,
@@ -20,17 +20,17 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 94
+    "count": 87
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 50
+    "count": 48
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 108
+    "count": 109
    },
    {
     "name": "Arab News",
@@ -40,7 +40,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 57
+    "count": 56
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,27 +50,56 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 71
+    "count": 73
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 64
+    "count": 60
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
+    "date": "2026-10-14",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "date": "2026-10-13",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -9174,71 +9203,6 @@
      "url": "https://saudigazette.com.sa/article/665381/saudi-arabia/egypt-pledges-full-support-for-saudi-arabia-considers-joining-makkah-defense-alliance"
     }
    ]
-  },
-  {
-   "id": "223850bee4f4",
-   "articleIds": [
-    "fe9c6cfa1f8a"
-   ],
-   "type": "evacuation",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "사우디, 사나 외곽 대피령...후티, 아람코 시설 보복 예고",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T23:10:33.750Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "YTN",
-     "cat": "kr",
-     "title": "사우디, 사나 외곽 대피령...후티, 아람코 시설 보복 예고",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-13T14:07:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LUTBCcnVkMnc1SVJOT2F2WFczekhudFVac3JRdmxrQzdnWmh4Z25xMUR2NHFhcl9UakVfOF9NT3hoQzdaVGc5dWFUWWVWQ3NZVFZfTUtaUWVXczZIWmc?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "1f1bb653dcba",
-   "articleIds": [
-    "ffbdd68df515"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "리야드 공항 공격 부상자 치료 위해 의료진 400명 투입",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T14:10:30.918Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "‘I saw my brother thrown into the air’: Riyadh airport attack survivor recounts ordeal",
-     "titleKo": "리야드 공항 공격 부상자 치료 위해 의료진 400명 투입",
-     "summary": "리야드 공항 공격 부상자 치료를 위해 약 400명의 의료진이 동원됐다고 보도했어요.",
-     "reportedAt": "2026-10-13T14:00:58.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0MtZU1wQUhKX3g5VDJ3U2tIVnBSbC1OVTRrbENnOW53ZWpveTR5QjJZMGFaMnVubTVVZC1aQ0FqdTZoRS1JTFBLZ3JvQkllWEl0ZUVvdVV3TDMwY01MaWlaS1NLd2FKZnZUSmxtcWVRR2hLbTlxaUhQUkN2TVJyUEFXcmhMd2NTZTQzZ1ZmTFd6cmNLaTZLTHplT25KOGRTbzVuYm9Da01BWmFUdXJWb2E4b290RkNZSzhGVTdnTUlzYm5obVllcw?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -16095,34 +16059,6 @@
     "reportedAt": 1791900972000,
     "assumeSaudi": false,
     "firstSeen": 1791902897592
-   },
-   {
-    "id": "fe9c6cfa1f8a",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "YTN",
-    "title": "사우디, 사나 외곽 대피령...후티, 아람코 시설 보복 예고",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LUTBCcnVkMnc1SVJOT2F2WFczekhudFVac3JRdmxrQzdnWmh4Z25xMUR2NHFhcl9UakVfOF9NT3hoQzdaVGc5dWFUWWVWQ3NZVFZfTUtaUWVXczZIWmc?oc=5",
-    "reportedAt": 1791900420000,
-    "assumeSaudi": false,
-    "firstSeen": 1791933033750
-   },
-   {
-    "id": "ffbdd68df515",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "‘I saw my brother thrown into the air’: Riyadh airport attack survivor recounts ordeal",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0MtZU1wQUhKX3g5VDJ3U2tIVnBSbC1OVTRrbENnOW53ZWpveTR5QjJZMGFaMnVubTVVZC1aQ0FqdTZoRS1JTFBLZ3JvQkllWEl0ZUVvdVV3TDMwY01MaWlaS1NLd2FKZnZUSmxtcWVRR2hLbTlxaUhQUkN2TVJyUEFXcmhMd2NTZTQzZ1ZmTFd6cmNLaTZLTHplT25KOGRTbzVuYm9Da01BWmFUdXJWb2E4b290RkNZSzhGVTdnTUlzYm5obVllcw?oc=5",
-    "reportedAt": 1791900058000,
-    "assumeSaudi": false,
-    "firstSeen": 1791900630918
    }
   ],
   "summaries": {
@@ -16137,7 +16073,6 @@
    "fec899c77e84": "Saudi Gazette는 독일 총리 등 여러 지도자가 빈 살만과 통화해 전적인 지지를 표했다고 보도했어요.",
    "3513a5fc72ae": "사우디 왕세자가 각국 정상들로부터 후티 공격 규탄 전화를 받았다고 보도했어요.",
    "9391d16e969f": "Saudi Gazette는 이집트가 사우디에 군사적 지원도 제공할 준비가 됐다고 보도했어요.",
-   "ffbdd68df515": "리야드 공항 공격 부상자 치료를 위해 약 400명의 의료진이 동원됐다고 보도했어요.",
    "6b147b40ffd9": "주요 투자회의를 하이브리드 방식으로 진행할 계획이라고 보도됐어요.",
    "660e39425da0": "사우디가 예멘 수도의 석유시설을 보복 공습했다고 보도했어요.",
    "c158fc44b633": "사우디 연합이 예멘 서부의 석유시설을 공습했다고 후티 방송이 전했어요.",
@@ -16465,7 +16400,6 @@
    "dda09c9cc972": "사우디 수도 공항 이번 주 폐쇄, 항공사 운항 취소",
    "a5de3e730b74": "아시안 투어, 치명적 공격 후 사우디 상황 면밀 관찰",
    "a6478bd256bd": "공항 피격이 불러온 축구계 혼란 보도",
-   "ffbdd68df515": "리야드 공항 공격 부상자 치료 위해 의료진 400명 투입",
    "513a75a5f55e": "이집트 외교장관, 이란에 사우디 공격 즉각 중단 요구",
    "3513a5fc72ae": "왕세대, 각국 지도자들로부터 규탄 전화 받아",
    "9391d16e969f": "이집트, 사우디에 군사 지원 제공 준비",
@@ -18353,18 +18287,6 @@
    {
     "articleIds": [
      "9391d16e969f"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "fe9c6cfa1f8a"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "ffbdd68df515"
     ],
     "fromRule": true
    },
