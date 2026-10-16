@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-16T15:40:29.565Z",
-  "lastAttemptAt": "2026-10-16T15:40:29.565Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-16T15:50:36.006Z",
+  "lastAttemptAt": "2026-10-16T15:50:36.006Z",
   "aiSummary": true,
   "summaryAt": "2026-10-16T14:40:28.735Z",
   "aiError": null,
@@ -15,17 +15,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 56
+    "count": 58
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 91
+    "count": 94
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 48
+    "count": 50
    },
    {
     "name": "AFP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 116
+    "count": 114
    },
    {
     "name": "Saudi Gazette",
@@ -50,58 +50,61 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 71
+    "count": 69
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 53
+    "count": 56
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
-    "date": "2026-10-14",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-10-13",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "8adccbf9c1ba",
+   "articleIds": [
+    "58b043762ca9"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디·시리아 외교장관, 관계 및 지역 안보 논의",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-16T15:50:36.006Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi, Syrian FMs discuss ties and regional security",
+     "titleKo": "사우디·시리아 외교장관, 관계 및 지역 안보 논의",
+     "summary": "",
+     "reportedAt": "2026-10-16T15:41:50.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-syrian-fms-discuss-ties-and-regional-security-3006726"
+    }
+   ]
+  },
   {
    "id": "c82f9c85611f",
    "articleIds": [
@@ -365,7 +368,7 @@
    ]
   },
   {
-   "id": "ca217f0d8d86",
+   "id": "c63fd8af8487",
    "articleIds": [
     "bdb1a783e553",
     "c29732eb73eb",
@@ -386,7 +389,6 @@
     "9d036c469c12",
     "3f3ee0dce10c",
     "170a34c86297",
-    "afcabee5ea87",
     "8f559da34769",
     "c11ad6028295",
     "900bb51d6255",
@@ -602,16 +604,6 @@
      "reportedAt": "2026-10-16T05:46:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYXVTNUVpMVVuX0R4S3dEYm15QjZ6MXBkdU5FN2xNTWFuVTNiZlB6QmljejgxWi1qaDRocVJjV3NRQUY3MDQ4OVpUbmxZYWtmSE1JTnhkWWZ1eG9MQVl4Qk5wMWZIa2F3c3ZmNUc5WVdZMFJaVnVYT1JPbDhMQ1ZUdDllX0NMWERiWmh6MWdacG1jdFNackp6QUF3OS1zQlBpMzZNM0VHS1NOLWM3?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Belgian content creator Alexia Tashbaeva says Kingdom has ‘become home’",
-     "titleKo": "해외 크리에이터 \"사우디가 집이 됐다\"",
-     "summary": "해외 콘텐츠 제작자가 공격 상황에서도 사우디에 머물기로 했다고 전했어요.",
-     "reportedAt": "2026-10-16T06:08:40.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/fashion/belgian-content-creator-alexia-tashbaeva-says-kingdom-has-become-home-3006650"
     },
     {
      "outlet": "채널A",
@@ -8263,9 +8255,8 @@
    ]
   },
   {
-   "id": "8f522c2217a5",
+   "id": "3a7cc27d6b26",
    "articleIds": [
-    "19d54e76bb5e",
     "8a6f2362fa1c",
     "c2d7e531ebfb"
    ],
@@ -8273,7 +8264,7 @@
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "후티, 사우디 아람코 시설·공항 위협이라고 보도",
+   "title": "후티, 사우디 아람코 시설 및 공항을 위협한다고 주장 - Al Jazeera",
    "titleAuto": true,
    "regions": [
     "airport"
@@ -8281,19 +8272,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-13T15:20:32.654Z",
+   "collectedAt": "2026-10-13T17:30:32.468Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
-     "titleKo": "후티, 사우디 아람코 시설·공항 위협이라고 보도",
-     "summary": "사나에서 폭발이 보도됐고, 후티가 아람코 시설과 공항을 위협하며 ‘가혹한’ 대응을 약속했다고 전하고 있어요.",
-     "reportedAt": "2026-10-13T15:47:51.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmRBdUZFd2VfLThKOWQ3elR2ZWJzVzFrdDhMMkU2TGlFbnhiR0ZkeVVYOUhhZnNDTFNndHd3azRFZ0lqbG50Z0hlS2tVbkxhRmptNWhVRHJ3aER0WTc4ZXRPSTluRWpjdnVhOEF4bncxU3h6ZTkxSF9OQkduWWxnZTNtOURzQXM5OWRvNWNBUXBEYzlEM0VjR3N0WF9WWDdZU00yd0hR0gGrAUFVX3lxTE9xYjVUdUk4dUhhTmNFYnFCbl9TamRndElPREdPaFM3ZW0zc0NGYjd2aWRlVU1SUGxaS3NsZEY3UDBTaVJaMHZ5YnM2ZmVHNUhmTk9md0xIVzl6WFZTam13bm1iSHpEenFoUkJIcnU4dTBNSnY3NkFLZkhZajdWT2JQRUNCYlh5bWRfTGZJcS1BdEY0VUlCdzlWT1ZnUGQ1Tl9ocEdiUWZOX2Q4RQ?oc=5"
-    },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
@@ -8785,145 +8766,6 @@
      "reportedAt": "2026-10-13T15:53:29.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMm1hU0RLR1FIVzhNT3lDR2VRX05YMlhiOVlnYXVtb2xudFNFdm0wWDAtZkNkcGtrNEV6bVFfVTRhWmc4b2dDOW50UTdCY1kyZVliMnV1dEJkM25rajBQSlpFSVllbFp0VkZWVERCUV8zMzN5anJHY2VxTlBRcnljZWZzWlFxa25wMzlIenJKbVQ5RmVLV1BSeXdSdWRxdEJZTWZWbmtJR24xNGJaSWhWb0pMVE1wWmF0?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "3852d49787ad",
-   "articleIds": [
-    "492e79538d65"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티 미사일에 흔들리는 사우디 ‘스포츠 왕국’ 꿈… 아시안컵도 비상",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T21:50:35.973Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "조선일보",
-     "cat": "kr",
-     "title": "후티 미사일에 흔들리는 사우디 ‘스포츠 왕국’ 꿈… 아시안컵도 비상",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-13T15:46:57.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSzB1R0lJTmRETkFXOUZZbXVjLXBrV0EzSzlfMEZ3a1lRbGttLUJtcVI0a3ZwYlhDeHdnN3J3NG9SMFRTZmEyN18tYlNlTFp4OVA5RnFGTUppVHU4Tm9HMy1BMnlMRGZnWDFNZ0tEdDBaMVc1eUNlM05mY1lRZmxxeHZIdzExY3JrN3BVN1BIem5pNlh1em1xSjVJRmpsQQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "de0632a4a2f0",
-   "articleIds": [
-    "f22c6b7a9c40",
-    "a6cd3c578b32"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 리야드 북부 등에서 드론·미사일 요격했다고 발표",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T19:45:37.704Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition says it intercepted, destroyed 5 drones and 5 missiles targeting Saudi Arabia",
-     "titleKo": "연합군, 리야드 북부 등에서 드론·미사일 요격했다고 발표",
-     "summary": "연합군이 리야드 북부와 다수 지역에서 드론과 미사일을 요격했다고 밝혔다.",
-     "reportedAt": "2026-10-13T15:44:41.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHo2ZF9uYktTRXh6bjNzVVdKM1l6VHM3SUxVbjgwZU1OVDI2VUsyU25pMGFTaEdHU0RibkRlOFhMUFcxbFVSYjFCZDFxTnhIbl84NWZ5S1VBbUVxZm5SdE5aOEgtdEJ6SnZYWHBTeG9DcVZXdXJRY0k4ZE1BTXNYUmNhbG5raDNsNU1LbW1QMXdQcWdESjVVYmxwVkw1RXhWazczRndfaFBDSThmbWNmcC1IRGVVMzIwbWhnOFFFTFBrU09hVWYyT2VtZlo?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition says it intercepted, destroyed 5 drones and 6 missiles targeting Saudi Arabia",
-     "titleKo": "연합군, 사우디아라비아 겨냥한 드론 5대·미사일 6발 요격·격파했다고 밝혀",
-     "summary": "연합군이 5기 드론과 6기 미사일을 요격·파괴했다고 보도했다.",
-     "reportedAt": "2026-10-13T15:44:41.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNlM3R3cwZ2s2YzdTZzBwMGhYc3BMQlYxUHo4SWcyX19nVDhLNmpyc1IwYWNsXzBlTXRlWGxmY0d2RFJUY0Z5NEtXNW43dERwajdqMFRIT2tlWmREdkw5eEJkTVZ2eUlkZ1ZwMjhqamRPd3BOU1llYWg1Qk40MnNCem1yeEtxU21QN3FMaUF3bmxCR25ERi1QSWVpWFdlaHYxSFRhZUNfQXg5cERqT09xWDJ1cFN1b1M0N3g5MUkxdWdBNTRsdkppMnZXa0Y?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "cac934dc75c0",
-   "articleIds": [
-    "2852e97ee8da"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 리야드 북쪽에서 3대의 드론 요격·파괴했다고 밝혀",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T15:50:30.762Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition says it intercepted, destroyed 3 drones north of Riyadh",
-     "titleKo": "연합군, 리야드 북쪽에서 3대의 드론 요격·파괴했다고 밝혀",
-     "summary": "연합군이 리야드 북부에서 3대의 드론을 요격했다고 밝혔다.",
-     "reportedAt": "2026-10-13T15:44:41.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU0xwekEzMFJfemJUc2hzazlvWk90cE9za04zbmxuQXZkLXNZYVZZdXNldzVuTVlvWHl0SzhzT2p2V2Y0YnVPNU45amZWbmd4NjZjZ2dycVdHU2tYTF9oRWNwQWJvQ2xwTGtJOWJVQnRSaWprYVFSdnc3c0FkNTQtMk1Ba2JWUlYtQ3RaZzlWSnFEZ3d4QVRYd1JadWY1dmdQaGlQYWlZal8yZVNCcU5F?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "e1b8cdc11acb",
-   "articleIds": [
-    "a4c9f6923997"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "파키스탄, 사우디 방어에 모든 자원 제공 의사",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T15:50:30.762Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Pakistan says all resources available to defend Saudi Arabia amid Houthi attacks",
-     "titleKo": "파키스탄, 사우디 방어에 모든 자원 제공 의사",
-     "summary": "Arab News는 파키스탄이 사우디 방어를 돕기 위해 모든 자원을 제공하겠다고 밝혔다고 전했어요.",
-     "reportedAt": "2026-10-13T15:44:04.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVVpkRGdHZ2Jta1F2V3RYS3BPbVZPZHVzUU11TWJIbUNvSmhhcy0tNm9rTi1UNWhCS29BSEtjLWNSekVEblI3VXNXWi1NVkNYeEhKMUMxWlpDdUNPQ2cyRkNUeGlZMml0TjdZZUV5aDZjUUladF8zU05uVVZpenpidTY5WlNXblNiN25uWmhJUjVFWGNFMjZ3eWViT0lISmhCejE0cXZ4aUYzbDFiVG9TRE5OSVZaU2tpZzZSYktuTldzQTVa?oc=5"
     }
    ]
   }
@@ -10478,28 +10320,24 @@
    "reportedAt": "2026-10-13T16:57:31.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHpwbHhGWWNYZzFPa1lkWWROU2dkMjBiMDJiLUphbnFyanVpd09yNXNtSHY4YUNJV3pCMFVfMnJTRXNWMXE4bGs2c1NveHBVZkxBV3VQZWxnUThNREQyV0N6RmFRQW81YkJpWWFBeDdsS1JadU1lYXotR0VvdTRHQW9hLVRpOHRiT3BpcHEwMXdNNl9pX1N5Vjc1amZWaDhLSWZ6XzR6WEtMSkxibXRnUzFUbm9PNzc0LVdKVHhyTQ?oc=5"
-  },
-  {
-   "id": "19d54e76bb5e",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "titleKo": "후티, 사우디 아람코 시설·공항 위협이라고 보도",
-   "title": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
-   "summary": "사나에서 폭발이 보도됐고, 후티가 아람코 시설과 공항을 위협하며 ‘가혹한’ 대응을 약속했다고 전하고 있어요.",
-   "reportedAt": "2026-10-13T15:47:51.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmRBdUZFd2VfLThKOWQ3elR2ZWJzVzFrdDhMMkU2TGlFbnhiR0ZkeVVYOUhhZnNDTFNndHd3azRFZ0lqbG50Z0hlS2tVbkxhRmptNWhVRHJ3aER0WTc4ZXRPSTluRWpjdnVhOEF4bncxU3h6ZTkxSF9OQkduWWxnZTNtOURzQXM5OWRvNWNBUXBEYzlEM0VjR3N0WF9WWDdZU00yd0hR0gGrAUFVX3lxTE9xYjVUdUk4dUhhTmNFYnFCbl9TamRndElPREdPaFM3ZW0zc0NGYjd2aWRlVU1SUGxaS3NsZEY3UDBTaVJaMHZ5YnM2ZmVHNUhmTk9md0xIVzl6WFZTam13bm1iSHpEenFoUkJIcnU4dTBNSnY3NkFLZkhZajdWT2JQRUNCYlh5bWRfTGZJcS1BdEY0VUlCdzlWT1ZnUGQ1Tl9ocEdiUWZOX2Q4RQ?oc=5"
   }
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "58b043762ca9",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi, Syrian FMs discuss ties and regional security",
+    "snippet": "RIYADH: Saudi Foreign Minister Prince Faisal bin Farhan and his Syrian counterpart, Asaad Al-Shaibani, met on Friday in Riyadh to discuss strengthening ties and addressing shared regional challenges. During the talks, Al-Shaibani reaffirmed Syria’s solidarity with Saudi Arabia following recent Houthi attacks on civilian facilities in the Kingdom. He said Saudi security was integral to the security",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-syrian-fms-discuss-ties-and-regional-security-3006726",
+    "reportedAt": 1792165310000,
+    "assumeSaudi": false,
+    "firstSeen": 1792165836006
+   },
    {
     "id": "188285d0417d",
     "feed": "한국 주요 언론",
@@ -10807,20 +10645,6 @@
     "reportedAt": 1792132020000,
     "assumeSaudi": false,
     "firstSeen": 1792135233684
-   },
-   {
-    "id": "afcabee5ea87",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Belgian content creator Alexia Tashbaeva says Kingdom has ‘become home’",
-    "snippet": "RIYADH: Belgian content creator Alexia Tashbaeva, who lives in Saudi Arabia, has said the Kingdom has become her home, explaining that she chose to stay despite her family urging her to return to Belgium amid recent attacks on Saudi airports. In a video shared on TikTok, Tashbaeva said she usually avoided discussing politics on social media but wanted to speak out in solidarity with the Kingdom. “",
-    "url": "https://www.arabnews.com/fashion/belgian-content-creator-alexia-tashbaeva-says-kingdom-has-become-home-3006650",
-    "reportedAt": 1792130920000,
-    "assumeSaudi": false,
-    "firstSeen": 1792131035436
    },
    {
     "id": "170a34c86297",
@@ -15511,97 +15335,12 @@
     "reportedAt": 1791906809000,
     "assumeSaudi": false,
     "firstSeen": 1791907254953
-   },
-   {
-    "id": "19d54e76bb5e",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmRBdUZFd2VfLThKOWQ3elR2ZWJzVzFrdDhMMkU2TGlFbnhiR0ZkeVVYOUhhZnNDTFNndHd3azRFZ0lqbG50Z0hlS2tVbkxhRmptNWhVRHJ3aER0WTc4ZXRPSTluRWpjdnVhOEF4bncxU3h6ZTkxSF9OQkduWWxnZTNtOURzQXM5OWRvNWNBUXBEYzlEM0VjR3N0WF9WWDdZU00yd0hR0gGrAUFVX3lxTE9xYjVUdUk4dUhhTmNFYnFCbl9TamRndElPREdPaFM3ZW0zc0NGYjd2aWRlVU1SUGxaS3NsZEY3UDBTaVJaMHZ5YnM2ZmVHNUhmTk9md0xIVzl6WFZTam13bm1iSHpEenFoUkJIcnU4dTBNSnY3NkFLZkhZajdWT2JQRUNCYlh5bWRfTGZJcS1BdEY0VUlCdzlWT1ZnUGQ1Tl9ocEdiUWZOX2Q4RQ?oc=5",
-    "reportedAt": 1791906471000,
-    "assumeSaudi": false,
-    "firstSeen": 1791904832654
-   },
-   {
-    "id": "492e79538d65",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "조선일보",
-    "title": "후티 미사일에 흔들리는 사우디 ‘스포츠 왕국’ 꿈… 아시안컵도 비상",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSzB1R0lJTmRETkFXOUZZbXVjLXBrV0EzSzlfMEZ3a1lRbGttLUJtcVI0a3ZwYlhDeHdnN3J3NG9SMFRTZmEyN18tYlNlTFp4OVA5RnFGTUppVHU4Tm9HMy1BMnlMRGZnWDFNZ0tEdDBaMVc1eUNlM05mY1lRZmxxeHZIdzExY3JrN3BVN1BIem5pNlh1em1xSjVJRmpsQQ?oc=5",
-    "reportedAt": 1791906417000,
-    "assumeSaudi": false,
-    "firstSeen": 1791928235973
-   },
-   {
-    "id": "f22c6b7a9c40",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says it intercepted, destroyed 5 drones and 5 missiles targeting Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHo2ZF9uYktTRXh6bjNzVVdKM1l6VHM3SUxVbjgwZU1OVDI2VUsyU25pMGFTaEdHU0RibkRlOFhMUFcxbFVSYjFCZDFxTnhIbl84NWZ5S1VBbUVxZm5SdE5aOEgtdEJ6SnZYWHBTeG9DcVZXdXJRY0k4ZE1BTXNYUmNhbG5raDNsNU1LbW1QMXdQcWdESjVVYmxwVkw1RXhWazczRndfaFBDSThmbWNmcC1IRGVVMzIwbWhnOFFFTFBrU09hVWYyT2VtZlo?oc=5",
-    "reportedAt": 1791906281000,
-    "assumeSaudi": false,
-    "firstSeen": 1791920737704
-   },
-   {
-    "id": "2852e97ee8da",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says it intercepted, destroyed 3 drones north of Riyadh",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU0xwekEzMFJfemJUc2hzazlvWk90cE9za04zbmxuQXZkLXNZYVZZdXNldzVuTVlvWHl0SzhzT2p2V2Y0YnVPNU45amZWbmd4NjZjZ2dycVdHU2tYTF9oRWNwQWJvQ2xwTGtJOWJVQnRSaWprYVFSdnc3c0FkNTQtMk1Ba2JWUlYtQ3RaZzlWSnFEZ3d4QVRYd1JadWY1dmdQaGlQYWlZal8yZVNCcU5F?oc=5",
-    "reportedAt": 1791906281000,
-    "assumeSaudi": false,
-    "firstSeen": 1791906630762
-   },
-   {
-    "id": "a6cd3c578b32",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says it intercepted, destroyed 5 drones and 6 missiles targeting Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNlM3R3cwZ2s2YzdTZzBwMGhYc3BMQlYxUHo4SWcyX19nVDhLNmpyc1IwYWNsXzBlTXRlWGxmY0d2RFJUY0Z5NEtXNW43dERwajdqMFRIT2tlWmREdkw5eEJkTVZ2eUlkZ1ZwMjhqamRPd3BOU1llYWg1Qk40MnNCem1yeEtxU21QN3FMaUF3bmxCR25ERi1QSWVpWFdlaHYxSFRhZUNfQXg5cERqT09xWDJ1cFN1b1M0N3g5MUkxdWdBNTRsdkppMnZXa0Y?oc=5",
-    "reportedAt": 1791906281000,
-    "assumeSaudi": false,
-    "firstSeen": 1791921031056
-   },
-   {
-    "id": "a4c9f6923997",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Pakistan says all resources available to defend Saudi Arabia amid Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVVpkRGdHZ2Jta1F2V3RYS3BPbVZPZHVzUU11TWJIbUNvSmhhcy0tNm9rTi1UNWhCS29BSEtjLWNSekVEblI3VXNXWi1NVkNYeEhKMUMxWlpDdUNPQ2cyRkNUeGlZMml0TjdZZUV5aDZjUUladF8zU05uVVZpenpidTY5WlNXblNiN25uWmhJUjVFWGNFMjZ3eWViT0lISmhCejE0cXZ4aUYzbDFiVG9TRE5OSVZaU2tpZzZSYktuTldzQTVa?oc=5",
-    "reportedAt": 1791906244000,
-    "assumeSaudi": false,
-    "firstSeen": 1791906630762
    }
   ],
   "summaries": {
    "dda09c9cc972": "사우디 수도 공항이 이번 주에도 계속 폐쇄돼 항공사들이 운항을 취소했다고 보도했어요.",
    "a6478bd256bd": "공항 피격으로 축구계 일정에 혼란이 생겼다고 보도했어요.",
    "a5de3e730b74": "아시안 투어는 최근의 치명적 공격 이후 사우디 상황을 면밀히 관찰한다고 밝혔어요.",
-   "19d54e76bb5e": "사나에서 폭발이 보도됐고, 후티가 아람코 시설과 공항을 위협하며 ‘가혹한’ 대응을 약속했다고 전하고 있어요.",
    "6b147b40ffd9": "주요 투자회의를 하이브리드 방식으로 진행할 계획이라고 보도됐어요.",
    "660e39425da0": "사우디가 예멘 수도의 석유시설을 보복 공습했다고 보도했어요.",
    "c158fc44b633": "사우디 연합이 예멘 서부의 석유시설을 공습했다고 후티 방송이 전했어요.",
@@ -15617,15 +15356,12 @@
    "a6e734bfca5b": "Arab News는 파키스탄 종교부 장관이 사우디에 대한 공격을 자국에 대한 공격으로 본다고 말했다고 전했어요.",
    "322f45400ad3": "파키스탄이 사우디 방어를 위해 자원을 제공할 준비가 됐다고 보도했다.",
    "c2d7e531ebfb": "후티가 아람코 시설과 공항을 위협했다고 보도했다.",
-   "a4c9f6923997": "Arab News는 파키스탄이 사우디 방어를 돕기 위해 모든 자원을 제공하겠다고 밝혔다고 전했어요.",
    "58b417c849ae": "Arab News는 연합군 대변인이 사나의 알-사바하 석유시설 인근 시민들에게 대피를 촉구했다고 보도했어요.",
    "e4d9b92edd18": "사우디가 후티의 연료와 군사시설을 대대적으로 공습했다고 보도했어요.",
    "ee73160d11f5": "사우디가 후티의 연료 및 군사시설을 대대적으로 보복 공습했다고 전했어요.",
    "f181de9ec045": "요격된 후티 미사일 잔해가 다흐란 주거지역에 떨어졌다고 전했어요.",
    "104cb05f404f": "사우디가 후티 석유시설을 공습했고 트럼프가 보복을 예고했다고 보도했다.",
    "1a4149f45e30": "사우디가 후티의 연료·군사시설을 목표로 대대적 보복 공습을 벌였다고 보도됐어요.",
-   "f22c6b7a9c40": "연합군이 리야드 북부와 다수 지역에서 드론과 미사일을 요격했다고 밝혔다.",
-   "2852e97ee8da": "연합군이 리야드 북부에서 3대의 드론을 요격했다고 밝혔다.",
    "95cd405a12a9": "사우디 토요타 챔피언십 타임어택 결승이 제다 코르니시 서킷에서 열린다고 보도했어요.",
    "43eb34f5fccc": "트럼프가 후티를 '악랄'이라 칭하며 경고했다고 보도됐어요.",
    "0bccb27107e4": "사우디 연합군이 후티 석유시설을 공습했다고 보도됐어요.",
@@ -15645,7 +15381,6 @@
    "2669e01204b6": "리야드 공항 공격으로 숨진 이집트 승무원의 장례가 치러졌다고 보도했어요.",
    "933cb30cc2e1": "아람코 본사 인근에서 폭발음이 들렸다고 보도했어요.",
    "f0a70d946185": "사우디 주도 연합이 다흐란을 향한 탄도미사일을 요격했다고 발표했어요.",
-   "a6cd3c578b32": "연합군이 5기 드론과 6기 미사일을 요격·파괴했다고 보도했다.",
    "39002259233a": "미사일이 아람코 본부를 맞췄다고 소식통이 전했어요.",
    "cc1b262b24e7": "다란의 아람코 행정건물이 공격을 받아 제한적 화재가 발생했다고 에너지부가 발표했어요.",
    "8f748ad784bb": "AP는 사우디 에너지부가 아람코 단지 건물의 제한적 화재를 보고했다고 전했어요.",
@@ -15906,7 +15641,6 @@
    "a1de8183224c": "후티의 무기체계 특징을 분석한 보도예요.",
    "2b7bd4780dd0": "후티의 공항 공격이 빈살만의 탈석유 계획에 영향 준다고 보도했어요.",
    "8f559da34769": "사우디가 공항 피격 당시 영상을 공개했고 시민들이 혼란스러웠다고 보도했어요.",
-   "afcabee5ea87": "해외 콘텐츠 제작자가 공격 상황에서도 사우디에 머물기로 했다고 전했어요.",
    "170a34c86297": "아시안 투어가 리야드 공격 이후 사우디 대회를 연기했다고 보도됐어요.",
    "0e3801686740": "후티의 저가 드론과 사우디의 고가 미사일 비교 보도였어요.",
    "3f3ee0dce10c": "리야드 공격 여파로 골프 대회가 연기됐다고 보도됐어요.",
@@ -15933,9 +15667,6 @@
    "dda09c9cc972": "사우디 수도 공항 이번 주 폐쇄, 항공사 운항 취소",
    "a5de3e730b74": "아시안 투어, 치명적 공격 후 사우디 상황 면밀 관찰",
    "a6478bd256bd": "공항 피격이 불러온 축구계 혼란 보도",
-   "19d54e76bb5e": "후티, 사우디 아람코 시설·공항 위협이라고 보도",
-   "2852e97ee8da": "연합군, 리야드 북쪽에서 3대의 드론 요격·파괴했다고 밝혀",
-   "a4c9f6923997": "파키스탄, 사우디 방어에 모든 자원 제공 의사",
    "c158fc44b633": "연합이 예멘 서부 석유시설 공습했다고 후티 방송 보도",
    "56ff55f3a50a": "에르도안, 왕세자에 전화해 후티의 사우디 공격 규탄",
    "322f45400ad3": "파키스탄, 사우디 방어 지원 준비돼 있다고 밝혀",
@@ -15956,8 +15687,6 @@
    "902827db6fa3": "연합군, 미사일·드론 공격 지원에 사용된 후티 연료 시설 목표로 공습",
    "8e5ea488882d": "리야드 공항 공격으로 이집트 승무원 사망 보도",
    "f181de9ec045": "요격된 후티 미사일 잔해가 다흐란 주거지역에 낙하",
-   "f22c6b7a9c40": "연합군, 리야드 북부 등에서 드론·미사일 요격했다고 발표",
-   "a6cd3c578b32": "연합군, 사우디아라비아 겨냥한 드론 5대·미사일 6발 요격·격파했다고 밝혀",
    "95cd405a12a9": "사우디 토요타 챔피언십 타임어택, 제다서 결승 개최",
    "933cb30cc2e1": "아람코 본사 인근에서 폭발음 관측",
    "f0a70d946185": "연합: 다흐란 향한 탄도미사일 요격·파괴 발표",
@@ -16236,7 +15965,6 @@
    "d4e41040b136": "후티 대통령궁 미사일 공격 보도",
    "e6a516944890": "후티 대통령궁 공격과 이란 배후설 보도",
    "170a34c86297": "아시안 투어, 리야드 공격 이후 대회 연기",
-   "afcabee5ea87": "해외 크리에이터 \"사우디가 집이 됐다\"",
    "3f3ee0dce10c": "리야드 공격으로 골프 대회 연기",
    "a1de8183224c": "후티 무기체계 특징 분석 보도",
    "2b7bd4780dd0": "후티 공항 공격이 탈석유 계획에 영향 준다는 분석",
@@ -16264,7 +15992,8 @@
    "770c7dbf616e": "GCC 사무총장, 유엔 안보리 성명 환영",
    "d66b74acad26": "Coalition: Three UAVs Intercepted and Destroyed in Southern and Riyadh Regions",
    "1f65d23bfc4e": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\"",
-   "493611497615": "스포츠 인사들 안전 우려와 아시안컵 준비 협력 강조"
+   "493611497615": "스포츠 인사들 안전 우려와 아시안컵 준비 협력 강조",
+   "58b043762ca9": "사우디·시리아 외교장관, 관계 및 지역 안보 논의"
   },
   "aiClusters": [
    {
@@ -16298,7 +16027,6 @@
      "a09e47f3ae8b",
      "1313c4d959da",
      "f9322785a10b",
-     "afcabee5ea87",
      "a4aebae8c559",
      "c11ad6028295",
      "900bb51d6255",
@@ -17665,8 +17393,7 @@
    {
     "articleIds": [
      "c2d7e531ebfb",
-     "8a6f2362fa1c",
-     "19d54e76bb5e"
+     "8a6f2362fa1c"
     ],
     "fromRule": true
    },
@@ -17758,31 +17485,6 @@
    },
    {
     "articleIds": [
-     "492e79538d65"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "f22c6b7a9c40",
-     "a6cd3c578b32"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "2852e97ee8da"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "a4c9f6923997"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "ed24c2c5fcec"
     ],
     "fromRule": true
@@ -17803,6 +17505,12 @@
     "articleIds": [
      "188285d0417d",
      "6a370eab6eb0"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "58b043762ca9"
     ],
     "fromRule": true
    }
