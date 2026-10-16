@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-16T16:50:29.571Z",
-  "lastAttemptAt": "2026-10-16T16:50:29.571Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-16T17:01:00.289Z",
+  "lastAttemptAt": "2026-10-16T17:01:00.289Z",
   "aiSummary": true,
   "summaryAt": "2026-10-16T16:41:12.802Z",
   "aiError": null,
@@ -21,27 +21,27 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 80
+    "count": 84
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 47
+    "count": 49
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 112
+    "count": 113
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 114
+    "count": 115
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 52
+    "count": 53
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,17 +51,19 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 66
+    "count": 71
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,40 +71,43 @@
     "count": 53
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.15)",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "9e18c89c81ee",
+   "articleIds": [
+    "9c77b3dff2c7"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "공항 폐쇄 속에도 해외에서 귀국하는 리야드 주민들",
+   "titleAuto": true,
+   "regions": [
+    "eastern",
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-16T17:01:00.289Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Resilient Riyadh residents return from abroad amid airport closures",
+     "titleKo": "공항 폐쇄 속에도 해외에서 귀국하는 리야드 주민들",
+     "summary": "",
+     "reportedAt": "2026-10-16T16:54:28.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/resilient-riyadh-residents-return-from-abroad-amid-airport-closures-3006494"
+    }
+   ]
+  },
   {
    "id": "f575042ca142",
    "articleIds": [
@@ -333,7 +338,7 @@
      "summary": "후티가 리야드·얀부를 공격했고 연합군이 미사일·드론을 요격했다고 보도했어요.",
      "reportedAt": "2026-10-16T14:27:42.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MNIBYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82cFpTNGh5ZHgtTGZRckNiR0l6ZkxmRmFCUFE5V3ZKbVVkVm81NEZjWmRWM2RheFBJMXN3eV9oVF90Ym5JTkxVOHhUNTJ2ejhFR2YyZ1hCWUlGTVnSAWBBVV95cUxOSDJYbWZMbzQwdFU1cHpVT19vVTR5aFpFRHFYNmhYRjhGZUlWQkdGQnBjSHd6QnhXbXQ4dUNmUGF3S2t4R0VUTHdfWTExczBMT216ZDV1R3M1djZhUFhudDA?oc=5"
     },
     {
      "outlet": "MBC",
@@ -8669,16 +8674,15 @@
    ]
   },
   {
-   "id": "3a7cc27d6b26",
+   "id": "56ebd95977ca",
    "articleIds": [
-    "8a6f2362fa1c",
     "c2d7e531ebfb"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "후티, 사우디 아람코 시설 및 공항을 위협한다고 주장 - Al Jazeera",
+   "title": "후티, 아람코 시설·공항 위협 경고(알자지라 보도)",
    "titleAuto": true,
    "regions": [
     "airport"
@@ -8689,16 +8693,6 @@
    "collectedAt": "2026-10-13T17:30:32.468Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Houthis Threaten Saudi Aramco Facilities and Airports - Al Jazeera",
-     "titleKo": "후티, 사우디 아람코 시설 및 공항을 위협한다고 주장 - Al Jazeera",
-     "summary": "",
-     "reportedAt": "2026-10-13T16:57:31.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHpwbHhGWWNYZzFPa1lkWWROU2dkMjBiMDJiLUphbnFyanVpd09yNXNtSHY4YUNJV3pCMFVfMnJTRXNWMXE4bGs2c1NveHBVZkxBV3VQZWxnUThNREQyV0N6RmFRQW81YkJpWWFBeDdsS1JadU1lYXotR0VvdTRHQW9hLVRpOHRiT3BpcHEwMXdNNl9pX1N5Vjc1amZWaDhLSWZ6XzR6WEtMSkxibXRnUzFUbm9PNzc0LVdKVHhyTQ?oc=5"
-    },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
@@ -8868,70 +8862,6 @@
      "reportedAt": "2026-10-13T17:03:05.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObkRyRk16UFAtVlQ1bmh6ZGl3WmpvYUxDa1k3ZGw5c0VIV3h1SEtTeGVsMmM4XzZGOGt3Y20xUF9tRUxsaXF5SUpORHN3RGtWOFZ6MDB1WXZ4T0hCOUF6RXExOC1LVWdnZUR6UmdVUkpsbmxocDhGSEYwZmpKdkVWNm1GVXlMQzJ4ZjJKN3c2aTZvQkVpazI0b19SU05BdjhWLTVrNzFlSV9ySTVIZ0ZNVlYtcXd2VU9aY0t6YWZHR0d0VWNFQ0xXY0gxSXo?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "63611ff696d1",
-   "articleIds": [
-    "155cba0bb1a7"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "\"이스라엘, 사우디에 '후티 공격 돕겠다' 제안…빈 살만 거부\"",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T17:05:30.756Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "\"이스라엘, 사우디에 '후티 공격 돕겠다' 제안…빈 살만 거부\"",
-     "titleKo": null,
-     "summary": "뉴시스는 이스라엘이 후티 공격 지원을 제안했다가 사우디가 거부했다는 보도를 전했어요.",
-     "reportedAt": "2026-10-13T16:58:35.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBacVE3SzZpSEJDSmZGVjdRcGtEMHZiUUx3SkkzYnQtWUlrWi01N3NRdXAzU1lrQjZhRW1Bc3djQmV6RFZQaUVybGI0Xzdvajc3dUtBbmo5SmJfT3JTeDdvdmF2WFpROWdPSW5KVklLLUZFOC16TVM5a9IBeEFVX3lxTFBacVE3SzZpSEJDSmZGVjdRcGtEMHZiUUx3SkkzYnQtWUlrWi01N3NRdXAzU1lrQjZhRW1Bc3djQmV6RFZQaUVybGI0Xzdvajc3dUtBbmo5SmJfT3JTeDdvdmF2WFpROWdPSW5KVklLLUZFOC16TVM5aw?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "eb034558f950",
-   "articleIds": [
-    "2b9b14fc7154"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 연합군, 후티 석유시설 타격 예고…공습 시작 정황",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-13T17:05:30.756Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "세계일보",
-     "cat": "kr",
-     "title": "사우디 연합군, 후티 석유시설 타격 예고…공습 시작 정황",
-     "titleKo": null,
-     "summary": "세계일보는 사우디 연합군이 후티 석유시설 타격을 예고하며 공습이 시작된 정황을 보도했어요.",
-     "reportedAt": "2026-10-13T16:51:37.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzazBXUTdPaThnQlVIcFZ2X3JMV2tXdzBxNXNfbXVOR3ZXZFkzYTNxeFpFUjVybDJDeFM5bUVUOWpDLU4zZGhOT2dmU0dCNU9aRDVaWmI5eGjSAVRBVV95cUxPSG5CUFdxcU4xd1lCWU1Oa085a0xHWFRLd2dabDRUbE5CdEM5aTAxanZOZnFuZ19rOXJScFR5Xy1UMEl1Tk55eUNYajZGT1NOM2MwQTU?oc=5"
     }
    ]
   }
@@ -10540,28 +10470,24 @@
    "reportedAt": "2026-10-13T17:12:46.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa2sxWTVlekZ2bXloVXNiOUltMm5iODVOMW9NTUo4Q016ZU02OFQ5TU9relFTcUZSaW8xV0c2YmNVbE5jWW5uQjhKeXNKaWxBcE92SU1fQUU0R2RVamdNUzRhTER3NzEzMFUtRVd3bzVnZ1g0ZmtRek95VHdYbVNNMmNacmlDd3dLTThmaGF2VVJDYTc4c1hQeUZfX0ZGQzZjTXlpLU52U3JuUGpjOHJjWndoS19LandSX0dtMmdUMzNKZw?oc=5"
-  },
-  {
-   "id": "8a6f2362fa1c",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "titleKo": "후티, 사우디 아람코 시설 및 공항을 위협한다고 주장 - Al Jazeera",
-   "title": "Houthis Threaten Saudi Aramco Facilities and Airports - Al Jazeera",
-   "summary": "",
-   "reportedAt": "2026-10-13T16:57:31.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHpwbHhGWWNYZzFPa1lkWWROU2dkMjBiMDJiLUphbnFyanVpd09yNXNtSHY4YUNJV3pCMFVfMnJTRXNWMXE4bGs2c1NveHBVZkxBV3VQZWxnUThNREQyV0N6RmFRQW81YkJpWWFBeDdsS1JadU1lYXotR0VvdTRHQW9hLVRpOHRiT3BpcHEwMXdNNl9pX1N5Vjc1amZWaDhLSWZ6XzR6WEtMSkxibXRnUzFUbm9PNzc0LVdKVHhyTQ?oc=5"
   }
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "9c77b3dff2c7",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Resilient Riyadh residents return from abroad amid airport closures",
+    "snippet": "DHAHRAN: It took Riyadh-resident Amal Sghaier nearly 22 hours and several detours to return home from her vacation in South Korea this week. Airport closures due to recent unrest meant her original journey was not possible, so she entered the Kingdom by car via King Fahd Causeway. While she enjoyed her first trip to Seoul, she was adamant she would not extend her eight-day trip. Despite pleas from",
+    "url": "https://www.arabnews.com/saudi-arabia/resilient-riyadh-residents-return-from-abroad-amid-airport-closures-3006494",
+    "reportedAt": 1792169668000,
+    "assumeSaudi": false,
+    "firstSeen": 1792170060289
+   },
    {
     "id": "3bdf53acd99f",
     "feed": "Asharq Al-Awsat",
@@ -10669,7 +10595,7 @@
     "outlet": "연합뉴스",
     "title": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MNIBYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82cFpTNGh5ZHgtTGZRckNiR0l6ZkxmRmFCUFE5V3ZKbVVkVm81NEZjWmRWM2RheFBJMXN3eV9oVF90Ym5JTkxVOHhUNTJ2ejhFR2YyZ1hCWUlGTVnSAWBBVV95cUxOSDJYbWZMbzQwdFU1cHpVT19vVTR5aFpFRHFYNmhYRjhGZUlWQkdGQnBjSHd6QnhXbXQ4dUNmUGF3S2t4R0VUTHdfWTExczBMT216ZDV1R3M1djZhUFhudDA?oc=5",
     "reportedAt": 1792160862000,
     "assumeSaudi": false,
     "firstSeen": 1792161628735
@@ -15495,48 +15421,6 @@
     "reportedAt": 1791910985000,
     "assumeSaudi": false,
     "firstSeen": 1791911432802
-   },
-   {
-    "id": "155cba0bb1a7",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴시스",
-    "title": "\"이스라엘, 사우디에 '후티 공격 돕겠다' 제안…빈 살만 거부\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBacVE3SzZpSEJDSmZGVjdRcGtEMHZiUUx3SkkzYnQtWUlrWi01N3NRdXAzU1lrQjZhRW1Bc3djQmV6RFZQaUVybGI0Xzdvajc3dUtBbmo5SmJfT3JTeDdvdmF2WFpROWdPSW5KVklLLUZFOC16TVM5a9IBeEFVX3lxTFBacVE3SzZpSEJDSmZGVjdRcGtEMHZiUUx3SkkzYnQtWUlrWi01N3NRdXAzU1lrQjZhRW1Bc3djQmV6RFZQaUVybGI0Xzdvajc3dUtBbmo5SmJfT3JTeDdvdmF2WFpROWdPSW5KVklLLUZFOC16TVM5aw?oc=5",
-    "reportedAt": 1791910715000,
-    "assumeSaudi": false,
-    "firstSeen": 1791911130756
-   },
-   {
-    "id": "8a6f2362fa1c",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Houthis Threaten Saudi Aramco Facilities and Airports - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHpwbHhGWWNYZzFPa1lkWWROU2dkMjBiMDJiLUphbnFyanVpd09yNXNtSHY4YUNJV3pCMFVfMnJTRXNWMXE4bGs2c1NveHBVZkxBV3VQZWxnUThNREQyV0N6RmFRQW81YkJpWWFBeDdsS1JadU1lYXotR0VvdTRHQW9hLVRpOHRiT3BpcHEwMXdNNl9pX1N5Vjc1amZWaDhLSWZ6XzR6WEtMSkxibXRnUzFUbm9PNzc0LVdKVHhyTQ?oc=5",
-    "reportedAt": 1791910651000,
-    "assumeSaudi": false,
-    "firstSeen": 1791991840012
-   },
-   {
-    "id": "2b9b14fc7154",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "세계일보",
-    "title": "사우디 연합군, 후티 석유시설 타격 예고…공습 시작 정황",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzazBXUTdPaThnQlVIcFZ2X3JMV2tXdzBxNXNfbXVOR3ZXZFkzYTNxeFpFUjVybDJDeFM5bUVUOWpDLU4zZGhOT2dmU0dCNU9aRDVaWmI5eGjSAVRBVV95cUxPSG5CUFdxcU4xd1lCWU1Oa085a0xHWFRLd2dabDRUbE5CdEM5aTAxanZOZnFuZ19rOXJScFR5Xy1UMEl1Tk55eUNYajZGT1NOM2MwQTU?oc=5",
-    "reportedAt": 1791910297000,
-    "assumeSaudi": false,
-    "firstSeen": 1791911130756
    }
   ],
   "summaries": {
@@ -15547,8 +15431,6 @@
    "660e39425da0": "사우디가 예멘 수도의 석유시설을 보복 공습했다고 보도했어요.",
    "c158fc44b633": "사우디 연합이 예멘 서부의 석유시설을 공습했다고 후티 방송이 전했어요.",
    "13dbd54b886c": "사우디 각료회의가 연합군의 작전을 지지하고 후티의 공격을 경고했다고 전했어요.",
-   "155cba0bb1a7": "뉴시스는 이스라엘이 후티 공격 지원을 제안했다가 사우디가 거부했다는 보도를 전했어요.",
-   "2b9b14fc7154": "세계일보는 사우디 연합군이 후티 석유시설 타격을 예고하며 공습이 시작된 정황을 보도했어요.",
    "248677ebe815": "사우디가 예멘 수도를 타격했고 후티는 보복을 다짐했다고 보도했어요.",
    "c2d7e531ebfb": "후티가 아람코 시설과 공항을 위협했다고 보도했다.",
    "e4d9b92edd18": "사우디가 후티의 연료와 군사시설을 대대적으로 공습했다고 보도했어요.",
@@ -15873,8 +15755,6 @@
    "c2d7e531ebfb": "후티, 아람코 시설·공항 위협 경고(알자지라 보도)",
    "6b147b40ffd9": "FII 등 주요 회의 하이브리드 개최 계획 보도",
    "660e39425da0": "사우디, 후티 장악 예멘 수도 석유시설 보복 공습",
-   "155cba0bb1a7": "이스라엘, 후티 공격 지원 제안…사우디 거부 보도",
-   "2b9b14fc7154": "사우디 연합군, 후티 석유시설 타격 예고…공습 정황",
    "902827db6fa3": "연합군, 미사일·드론 공격 지원에 사용된 후티 연료 시설 목표로 공습",
    "8e5ea488882d": "리야드 공항 공격으로 이집트 승무원 사망 보도",
    "f181de9ec045": "요격된 후티 미사일 잔해가 다흐란 주거지역에 낙하",
@@ -16003,7 +15883,6 @@
    "3d2c366f3331": "이라크 총리, 사우디 공습 규탄과 영토 사용 중지 촉구",
    "47d67ee303ba": "사우디 국민 결집 보도",
    "4d8af6e61c17": "이라크, 사우디 공격 발사대 제공 거부",
-   "8a6f2362fa1c": "후티, 사우디 아람코 시설 및 공항을 위협한다고 주장 - Al Jazeera",
    "d8dfdc841673": "리야드에서 다수 부상자와 아람코 표적화 보도",
    "1919287cea11": "레바논 지도자들 후티 공격 규탄 보도",
    "f1811d85f823": "후티, 사우디 아람코·공항에 미사일·드론 공격하겠다고 주장",
@@ -16185,7 +16064,8 @@
    "1f65d23bfc4e": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\"",
    "493611497615": "스포츠 인사들 안전 우려와 아시안컵 준비 협력 강조",
    "58b043762ca9": "사우디·시리아 외교장관, 리야드서 회담해 지역 안보 논의",
-   "3bdf53acd99f": "사우디아라비아, 안보리의 후티 공격 규탄 성명 환영"
+   "3bdf53acd99f": "사우디아라비아, 안보리의 후티 공격 규탄 성명 환영",
+   "9c77b3dff2c7": "공항 폐쇄 속에도 해외에서 귀국하는 리야드 주민들"
   },
   "aiClusters": [
    {
@@ -17692,8 +17572,7 @@
    },
    {
     "articleIds": [
-     "c2d7e531ebfb",
-     "8a6f2362fa1c"
+     "c2d7e531ebfb"
     ],
     "fromRule": true
    },
@@ -17729,18 +17608,6 @@
    },
    {
     "articleIds": [
-     "155cba0bb1a7"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "2b9b14fc7154"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "3bdf53acd99f"
     ],
     "fromRule": true
@@ -17760,6 +17627,12 @@
    {
     "articleIds": [
      "80feb19c1698"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "9c77b3dff2c7"
     ],
     "fromRule": true
    }
