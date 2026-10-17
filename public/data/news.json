@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-17T14:03:06.160Z",
-  "lastAttemptAt": "2026-10-17T14:03:06.160Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-17T14:10:30.388Z",
+  "lastAttemptAt": "2026-10-17T14:10:30.388Z",
   "aiSummary": true,
   "summaryAt": "2026-10-17T14:00:44.974Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 38
+    "count": 40
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 30
+    "count": 29
    },
    {
     "name": "AP",
@@ -36,12 +36,12 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 113
+    "count": 111
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 32
+    "count": 33
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,29 +51,91 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 48
+    "count": 49
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 3
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 38
+    "count": 36
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
+    "date": "2026-10-16",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.15)",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "7eafb8fc5f3f",
+   "articleIds": [
+    "329ed7c65329"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드 공항 공격에서 살아남았지만…그 사건이 나를 바꿨다",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-17T14:10:30.388Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "I survived the Riyadh airport attack ... but it changed me",
+     "titleKo": "리야드 공항 공격에서 살아남았지만…그 사건이 나를 바꿨다",
+     "summary": "",
+     "reportedAt": "2026-10-17T14:03:31.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/the-space/i-survived-the-riyadh-airport-attack-but-it-changed-me-3006851"
+    }
+   ]
+  },
   {
    "id": "c504334a008e",
    "articleIds": [
@@ -6959,6 +7021,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "329ed7c65329",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "I survived the Riyadh airport attack ... but it changed me",
+    "snippet": "Sometimes, surviving does not give us more time. It gives the time we have left a deeper meaning. There are moments in life that do not end when the danger passes. They remain with us, quietly reshaping who we are, what we value, and how we see the world. For me, the attack on Riyadh’s King Khalid International Airport was one of those moments. What began as an ordinary day became a terrifying con",
+    "url": "https://www.arabnews.com/the-space/i-survived-the-riyadh-airport-attack-but-it-changed-me-3006851",
+    "reportedAt": 1792245811000,
+    "assumeSaudi": false,
+    "firstSeen": 1792246230388
+   },
+   {
     "id": "eb0033571d2b",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -10695,7 +10771,8 @@
    "1de38716c34b": "유조선 사우디 해상서 피격, 인명피해 없어",
    "12202ace4dfc": "WSJ 보도: 이란이 후티에 사우디 표적·정보 제공",
    "42945ddf7475": "이란, 후티에 사우디 공격 방법 가르쳐줬다고 보도",
-   "d63614ed9aa0": "후티에 도움 준 자들의 정체를 추적하는 보도"
+   "d63614ed9aa0": "후티에 도움 준 자들의 정체를 추적하는 보도",
+   "329ed7c65329": "리야드 공항 공격에서 살아남았지만…그 사건이 나를 바꿨다"
   },
   "aiClusters": [
    {
@@ -11734,6 +11811,12 @@
    {
     "articleIds": [
      "731bdac2603b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "329ed7c65329"
     ],
     "fromRule": true
    }
