@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-17T07:10:31.245Z",
-  "lastAttemptAt": "2026-10-17T07:10:31.245Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-17T07:11:36.197Z",
+  "lastAttemptAt": "2026-10-17T07:11:36.197Z",
   "aiSummary": true,
   "summaryAt": "2026-10-17T05:30:34.791Z",
   "aiError": null,
@@ -14,39 +14,33 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 38
    },
    {
     "name": "Reuters",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 49
    },
    {
     "name": "AP",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 37
    },
    {
     "name": "AFP",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 106
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 50,
-    "note": "일부 주소 실패: HTTP 503"
+    "count": 116
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 36,
-    "note": "일부 주소 실패: HTTP 503"
+    "count": 40
    },
    {
     "name": "Asharq Al-Awsat",
@@ -56,8 +50,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 25,
-    "note": "일부 주소 실패: HTTP 503"
+    "count": 56
    },
    {
     "name": "외교부 여행경보",
@@ -71,9 +64,8 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 54
    }
   ],
   "mofaLatest": [
@@ -110,6 +102,38 @@
   ]
  },
  "events": [
+  {
+   "id": "b99afd16eeb5",
+   "articleIds": [
+    "11e40acfafa3"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 해상서 유조선, 미확인 발사체에 피격…\"승무원 대피\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-17T07:11:36.197Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SBS",
+     "cat": "kr",
+     "title": "사우디 해상서 유조선, 미확인 발사체에 피격…\"승무원 대피\"",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-17T06:55:54.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RNjVEeDV0VW5Cdnk0XzJ4STZ1bzB4aXFmNzN0RzFRblF4T3otck9FcVR6a0ZJWmZoclhCTWdmR1lwZ01UQ0xIRDBmbVZQVU01VW5xb2NHd3BFbXJXUjIxdzd3Qk9CdldIOHc?oc=5"
+    }
+   ]
+  },
   {
    "id": "8a112bbee5c2",
    "articleIds": [
@@ -8072,6 +8096,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "11e40acfafa3",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "SBS",
+    "title": "사우디 해상서 유조선, 미확인 발사체에 피격…\"승무원 대피\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RNjVEeDV0VW5Cdnk0XzJ4STZ1bzB4aXFmNzN0RzFRblF4T3otck9FcVR6a0ZJWmZoclhCTWdmR1lwZ01UQ0xIRDBmbVZQVU01VW5xb2NHd3BFbXJXUjIxdzd3Qk9CdldIOHc?oc=5",
+    "reportedAt": 1792220154000,
+    "assumeSaudi": false,
+    "firstSeen": 1792221096197
+   },
+   {
     "id": "91c9701c3ce3",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -13605,6 +13643,12 @@
      "341d1a424b5c",
      "34dcf1cdb2b8",
      "e90954b735d8"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "11e40acfafa3"
     ],
     "fromRule": true
    }
