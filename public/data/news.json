@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-17T23:50:32.631Z",
-  "lastAttemptAt": "2026-10-17T23:50:32.631Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-17T23:52:54.449Z",
+  "lastAttemptAt": "2026-10-17T23:52:54.449Z",
   "aiSummary": true,
   "summaryAt": "2026-10-17T23:50:32.631Z",
   "aiError": null,
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 111
+    "count": 112
    },
    {
     "name": "Saudi Gazette",
@@ -51,17 +51,19 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 57
+    "count": 58
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,38 +71,7 @@
     "count": 37
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.15)",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -170,6 +141,38 @@
    ]
   },
   {
+   "id": "45fcaca8b2f6",
+   "articleIds": [
+    "92c9aa65bd72"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "[人터뷰+] “사우디, 국방개혁 실패에.... 후티 제압할 역량 못 키워”",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-17T23:50:32.631Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "서울경제",
+     "cat": "kr",
+     "title": "[人터뷰+] “사우디, 국방개혁 실패에.... 후티 제압할 역량 못 키워”",
+     "titleKo": null,
+     "summary": "인터뷰에서 사우디가 국방개혁에 실패해 후티 제압 역량을 키우지 못했다고 주장하는 내용이에요.",
+     "reportedAt": "2026-10-17T23:00:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54LXhqRUh3ZDZqZ0EzLVItZ2doSkhpcEhSWmFrd3ZkV0tOYUItZ0hFdkJUWWJYLVBiYmh3ZTlQWm1IZk13dUNlRTR5emIwSUVQbUHSAVNBVV95cUxOMFZoamFQZUwwbEcxd1BxQ0o1OW42b2s0eGxwQ3RzbjZOZ2NGYmVuOU1HbTNjVG5vbVBybllONF9xQkNkc1RtandEQWUzelA3Qk9sUQ?oc=5"
+    }
+   ]
+  },
+  {
    "id": "260c8cdf7eac",
    "articleIds": [
     "b53d10c30d41"
@@ -197,7 +200,7 @@
      "summary": "",
      "reportedAt": "2026-10-17T22:57:20.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEVG0tNTAyX0ozNDVkRzVRMjVDZVNrakZxZ054dGRTM1J1LU5pTGJkeVpKaF9ycXpBbTFVaTRjN2ZRRHJoWld2a1JKbzU2cTJnX3pkcTRXVjc4TTTSAWBBVV95cUxOcU9yVThFanB5bTIzbUJ5TTBpb2hOTXJESGN5dGp3YWtWSEZNQ0J0N3Z1YjFmeGRJVE1fejEtalIzaTdnamdQUTRyU2VaNFU3Tm0wejg4a1ZILUJfb2lFckQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xT3JVOEVqcHltMjNtQnlNMGlvaE5NckRIY3l0andha1ZIRk1DQnQ3dnViMWZ4ZElUTV96MS1qUjNpN2dqZ1BRNHJTZVo0VTdObTB6ODhrVkgtQl9vaUVyRNIBYEFVX3lxTE5xT3JVOEVqcHltMjNtQnlNMGlvaE5NckRIY3l0andha1ZIRk1DQnQ3dnViMWZ4ZElUTV96MS1qUjNpN2dqZ1BRNHJTZVo0VTdObTB6ODhrVkgtQl9vaUVyRA?oc=5"
     }
    ]
   },
@@ -5705,7 +5708,7 @@
     "outlet": "연합뉴스",
     "title": "UAE, 후티 공세 막으려 예멘 재개입…사우디와 갈등 완화 신호",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEVG0tNTAyX0ozNDVkRzVRMjVDZVNrakZxZ054dGRTM1J1LU5pTGJkeVpKaF9ycXpBbTFVaTRjN2ZRRHJoWld2a1JKbzU2cTJnX3pkcTRXVjc4TTTSAWBBVV95cUxOcU9yVThFanB5bTIzbUJ5TTBpb2hOTXJESGN5dGp3YWtWSEZNQ0J0N3Z1YjFmeGRJVE1fejEtalIzaTdnamdQUTRyU2VaNFU3Tm0wejg4a1ZILUJfb2lFckQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xT3JVOEVqcHltMjNtQnlNMGlvaE5NckRIY3l0andha1ZIRk1DQnQ3dnViMWZ4ZElUTV96MS1qUjNpN2dqZ1BRNHJTZVo0VTdObTB6ODhrVkgtQl9vaUVyRNIBYEFVX3lxTE5xT3JVOEVqcHltMjNtQnlNMGlvaE5NckRIY3l0andha1ZIRk1DQnQ3dnViMWZ4ZElUTV96MS1qUjNpN2dqZ1BRNHJTZVo0VTdObTB6ODhrVkgtQl9vaUVyRA?oc=5",
     "reportedAt": 1792277840000,
     "assumeSaudi": false,
     "firstSeen": 1792278632561
@@ -9598,6 +9601,12 @@
    {
     "articleIds": [
      "7941cd38416c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "92c9aa65bd72"
     ],
     "fromRule": true
    }
