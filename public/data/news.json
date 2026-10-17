@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-17T19:50:33.962Z",
-  "lastAttemptAt": "2026-10-17T19:50:33.962Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-17T19:56:45.098Z",
+  "lastAttemptAt": "2026-10-17T19:56:45.098Z",
   "aiSummary": true,
   "summaryAt": "2026-10-17T19:30:39.776Z",
   "aiError": null,
@@ -15,12 +15,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 38
+    "count": 39
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 45
+    "count": 37
    },
    {
     "name": "AP",
@@ -30,12 +30,12 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 56
+    "count": 54
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 114
    },
    {
     "name": "Saudi Gazette",
@@ -50,19 +50,17 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 66
+    "count": 67
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -70,9 +68,73 @@
     "count": 40
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
+    "date": "2026-10-16",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.15)",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "34fb59aaa162",
+   "articleIds": [
+    "a1a25b4384c8"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드·디리야 학교, 원격 수업 추가로 1주일 연장",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "jeddah"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-17T19:56:45.098Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Riyadh, Diriyah schools extend remote learning for another week",
+     "titleKo": "리야드·디리야 학교, 원격 수업 추가로 1주일 연장",
+     "summary": "",
+     "reportedAt": "2026-10-17T19:51:23.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/riyadh-diriyah-schools-extend-remote-learning-for-another-week-3006920"
+    }
+   ]
+  },
   {
    "id": "9b1666252654",
    "articleIds": [
@@ -4940,9 +5002,8 @@
    ]
   },
   {
-   "id": "d73fd51f42d5",
+   "id": "b3d0e032674d",
    "articleIds": [
-    "e44fd6c579e6",
     "032ae21e9819",
     "a6a883fe9a56"
    ],
@@ -4950,7 +5011,7 @@
    "sev": "high",
    "status": "multi",
    "directive": null,
-   "title": "후티 반군, 사우디 아람코 본사까지 미사일 공격",
+   "title": "후티 \"사우디 아람코·공항에 미사일·드론 공격\"",
    "titleAuto": false,
    "regions": [
     "airport"
@@ -4961,16 +5022,6 @@
    "collectedAt": "2026-10-14T20:30:42.161Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "SBS",
-     "cat": "kr",
-     "title": "후티 반군, 사우디 아람코 본사까지 미사일 공격",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-14T19:52:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pVmpnT1ZLbG5uOEJnLUlRdjh4WVp3WmM3YVYyeTNpSEpZNnlOTlJwMHhTWG9CMkljN0Z2QlVWbGFKdVJhZmRpUGJnNXBLYV9abzQ0?oc=5"
-    },
     {
      "outlet": "연합뉴스",
      "cat": "kr",
@@ -5408,50 +5459,6 @@
      "reportedAt": "2026-10-14T20:01:08.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "051ad20780a2",
-   "articleIds": [
-    "3a55aa1990e9",
-    "3114d9613132"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티, 사우디 리야드 킹칼리드 공항 탄도미사일 공격",
-   "titleAuto": false,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T20:41:21.282Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "후티, 사우디 리야드 킹칼리드 공항 탄도미사일 공격",
-     "titleKo": null,
-     "summary": "뉴시스는 후티가 킹칼리드 공항을 탄도미사일로 공격했다고 보도했어요.",
-     "reportedAt": "2026-10-14T19:51:57.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MWNBUFVpYjkyd0N3eHBibEFwcnZhQ3Z6djkzUi1UckMxVkJoaG1TM1BYWWRLV2NhTF9CTHZ3MUgzT2g5SmZGbWFGcXdkZkRCSGhScDRkangyaFhucHdXMtIBeEFVX3lxTFBOREJRQjdBVnVKbkJzZlJURUJBWWkwMkRpSmRGZzVOM0d4R1F6MS1zVTlhay02bjVORk9iU2dPMksyM1N5RmNwNllMOURPVVBtdTdxQVJvRWVWV0ZFUGdNVEp5YVdCOXRLdmhwOTdQNjVqSlRpazdmMw?oc=5"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "후티, 샤우디 리야드 킹칼리드 공항 탄도미사일 공격",
-     "titleKo": null,
-     "summary": "뉴시스는 동일 내용으로 공항 피격 보도를 전했어요.",
-     "reportedAt": "2026-10-14T19:51:57.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MWNBUFVpYjkyd0N3eHBibEFwcnZhQ3Z6djkzUi1UckMxVkJoaG1TM1BYWWRLV2NhTF9CTHZ3MUgzT2g5SmZGbWFGcXdkZkRCSGhScDRkangyaFhucHdXMtIBeEFVX3lxTFBOREJRQjdBVnVKbkJzZlJURUJBWWkwMkRpSmRGZzVOM0d4R1F6MS1zVTlhay02bjVORk9iU2dPMksyM1N5RmNwNllMOURPVVBtdTdxQVJvRWVWV0ZFUGdNVEp5YVdCOXRLdmhwOTdQNjVqSlRpazdmMw?oc=5"
     }
    ]
   }
@@ -6290,6 +6297,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "a1a25b4384c8",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Riyadh, Diriyah schools extend remote learning for another week",
+    "snippet": "JEDDAH: Schools across Riyadh and Diriyah governorate will continue remote learning until Thursday, Oct. 22, the capital’s education authority said on Saturday, extending measures introduced earlier this month as attacks on the capital continued. The Riyadh Education General Administration said the decision covers all students, teachers and administrative staff, with lessons delivered through the ",
+    "url": "https://www.arabnews.com/saudi-arabia/riyadh-diriyah-schools-extend-remote-learning-for-another-week-3006920",
+    "reportedAt": 1792266683000,
+    "assumeSaudi": false,
+    "firstSeen": 1792267005098
+   },
    {
     "id": "db6c5b50847a",
     "feed": "Arab News",
@@ -9217,48 +9238,6 @@
     "reportedAt": 1792008068000,
     "assumeSaudi": false,
     "firstSeen": 1792008604188
-   },
-   {
-    "id": "e44fd6c579e6",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "SBS",
-    "title": "후티 반군, 사우디 아람코 본사까지 미사일 공격",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pVmpnT1ZLbG5uOEJnLUlRdjh4WVp3WmM3YVYyeTNpSEpZNnlOTlJwMHhTWG9CMkljN0Z2QlVWbGFKdVJhZmRpUGJnNXBLYV9abzQ0?oc=5",
-    "reportedAt": 1792007520000,
-    "assumeSaudi": false,
-    "firstSeen": 1792075237590
-   },
-   {
-    "id": "3a55aa1990e9",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴시스",
-    "title": "후티, 사우디 리야드 킹칼리드 공항 탄도미사일 공격",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MWNBUFVpYjkyd0N3eHBibEFwcnZhQ3Z6djkzUi1UckMxVkJoaG1TM1BYWWRLV2NhTF9CTHZ3MUgzT2g5SmZGbWFGcXdkZkRCSGhScDRkangyaFhucHdXMtIBeEFVX3lxTFBOREJRQjdBVnVKbkJzZlJURUJBWWkwMkRpSmRGZzVOM0d4R1F6MS1zVTlhay02bjVORk9iU2dPMksyM1N5RmNwNllMOURPVVBtdTdxQVJvRWVWV0ZFUGdNVEp5YVdCOXRLdmhwOTdQNjVqSlRpazdmMw?oc=5",
-    "reportedAt": 1792007517000,
-    "assumeSaudi": false,
-    "firstSeen": 1792018228264
-   },
-   {
-    "id": "3114d9613132",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴시스",
-    "title": "후티, 샤우디 리야드 킹칼리드 공항 탄도미사일 공격",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MWNBUFVpYjkyd0N3eHBibEFwcnZhQ3Z6djkzUi1UckMxVkJoaG1TM1BYWWRLV2NhTF9CTHZ3MUgzT2g5SmZGbWFGcXdkZkRCSGhScDRkangyaFhucHdXMtIBeEFVX3lxTFBOREJRQjdBVnVKbkJzZlJURUJBWWkwMkRpSmRGZzVOM0d4R1F6MS1zVTlhay02bjVORk9iU2dPMksyM1N5RmNwNllMOURPVVBtdTdxQVJvRWVWV0ZFUGdNVEp5YVdCOXRLdmhwOTdQNjVqSlRpazdmMw?oc=5",
-    "reportedAt": 1792007517000,
-    "assumeSaudi": false,
-    "firstSeen": 1792010481282
    }
   ],
   "summaries": {
@@ -9275,7 +9254,6 @@
    "f09fa8f235c3": "이탈리아 외교장관이 사우디 장관과 전화통화하며 후티 공격을 비난했다고 전했어요.",
    "794229e59ebc": "경향신문이 후티의 공항 연이은 공격을 보도했어요.",
    "63bde5bca2b9": "후티가 리야드 공항에 미사일로 명중했다고 주장했다는 보도가 있었어요.",
-   "3114d9613132": "뉴시스는 동일 내용으로 공항 피격 보도를 전했어요.",
    "6ff399790b3c": "사우디 국영통신도 바레인의 규탄을 전했어요.",
    "032ae21e9819": "연합뉴스는 후티가 아람코와 공항에 미사일·드론 공격을 했다고 보도했어요.",
    "7941cd38416c": "AP는 리야드의 공격 장면을 보도하며 후티의 공세를 전했어요.",
@@ -9288,7 +9266,6 @@
    "3472dd1ed35f": "뉴스1는 미사일 낙하로 사우디 관광·여행업계가 긴장하고 있다고 보도했어요.",
    "667040e23e99": "Saudi Gazette는 이탈리아 장관의 사우디 지지 발언을 보도했어요.",
    "8ab3e664e5d8": "KBS는 국제 유가가 아람코 피격 소식으로 상승했다고 보도했어요.",
-   "3a55aa1990e9": "뉴시스는 후티가 킹칼리드 공항을 탄도미사일로 공격했다고 보도했어요.",
    "62e16c5da1f6": "일부 보도는 아람코 본사와 CEO 사무실이 피해를 입었다고 전했어요.",
    "86ebaf6cb7cb": "중앙일보가 후티가 리야드 국제공항을 탄도미사일로 타격했다고 보도했어요.",
    "ee6cf2b87e04": "연합뉴스가 후티의 공격으로 스포츠 행사에 차질이 생겼다고 보도했어요.",
@@ -9489,7 +9466,6 @@
    "9f10227c74fd": "국제유가, 아람코 피격 영향 보도",
    "794229e59ebc": "후티, 사우디 공항 연일 공격 보도",
    "63bde5bca2b9": "후티, 리야드 공항 미사일로 명중 주장 보도",
-   "3114d9613132": "후티, 샤우디 리야드 킹칼리드 공항 탄도미사일 공격",
    "032ae21e9819": "후티, 아람코·공항에 미사일·드론 공격 주장",
    "7941cd38416c": "리야드 공격 장면 보도",
    "d26667010f7d": "후티 공항 명중 주장으로 스포츠 행사 차질",
@@ -9499,7 +9475,6 @@
    "ba0b754d049a": "후티 공항 미사일 명중 주장에 스포츠 행사 영향",
    "3472dd1ed35f": "미사일 떨어지는 사우디, 관광업계 긴장",
    "8ab3e664e5d8": "국제유가, 아람코 피격 영향 보도",
-   "3a55aa1990e9": "후티, 킹칼리드 공항 탄도미사일 공격 보도",
    "86ebaf6cb7cb": "후티, 리야드 공항을 탄도미사일로 공격해 명중했다고 주장",
    "3bf19d8bd389": "후티, 리야드 국제공항 탄도미사일 명중 주장",
    "ee6cf2b87e04": "후티 \"사우디에 미사일 명중\"…스포츠 행사도 차질",
@@ -9676,7 +9651,8 @@
    "44b1f6a1f6e1": "WSJ: 이란, 후티에 사우디 표적 선정·정보 제공·전술 지도 보도",
    "3ecd20fffb1e": "이란이 후티에 정보 제공해 사우디 공격 도왔다고 보도",
    "d203a6f6c3af": "WSJ 보도: 이란이 후티에 공격 방법 알려줘",
-   "e5b8b9ea51c0": "이란 외무부, 사우디 공격 배후설 전면 부인"
+   "e5b8b9ea51c0": "이란 외무부, 사우디 공격 배후설 전면 부인",
+   "a1a25b4384c8": "리야드·디리야 학교, 원격 수업 추가로 1주일 연장"
   },
   "aiClusters": [
    {
@@ -10528,8 +10504,7 @@
    {
     "articleIds": [
      "a6a883fe9a56",
-     "032ae21e9819",
-     "e44fd6c579e6"
+     "032ae21e9819"
     ],
     "fromRule": true
    },
@@ -10607,13 +10582,6 @@
    },
    {
     "articleIds": [
-     "3a55aa1990e9",
-     "3114d9613132"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "94f30d53425d"
     ],
     "fromRule": true
@@ -10645,6 +10613,12 @@
    {
     "articleIds": [
      "a64100527722"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a1a25b4384c8"
     ],
     "fromRule": true
    }
