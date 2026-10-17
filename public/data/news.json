@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-17T10:40:27.911Z",
-  "lastAttemptAt": "2026-10-17T10:40:27.911Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-17T10:50:32.593Z",
+  "lastAttemptAt": "2026-10-17T10:50:32.593Z",
   "aiSummary": true,
   "summaryAt": "2026-10-17T10:30:38.110Z",
   "aiError": null,
@@ -14,33 +14,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 38
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 44
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 43
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 101
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 36
+    "count": 34,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,7 +56,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 56
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -64,8 +71,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 39
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -6494,38 +6502,6 @@
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41TGxwclBLVW1hN3NLNmhvbHNwOF9ZT0tvM0dtX21GZ3FiWVpGX2VpaUR5NnVlQTJ3UmszaGZwa2g1WGZSOU45T0pmNE5ZeHJJZVVNbnRMMU9wT0NTbEpGV2ZjV2FTVzVZ0gFuQVVfeXFMTTBxMWJydDlaczdfN25xS0w1YUtDMzBwWGRPY29mdG5lRzNkSDg0RlVuZG1zclJvVC1VQlNBQk44ZXdjcHQ1MjNOckFCR0hkVzNMaVNSMXpIWHoxZDJXRTVuSGFpSTNXZEhvZU93amc?oc=5"
     }
    ]
-  },
-  {
-   "id": "b29c0dcec216",
-   "articleIds": [
-    "9134287afcd1"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "claim",
-   "directive": null,
-   "title": "리야드 주민들, 상공 폭발음 들었다고 전해",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T11:01:11.049Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Residents in Saudi Arabia’s capital hear new explosions as Houthis claim more attacks",
-     "titleKo": "리야드 주민들, 상공 폭발음 들었다고 전해",
-     "summary": "리야드 주민들이 새로운 폭발음을 들었다고 보도가 전했습니다.",
-     "reportedAt": "2026-10-14T10:48:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -11257,20 +11233,6 @@
     "reportedAt": 1791975226000,
     "assumeSaudi": false,
     "firstSeen": 1791976231680
-   },
-   {
-    "id": "9134287afcd1",
-    "feed": "AP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AP",
-    "title": "Residents in Saudi Arabia’s capital hear new explosions as Houthis claim more attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5",
-    "reportedAt": 1791974880000,
-    "assumeSaudi": false,
-    "firstSeen": 1791975671049
    }
   ],
   "summaries": {
@@ -11280,7 +11242,6 @@
    "9f938f962669": "전투가 격화되며 후티 미사일이 사우디 상공에서 요격됐다고 보도했습니다.",
    "bbbf21b597b9": "중동 에너지 시설 관련 충돌과 아람코 본사 피격 상황을 종합적으로 다루고 있어요.",
    "7d31bc7012eb": "로이터는 다흐란의 아람코 본사가 화요일 공격으로 큰 피해를 입었다고 전했어요.",
-   "9134287afcd1": "리야드 주민들이 새로운 폭발음을 들었다고 보도가 전했습니다.",
    "db9e372c01a0": "AFP는 후티 공격으로 사우디 리그 경기 3경기가 연기됐다고 보도했어요.",
    "941da3ad16d0": "IMF 총재가 사우디에 대한 공격이 전 세계에 부정적 파급을 줄 수 있다고 경고했어요.",
    "79f6e7315653": "Saudi Gazette는 요격 잔해로 리야드에서 거주자가 부상했다고 전했어요.",
@@ -11527,7 +11488,6 @@
    "9f938f962669": "후티 미사일이 사우디 상공에서 요격됐다고 보도",
    "bbbf21b597b9": "아람코 본사 피격 등 중동 에너지 시설 충돌 상황 보도",
    "b221c9e57a27": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
-   "9134287afcd1": "리야드 주민들, 상공 폭발음 들었다고 전해",
    "7d31bc7012eb": "로이터: 다흐란 아람코 본사 광범위 피해",
    "dc93a2f37d20": "로이터: 아람코 본사 광범위 피해",
    "71d8da6d289c": "Arab News: 리야드 공항 희생자 제다서 귀국 중",
@@ -12889,12 +12849,6 @@
    {
     "articleIds": [
      "5da6f6a70259"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "9134287afcd1"
     ],
     "fromRule": true
    },
