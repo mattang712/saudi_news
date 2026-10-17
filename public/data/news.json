@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-17T07:00:43.340Z",
-  "lastAttemptAt": "2026-10-17T07:00:43.340Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-17T07:10:31.245Z",
+  "lastAttemptAt": "2026-10-17T07:10:31.245Z",
   "aiSummary": true,
   "summaryAt": "2026-10-17T05:30:34.791Z",
   "aiError": null,
@@ -14,33 +14,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 38
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 49
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 35
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 105
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 39
+    "count": 36,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,7 +56,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 58
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -64,8 +71,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 55
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -5403,16 +5411,15 @@
    ]
   },
   {
-   "id": "24e5a9ddacff",
+   "id": "b0ea06e97b48",
    "articleIds": [
-    "1cbf6216b2ce",
     "941da3ad16d0"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "multi",
+   "status": "single",
    "directive": null,
-   "title": "IMF: 사우디 공격이 전 세계로 파급될 수 있다고 경고",
+   "title": "IMF 총재: 사우디 공격은 전 세계에 부정적 파급 가능",
    "titleAuto": true,
    "regions": [
     "all"
@@ -5420,19 +5427,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-14T04:10:31.629Z",
+   "collectedAt": "2026-10-14T13:36:39.365Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "IMF chief says Saudi attacks could have negative spillover ‘everywhere’",
-     "titleKo": "IMF: 사우디 공격이 전 세계로 파급될 수 있다고 경고",
-     "summary": "(중복) IMF 관련 보도입니다.",
-     "reportedAt": "2026-10-14T07:04:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdTNIeGdzZkZMVVRYeEVsU0R5NmdGM005U1g3d2Nka3NFbmxwdzRiQTRsd3BOZVRRT3VkWW14cHA4LWdzckFqZEtWamFZOWlZbXpQU3gyNWdwendLeXl5UEdlc2xSdVNKSmpRWmJxeUJCRHN3TTcxcXN3eHgwa3BEbTBWWkNkSDVkZVVQZm5lVm5Cbl8weXFVNmxodDVUQ0RJRHpvZk01X0x1R2VL?oc=5"
-    },
     {
      "outlet": "Saudi Gazette",
      "cat": "local",
@@ -6583,9 +6580,8 @@
    ]
   },
   {
-   "id": "bb99178464bd",
+   "id": "61156085782d",
    "articleIds": [
-    "d862c9dc238d",
     "a0b2e6b66b62",
     "dacf5b86a987",
     "8d781ca0c8e9",
@@ -6595,7 +6591,7 @@
    "sev": "mid",
    "status": "multi",
    "directive": null,
-   "title": "정부, 후티 반군 사우디 민간인 공격 규탄…\"즉각 중단해야\"",
+   "title": "정부, 후티 반군의 사우디 민간시설 공격 규탄…\"즉각 중단 촉구\"",
    "titleAuto": false,
    "regions": [
     "all"
@@ -6603,19 +6599,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-14T07:10:33.092Z",
+   "collectedAt": "2026-10-14T07:30:36.739Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "정부, 후티 반군 사우디 민간인 공격 규탄…\"즉각 중단해야\"",
-     "titleKo": null,
-     "summary": "(중복) 정부 규탄 보도입니다.",
-     "reportedAt": "2026-10-14T07:01:08.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ja0oyV0x1aVIxZDJhbk5ERG1KQU9temVWbkxwRUFvLS1TQ0ZMLTVfT0ZuU1A5S2F3MVVIMlNtNDVyUXN0b3h3cGNJamh1NzVkc2NhZW9WQmZNZldqSnZWVWdJUXh2VHdMSnljcFdsNC1aSlluZWNZaNIBeEFVX3lxTE9Ja0oyV0x1aVIxZDJhbk5ERG1KQU9temVWbkxwRUFvLS1TQ0ZMLTVfT0ZuU1A5S2F3MVVIMlNtNDVyUXN0b3h3cGNJamh1NzVkc2NhZW9WQmZNZldqSnZWVWdJUXh2VHdMSnljcFdsNC1aSlluZWNZaA?oc=5"
-    },
     {
      "outlet": "뉴스1",
      "cat": "kr",
@@ -6815,70 +6801,6 @@
      "reportedAt": "2026-10-14T07:26:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "865ec433f705",
-   "articleIds": [
-    "5d8d8c82d827"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "“석유 시설 전부 파괴할 때까지”...사우디와 후티, 보복의 악순환 [자막뉴스]",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T07:20:31.176Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "YTN",
-     "cat": "kr",
-     "title": "“석유 시설 전부 파괴할 때까지”...사우디와 후티, 보복의 악순환 [자막뉴스]",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-14T07:09:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fNU9rZDBva1FySU50UmRuMU1TNVpDRHV2OWtUUnlKWTVnYV9JWkxSNXl1VXk3ajQ0UnZocVVaRXE4VmhMbjZ0alVEX0tWUDJwVVg1ZkYtTkFCcWhIMEhDeEg1Q0FuX2RpelFwbzNfR1dPMHRNd2c?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "8b8e1edb421b",
-   "articleIds": [
-    "075328775f14"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디, 국방비 112조 쏟고도 뚫린 방공망…후티 공세에 속수무책",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-14T07:20:31.176Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "사우디, 국방비 112조 쏟고도 뚫린 방공망…후티 공세에 속수무책",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-14T07:04:34.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wcnd0RmRmM1pFekp4am9qblBZQ1V2QlBPNEwtME9tcjZsbEdIbFNRcUdVRlQxYWNIU19zZjNXcVlkYTNwLXhyMDFGNElYOS1HQjhiQjExUGtJUG0wU2wyTkJwWWJUX3BXOU4xN0N4Rk9YZkRYemNIM9IBeEFVX3lxTE1wcnd0RmRmM1pFekp4am9qblBZQ1V2QlBPNEwtME9tcjZsbEdIbFNRcUdVRlQxYWNIU19zZjNXcVlkYTNwLXhyMDFGNElYOS1HQjhiQjExUGtJUG0wU2wyTkJwWWJUX3BXOU4xN0N4Rk9YZkRYemNIMw?oc=5"
     }
    ]
   }
@@ -12018,62 +11940,6 @@
     "reportedAt": 1791962099000,
     "assumeSaudi": false,
     "firstSeen": 1791963036739
-   },
-   {
-    "id": "5d8d8c82d827",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "YTN",
-    "title": "“석유 시설 전부 파괴할 때까지”...사우디와 후티, 보복의 악순환 [자막뉴스]",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fNU9rZDBva1FySU50UmRuMU1TNVpDRHV2OWtUUnlKWTVnYV9JWkxSNXl1VXk3ajQ0UnZocVVaRXE4VmhMbjZ0alVEX0tWUDJwVVg1ZkYtTkFCcWhIMEhDeEg1Q0FuX2RpelFwbzNfR1dPMHRNd2c?oc=5",
-    "reportedAt": 1791961740000,
-    "assumeSaudi": false,
-    "firstSeen": 1791962431176
-   },
-   {
-    "id": "1cbf6216b2ce",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "IMF chief says Saudi attacks could have negative spillover ‘everywhere’",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdTNIeGdzZkZMVVRYeEVsU0R5NmdGM005U1g3d2Nka3NFbmxwdzRiQTRsd3BOZVRRT3VkWW14cHA4LWdzckFqZEtWamFZOWlZbXpQU3gyNWdwendLeXl5UEdlc2xSdVNKSmpRWmJxeUJCRHN3TTcxcXN3eHgwa3BEbTBWWkNkSDVkZVVQZm5lVm5Cbl8weXFVNmxodDVUQ0RJRHpvZk01X0x1R2VL?oc=5",
-    "reportedAt": 1791961489000,
-    "assumeSaudi": false,
-    "firstSeen": 1791951031629
-   },
-   {
-    "id": "075328775f14",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴시스",
-    "title": "사우디, 국방비 112조 쏟고도 뚫린 방공망…후티 공세에 속수무책",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wcnd0RmRmM1pFekp4am9qblBZQ1V2QlBPNEwtME9tcjZsbEdIbFNRcUdVRlQxYWNIU19zZjNXcVlkYTNwLXhyMDFGNElYOS1HQjhiQjExUGtJUG0wU2wyTkJwWWJUX3BXOU4xN0N4Rk9YZkRYemNIM9IBeEFVX3lxTE1wcnd0RmRmM1pFekp4am9qblBZQ1V2QlBPNEwtME9tcjZsbEdIbFNRcUdVRlQxYWNIU19zZjNXcVlkYTNwLXhyMDFGNElYOS1HQjhiQjExUGtJUG0wU2wyTkJwWWJUX3BXOU4xN0N4Rk9YZkRYemNIMw?oc=5",
-    "reportedAt": 1791961474000,
-    "assumeSaudi": false,
-    "firstSeen": 1791962431176
-   },
-   {
-    "id": "d862c9dc238d",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴시스",
-    "title": "정부, 후티 반군 사우디 민간인 공격 규탄…\"즉각 중단해야\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ja0oyV0x1aVIxZDJhbk5ERG1KQU9temVWbkxwRUFvLS1TQ0ZMLTVfT0ZuU1A5S2F3MVVIMlNtNDVyUXN0b3h3cGNJamh1NzVkc2NhZW9WQmZNZldqSnZWVWdJUXh2VHdMSnljcFdsNC1aSlluZWNZaNIBeEFVX3lxTE9Ja0oyV0x1aVIxZDJhbk5ERG1KQU9temVWbkxwRUFvLS1TQ0ZMLTVfT0ZuU1A5S2F3MVVIMlNtNDVyUXN0b3h3cGNJamh1NzVkc2NhZW9WQmZNZldqSnZWVWdJUXh2VHdMSnljcFdsNC1aSlluZWNZaA?oc=5",
-    "reportedAt": 1791961268000,
-    "assumeSaudi": false,
-    "firstSeen": 1791961833092
    }
   ],
   "summaries": {
@@ -12082,9 +11948,7 @@
    "b34d7ec3704b": "(중복) KBS 관련 보도입니다.",
    "dfc27d4c3d8e": "사우디 국영통신은 리야드 지역에서 순항미사일을 요격했다고 보도했어요.",
    "3b4363a03524": "사우디 국영통신은 리야드 지역과 남부 지역에서 UAV 2대와 순항미사일을 요격했다고 보도했어요.",
-   "1cbf6216b2ce": "(중복) IMF 관련 보도입니다.",
    "9f938f962669": "전투가 격화되며 후티 미사일이 사우디 상공에서 요격됐다고 보도했습니다.",
-   "d862c9dc238d": "(중복) 정부 규탄 보도입니다.",
    "bbbf21b597b9": "중동 에너지 시설 관련 충돌과 아람코 본사 피격 상황을 종합적으로 다루고 있어요.",
    "f04753a65955": "후티가 아람코와 공항을 목표로 공격을 단행했다고 보도했습니다.",
    "6728866502bd": "후티가 아람코 본부까지 공격했다고 보도했어요.",
@@ -12336,7 +12200,6 @@
    "a6478bd256bd": "공항 피격이 불러온 축구계 혼란 보도",
    "dfc27d4c3d8e": "사우디 민방위: 리야드 지역 순항미사일 요격",
    "3b4363a03524": "사우디 민방위: 리야드·남부에서 UAV 2대 등 요격",
-   "1cbf6216b2ce": "IMF: 사우디 공격이 전 세계로 파급될 수 있다고 경고",
    "9f938f962669": "후티 미사일이 사우디 상공에서 요격됐다고 보도",
    "e402517b1b07": "리야드 주민들, 새로운 폭발음 들었다고 전함",
    "dfe8784b31e2": "요격된 미사일 잔해로 4명 부상했다고 보도",
@@ -12347,11 +12210,8 @@
    "b8625d3edda6": "사우디 전투기, 후티 핵심 기지 수차례 공습",
    "8d781ca0c8e9": "한국 정부, 후티 반군의 사우디 민간시설 공격 규탄 보도",
    "97ca42265ba3": "외교부: 민간인 공격 용납 못한다고 규탄",
-   "d862c9dc238d": "한국 정부, 후티의 사우디 민간시설 공격 규탄",
    "bbbf21b597b9": "아람코 본사 피격 등 중동 에너지 시설 충돌 상황 보도",
    "a0b2e6b66b62": "한국 정부, 후티 민간시설 공격 규탄 보도",
-   "5d8d8c82d827": "사우디와 후티, 보복의 악순환 지속",
-   "075328775f14": "사우디 방공망 뚫려…후티 공세에 취약",
    "2fd19b68eb97": "단독: 소식통들 \"사우디, 공격 이후 경영진들의 FII 회의 원격 참석 허용할 방침\"",
    "b221c9e57a27": "후티, 아람코 본사 타격 후 공항·석유시설 추가 공격 예고",
    "b44eff45d85b": "사우디 토요타 챔피언십 타임어택 최종 라운드 내일 제다에서 개막",
@@ -13470,8 +13330,7 @@
    },
    {
     "articleIds": [
-     "941da3ad16d0",
-     "1cbf6216b2ce"
+     "941da3ad16d0"
     ],
     "fromRule": true
    },
@@ -13682,8 +13541,7 @@
      "ca650e974350",
      "8d781ca0c8e9",
      "dacf5b86a987",
-     "a0b2e6b66b62",
-     "d862c9dc238d"
+     "a0b2e6b66b62"
     ],
     "fromRule": true
    },
@@ -13714,18 +13572,6 @@
    {
     "articleIds": [
      "e402517b1b07"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "5d8d8c82d827"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "075328775f14"
     ],
     "fromRule": true
    },
