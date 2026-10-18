@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-18T21:30:35.257Z",
-  "lastAttemptAt": "2026-10-18T21:30:35.257Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-18T21:40:29.048Z",
+  "lastAttemptAt": "2026-10-18T21:40:29.048Z",
   "aiSummary": true,
   "summaryAt": "2026-10-18T21:00:45.718Z",
   "aiError": null,
@@ -14,43 +14,50 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 30
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 40
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 15
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 6
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 108
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 34
+    "count": 32,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 152
+    "count": 150
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 59
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -64,8 +71,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 75
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -3770,38 +3778,6 @@
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xblhyNDFmVWlOcHFERjNlTHRqREhkMTZRQWktNXNDZWtrYmVaSkhWU0xFeHJFNGV2d3g3N3FzRm9yQUpCeHF1cVJsUU5xZkhQVHVHOGxQNDNVbjdFQnpwcTh3VFhmTWtlUEtOSEoxU0VKVG_SAXNBVV95cUxPcW5YcjQxZlVpTnBxREYzZUx0akRIZDE2UUFpLTVzQ2Vra2JlWkpIVlNMRXhyRTRldnd4Nzdxc0ZvckFKQnhxdXFSbFFOcWZIUFR1RzhsUDQzVW43RUJ6cHE4d1RYZk1rZVBLTkhKMVNFSlRv?oc=5"
     }
    ]
-  },
-  {
-   "id": "ebb0422b655e",
-   "articleIds": [
-    "2ee69dd01388"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디아라비아는 결코 굴복하지 않을… 후티의 종말이 다가온다",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-16T10:00:46.362Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Saudi Arabia will never bow down… The end of Houthis draws near",
-     "titleKo": "사우디아라비아는 결코 굴복하지 않을… 후티의 종말이 다가온다",
-     "summary": "",
-     "reportedAt": "2026-10-15T21:38:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11eDZJZHNmTWV0WlAxOHhUSk1UVV9oelE0OVFzd091SWlRVGtoWGRuMmNWVDhoSEotVjZibWZZMEpaT3F0VWd1WXN2RVg2MnJjSS1Ceg?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -6637,20 +6613,6 @@
     "reportedAt": 1792101540000,
     "assumeSaudi": false,
     "firstSeen": 1792102832308
-   },
-   {
-    "id": "2ee69dd01388",
-    "feed": "Saudi Gazette",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Saudi Gazette",
-    "title": "Saudi Arabia will never bow down… The end of Houthis draws near",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11eDZJZHNmTWV0WlAxOHhUSk1UVV9oelE0OVFzd091SWlRVGtoWGRuMmNWVDhoSEotVjZibWZZMEpaT3F0VWd1WXN2RVg2MnJjSS1Ceg?oc=5",
-    "reportedAt": 1792100280000,
-    "assumeSaudi": false,
-    "firstSeen": 1792144846362
    }
   ],
   "summaries": {
@@ -6833,7 +6795,6 @@
    "d11a9ef8a092": "유엔 안보리, 후티의 사우디 공격 강력 규탄 공동성명",
    "c5ec1a4de637": "사우디가 후티에 고전하는 이유와 유가 영향 분석",
    "1846d098efed": "후티의 기세와 이란 역할 관련 분석 기사",
-   "2ee69dd01388": "사우디아라비아는 결코 굴복하지 않을… 후티의 종말이 다가온다",
    "2774ecde0fe2": "후티가 유로파이터 타이푼 격추를 주장",
    "38c24ab14c5e": "후티, 사우디 대통령궁까지 타격…사우디 \"이란이 격화 부추겨\"",
    "c11ad6028295": "사우디, 유엔 안보리 규탄 환영 보도",
@@ -7559,12 +7520,6 @@
    {
     "articleIds": [
      "bdb1a783e553"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "2ee69dd01388"
     ],
     "fromRule": true
    },
