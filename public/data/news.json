@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-18T19:30:37.270Z",
-  "lastAttemptAt": "2026-10-18T19:30:37.270Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-18T19:40:32.375Z",
+  "lastAttemptAt": "2026-10-18T19:40:32.375Z",
   "aiSummary": true,
   "summaryAt": "2026-10-18T18:59:07.380Z",
   "aiError": null,
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 38
+    "count": 41
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 14
+    "count": 13
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 93
+    "count": 92
    },
    {
     "name": "Saudi Gazette",
@@ -51,17 +51,19 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 65
+    "count": 67
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,40 +71,41 @@
     "count": 65
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.18. 오후 기준) ​",
-    "date": "2026-10-18",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "1c1e0ecc708e",
+   "articleIds": [
+    "291dd941d789"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 세력 확장에… 껄끄럽던 UAE-사우디 손잡아",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-18T19:40:32.375Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "동아일보",
+     "cat": "kr",
+     "title": "후티 세력 확장에… 껄끄럽던 UAE-사우디 손잡아",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-18T19:30:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XNGFEYmEzZE12Q2JzaFBoNEFvUVFpMDAzWUVWR3l2MTYybVA4ZmtrWlEwNFZ6NnV6eEMyUWhBWU05TExTZjhQVnpPMVl2YVRhQy1OamxuaHBjYUpFUWpxeGFOcWc0dXFuOTV6SEZWUkJ0QVHSAWZBVV95cUxNczY3dDNsdjhfUDBrNk5BaUhaU0tmQi1GeWlsMXdLS1pwQkl4VFowR2lrNG1MRmxKV25oTXZFZ3N0RXg4Ri12RzVlV3VMVVdWc0QtWDYxS0NkNmFSUFFPY1RMdG9DaXc?oc=5"
+    }
+   ]
+  },
   {
    "id": "352725969a33",
    "articleIds": [
@@ -1856,7 +1859,7 @@
      "summary": "연합뉴스 등은 이란이 후티에 표적을 제공했다고 보도했어요.",
      "reportedAt": "2026-10-17T03:54:45.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ad2dvUmNDclhiM2cyY2JpVXBlUmwzX19hUXFsUDlQVnM4T0VSR25QaURlQnhLc0ZETURveDFJamFuVzVwQ25ZZ0taOXJlRE1VTEdyLTh6djA5VEnSAWBBVV95cUxOVlZxSHI5Z3hrcjROcDRWdTFfcGw5T0g2OTFka0JXQjhsOW9IcEtBcFpKeWNUNGpDU3o5VlU0eXdVM3VnTDEwR0ZzakNGRUJpX1Q1Y3BYVzByX0NaR3k0S2c?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WVnFIcjlneGtyNE5wNFZ1MV9wbDlPSDY5MWRrQldCOGw5b0hwS0FwWkp5Y1Q0akNTejlWVTR5d1UzdWdMMTBHRnNqQ0ZFQmlfVDVjcFhXMHJfQ1pHeTRLZ9IBYEFVX3lxTE5WVnFIcjlneGtyNE5wNFZ1MV9wbDlPSDY5MWRrQldCOGw5b0hwS0FwWkp5Y1Q0akNTejlWVTR5d1UzdWdMMTBHRnNqQ0ZFQmlfVDVjcFhXMHJfQ1pHeTRLZw?oc=5"
     },
     {
      "outlet": "매일경제",
@@ -4649,6 +4652,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "291dd941d789",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "동아일보",
+    "title": "후티 세력 확장에… 껄끄럽던 UAE-사우디 손잡아",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XNGFEYmEzZE12Q2JzaFBoNEFvUVFpMDAzWUVWR3l2MTYybVA4ZmtrWlEwNFZ6NnV6eEMyUWhBWU05TExTZjhQVnpPMVl2YVRhQy1OamxuaHBjYUpFUWpxeGFOcWc0dXFuOTV6SEZWUkJ0QVHSAWZBVV95cUxNczY3dDNsdjhfUDBrNk5BaUhaU0tmQi1GeWlsMXdLS1pwQkl4VFowR2lrNG1MRmxKV25oTXZFZ3N0RXg4Ri12RzVlV3VMVVdWc0QtWDYxS0NkNmFSUFFPY1RMdG9DaXc?oc=5",
+    "reportedAt": 1792351800000,
+    "assumeSaudi": false,
+    "firstSeen": 1792352432375
+   },
+   {
     "id": "bde0991104eb",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -5639,7 +5656,7 @@
     "outlet": "연합뉴스",
     "title": "\"이란, 후티에 사우디 어디 어떻게 때릴지 가르쳐줬다\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ad2dvUmNDclhiM2cyY2JpVXBlUmwzX19hUXFsUDlQVnM4T0VSR25QaURlQnhLc0ZETURveDFJamFuVzVwQ25ZZ0taOXJlRE1VTEdyLTh6djA5VEnSAWBBVV95cUxOVlZxSHI5Z3hrcjROcDRWdTFfcGw5T0g2OTFka0JXQjhsOW9IcEtBcFpKeWNUNGpDU3o5VlU0eXdVM3VnTDEwR0ZzakNGRUJpX1Q1Y3BYVzByX0NaR3k0S2c?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WVnFIcjlneGtyNE5wNFZ1MV9wbDlPSDY5MWRrQldCOGw5b0hwS0FwWkp5Y1Q0akNTejlWVTR5d1UzdWdMMTBHRnNqQ0ZFQmlfVDVjcFhXMHJfQ1pHeTRLZ9IBYEFVX3lxTE5WVnFIcjlneGtyNE5wNFZ1MV9wbDlPSDY5MWRrQldCOGw5b0hwS0FwWkp5Y1Q0akNTejlWVTR5d1UzdWdMMTBHRnNqQ0ZFQmlfVDVjcFhXMHJfQ1pHeTRLZw?oc=5",
     "reportedAt": 1792209285000,
     "assumeSaudi": false,
     "firstSeen": 1792210230906
@@ -7760,6 +7777,12 @@
    {
     "articleIds": [
      "bde0991104eb"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "291dd941d789"
     ],
     "fromRule": true
    }
