@@ -1,106 +1,85 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-18T12:30:37.658Z",
-  "lastAttemptAt": "2026-10-18T12:30:37.658Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-18T12:40:29.446Z",
+  "lastAttemptAt": "2026-10-18T12:40:29.446Z",
   "aiSummary": true,
-  "summaryAt": "2026-10-18T10:30:38.275Z",
+  "summaryAt": "2026-10-18T12:40:29.446Z",
   "aiError": null,
   "summaryKo": [
-   "사우디와 연합군이 리야드·동부 지역 상공의 드론과 탄도미사일을 요격·파괴했다고 보도됐어요.",
-   "사우디 해역에서 유조선이 미확인 발사체에 피격돼 승무원들이 대피했다고 보도됐어요.",
-   "리야드와 디리야는 공격 여파로 원격수업을 연장했다고 발표됐어요.",
-   "이집트가 사우디에 대한 군사적·실무적 지원을 검토·준비한다고 보도됐어요."
+   "사우디 국영통신 발표: 연합군이 동부와 리야드 상공에서 무인기 여러 대를 요격·파괴했다고 발표",
+   "리야드 공항 공격 관련 생존자 인터뷰 보도와 공항 직원이 승객 구조했다는 기사 보도(언론 보도)",
+   "사우디 동부 해역에서 유조선 피격돼 승무원 대피 보도(언론 보도)",
+   "이집트가 사우디 방어 지원을 검토·제공 준비됐다고 로이터·알자지라 보도"
   ],
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 30
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 39
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 16
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 5
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 30
+    "count": 26,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 150
+    "count": 151
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 78
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 46
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.15)",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -4598,16 +4577,15 @@
    ]
   },
   {
-   "id": "a179fa822a2e",
+   "id": "6d9c81d2aa34",
    "articleIds": [
-    "c495f93db0c8",
     "54a4b4b2adf2"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "multi",
+   "status": "single",
    "directive": null,
-   "title": "사우디 겨눈 후티 공격에…EU, 걸프국과 정상회의 연기",
+   "title": "사우디 겨눈 후티 공격에 EU, 걸프국과 정상회의 연기",
    "titleAuto": false,
    "regions": [
     "all"
@@ -4615,19 +4593,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-15T12:40:30.648Z",
+   "collectedAt": "2026-10-15T13:20:32.503Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 겨눈 후티 공격에…EU, 걸프국과 정상회의 연기",
-     "titleKo": null,
-     "summary": "EU가 후티 공격을 이유로 걸프국 정상회의를 연기했다고 보도했어요.",
-     "reportedAt": "2026-10-15T12:31:31.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjRGZlZ1BmeDdYT3Bpd09wOHFyckN5NkQ0VjFhRUtqaC1veTJub1FhYU1oc0c1cXBlMDFFdkRWZ2c1a1o5N0VBdnpsNEpmRTIwdkx6ZWpRbUxkc2Fpb0Vxd9IBYEFVX3lxTFBjRGZlZ1BmeDdYT3Bpd09wOHFyckN5NkQ0VjFhRUtqaC1veTJub1FhYU1oc0c1cXBlMDFFdkRWZ2c1a1o5N0VBdnpsNEpmRTIwdkx6ZWpRbUxkc2Fpb0Vxdw?oc=5"
-    },
     {
      "outlet": "KBS",
      "cat": "kr",
@@ -4637,38 +4605,6 @@
      "reportedAt": "2026-10-15T13:05:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KRTNzcUZTUjVobnBNdjNJV1dlYlJUQ3liUWVkZkNWekFiODZ3d3RCeEtfdmxjWFZFR1ZHVVNCaVotVld6Mkt4Y0JVUFp3aXNfQlQ1ZWpLdllMQzQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "4560442b3947",
-   "articleIds": [
-    "feaf968037b4"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "EU, 후티 공세에 사우디서 예정된 걸프국 정상회의 연기",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-15T12:50:32.793Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "EU, 후티 공세에 사우디서 예정된 걸프국 정상회의 연기",
-     "titleKo": null,
-     "summary": "EU는 후티 공세를 이유로 사우디에서 예정된 정상회의를 연기했다고 보도했어요.",
-     "reportedAt": "2026-10-15T12:37:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91RjV6RmxRQkRMekhlYV80bzFlbzFpdFBlcjJZX09sd0VzcUhNNlRzM2Z6dDRzaXJMUDBjcVhkMFFWcE1VTjlRbkFKMUxiRndUY0lORXVtLWpKQWRCeTgyU09OVDFkMjA?oc=5"
     }
    ]
   }
@@ -7994,42 +7930,12 @@
     "reportedAt": 1792069500000,
     "assumeSaudi": false,
     "firstSeen": 1792070432503
-   },
-   {
-    "id": "feaf968037b4",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "연합뉴스",
-    "title": "EU, 후티 공세에 사우디서 예정된 걸프국 정상회의 연기",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91RjV6RmxRQkRMekhlYV80bzFlbzFpdFBlcjJZX09sd0VzcUhNNlRzM2Z6dDRzaXJMUDBjcVhkMFFWcE1VTjlRbkFKMUxiRndUY0lORXVtLWpKQWRCeTgyU09OVDFkMjA?oc=5",
-    "reportedAt": 1792067820000,
-    "assumeSaudi": false,
-    "firstSeen": 1792068632793
-   },
-   {
-    "id": "c495f93db0c8",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "연합뉴스",
-    "title": "사우디 겨눈 후티 공격에…EU, 걸프국과 정상회의 연기",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjRGZlZ1BmeDdYT3Bpd09wOHFyckN5NkQ0VjFhRUtqaC1veTJub1FhYU1oc0c1cXBlMDFFdkRWZ2c1a1o5N0VBdnpsNEpmRTIwdkx6ZWpRbUxkc2Fpb0Vxd9IBYEFVX3lxTFBjRGZlZ1BmeDdYT3Bpd09wOHFyckN5NkQ0VjFhRUtqaC1veTJub1FhYU1oc0c1cXBlMDFFdkRWZ2c1a1o5N0VBdnpsNEpmRTIwdkx6ZWpRbUxkc2Fpb0Vxdw?oc=5",
-    "reportedAt": 1792067491000,
-    "assumeSaudi": false,
-    "firstSeen": 1792068030648
    }
   ],
   "summaries": {
    "bbbf21b597b9": "중동 에너지 시설 관련 충돌과 아람코 본사 피격 상황을 종합적으로 다루고 있어요.",
    "a27c6e1b6715": "사우디는 마디나에서 미사일 요격을 주장했고 중동 상황을 정리한 보도가 있었습니다.",
    "b138e0db7199": "항공편 차질로 고립된 여행객들이 가족과 연락을 주고받고 있다는 내용입니다.",
-   "feaf968037b4": "EU는 후티 공세를 이유로 사우디에서 예정된 정상회의를 연기했다고 보도했어요.",
-   "c495f93db0c8": "EU가 후티 공격을 이유로 걸프국 정상회의를 연기했다고 보도했어요.",
    "fe3ac6fc5e77": "일본 외상이 사우디에 전화로 위로를 전했다고 보도돼요.",
    "93ffa81d214e": "사우디와 그리스 방위장관이 후티 공격을 규탄했다고 전해요.",
    "70a806ca949f": "사우디 연합군은 후티의 공격으로 리야드 공항 등에서 사망자가 발생했다고 밝혔습니다.",
@@ -8195,8 +8101,6 @@
    "bbbf21b597b9": "아람코 본사 피격 등 중동 에너지 시설 충돌 상황 보도",
    "a27c6e1b6715": "사우디, 마디나 미사일 요격 및 중동 동향 보도",
    "b138e0db7199": "항공편 차질로 고립된 여행객들, 가족과 연락 유지",
-   "feaf968037b4": "EU, 후티 공세로 사우디서 예정된 정상회의 연기",
-   "c495f93db0c8": "EU, 후티 공세에 걸프국 정상회의 연기",
    "c9d137b12962": "리야드 공항 공격으로 숨진 학생 가족 애도",
    "58cf0ac7355d": "연합군, 리야드 공항에 20회 공격 있었다고 발표",
    "ff26c0d42022": "후티가 이란의 이익을 위해 사우디 압박 수단이 된다는 분석",
@@ -9029,14 +8933,7 @@
    },
    {
     "articleIds": [
-     "54a4b4b2adf2",
-     "c495f93db0c8"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "feaf968037b4"
+     "54a4b4b2adf2"
     ],
     "fromRule": true
    },
@@ -9204,13 +9101,13 @@
    }
   ],
   "aiSummaryKo": [
-   "사우디와 연합군이 리야드·동부 지역 상공의 드론과 탄도미사일을 요격·파괴했다고 보도됐어요.",
-   "사우디 해역에서 유조선이 미확인 발사체에 피격돼 승무원들이 대피했다고 보도됐어요.",
-   "리야드와 디리야는 공격 여파로 원격수업을 연장했다고 발표됐어요.",
-   "이집트가 사우디에 대한 군사적·실무적 지원을 검토·준비한다고 보도됐어요."
+   "사우디 국영통신 발표: 연합군이 동부와 리야드 상공에서 무인기 여러 대를 요격·파괴했다고 발표",
+   "리야드 공항 공격 관련 생존자 인터뷰 보도와 공항 직원이 승객 구조했다는 기사 보도(언론 보도)",
+   "사우디 동부 해역에서 유조선 피격돼 승무원 대피 보도(언론 보도)",
+   "이집트가 사우디 방어 지원을 검토·제공 준비됐다고 로이터·알자지라 보도"
   ],
   "lastAiAt": 1792319438275,
-  "summaryAt": "2026-10-18T10:30:38.275Z",
+  "summaryAt": "2026-10-18T12:40:29.446Z",
   "promptVersion": 4
  }
 }
