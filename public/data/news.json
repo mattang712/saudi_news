@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-19T23:30:43.863Z",
-  "lastAttemptAt": "2026-10-19T23:30:43.863Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-19T23:39:22.365Z",
+  "lastAttemptAt": "2026-10-19T23:39:22.365Z",
   "aiSummary": true,
   "summaryAt": "2026-10-19T23:30:43.863Z",
   "aiError": null,
@@ -21,22 +21,22 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 53
+    "count": 54
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 193
+    "count": 188
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 11
+    "count": 13
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 113
+    "count": 115
    },
    {
     "name": "Saudi Gazette",
@@ -51,58 +51,61 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 70
+    "count": 68
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 77
+    "count": 80
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "ad3bdf6ac9c5",
+   "articleIds": [
+    "c6488f872b0e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 공격에 '사막의 다보스' 연기…사우디 금융허브 구상 타격",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-19T23:39:22.365Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "후티 공격에 '사막의 다보스' 연기…사우디 금융허브 구상 타격",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-19T23:34:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GTkZFeDJmYzFPMDA3dmRUTENMemhuVFY4dEJ1cl9YM2p0UERaUUlzTktHWmlsbzI0eDBHNXNUaXlBeXpoTy1Ba1h1eEVvSE1XYUNMVktqUUkyUQ?oc=5"
+    }
+   ]
+  },
   {
    "id": "e55f4c9b2a01",
    "articleIds": [
@@ -697,6 +700,70 @@
    ]
   },
   {
+   "id": "f0a908b5b89c",
+   "articleIds": [
+    "22c98b86261c"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 정신건강계, 지역 긴장 속 심리적 지원 촉구",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-19T19:30:40.115Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi Arabia’s mental health community unites amid regional tensions",
+     "titleKo": "사우디 정신건강계, 지역 긴장 속 심리적 지원 촉구",
+     "summary": "사우디 내 정신건강계가 최근 공격에 대응해 심리적 지원을 촉구한다고 전합니다.",
+     "reportedAt": "2026-10-19T19:26:13.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabias-mental-health-community-unites-amid-regional-tensions-3007171"
+    }
+   ]
+  },
+  {
+   "id": "05d8d9fac434",
+   "articleIds": [
+    "a4fa3a276cb6"
+   ],
+   "type": "korean",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "제다 주지사, 한국 총영사 접견",
+   "titleAuto": true,
+   "regions": [
+    "jeddah"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-19T19:30:40.115Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Jeddah governor receives Consul General of South Korea",
+     "titleKo": "제다 주지사, 한국 총영사 접견",
+     "summary": "제다 주지사가 한국 총영사를 접견하고 상호 관심사를 논의했다고 전합니다.",
+     "reportedAt": "2026-10-19T19:26:00.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/jeddah-governor-receives-consul-general-of-south-korea-3007203"
+    }
+   ]
+  },
+  {
    "id": "3750b0ed8f6a",
    "articleIds": [
     "0dd7ef410752"
@@ -941,6 +1008,38 @@
      "reportedAt": "2026-10-19T00:16:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vTlFGTkJoSVV3QlVKblhlOUVEMGp3bXlNamdXd3lRNS1kLVdoZ3NBblgzVTRVTnk2cThWaG91MkJWMWRUQmF3ZWo0UFpXSnBVcVIxMlNrc1NvbDU2UHdIWTBOWXRqLTkwVDVEeWs3VU1adEE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "0dd09efd88b5",
+   "articleIds": [
+    "96fffc3cbf67"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "로이터: 후티 공격에도 브렌트유는 소폭 하락",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-19T19:40:29.913Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+     "titleKo": "로이터: 후티 공격에도 브렌트유는 소폭 하락",
+     "summary": "브렌트유가 후티의 사우디 인프라 공격에도 소폭 하락했다고 로이터가 보도합니다.",
+     "reportedAt": "2026-10-18T22:23:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5"
     }
    ]
   },
@@ -3249,6 +3348,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "c6488f872b0e",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "한국경제",
+    "title": "후티 공격에 '사막의 다보스' 연기…사우디 금융허브 구상 타격",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GTkZFeDJmYzFPMDA3dmRUTENMemhuVFY4dEJ1cl9YM2p0UERaUUlzTktHWmlsbzI0eDBHNXNUaXlBeXpoTy1Ba1h1eEVvSE1XYUNMVktqUUkyUQ?oc=5",
+    "reportedAt": 1792452840000,
+    "assumeSaudi": false,
+    "firstSeen": 1792453162365
+   },
    {
     "id": "66a7742a79d2",
     "feed": "한국 주요 언론",
@@ -5702,6 +5815,30 @@
     "articleIds": [
      "e5b8b9ea51c0",
      "e8477765b062"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c6488f872b0e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "22c98b86261c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a4fa3a276cb6"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "96fffc3cbf67"
     ],
     "fromRule": true
    }
