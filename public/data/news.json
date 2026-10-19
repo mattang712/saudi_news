@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-19T00:10:27.933Z",
-  "lastAttemptAt": "2026-10-19T00:10:27.933Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-19T00:20:31.252Z",
+  "lastAttemptAt": "2026-10-19T00:20:31.252Z",
   "aiSummary": true,
   "summaryAt": "2026-10-19T00:10:27.933Z",
   "aiError": null,
@@ -20,7 +20,7 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 37
+    "count": 38
    },
    {
     "name": "AP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 108
+    "count": 103
    },
    {
     "name": "Saudi Gazette",
@@ -50,56 +50,27 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 56
+    "count": 55
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 70
+    "count": 69
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.18. 오후 기준) ​",
-    "date": "2026-10-18",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -927,10 +898,10 @@
   {
    "id": "7b2d3a175267",
    "articleIds": [
+    "813b2ab605b4",
     "8b7c3231ecd3",
     "006b2f03d93b",
     "c93a3015f1ef",
-    "813b2ab605b4",
     "29e080eba6cc",
     "4992b3b0559d",
     "4e4e29ec6d77",
@@ -940,7 +911,7 @@
    "sev": "mid",
    "status": "multi",
    "directive": null,
-   "title": "사우디 해상서 유조선 피격…승무원 전원 대피",
+   "title": "사우디 해상서 유조선 피격…\"승무원 전원 대피\"",
    "titleAuto": false,
    "regions": [
     "riyadh",
@@ -952,6 +923,16 @@
    "collectedAt": "2026-10-17T08:00:42.682Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "사우디 해상서 유조선 피격…\"승무원 전원 대피\"",
+     "titleKo": null,
+     "summary": "사우디 해상에서 유조선이 피격돼 승무원 전원이 대피했다고 보도합니다.",
+     "reportedAt": "2026-10-17T07:48:39.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uM2dtcWlfbi1oc2FHaEhJb19mSnBreXlhWS05VmxBeFhsUkQzVHBVOWdoaTBrWUJVQ01iM3REcGY4M0ROUndmdHItVy1rUmNTQmpWNDVaLTJqNTRPRTVidy1n?oc=5"
+    },
     {
      "outlet": "매일경제",
      "cat": "kr",
@@ -981,16 +962,6 @@
      "reportedAt": "2026-10-18T00:00:11.000Z",
      "dateOnly": false,
      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "사우디 해상서 유조선 피격…\"승무원 전원 대피\"",
-     "titleKo": null,
-     "summary": "사우디 해상에서 유조선이 피격돼 승무원 전원이 대피했다고 보도합니다.",
-     "reportedAt": "2026-10-18T00:12:21.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uM2dtcWlfbi1oc2FHaEhJb19mSnBreXlhWS05VmxBeFhsUkQzVHBVOWdoaTBrWUJVQ01iM3REcGY4M0ROUndmdHItVy1rUmNTQmpWNDVaLTJqNTRPRTVidy1n?oc=5"
     },
     {
      "outlet": "YTN",
@@ -4647,20 +4618,6 @@
     "firstSeen": 1792284630630
    },
    {
-    "id": "813b2ab605b4",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴스1",
-    "title": "사우디 해상서 유조선 피격…\"승무원 전원 대피\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uM2dtcWlfbi1oc2FHaEhJb19mSnBreXlhWS05VmxBeFhsUkQzVHBVOWdoaTBrWUJVQ01iM3REcGY4M0ROUndmdHItVy1rUmNTQmpWNDVaLTJqNTRPRTVidy1n?oc=5",
-    "reportedAt": 1792282341000,
-    "assumeSaudi": false,
-    "firstSeen": 1792224042682
-   },
-   {
     "id": "c93a3015f1ef",
     "feed": "Al Jazeera",
     "cat": "local",
@@ -4995,6 +4952,20 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91ZjQ0bVl3TEI0NWhKdmVPcnNEUjllOHNPRWVsbzhUTDdyVUJzNDU3cHNQTWNDUlNiWlVZQXVETHkyb2ZPVHRWSU1RYTNIMFJXcXRZV2dwc2dHX2JvX1hUNGFuV2FoVUJiWGYyS2cxOE1vR0HSAWZBVV95cUxQY284YmZPU3hPUUgyMmlWT3BHZF9XWVZxOWRpb2wxZjVNb2tXLWZuZExXTk04bkFyLUU4cFhvVGFyMnJJSGlEYU9TM0FTN0VNc0JyREoxd2xZcTdRekhfNEdEemdoakE?oc=5",
     "reportedAt": 1792223411000,
+    "assumeSaudi": false,
+    "firstSeen": 1792224042682
+   },
+   {
+    "id": "813b2ab605b4",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "뉴스1",
+    "title": "사우디 해상서 유조선 피격…\"승무원 전원 대피\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uM2dtcWlfbi1oc2FHaEhJb19mSnBreXlhWS05VmxBeFhsUkQzVHBVOWdoaTBrWUJVQ01iM3REcGY4M0ROUndmdHItVy1rUmNTQmpWNDVaLTJqNTRPRTVidy1n?oc=5",
+    "reportedAt": 1792223319000,
     "assumeSaudi": false,
     "firstSeen": 1792224042682
    },
