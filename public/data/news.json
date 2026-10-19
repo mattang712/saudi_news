@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-19T13:10:33.905Z",
-  "lastAttemptAt": "2026-10-19T13:10:33.905Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-19T13:20:29.854Z",
+  "lastAttemptAt": "2026-10-19T13:20:29.854Z",
   "aiSummary": true,
   "summaryAt": "2026-10-19T12:00:47.690Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 22
+    "count": 24
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 44
+    "count": 52
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 28
+    "count": 27
    },
    {
     "name": "AFP",
@@ -46,17 +46,18 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 150
+    "count": 151
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 61
+    "count": 59
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503 { \"OpenAPI_ServiceResponse\": { \"cmmMsgHeader\": { \"errMsg\": \""
    },
    {
     "name": "외교부 안전공지",
@@ -66,25 +67,10 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 47
+    "count": 49
    }
   ],
   "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
    {
     "title": "사우디 공항 및 항공편 운항 현황(10.18. 오후 기준) ​",
     "date": "2026-10-18",
@@ -519,6 +505,38 @@
    ]
   },
   {
+   "id": "a8ac3223fbc3",
+   "articleIds": [
+    "a64100527722"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티는 사우디 폭격, 사우디는 시장 공격...결국 민간인 피해 속출",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-17T11:50:34.521Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "JTBC",
+     "cat": "kr",
+     "title": "후티는 사우디 폭격, 사우디는 시장 공격...결국 민간인 피해 속출",
+     "titleKo": null,
+     "summary": "후티와 사우디의 공격으로 민간 피해가 속출하고 있다고 보도했어요.",
+     "reportedAt": "2026-10-18T21:52:49.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hb09jdks5MTkxT1NKeWV3MEdxMktCazQzeVNOWWdaWUVtcnY1YnVTcTBsaVJYbG0wV0RvaE1RTUpBRjZ0OHZkVDFIUXVPYWV4M1E?oc=5"
+    }
+   ]
+  },
+  {
    "id": "ff9721742919",
    "articleIds": [
     "0cb4f10d8fcd"
@@ -698,38 +716,6 @@
      "reportedAt": "2026-10-18T16:12:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcE96UWk0MVRiOVhrbzZ4VGZRRnF6RWw2Y3JlNkFpeUh0UXFGRksyT3oyVkxybTNUNEhmRTN6SXN6c2t0aGFVYm12UXl2QVJQcjJfMlJtUm5NRTQ4TnA5Q0loeWR6VGJTUEFuZ1pMa2lnWFE?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "a8ac3223fbc3",
-   "articleIds": [
-    "a64100527722"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티는 사우디 폭격, 사우디는 시장 공격...결국 민간인 피해 속출",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-17T11:50:34.521Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "JTBC",
-     "cat": "kr",
-     "title": "후티는 사우디 폭격, 사우디는 시장 공격...결국 민간인 피해 속출",
-     "titleKo": null,
-     "summary": "후티와 사우디의 공격으로 민간 피해가 속출하고 있다고 보도했어요.",
-     "reportedAt": "2026-10-18T16:10:41.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hb09jdks5MTkxT1NKeWV3MEdxMktCazQzeVNOWWdaWUVtcnY1YnVTcTBsaVJYbG0wV0RvaE1RTUpBRjZ0OHZkVDFIUXVPYWV4M1E?oc=5"
     }
    ]
   },
@@ -2382,9 +2368,8 @@
    ]
   },
   {
-   "id": "b1a3ecd18650",
+   "id": "050607fdeb87",
    "articleIds": [
-    "adf864749c87",
     "770c7dbf616e",
     "3bdf53acd99f",
     "8fd53641f097"
@@ -2393,7 +2378,7 @@
    "sev": "mid",
    "status": "official",
    "directive": null,
-   "title": "사우디, 유엔 안보리 규탄 성명 환영",
+   "title": "(요약 이미 있음)",
    "titleAuto": true,
    "regions": [
     "all"
@@ -2401,19 +2386,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-16T13:30:40.579Z",
+   "collectedAt": "2026-10-16T13:40:32.861Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Saudi Arabia Welcomes UN Security Council Statement Condemning Terrorist Houthi Attacks",
-     "titleKo": "사우디, 유엔 안보리 규탄 성명 환영",
-     "summary": "사우디가 유엔 안보리의 후티 공격 규탄 성명을 환영했다고 전했어요.",
-     "reportedAt": "2026-10-16T13:16:34.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE01VVV5cXZCLVZfNjloY1MwLWcwNE5fbWZJTUtNZGIxaWx6eWZkSkEyR0ZFWGZqMFJFeTBaTk90SkpqS2lob0tXajd3?oc=5"
-    },
     {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
@@ -3375,24 +3350,6 @@
    "reportedAt": "2026-10-16T13:31:43.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yR09vXzRsb29iTm5ILUFUXzFNNmwwQmVWN1JWeE9ucDQ4TUluZ1ZaQk9zMEJXWno5aTRxZjNrbUVjOVBVS21KQ2tR?oc=5"
-  },
-  {
-   "id": "adf864749c87",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "사우디, 유엔 안보리 규탄 성명 환영",
-   "title": "Saudi Arabia Welcomes UN Security Council Statement Condemning Terrorist Houthi Attacks",
-   "summary": "사우디가 유엔 안보리의 후티 공격 규탄 성명을 환영했다고 전했어요.",
-   "reportedAt": "2026-10-16T13:16:34.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE01VVV5cXZCLVZfNjloY1MwLWcwNE5fbWZJTUtNZGIxaWx6eWZkSkEyR0ZFWGZqMFJFeTBaTk90SkpqS2lob0tXajd3?oc=5"
   }
  ],
  "_cache": {
@@ -3594,6 +3551,20 @@
     "firstSeen": 1792368627933
    },
    {
+    "id": "a64100527722",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "JTBC",
+    "title": "후티는 사우디 폭격, 사우디는 시장 공격...결국 민간인 피해 속출",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hb09jdks5MTkxT1NKeWV3MEdxMktCazQzeVNOWWdaWUVtcnY1YnVTcTBsaVJYbG0wV0RvaE1RTUpBRjZ0OHZkVDFIUXVPYWV4M1E?oc=5",
+    "reportedAt": 1792360369000,
+    "assumeSaudi": false,
+    "firstSeen": 1792237834521
+   },
+   {
     "id": "0cb4f10d8fcd",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -3732,20 +3703,6 @@
     "reportedAt": 1792339920000,
     "assumeSaudi": false,
     "firstSeen": 1792316428077
-   },
-   {
-    "id": "a64100527722",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "JTBC",
-    "title": "후티는 사우디 폭격, 사우디는 시장 공격...결국 민간인 피해 속출",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hb09jdks5MTkxT1NKeWV3MEdxMktCazQzeVNOWWdaWUVtcnY1YnVTcTBsaVJYbG0wV0RvaE1RTUpBRjZ0OHZkVDFIUXVPYWV4M1E?oc=5",
-    "reportedAt": 1792339841000,
-    "assumeSaudi": false,
-    "firstSeen": 1792237834521
    },
    {
     "id": "af2e6bf4eea6",
@@ -5036,20 +4993,6 @@
     "reportedAt": 1792157503000,
     "assumeSaudi": false,
     "firstSeen": 1792158032861
-   },
-   {
-    "id": "adf864749c87",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Saudi Arabia Welcomes UN Security Council Statement Condemning Terrorist Houthi Attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE01VVV5cXZCLVZfNjloY1MwLWcwNE5fbWZJTUtNZGIxaWx6eWZkSkEyR0ZFWGZqMFJFeTBaTk90SkpqS2lob0tXajd3?oc=5",
-    "reportedAt": 1792156594000,
-    "assumeSaudi": false,
-    "firstSeen": 1792157440579
    }
   ],
   "summaries": {
@@ -5057,7 +5000,6 @@
    "d66b74acad26": "연합군은 남부와 리야드 지역에서 무인기 3대를 요격·파괴했다고 사우디 국영통신이 전했어요.",
    "1f65d23bfc4e": "(요약 이미 있음)",
    "770c7dbf616e": "(요약 이미 있음)",
-   "adf864749c87": "사우디가 유엔 안보리의 후티 공격 규탄 성명을 환영했다고 전했어요.",
    "3bdf53acd99f": "사우디가 유엔 안보리 성명을 환영했다는 내용이에요.",
    "188285d0417d": "보도들은 연합군이 리야드와 얀부를 겨냥한 미사일·드론을 요격했다고 전했어요.",
    "47b7589b3dbb": "(요약 이미 있음)",
@@ -5171,7 +5113,6 @@
   },
   "titlesKo": {
    "5c7739d7ce8a": "마카 금요 설교서 리야드 공항 테러 규탄",
-   "adf864749c87": "사우디, 유엔 안보리 규탄 성명 환영",
    "770c7dbf616e": "(요약 이미 있음)",
    "d66b74acad26": "연합군: 남부·리야드 지역서 무인기 3대 요격·파괴",
    "1f65d23bfc4e": "(요약 이미 있음)",
@@ -5670,8 +5611,7 @@
     "articleIds": [
      "8fd53641f097",
      "3bdf53acd99f",
-     "770c7dbf616e",
-     "adf864749c87"
+     "770c7dbf616e"
     ],
     "fromRule": true
    },
