@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-20T12:11:24.002Z",
-  "lastAttemptAt": "2026-10-20T12:11:24.002Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-20T12:20:35.056Z",
+  "lastAttemptAt": "2026-10-20T12:20:35.056Z",
   "aiSummary": true,
   "summaryAt": "2026-10-20T11:03:54.729Z",
   "aiError": null,
@@ -20,12 +20,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 125
+    "count": 126
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 69
+    "count": 64
    },
    {
     "name": "AFP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 96
+    "count": 95
    },
    {
     "name": "Saudi Gazette",
@@ -50,19 +50,17 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 56
+    "count": 59
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -70,9 +68,73 @@
     "count": 69
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
+    "date": "2026-10-19",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
+    "date": "2026-10-16",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "cc3cadee5ff7",
+   "articleIds": [
+    "c9b3e7e57858"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 각료회의: 에너지 안보는 국제 공동의 책임이다",
+   "titleAuto": true,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-20T12:20:35.056Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi cabinet: Energy security are a shared international responsibility",
+     "titleKo": "사우디 각료회의: 에너지 안보는 국제 공동의 책임이다",
+     "summary": "",
+     "reportedAt": "2026-10-20T12:15:44.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-cabinet-energy-security-are-a-shared-international-responsibility-3007324"
+    }
+   ]
+  },
   {
    "id": "c09428dedea7",
    "articleIds": [
@@ -871,6 +933,38 @@
    ]
   },
   {
+   "id": "b81edca15a22",
+   "articleIds": [
+    "090ebdcf588f"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 공격에 정부군 50여 명 사망…“사우디 6곳 공습”",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-19T21:30:41.808Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "후티 공격에 정부군 50여 명 사망…“사우디 6곳 공습”",
+     "titleKo": null,
+     "summary": "KBS는 후티 공격으로 사우디 군에서 많은 사망자가 나왔다고 보도했어요.",
+     "reportedAt": "2026-10-20T00:36:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YSFFMNHEya2I2alVlRnVwYmthUFVZZ2V3X09MQUNoN29MRE1UTU9OU3dNTlMxTVdON2hQYVowOWNRczFyUVhsekxpTC0xa0VxR1lybXBnbm1uT2F4SFhFemdFaERGUnpjZlZr?oc=5"
+    }
+   ]
+  },
+  {
    "id": "39236b3d9981",
    "articleIds": [
     "d37055c26426"
@@ -1218,38 +1312,6 @@
      "reportedAt": "2026-10-19T21:37:25.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BMWZVb1RZM29EcXV1MWZEMURaTVVtSE5kSlJSVXVNNndKbXNzbUFfLXoyVTJ6SUFONXFnbk5KaUhXX2haSDJXNHJHTjJlR1A3QUVRcDNieERncEZqbUM0SNIBeEFVX3lxTE4tNG0xQ21jYjVqTFI1cjBpbHNvTHNSdE5lUzRqMXVyX1pWMF8zampvRGJUSXFsZk0tWHJmUFJPejBFX0RMTkRuN3BUQ1RnQ0FudDM3a1ZyOHdrUzRkUTQ4VjhRWFdXdXl3bW9JSUpYcTMweTQ1UFM3Ng?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "b81edca15a22",
-   "articleIds": [
-    "090ebdcf588f"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티 공격에 정부군 50여 명 사망…“사우디 6곳 공습”",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-19T21:30:41.808Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "후티 공격에 정부군 50여 명 사망…“사우디 6곳 공습”",
-     "titleKo": null,
-     "summary": "KBS는 후티 공격으로 사우디 군에서 많은 사망자가 나왔다고 보도했어요.",
-     "reportedAt": "2026-10-19T21:13:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QaGF0UFNFYTFLUjBKZVVJQk8wM3J2TmllS2VDX1lhZC1tVGh3ZWYyeDM3RjZWdmN1N01sRkhPdnJYTGpuU1JneExzQklYdDNVb3p5Y0IzOXlVMTg?oc=5"
     }
    ]
   },
@@ -4182,6 +4244,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "c9b3e7e57858",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi cabinet: Energy security are a shared international responsibility",
+    "snippet": "RIYADH: Saudi Arabia’s cabinet, chaired by King Salman in Riyadh on Tuesday, stressed the need for international cooperation to protect global energy security, trade, supply chains and maritime navigation amid regional tensions. The cabinet condemned Houthi attacks on civilian sites, airports and energy infrastructure in the Kingdom, as well as ongoing threats to navigation in the Red Sea and Bab ",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-cabinet-energy-security-are-a-shared-international-responsibility-3007324",
+    "reportedAt": 1792498544000,
+    "assumeSaudi": false,
+    "firstSeen": 1792498835056
+   },
+   {
     "id": "7847f5bb13cc",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4644,6 +4720,20 @@
     "firstSeen": 1792458047196
    },
    {
+    "id": "090ebdcf588f",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "KBS",
+    "title": "후티 공격에 정부군 50여 명 사망…“사우디 6곳 공습”",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YSFFMNHEya2I2alVlRnVwYmthUFVZZ2V3X09MQUNoN29MRE1UTU9OU3dNTlMxTVdON2hQYVowOWNRczFyUVhsekxpTC0xa0VxR1lybXBnbm1uT2F4SFhFemdFaERGUnpjZlZr?oc=5",
+    "reportedAt": 1792456560000,
+    "assumeSaudi": false,
+    "firstSeen": 1792445441808
+   },
+   {
     "id": "d37055c26426",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4754,20 +4844,6 @@
     "reportedAt": 1792444858000,
     "assumeSaudi": false,
     "firstSeen": 1792448427873
-   },
-   {
-    "id": "090ebdcf588f",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "KBS",
-    "title": "후티 공격에 정부군 50여 명 사망…“사우디 6곳 공습”",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QaGF0UFNFYTFLUjBKZVVJQk8wM3J2TmllS2VDX1lhZC1tVGh3ZWYyeDM3RjZWdmN1N01sRkhPdnJYTGpuU1JneExzQklYdDNVb3p5Y0IzOXlVMTg?oc=5",
-    "reportedAt": 1792444380000,
-    "assumeSaudi": false,
-    "firstSeen": 1792445441808
    },
    {
     "id": "5ff00f935ea5",
@@ -6385,7 +6461,8 @@
    "cad4b859cdc3": "후티 공격에 예멘·사우디 잇따른 피해·공항 폐쇄 보도",
    "e35d6e690e44": "영국, 후티에 맞선 사우디 지원 군사 활동 확대…‘방어적’ 공중초계 포함",
    "e01f7bff3792": "영국, 후티에 맞서 사우디아라비아에 대한 군사 지원 확대…‘방어적’ 공중 순찰 포함",
-   "41ca3b0a2ec7": "영국, 후티 공격으로부터 사우디아라비아 방어 위해 타이푼 전투기 배치 예정"
+   "41ca3b0a2ec7": "영국, 후티 공격으로부터 사우디아라비아 방어 위해 타이푼 전투기 배치 예정",
+   "c9b3e7e57858": "사우디 각료회의: 에너지 안보는 국제 공동의 책임이다"
   },
   "aiClusters": [
    {
@@ -7003,6 +7080,12 @@
    {
     "articleIds": [
      "7847f5bb13cc"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c9b3e7e57858"
     ],
     "fromRule": true
    }
