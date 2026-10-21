@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-21T13:40:32.984Z",
-  "lastAttemptAt": "2026-10-21T13:40:32.984Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-21T13:50:32.361Z",
+  "lastAttemptAt": "2026-10-21T13:50:32.361Z",
   "aiSummary": true,
   "summaryAt": "2026-10-21T13:40:32.984Z",
   "aiError": null,
@@ -21,27 +21,27 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 142
+    "count": 152
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 51
+    "count": 52
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 33
+    "count": 31
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 123
+    "count": 127
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 52
+    "count": 51
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,29 +51,122 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 71
+    "count": 73
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 59
+    "count": 57
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
+    "date": "2026-10-19",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
+    "date": "2026-10-16",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "1f4780de3327",
+   "articleIds": [
+    "d78c68297ea6"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "예멘 친이란 후티반군 \"아덴 내 사우디군 진지 타격\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T13:50:32.361Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "예멘 친이란 후티반군 \"아덴 내 사우디군 진지 타격\"",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-21T13:36:05.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YeGQ4NG9EdjhJVms1Xy1tZGp2TU9oY2t6N01ZUmdxZlQ5WkF0NmQyZUdhQ1hwUDV1czJNUTQ4SzFQclhPZlJMeTc1amxMOE9hdXAtMDJFLUJWaTdRemFnWdIBeEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "aab41cbeab0e",
+   "articleIds": [
+    "c2c005a83445"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 내무장관, 리야드 보안·사이버센터 개소 및 점검",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T13:40:32.984Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi interior minister inspects security forces facilities in Riyadh",
+     "titleKo": "사우디 내무장관, 리야드 보안·사이버센터 개소 및 점검",
+     "summary": "내무부 장관이 리야드 보안·사이버센터를 개소하고 시설을 점검했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T13:34:47.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-interior-minister-inspects-security-forces-facilities-in-riyadh-3007520"
+    }
+   ]
+  },
   {
    "id": "e00fb41e7455",
    "articleIds": [
@@ -103,6 +196,38 @@
      "reportedAt": "2026-10-21T13:29:01.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/665617/saudi-arabia/macron-arrives-in-riyadh-pledges-french-defense-support-against-houthis"
+    }
+   ]
+  },
+  {
+   "id": "47cc2b1f9ef7",
+   "articleIds": [
+    "ab7b473618e7"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "영국과 프랑스가 사우디-후티 분쟁에 끌려들고 있는가?",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T13:40:32.984Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Are the UK, France being pulled into the Saudi-Houthi conflict?",
+     "titleKo": "영국과 프랑스가 사우디-후티 분쟁에 끌려들고 있는가?",
+     "summary": "",
+     "reportedAt": "2026-10-21T13:28:50.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenZsakdlaG9uNFhLclNtQ0RBT0NlU2lVdFlsbHdvVkE2ZzJ6LXNXSzkzX1JTVUtJQnNuYmM0cjNxeWFOdS1XZmhMV1h3elNnYmpkRzFmY2FqenktWDAzUlUwZ3MzV0lrTG81NXo1TXhTSVlKVWN4czJQTldxaUdOME1YR1Z4dVF5N3BnZi1yWEQ1eVVmdHZacmhnaHpucGNMUk1HRHl30gGrAUFVX3lxTE1ldG5SUHlrMWVwVGpGb2plRXUxRHhHOGxraEJJa0g4VGtwaG11NXZxVm43Nkl5cGJ4TzRkRnRsakZKUFVMQ3laUnBqeDRZV1JUR25BRGtqMEswZmtsbVV4bVdDdjRUUWV5WFBaWnQ5YTVYZFNSRUZhSTJSTlR2cEpaYXFmVDRSSkVLWXlIdEdXR2RYQWN4aGNCTFdESEpZQkxyTm9mM1FkNGVLQQ?oc=5"
     }
    ]
   },
@@ -384,6 +509,49 @@
    ]
   },
   {
+   "id": "8ff2f76914ec",
+   "articleIds": [
+    "f990ae70cfbd",
+    "087b2548e622"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 주장: 아덴 내 사우디군 진지 타격",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T10:40:30.307Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+     "titleKo": "후티 주장: 아덴 내 사우디군 진지 타격",
+     "summary": "후티는 아덴 내 사우디군 진지를 타격했다고 주장했다고 보도했어요.",
+     "reportedAt": "2026-10-21T10:22:35.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond?traffic_source=rss"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond - Al Jazeera",
+     "titleKo": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond - Al Jazeera",
+     "summary": "영국이 사우디 방어를 위해 전투기 파견을 결정한 것은 사우디와 오래된 군사적 관계의 연장이라고 보도했어요.",
+     "reportedAt": "2026-10-21T10:55:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ2VMQTFSUmJzRXNSQzRPZVFRc1g4d0xBUjJ6VVFvWTRQTHJ0Wk1OSDFsbDF3ZWxTZEVTQTdqaVA0UGhpblYwME15VWhiSWdHNzZpZXp0Rk53ZVM3THVsX0Uxd2V5a3ZUTS1ncmFqS0tBLWZZUXF3dmlTTnV5Y3hjTEhIRjhndjNzSUhESHEwdlpUOHJZd2NGUm5zYUpPbkpUQXhKSVNDaUpTaTA4N1VSZURZY3JVaHRXMHFENzhNLVNoTDFzcEw4S1lvcWloZw?oc=5"
+    }
+   ]
+  },
+  {
    "id": "602fdbd7562c",
    "articleIds": [
     "e3fb7938e8cd"
@@ -570,9 +738,9 @@
      "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
      "titleKo": null,
      "summary": "영국이 사우디에 방어 목적의 타이푼 전투기 지원을 한다고 전했어요.",
-     "reportedAt": "2026-10-21T08:31:13.000Z",
+     "reportedAt": "2026-10-21T08:37:50.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQdIBYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jbC10TS1VTi1kTnYyc2dpSTU2S3h5R1BqVkQ2UXRtRkFIZTZ5WnQ0eWNwQXpPeTdzX2JTeDhFeXljdlRtZ2R3SmUwOHNEd1R3MmVjR2tlRXJ1WFl2NTBkSE1ydVRPSTdYdW1yOGh4SkJuNnZP?oc=5"
     }
    ]
   },
@@ -616,6 +784,38 @@
      "reportedAt": "2026-10-21T07:48:23.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFWGdhV2J2QmRSSE5hTml1bzcwSGlXczgxSjRrckhyOE84X2V5dE4wQmljSkdJeTNHN0g4bXlyX0c4eFJ0SmlNVHlucXlpY1Jtekt6Z2pic3prUDlPR1ZGZkpxcmZMckU?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "269416e311dd",
+   "articleIds": [
+    "013b1bb30a05"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T07:30:40.816Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
+     "titleKo": null,
+     "summary": "영국은 후티 공격을 방어하기 위해 타이푼 전투기 파견을 결정했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T07:22:32.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yZ0dteVpBVHhUMjg3MzZYajRHLVBtS2ZDZTRTY0NHSHRvcXZCV3phWDdNUjdEUmFvbmJkeEZDZ3lsa3RaN3J4TzVMRGRBc3FkaDY5NW43bmo0aXEwWmlWTTdzcVdtQmlGYzNUNjFn0gFuQVVfeXFMTzJnR215WkFUeFQyODczNlhqNEctUG1LZkNlNFNjQ0dIdG9xdkJXemFYN01SN0RSYW9uYmR4RkNneWxrdFo3cnhPNUxEZEFzcWRoNjk1bjduajRpcTBaaVZNN3NxV21CaUZjM1Q2MWc?oc=5"
     }
    ]
   },
@@ -3825,38 +4025,6 @@
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
     }
    ]
-  },
-  {
-   "id": "a8afeef7a164",
-   "articleIds": [
-    "63bd08879182"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "이집트가 사우디에 제공 가능한 지원 분석",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-18T14:30:36.950Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis? - Al Jazeera",
-     "titleKo": "이집트가 사우디에 제공 가능한 지원 분석",
-     "summary": "이집트가 사우디를 지원할 수 있는 방안을 분석해 보도했어요.",
-     "reportedAt": "2026-10-18T13:49:57.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVERkbno3b0xTZVNiUDdkcEFwakhxWGowSUVfV244NV9sMG9sSlJTRXlmcWxiUjNuUmJJazNkLXU5VnhrTENaUUFCVjE0aUgyRkplVExZN3MwOTBuYXpLejR0R0VtcGp2UURjRTlXTzI5NTRnWUxrcTNWYjRYaGNmbGtkSVRvRDNVT3pvcWw2dG40cFdOa3JjWFlSQUVUTXpsdk9CczVKbTdCNXpLVlpGeTZfQm5lREZ0QUxncHhhWkVJbExJM3NCSUxn?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -3868,15 +4036,15 @@
    "type": "security",
    "sev": "mid",
    "regions": [
-    "riyadh"
+    "all"
    ],
    "inferred": false,
    "titleKo": "영국과 프랑스가 사우디-후티 분쟁에 끌려들고 있는가?",
    "title": "Are the UK, France being pulled into the Saudi-Houthi conflict?",
    "summary": "",
-   "reportedAt": "2026-10-21T13:25:50.000Z",
+   "reportedAt": "2026-10-21T13:28:50.000Z",
    "dateOnly": false,
-   "url": "https://www.aljazeera.com/news/2026/10/21/are-the-uk-france-being-pulled-into-the-saudi-houthi-conflict?traffic_source=rss"
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenZsakdlaG9uNFhLclNtQ0RBT0NlU2lVdFlsbHdvVkE2ZzJ6LXNXSzkzX1JTVUtJQnNuYmM0cjNxeWFOdS1XZmhMV1h3elNnYmpkRzFmY2FqenktWDAzUlUwZ3MzV0lrTG81NXo1TXhTSVlKVWN4czJQTldxaUdOME1YR1Z4dVF5N3BnZi1yWEQ1eVVmdHZacmhnaHpucGNMUk1HRHl30gGrAUFVX3lxTE1ldG5SUHlrMWVwVGpGb2plRXUxRHhHOGxraEJJa0g4VGtwaG11NXZxVm43Nkl5cGJ4TzRkRnRsakZKUFVMQ3laUnBqeDRZV1JUR25BRGtqMEswZmtsbVV4bVdDdjRUUWV5WFBaWnQ5YTVYZFNSRUZhSTJSTlR2cEpaYXFmVDRSSkVLWXlIdEdXR2RYQWN4aGNCTFdESEpZQkxyTm9mM1FkNGVLQQ?oc=5"
   },
   {
    "id": "5e2ad10fa9e1",
@@ -4617,28 +4785,24 @@
    "reportedAt": "2026-10-18T14:31:31.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
-  },
-  {
-   "id": "63bd08879182",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "이집트가 사우디에 제공 가능한 지원 분석",
-   "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis? - Al Jazeera",
-   "summary": "이집트가 사우디를 지원할 수 있는 방안을 분석해 보도했어요.",
-   "reportedAt": "2026-10-18T13:49:57.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVERkbno3b0xTZVNiUDdkcEFwakhxWGowSUVfV244NV9sMG9sSlJTRXlmcWxiUjNuUmJJazNkLXU5VnhrTENaUUFCVjE0aUgyRkplVExZN3MwOTBuYXpLejR0R0VtcGp2UURjRTlXTzI5NTRnWUxrcTNWYjRYaGNmbGtkSVRvRDNVT3pvcWw2dG40cFdOa3JjWFlSQUVUTXpsdk9CczVKbTdCNXpLVlpGeTZfQm5lREZ0QUxncHhhWkVJbExJM3NCSUxn?oc=5"
   }
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "d78c68297ea6",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "뉴시스",
+    "title": "예멘 친이란 후티반군 \"아덴 내 사우디군 진지 타격\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YeGQ4NG9EdjhJVms1Xy1tZGp2TU9oY2t6N01ZUmdxZlQ5WkF0NmQyZUdhQ1hwUDV1czJNUTQ4SzFQclhPZlJMeTc1amxMOE9hdXAtMDJFLUJWaTdRemFnWdIBeEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRQ?oc=5",
+    "reportedAt": 1792589765000,
+    "assumeSaudi": false,
+    "firstSeen": 1792590632361
+   },
    {
     "id": "c2c005a83445",
     "feed": "Arab News",
@@ -4675,9 +4839,9 @@
     "lang": "en",
     "outlet": "Al Jazeera",
     "title": "Are the UK, France being pulled into the Saudi-Houthi conflict?",
-    "snippet": "The European states say their support for Riyadh is &#039;defensive&#039;, but analysts warn Houthi reaction may complicate that.",
-    "url": "https://www.aljazeera.com/news/2026/10/21/are-the-uk-france-being-pulled-into-the-saudi-houthi-conflict?traffic_source=rss",
-    "reportedAt": 1792589150000,
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenZsakdlaG9uNFhLclNtQ0RBT0NlU2lVdFlsbHdvVkE2ZzJ6LXNXSzkzX1JTVUtJQnNuYmM0cjNxeWFOdS1XZmhMV1h3elNnYmpkRzFmY2FqenktWDAzUlUwZ3MzV0lrTG81NXo1TXhTSVlKVWN4czJQTldxaUdOME1YR1Z4dVF5N3BnZi1yWEQ1eVVmdHZacmhnaHpucGNMUk1HRHl30gGrAUFVX3lxTE1ldG5SUHlrMWVwVGpGb2plRXUxRHhHOGxraEJJa0g4VGtwaG11NXZxVm43Nkl5cGJ4TzRkRnRsakZKUFVMQ3laUnBqeDRZV1JUR25BRGtqMEswZmtsbVV4bVdDdjRUUWV5WFBaWnQ5YTVYZFNSRUZhSTJSTlR2cEpaYXFmVDRSSkVLWXlIdEdXR2RYQWN4aGNCTFdESEpZQkxyTm9mM1FkNGVLQQ?oc=5",
+    "reportedAt": 1792589330000,
     "assumeSaudi": false,
     "firstSeen": 1792590032984
    },
@@ -4886,8 +5050,8 @@
     "outlet": "연합뉴스",
     "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQdIBYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQQ?oc=5",
-    "reportedAt": 1792571473000,
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jbC10TS1VTi1kTnYyc2dpSTU2S3h5R1BqVkQ2UXRtRkFIZTZ5WnQ0eWNwQXpPeTdzX2JTeDhFeXljdlRtZ2R3SmUwOHNEd1R3MmVjR2tlRXJ1WFl2NTBkSE1ydVRPSTdYdW1yOGh4SkJuNnZP?oc=5",
+    "reportedAt": 1792571870000,
     "assumeSaudi": false,
     "firstSeen": 1792572631124
    },
@@ -6852,20 +7016,6 @@
     "reportedAt": 1792333891000,
     "assumeSaudi": false,
     "firstSeen": 1792319438275
-   },
-   {
-    "id": "63bd08879182",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis? - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVERkbno3b0xTZVNiUDdkcEFwakhxWGowSUVfV244NV9sMG9sSlJTRXlmcWxiUjNuUmJJazNkLXU5VnhrTENaUUFCVjE0aUgyRkplVExZN3MwOTBuYXpLejR0R0VtcGp2UURjRTlXTzI5NTRnWUxrcTNWYjRYaGNmbGtkSVRvRDNVT3pvcWw2dG40cFdOa3JjWFlSQUVUTXpsdk9CczVKbTdCNXpLVlpGeTZfQm5lREZ0QUxncHhhWkVJbExJM3NCSUxn?oc=5",
-    "reportedAt": 1792331397000,
-    "assumeSaudi": false,
-    "firstSeen": 1792333836950
    }
   ],
   "summaries": {
@@ -6876,7 +7026,6 @@
    "26d8bb2203ec": "걸프의 사우디 방어 지지와 후티 규탄 관련 보도입니다.",
    "26be373e5e56": "후티 공세로 사우디가 수니파 동맹의 지지를 받는다고 보도했어요.",
    "82582856d785": "시민들이 온라인에서 연대 메시지를 보냈다고 보도했어요.",
-   "63bd08879182": "이집트가 사우디를 지원할 수 있는 방안을 분석해 보도했어요.",
    "af2e6bf4eea6": "나즈란 주거지에 후티 발사체가 떨어져 6명이 다치고 가옥·차량이 파손됐다고 보도합니다.",
    "ce7fa532fb78": "외교부가 사우디 공항 및 항공편 운항 현황을 공지했다고 보도되었어요.",
    "a13aaf3905a0": "GCC가 후티 공격을 규탄했다고 보도했어요.",
@@ -7029,7 +7178,6 @@
    "a64100527722": "로이터: 이집트, 후티에 맞서 사우디 지원 준비",
    "91007dfce51c": "국영통신: 리야드 상공 UAV 요격·파괴 보도",
    "50fdaf1081b5": "이집트, 사우디에 필요한 지원 제공 준비",
-   "63bd08879182": "이집트가 사우디에 제공 가능한 지원 분석",
    "82582856d785": "사우디 주민들, 후티 공격에 온라인으로 단결 메시지",
    "26d8bb2203ec": "걸프의 사우디 방어 지지 및 후티 규탄",
    "af2e6bf4eea6": "후티 발사체, 나즈란서 6명 부상·주택·차량 파손",
@@ -7923,7 +8071,32 @@
    },
    {
     "articleIds": [
-     "63bd08879182"
+     "d78c68297ea6"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c2c005a83445"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "ab7b473618e7"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "087b2548e622",
+     "f990ae70cfbd"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "013b1bb30a05"
     ],
     "fromRule": true
    }
