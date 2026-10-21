@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-21T22:15:09.003Z",
-  "lastAttemptAt": "2026-10-21T22:15:09.003Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-21T22:20:31.803Z",
+  "lastAttemptAt": "2026-10-21T22:20:31.803Z",
   "aiSummary": true,
   "summaryAt": "2026-10-21T21:00:55.379Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 44
+    "count": 45
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 104
+    "count": 107
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 33
+    "count": 35
    },
    {
     "name": "AFP",
@@ -41,7 +41,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 53
+    "count": 54
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,58 +51,61 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 75
+    "count": 74
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 72
+    "count": 80
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "6888dc3e82a3",
+   "articleIds": [
+    "6d718d1b7265"
+   ],
+   "type": "korean",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "美, 주사우디 공무원·가족에 철수 명령…\"후티 공격 확대\" - 머니투데이",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T22:20:31.803Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "美, 주사우디 공무원·가족에 철수 명령…\"후티 공격 확대\" - 머니투데이",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-21T22:12:22.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3ZXhITWlnaHJfdEhFTnRyY3ZGOE1Ub2NfY1FXZ1lUU3VXeUgzQkJON0l0UGl5X0tZUXJYVlk1Z29vc1NnT0p6RDRlYlY1X1RweHU0Y3dCd0pvRlFlVER5cFJQaXcxeVcz0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5"
+    }
+   ]
+  },
   {
    "id": "ee26a9ae6698",
    "articleIds": [
@@ -530,8 +533,7 @@
    "regions": [
     "eastern",
     "dammam",
-    "jafurah",
-    "riyadh"
+    "jafurah"
    ],
    "inferred": true,
    "inferNote": "샤이바(Shaybah)는 동부 주의 주요 유전으로 담맘·자푸라 인근으로 추정되어요.",
@@ -545,9 +547,9 @@
      "title": "Two expatriates killed in drone attack targeting Saudi Aramco’s Shaybah oil field",
      "titleKo": "샤이바 유전 표적 드론 공격으로 외국인 2명 사망",
      "summary": "사우디 에너지부는 샤이바 유전 드론 공격으로 외국인 2명이 숨지고 2명이 다쳤으며 방어 시스템이 드론을 요격했다고 발표했어요.",
-     "reportedAt": "2026-10-21T19:21:20.000Z",
+     "reportedAt": "2026-10-21T19:21:00.000Z",
      "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665627/saudi-arabia/two-killed-two-injured-in-drone-attack-on-saudi-aramcos-shaybah-oil-field"
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0eWVjMENpLW1RWmZMNFdKRGF2YThiQmRWelNTTFFfUVJDZVZKMGJhcnhwM2dmbDZuZXVaeFg0LVJ2ZU9WbVN4TnFKOHlUT3NSMEZJVA?oc=5"
     },
     {
      "outlet": "Arab News",
@@ -1446,9 +1448,9 @@
      "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
      "titleKo": null,
      "summary": "(이미 요약 있음)",
-     "reportedAt": "2026-10-21T08:37:50.000Z",
+     "reportedAt": "2026-10-21T08:31:13.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lcS1VNXZHeGNmTTZDdGpLNFZ2b29rSXVpVmRCLTg2eGtXSHRJNERiUE14SzFFbkhLY1FpZ1lGQVF2RW9sTXF4X3ptdUtnbDBMajczYjBCY3pKNDDSAWBBVV95cUxNaDV3V0EtTTNoYTJkRWNCWWNvbU05OWU0ZmdMcDF1STc5VFBfdkhXV2JGcFIxc0wteGxnWG9pZUFPZDJuY1VjdEFSQmMwUFVnUlpxeE1KUTBKc2ZyTVdoeDE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQdIBYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQQ?oc=5"
     }
    ]
   },
@@ -5369,6 +5371,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "6d718d1b7265",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "머니투데이",
+    "title": "美, 주사우디 공무원·가족에 철수 명령…\"후티 공격 확대\" - 머니투데이",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3ZXhITWlnaHJfdEhFTnRyY3ZGOE1Ub2NfY1FXZ1lUU3VXeUgzQkJON0l0UGl5X0tZUXJYVlk1Z29vc1NnT0p6RDRlYlY1X1RweHU0Y3dCd0pvRlFlVER5cFJQaXcxeVcz0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5",
+    "reportedAt": 1792620742000,
+    "assumeSaudi": false,
+    "firstSeen": 1792621231803
+   },
+   {
     "id": "ea3ebeeaaa94",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -5663,20 +5679,6 @@
     "firstSeen": 1792611631505
    },
    {
-    "id": "6bda29bd25fc",
-    "feed": "Saudi Gazette",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Saudi Gazette",
-    "title": "Two expatriates killed in drone attack targeting Saudi Aramco’s Shaybah oil field",
-    "snippet": "RIYADH — Two expatriates were killed and two others injured in a drone attack targeting a Saudi Aramco facility at the Shaybah oil field in the Eastern Province on Wednesday morning, the Ministry of Energy announced.An official source at the ministry said Saudi air defenses intercepted a drone attempting to target one of the oil field's processing facilities.The attempted attack caused a fire in a",
-    "url": "https://saudigazette.com.sa/article/665627/saudi-arabia/two-killed-two-injured-in-drone-attack-on-saudi-aramcos-shaybah-oil-field",
-    "reportedAt": 1792610480000,
-    "assumeSaudi": false,
-    "firstSeen": 1792611042076
-   },
-   {
     "id": "9055bf6fd7e2",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -5689,6 +5691,20 @@
     "reportedAt": 1792610480000,
     "assumeSaudi": false,
     "firstSeen": 1792618830092
+   },
+   {
+    "id": "6bda29bd25fc",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Two expatriates killed in drone attack targeting Saudi Aramco’s Shaybah oil field",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0eWVjMENpLW1RWmZMNFdKRGF2YThiQmRWelNTTFFfUVJDZVZKMGJhcnhwM2dmbDZuZXVaeFg0LVJ2ZU9WbVN4TnFKOHlUT3NSMEZJVA?oc=5",
+    "reportedAt": 1792610460000,
+    "assumeSaudi": false,
+    "firstSeen": 1792611042076
    },
    {
     "id": "d5ec3dcef267",
@@ -6091,8 +6107,8 @@
     "outlet": "연합뉴스",
     "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lcS1VNXZHeGNmTTZDdGpLNFZ2b29rSXVpVmRCLTg2eGtXSHRJNERiUE14SzFFbkhLY1FpZ1lGQVF2RW9sTXF4X3ptdUtnbDBMajczYjBCY3pKNDDSAWBBVV95cUxNaDV3V0EtTTNoYTJkRWNCWWNvbU05OWU0ZmdMcDF1STc5VFBfdkhXV2JGcFIxc0wteGxnWG9pZUFPZDJuY1VjdEFSQmMwUFVnUlpxeE1KUTBKc2ZyTVdoeDE?oc=5",
-    "reportedAt": 1792571870000,
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQdIBYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQQ?oc=5",
+    "reportedAt": 1792571473000,
     "assumeSaudi": false,
     "firstSeen": 1792572631124
    },
@@ -8944,6 +8960,12 @@
    {
     "articleIds": [
      "ea3ebeeaaa94"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "6d718d1b7265"
     ],
     "fromRule": true
    }
