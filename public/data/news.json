@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-21T09:32:49.783Z",
-  "lastAttemptAt": "2026-10-21T09:32:49.783Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-21T09:40:30.610Z",
+  "lastAttemptAt": "2026-10-21T09:40:30.610Z",
   "aiSummary": true,
   "summaryAt": "2026-10-21T09:32:49.783Z",
   "aiError": null,
@@ -20,12 +20,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 57
+    "count": 62
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 58
+    "count": 56
    },
    {
     "name": "AFP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 122
+    "count": 124
    },
    {
     "name": "Saudi Gazette",
@@ -45,63 +45,66 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 208
+    "count": 209
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 64
+    "count": 62
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 74
+    "count": 67
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "c44c032e2343",
+   "articleIds": [
+    "200c52eefa60"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T09:40:30.610Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-21T09:28:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DZUNhVjh4WHE1a1JfZkZvUlVEMmpGTHdlQVg1alB4TVY3cjJjUkFLbUR6SFAtLWx1ODFlYnNSNVVORzloMnQ2djZmakNSSHV3VVJIME14MXRtMTTSAWBBVV95cUxPUTVlRGlPWnpnZDhFVWx6bC1Jd3dzNWlXSXdwZjhLVWk1SUhGdVpxd3g4SVY1TTcwSTdyX1A4SjUwZF80bVRFdVNRRXIxcVNOcDFhdnd1bkl2TVcyNjZLSTM?oc=5"
+    }
+   ]
+  },
   {
    "id": "63b1fa41ff02",
    "articleIds": [
@@ -262,9 +265,9 @@
      "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
      "titleKo": null,
      "summary": "영국이 사우디에 타이푼 전투기를 지원해 방어만 하겠다고 보도했어요.",
-     "reportedAt": "2026-10-21T08:31:13.000Z",
+     "reportedAt": "2026-10-21T08:37:50.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LRlZ0alJVNWRRTEs5VTBDSHE3eXg3czI5V3ZaU0ZlMUlPY1ZPeWxoUUl5dkU1NDE5UURfRGhzZmdJZ00zZW85eWppMjdodlM4VnpXVnBZRXl2VjDSAWBBVV95cUxOQTZWLWZzN0VXSTdyT1JHRkFiWWxEQTl0S1VmcmU3R1RTc0pBYW5XcTQyMDY1U1YxYmRVZ05JNlNpdlBfZXVGT0NQaUV1OGF3RlBzeDNBdW9oRVZ3S1VLQ0E?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jbC10TS1VTi1kTnYyc2dpSTU2S3h5R1BqVkQ2UXRtRkFIZTZ5WnQ0eWNwQXpPeTdzX2JTeDhFeXljdlRtZ2R3SmUwOHNEd1R3MmVjR2tlRXJ1WFl2NTBkSE1ydVRPSTdYdW1yOGh4SkJuNnZP?oc=5"
     },
     {
      "outlet": "연합뉴스",
@@ -330,6 +333,70 @@
      "reportedAt": "2026-10-21T07:48:23.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFWGdhV2J2QmRSSE5hTml1bzcwSGlXczgxSjRrckhyOE84X2V5dE4wQmljSkdJeTNHN0g4bXlyX0c4eFJ0SmlNVHlucXlpY1Jtekt6Z2pic3prUDlPR1ZGZkpxcmZMckU?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "84e4f10e7a95",
+   "articleIds": [
+    "ef3c50e25cca"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "지역 위기와 긴장: 앙카라의 관점",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T07:30:40.816Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Regional crises and tensions: the view from Ankara",
+     "titleKo": "지역 위기와 긴장: 앙카라의 관점",
+     "summary": "아르간 뉴스는 이란이 에너지 흐름을 방해하려 한다고 보도하며 후티의 공격을 언급했어요.",
+     "reportedAt": "2026-10-21T07:30:19.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/middle-east/regional-crises-and-tensions-the-view-from-ankara-3007477"
+    }
+   ]
+  },
+  {
+   "id": "269416e311dd",
+   "articleIds": [
+    "013b1bb30a05"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T07:30:40.816Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
+     "titleKo": null,
+     "summary": "후티 공격으로 사우디 내 불안과 부유층 이탈 우려를 머니투데이가 보도했어요.",
+     "reportedAt": "2026-10-21T07:22:32.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oNW9BbUtxMWtvbU52bjBzWW4xbjQ0akhDbWtRQjlET3RwLWpFaloxVm5JNTVNcXBGeHlXb0Rzcnp6bWdRd0xJbFVQWGFRbDlmZUYwUTh1bjlEdjA0SlRCWVdVaGVWczBwWk1HTFFMNG1CWnFWLVHSAXtBVV95cUxNbzRwc25jaFc1RkxKaEJCZWxzQVdtVkFkdC1ualdoYmxDamxKeDhQY2NadG4wX25sS3JzUmN1Ny1ySWZHNUR4c1FEdlNPY0YxQ1FBZnlfMkJ5eUhLU0cyZnh3YUNQdndQTy00eHhrMkJubFA3aS04Nl8yQWs?oc=5"
     }
    ]
   },
@@ -729,6 +796,38 @@
    ]
   },
   {
+   "id": "705f191c4af9",
+   "articleIds": [
+    "0a2628e96e18"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "미사일 폭격에도 \"대안 없다\"…아시안컵 사우디 개최 확정, 선수단 안전 우려 확산",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T00:30:37.964Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "조선일보",
+     "cat": "kr",
+     "title": "미사일 폭격에도 \"대안 없다\"…아시안컵 사우디 개최 확정, 선수단 안전 우려 확산",
+     "titleKo": null,
+     "summary": "조선일보는 아시안컵 개최 결정이 선수단 안전 우려를 확산시킨다고 보도했어요.",
+     "reportedAt": "2026-10-21T00:20:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMXRXVFExWEh3U1JsWVYzSDE0V0RmWlNaejJIc2doS3k3eTIxVFlCdXN5RjZaVFIyVU5CbmM4UWx1dU5XQTZ0NHpEZ0lSbFBoZ3NvYVRxdWhwVEhyUGthcTBaZHBMd1lra2s0eDVVQVlCM2NsY0l1U2RYZWlBOHpkUjZCUQ?oc=5"
+    }
+   ]
+  },
+  {
    "id": "cc092e893689",
    "articleIds": [
     "4b688a3ef868"
@@ -825,6 +924,38 @@
    ]
   },
   {
+   "id": "4d80395ebcdd",
+   "articleIds": [
+    "fd33e5d028e1"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "영국, 사우디에 전투기 배치…\"후티 공격에서 보호 위한 지원\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-20T13:50:28.247Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "영국, 사우디에 전투기 배치…\"후티 공격에서 보호 위한 지원\"",
+     "titleKo": null,
+     "summary": "한국 뉴스는 영국이 타이푼 전투기를 사우디에 배치한다고 전했어요.",
+     "reportedAt": "2026-10-20T13:37:53.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuSTJJRVctZ0FaRnMwbzdweXpWWVNsS3NsSFR1WnBJWU4yWGVWQjZwTUNqakdFTWRxT2RwWmFRRElUTk1VMkpHLWdPM1JrZ2dNbDZn?oc=5"
+    }
+   ]
+  },
+  {
    "id": "7d3f8f8f683d",
    "articleIds": [
     "fc4efe20ac28",
@@ -897,6 +1028,70 @@
      "reportedAt": "2026-10-20T12:27:15.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/665584/saudi-arabia/coalition-intercepts-houthi-missile-over-riyadh-warns-against-weapons-smuggling-by-sea"
+    }
+   ]
+  },
+  {
+   "id": "390a71ee435b",
+   "articleIds": [
+    "dffb2b125050"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "브렌트유 111달러까지 치솟아…사우디 석유시설 공격에 초긴장",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-20T12:00:50.891Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "브렌트유 111달러까지 치솟아…사우디 석유시설 공격에 초긴장",
+     "titleKo": null,
+     "summary": "한국경제는 사우디 석유시설 공격에 브렌트유가 급등했다고 보도했어요.",
+     "reportedAt": "2026-10-20T11:49:36.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwT2tpZWJtMTRkb0RuYUppeF9KV2VnMHc4MkxFalRqWHQ2eWd5U3FYVU1JRXpkcV9NOHo1VE9YMUh5dWxwUWkyQnlpOTVicUZtWldhV2tVSWI2QQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "19887139c140",
+   "articleIds": [
+    "d0aa425d197b"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티에 사우디의 스포츠 드라이브 급제동…한국축구도 불똥",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-20T19:17:13.932Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "중앙일보",
+     "cat": "kr",
+     "title": "후티에 사우디의 스포츠 드라이브 급제동…한국축구도 불똥",
+     "titleKo": null,
+     "summary": "중앙일보는 후티 공격으로 한국 스포츠 행사가 영향받는다고 보도했어요.",
+     "reportedAt": "2026-10-20T09:17:29.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEMzR3YXZxZ1ZqZXg5c0phbjVTREpEeUZROE9qZkFWOFlvTjFjMGtkY1ZIQ3VpVVd2VU5scnR6VHUwMTB2OEJDVjNGc2NHc3hZYVJRVGZR?oc=5"
     }
    ]
   },
@@ -993,6 +1188,39 @@
      "reportedAt": "2026-10-20T07:16:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95ZFNQOFZuWnVkbU1RUUVrMUxKanJNZkxRUHM2Y2NrSXE5SlVMMUxTRGdhSF9iUUJRY0FTRHB5T3dLWmxQSjcyZy1QUDZiLTlDNlViQl9NMmJhQ2hCeXc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "9d90e2781f28",
+   "articleIds": [
+    "cad4b859cdc3"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 예멘·사우디 잇따라 공격… 정부군 훈련소서 53명 사망, 리야드 공항 폐쇄",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-20T10:20:30.929Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "조선일보",
+     "cat": "kr",
+     "title": "후티, 예멘·사우디 잇따라 공격… 정부군 훈련소서 53명 사망, 리야드 공항 폐쇄",
+     "titleKo": null,
+     "summary": "조선일보가 후티의 연이은 공격으로 리야드 공항 폐쇄 소식을 보도했어요.",
+     "reportedAt": "2026-10-20T07:16:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY0xXNEdaRXZUQ2pXZTNsYkJNNWJfekpLU2JkMlFVcHFKQTFUakJLbDluMkNnNTkxQkEyQmFFODNjZjY3UXktZy0yVFIxZWswczV0UU83UzQxMHdPN2ZqTldjbGdySWt4RVRYOEpkaHhJRHA4NW9IemxuSWI0YkIxRHZscTZrWmJOdTgxU2ZSVXBFaTY0dEJ6UVJkdmhadw?oc=5"
     }
    ]
   },
@@ -4169,6 +4397,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "200c52eefa60",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DZUNhVjh4WHE1a1JfZkZvUlVEMmpGTHdlQVg1alB4TVY3cjJjUkFLbUR6SFAtLWx1ODFlYnNSNVVORzloMnQ2djZmakNSSHV3VVJIME14MXRtMTTSAWBBVV95cUxPUTVlRGlPWnpnZDhFVWx6bC1Jd3dzNWlXSXdwZjhLVWk1SUhGdVpxd3g4SVY1TTcwSTdyX1A4SjUwZF80bVRFdVNRRXIxcVNOcDFhdnd1bkl2TVcyNjZLSTM?oc=5",
+    "reportedAt": 1792574900000,
+    "assumeSaudi": false,
+    "firstSeen": 1792575630610
+   },
+   {
     "id": "014f41f485cb",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4191,8 +4433,8 @@
     "outlet": "연합뉴스",
     "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LRlZ0alJVNWRRTEs5VTBDSHE3eXg3czI5V3ZaU0ZlMUlPY1ZPeWxoUUl5dkU1NDE5UURfRGhzZmdJZ00zZW85eWppMjdodlM4VnpXVnBZRXl2VjDSAWBBVV95cUxOQTZWLWZzN0VXSTdyT1JHRkFiWWxEQTl0S1VmcmU3R1RTc0pBYW5XcTQyMDY1U1YxYmRVZ05JNlNpdlBfZXVGT0NQaUV1OGF3RlBzeDNBdW9oRVZ3S1VLQ0E?oc=5",
-    "reportedAt": 1792571473000,
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jbC10TS1VTi1kTnYyc2dpSTU2S3h5R1BqVkQ2UXRtRkFIZTZ5WnQ0eWNwQXpPeTdzX2JTeDhFeXljdlRtZ2R3SmUwOHNEd1R3MmVjR2tlRXJ1WFl2NTBkSE1ydVRPSTdYdW1yOGh4SkJuNnZP?oc=5",
+    "reportedAt": 1792571870000,
     "assumeSaudi": false,
     "firstSeen": 1792572631124
    },
@@ -7216,6 +7458,54 @@
    {
     "articleIds": [
      "4e4e29ec6d77"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "200c52eefa60"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "ef3c50e25cca"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "013b1bb30a05"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "0a2628e96e18"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "fd33e5d028e1"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "dffb2b125050"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "d0aa425d197b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "cad4b859cdc3"
     ],
     "fromRule": true
    }
