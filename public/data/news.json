@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-21T20:11:32.435Z",
-  "lastAttemptAt": "2026-10-21T20:11:32.435Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-21T20:20:32.294Z",
+  "lastAttemptAt": "2026-10-21T20:20:32.294Z",
   "aiSummary": true,
   "summaryAt": "2026-10-21T18:50:36.244Z",
   "aiError": null,
@@ -16,27 +16,27 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 43
+    "count": 44
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 104
+    "count": 105
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 42
+    "count": 36
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 31
+    "count": 30
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 136
+    "count": 140
    },
    {
     "name": "Saudi Gazette",
@@ -51,58 +51,93 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 79
+    "count": 75
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 71
+    "count": 74
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "c2a478aed932",
+   "articleIds": [
+    "c95befa2c37a"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 샤이바 유전에 드론 공격…\"2명 사망, 공정엔 차질 없어\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T20:20:32.294Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 샤이바 유전에 드론 공격…\"2명 사망, 공정엔 차질 없어\"",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-21T20:16:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zdm1vSUJxcGdYM3ZpNmc2MjFuMUhlYWlKMnBrUjhtWXVtOVhJTko3SXE5dEVpcE5BNllFU2kzcWkzV1NyU0JzQ3hvOXJNSV8xS1VZamtfU3lqeFQ3TlhLUnRaTFVNVjQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "807c09717b46",
+   "articleIds": [
+    "80d94b4db67e"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T20:20:32.294Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-21T20:15:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZS3EwNzNPMUFCel9pZ0dhRDFLbHB0NEdoT1pXUkxpUVowNXFRMld5azNIMXpmTlo2d21feThRMFAweFRxSWNUeHJWd3hDMDFsanhSM1BRZVVTSXc?oc=5"
+    }
+   ]
+  },
   {
    "id": "088af86307c4",
    "articleIds": [
@@ -211,7 +246,8 @@
    "title": "사우디 아람코 Shaybah 유전 겨냥 드론 공격으로 외국인 노동자 2명 사망",
    "titleAuto": true,
    "regions": [
-    "all"
+    "eastern",
+    "riyadh"
    ],
    "inferred": false,
    "inferNote": null,
@@ -225,9 +261,9 @@
      "title": "Two expatriates killed in drone attack targeting Saudi Aramco’s Shaybah oil field",
      "titleKo": "사우디 아람코 Shaybah 유전 겨냥 드론 공격으로 외국인 노동자 2명 사망",
      "summary": "",
-     "reportedAt": "2026-10-21T19:21:00.000Z",
+     "reportedAt": "2026-10-21T19:21:20.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0eWVjMENpLW1RWmZMNFdKRGF2YThiQmRWelNTTFFfUVJDZVZKMGJhcnhwM2dmbDZuZXVaeFg0LVJ2ZU9WbVN4TnFKOHlUT3NSMEZJVA?oc=5"
+     "url": "https://saudigazette.com.sa/article/665627/saudi-arabia/two-killed-two-injured-in-drone-attack-on-saudi-aramcos-shaybah-oil-field"
     }
    ]
   },
@@ -4625,6 +4661,34 @@
  "_cache": {
   "articles": [
    {
+    "id": "c95befa2c37a",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "사우디 샤이바 유전에 드론 공격…\"2명 사망, 공정엔 차질 없어\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zdm1vSUJxcGdYM3ZpNmc2MjFuMUhlYWlKMnBrUjhtWXVtOVhJTko3SXE5dEVpcE5BNllFU2kzcWkzV1NyU0JzQ3hvOXJNSV8xS1VZamtfU3lqeFQ3TlhLUnRaTFVNVjQ?oc=5",
+    "reportedAt": 1792613760000,
+    "assumeSaudi": false,
+    "firstSeen": 1792614032294
+   },
+   {
+    "id": "80d94b4db67e",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "KBS",
+    "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZS3EwNzNPMUFCel9pZ0dhRDFLbHB0NEdoT1pXUkxpUVowNXFRMld5azNIMXpmTlo2d21feThRMFAweFRxSWNUeHJWd3hDMDFsanhSM1BRZVVTSXc?oc=5",
+    "reportedAt": 1792613700000,
+    "assumeSaudi": false,
+    "firstSeen": 1792614032294
+   },
+   {
     "id": "6a56c26e82e5",
     "feed": "AP",
     "cat": "wire",
@@ -4674,9 +4738,9 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Two expatriates killed in drone attack targeting Saudi Aramco’s Shaybah oil field",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0eWVjMENpLW1RWmZMNFdKRGF2YThiQmRWelNTTFFfUVJDZVZKMGJhcnhwM2dmbDZuZXVaeFg0LVJ2ZU9WbVN4TnFKOHlUT3NSMEZJVA?oc=5",
-    "reportedAt": 1792610460000,
+    "snippet": "RIYADH — Two expatriates were killed and two others injured in a drone attack targeting a Saudi Aramco facility at the Shaybah oil field in the Eastern Province on Wednesday morning, the Ministry of Energy announced.An official source at the ministry said Saudi air defenses intercepted a drone attempting to target one of the oil field's processing facilities.The attempted attack caused a fire in a",
+    "url": "https://saudigazette.com.sa/article/665627/saudi-arabia/two-killed-two-injured-in-drone-attack-on-saudi-aramcos-shaybah-oil-field",
+    "reportedAt": 1792610480000,
     "assumeSaudi": false,
     "firstSeen": 1792611042076
    },
@@ -7887,6 +7951,18 @@
    {
     "articleIds": [
      "6a56c26e82e5"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c95befa2c37a"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "80d94b4db67e"
     ],
     "fromRule": true
    }
