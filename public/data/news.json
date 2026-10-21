@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-21T01:30:34.441Z",
-  "lastAttemptAt": "2026-10-21T01:30:34.441Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-21T01:40:28.778Z",
+  "lastAttemptAt": "2026-10-21T01:40:28.778Z",
   "aiSummary": true,
   "summaryAt": "2026-10-20T23:40:30.350Z",
   "aiError": null,
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 100
+    "count": 98
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 42
+    "count": 43
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 132
+    "count": 131
    },
    {
     "name": "Saudi Gazette",
@@ -46,7 +46,7 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 205
+    "count": 204
    },
    {
     "name": "Al Jazeera",
@@ -55,23 +55,52 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 80
+    "count": 74
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
+    "date": "2026-10-19",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
+    "date": "2026-10-16",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -431,160 +460,6 @@
    ]
   },
   {
-   "id": "af497c6ea0ab",
-   "articleIds": [
-    "36e49fb6a228",
-    "e61b607ccd73",
-    "440a19560cc4",
-    "e01f7bff3792",
-    "acdfc06c791b",
-    "7847f5bb13cc",
-    "41ca3b0a2ec7",
-    "37aeed55b4b1",
-    "e35d6e690e44",
-    "fd33e5d028e1",
-    "1d1987c9fb08",
-    "dca661ad728c"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "multi",
-   "directive": null,
-   "title": "통제불능 후티, 예멘·사우디 융단폭격… \"53명 사망\"",
-   "titleAuto": false,
-   "regions": [
-    "riyadh",
-    "eastern"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-20T06:48:23.374Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "조선일보",
-     "cat": "kr",
-     "title": "통제불능 후티, 예멘·사우디 융단폭격… \"53명 사망\"",
-     "titleKo": null,
-     "summary": "후티의 공격으로 예멘과 사우디에서 사망자가 발생했다고 보도됐어요.",
-     "reportedAt": "2026-10-20T06:40:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY0xXNEdaRXZUQ2pXZTNsYkJNNWJfekpLU2JkMlFVcHFKQTFUakJLbDluMkNnNTkxQkEyQmFFODNjZjY3UXktZy0yVFIxZWswczV0UU83UzQxMHdPN2ZqTldjbGdySWt4RVRYOEpkaHhJRHA4NW9IemxuSWI0YkIxRHZscTZrWmJOdTgxU2ZSVXBFaTY0dEJ6UVJkdmhadw?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "UK to fly RAF missions defending Saudi Arabia against Houthi attacks, Bloomberg reports",
-     "titleKo": "로이터: 영국, RAF 임무로 사우디 방어 예정",
-     "summary": "로이터는 영국이 RAF 임무를 파견한다고 보도했다고 전했어요.",
-     "reportedAt": "2026-10-20T10:39:30.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTGh1LWkyRVZqaTRQMEdnRXhvWFhvWnJ6TW5WdlEyM0dxTFQwLWczNjAwLU95SDFDZVVSdUNQUE1uYkREcG05THRjbmhiQk5FWlBjb2p2V01DVmhGRFppUmFHQUFwMm4yZHFLRndUbU9PcEVjY0JBY1JpZjROd0JnOTdoZXFodTRDSzJEQURHQkVzd21pMmtUZmdnLUE3SGI1UGt5Wno0WWVKR1ZWV0FaQ0FmZUY5aVlQZVAtRGV4WEhoTmVnbHRsZ0taZ2d2NFBxOFIzdQ?oc=5"
-    },
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols",
-     "titleKo": "AP: 영국, 사우디에 방어적 항공임무 확대",
-     "summary": "AP는 영국의 방어적 공중임무 확대 소식을 보도했어요.",
-     "reportedAt": "2026-10-20T11:31:03.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols",
-     "titleKo": "아랍뉴스: 영국, 방어적 항공순찰로 사우디 지원",
-     "summary": "아랍뉴스도 영국의 방어적 항공순찰 확대를 보도했어요.",
-     "reportedAt": "2026-10-20T11:36:48.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHE0TTltQV9Vc0NHZGw0V3c3MHpVbUo3U2dRV0FON1p0M08zOWpfTUtYa0lEYzNhYW0wZzZYRXhRbmcxeE9sTGl4X3dPOEtPYjYzQVVYb2k3V0dnYTBrTFRrc083ZG5fcktlN0wzT2l6UDdFYUhBZmttSU1CeG1uV20tSHN2UFB5cGh6MU03aVBVeHZjZG95S3VVQmRQeWtCOGNwck5hRU9LSDNSRXFOSG5nUHozOGQwamlDNmhQMWw0VFVlV0xHOGd5dmI4MmVva09POFJ4OGhtUjg?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols",
-     "titleKo": "아랍뉴스: 영국, 방어적 항공지원 확대",
-     "summary": "아랍뉴스가 영국의 방어적 항공지원 확대를 전했어요.",
-     "reportedAt": "2026-10-20T11:36:48.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdldnQVpPWEU4cmk5dnljTHRKa3dpZUhUbU9VYzgtOUJDRDRfVEQ4MFoxaHh5V3k4S2ZTNDduTVhaWUFFTUdzTFR5RHNMUEE0eXBuSGV3RVNtcFNrQ2tacDBlQUpidnZCZHFYcG1aUWpHaUptVndWd1dEY2dGR2wwRXY3V05QMEhONTJHV3ExcmlrbFI0ZEFvZTdYakZzT3ZqNy1nZ1VnNmFoVTR4UnVSMkI3OFVUeTRiWUJxNmZSVVBTMU1ZZnJjNG9wcEdZcDByZHRENGFn?oc=5"
-    },
-    {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "영국, 후티 공습 맞선 사우디에 전투기 배치…군사 지원 확대 - 머니투데이",
-     "titleKo": null,
-     "summary": "영국이 후티 공습에 맞서 사우디에 전투기를 보낸다고 전했어요.",
-     "reportedAt": "2026-10-20T11:57:36.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yV0ZMLTFFY3RNcTZtSzM5VFpud2xRa18ycnd5VFY2TWJDdl9aYm5JdEtUXzBvcllKdFJlejZHYjQ2QnJKVGFfUUhtdjFmUS0wRndZbWNWNXE4OVFISnVyUUlJWVZjTlVK0gFuQVVfeXFMT2Q0MkZKb0F4M1FES1JrMmx3WlNaZE8tUkVQNUVFOEtPYXo4Y0t0UTAtanBCMnVQSGx2X2lqaUw3OEJONTNGdWRLc3lVR1gtRkJJN2ZFeFV6SDFoN2R0X2J3Sll0bDVTWDNfMl9OY3c?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
-     "titleKo": "영국, 후티 공격 방어 위해 타이푼 전투기 파견",
-     "summary": "영국이 타이푼 전투기를 방어 목적으로 사우디에 배치한다고 보도했어요.",
-     "reportedAt": "2026-10-20T12:28:42.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUW44eVNLWEJDZ0RWZlFHRU12X1hjMG5mc19fblh1Y2thMW1BYVNVSTdvQW1GUkVLVGRJQ3g2M0FJcVUwTUdyejZiTHlEZlU4emlUVTdhUDN3bFdWV2MxcEpXSXZxdVdMRmlJbHB6Y00wNHVLelp5ZVZkZGF1N3gwdTUxbkVmLVpVdUR1VThBQ2V6SlVrVEpBMWIxQXY3emZVQzVnSHNQMVdLUk5rTGNja0gxNmPSAboBQVVfeXFMTnpQbk02YTFsR3U2MGRtcmgwUmQ4cHFHZE1DTktSQXE1UV8tNWhPWExwaHYtWkprLTNrTXU4YmtEaFJMekM4emFsVUUyUjhRT0Q0QzRuaC1NWHVpNmpfNGRpQzJRQkRmTzRhUExjaDJNSlRVcG9Rb2dmTnRSdVAweVJQOW9nMVlNRk50Q1YtWkU2aFVRXzZJUGJqZmdMWVNnSXJNU0p3Q3VETjNCS0RQOWtlOVE1T1huU3h3?oc=5"
-    },
-    {
-     "outlet": "한겨레",
-     "cat": "kr",
-     "title": "영국, 사우디에 타이푼 전투기 파견…후티 공격 방어",
-     "titleKo": null,
-     "summary": "한겨레는 영국 전투기 파견 소식을 보도했다고 전했어요.",
-     "reportedAt": "2026-10-20T13:08:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0V1YjRwbE5nNTUzOFpuWno3dThLSnV2bkpqNW9nY0wxZUJuUGlZbFM4V0hYNG80MmM5Q0tjWG9IbkNSWWZBcFJDZGs3QnFYN1p4eGd1cW0zeWtwbjdVWUR5R00xa1JEcFMyOW1XNjV4RjRRZXA4clZDenVuTVR6NlFB?oc=5"
-    },
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols",
-     "titleKo": "영국, 사우디 방어 위해 방어적 공중순찰 확대",
-     "summary": "",
-     "reportedAt": "2026-10-20T13:32:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "영국, 사우디에 전투기 배치…\"후티 공격에서 보호 위한 지원\"",
-     "titleKo": null,
-     "summary": "보도는 리야드를 향한 후티의 탄도미사일이 요격됐다고 전했어요.",
-     "reportedAt": "2026-10-20T13:37:53.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuSTJJRVctZ0FaRnMwbzdweXpWWVNsS3NsSFR1WnBJWU4yWGVWQjZwTUNqakdFTWRxT2RwWmFRRElUTk1VMkpHLWdPM1JrZ2dNbDZn?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "UK to deploy RAF fighter jets to defend Saudi Arabia from Houthi attacks - Al Jazeera",
-     "titleKo": "알자지라: 영국, 리야드 방어 위해 RAF 전투기 파견",
-     "summary": "알자지라도 영국 전투기 파견 소식을 보도했어요.",
-     "reportedAt": "2026-10-20T15:19:23.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMFRQZ2NkbmdSczhxdlg2VjhVWVlBaVhmcXZQMEhxMFJ1T255YU1mbjFYd05JLXlJalRpekgyb25yVEZSRXZLbWw1eVB6UFAwOFNCQjZNVzRkNTdnbGhJZ2dMTHVabjhNekZSX2l2R2hhV192SHZEUEtzMC13WWRubnFUcHdkSjFmanZOM2hFR3JoZW5uTzJYQkJYbDhoRmYtU0kxajRsaENmZEFma2IyRlEySmNad3p5RkRDZmFHUkFDNUI3MjhwR3dBdmZTUQ?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "UK to deploy fighter jets to defend Saudi Arabia",
-     "titleKo": "영국, 사우디 방어 위해 전투기 배치 계획 발표",
-     "summary": "영국 타이푼 전투기를 방어 임무로 사우디에 배치한다고 보도했어요.",
-     "reportedAt": "2026-10-20T18:55:52.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss"
-    }
-   ]
-  },
-  {
    "id": "7488e40d89ec",
    "articleIds": [
     "a14f2e2cad64",
@@ -757,6 +632,149 @@
      "reportedAt": "2026-10-20T18:28:17.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5Wei1LV0lzYU5ib3Rib3BJbGc2X29kMnFyN2xReE00c0R2Zm5naTR1TGllUW5Md2R3b29OQ3Y0N3docWttVEJJVDNB?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "4af4419ab382",
+   "articleIds": [
+    "36e49fb6a228",
+    "e61b607ccd73",
+    "e01f7bff3792",
+    "acdfc06c791b",
+    "7847f5bb13cc",
+    "41ca3b0a2ec7",
+    "37aeed55b4b1",
+    "e35d6e690e44",
+    "fd33e5d028e1",
+    "1d1987c9fb08",
+    "440a19560cc4"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "multi",
+   "directive": null,
+   "title": "통제불능 후티, 예멘·사우디 융단폭격… \"53명 사망\"",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "eastern"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-20T06:48:23.374Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "조선일보",
+     "cat": "kr",
+     "title": "통제불능 후티, 예멘·사우디 융단폭격… \"53명 사망\"",
+     "titleKo": null,
+     "summary": "후티의 공격으로 예멘과 사우디에서 사망자가 발생했다고 보도됐어요.",
+     "reportedAt": "2026-10-20T06:40:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY0xXNEdaRXZUQ2pXZTNsYkJNNWJfekpLU2JkMlFVcHFKQTFUakJLbDluMkNnNTkxQkEyQmFFODNjZjY3UXktZy0yVFIxZWswczV0UU83UzQxMHdPN2ZqTldjbGdySWt4RVRYOEpkaHhJRHA4NW9IemxuSWI0YkIxRHZscTZrWmJOdTgxU2ZSVXBFaTY0dEJ6UVJkdmhadw?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "UK to fly RAF missions defending Saudi Arabia against Houthi attacks, Bloomberg reports",
+     "titleKo": "로이터: 영국, RAF 임무로 사우디 방어 예정",
+     "summary": "로이터는 영국이 RAF 임무를 파견한다고 보도했다고 전했어요.",
+     "reportedAt": "2026-10-20T10:39:30.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTGh1LWkyRVZqaTRQMEdnRXhvWFhvWnJ6TW5WdlEyM0dxTFQwLWczNjAwLU95SDFDZVVSdUNQUE1uYkREcG05THRjbmhiQk5FWlBjb2p2V01DVmhGRFppUmFHQUFwMm4yZHFLRndUbU9PcEVjY0JBY1JpZjROd0JnOTdoZXFodTRDSzJEQURHQkVzd21pMmtUZmdnLUE3SGI1UGt5Wno0WWVKR1ZWV0FaQ0FmZUY5aVlQZVAtRGV4WEhoTmVnbHRsZ0taZ2d2NFBxOFIzdQ?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols",
+     "titleKo": "아랍뉴스: 영국, 방어적 항공순찰로 사우디 지원",
+     "summary": "아랍뉴스도 영국의 방어적 항공순찰 확대를 보도했어요.",
+     "reportedAt": "2026-10-20T11:36:48.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHE0TTltQV9Vc0NHZGw0V3c3MHpVbUo3U2dRV0FON1p0M08zOWpfTUtYa0lEYzNhYW0wZzZYRXhRbmcxeE9sTGl4X3dPOEtPYjYzQVVYb2k3V0dnYTBrTFRrc083ZG5fcktlN0wzT2l6UDdFYUhBZmttSU1CeG1uV20tSHN2UFB5cGh6MU03aVBVeHZjZG95S3VVQmRQeWtCOGNwck5hRU9LSDNSRXFOSG5nUHozOGQwamlDNmhQMWw0VFVlV0xHOGd5dmI4MmVva09POFJ4OGhtUjg?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols",
+     "titleKo": "아랍뉴스: 영국, 방어적 항공지원 확대",
+     "summary": "아랍뉴스가 영국의 방어적 항공지원 확대를 전했어요.",
+     "reportedAt": "2026-10-20T11:36:48.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdldnQVpPWEU4cmk5dnljTHRKa3dpZUhUbU9VYzgtOUJDRDRfVEQ4MFoxaHh5V3k4S2ZTNDduTVhaWUFFTUdzTFR5RHNMUEE0eXBuSGV3RVNtcFNrQ2tacDBlQUpidnZCZHFYcG1aUWpHaUptVndWd1dEY2dGR2wwRXY3V05QMEhONTJHV3ExcmlrbFI0ZEFvZTdYakZzT3ZqNy1nZ1VnNmFoVTR4UnVSMkI3OFVUeTRiWUJxNmZSVVBTMU1ZZnJjNG9wcEdZcDByZHRENGFn?oc=5"
+    },
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "영국, 후티 공습 맞선 사우디에 전투기 배치…군사 지원 확대 - 머니투데이",
+     "titleKo": null,
+     "summary": "영국이 후티 공습에 맞서 사우디에 전투기를 보낸다고 전했어요.",
+     "reportedAt": "2026-10-20T11:57:36.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yV0ZMLTFFY3RNcTZtSzM5VFpud2xRa18ycnd5VFY2TWJDdl9aYm5JdEtUXzBvcllKdFJlejZHYjQ2QnJKVGFfUUhtdjFmUS0wRndZbWNWNXE4OVFISnVyUUlJWVZjTlVK0gFuQVVfeXFMT2Q0MkZKb0F4M1FES1JrMmx3WlNaZE8tUkVQNUVFOEtPYXo4Y0t0UTAtanBCMnVQSGx2X2lqaUw3OEJONTNGdWRLc3lVR1gtRkJJN2ZFeFV6SDFoN2R0X2J3Sll0bDVTWDNfMl9OY3c?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
+     "titleKo": "영국, 후티 공격 방어 위해 타이푼 전투기 파견",
+     "summary": "영국이 타이푼 전투기를 방어 목적으로 사우디에 배치한다고 보도했어요.",
+     "reportedAt": "2026-10-20T12:28:42.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUW44eVNLWEJDZ0RWZlFHRU12X1hjMG5mc19fblh1Y2thMW1BYVNVSTdvQW1GUkVLVGRJQ3g2M0FJcVUwTUdyejZiTHlEZlU4emlUVTdhUDN3bFdWV2MxcEpXSXZxdVdMRmlJbHB6Y00wNHVLelp5ZVZkZGF1N3gwdTUxbkVmLVpVdUR1VThBQ2V6SlVrVEpBMWIxQXY3emZVQzVnSHNQMVdLUk5rTGNja0gxNmPSAboBQVVfeXFMTnpQbk02YTFsR3U2MGRtcmgwUmQ4cHFHZE1DTktSQXE1UV8tNWhPWExwaHYtWkprLTNrTXU4YmtEaFJMekM4emFsVUUyUjhRT0Q0QzRuaC1NWHVpNmpfNGRpQzJRQkRmTzRhUExjaDJNSlRVcG9Rb2dmTnRSdVAweVJQOW9nMVlNRk50Q1YtWkU2aFVRXzZJUGJqZmdMWVNnSXJNU0p3Q3VETjNCS0RQOWtlOVE1T1huU3h3?oc=5"
+    },
+    {
+     "outlet": "한겨레",
+     "cat": "kr",
+     "title": "영국, 사우디에 타이푼 전투기 파견…후티 공격 방어",
+     "titleKo": null,
+     "summary": "한겨레는 영국 전투기 파견 소식을 보도했다고 전했어요.",
+     "reportedAt": "2026-10-20T13:08:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0V1YjRwbE5nNTUzOFpuWno3dThLSnV2bkpqNW9nY0wxZUJuUGlZbFM4V0hYNG80MmM5Q0tjWG9IbkNSWWZBcFJDZGs3QnFYN1p4eGd1cW0zeWtwbjdVWUR5R00xa1JEcFMyOW1XNjV4RjRRZXA4clZDenVuTVR6NlFB?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols",
+     "titleKo": "영국, 사우디 방어 위해 방어적 공중순찰 확대",
+     "summary": "",
+     "reportedAt": "2026-10-20T13:32:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5"
+    },
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "영국, 사우디에 전투기 배치…\"후티 공격에서 보호 위한 지원\"",
+     "titleKo": null,
+     "summary": "보도는 리야드를 향한 후티의 탄도미사일이 요격됐다고 전했어요.",
+     "reportedAt": "2026-10-20T13:37:53.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuSTJJRVctZ0FaRnMwbzdweXpWWVNsS3NsSFR1WnBJWU4yWGVWQjZwTUNqakdFTWRxT2RwWmFRRElUTk1VMkpHLWdPM1JrZ2dNbDZn?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "UK to deploy RAF fighter jets to defend Saudi Arabia from Houthi attacks - Al Jazeera",
+     "titleKo": "알자지라: 영국, 리야드 방어 위해 RAF 전투기 파견",
+     "summary": "알자지라도 영국 전투기 파견 소식을 보도했어요.",
+     "reportedAt": "2026-10-20T15:19:23.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMFRQZ2NkbmdSczhxdlg2VjhVWVlBaVhmcXZQMEhxMFJ1T255YU1mbjFYd05JLXlJalRpekgyb25yVEZSRXZLbWw1eVB6UFAwOFNCQjZNVzRkNTdnbGhJZ2dMTHVabjhNekZSX2l2R2hhV192SHZEUEtzMC13WWRubnFUcHdkSjFmanZOM2hFR3JoZW5uTzJYQkJYbDhoRmYtU0kxajRsaENmZEFma2IyRlEySmNad3p5RkRDZmFHUkFDNUI3MjhwR3dBdmZTUQ?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols",
+     "titleKo": "AP: 영국, 사우디에 방어적 항공임무 확대",
+     "summary": "AP는 영국의 방어적 공중임무 확대 소식을 보도했어요.",
+     "reportedAt": "2026-10-20T15:56:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5"
     }
    ]
   },
@@ -3431,38 +3449,6 @@
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWZXFHNG9jbndwakoxV1hMQnlJRTMtanM3c3QybmNEdnloVzFTTGZTRkZxaUs5NVJBc19uczNjeEpkeEhtNWZiRy1sWlpaS0V4OUJROVlZRjlpOUVqZTE1aEFBUldFWGdGb2c?oc=5"
     }
    ]
-  },
-  {
-   "id": "576e4c4dc0a1",
-   "articleIds": [
-    "70b9863f458e"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 후티의 탄도미사일 2기·드론 3기 요격",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-18T02:07:41.204Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts two Houthi ballistic missiles, three drones",
-     "titleKo": "연합군, 후티의 탄도미사일 2기·드론 3기 요격",
-     "summary": "연합군 발표로 후티의 탄도미사일 2기와 드론 3기가 요격됐다고 전했어요.",
-     "reportedAt": "2026-10-18T01:38:47.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665503/saudi-arabia/coalition-intercepts-two-houthi-ballistic-missiles-three-drones-over-kingdom"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -3483,24 +3469,6 @@
    "reportedAt": "2026-10-20T21:31:05.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSFhacmtBdGRlT0NRV3BIbVVtYnI5NXJXTWlPYzUtei1CemFlOW5aWk55cUF3Z2loa3pvNjM4UUxJa0FsdGNuLTdaLTdUcTJiZ0lXZjM1Nk51Xzh2dmxoVXVVRU1XOHBYM0RwbVo2MmxQUDBfemdPREFTSG5velNHTFhNbTB6M25yM2ZBcnBSbm1DY0NvMFJQX05XTUV0djdUNVl2aXBmYWJ6aDEwNnEtbExqVjBpYWRWb3c?oc=5"
-  },
-  {
-   "id": "dca661ad728c",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "영국, 사우디 방어 위해 전투기 배치 계획 발표",
-   "title": "UK to deploy fighter jets to defend Saudi Arabia",
-   "summary": "영국 타이푼 전투기를 방어 임무로 사우디에 배치한다고 보도했어요.",
-   "reportedAt": "2026-10-20T18:55:52.000Z",
-   "dateOnly": false,
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss"
   },
   {
    "id": "23c9315dd775",
@@ -4264,20 +4232,6 @@
     "firstSeen": 1792524637263
    },
    {
-    "id": "dca661ad728c",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "UK to deploy fighter jets to defend Saudi Arabia",
-    "snippet": "British Typhoon jets will carry out defensive missions to protect Saudi Arabia from escalating Houthi attacks.",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
-    "reportedAt": 1792522552000,
-    "assumeSaudi": false,
-    "firstSeen": 1792523833932
-   },
-   {
     "id": "23c9315dd775",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4318,6 +4272,20 @@
     "reportedAt": 1792518841000,
     "assumeSaudi": false,
     "firstSeen": 1792519252451
+   },
+   {
+    "id": "440a19560cc4",
+    "feed": "AP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AP",
+    "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+    "reportedAt": 1792511760000,
+    "assumeSaudi": false,
+    "firstSeen": 1792516831839
    },
    {
     "id": "1d1987c9fb08",
@@ -4542,20 +4510,6 @@
     "reportedAt": 1792496208000,
     "assumeSaudi": false,
     "firstSeen": 1792502437626
-   },
-   {
-    "id": "440a19560cc4",
-    "feed": "AP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AP",
-    "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-    "reportedAt": 1792495863000,
-    "assumeSaudi": false,
-    "firstSeen": 1792516831839
    },
    {
     "id": "e61b607ccd73",
@@ -6126,26 +6080,11 @@
     "reportedAt": 1792289069000,
     "assumeSaudi": false,
     "firstSeen": 1792301853235
-   },
-   {
-    "id": "70b9863f458e",
-    "feed": "Saudi Gazette",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Saudi Gazette",
-    "title": "Coalition intercepts two Houthi ballistic missiles, three drones",
-    "snippet": "RIYADH — The Coalition to Support Legitimacy in Yemen announced early Sunday that it had intercepted and destroyed two Houthi ballistic missiles targeting Khamis Mushait and three drones over the Riyadh and Eastern regions.Coalition spokesman Maj. Gen. Turki Al-Maliki said the two ballistic missiles were launched by the Houthi militia toward Khamis Mushait in southern Saudi Arabia.He confirmed tha",
-    "url": "https://saudigazette.com.sa/article/665503/saudi-arabia/coalition-intercepts-two-houthi-ballistic-missiles-three-drones-over-kingdom",
-    "reportedAt": 1792287527000,
-    "assumeSaudi": false,
-    "firstSeen": 1792289261204
    }
   ],
   "summaries": {
    "a64100527722": "제목과 요약이 이미 한국어로 준비되어 있어요.",
    "91007dfce51c": "연합군이 리야드 지역에서 드론을 요격·파괴했다고 발표했어요.",
-   "70b9863f458e": "연합군 발표로 후티의 탄도미사일 2기와 드론 3기가 요격됐다고 전했어요.",
    "39b5342d9315": "사우디 방어를 위해 UAE 등이 복귀했다고 보도했어요.",
    "691d6e1dfa99": "UAE가 예멘 재개입을 통해 후티 공세를 막으려 한다고 보도했어요.",
    "77747a1e0b15": "사우디 연합군이 타이즈 포위 풀기를 시도했다고 알자지라가 보도했어요.",
@@ -6275,7 +6214,6 @@
    "1071b75f3380": "사우디와 쿠웨이트 외교장관이 후티 공격을 규탄했다고 보도했어요.",
    "df0f685067b7": "전문가가 전쟁 관련 내용을 아이들에게 어떻게 알려야 할지 조언을 제시했어요.",
    "25b0eb3d67d9": "사우디와 쿠웨이트가 후티 공격에 맞서 안보 협력을 강화한다고 전했어요.",
-   "dca661ad728c": "영국 타이푼 전투기를 방어 임무로 사우디에 배치한다고 보도했어요.",
    "23c9315dd775": "사우디 외교장관과 쿠웨이트 장관이 후티 공격 지속을 규탄했다고 전했어요.",
    "a14f2e2cad64": "연합군이 리야드로 향한 미사일 발사대 플랫폼을 파괴했다고 Arab News가 보도했어요.",
    "a165299f8c82": "KBS가 후티 공격으로 전용기 가격이 급등했다고 보도했어요.",
@@ -6285,7 +6223,6 @@
   "titlesKo": {
    "a64100527722": "로이터: 이집트, 후티에 맞서 사우디 지원 준비",
    "91007dfce51c": "연합군, 리야드 지역에서 UAV 요격·파괴 발표",
-   "70b9863f458e": "연합군, 후티의 탄도미사일 2기·드론 3기 요격",
    "77747a1e0b15": "사우디 주도군, 타이즈 포위 돌파 시도",
    "39b5342d9315": "UAE가 사우디 방어에 복귀했다고 보도",
    "29e080eba6cc": "후티 공세로 호르무즈 해역 유조선 피해 증가",
@@ -6412,7 +6349,6 @@
    "257699d6881d": "연합군, 리야드 향한 후티 탄도미사일 요격·파괴 발표",
    "23c9315dd775": "사우디 외교장관, 쿠웨이트 장관과 후티 공격 규탄",
    "a14f2e2cad64": "연합군, 리야드 향한 미사일 발사 플랫폼 파괴 보도",
-   "dca661ad728c": "영국, 사우디 방어 위해 전투기 배치 계획 발표",
    "25b0eb3d67d9": "사우디·쿠웨이트, 후티 공격에 맞서 안보 협력 강화",
    "df0f685067b7": "전문가, 전쟁 관련 정보 아동에게 어떻게 알려야 할지 조언",
    "923c544893bb": "내무장관, 지휘·UAV 시스템·사이버 보안 센터 개관",
@@ -6455,7 +6391,6 @@
    },
    {
     "articleIds": [
-     "dca661ad728c",
      "1d1987c9fb08",
      "41ca3b0a2ec7",
      "e35d6e690e44",
@@ -7017,12 +6952,6 @@
    {
     "articleIds": [
      "691d6e1dfa99"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "70b9863f458e"
     ],
     "fromRule": true
    },
