@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-22T03:20:34.881Z",
-  "lastAttemptAt": "2026-10-22T03:20:34.881Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-22T03:30:39.242Z",
+  "lastAttemptAt": "2026-10-22T03:30:39.242Z",
   "aiSummary": true,
   "summaryAt": "2026-10-22T01:50:30.713Z",
   "aiError": null,
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 161
+    "count": 159
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 39
+    "count": 41
    },
    {
     "name": "AFP",
@@ -41,39 +41,134 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 54
+    "count": 55
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 212
+    "count": 213
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 82
+    "count": 84
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 70
+    "count": 71
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
+    "date": "2026-10-19",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
+    "date": "2026-10-16",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
+    "date": "2026-10-15",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "d7e81085a011",
+   "articleIds": [
+    "5c1758deadb9"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "담맘 공항 공격, 1명 사망·8명 부상",
+   "titleAuto": true,
+   "regions": [
+    "dammam",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T03:30:39.242Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "1 Killed, 8 Injured in Dammam Airport Attack",
+     "titleKo": "담맘 공항 공격, 1명 사망·8명 부상",
+     "summary": "",
+     "reportedAt": "2026-10-22T03:24:48.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5332192"
+    }
+   ]
+  },
+  {
+   "id": "ecda5225eafe",
+   "articleIds": [
+    "a971d122c685"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 '킹 파흐드' 공항, 후티군 추정 공습‥1명 사망·8명 부상",
+   "titleAuto": false,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T03:30:39.242Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "사우디 '킹 파흐드' 공항, 후티군 추정 공습‥1명 사망·8명 부상",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-22T03:03:39.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Idm5YeF80MkloeFZWVkJCU29ZU0Z0OFRVNFlPSkI1YURQZE01cGQ3QTdkc29pOUd4VjBpSDBBWnpOUnUwZ3YyeFBqT2xpS3ctbTJjeTAtUVpQQ0JrWDc1Wmlxd1FsOWNEU1lYa0hxam8zTEJi0gF0QVVfeXFMT0Vzd0VwR3V3RUNONmhjT1hmRzVtVmMzblduYnBQWldKbFhveFhrTHN0RVdGeHdyazhBVm54RHJwZWdiS1RqRjVNSVlGOEhZUHIteFJrUDUtb1g2endEaS1jQ0l4ejRndkNmYUJ3RWpEaHIwbm0?oc=5"
+    }
+   ]
+  },
   {
    "id": "137d9194fec6",
    "articleIds": [
@@ -232,7 +327,7 @@
      "summary": "",
      "reportedAt": "2026-10-22T01:43:54.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53cVk0NTNqUGVEUWF5Q1V5ZE9GSE9Yb3FMeTRzRXFoUEtsYm5NQ3FEcl8xeEFHTjI1a2ZkSzY3c3dZNHc0eDEwVjBobTNwZ081YjJ1UG1RLUtYQms?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Zc1Q2dXdVRWhySGZZeFZ5SkRwT01uOTBUazM4SVYxb3JhMkdlQVhDUUdzTG1DOTd0d2tNVVp5b1JVb3I0cy1GNTRFSG1TMnhIcFo0NDB6Tk94VndrTnBwTtIBYEFVX3lxTE9Zc1Q2dXdVRWhySGZZeFZ5SkRwT01uOTBUazM4SVYxb3JhMkdlQVhDUUdzTG1DOTd0d2tNVVp5b1JVb3I0cy1GNTRFSG1TMnhIcFo0NDB6Tk94VndrTnBwTg?oc=5"
     }
    ]
   },
@@ -4731,6 +4826,26 @@
  ],
  "timeline": [
   {
+   "id": "5c1758deadb9",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "dammam",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "titleKo": "담맘 공항 공격, 1명 사망·8명 부상",
+   "title": "1 Killed, 8 Injured in Dammam Airport Attack",
+   "summary": "",
+   "reportedAt": "2026-10-22T03:24:48.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5332192"
+  },
+  {
    "id": "8c22362bd33e",
    "outlet": "Al Jazeera",
    "official": false,
@@ -5601,6 +5716,34 @@
  "_cache": {
   "articles": [
    {
+    "id": "5c1758deadb9",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "1 Killed, 8 Injured in Dammam Airport Attack",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5332192",
+    "reportedAt": 1792639488000,
+    "assumeSaudi": false,
+    "firstSeen": 1792639839242
+   },
+   {
+    "id": "a971d122c685",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "MBC",
+    "title": "사우디 '킹 파흐드' 공항, 후티군 추정 공습‥1명 사망·8명 부상",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Idm5YeF80MkloeFZWVkJCU29ZU0Z0OFRVNFlPSkI1YURQZE01cGQ3QTdkc29pOUd4VjBpSDBBWnpOUnUwZ3YyeFBqT2xpS3ctbTJjeTAtUVpQQ0JrWDc1Wmlxd1FsOWNEU1lYa0hxam8zTEJi0gF0QVVfeXFMT0Vzd0VwR3V3RUNONmhjT1hmRzVtVmMzblduYnBQWldKbFhveFhrTHN0RVdGeHdyazhBVm54RHJwZWdiS1RqRjVNSVlGOEhZUHIteFJrUDUtb1g2endEaS1jQ0l4ejRndkNmYUJ3RWpEaHIwbm0?oc=5",
+    "reportedAt": 1792638219000,
+    "assumeSaudi": false,
+    "firstSeen": 1792639839242
+   },
+   {
     "id": "730e05099d6c",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -5665,7 +5808,7 @@
     "outlet": "연합뉴스",
     "title": "사우디 공항 피격에 사상자 속출…후티 충돌로 중동 곳곳 전운",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53cVk0NTNqUGVEUWF5Q1V5ZE9GSE9Yb3FMeTRzRXFoUEtsYm5NQ3FEcl8xeEFHTjI1a2ZkSzY3c3dZNHc0eDEwVjBobTNwZ081YjJ1UG1RLUtYQms?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Zc1Q2dXdVRWhySGZZeFZ5SkRwT01uOTBUazM4SVYxb3JhMkdlQVhDUUdzTG1DOTd0d2tNVVp5b1JVb3I0cy1GNTRFSG1TMnhIcFo0NDB6Tk94VndrTnBwTtIBYEFVX3lxTE9Zc1Q2dXdVRWhySGZZeFZ5SkRwT01uOTBUazM4SVYxb3JhMkdlQVhDUUdzTG1DOTd0d2tNVVp5b1JVb3I0cy1GNTRFSG1TMnhIcFo0NDB6Tk94VndrTnBwTg?oc=5",
     "reportedAt": 1792633434000,
     "assumeSaudi": false,
     "firstSeen": 1792634447266
@@ -8661,7 +8804,8 @@
    "8c22362bd33e": "미, 사우디 체류 인원 출국 명령–후티 위협 이유",
    "1b3a0e0c46e4": "샤이바 유전 노린 드론 공격에 외국인 노동자 2명 사망",
    "2ee109f89ca4": "항공사들, 리야드 공항 공격 이후 사우디아라비아행 항공편 취소",
-   "730e05099d6c": "담맘 공항 공격으로 1명 사망·8명 부상"
+   "730e05099d6c": "담맘 공항 공격으로 1명 사망·8명 부상",
+   "5c1758deadb9": "담맘 공항 공격, 1명 사망·8명 부상"
   },
   "aiClusters": [
    {
@@ -9488,6 +9632,18 @@
    {
     "articleIds": [
      "62b31078bf1a"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "5c1758deadb9"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a971d122c685"
     ],
     "fromRule": true
    }
