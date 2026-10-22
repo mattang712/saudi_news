@@ -1,32 +1,32 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-22T01:40:28.734Z",
-  "lastAttemptAt": "2026-10-22T01:40:28.734Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-22T01:50:30.713Z",
+  "lastAttemptAt": "2026-10-22T01:50:30.713Z",
   "aiSummary": true,
-  "summaryAt": "2026-10-22T01:20:32.189Z",
+  "summaryAt": "2026-10-22T01:50:30.713Z",
   "aiError": null,
   "summaryKo": [
-   "담맘 킹파드 공항 공격으로 1명 사망·8명 부상, 국영통신 발표",
-   "샤이바 유전 드론 공격으로 외국인 2명 사망, 에너지부 발표",
-   "미 국무부 등 일부 직원·가족 사우디 철수 명령, 로이터·AP 보도",
-   "후티 반군이 일부 공격 주장, 해당 주장 아직 미확인"
+   "샤이바 유전에 드론 공격으로 외국인 2명이 숨졌다고 보도됐어요.",
+   "담맘 킹파드 공항 공격으로 1명 사망·8명 부상이 보고됐어요.",
+   "미국이 후티 위협을 이유로 사우디 주재 직원·가족 철수를 명령했다고 보도됐어요.",
+   "연합군은 동부와 마디나 방향 드론을 요격했다고 발표했다고 보도됐어요."
   ],
   "sources": [
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 36
+    "count": 40
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 152
+    "count": 156
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 31
+    "count": 35
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 135
+    "count": 134
    },
    {
     "name": "Saudi Gazette",
@@ -51,17 +51,19 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 75
+    "count": 78
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,66 +71,223 @@
     "count": 78
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
-   "id": "032b4670aeef",
+   "id": "4229cab81133",
    "articleIds": [
+    "860caea64187",
+    "72042bdf68df",
+    "82f3887ee71b",
+    "731884d14993",
+    "ea3ebeeaaa94",
+    "6d718d1b7265",
+    "8eeb555e81fa",
+    "35be6eadc301",
+    "17e480e8761e",
+    "60788c7fd8e6",
+    "8c22362bd33e"
+   ],
+   "type": "evacuation",
+   "sev": "high",
+   "status": "multi",
+   "directive": null,
+   "title": "美, 후티 공격 임박했나…사우디 체류 美공무원·가족 대피령",
+   "titleAuto": false,
+   "regions": [
+    "eastern"
+   ],
+   "inferred": true,
+   "inferNote": "기사들이 사우디 전역 언급이 있으나 대체로 동부 지역 공격 우려를 배경으로 해 동부로 추정했어요.",
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T20:40:36.396Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes",
+     "titleKo": "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes",
+     "summary": "미국이 후티 공격이 이어지자 사우디 주재 외교관의 철수를 명령했다고 보도했어요.",
+     "reportedAt": "2026-10-21T18:58:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "美, 후티 공격 임박했나…사우디 체류 美공무원·가족 대피령",
+     "titleKo": null,
+     "summary": "미국이 후티 공격 임박을 이유로 사우디 체류 미 공무원·가족 대피령을 내렸다고 전해요.",
+     "reportedAt": "2026-10-21T20:42:22.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FRTR4aTYySU9hVGFQUHRMc0o2UFNYVzBvM1Q0a1ZTQVlvSTA2NEF6OW1IZ2pIMWV2cUNPU1N1RnJmUmRWbmtzS0txbHNRWGZ4WUJJbk04aEx6VFlRMWlYSdIBYEFVX3lxTE5FRTR4aTYySU9hVGFQUHRMc0o2UFNYVzBvM1Q0a1ZTQVlvSTA2NEF6OW1IZ2pIMWV2cUNPU1N1RnJmUmRWbmtzS0txbHNRWGZ4WUJJbk04aEx6VFlRMWlYSQ?oc=5"
+    },
+    {
+     "outlet": "SBS",
+     "cat": "kr",
+     "title": "미국, 후티 공격 임박했나…사우디 체류 공무원·가족 대피령",
+     "titleKo": null,
+     "summary": "미 정부가 후티 위협을 들어 사우디 체류 공무원과 가족에 철수 명령을 내렸다고 전해요.",
+     "reportedAt": "2026-10-21T21:31:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10czdfWnVONTZBeUZvcUhwUDA3WlJOQzNDRlgtMVFZVjlUbHpMNTFBX0p2bG1IcnFoUXkybjhNc1ZqZklYbDhqYTRodDE4M2ZVazN5Wlo5dDJSV3hvdU5KRTMzdzJqMUNlYVE?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "美, 사우디 체류 공무원 대피령…후티 공격 임박?",
+     "titleKo": null,
+     "summary": "미가 사우디에 체류 중인 공무원 대피를 명령했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T21:52:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zQWxQODR2TEdQdEtZU3N1c0o0RGI0bDJ0SHI3b2c5RUpQdzNaM3JyTVNkRmwwcUlzWFc1eHZPX2xfa2lZT3R2d1RJdkd5bGRydzYxS2tkMkJKWXdENkMtT3RIYWVFcUU?oc=5"
+    },
+    {
+     "outlet": "아시아경제",
+     "cat": "kr",
+     "title": "美 후티 공격 임박했나…사우디 체류 美 공무원·가족에게 대피령 내려",
+     "titleKo": null,
+     "summary": "미가 후티 공격 임박을 이유로 사우디 체류 미 공무원과 가족에 대피령을 내렸다고 보도됐어요.",
+     "reportedAt": "2026-10-21T22:10:06.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1XzN5Wk5DZGdoRlpjcUo1MzkwQVJCOUNMQjFGOFFReUphTXdaRlBhQUNNMFVnbjFOc1V1cUFWOWZHOFp2dHVySm11b2t2TjlHWnNQYU1uREVvRmd0VnBFNA?oc=5"
+    },
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "美, 주사우디 공무원·가족에 철수 명령…\"후티 공격 확대\" - 머니투데이",
+     "titleKo": null,
+     "summary": "미 정부가 사우디 주재 공무원·가족 철수를 지시했다고 전해요.",
+     "reportedAt": "2026-10-21T22:12:22.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3ZXhITWlnaHJfdEhFTnRyY3ZGOE1Ub2NfY1FXZ1lUU3VXeUgzQkJON0l0UGl5X0tZUXJYVlk1Z29vc1NnT0p6RDRlYlY1X1RweHU0Y3dCd0pvRlFlVER5cFJQaXcxeVcz0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5"
+    },
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "美, 사우디 주재 직원·가족 철수 명령…후티 위협에 경계 강화",
+     "titleKo": null,
+     "summary": "미가 후티 위협을 이유로 사우디 주재 직원·가족 철수 명령을 내렸다고 보도됐어요.",
+     "reportedAt": "2026-10-21T22:56:47.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tOU82eklOMlNkRXM0dE1DWVl2ZFd5Z3FldV9obzl0Mm5XSEtxTGtJUmYzcFowNmxPcHJCT2xNTExEbXNuWm1sX2s4by1WeVJ5aVhiNzA3TS1sNGJKLXp1UElMVEROTVc4VDJPSGE5Q09XMnJQOHdHWNIBeEFVX3lxTE5tOU82eklOMlNkRXM0dE1DWVl2ZFd5Z3FldV9obzl0Mm5XSEtxTGtJUmYzcFowNmxPcHJCT2xNTExEbXNuWm1sX2s4by1WeVJ5aVhiNzA3TS1sNGJKLXp1UElMVEROTVc4VDJPSGE5Q09XMnJQOHdHWA?oc=5"
+    },
+    {
+     "outlet": "동아일보",
+     "cat": "kr",
+     "title": "美, 사우디 주재 직원·가족 철수 명령…후티 위협에 경계 강화",
+     "titleKo": null,
+     "summary": "미가 사우디 주재 직원·가족 철수를 명령했다고 전해요.",
+     "reportedAt": "2026-10-21T23:07:45.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtVl91LWt4Wk93QnpfR1o5SW83dEY0cnA0Uk1xdi10VkRRbldJVlJaQlNEclExcnNpeTNEc09Nc3Z4aFJaTmVPV3QtTXIwQkJWTWs5SXJpTThGUlM0MzlOYlVZQ1V4UdIBZkFVX3lxTFBtVl91LWt4Wk93QnpfR1o5SW83dEY0cnA0Uk1xdi10VkRRbldJVlJaQlNEclExcnNpeTNEc09Nc3Z4aFJaTmVPV3QtTXIwQkJWTWs5SXJpTThGUlM0MzlOYlVZQ1V4UQ?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
+     "titleKo": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
+     "summary": "미 국무부가 일부 외교관의 출국을 명령했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T23:13:18.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSkdGRlFLaE1FOXc3dGM0UHhMVnpzcjF6SkR4TzJRTWtuTm0wZmpGVFJMeEZydGx5VndhUGo3dzN2ZHJCOHdnVVVGVE9LNFNfVlgyTzlmRHJadlRuTk10OFdaZ1otTlB2OEhHWTJvUlQ3Sk5QYUI4Tk9HRjhfMVFmWXBUM0JSXzllODBTNTRqOEk5U00?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
+     "titleKo": "미, 사우디 주재 인원 철수 명령–후티 위협 지적",
+     "summary": "미 국무부는 후티가 사우디에 대한 적대행위를 확대하고 있어 인원 철수를 지시했다고 밝혔어요.",
+     "reportedAt": "2026-10-21T23:13:35.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat - Al Jazeera",
+     "titleKo": "미, 사우디 체류 인원 출국 명령–후티 위협 이유",
+     "summary": "미 국무부는 후티 위협을 이유로 사우디 주재 인원 출국을 명령했다고 전해요.",
+     "reportedAt": "2026-10-22T00:47:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdUxoa09KQm4tYmtFQ3REdW9vR0VtNXFMREdfdlFnSFJZR0RJVFo4cDBkaGY0bm9wS0JYbVZVWEFBQlNaQkpuOWxrWEFTUTN1OFR5c19HbGpsOEFGTHdkbDVNTmZaUzlNMWJxSmVYWWp0cG5yc3BCYjlaLUs1VU1NeExwb1VVbFdlaGdaT0lVTDBxVGdOb20zN1lJNVcwTHBkS3JUWV9xeXJFc0tId0lrNE1EdVFKd0E3enB1OHBzMHBINkRhNzhYSzQzdXA?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "b533d76fda73",
+   "articleIds": [
+    "7a9ef60808ad",
+    "d985789f03a1",
+    "61c0b3e247ca",
+    "180e275dfe70",
     "49ac2dfcad73"
    ],
-   "type": "security",
+   "type": "airport",
    "sev": "mid",
-   "status": "single",
+   "status": "official",
    "directive": null,
-   "title": "사우디 킹 파흐드 공항 공격으로 1명 사망·8명 부상",
+   "title": "담맘 킹파드 공항 공격으로 1명 사망·8명 부상",
    "titleAuto": true,
    "regions": [
+    "dammam",
+    "eastern",
     "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T00:40:32.538Z",
-   "aiNote": null,
+   "collectedAt": "2026-10-21T22:30:39.902Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
+     "titleKo": "사우디 민항청, 킹파드공항 공격으로 1명 사망·8명 부상",
+     "summary": "사우디 민항당국은 킹파드 공항 공격으로 1명이 숨지고 8명이 다쳤다고 밝혔어요.",
+     "reportedAt": "2026-10-21T22:21:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Three dead in Saudi Arabia’s east after attacks on airport, oil facility",
+     "titleKo": "사우디 동부 공항·석유시설 공격으로 3명 사망",
+     "summary": "동부에서 공항과 석유시설 공격으로 사망자가 발생했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T22:44:26.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa29iN3Yzc2Rqb0dnZG5zNUIwWU1XOGFXcnFnTDdHV255b2k4VXE3QWhFc19pM0hFaVZmSzhsc21XbTJXdk1CbHhxUmpsYVFtRzVxYVFrVGJnZnlDZjFYYjI2UnNJUklMVm1pM0Y5ZkFYdWhsMjhraUY5RGZBUGw4cjdvWmNyWXZpLVBJTXprdG5ZMTZfTDR3UkhyZHdpbWhOR2d4OE5hd3lJYmpQNnM5eWJiZ19uTjVoeGJ1cg?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "GACA: Attack Targets King Fahd International Airport in Dammam; One Killed, Eight Injured",
+     "titleKo": "GACA: 담맘 킹파드 국제공항 공격…1명 사망·8명 부상",
+     "summary": "사우디 항공청은 담맘 킹파드 공항 공격으로 1명 사망, 8명 부상이라고 발표했어요.",
+     "reportedAt": "2026-10-21T22:54:29.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBwMVk0U0haOEMzeVZwVHVVcHhDLTh1N2s3THU4Y3A0SWI3TzUxa2JIVEpfX3g0UlUwM0JMNVJWd0tlYzhhTDlJSWZB?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "1 person killed in attack on eastern Saudi airport, authorities say",
+     "titleKo": "동부 사우디 공항 공격으로 1명 사망",
+     "summary": "당국은 동부의 한 공항 공격으로 1명이 숨졌다고 발표했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T23:23:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5"
+    },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
      "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-     "titleKo": "사우디 킹 파흐드 공항 공격으로 1명 사망·8명 부상",
-     "summary": "",
+     "titleKo": "킹파드 공항 공격으로 1명 사망·8명 부상",
+     "summary": "킹파드 공항 공격으로 1명이 숨지고 8명이 다쳤다고 보도됐어요.",
      "reportedAt": "2026-10-22T00:25:41.000Z",
      "dateOnly": false,
      "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss"
@@ -153,14 +312,14 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-10-22T00:30:38.887Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "MBC",
      "cat": "kr",
      "title": "미국, 후티 공격 임박했나‥사우디 체류 미 공무원·가족 대피령",
      "titleKo": null,
-     "summary": "",
+     "summary": "미국이 사우디 체류 미 공무원과 가족에게 대피령을 내렸다고 보도했어요.",
      "reportedAt": "2026-10-22T00:06:05.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iSWtmUXlHMEw1QkVOTTU0WDY4MnF0UWZrc2NsVnF2WWdMd1hacEJ1TXpMZ21wUUtWWFRPNk5VdW9fV3lveUdoYkhUVmZmdUFEMFFoN3cwN2NRODBpRmJ4N0MydENqYWdZdVQ1UGVmeDdBZWIy0gF0QVVfeXFMUGNBWXJuektYcUJSZF9KU2JGVkFQd1c0UHROR2ZsZmNDZkRaNFgyWVFxMWJld3BvV29lMk4xWkk2bEdLYXNtdjBxTVY5eDU4Qlg0MHRwWl81aEJXc0Y1M2xPUnFOQkEtODItMlVRQ01WOVlhQXI?oc=5"
@@ -168,31 +327,132 @@
    ]
   },
   {
-   "id": "107384512e65",
+   "id": "976d2d91f96a",
    "articleIds": [
+    "6bda29bd25fc",
+    "9055bf6fd7e2",
+    "0e81df85dacd",
+    "6a56c26e82e5",
+    "995f0b7bd85a",
+    "0ec0208fbd90",
+    "80d94b4db67e",
+    "c95befa2c37a",
+    "ad05bef46c14",
     "1b3a0e0c46e4"
    ],
-   "type": "drone",
+   "type": "energy",
    "sev": "high",
-   "status": "single",
+   "status": "multi",
    "directive": null,
-   "title": "사우디 핵심 유전 노린 드론 공격…외국인 노동자 2명 사망",
+   "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
    "titleAuto": false,
    "regions": [
-    "all"
+    "jafurah",
+    "eastern",
+    "riyadh"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "기사에 '샤이바(Shaybah) 유전'이라는 지명만 있어 동부주(아람코 주요 유전 지역)로 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-10-22T00:00:49.506Z",
-   "aiNote": null,
+   "collectedAt": "2026-10-21T19:30:42.076Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Two expatriates killed in drone attack targeting Saudi Aramco’s Shaybah oil field",
+     "titleKo": "샤이바 유전 표적 드론 공격으로 외국인 2명 사망",
+     "summary": "샤이바 유전 타깃 드론 공격으로 외국인 2명이 숨졌다고 보도됐어요.",
+     "reportedAt": "2026-10-21T19:21:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0eWVjMENpLW1RWmZMNFdKRGF2YThiQmRWelNTTFFfUVJDZVZKMGJhcnhwM2dmbDZuZXVaeFg0LVJ2ZU9WbVN4TnFKOHlUT3NSMEZJVA?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Two expatriates killed as Saudi air defenses intercept drone targeting Aramco’s Shaybah oil field",
+     "titleKo": "아람코의 Shaybah 유전 겨냥 드론 요격 중 사우디 방공에 의해 외국인 2명 사망",
+     "summary": "사우디 방공이 샤이바 유전 목표 드론을 요격했다고 전해졌어요.",
+     "reportedAt": "2026-10-21T19:21:20.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665627/saudi-arabia/two-killed-two-injured-in-drone-attack-on-saudi-aramcos-shaybah-oil-field"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Two killed in attack on Shaybah oilfield, no impact on operations: Saudi energy ministry",
+     "titleKo": "샤이바 유전 공격으로 2명 사망, 운영에는 영향 없어: Saudi energy ministry",
+     "summary": "샤이바 유전 공격과 관련해 외교관 철수 보도들이 교차 보도됐어요.",
+     "reportedAt": "2026-10-21T19:30:51.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaGFNTEVzeE1uLUt5M19ybHcyTlh5WEJvcWdwczRKQ2pEc3ZkZDdIRHJsN29zX1c4R01PbzNNSXU4MEZZR1RlZmNydjJsLW81UWJueEt0dEs1ZDVqNW15LXFvT3JjUjZoR0hZVXNvUlF3NG9kWEJpSzM2bUVSWTJteUgwYURUN2ZMYjdoUU9IZ1hlSUZjZjQ1QWtwYXZYbF9uOHc3QnA3M0R0QlJFd2doUDBGM1FnYnJFeDlJLUd2SEhraF9VemNTQnZZR2Y?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Saudi authorities say 2 killed by falling debris at oil facility following drone attacks in kingdom",
+     "titleKo": "드론 공격 여파로 유전 시설 잔해에 2명 사망",
+     "summary": "사우디 당국은 드론 공격 후 유전 잔해로 2명이 숨졌다고 밝혔다고 보도됐어요.",
+     "reportedAt": "2026-10-21T19:57:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
+     "titleKo": null,
+     "summary": "샤이바 유전 공격으로 외국인 2명이 숨지고 2명이 부상했다고 사우디 에너지부가 발표했다고 전해요.",
+     "reportedAt": "2026-10-21T20:10:50.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IS0ZWRGstem1KSXpQZTFJbjNncUFBWHdvZ3YxeEFKNlo5cHpYZDF6SFVaZjdibW12UE9pVFZOY2dnNDRfdGRuaXVjbjZiai1EenRlNF9rVU5kQmfSAWBBVV95cUxPMjd4dUZzcmVsYUUxSmEtNVByb1FFbDlydHVYYm9wMVFjWkFoR0ItUDZQWEVWVnpiOEhDb01PUkFJM0FkUlJxUU5kTGtCd1pZa1NpUk13bGJ5WkszZ2d3Vm8?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
+     "titleKo": "단독: 후티 공격 속 미, 사우디 주재 외교관 출국 명령",
+     "summary": "로이터는 미가 후티 공격을 이유로 외교관 철수를 명령했다고 단독 보도했어요.",
+     "reportedAt": "2026-10-21T20:11:06.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5"
+    },
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
+     "titleKo": null,
+     "summary": "샤이바 유전 공격으로 외국인 2명이 사망했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T20:15:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZS3EwNzNPMUFCel9pZ0dhRDFLbHB0NEdoT1pXUkxpUVowNXFRMld5azNIMXpmTlo2d21feThRMFAweFRxSWNUeHJWd3hDMDFsanhSM1BRZVVTSXc?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 샤이바 유전에 드론 공격…\"2명 사망, 공정엔 차질 없어\"",
+     "titleKo": null,
+     "summary": "샤이바 유전에 대한 드론 공격으로 2명이 숨졌고 공정에는 차질이 없다고 전해졌어요.",
+     "reportedAt": "2026-10-21T20:16:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zdm1vSUJxcGdYM3ZpNmc2MjFuMUhlYWlKMnBrUjhtWXVtOVhJTko3SXE5dEVpcE5BNllFU2kzcWkzV1NyU0JzQ3hvOXJNSV8xS1VZamtfU3lqeFQ3TlhLUnRaTFVNVjQ?oc=5"
+    },
+    {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "사우디 샤이바 유전 겨냥 드론 공격‥외국인 2명 사망",
+     "titleKo": null,
+     "summary": "샤이바 유전을 겨냥한 드론 공격으로 외국인 2명이 사망했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T20:47:29.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEMnVqdHN6NlhkQUg2ODBnNjk3SlRjZzd3M0lVSUNHWUFzejIzOVBldWhKTndUN0Nlcmdhem5JMkdIZUEtNmdUaDZFX2RjREJTRnZwdW5OZFRnZUlMcHduTGFjX28yYk9mek9ZaFB3TFRra3hM0gF0QVVfeXFMUEQydWp0c3o2WGRBSDY4MGc2OTdKVGNnN3czSVVJQ0dZQXN6MjM5UGV1aEpOd1Q3Q2VyZ2F6bkkyR0hlQS02Z1RoNkVfZGNEQlNGdnB1bk5kVGdlSUxwd25MYWNfbzJiT2Z6T1loUHdMVGtreEw?oc=5"
+    },
     {
      "outlet": "중앙일보",
      "cat": "kr",
      "title": "사우디 핵심 유전 노린 드론 공격…외국인 노동자 2명 사망",
      "titleKo": null,
-     "summary": "",
+     "summary": "샤이바 유전을 겨냥한 드론 공격으로 외국인 노동자 2명이 숨졌다고 전해요.",
      "reportedAt": "2026-10-21T23:48:20.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01MHdrSlhsaUg3dXJFdF9XME9iYmpyYVA4elpqOWxZTFBjazNITG84V0RHMF9sdEMyMUlHb2FxSmlEcXdjR05vSDhkQ0VVdmZpRXNTc3Z3?oc=5"
@@ -217,366 +477,17 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-10-22T00:00:49.506Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "한국일보",
      "cat": "kr",
      "title": "\"美 사우디 주재 외교관들에 출국 명령\"…후티 반군 공세 격화에 대피",
      "titleKo": null,
-     "summary": "",
+     "summary": "미국이 사우디 주재 외교관들에게 출국 명령을 내렸고 대피가 진행됐다고 전해요.",
      "reportedAt": "2026-10-21T23:35:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lMUFkRkRhVDJGQm90aEkzYVEwUlU2d1NYMDdLMnp4SVBjT3F0TmtZQnBucE5odTN3czg0cFUtT2hsTXB2NXdJSEFvQkhRS2RzSEZqbGtpZXlvbzFhY2RyQnpDLTZVc2pRZ2JBMGdHeW9nVzjSAXNBVV95cUxNZTFBZEZEYVQyRkJvdGhJM2FRMFJVNndTWDA3SzJ6eElQY09xdE5rWUJwbnBOaHUzd3M4NHBVLU9obE1wdjV3SUhBb0JIUUtkc0hGamxraWV5b28xYWNkckJ6Qy02VXNqUWdiQTBnR3lvZ1c4?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "8c267337f157",
-   "articleIds": [
-    "180e275dfe70"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "당국 \"사우디 동부 공항 공격으로 1명 사망\"",
-   "titleAuto": true,
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T23:49:49.220Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "1 person killed in attack on eastern Saudi airport, authorities say",
-     "titleKo": "당국 \"사우디 동부 공항 공격으로 1명 사망\"",
-     "summary": "",
-     "reportedAt": "2026-10-21T23:23:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "bedb98059b98",
-   "articleIds": [
-    "60788c7fd8e6"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "미, 후티 위협 이유로 사우디아라비아 직원 철수 명령",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T23:20:29.600Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
-     "titleKo": "미, 후티 위협 이유로 사우디아라비아 직원 철수 명령",
-     "summary": "",
-     "reportedAt": "2026-10-21T23:13:35.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss"
-    }
-   ]
-  },
-  {
-   "id": "3b0a20eaa95f",
-   "articleIds": [
-    "860caea64187",
-    "0ec0208fbd90",
-    "e0c0f72edda8",
-    "457f90ebe000",
-    "850d9fabb6e0",
-    "82f3887ee71b",
-    "731884d14993",
-    "ea3ebeeaaa94",
-    "6d718d1b7265",
-    "8eeb555e81fa",
-    "17e480e8761e"
-   ],
-   "type": "evacuation",
-   "sev": "high",
-   "status": "multi",
-   "directive": null,
-   "title": "美, 사우디 체류 공무원 등 대피령…\"후티, 점점 더 적대행위\"",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T20:40:36.396Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes",
-     "titleKo": "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes",
-     "summary": "미국이 후티 공격이 이어지자 사우디 주재 외교관의 철수를 명령했다고 보도했어요.",
-     "reportedAt": "2026-10-21T18:58:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
-     "titleKo": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
-     "summary": "미국이 일부 외교관의 출국을 명령했다고 보도했어요.",
-     "reportedAt": "2026-10-21T20:11:06.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "美, 사우디 체류 공무원 등 대피령…\"후티, 점점 더 적대행위\"",
-     "titleKo": null,
-     "summary": "미국이 사우디 체류 공무원 등에 대피령을 내렸다고 전했어요.",
-     "reportedAt": "2026-10-21T20:50:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80dkJLeTBtY2RWQm5YWjAtbWdkdEc3SExSWW8ybXRGb3M0R2gxbFN6ak1zeFJBQmRNN0Nhb2lScGpXYnVkNVYycEVseWQ2UkFLRGxEVWh4SzMzZWk5VUNxZG5TdXJqYUE?oc=5"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "美, 주사우디 대사관 비필수 직원·가족에 철수 명령…\"후티 공세 격화\"",
-     "titleKo": null,
-     "summary": "미국이 주사우디 대사관의 비필수 직원과 가족에게 철수 명령을 내렸다고 보도했어요.",
-     "reportedAt": "2026-10-21T20:52:50.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DNG5IX0E0N1Y4ZWpmZnJWMjBRam02d3l0NTVzYV9fQmd3Q2c4b2JnNWZtWUhRN3FnbVBCZXI5bVE3MDhBdkZTSU5VMVNUeHh5cWtkN0YtUHNmYmFoamctT0FR?oc=5"
-    },
-    {
-     "outlet": "한국경제",
-     "cat": "kr",
-     "title": "美, 사우디 공무원·가족 철수령…후티 타격 재개하나",
-     "titleKo": null,
-     "summary": "미국이 사우디 공무원과 가족의 철수를 명령했다고 보도했어요.",
-     "reportedAt": "2026-10-21T21:14:19.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XWmVCZTRyWEZCTG0xcFBoQnJYSGZxRy0wOGt4N2RlRi1fbXVmeFBVQU1DS0xDcEd0cjZBTFhZM1pqMy1IMm1rWW5fb2ptUk5zcmdlblRFLTZVUQ?oc=5"
-    },
-    {
-     "outlet": "SBS",
-     "cat": "kr",
-     "title": "미국, 후티 공격 임박했나…사우디 체류 공무원·가족 대피령",
-     "titleKo": null,
-     "summary": "미국이 사우디 체류 공무원과 가족에게 대피령을 내렸다고 보도했어요.",
-     "reportedAt": "2026-10-21T21:31:44.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10czdfWnVONTZBeUZvcUhwUDA3WlJOQzNDRlgtMVFZVjlUbHpMNTFBX0p2bG1IcnFoUXkybjhNc1ZqZklYbDhqYTRodDE4M2ZVazN5Wlo5dDJSV3hvdU5KRTMzdzJqMUNlYVE?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "美, 사우디 체류 공무원 대피령…후티 공격 임박?",
-     "titleKo": null,
-     "summary": "미국이 사우디 체류 공무원들에게 대피령을 내렸다고 보도했어요.",
-     "reportedAt": "2026-10-21T21:52:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zQWxQODR2TEdQdEtZU3N1c0o0RGI0bDJ0SHI3b2c5RUpQdzNaM3JyTVNkRmwwcUlzWFc1eHZPX2xfa2lZT3R2d1RJdkd5bGRydzYxS2tkMkJKWXdENkMtT3RIYWVFcUU?oc=5"
-    },
-    {
-     "outlet": "아시아경제",
-     "cat": "kr",
-     "title": "美 후티 공격 임박했나…사우디 체류 美 공무원·가족에게 대피령 내려",
-     "titleKo": null,
-     "summary": "미국이 후티 위협을 이유로 사우디 체류 공무원과 가족에게 대피 명령을 내렸다고 전했어요.",
-     "reportedAt": "2026-10-21T22:10:06.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1XzN5Wk5DZGdoRlpjcUo1MzkwQVJCOUNMQjFGOFFReUphTXdaRlBhQUNNMFVnbjFOc1V1cUFWOWZHOFp2dHVySm11b2t2TjlHWnNQYU1uREVvRmd0VnBFNA?oc=5"
-    },
-    {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "美, 주사우디 공무원·가족에 철수 명령…\"후티 공격 확대\" - 머니투데이",
-     "titleKo": null,
-     "summary": "미국이 사우디 주재 공무원과 가족에게 철수 명령을 내렸다고 보도했어요.",
-     "reportedAt": "2026-10-21T22:12:22.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3ZXhITWlnaHJfdEhFTnRyY3ZGOE1Ub2NfY1FXZ1lUU3VXeUgzQkJON0l0UGl5X0tZUXJYVlk1Z29vc1NnT0p6RDRlYlY1X1RweHU0Y3dCd0pvRlFlVER5cFJQaXcxeVcz0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "美, 사우디 주재 직원·가족 철수 명령…후티 위협에 경계 강화",
-     "titleKo": null,
-     "summary": "미국이 사우디에 주재 중인 직원과 가족의 철수를 명령했다고 보도했어요.",
-     "reportedAt": "2026-10-21T22:56:47.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tOU82eklOMlNkRXM0dE1DWVl2ZFd5Z3FldV9obzl0Mm5XSEtxTGtJUmYzcFowNmxPcHJCT2xNTExEbXNuWm1sX2s4by1WeVJ5aVhiNzA3TS1sNGJKLXp1UElMVEROTVc4VDJPSGE5Q09XMnJQOHdHWNIBeEFVX3lxTE5tOU82eklOMlNkRXM0dE1DWVl2ZFd5Z3FldV9obzl0Mm5XSEtxTGtJUmYzcFowNmxPcHJCT2xNTExEbXNuWm1sX2s4by1WeVJ5aVhiNzA3TS1sNGJKLXp1UElMVEROTVc4VDJPSGE5Q09XMnJQOHdHWA?oc=5"
-    },
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
-     "titleKo": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
-     "summary": "미국이 후티의 공격 증가를 이유로 일부 외교관 철수를 명령했다고 보도했어요.",
-     "reportedAt": "2026-10-21T23:13:18.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSkdGRlFLaE1FOXc3dGM0UHhMVnpzcjF6SkR4TzJRTWtuTm0wZmpGVFJMeEZydGx5VndhUGo3dzN2ZHJCOHdnVVVGVE9LNFNfVlgyTzlmRHJadlRuTk10OFdaZ1otTlB2OEhHWTJvUlQ3Sk5QYUI4Tk9HRjhfMVFmWXBUM0JSXzllODBTNTRqOEk5U00?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "0df036387835",
-   "articleIds": [
-    "35be6eadc301"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "美, 사우디 주재 직원·가족 철수 명령…후티 위협에 경계 강화",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T01:10:32.150Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "동아일보",
-     "cat": "kr",
-     "title": "美, 사우디 주재 직원·가족 철수 명령…후티 위협에 경계 강화",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-21T23:07:45.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtVl91LWt4Wk93QnpfR1o5SW83dEY0cnA0Uk1xdi10VkRRbldJVlJaQlNEclExcnNpeTNEc09Nc3Z4aFJaTmVPV3QtTXIwQkJWTWs5SXJpTThGUlM0MzlOYlVZQ1V4UdIBZkFVX3lxTFBtVl91LWt4Wk93QnpfR1o5SW83dEY0cnA0Uk1xdi10VkRRbldJVlJaQlNEclExcnNpeTNEc09Nc3Z4aFJaTmVPV3QtTXIwQkJWTWs5SXJpTThGUlM0MzlOYlVZQ1V4UQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "d0bd51c68ddf",
-   "articleIds": [
-    "61c0b3e247ca"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "GACA: 담맘 킹파드 국제공항 공격…1명 사망·8명 부상",
-   "titleAuto": true,
-   "regions": [
-    "dammam",
-    "airport",
-    "eastern"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T23:20:29.600Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "GACA: Attack Targets King Fahd International Airport in Dammam; One Killed, Eight Injured",
-     "titleKo": "GACA: 담맘 킹파드 국제공항 공격…1명 사망·8명 부상",
-     "summary": "",
-     "reportedAt": "2026-10-21T22:54:29.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBwMVk0U0haOEMzeVZwVHVVcHhDLTh1N2s3THU4Y3A0SWI3TzUxa2JIVEpfX3g0UlUwM0JMNVJWd0tlYzhhTDlJSWZB?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "c2738947a3b5",
-   "articleIds": [
-    "3e8dd709e310",
-    "d9edbf169673",
-    "931f57e4d9f8",
-    "7a9ef60808ad",
-    "d985789f03a1"
-   ],
-   "type": "airport",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "카심 공항(킹파드공항) 공격으로 1명 사망·여러 부상이라고 발표",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T05:20:30.953Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Four UAVs Launched Toward Saudi Arabia Intercepted, Destroyed",
-     "titleKo": "연합군: 사우디로 발사된 4대 UAV 요격·파괴",
-     "summary": "SPA는 4기의 UAV가 사우디로 발사돼 요격·파괴됐다고 전했어요.",
-     "reportedAt": "2026-10-21T05:31:28.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5tUExhaVhGaUoxeUhsMU1Kc3E1dmNqVVdMdEk5SHlOM3dRejd1aWRKdDZRelc1UjVZelAwdzQzNkprTktQQkN5Nm9n?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "‘I could not leave them’: Saudi airport worker recalls helping injured passengers during Riyadh attack",
-     "titleKo": "(이미 번역 있음)",
-     "summary": "공항 근무자가 리야드 공격 당시 부상자들을 도우려던 경험을 회고했다고 보도했어요.",
-     "reportedAt": "2026-10-21T12:11:36.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSXU4ajFxazNneUFqTjlYcmpEbjFnRVh6d2hDWi13a3hwemhiTFZySlp4SzNBcnoyVlIwdlVFRGI1cnltZHBib3Rab1lfS0tMSmZfWW1KQ0tYRUYyZkx0cEtDUTJfQ3dnMkotSmk0bzZ5SnMzZmtVRVN4bm1SR2RjZEVrX1FyemNULUI4TEFpZ2hTb3ZxR1RQS3Nzd3A0Q084REhZRkpsekYzLWxJM3VEaFVLVVBnbDNkQkNEU3JmdjJ0bGRtTlFZZHpkb1FvUlpTUklSLUM1YWRBWXpuU3c?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi coalition intercepts 5 drones in Eastern, Madinah regions",
-     "titleKo": "연합군, 동부·마디나 지역으로 발사된 드론 5대 요격",
-     "summary": "사우디 연합군이 동부와 마디나 지역으로 발사된 드론 5대를 요격했다고 발표했어요.",
-     "reportedAt": "2026-10-21T14:12:54.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkVJclNtaE92RDBfeDMtM1pRZzZtblNxSjJNYjBhVURxeFhHeGhHNHdVV0h2MVdiOUlJQUt1LXdrbUU0TjRIek9mRUFjcUpIbVZxMlN4bkVRMW9sSnBFQ1dEbnNUMWxaTE84R1FFVm1GY1ZDdkdPRF94WExWSEhXbGdqLWRUOFU5VUdyRXFiWkV1M1ZtSVRBX0g2dDhqTXQ4dGJDc0RXVEprWjlX?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
-     "titleKo": "사우디 민항청, 킹파드공항 공격으로 1명 사망·8명 부상",
-     "summary": "사우디 민항당국은 킹파드 공항 공격으로 1명이 숨지고 8명이 다쳤다고 밝혔어요.",
-     "reportedAt": "2026-10-21T22:21:44.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Three dead in Saudi Arabia’s east after attacks on airport, oil facility",
-     "titleKo": "사우디 동부 공항·석유시설 공격으로 3명 사망",
-     "summary": "사우디 동부에서 공항과 석유시설 공격으로 3명이 숨졌다고 보도했어요.",
-     "reportedAt": "2026-10-21T22:44:26.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa29iN3Yzc2Rqb0dnZG5zNUIwWU1XOGFXcnFnTDdHV255b2k4VXE3QWhFc19pM0hFaVZmSzhsc21XbTJXdk1CbHhxUmpsYVFtRzVxYVFrVGJnZnlDZjFYYjI2UnNJUklMVm1pM0Y5ZkFYdWhsMjhraUY5RGZBUGw4cjdvWmNyWXZpLVBJTXprdG5ZMTZfTDR3UkhyZHdpbWhOR2d4OE5hd3lJYmpQNnM5eWJiZ19uTjVoeGJ1cg?oc=5"
     }
    ]
   },
@@ -605,10 +516,74 @@
      "cat": "kr",
      "title": "이집트 대통령 \"사우디 영토 방어하겠지만 예멘 공격은 배제\"",
      "titleKo": null,
-     "summary": "이집트 대통령이 사우디 영토는 방어하겠지만 예멘 공격은 배제한다고 말했어요.",
+     "summary": "이집트 대통령은 사우디 영토 방어에는 나서겠으나 예멘 공격은 제외하겠다고 말했다고 보도됐어요.",
      "reportedAt": "2026-10-21T21:31:19.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrSTNxQUJjM2RjQXpHc29nMzFvZjJieGVIU0pUbmFXSmtGQnVyUXBlNzU0akFRdFgyUWo1eUxDUE9xTGRwaDhubEVESlpPX0JxUjhpQ3Y1WnhSY2c3SkVhWmtn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "727da89f365b",
+   "articleIds": [
+    "eeeb6f73805f"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "美, 사우디 체류 美공무원·가족에 철수 명령…후티 공격 임박 전망",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T01:50:30.713Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SBS",
+     "cat": "kr",
+     "title": "美, 사우디 체류 美공무원·가족에 철수 명령…후티 공격 임박 전망",
+     "titleKo": null,
+     "summary": "미가 사우디 체류 미공무원·가족에 철수 명령을 내렸다고 보도됐어요.",
+     "reportedAt": "2026-10-21T21:23:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aU1FBLVMwaTFrUlY3eUg2cDFwd29USnd3eE9fWDY4VTBnS0tyVmdqLXM4NlVsdUJmTzRuNl9wNVBiRzBOZkd3ZEZUTWJpWXgxSEx1OWpVWUXSAVhBVV95cUxNWlNRQS1TMGkxa1JWN3lINnAxcHdvVEp3d3hPX1g2OFUwZ0tLclZnai1zODZVbHVCZk80bjZfcDVQYkcwTmZHd2RGVE1iaVl4MUhMdTlqVVlF?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "fce0258071b3",
+   "articleIds": [
+    "850d9fabb6e0"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "美, 사우디 공무원·가족 철수령…후티 타격 재개하나",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T21:20:36.350Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "美, 사우디 공무원·가족 철수령…후티 타격 재개하나",
+     "titleKo": null,
+     "summary": "미가 사우디 공무원·가족 철수를 명령했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T21:14:19.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XWmVCZTRyWEZCTG0xcFBoQnJYSGZxRy0wOGt4N2RlRi1fbXVmeFBVQU1DS0xDcEd0cjZBTFhZM1pqMy1IMm1rWW5fb2ptUk5zcmdlblRFLTZVUQ?oc=5"
     }
    ]
   },
@@ -637,7 +612,7 @@
      "cat": "kr",
      "title": "이집트 대통령 \"사우디 지원하겠지만 예멘 직접 공격 않겠다\"",
      "titleKo": null,
-     "summary": "이집트 대통령이 사우디 지원은 하되 예멘 직접 공격은 하지 않겠다고 밝혔어요.",
+     "summary": "이집트 대통령은 사우디 지원하겠지만 예멘 직접 공격은 하지 않겠다고 말했다고 보도됐어요.",
      "reportedAt": "2026-10-21T20:57:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4cFRCZDNhMjRGMzVydGswU0dxM2VOcDBpaUhtX0JDRHp3c0xuWGFVdDA0LUVRcWdPTVF1dVFtRXpqclQydXRjYnFoLTVpOVA1dTgyTTNkMmY4Nzhjbzh4Q3lhWU9zNGM?oc=5"
@@ -645,281 +620,91 @@
    ]
   },
   {
-   "id": "2f8788defaaa",
+   "id": "b023651f4aa7",
    "articleIds": [
-    "6e0882036cf5"
+    "457f90ebe000"
    ],
-   "type": "security",
+   "type": "korean",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "종교학자회의, 후티 공격을 테러로 규정했다고 발표",
-   "titleAuto": true,
+   "title": "美, 주사우디 대사관 비필수 직원·가족에 철수 명령…\"후티 공세 격화\"",
+   "titleAuto": false,
    "regions": [
-    "riyadh"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-21T21:20:36.350Z",
+   "collectedAt": "2026-10-21T21:10:23.821Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Council of Senior Scholars: Houthi Militia a terrorist group that violated sanctities",
-     "titleKo": "종교학자회의: 후티 반군은 성지 침해한 테러단체라고 규정",
-     "summary": "사우디 종교학자회의가 후티의 민간 및 성지 공격을 비난하며 테러 규정을 언급했다고 보도했어요.",
-     "reportedAt": "2026-10-21T20:51:02.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665628/saudi-arabia/council-of-senior-scholars-houthi-militia-a-terrorist-group-that-violated-sanctities"
-    }
-   ]
-  },
-  {
-   "id": "eb06fa6d5728",
-   "articleIds": [
-    "d5ec3dcef267",
-    "6bda29bd25fc",
-    "9055bf6fd7e2",
-    "0e81df85dacd",
-    "a2af509cc084",
-    "6a56c26e82e5",
-    "995f0b7bd85a",
-    "80d94b4db67e",
-    "c95befa2c37a",
-    "ad05bef46c14"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "multi",
-   "directive": null,
-   "title": "호르무즈 유조선 피격·사우디 석유시설 공격…국제유가 혼조",
-   "titleAuto": false,
-   "regions": [
-    "eastern",
-    "jafurah",
-    "riyadh"
-   ],
-   "inferred": true,
-   "inferNote": "샤이바(Shaybah) 유전이 사우디 동부의 유전 지역에 있어 동부와 자푸라(근처)로 추정했어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T19:20:31.702Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi scholars' council condemns Houthi attacks against civilians and holy sites",
-     "titleKo": "사우디 성직자회의, 후티의 민간·성지 공격 규탄",
-     "summary": "사우디 종교학자회의가 후티의 민간 및 성지 공격을 규탄했다고 보도했어요.",
-     "reportedAt": "2026-10-21T19:15:13.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/saudi-scholars-council-condemns-houthi-attacks-against-civilians-and-holy-sites-3007601"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Two expatriates killed in drone attack targeting Saudi Aramco’s Shaybah oil field",
-     "titleKo": "샤이바 유전 표적 드론 공격으로 외국인 2명 사망",
-     "summary": "샤이바 유전 드론 공격으로 외국인 2명이 사망했다고 보도했어요.",
-     "reportedAt": "2026-10-21T19:21:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0eWVjMENpLW1RWmZMNFdKRGF2YThiQmRWelNTTFFfUVJDZVZKMGJhcnhwM2dmbDZuZXVaeFg0LVJ2ZU9WbVN4TnFKOHlUT3NSMEZJVA?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Two expatriates killed as Saudi air defenses intercept drone targeting Aramco’s Shaybah oil field",
-     "titleKo": "아람코의 Shaybah 유전 겨냥 드론 요격 중 사우디 방공에 의해 외국인 2명 사망",
-     "summary": "사우디 방공이 샤이바 유전을 향한 드론을 요격했다고 보도했어요.",
-     "reportedAt": "2026-10-21T19:21:20.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665627/saudi-arabia/two-killed-two-injured-in-drone-attack-on-saudi-aramcos-shaybah-oil-field"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Two killed in attack on Shaybah oilfield, no impact on operations: Saudi energy ministry",
-     "titleKo": "샤이바 유전 공격으로 2명 사망, 운영에는 영향 없어: Saudi energy ministry",
-     "summary": "미국이 후티의 공격 속에서 외교관 철수를 명령했다고 보도했어요.",
-     "reportedAt": "2026-10-21T19:30:51.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaGFNTEVzeE1uLUt5M19ybHcyTlh5WEJvcWdwczRKQ2pEc3ZkZDdIRHJsN29zX1c4R01PbzNNSXU4MEZZR1RlZmNydjJsLW81UWJueEt0dEs1ZDVqNW15LXFvT3JjUjZoR0hZVXNvUlF3NG9kWEJpSzM2bUVSWTJteUgwYURUN2ZMYjdoUU9IZ1hlSUZjZjQ1QWtwYXZYbF9uOHc3QnA3M0R0QlJFd2doUDBGM1FnYnJFeDlJLUd2SEhraF9VemNTQnZZR2Y?oc=5"
-    },
     {
      "outlet": "뉴스1",
      "cat": "kr",
-     "title": "호르무즈 유조선 피격·사우디 석유시설 공격…국제유가 혼조",
+     "title": "美, 주사우디 대사관 비필수 직원·가족에 철수 명령…\"후티 공세 격화\"",
      "titleKo": null,
-     "summary": "호르무즈 유조선 피격과 사우디 석유시설 공격 소식이 국제유가에 영향을 미쳤다고 전했어요.",
-     "reportedAt": "2026-10-21T19:37:28.000Z",
+     "summary": "미가 비필수 직원·가족 철수를 명령했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T20:52:50.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DLWlTZ0VXZ1FPZHVvM0pNcTlub3BoTDY2aFJuLTh4TkZ2THgxVmlabUJmdTRKeTIwQ0NjMFNBSWNXcnBxVklvTXFHTEFJODdYZUdfSXJpR1JQVUdtcmNrOFdTdm5QREE?oc=5"
-    },
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Saudi authorities say 2 killed by falling debris at oil facility following drone attacks in kingdom",
-     "titleKo": "드론 공격 여파로 유전 시설 잔해에 2명 사망",
-     "summary": "사우디 당국은 드론 공격으로 유전 잔해에 맞아 2명이 숨졌다고 발표했어요.",
-     "reportedAt": "2026-10-21T19:57:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
-     "titleKo": null,
-     "summary": "샤이바 유전 공격으로 외국인 2명이 숨졌고 사우디 방공이 드론을 요격했다고 보도했어요.",
-     "reportedAt": "2026-10-21T20:10:50.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IS0ZWRGstem1KSXpQZTFJbjNncUFBWHdvZ3YxeEFKNlo5cHpYZDF6SFVaZjdibW12UE9pVFZOY2dnNDRfdGRuaXVjbjZiai1EenRlNF9rVU5kQmfSAWBBVV95cUxPMjd4dUZzcmVsYUUxSmEtNVByb1FFbDlydHVYYm9wMVFjWkFoR0ItUDZQWEVWVnpiOEhDb01PUkFJM0FkUlJxUU5kTGtCd1pZa1NpUk13bGJ5WkszZ2d3Vm8?oc=5"
-    },
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "사우디 샤이바 유전 겨냥 드론 공격…외국인 2명 사망",
-     "titleKo": null,
-     "summary": "샤이바 유전 드론 공격으로 외국인 2명이 숨졌다고 사우디가 발표했어요.",
-     "reportedAt": "2026-10-21T20:15:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZS3EwNzNPMUFCel9pZ0dhRDFLbHB0NEdoT1pXUkxpUVowNXFRMld5azNIMXpmTlo2d21feThRMFAweFRxSWNUeHJWd3hDMDFsanhSM1BRZVVTSXc?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 샤이바 유전에 드론 공격…\"2명 사망, 공정엔 차질 없어\"",
-     "titleKo": null,
-     "summary": "사우디가 샤이바 유전에 대한 드론 공격으로 외국인 2명이 사망했지만 운영에는 영향이 없다고 발표했어요.",
-     "reportedAt": "2026-10-21T20:16:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zdm1vSUJxcGdYM3ZpNmc2MjFuMUhlYWlKMnBrUjhtWXVtOVhJTko3SXE5dEVpcE5BNllFU2kzcWkzV1NyU0JzQ3hvOXJNSV8xS1VZamtfU3lqeFQ3TlhLUnRaTFVNVjQ?oc=5"
-    },
-    {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "사우디 샤이바 유전 겨냥 드론 공격‥외국인 2명 사망",
-     "titleKo": null,
-     "summary": "샤이바 유전이 드론 공격을 받아 외국인 2명이 숨졌다고 보도했어요.",
-     "reportedAt": "2026-10-21T20:47:29.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEMnVqdHN6NlhkQUg2ODBnNjk3SlRjZzd3M0lVSUNHWUFzejIzOVBldWhKTndUN0Nlcmdhem5JMkdIZUEtNmdUaDZFX2RjREJTRnZwdW5OZFRnZUlMcHduTGFjX28yYk9mek9ZaFB3TFRra3hM0gF0QVVfeXFMUEQydWp0c3o2WGRBSDY4MGc2OTdKVGNnN3czSVVJQ0dZQXN6MjM5UGV1aEpOd1Q3Q2VyZ2F6bkkyR0hlQS02Z1RoNkVfZGNEQlNGdnB1bk5kVGdlSUxwd25MYWNfbzJiT2Z6T1loUHdMVGtreEw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DNG5IX0E0N1Y4ZWpmZnJWMjBRam02d3l0NTVzYV9fQmd3Q2c4b2JnNWZtWUhRN3FnbVBCZXI5bVE3MDhBdkZTSU5VMVNUeHh5cWtkN0YtUHNmYmFoamctT0FR?oc=5"
     }
    ]
   },
   {
-   "id": "7896842ff35c",
+   "id": "33a79b36ff18",
    "articleIds": [
-    "72042bdf68df"
-   ],
-   "type": "evacuation",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "美, 후티 공격 임박했나…사우디 체류 美공무원·가족 대피령",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T21:00:55.379Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "美, 후티 공격 임박했나…사우디 체류 美공무원·가족 대피령",
-     "titleKo": null,
-     "summary": "미국이 사우디 체류 공무원 및 가족에게 대피령을 내렸다고 보도했어요.",
-     "reportedAt": "2026-10-21T20:42:22.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FRTR4aTYySU9hVGFQUHRMc0o2UFNYVzBvM1Q0a1ZTQVlvSTA2NEF6OW1IZ2pIMWV2cUNPU1N1RnJmUmRWbmtzS0txbHNRWGZ4WUJJbk04aEx6VFlRMWlYSdIBYEFVX3lxTE5FRTR4aTYySU9hVGFQUHRMc0o2UFNYVzBvM1Q0a1ZTQVlvSTA2NEF6OW1IZ2pIMWV2cUNPU1N1RnJmUmRWbmtzS0txbHNRWGZ4WUJJbk04aEx6VFlRMWlYSQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "002c3a279e26",
-   "articleIds": [
-    "4e2b3032a6b0"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T20:40:36.396Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Faisal Alkabbani Turns Childhood Passion into Back-to-Back Saudi Time Attack Titles",
-     "titleKo": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
-     "summary": "사우디 에너지부는 샤이바 유전 공격으로 2명이 사망했지만 운영에는 차질이 없다고 발표했어요.",
-     "reportedAt": "2026-10-21T19:36:11.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IY2xfUWNXdVpwRExwODNaNFZ2eUlZLURqWW9seG13b1hpdGF5SWFmS0FIaWxaNlRMTnFwV21ac2lpM0lWZGp1Ylln?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "cff7324fc6de",
-   "articleIds": [
-    "013b1bb30a05",
-    "8d8cd59cb2b4",
+    "3481fbb9bb27",
+    "290e14831146",
     "f990ae70cfbd",
+    "5e2ad10fa9e1",
+    "087b2548e622",
+    "3f495f0b2b08",
+    "d78c68297ea6",
+    "bea376d4ada5",
+    "ec4d7cddb266",
     "4a1b1074dd5d",
     "af8f73fa349a",
     "ce7f78092922",
     "100a428a93c9",
     "dc455fbe71b5",
-    "91ca0ca68cf5"
+    "d5ec3dcef267",
+    "6e0882036cf5"
    ],
-   "type": "security",
-   "sev": "mid",
-   "status": "multi",
+   "type": "missile",
+   "sev": "high",
+   "status": "claim",
    "directive": null,
-   "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
+   "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
    "titleAuto": false,
    "regions": [
     "riyadh"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "기사들이 사우디 전역과 예멘 관련 보도를 섞어 다뤄 특정 지역을 바로 밝히지 않아 수도권 등으로 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-10-21T07:30:40.816Z",
+   "collectedAt": "2026-10-21T10:09:21.595Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
-     "titleKo": null,
-     "summary": "AP 등 보도는 영국이 방어적 공중순찰로 사우디를 지원한다고 보도했어요.",
-     "reportedAt": "2026-10-21T07:22:32.000Z",
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Yemen's Houthis deny launching drones towards Saudi Medina on Wednesday",
+     "titleKo": "후티, 메디나 향 드론 발사 부인",
+     "summary": "후티는 마디나 향 드론 발사를 부인했다고 로이터가 보도했어요.",
+     "reportedAt": "2026-10-21T09:45:48.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yZ0dteVpBVHhUMjg3MzZYajRHLVBtS2ZDZTRTY0NHSHRvcXZCV3phWDdNUjdEUmFvbmJkeEZDZ3lsa3RaN3J4TzVMRGRBc3FkaDY5NW43bmo0aXEwWmlWTTdzcVdtQmlGYzNUNjFn0gFuQVVfeXFMTzJnR215WkFUeFQyODczNlhqNEctUG1LZkNlNFNjQ0dIdG9xdkJXemFYN01SN0RSYW9uYmR4RkNneWxrdFo3cnhPNUxEZEFzcWRoNjk1bjduajRpcTBaaVZNN3NxV21CaUZjM1Q2MWc?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc2ZjQXV3eDBJb0ZSQVR6eGFkazItZW9IbnhpQVJESVNVekFRZzJNSFhSRFZjMlRLMmQ0TDFBMHlBQkJ0dlBUY1dVSEQ5Z204MVZ2ODJpQ2xuaVpNb2N3WGdVUExETTdTbXdnMGNYZmVUN1Y2ajZmRUc3ZmZvMFJpT2ozdW85bng5QnRhQVBtUjhocVZwVmt2Q3RIdDdRSU9RcXA1T2JlUmNvVk5vMVk0c21WcDhTbWhIdGdyWnh3?oc=5"
     },
     {
-     "outlet": "연합뉴스",
+     "outlet": "SBS",
      "cat": "kr",
-     "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
+     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
      "titleKo": null,
-     "summary": "(이미 요약 있음)",
-     "reportedAt": "2026-10-21T08:37:50.000Z",
+     "summary": "SBS는 후티 반군이 아덴의 사우디군 진지 타격을 주장했다고 보도했어요.",
+     "reportedAt": "2026-10-21T10:11:12.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lcS1VNXZHeGNmTTZDdGpLNFZ2b29rSXVpVmRCLTg2eGtXSHRJNERiUE14SzFFbkhLY1FpZ1lGQVF2RW9sTXF4X3ptdUtnbDBMajczYjBCY3pKNDDSAWBBVV95cUxNaDV3V0EtTTNoYTJkRWNCWWNvbU05OWU0ZmdMcDF1STc5VFBfdkhXV2JGcFIxc0wteGxnWG9pZUFPZDJuY1VjdEFSQmMwUFVnUlpxeE1KUTBKc2ZyTVdoeDE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SSjlHNWtSQ1BNcE5mc21IY3VIWjRUVms5X1NUYV8yVklfVUZ3SFl0RHZDcExzYWE4dllnVkNyREhzeFMyMmRSd3d3NGc5ZlFpWFZGcTI3Yl9PZi10dWRrdDZ6NnBCNVdaZ3c?oc=5"
     },
     {
      "outlet": "Al Jazeera",
@@ -930,6 +715,66 @@
      "reportedAt": "2026-10-21T10:34:02.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkdfYm9xdHd3aFk4ZjlSalpIWU9HMnE3RTl2WEx6ODlWTjVsd1pPcWFYSVNsQVN6QXlJb04wV1JKcXYzYjdIbVhWQjFXMHhOdG1oS2lHOXNZazlHUXpzUi1XbGtNUGkwRVFPUUZ4OHRGTFlMZll2TzlDbXNISlB1LXlRc2Rlc0llNWdBVHQ3U1ZMbzJkTy1leVAycHJzTEVOZFAwVHlOb2Q0N2F3MEpKRUJzNk_SAboBQVVfeXFMTUI1bWRsR21rYnFTUmRKeE1NN01FclFmZ2p6bzRqX0V4R0NTam9XcHN5U0ppaG1OLWlHdUJCeG9Cd2I4bHpXaGV2OF8wMXp5b29VWmc2ekI1ZzF3WDZyY3E4X0E4SHlHTmtwWTFjUlBmQkRHZDAtT1MyZE9hbGVIeWdsTkZ3UmJrTXJLNGt1czNPUENab2dPa21pWERHSzlCcHZIbFhBWXItOVNzWDc3VjNGa2owLWxtVjl3?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Yemen's Houthis deny launching drones towards Saudi Arabia's Medina",
+     "titleKo": "후티, 메디나 향 드론 발사 부인",
+     "summary": "후티는 마디나 향 드론 발사 혐의를 부인하는 보도가 있다고 전해졌어요.",
+     "reportedAt": "2026-10-21T11:27:24.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc2ZjQXV3eDBJb0ZSQVR6eGFkazItZW9IbnhpQVJESVNVekFRZzJNSFhSRFZjMlRLMmQ0TDFBMHlBQkJ0dlBUY1dVSEQ5Z204MVZ2ODJpQ2xuaVpNb2N3WGdVUExETTdTbXdnMGNYZmVUN1Y2ajZmRUc3ZmZvMFJpT2ozdW85bng5QnRhQVBtUjhocVZwVmt2Q3RIdDdRSU9RcXA1T2JlUmNvVk5vMVk0c21WcDhTbWhIdGdyWnh3?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond - Al Jazeera",
+     "titleKo": "영국, 사우디에 타이푼 전투기 파견해 방어 지원",
+     "summary": "영국이 사우디에 타이푼 전투기를 보내 방어를 지원한다고 보도됐어요.",
+     "reportedAt": "2026-10-21T11:40:54.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ2VMQTFSUmJzRXNSQzRPZVFRc1g4d0xBUjJ6VVFvWTRQTHJ0Wk1OSDFsbDF3ZWxTZEVTQTdqaVA0UGhpblYwME15VWhiSWdHNzZpZXp0Rk53ZVM3THVsX0Uxd2V5a3ZUTS1ncmFqS0tBLWZZUXF3dmlTTnV5Y3hjTEhIRjhndjNzSUhESHEwdlpUOHJZd2NGUm5zYUpPbkpUQXhKSVNDaUpTaTA4N1VSZURZY3JVaHRXMHFENzhNLVNoTDFzcEw4S1lvcWloZw?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Macron arrives in Riyadh, pledges French military support against Houthi attacks",
+     "titleKo": "마크롱, 후티 공격 속 리야드 방문해 사우디 방어 지지",
+     "summary": "프랑스 대통령이 리야드를 방문해 사우디 방어를 지지한다고 전했어요.",
+     "reportedAt": "2026-10-21T13:29:01.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665617/saudi-arabia/macron-arrives-in-riyadh-pledges-french-defense-support-against-houthis"
+    },
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "예멘 친이란 후티반군 \"아덴 내 사우디군 진지 타격\"",
+     "titleKo": null,
+     "summary": "후티는 아덴의 사우디군 진지 타격을 주장했다고 전해졌어요.",
+     "reportedAt": "2026-10-21T13:36:05.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YeGQ4NG9EdjhJVms1Xy1tZGp2TU9oY2t6N01ZUmdxZlQ5WkF0NmQyZUdhQ1hwUDV1czJNUTQ4SzFQclhPZlJMeTc1amxMOE9hdXAtMDJFLUJWaTdRemFnWdIBeEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRQ?oc=5"
+    },
+    {
+     "outlet": "동아일보",
+     "cat": "kr",
+     "title": "예멘 친이란 후티반군 “아덴 내 사우디군 진지 타격”",
+     "titleKo": null,
+     "summary": "후티가 아덴 내 사우디군 진지를 타격했다고 주장했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T13:47:22.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ITTBhLVRvbFlEZUlmZlpub2QyRC1HdWJobU9PdDM2XzhFMDlFOWpzTnpBckxkTUU3S2cyck1HSzA1Tm5DTk9lX1p5cm1kcDBXNlhMRXBNWUgyT0Njdm1tc0lsMHJrQdIBZkFVX3lxTE5ITTBhLVRvbFlEZUlmZlpub2QyRC1HdWJobU9PdDM2XzhFMDlFOWpzTnpBckxkTUU3S2cyck1HSzA1Tm5DTk9lX1p5cm1kcDBXNlhMRXBNWUgyT0Njdm1tc0lsMHJrQQ?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Are the UK, France being pulled into the Saudi-Houthi conflict? - Al Jazeera",
+     "titleKo": "(이미 번역 있음)",
+     "summary": "알자지라는 영국·프랑스가 사우디-후티 분쟁에 끌려들고 있는지 여부를 분석해 보도했어요.",
+     "reportedAt": "2026-10-21T14:51:10.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaWtuRG1JMjgyOC1YTTNLTW5ZeXpkcHktWnJJb29qa2FGZFQ1ZG5lMUU3Nmo3ZTNlRXlBdHpScDJTcTVrM2xUNk9BWWd0WmdtVzM3S08tREFwbUl0MjFwMkxNejFXR2xVMGRBSmxqMVctQTV0cE9mMkRnQ2lTeGZEcENaZWIxMU45SzN0X2ZfV2I4X0F5VDJnX0FPV0JrSVM4cl9tdV85cWJDdkpOQ0V3Z3V1UHBhQm5DemFYd0p0VQ?oc=5"
     },
     {
      "outlet": "Reuters",
@@ -982,6 +827,112 @@
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTVZLWNRalc0ZzFmaXlERE8ySDhISTVTVjV0c0o2ZzU1UThTS2RMd0RRaVlsdmlNcFZfR3BiRHAwejM0dGFaUVA2V2JtVW4zMFZUVm1JMnViVGI1M2ZQa2VySHo2M3pJemxlRmJBanJSOTgwZko5VjFoeEFpTndNRHF4TGZNT25MMmRTMDRDdENwa3ZsZ1ZkY2NGOUo4a04wNmMxNk5OUE5nSXQ1TWxuZTNsQWF6U1JuX0FHcw?oc=5"
     },
     {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi scholars' council condemns Houthi attacks against civilians and holy sites",
+     "titleKo": "사우디 성직자회의, 후티의 민간·성지 공격 규탄",
+     "summary": "사우디 종교학자회의가 후티의 민간 및 성지 공격을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-10-21T19:15:13.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-scholars-council-condemns-houthi-attacks-against-civilians-and-holy-sites-3007601"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Council of Senior Scholars: Houthi Militia a terrorist group that violated sanctities",
+     "titleKo": "종교학자회의: 후티 반군은 성지 침해한 테러단체라고 규정",
+     "summary": "사우디 성직자협의회가 후티를 테러집단으로 규정했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T20:51:02.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665628/saudi-arabia/council-of-senior-scholars-houthi-militia-a-terrorist-group-that-violated-sanctities"
+    }
+   ]
+  },
+  {
+   "id": "209de8a97588",
+   "articleIds": [
+    "e0c0f72edda8"
+   ],
+   "type": "evacuation",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "美, 사우디 체류 공무원 등 대피령…\"후티, 점점 더 적대행위\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T22:10:32.779Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "美, 사우디 체류 공무원 등 대피령…\"후티, 점점 더 적대행위\"",
+     "titleKo": null,
+     "summary": "미가 사우디 체류 공무원 대피령을 내렸다고 전해요.",
+     "reportedAt": "2026-10-21T20:50:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80dkJLeTBtY2RWQm5YWjAtbWdkdEc3SExSWW8ybXRGb3M0R2gxbFN6ak1zeFJBQmRNN0Nhb2lScGpXYnVkNVYycEVseWQ2UkFLRGxEVWh4SzMzZWk5VUNxZG5TdXJqYUE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "83d7dfdc98d9",
+   "articleIds": [
+    "a2af509cc084"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "호르무즈 유조선 피격·사우디 석유시설 공격…국제유가 혼조",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T19:50:29.829Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "호르무즈 유조선 피격·사우디 석유시설 공격…국제유가 혼조",
+     "titleKo": null,
+     "summary": "호르무즈 유조선 피격과 사우디 석유시설 공격으로 국제유가에 영향이 있었다고 보도됐어요.",
+     "reportedAt": "2026-10-21T19:37:28.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DLWlTZ0VXZ1FPZHVvM0pNcTlub3BoTDY2aFJuLTh4TkZ2THgxVmlabUJmdTRKeTIwQ0NjMFNBSWNXcnBxVklvTXFHTEFJODdYZUdfSXJpR1JQVUdtcmNrOFdTdm5QREE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "8cd06fc938a8",
+   "articleIds": [
+    "91ca0ca68cf5"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "이집트 대통령 “사우디 방어 지원하겠지만 예멘 공격은 안 해”",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T18:50:36.244Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
      "outlet": "KBS",
      "cat": "kr",
      "title": "이집트 대통령 “사우디 방어 지원하겠지만 예멘 공격은 안 해”",
@@ -1026,186 +977,46 @@
    ]
   },
   {
-   "id": "e16fce826f95",
+   "id": "2ea0824ee7f1",
    "articleIds": [
-    "ec4d7cddb266"
+    "9746ea4e0029",
+    "931f57e4d9f8"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "single",
+   "status": "multi",
    "directive": null,
-   "title": "(이미 번역 있음)",
+   "title": "사우디 연합군, 동부·마디나 향한 드론 5대 요격했다고 발표",
    "titleAuto": true,
    "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T14:40:30.806Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Are the UK, France being pulled into the Saudi-Houthi conflict? - Al Jazeera",
-     "titleKo": "(이미 번역 있음)",
-     "summary": "알자지라는 영국·프랑스가 사우디-후티 분쟁에 끌려들고 있는지 여부를 분석해 보도했어요.",
-     "reportedAt": "2026-10-21T14:51:10.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaWtuRG1JMjgyOC1YTTNLTW5ZeXpkcHktWnJJb29qa2FGZFQ1ZG5lMUU3Nmo3ZTNlRXlBdHpScDJTcTVrM2xUNk9BWWd0WmdtVzM3S08tREFwbUl0MjFwMkxNejFXR2xVMGRBSmxqMVctQTV0cE9mMkRnQ2lTeGZEcENaZWIxMU45SzN0X2ZfV2I4X0F5VDJnX0FPV0JrSVM4cl9tdV85cWJDdkpOQ0V3Z3V1UHBhQm5DemFYd0p0VQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "2b4176f29e02",
-   "articleIds": [
-    "1c84fc8869b5",
-    "200c52eefa60",
-    "da1bcf02699e",
-    "65229311851a",
-    "3481fbb9bb27",
-    "290e14831146",
-    "5e2ad10fa9e1",
-    "d78c68297ea6",
-    "bea376d4ada5"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "claim",
-   "directive": null,
-   "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T08:30:38.432Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Houthis release footage said to show clashes with Saudi-backed Yemeni forces",
-     "titleKo": "후티가 사우디전 교전 장면 공개",
-     "summary": "후티가 사우디 연합군을 상대로 벌어진 교전 장면을 공개했다고 보도됐어요.",
-     "reportedAt": "2026-10-21T07:48:23.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFWGdhV2J2QmRSSE5hTml1bzcwSGlXczgxSjRrckhyOE84X2V5dE4wQmljSkdJeTNHN0g4bXlyX0c4eFJ0SmlNVHlucXlpY1Jtekt6Z2pic3prUDlPR1ZGZkpxcmZMckU?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
-     "titleKo": null,
-     "summary": "연합뉴스는 후티의 아덴 내 사우디군 진지 타격 주장을 보도했어요.",
-     "reportedAt": "2026-10-21T09:28:20.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RNWVEaU9aemdkOEVVbHpsLUl3d3M1aVdJd3BmOEtVaTVJSEZ1WnF3eDhJVjVNNzBJN3JfUDhKNTBkXzRtVEV1U1FFcjFxU05wMWF2d3VuSXZNVzI2NktJM9IBYEFVX3lxTE9RNWVEaU9aemdkOEVVbHpsLUl3d3M1aVdJd3BmOEtVaTVJSEZ1WnF3eDhJVjVNNzBJN3JfUDhKNTBkXzRtVEV1U1FFcjFxU05wMWF2d3VuSXZNVzI2NktJMw?oc=5"
-    },
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "예멘 후티 반군 “아덴 내 사우디군 진지 타격”",
-     "titleKo": null,
-     "summary": "KBS는 후티의 아덴 내 사우디군 진지 타격 주장을 전했어요.",
-     "reportedAt": "2026-10-21T09:38:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVFZrQk1HNXhqVUFXSGxlWmZ4eENJYldnRjZUVzVSaERLUWRsRDQtdS1XaG5GZjNoaUdwdjJZYkxZWFFLVDZFeHo4d2FQeDZtV3hOMDFXRkdJQzg?oc=5"
-    },
-    {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
-     "titleKo": null,
-     "summary": "MBC는 후티의 아덴 타격 주장을 보도했어요.",
-     "reportedAt": "2026-10-21T09:38:56.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05Mm9oaHRsc0dVaXJVMS1ZRmRzckdzMHFHZS1zbE51ZnctYTBBSGFxTWZkTms2dU9NamlrWVQ1OTJsZGtKb2d5S181R09ZRjBUclg0UGVoSDdVNTFrUDIycm9HVzBDaUVQSDk2bVBhZkd2RnBn0gF0QVVfeXFMTTkyb2hodGxzR1VpclUxLVlGZHNyR3MwcUdlLXNsTnVmdy1hMEFIYXFNZmROazZ1T01qaWtZVDU5Mmxka0pvZ3lLXzVHT1lGMFRyWDRQZWhIN1U1MWtQMjJyb0dXMENpRVBIOTZtUGFmR3ZGcGc?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Yemen's Houthis deny launching drones towards Saudi Medina on Wednesday",
-     "titleKo": "후티, 메디나 향 드론 발사 부인",
-     "summary": "Reuters의 다른 보도에서도 후티의 메디나 향 드론 발사 부인이 전해졌어요.",
-     "reportedAt": "2026-10-21T09:45:48.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc2ZjQXV3eDBJb0ZSQVR6eGFkazItZW9IbnhpQVJESVNVekFRZzJNSFhSRFZjMlRLMmQ0TDFBMHlBQkJ0dlBUY1dVSEQ5Z204MVZ2ODJpQ2xuaVpNb2N3WGdVUExETTdTbXdnMGNYZmVUN1Y2ajZmRUc3ZmZvMFJpT2ozdW85bng5QnRhQVBtUjhocVZwVmt2Q3RIdDdRSU9RcXA1T2JlUmNvVk5vMVk0c21WcDhTbWhIdGdyWnh3?oc=5"
-    },
-    {
-     "outlet": "SBS",
-     "cat": "kr",
-     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
-     "titleKo": null,
-     "summary": "SBS는 후티 반군이 아덴의 사우디군 진지 타격을 주장했다고 보도했어요.",
-     "reportedAt": "2026-10-21T10:11:12.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SSjlHNWtSQ1BNcE5mc21IY3VIWjRUVms5X1NUYV8yVklfVUZ3SFl0RHZDcExzYWE4dllnVkNyREhzeFMyMmRSd3d3NGc5ZlFpWFZGcTI3Yl9PZi10dWRrdDZ6NnBCNVdaZ3c?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Yemen's Houthis deny launching drones towards Saudi Arabia's Medina",
-     "titleKo": "후티, 메디나 향 드론 발사 부인",
-     "summary": "Reuters는 후티가 메디나 향 드론 발사를 부인했다고 전했어요.",
-     "reportedAt": "2026-10-21T11:27:24.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc2ZjQXV3eDBJb0ZSQVR6eGFkazItZW9IbnhpQVJESVNVekFRZzJNSFhSRFZjMlRLMmQ0TDFBMHlBQkJ0dlBUY1dVSEQ5Z204MVZ2ODJpQ2xuaVpNb2N3WGdVUExETTdTbXdnMGNYZmVUN1Y2ajZmRUc3ZmZvMFJpT2ozdW85bng5QnRhQVBtUjhocVZwVmt2Q3RIdDdRSU9RcXA1T2JlUmNvVk5vMVk0c21WcDhTbWhIdGdyWnh3?oc=5"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "예멘 친이란 후티반군 \"아덴 내 사우디군 진지 타격\"",
-     "titleKo": null,
-     "summary": "후티가 아덴 내 사우디군 진지 타격을 주장했다고 보도했어요.",
-     "reportedAt": "2026-10-21T13:36:05.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRdIBeEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRQ?oc=5"
-    },
-    {
-     "outlet": "동아일보",
-     "cat": "kr",
-     "title": "예멘 친이란 후티반군 “아덴 내 사우디군 진지 타격”",
-     "titleKo": null,
-     "summary": "후티가 아덴에서 사우디군 진지를 타격했다고 주장하는 보도가 나왔어요.",
-     "reportedAt": "2026-10-21T13:47:22.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ITTBhLVRvbFlEZUlmZlpub2QyRC1HdWJobU9PdDM2XzhFMDlFOWpzTnpBckxkTUU3S2cyck1HSzA1Tm5DTk9lX1p5cm1kcDBXNlhMRXBNWUgyT0Njdm1tc0lsMHJrQdIBZkFVX3lxTE5ITTBhLVRvbFlEZUlmZlpub2QyRC1HdWJobU9PdDM2XzhFMDlFOWpzTnpBckxkTUU3S2cyck1HSzA1Tm5DTk9lX1p5cm1kcDBXNlhMRXBNWUgyT0Njdm1tc0lsMHJrQQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "e00fb41e7455",
-   "articleIds": [
-    "3f495f0b2b08"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "마크롱, 후티 공격 속 리야드 방문해 사우디 방어 지지",
-   "titleAuto": true,
-   "regions": [
+    "eastern",
     "riyadh"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "기사들이 '동부'와 '마디나'를 언급해 동부 지역을 포함했다고 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-10-21T13:40:32.984Z",
-   "aiNote": null,
+   "collectedAt": "2026-10-21T05:20:30.953Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "Saudi Gazette",
      "cat": "local",
-     "title": "Macron arrives in Riyadh, pledges French military support against Houthi attacks",
-     "titleKo": "마크롱, 후티 공격 속 리야드 방문해 사우디 방어 지지",
-     "summary": "프랑스 대통령이 리야드를 방문해 사우디 방어를 지지한다고 전했어요.",
-     "reportedAt": "2026-10-21T13:29:01.000Z",
+     "title": "Coalition intercepts 5 UAVs fired by Houthi militia",
+     "titleKo": "연합군, 후티가 발사한 4대 UAV 요격했다고 발표",
+     "summary": "연합군은 후티가 발사한 4대의 UAV를 요격했다고 발표했어요.",
+     "reportedAt": "2026-10-21T12:17:11.000Z",
      "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665617/saudi-arabia/macron-arrives-in-riyadh-pledges-french-defense-support-against-houthis"
+     "url": "https://saudigazette.com.sa/article/665613/saudi-arabia/coalition-intercepts-5-uavs-fired-by-houthi-militia"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi coalition intercepts 5 drones in Eastern, Madinah regions",
+     "titleKo": "연합군, 동부·마디나 향한 드론 5대 요격 발표",
+     "summary": "연합군은 동부와 마디나 방향으로 발사된 5대의 드론을 요격했다고 발표했어요.",
+     "reportedAt": "2026-10-21T14:12:54.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkVJclNtaE92RDBfeDMtM1pRZzZtblNxSjJNYjBhVURxeFhHeGhHNHdVV0h2MVdiOUlJQUt1LXdrbUU0TjRIek9mRUFjcUpIbVZxMlN4bkVRMW9sSnBFQ1dEbnNUMWxaTE84R1FFVm1GY1ZDdkdPRF94WExWSEhXbGdqLWRUOFU5VUdyRXFiWkV1M1ZtSVRBX0g2dDhqTXQ4dGJDc0RXVEprWjlX?oc=5"
     }
    ]
   },
@@ -1242,48 +1053,25 @@
    ]
   },
   {
-   "id": "244159d9b802",
+   "id": "f800bb30e788",
    "articleIds": [
-    "a8a7cf1a9384",
-    "9746ea4e0029",
     "5d131b60facb"
    ],
-   "type": "drone",
-   "sev": "high",
-   "status": "multi",
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
    "directive": null,
    "title": "마크롱, 사우디 전격 방문…\"후티 공격에 맞서 연대\"",
    "titleAuto": false,
    "regions": [
-    "eastern",
-    "riyadh"
+    "all"
    ],
-   "inferred": true,
-   "inferNote": "기사들이 동부(및 마디나)를 요격했다고 밝혀 동부 지역 관련으로 추정했어요.",
+   "inferred": false,
+   "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-21T05:20:30.953Z",
+   "collectedAt": "2026-10-21T13:20:34.175Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi coalition intercepts 5 drones in Eastern, Madina regions",
-     "titleKo": "동부·마디나 향 드론 5기 연합군이 요격",
-     "summary": "사우디 연합군이 요격했다는 보도가 여러 건 나왔어요.",
-     "reportedAt": "2026-10-21T05:13:17.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdGhhVGJEc3AzNmpCcVEzNTlnNDBua3pHOEZsSk5Wb0tobGlRZFlwNmxOWnhrMzM2ZXppY21saFl3U0s2cEJKeUpObnNkMWY0ZTZoS3Y0NkpGWV91M1R5c3ZiQU1DcW5pQW03b0JXbFhza3ppQTh6NGpUMjFVNEt4QzEzemFmMWZhQ1FCVDByQm1wTWo5R1h5cEo4eU5XVkg4blBJSFhhYUwtQQ?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts 5 UAVs fired by Houthi militia",
-     "titleKo": "연합군, 후티가 발사한 4대 UAV 요격했다고 발표",
-     "summary": "연합군은 후티가 발사한 4대의 UAV를 요격했다고 발표했어요.",
-     "reportedAt": "2026-10-21T12:17:11.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665613/saudi-arabia/coalition-intercepts-5-uavs-fired-by-houthi-militia"
-    },
     {
      "outlet": "뉴스1",
      "cat": "kr",
@@ -1297,34 +1085,35 @@
    ]
   },
   {
-   "id": "97a4d6daa7cd",
+   "id": "307f6ab8bcba",
    "articleIds": [
-    "087b2548e622"
+    "d9edbf169673"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "영국, 사우디에 타이푼 전투기 파견해 방어 지원",
+   "title": "(이미 번역 있음)",
    "titleAuto": true,
    "regions": [
-    "all"
+    "riyadh",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-21T11:40:31.991Z",
+   "collectedAt": "2026-10-21T12:20:34.326Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Al Jazeera",
+     "outlet": "Arab News",
      "cat": "local",
-     "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond - Al Jazeera",
-     "titleKo": "영국, 사우디에 타이푼 전투기 파견해 방어 지원",
-     "summary": "영국이 사우디에 타이푼 전투기를 보내 방어를 지원한다고 보도됐어요.",
-     "reportedAt": "2026-10-21T11:40:54.000Z",
+     "title": "‘I could not leave them’: Saudi airport worker recalls helping injured passengers during Riyadh attack",
+     "titleKo": "(이미 번역 있음)",
+     "summary": "공항 근무자가 리야드 공격 당시 부상자들을 도우려던 경험을 회고했다고 보도했어요.",
+     "reportedAt": "2026-10-21T12:11:36.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ2VMQTFSUmJzRXNSQzRPZVFRc1g4d0xBUjJ6VVFvWTRQTHJ0Wk1OSDFsbDF3ZWxTZEVTQTdqaVA0UGhpblYwME15VWhiSWdHNzZpZXp0Rk53ZVM3THVsX0Uxd2V5a3ZUTS1ncmFqS0tBLWZZUXF3dmlTTnV5Y3hjTEhIRjhndjNzSUhESHEwdlpUOHJZd2NGUm5zYUpPbkpUQXhKSVNDaUpTaTA4N1VSZURZY3JVaHRXMHFENzhNLVNoTDFzcEw4S1lvcWloZw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSXU4ajFxazNneUFqTjlYcmpEbjFnRVh6d2hDWi13a3hwemhiTFZySlp4SzNBcnoyVlIwdlVFRGI1cnltZHBib3Rab1lfS0tMSmZfWW1KQ0tYRUYyZkx0cEtDUTJfQ3dnMkotSmk0bzZ5SnMzZmtVRVN4bm1SR2RjZEVrX1FyemNULUI4TEFpZ2hTb3ZxR1RQS3Nzd3A0Q084REhZRkpsekYzLWxJM3VEaFVLVVBnbDNkQkNEU3JmdjJ0bGRtTlFZZHpkb1FvUlpTUklSLUM1YWRBWXpuU3c?oc=5"
     }
    ]
   },
@@ -1361,6 +1150,60 @@
    ]
   },
   {
+   "id": "3b778206ad1f",
+   "articleIds": [
+    "200c52eefa60",
+    "da1bcf02699e",
+    "65229311851a"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "multi",
+   "directive": null,
+   "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T09:40:30.610Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
+     "titleKo": null,
+     "summary": "연합뉴스는 후티의 아덴 내 사우디군 진지 타격 주장을 보도했어요.",
+     "reportedAt": "2026-10-21T09:28:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RNWVEaU9aemdkOEVVbHpsLUl3d3M1aVdJd3BmOEtVaTVJSEZ1WnF3eDhJVjVNNzBJN3JfUDhKNTBkXzRtVEV1U1FFcjFxU05wMWF2d3VuSXZNVzI2NktJM9IBYEFVX3lxTE9RNWVEaU9aemdkOEVVbHpsLUl3d3M1aVdJd3BmOEtVaTVJSEZ1WnF3eDhJVjVNNzBJN3JfUDhKNTBkXzRtVEV1U1FFcjFxU05wMWF2d3VuSXZNVzI2NktJMw?oc=5"
+    },
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "예멘 후티 반군 “아덴 내 사우디군 진지 타격”",
+     "titleKo": null,
+     "summary": "KBS는 후티의 아덴 내 사우디군 진지 타격 주장을 전했어요.",
+     "reportedAt": "2026-10-21T09:38:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVFZrQk1HNXhqVUFXSGxlWmZ4eENJYldnRjZUVzVSaERLUWRsRDQtdS1XaG5GZjNoaUdwdjJZYkxZWFFLVDZFeHo4d2FQeDZtV3hOMDFXRkdJQzg?oc=5"
+    },
+    {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
+     "titleKo": null,
+     "summary": "MBC는 후티의 아덴 타격 주장을 보도했어요.",
+     "reportedAt": "2026-10-21T09:38:56.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fU0hrS2JTRXljSVp0eFh4R3dXZWlZT2lXVlo4QTI2SDE2SXFxaU9Dd0ZkZVJmakpHUzJyOU1mZHVwcjBOYWhhYWc3OWo2VkFxVUw5dndiRDQ4aVpVMGM2NUtoUUFDRmluQVJIWlpMamlUQndu0gF0QVVfeXFMTTkyb2hodGxzR1VpclUxLVlGZHNyR3MwcUdlLXNsTnVmdy1hMEFIYXFNZmROazZ1T01qaWtZVDU5Mmxka0pvZ3lLXzVHT1lGMFRyWDRQZWhIN1U1MWtQMjJyb0dXMENpRVBIOTZtUGFmR3ZGcGc?oc=5"
+    }
+   ]
+  },
+  {
    "id": "86d87355f35e",
    "articleIds": [
     "703dee465b39"
@@ -1378,7 +1221,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-10-21T09:50:27.405Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "SBS",
@@ -1410,7 +1253,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-10-21T09:32:49.783Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "연합뉴스",
@@ -1425,15 +1268,47 @@
    ]
   },
   {
-   "id": "89307362517b",
+   "id": "b61f1ba730fc",
    "articleIds": [
-    "2e09404d6148"
+    "8d8cd59cb2b4"
    ],
-   "type": "drone",
-   "sev": "high",
+   "type": "security",
+   "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "사우디 연합군, 동부·메디나 향 드론 5대 요격·파괴",
+   "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T08:50:31.124Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
+     "titleKo": null,
+     "summary": "(이미 요약 있음)",
+     "reportedAt": "2026-10-21T08:37:50.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lcS1VNXZHeGNmTTZDdGpLNFZ2b29rSXVpVmRCLTg2eGtXSHRJNERiUE14SzFFbkhLY1FpZ1lGQVF2RW9sTXF4X3ptdUtnbDBMajczYjBCY3pKNDDSAWBBVV95cUxNaDV3V0EtTTNoYTJkRWNCWWNvbU05OWU0ZmdMcDF1STc5VFBfdkhXV2JGcFIxc0wteGxnWG9pZUFPZDJuY1VjdEFSQmMwUFVnUlpxeE1KUTBKc2ZyTVdoeDE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "b345b487bb6d",
+   "articleIds": [
+    "1c84fc8869b5"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티가 사우디전 교전 장면 공개",
    "titleAuto": true,
    "regions": [
     "all"
@@ -1441,30 +1316,63 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-21T05:10:31.536Z",
+   "collectedAt": "2026-10-21T08:30:38.432Z",
    "aiNote": null,
    "sources": [
     {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi coalition intercepts 5 drones in Eastern, Medina regions",
-     "titleKo": "사우디 연합군, 동부·메디나 향 드론 5대 요격·파괴",
-     "summary": "Arab News의 또 다른 보도에서도 드론 요격 소식이 전해졌어요.",
-     "reportedAt": "2026-10-21T05:08:03.000Z",
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Houthis release footage said to show clashes with Saudi-backed Yemeni forces",
+     "titleKo": "후티가 사우디전 교전 장면 공개",
+     "summary": "후티가 사우디 연합군을 상대로 벌어진 교전 장면을 공개했다고 보도됐어요.",
+     "reportedAt": "2026-10-21T07:48:23.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmxBN0NWdnNrb3AxR2FKUERlZ1JxOGVPb2libnpGMU5UZllkdldzT0pfMjNTRi04U0JmUUEwX3l4R0xSdlJyQllKQ2pSWnd3MkdlMi0tWlV2TU5VRWM1UUQxamhNd2FBbGR3dGp5d3l1VXVBQ2t3TVBlNTFvaE54a3FOMXRvQ3VycnBsbnB3cTlMZy1hQXExcnI1U1RKT1Q0RDFyRWpiX19GQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFWGdhV2J2QmRSSE5hTml1bzcwSGlXczgxSjRrckhyOE84X2V5dE4wQmljSkdJeTNHN0g4bXlyX0c4eFJ0SmlNVHlucXlpY1Jtekt6Z2pic3prUDlPR1ZGZkpxcmZMckU?oc=5"
     }
    ]
   },
   {
-   "id": "db3f6f35246a",
+   "id": "269416e311dd",
+   "articleIds": [
+    "013b1bb30a05"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T07:30:40.816Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
+     "titleKo": null,
+     "summary": "AP 등 보도는 영국이 방어적 공중순찰로 사우디를 지원한다고 보도했어요.",
+     "reportedAt": "2026-10-21T07:22:32.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGb2x1UUhOd21BTUVYLXNldmNzRnBUd0d1bnhScEprbTgwaTRHS2Q5c0tOazZMeTBHZUpUaVBzb2VkSThOYk5KZ3NEd2U0Slh6Y0w3OFd5d05CQjRxTVlDbEZqMzFvandN0gFuQVVfeXFMTzJnR215WkFUeFQyODczNlhqNEctUG1LZkNlNFNjQ0dIdG9xdkJXemFYN01SN0RSYW9uYmR4RkNneWxrdFo3cnhPNUxEZEFzcWRoNjk1bjduajRpcTBaaVZNN3NxV21CaUZjM1Q2MWc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "fae159e2ad51",
    "articleIds": [
     "763761a5b515",
-    "f4fe02090977"
+    "f4fe02090977",
+    "3e8dd709e310"
    ],
    "type": "drone",
    "sev": "high",
-   "status": "multi",
+   "status": "official",
    "directive": null,
    "title": "연합군, 사우디 향한 4기 드론 요격·파괴 확인",
    "titleAuto": true,
@@ -1496,6 +1404,59 @@
      "reportedAt": "2026-10-21T04:30:28.000Z",
      "dateOnly": false,
      "url": "https://english.aawsat.com/node/5331807"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Four UAVs Launched Toward Saudi Arabia Intercepted, Destroyed",
+     "titleKo": "연합군: 사우디로 발사된 4대 UAV 요격·파괴",
+     "summary": "SPA는 4기의 UAV가 사우디로 발사돼 요격·파괴됐다고 전했어요.",
+     "reportedAt": "2026-10-21T05:31:28.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5tUExhaVhGaUoxeUhsMU1Kc3E1dmNqVVdMdEk5SHlOM3dRejd1aWRKdDZRelc1UjVZelAwdzQzNkprTktQQkN5Nm9n?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "d246981a9fa6",
+   "articleIds": [
+    "2e09404d6148",
+    "a8a7cf1a9384"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 연합군, 동부·메디나 향 드론 5대 요격·파괴",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-21T05:10:31.536Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi coalition intercepts 5 drones in Eastern, Medina regions",
+     "titleKo": "사우디 연합군, 동부·메디나 향 드론 5대 요격·파괴",
+     "summary": "Arab News의 또 다른 보도에서도 드론 요격 소식이 전해졌어요.",
+     "reportedAt": "2026-10-21T05:08:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmxBN0NWdnNrb3AxR2FKUERlZ1JxOGVPb2libnpGMU5UZllkdldzT0pfMjNTRi04U0JmUUEwX3l4R0xSdlJyQllKQ2pSWnd3MkdlMi0tWlV2TU5VRWM1UUQxamhNd2FBbGR3dGp5d3l1VXVBQ2t3TVBlNTFvaE54a3FOMXRvQ3VycnBsbnB3cTlMZy1hQXExcnI1U1RKT1Q0RDFyRWpiX19GQQ?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi coalition intercepts 5 drones in Eastern, Madina regions",
+     "titleKo": "동부·마디나 향 드론 5기 연합군이 요격",
+     "summary": "사우디 연합군이 요격했다는 보도가 여러 건 나왔어요.",
+     "reportedAt": "2026-10-21T05:13:17.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdGhhVGJEc3AzNmpCcVEzNTlnNDBua3pHOEZsSk5Wb0tobGlRZFlwNmxOWnhrMzM2ZXppY21saFl3U0s2cEJKeUpObnNkMWY0ZTZoS3Y0NkpGWV91M1R5c3ZiQU1DcW5pQW03b0JXbFhza3ppQTh6NGpUMjFVNEt4QzEzemFmMWZhQ1FCVDByQm1wTWo5R1h5cEo4eU5XVkg4blBJSFhhYUwtQQ?oc=5"
     }
    ]
   },
@@ -4479,6 +4440,24 @@
  ],
  "timeline": [
   {
+   "id": "8c22362bd33e",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "미, 사우디 체류 인원 출국 명령–후티 위협 이유",
+   "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat - Al Jazeera",
+   "summary": "미 국무부는 후티 위협을 이유로 사우디 주재 인원 출국을 명령했다고 전해요.",
+   "reportedAt": "2026-10-22T00:47:20.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdUxoa09KQm4tYmtFQ3REdW9vR0VtNXFMREdfdlFnSFJZR0RJVFo4cDBkaGY0bm9wS0JYbVZVWEFBQlNaQkpuOWxrWEFTUTN1OFR5c19HbGpsOEFGTHdkbDVNTmZaUzlNMWJxSmVYWWp0cG5yc3BCYjlaLUs1VU1NeExwb1VVbFdlaGdaT0lVTDBxVGdOb20zN1lJNVcwTHBkS3JUWV9xeXJFc0tId0lrNE1EdVFKd0E3enB1OHBzMHBINkRhNzhYSzQzdXA?oc=5"
+  },
+  {
    "id": "49ac2dfcad73",
    "outlet": "Al Jazeera",
    "official": false,
@@ -4489,9 +4468,9 @@
     "airport"
    ],
    "inferred": false,
-   "titleKo": "사우디 킹 파흐드 공항 공격으로 1명 사망·8명 부상",
+   "titleKo": "킹파드 공항 공격으로 1명 사망·8명 부상",
    "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-   "summary": "",
+   "summary": "킹파드 공항 공격으로 1명이 숨지고 8명이 다쳤다고 보도됐어요.",
    "reportedAt": "2026-10-22T00:25:41.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss"
@@ -4507,9 +4486,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "미, 후티 위협 이유로 사우디아라비아 직원 철수 명령",
+   "titleKo": "미, 사우디 주재 인원 철수 명령–후티 위협 지적",
    "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
-   "summary": "",
+   "summary": "미 국무부는 후티가 사우디에 대한 적대행위를 확대하고 있어 인원 철수를 지시했다고 밝혔어요.",
    "reportedAt": "2026-10-21T23:13:35.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss"
@@ -4529,7 +4508,7 @@
    "inferred": false,
    "titleKo": "GACA: 담맘 킹파드 국제공항 공격…1명 사망·8명 부상",
    "title": "GACA: Attack Targets King Fahd International Airport in Dammam; One Killed, Eight Injured",
-   "summary": "",
+   "summary": "사우디 항공청은 담맘 킹파드 공항 공격으로 1명 사망, 8명 부상이라고 발표했어요.",
    "reportedAt": "2026-10-21T22:54:29.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBwMVk0U0haOEMzeVZwVHVVcHhDLTh1N2s3THU4Y3A0SWI3TzUxa2JIVEpfX3g0UlUwM0JMNVJWd0tlYzhhTDlJSWZB?oc=5"
@@ -4563,9 +4542,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
+   "titleKo": "단독: 후티 공격 속 미, 사우디 주재 외교관 출국 명령",
    "title": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
-   "summary": "미국이 일부 외교관의 출국을 명령했다고 보도했어요.",
+   "summary": "로이터는 미가 후티 공격을 이유로 외교관 철수를 명령했다고 단독 보도했어요.",
    "reportedAt": "2026-10-21T20:11:06.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5"
@@ -4583,7 +4562,7 @@
    "inferred": false,
    "titleKo": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
    "title": "Faisal Alkabbani Turns Childhood Passion into Back-to-Back Saudi Time Attack Titles",
-   "summary": "사우디 에너지부는 샤이바 유전 공격으로 2명이 사망했지만 운영에는 차질이 없다고 발표했어요.",
+   "summary": "사우디 국영통신의 스포츠 관련 기사로 보도 목적이 다르다고 전해졌어요.",
    "reportedAt": "2026-10-21T19:36:11.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IY2xfUWNXdVpwRExwODNaNFZ2eUlZLURqWW9seG13b1hpdGF5SWFmS0FIaWxaNlRMTnFwV21ac2lpM0lWZGp1Ylln?oc=5"
@@ -4727,7 +4706,7 @@
    "inferred": false,
    "titleKo": "후티, 메디나 향 드론 발사 부인",
    "title": "Yemen's Houthis deny launching drones towards Saudi Arabia's Medina",
-   "summary": "Reuters는 후티가 메디나 향 드론 발사를 부인했다고 전했어요.",
+   "summary": "후티는 마디나 향 드론 발사 혐의를 부인하는 보도가 있다고 전해졌어요.",
    "reportedAt": "2026-10-21T11:27:24.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc2ZjQXV3eDBJb0ZSQVR6eGFkazItZW9IbnhpQVJESVNVekFRZzJNSFhSRFZjMlRLMmQ0TDFBMHlBQkJ0dlBUY1dVSEQ5Z204MVZ2ODJpQ2xuaVpNb2N3WGdVUExETTdTbXdnMGNYZmVUN1Y2ajZmRUc3ZmZvMFJpT2ozdW85bng5QnRhQVBtUjhocVZwVmt2Q3RIdDdRSU9RcXA1T2JlUmNvVk5vMVk0c21WcDhTbWhIdGdyWnh3?oc=5"
@@ -4763,7 +4742,7 @@
    "inferred": false,
    "titleKo": "후티, 메디나 향 드론 발사 부인",
    "title": "Yemen's Houthis deny launching drones towards Saudi Medina on Wednesday",
-   "summary": "Reuters의 다른 보도에서도 후티의 메디나 향 드론 발사 부인이 전해졌어요.",
+   "summary": "후티는 마디나 향 드론 발사를 부인했다고 로이터가 보도했어요.",
    "reportedAt": "2026-10-21T09:45:48.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc2ZjQXV3eDBJb0ZSQVR6eGFkazItZW9IbnhpQVJESVNVekFRZzJNSFhSRFZjMlRLMmQ0TDFBMHlBQkJ0dlBUY1dVSEQ5Z204MVZ2ODJpQ2xuaVpNb2N3WGdVUExETTdTbXdnMGNYZmVUN1Y2ajZmRUc3ZmZvMFJpT2ozdW85bng5QnRhQVBtUjhocVZwVmt2Q3RIdDdRSU9RcXA1T2JlUmNvVk5vMVk0c21WcDhTbWhIdGdyWnh3?oc=5"
@@ -5312,6 +5291,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "8c22362bd33e",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdUxoa09KQm4tYmtFQ3REdW9vR0VtNXFMREdfdlFnSFJZR0RJVFo4cDBkaGY0bm9wS0JYbVZVWEFBQlNaQkpuOWxrWEFTUTN1OFR5c19HbGpsOEFGTHdkbDVNTmZaUzlNMWJxSmVYWWp0cG5yc3BCYjlaLUs1VU1NeExwb1VVbFdlaGdaT0lVTDBxVGdOb20zN1lJNVcwTHBkS3JUWV9xeXJFc0tId0lrNE1EdVFKd0E3enB1OHBzMHBINkRhNzhYSzQzdXA?oc=5",
+    "reportedAt": 1792630040000,
+    "assumeSaudi": false,
+    "firstSeen": 1792633830713
+   },
+   {
     "id": "49ac2dfcad73",
     "feed": "Al Jazeera",
     "cat": "local",
@@ -5548,6 +5541,20 @@
     "reportedAt": 1792618279000,
     "assumeSaudi": false,
     "firstSeen": 1792618830092
+   },
+   {
+    "id": "eeeb6f73805f",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "SBS",
+    "title": "美, 사우디 체류 美공무원·가족에 철수 명령…후티 공격 임박 전망",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aU1FBLVMwaTFrUlY3eUg2cDFwd29USnd3eE9fWDY4VTBnS0tyVmdqLXM4NlVsdUJmTzRuNl9wNVBiRzBOZkd3ZEZUTWJpWXgxSEx1OWpVWUXSAVhBVV95cUxNWlNRQS1TMGkxa1JWN3lINnAxcHdvVEp3d3hPX1g2OFUwZ0tLclZnai1zODZVbHVCZk80bjZfcDVQYkcwTmZHd2RGVE1iaVl4MUhMdTlqVVlF?oc=5",
+    "reportedAt": 1792617780000,
+    "assumeSaudi": false,
+    "firstSeen": 1792633830713
    },
    {
     "id": "850d9fabb6e0",
@@ -5964,7 +5971,7 @@
     "outlet": "뉴시스",
     "title": "예멘 친이란 후티반군 \"아덴 내 사우디군 진지 타격\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRdIBeEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YeGQ4NG9EdjhJVms1Xy1tZGp2TU9oY2t6N01ZUmdxZlQ5WkF0NmQyZUdhQ1hwUDV1czJNUTQ4SzFQclhPZlJMeTc1amxMOE9hdXAtMDJFLUJWaTdRemFnWdIBeEFVX3lxTE1HZ1ctakV5Wng2Y2ZjM1dJY0xPZGRFcHp4RHc4TzVNRE9QX3RXVm9DcExpWmt3d0k0dTVVY1ZMQ3hNN3Z2Tzc1d2NjRjZ4SUhsUXYyZW1qNUlNT1JaZG5uZU1xMFBOSGNDUXhDbmtscUtZaEEyMHVCRQ?oc=5",
     "reportedAt": 1792589765000,
     "assumeSaudi": false,
     "firstSeen": 1792590632361
@@ -6132,7 +6139,7 @@
     "outlet": "MBC",
     "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05Mm9oaHRsc0dVaXJVMS1ZRmRzckdzMHFHZS1zbE51ZnctYTBBSGFxTWZkTms2dU9NamlrWVQ1OTJsZGtKb2d5S181R09ZRjBUclg0UGVoSDdVNTFrUDIycm9HVzBDaUVQSDk2bVBhZkd2RnBn0gF0QVVfeXFMTTkyb2hodGxzR1VpclUxLVlGZHNyR3MwcUdlLXNsTnVmdy1hMEFIYXFNZmROazZ1T01qaWtZVDU5Mmxka0pvZ3lLXzVHT1lGMFRyWDRQZWhIN1U1MWtQMjJyb0dXMENpRVBIOTZtUGFmR3ZGcGc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fU0hrS2JTRXljSVp0eFh4R3dXZWlZT2lXVlo4QTI2SDE2SXFxaU9Dd0ZkZVJmakpHUzJyOU1mZHVwcjBOYWhhYWc3OWo2VkFxVUw5dndiRDQ4aVpVMGM2NUtoUUFDRmluQVJIWlpMamlUQndu0gF0QVVfeXFMTTkyb2hodGxzR1VpclUxLVlGZHNyR3MwcUdlLXNsTnVmdy1hMEFIYXFNZmROazZ1T01qaWtZVDU5Mmxka0pvZ3lLXzVHT1lGMFRyWDRQZWhIN1U1MWtQMjJyb0dXMENpRVBIOTZtUGFmR3ZGcGc?oc=5",
     "reportedAt": 1792575536000,
     "assumeSaudi": false,
     "firstSeen": 1792578641592
@@ -6230,7 +6237,7 @@
     "outlet": "머니투데이",
     "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yZ0dteVpBVHhUMjg3MzZYajRHLVBtS2ZDZTRTY0NHSHRvcXZCV3phWDdNUjdEUmFvbmJkeEZDZ3lsa3RaN3J4TzVMRGRBc3FkaDY5NW43bmo0aXEwWmlWTTdzcVdtQmlGYzNUNjFn0gFuQVVfeXFMTzJnR215WkFUeFQyODczNlhqNEctUG1LZkNlNFNjQ0dIdG9xdkJXemFYN01SN0RSYW9uYmR4RkNneWxrdFo3cnhPNUxEZEFzcWRoNjk1bjduajRpcTBaaVZNN3NxV21CaUZjM1Q2MWc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGb2x1UUhOd21BTUVYLXNldmNzRnBUd0d1bnhScEprbTgwaTRHS2Q5c0tOazZMeTBHZUpUaVBzb2VkSThOYk5KZ3NEd2U0Slh6Y0w3OFd5d05CQjRxTVlDbEZqMzFvandN0gFuQVVfeXFMTzJnR215WkFUeFQyODczNlhqNEctUG1LZkNlNFNjQ0dIdG9xdkJXemFYN01SN0RSYW9uYmR4RkNneWxrdFo3cnhPNUxEZEFzcWRoNjk1bjduajRpcTBaaVZNN3NxV21CaUZjM1Q2MWc?oc=5",
     "reportedAt": 1792567352000,
     "assumeSaudi": false,
     "firstSeen": 1792567840816
@@ -7989,7 +7996,7 @@
    "a8a7cf1a9384": "사우디 연합군이 요격했다는 보도가 여러 건 나왔어요.",
    "2e09404d6148": "Arab News의 또 다른 보도에서도 드론 요격 소식이 전해졌어요.",
    "f4fe02090977": "Asharq는 사우디로 발사된 드론들이 요격·파괴됐다고 보도했어요.",
-   "931f57e4d9f8": "사우디 연합군이 동부와 마디나 지역으로 발사된 드론 5대를 요격했다고 발표했어요.",
+   "931f57e4d9f8": "연합군은 동부와 마디나 방향으로 발사된 5대의 드론을 요격했다고 발표했어요.",
    "a0ccfd8021fc": "연합 대변인은 리야드로 향한 탄도미사일과 드론을 요격했다고 밝혔어요.",
    "014f41f485cb": "(이미 요약 있음)",
    "8d8cd59cb2b4": "(이미 요약 있음)",
@@ -7999,19 +8006,19 @@
    "e3fb7938e8cd": "AFP는 이집트가 후티와의 전쟁 참여를 검토 중이라고 보도했으나 이집트는 공격 불가 방침을 밝혔어요.",
    "f990ae70cfbd": "알자지라는 영국 전투기 파견이 사우디 방어 강화라는 맥락이라고 보도했어요.",
    "290e14831146": "SBS는 후티 반군이 아덴의 사우디군 진지 타격을 주장했다고 보도했어요.",
-   "3481fbb9bb27": "Reuters의 다른 보도에서도 후티의 메디나 향 드론 발사 부인이 전해졌어요.",
+   "3481fbb9bb27": "후티는 마디나 향 드론 발사를 부인했다고 로이터가 보도했어요.",
    "65229311851a": "MBC는 후티의 아덴 타격 주장을 보도했어요.",
    "da1bcf02699e": "KBS는 후티의 아덴 내 사우디군 진지 타격 주장을 전했어요.",
    "703dee465b39": "(이미 요약 있음)",
    "200c52eefa60": "연합뉴스는 후티의 아덴 내 사우디군 진지 타격 주장을 보도했어요.",
    "9746ea4e0029": "연합군은 후티가 발사한 4대의 UAV를 요격했다고 발표했어요.",
    "5d131b60facb": "뉴스1은 마크롱의 사우디 방문과 연대 표명을 보도했어요.",
-   "5e2ad10fa9e1": "Reuters는 후티가 메디나 향 드론 발사를 부인했다고 전했어요.",
+   "5e2ad10fa9e1": "후티는 마디나 향 드론 발사 혐의를 부인하는 보도가 있다고 전해졌어요.",
    "d9edbf169673": "공항 근무자가 리야드 공격 당시 부상자들을 도우려던 경험을 회고했다고 보도했어요.",
    "4a1b1074dd5d": "Reuters는 이집트가 사우디 방어 지원에서 예멘 공격은 배제한다고 보도했어요.",
    "ec4d7cddb266": "알자지라는 영국·프랑스가 사우디-후티 분쟁에 끌려들고 있는지 여부를 분석해 보도했어요.",
-   "bea376d4ada5": "후티가 아덴에서 사우디군 진지를 타격했다고 주장하는 보도가 나왔어요.",
-   "d78c68297ea6": "후티가 아덴 내 사우디군 진지 타격을 주장했다고 보도했어요.",
+   "bea376d4ada5": "후티가 아덴 내 사우디군 진지를 타격했다고 주장했다고 보도됐어요.",
+   "d78c68297ea6": "후티는 아덴의 사우디군 진지 타격을 주장했다고 전해졌어요.",
    "3f495f0b2b08": "프랑스 대통령이 리야드를 방문해 사우디 방어를 지지한다고 전했어요.",
    "ab7b473618e7": "알자지라는 영국과 프랑스의 사우디 지원이 후티의 반응을 복잡하게 만들 수 있다고 보도했어요.",
    "539caa020de2": "중앙일보는 스포츠 대회들이 연달아 연기됐다고 보도했어요.",
@@ -8021,34 +8028,44 @@
    "ce7f78092922": "프랑스 대통령 마크롱이 사우디를 방문해 방어 지지를 약속했다고 보도했어요.",
    "1b7d411a3aee": "사우디와 요르단 외교장관이 후티 공격을 논의하고 협력 체계에 관한 의정서에 서명했다고 보도했어요.",
    "af8f73fa349a": "Arab News는 이집트가 사우디 방어 지원을 검토하지만 예멘 공격은 포함하지 않는다고 전했어요.",
-   "6bda29bd25fc": "샤이바 유전 드론 공격으로 외국인 2명이 사망했다고 보도했어요.",
-   "6a56c26e82e5": "사우디 당국은 드론 공격으로 유전 잔해에 맞아 2명이 숨졌다고 발표했어요.",
-   "0ec0208fbd90": "미국이 일부 외교관의 출국을 명령했다고 보도했어요.",
-   "17e480e8761e": "미국이 후티의 공격 증가를 이유로 일부 외교관 철수를 명령했다고 보도했어요.",
-   "72042bdf68df": "미국이 사우디 체류 공무원 및 가족에게 대피령을 내렸다고 보도했어요.",
-   "c95befa2c37a": "사우디가 샤이바 유전에 대한 드론 공격으로 외국인 2명이 사망했지만 운영에는 영향이 없다고 발표했어요.",
-   "80d94b4db67e": "샤이바 유전 드론 공격으로 외국인 2명이 숨졌다고 사우디가 발표했어요.",
-   "995f0b7bd85a": "샤이바 유전 공격으로 외국인 2명이 숨졌고 사우디 방공이 드론을 요격했다고 보도했어요.",
-   "0e81df85dacd": "미국이 후티의 공격 속에서 외교관 철수를 명령했다고 보도했어요.",
-   "4e2b3032a6b0": "사우디 에너지부는 샤이바 유전 공격으로 2명이 사망했지만 운영에는 차질이 없다고 발표했어요.",
-   "a2af509cc084": "호르무즈 유조선 피격과 사우디 석유시설 공격 소식이 국제유가에 영향을 미쳤다고 전했어요.",
-   "8eeb555e81fa": "미국이 사우디에 주재 중인 직원과 가족의 철수를 명령했다고 보도했어요.",
-   "d985789f03a1": "사우디 동부에서 공항과 석유시설 공격으로 3명이 숨졌다고 보도했어요.",
+   "6bda29bd25fc": "샤이바 유전 타깃 드론 공격으로 외국인 2명이 숨졌다고 보도됐어요.",
+   "6a56c26e82e5": "사우디 당국은 드론 공격 후 유전 잔해로 2명이 숨졌다고 밝혔다고 보도됐어요.",
+   "0ec0208fbd90": "로이터는 미가 후티 공격을 이유로 외교관 철수를 명령했다고 단독 보도했어요.",
+   "17e480e8761e": "미 국무부가 일부 외교관의 출국을 명령했다고 보도됐어요.",
+   "72042bdf68df": "미국이 후티 공격 임박을 이유로 사우디 체류 미 공무원·가족 대피령을 내렸다고 전해요.",
+   "c95befa2c37a": "샤이바 유전에 대한 드론 공격으로 2명이 숨졌고 공정에는 차질이 없다고 전해졌어요.",
+   "80d94b4db67e": "샤이바 유전 공격으로 외국인 2명이 사망했다고 보도됐어요.",
+   "995f0b7bd85a": "샤이바 유전 공격으로 외국인 2명이 숨지고 2명이 부상했다고 사우디 에너지부가 발표했다고 전해요.",
+   "0e81df85dacd": "샤이바 유전 공격과 관련해 외교관 철수 보도들이 교차 보도됐어요.",
+   "4e2b3032a6b0": "사우디 국영통신의 스포츠 관련 기사로 보도 목적이 다르다고 전해졌어요.",
+   "a2af509cc084": "호르무즈 유조선 피격과 사우디 석유시설 공격으로 국제유가에 영향이 있었다고 보도됐어요.",
+   "8eeb555e81fa": "미가 후티 위협을 이유로 사우디 주재 직원·가족 철수 명령을 내렸다고 보도됐어요.",
+   "d985789f03a1": "동부에서 공항과 석유시설 공격으로 사망자가 발생했다고 보도됐어요.",
    "7a9ef60808ad": "사우디 민항당국은 킹파드 공항 공격으로 1명이 숨지고 8명이 다쳤다고 밝혔어요.",
-   "6d718d1b7265": "미국이 사우디 주재 공무원과 가족에게 철수 명령을 내렸다고 보도했어요.",
-   "ea3ebeeaaa94": "미국이 후티 위협을 이유로 사우디 체류 공무원과 가족에게 대피 명령을 내렸다고 전했어요.",
-   "731884d14993": "미국이 사우디 체류 공무원들에게 대피령을 내렸다고 보도했어요.",
-   "82f3887ee71b": "미국이 사우디 체류 공무원과 가족에게 대피령을 내렸다고 보도했어요.",
-   "738f2048e582": "이집트 대통령이 사우디 영토는 방어하겠지만 예멘 공격은 배제한다고 말했어요.",
+   "6d718d1b7265": "미 정부가 사우디 주재 공무원·가족 철수를 지시했다고 전해요.",
+   "ea3ebeeaaa94": "미가 후티 공격 임박을 이유로 사우디 체류 미 공무원과 가족에 대피령을 내렸다고 보도됐어요.",
+   "731884d14993": "미가 사우디에 체류 중인 공무원 대피를 명령했다고 보도됐어요.",
+   "82f3887ee71b": "미 정부가 후티 위협을 들어 사우디 체류 공무원과 가족에 철수 명령을 내렸다고 전해요.",
+   "738f2048e582": "이집트 대통령은 사우디 영토 방어에는 나서겠으나 예멘 공격은 제외하겠다고 말했다고 보도됐어요.",
    "860caea64187": "미국이 후티 공격이 이어지자 사우디 주재 외교관의 철수를 명령했다고 보도했어요.",
-   "850d9fabb6e0": "미국이 사우디 공무원과 가족의 철수를 명령했다고 보도했어요.",
-   "c36e719137f2": "이집트 대통령이 사우디 지원은 하되 예멘 직접 공격은 하지 않겠다고 밝혔어요.",
-   "457f90ebe000": "미국이 주사우디 대사관의 비필수 직원과 가족에게 철수 명령을 내렸다고 보도했어요.",
-   "6e0882036cf5": "사우디 종교학자회의가 후티의 민간 및 성지 공격을 비난하며 테러 규정을 언급했다고 보도했어요.",
-   "e0c0f72edda8": "미국이 사우디 체류 공무원 등에 대피령을 내렸다고 전했어요.",
-   "ad05bef46c14": "샤이바 유전이 드론 공격을 받아 외국인 2명이 숨졌다고 보도했어요.",
-   "9055bf6fd7e2": "사우디 방공이 샤이바 유전을 향한 드론을 요격했다고 보도했어요.",
-   "d5ec3dcef267": "사우디 종교학자회의가 후티의 민간 및 성지 공격을 규탄했다고 보도했어요."
+   "850d9fabb6e0": "미가 사우디 공무원·가족 철수를 명령했다고 보도됐어요.",
+   "c36e719137f2": "이집트 대통령은 사우디 지원하겠지만 예멘 직접 공격은 하지 않겠다고 말했다고 보도됐어요.",
+   "457f90ebe000": "미가 비필수 직원·가족 철수를 명령했다고 보도됐어요.",
+   "6e0882036cf5": "사우디 성직자협의회가 후티를 테러집단으로 규정했다고 보도됐어요.",
+   "e0c0f72edda8": "미가 사우디 체류 공무원 대피령을 내렸다고 전해요.",
+   "ad05bef46c14": "샤이바 유전을 겨냥한 드론 공격으로 외국인 2명이 사망했다고 보도됐어요.",
+   "9055bf6fd7e2": "사우디 방공이 샤이바 유전 목표 드론을 요격했다고 전해졌어요.",
+   "d5ec3dcef267": "사우디 종교학자회의가 후티의 민간 및 성지 공격을 규탄했다고 보도했어요.",
+   "8c22362bd33e": "미 국무부는 후티 위협을 이유로 사우디 주재 인원 출국을 명령했다고 전해요.",
+   "49ac2dfcad73": "킹파드 공항 공격으로 1명이 숨지고 8명이 다쳤다고 보도됐어요.",
+   "9ab0c56eb09d": "미국이 사우디 체류 미 공무원과 가족에게 대피령을 내렸다고 보도했어요.",
+   "1b3a0e0c46e4": "샤이바 유전을 겨냥한 드론 공격으로 외국인 노동자 2명이 숨졌다고 전해요.",
+   "eb20a94d3e6f": "미국이 사우디 주재 외교관들에게 출국 명령을 내렸고 대피가 진행됐다고 전해요.",
+   "180e275dfe70": "당국은 동부의 한 공항 공격으로 1명이 숨졌다고 발표했다고 보도됐어요.",
+   "60788c7fd8e6": "미 국무부는 후티가 사우디에 대한 적대행위를 확대하고 있어 인원 철수를 지시했다고 밝혔어요.",
+   "35be6eadc301": "미가 사우디 주재 직원·가족 철수를 명령했다고 전해요.",
+   "61c0b3e247ca": "사우디 항공청은 담맘 킹파드 공항 공격으로 1명 사망, 8명 부상이라고 발표했어요.",
+   "eeeb6f73805f": "미가 사우디 체류 미공무원·가족에 철수 명령을 내렸다고 보도됐어요."
   },
   "titlesKo": {
    "91007dfce51c": "(이미 번역 있음)",
@@ -8165,7 +8182,7 @@
    "f4fe02090977": "(이미 번역 있음)",
    "2e09404d6148": "사우디 연합군, 동부·메디나 향 드론 5대 요격·파괴",
    "a8a7cf1a9384": "동부·마디나 향 드론 5기 연합군이 요격",
-   "931f57e4d9f8": "연합군, 동부·마디나 지역으로 발사된 드론 5대 요격",
+   "931f57e4d9f8": "연합군, 동부·마디나 향한 드론 5대 요격 발표",
    "3e8dd709e310": "연합군: 사우디로 발사된 4대 UAV 요격·파괴",
    "1c84fc8869b5": "후티가 사우디전 교전 장면 공개",
    "014f41f485cb": "(이미 번역 있음)",
@@ -8187,7 +8204,7 @@
    "200c52eefa60": "(이미 번역 있음)",
    "ec4d7cddb266": "(이미 번역 있음)",
    "4a1b1074dd5d": "이집트 시시 대통령, 사우디의 대예멘 역할에 예멘 공격은 포함되지 않을 것이라고 밝혀",
-   "bea376d4ada5": "후티 반군, 아덴 내 사우디군 진지 타격했다고 주장",
+   "bea376d4ada5": "후티 반군, 아덴의 사우디군 진지 타격했다고 주장",
    "d78c68297ea6": "후티 반군 \"아덴 내 사우디군 진지 타격\" 주장",
    "703dee465b39": "(이미 번역 있음)",
    "539caa020de2": "(이미 번역 있음)",
@@ -8200,7 +8217,7 @@
    "0e81df85dacd": "샤이바 유전 공격으로 2명 사망, 운영에는 영향 없어: Saudi energy ministry",
    "6a56c26e82e5": "드론 공격 여파로 유전 시설 잔해에 2명 사망",
    "17e480e8761e": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
-   "0ec0208fbd90": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
+   "0ec0208fbd90": "단독: 후티 공격 속 미, 사우디 주재 외교관 출국 명령",
    "4e2b3032a6b0": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
    "c36e719137f2": "이집트 대통령 \"사우디 지원하겠지만 예멘 직접 공격 않겠다\"",
    "72042bdf68df": "미, 후티 공격 임박 우려로 사우디 체류 공무원·가족 일부 출국 명령",
@@ -8215,37 +8232,17 @@
    "d985789f03a1": "사우디 동부 공항·석유시설 공격으로 3명 사망",
    "ad05bef46c14": "샤이바 유전 겨냥 드론 공격으로 외국인 2명 사망",
    "8eeb555e81fa": "美, 사우디 주재 직원·가족 철수 명령…후티 위협에 경계 강화",
-   "60788c7fd8e6": "미, 후티 위협 이유로 사우디아라비아 직원 철수 명령",
+   "60788c7fd8e6": "미, 사우디 주재 인원 철수 명령–후티 위협 지적",
    "61c0b3e247ca": "GACA: 담맘 킹파드 국제공항 공격…1명 사망·8명 부상",
-   "180e275dfe70": "당국 \"사우디 동부 공항 공격으로 1명 사망\"",
-   "49ac2dfcad73": "사우디 킹 파흐드 공항 공격으로 1명 사망·8명 부상"
+   "180e275dfe70": "동부 사우디 공항 공격으로 1명 사망",
+   "49ac2dfcad73": "킹파드 공항 공격으로 1명 사망·8명 부상",
+   "8c22362bd33e": "미, 사우디 체류 인원 출국 명령–후티 위협 이유",
+   "1b3a0e0c46e4": "샤이바 유전 노린 드론 공격에 외국인 노동자 2명 사망"
   },
   "aiClusters": [
    {
     "articleIds": [
-     "8eeb555e81fa",
-     "6d718d1b7265",
-     "ea3ebeeaaa94",
-     "731884d14993",
-     "82f3887ee71b",
-     "860caea64187",
-     "850d9fabb6e0",
-     "457f90ebe000",
-     "e0c0f72edda8",
-     "17e480e8761e",
-     "0ec0208fbd90"
-    ],
-    "titleKo": "미국, 사우디 체류 공무원·가족 대피 명령이라고 보도",
-    "type": "evacuation",
-    "regions": [],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
-    "evacuationOrder": true,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
+     "1b3a0e0c46e4",
      "ad05bef46c14",
      "c95befa2c37a",
      "80d94b4db67e",
@@ -8254,33 +8251,33 @@
      "0e81df85dacd",
      "9055bf6fd7e2",
      "6bda29bd25fc",
-     "a2af509cc084",
-     "d5ec3dcef267"
+     "0ec0208fbd90"
     ],
-    "titleKo": "샤이바 유전 드론 공격으로 외국인 2명 사망이라고 사우디 발표",
+    "titleKo": "샤이바 유전 드론 공격으로 외국인 노동자 2명 사망",
     "type": "energy",
     "regions": [
-     "eastern",
-     "jafurah"
+     "jafurah",
+     "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "샤이바(Shaybah) 유전이 사우디 동부의 유전 지역에 있어 동부와 자푸라(근처)로 추정했어요.",
+    "inferNote": "기사에 '샤이바(Shaybah) 유전'이라는 지명만 있어 동부주(아람코 주요 유전 지역)로 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
+     "49ac2dfcad73",
+     "61c0b3e247ca",
      "7a9ef60808ad",
-     "d985789f03a1",
-     "d9edbf169673",
-     "3e8dd709e310",
-     "931f57e4d9f8"
+     "180e275dfe70",
+     "d985789f03a1"
     ],
-    "titleKo": "카심 공항(킹파드공항) 공격으로 1명 사망·여러 부상이라고 발표",
+    "titleKo": "담맘 킹파드 공항 공격으로 1명 사망·8명 부상",
     "type": "airport",
     "regions": [
-     "riyadh",
+     "dammam",
+     "eastern",
      "airport"
     ],
     "regionInferred": false,
@@ -8291,17 +8288,42 @@
    },
    {
     "articleIds": [
-     "9746ea4e0029",
-     "a8a7cf1a9384",
-     "5d131b60facb"
+     "8c22362bd33e",
+     "60788c7fd8e6",
+     "17e480e8761e",
+     "35be6eadc301",
+     "8eeb555e81fa",
+     "ea3ebeeaaa94",
+     "731884d14993",
+     "82f3887ee71b",
+     "6d718d1b7265",
+     "72042bdf68df",
+     "860caea64187"
     ],
-    "titleKo": "연합군, 동부·마디나 지역으로 드론 4~5대 요격했다고 발표",
-    "type": "drone",
+    "titleKo": "미, 사우디 주재 직원·가족 철수 명령",
+    "type": "evacuation",
     "regions": [
      "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "기사들이 동부(및 마디나)를 요격했다고 밝혀 동부 지역 관련으로 추정했어요.",
+    "inferNote": "기사들이 사우디 전역 언급이 있으나 대체로 동부 지역 공격 우려를 배경으로 해 동부로 추정했어요.",
+    "claimOnly": false,
+    "evacuationOrder": true,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "931f57e4d9f8",
+     "9746ea4e0029"
+    ],
+    "titleKo": "사우디 연합군, 동부·마디나 향한 드론 5대 요격했다고 발표",
+    "type": "security",
+    "regions": [
+     "eastern",
+     "riyadh"
+    ],
+    "regionInferred": true,
+    "inferNote": "기사들이 '동부'와 '마디나'를 언급해 동부 지역을 포함했다고 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
@@ -8310,64 +8332,55 @@
     "articleIds": [
      "bea376d4ada5",
      "d78c68297ea6",
-     "290e14831146",
-     "65229311851a",
-     "da1bcf02699e",
-     "200c52eefa60",
-     "1c84fc8869b5",
      "5e2ad10fa9e1",
-     "3481fbb9bb27"
+     "3481fbb9bb27",
+     "290e14831146",
+     "3f495f0b2b08",
+     "dc455fbe71b5",
+     "100a428a93c9",
+     "ce7f78092922",
+     "af8f73fa349a",
+     "4a1b1074dd5d",
+     "087b2548e622",
+     "f990ae70cfbd",
+     "ec4d7cddb266",
+     "d5ec3dcef267",
+     "6e0882036cf5"
     ],
-    "titleKo": "후티 반군, 아덴 내 사우디군 진지 타격이라고 주장",
-    "type": "security",
-    "regions": [],
-    "regionInferred": false,
-    "inferNote": "",
+    "titleKo": "후티 반군, 사우디 군 시설·공격 연루 주장 보도",
+    "type": "missile",
+    "regions": [
+     "riyadh"
+    ],
+    "regionInferred": true,
+    "inferNote": "기사들이 사우디 전역과 예멘 관련 보도를 섞어 다뤄 특정 지역을 바로 밝히지 않아 수도권 등으로 추정했어요.",
     "claimOnly": true,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "ce7f78092922",
-     "af8f73fa349a",
-     "4a1b1074dd5d",
-     "dc455fbe71b5",
-     "91ca0ca68cf5",
-     "100a428a93c9",
-     "013b1bb30a05",
-     "8d8cd59cb2b4",
-     "f990ae70cfbd"
-    ],
-    "titleKo": "각국 정상·장관들, 사우디 방어 지지와 군사·외교 협력 소식",
-    "type": "security",
-    "regions": [
-     "riyadh"
-    ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
+     "9ab0c56eb09d"
+    ]
    },
    {
     "articleIds": [
-     "6e0882036cf5"
-    ],
-    "titleKo": "종교학자회의, 후티 공격을 테러로 규정했다고 발표",
-    "type": "security",
-    "regions": [
-     "riyadh"
-    ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
+     "eb20a94d3e6f"
+    ]
    },
    {
     "articleIds": [
      "738f2048e582"
+    ]
+   },
+   {
+    "articleIds": [
+     "eeeb6f73805f"
+    ]
+   },
+   {
+    "articleIds": [
+     "850d9fabb6e0"
     ]
    },
    {
@@ -8377,7 +8390,22 @@
    },
    {
     "articleIds": [
-     "72042bdf68df"
+     "457f90ebe000"
+    ]
+   },
+   {
+    "articleIds": [
+     "e0c0f72edda8"
+    ]
+   },
+   {
+    "articleIds": [
+     "a2af509cc084"
+    ]
+   },
+   {
+    "articleIds": [
+     "91ca0ca68cf5"
     ]
    },
    {
@@ -8387,17 +8415,17 @@
    },
    {
     "articleIds": [
-     "ec4d7cddb266"
-    ]
-   },
-   {
-    "articleIds": [
      "ab7b473618e7"
     ]
    },
    {
     "articleIds": [
-     "087b2548e622"
+     "5d131b60facb"
+    ]
+   },
+   {
+    "articleIds": [
+     "d9edbf169673"
     ]
    },
    {
@@ -8407,24 +8435,54 @@
    },
    {
     "articleIds": [
-     "703dee465b39"
-    ]
-   },
-   {
-    "articleIds": [
-     "014f41f485cb"
-    ]
-   },
-   {
-    "articleIds": [
-     "2e09404d6148"
+     "65229311851a",
+     "da1bcf02699e",
+     "200c52eefa60"
     ],
     "fromRule": true
    },
    {
     "articleIds": [
+     "703dee465b39"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "014f41f485cb"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "8d8cd59cb2b4"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "1c84fc8869b5"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "013b1bb30a05"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3e8dd709e310",
      "f4fe02090977",
      "763761a5b515"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a8a7cf1a9384",
+     "2e09404d6148"
     ],
     "fromRule": true
    },
@@ -8954,76 +9012,16 @@
      "3dcbe55c4d2a"
     ],
     "fromRule": true
-   },
-   {
-    "articleIds": [
-     "4e2b3032a6b0"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "3f495f0b2b08"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "60788c7fd8e6"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "61c0b3e247ca"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "180e275dfe70"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "1b3a0e0c46e4"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "eb20a94d3e6f"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "9ab0c56eb09d"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "49ac2dfcad73"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "35be6eadc301"
-    ],
-    "fromRule": true
    }
   ],
   "aiSummaryKo": [
-   "담맘 킹파드 공항 공격으로 1명 사망·8명 부상, 국영통신 발표",
-   "샤이바 유전 드론 공격으로 외국인 2명 사망, 에너지부 발표",
-   "미 국무부 등 일부 직원·가족 사우디 철수 명령, 로이터·AP 보도",
-   "후티 반군이 일부 공격 주장, 해당 주장 아직 미확인"
+   "샤이바 유전에 드론 공격으로 외국인 2명이 숨졌다고 보도됐어요.",
+   "담맘 킹파드 공항 공격으로 1명 사망·8명 부상이 보고됐어요.",
+   "미국이 후티 위협을 이유로 사우디 주재 직원·가족 철수를 명령했다고 보도됐어요.",
+   "연합군은 동부와 마디나 방향 드론을 요격했다고 발표했다고 보도됐어요."
   ],
-  "lastAiAt": 1792624232840,
-  "summaryAt": "2026-10-22T01:20:32.189Z",
+  "lastAiAt": 1792633830713,
+  "summaryAt": "2026-10-22T01:50:30.713Z",
   "promptVersion": 4
  }
 }
