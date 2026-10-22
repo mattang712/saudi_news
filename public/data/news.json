@@ -1,16 +1,16 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-22T16:50:31.539Z",
-  "lastAttemptAt": "2026-10-22T16:50:31.539Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-22T17:00:48.264Z",
+  "lastAttemptAt": "2026-10-22T17:00:48.264Z",
   "aiSummary": true,
-  "summaryAt": "2026-10-22T14:50:36.782Z",
+  "summaryAt": "2026-10-22T17:00:48.264Z",
   "aiError": null,
   "summaryKo": [
-   "담맘 킹 파흐드 공항이 공격받아 사상자가 발생했다고 복수 보도가 전했어요(국영통신·로이터 등).",
-   "후티는 사우디 국방부와 공항·아람코 유전 등 4곳을 미사일·드론으로 타격했다고 주장했어요(주장, 미확인).",
-   "연합군은 리야드·마디나·동부주에서 다수 무인기를 요격했다고 발표했어요.",
-   "미국이 사우디 주재 공무원·가족에 철수 명령을 내렸다고 보도됐어요."
+   "담맘 킹파드공항과 동부 유전 공격으로 사상자가 발생했다고 보도됐어요(국영통신·로이터 등).",
+   "아람코가 본사 직원 대피·원격 근무를 지시했다고 일부 매체가 전했어요(로이터 보도).",
+   "미국이 사우디 주재 공무원·가족 철수 명령을 내렸다고 보도됐어요(복수 매체).",
+   "후티는 국방부·공항 등 4곳을 미사일·드론로 타격했다고 주장했으나 독립 확인은 혼재돼 있어요."
   ],
   "sources": [
    {
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 139
+    "count": 135
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 76
+    "count": 75
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 160
+    "count": 157
    },
    {
     "name": "Saudi Gazette",
@@ -51,311 +51,101 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 99
+    "count": 98
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 51
+    "count": 53
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 남부지역 공격 관련 신변 유의",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
-   "id": "ea2b1e80d2eb",
+   "id": "ed4957137e0a",
    "articleIds": [
+    "7eaf3b7f8cfa",
+    "ae04826279d1",
+    "900d414ef7fc",
+    "8169c9ebac02",
+    "023baf1e406d",
+    "fe8a951c6be7",
+    "227fcca19da0",
+    "02713ea4f986",
+    "ed47cc1309bf",
+    "83c4182ab907",
+    "3e6d6b4ad0ef",
+    "cb15fd9124fc",
+    "4958efee3f81",
+    "bc201b5a7091",
+    "4cdade3a68d9",
+    "b24741d6a204",
+    "563076dff16e",
+    "ba3e3d804075",
+    "d942218ddf92",
     "75d03ba5a915"
    ],
-   "type": "security",
+   "type": "airport",
    "sev": "mid",
-   "status": "single",
+   "status": "official",
    "directive": null,
-   "title": "아랍 국가들, 사우디 공항·유전 겨냥한 치명적 후티 공격 규탄",
+   "title": "후티의 담맘 킹파드공항 공격으로 사망·부상 발생했다고 보도들",
    "titleAuto": true,
    "regions": [
     "dammam",
     "eastern",
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T16:50:31.539Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Arab states condemn deadly Houthi attacks on Saudi airport and oilfield",
-     "titleKo": "아랍 국가들, 사우디 공항·유전 겨냥한 치명적 후티 공격 규탄",
-     "summary": "",
-     "reportedAt": "2026-10-22T16:41:29.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/arab-states-condemn-deadly-houthi-attacks-on-saudi-airport-and-oilfield-3007763"
-    }
-   ]
-  },
-  {
-   "id": "bc78aca8198e",
-   "articleIds": [
-    "3de42b35b96d"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "이라크, 외무장관 통화 중 후티의 사우디 아라비아 공격 규탄",
-   "titleAuto": true,
-   "regions": [
+    "airport",
     "riyadh"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T15:55:35.074Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Iraq condemns Houthi aggression on Saudi Arabia during call between foreign ministers",
-     "titleKo": "이라크, 외무장관 통화 중 후티의 사우디 아라비아 공격 규탄",
-     "summary": "",
-     "reportedAt": "2026-10-22T15:49:12.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665649/saudi-arabia/iraq-condemns-houthi-aggression-on-saudi-arabia-during-call-between-foreign-ministers"
-    }
-   ]
-  },
-  {
-   "id": "e0ce616450eb",
-   "articleIds": [
-    "d942218ddf92"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디·이라크 외교장관, 후티 공격 속 안보협력 확대 논의",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T15:20:31.547Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi, Iraqi FMs discuss expanding security cooperation amid Houthi attacks",
-     "titleKo": "사우디·이라크 외교장관, 후티 공격 속 안보협력 확대 논의",
-     "summary": "",
-     "reportedAt": "2026-10-22T15:20:09.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/saudi-iraqi-fms-discuss-expanding-security-cooperation-amid-houthi-attacks-3007753"
-    }
-   ]
-  },
-  {
-   "id": "4aba581bb47f",
-   "articleIds": [
-    "277d62093dd5"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "외교장관, 이라크 장관과 사우디아라비아에 대한 테러 공격 논의",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T16:40:37.093Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Foreign Minister, Iraqi Counterpart Discuss Terrorist Attacks on Saudi Arabia",
-     "titleKo": "외교장관, 이라크 장관과 사우디아라비아에 대한 테러 공격 논의",
-     "summary": "",
-     "reportedAt": "2026-10-22T15:19:27.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1yUWM5WjJtSlVzNWJxbGFkX0pKWDNIQi14dWJNX25VWEF3cHkxWmJuajB6em1MU1VvTkp2b2xVdGtSTkJMeFdsUENB?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "afcd1cb88c94",
-   "articleIds": [
-    "ba3e3d804075"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "UN 사무총장, 사우디에 대한 후티 공격 규탄…세계 빈곤층에 ‘전쟁의 엘니뇨’ 경고",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T15:20:31.547Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "UN chief condemns Houthi attacks on Saudi Arabia, warns an ‘El Nino of war’ is hitting world’s poor",
-     "titleKo": "UN 사무총장, 사우디에 대한 후티 공격 규탄…세계 빈곤층에 ‘전쟁의 엘니뇨’ 경고",
-     "summary": "",
-     "reportedAt": "2026-10-22T15:18:54.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/middle-east/un-chief-condemns-houthi-attacks-on-saudi-arabia-warns-an-el-nino-of-war-is-hitting-worlds-poor-3007756"
-    }
-   ]
-  },
-  {
-   "id": "6abd824616c1",
-   "articleIds": [
-    "563076dff16e"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T15:10:33.396Z",
-   "aiNote": null,
+   "collectedAt": "2026-10-22T08:00:45.131Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
-     "title": "Qatar, Bahrain Strongly Condemn Terrorist Houthi Attacks on Saudi Arabia",
-     "titleKo": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄",
-     "summary": "",
-     "reportedAt": "2026-10-22T15:05:15.000Z",
+     "title": "2 Killed, 8 Injured in Dammam Airport Attack",
+     "titleKo": "담맘공항 공격으로 2명 사망·8명 부상 보도",
+     "summary": "Asharq Al-Awsat는 담맘공항 공격으로 2명 사망·8명 부상이라고 보도했어요.",
+     "reportedAt": "2026-10-22T03:24:48.000Z",
      "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5332395"
-    }
-   ]
-  },
-  {
-   "id": "8f145022a361",
-   "articleIds": [
-    "04310985fdcb"
-   ],
-   "type": "evacuation",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T15:10:33.396Z",
-   "aiNote": null,
-   "sources": [
+     "url": "https://english.aawsat.com/node/5332192"
+    },
     {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-10-22T14:49:56.000Z",
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Dammam’s King Fahd airport resumes operations after attack kills 2",
+     "titleKo": "담맘 공항이 공격 후 운영을 재개했다고 보도",
+     "summary": "Arab News는 담맘 공항이 공격 후 운영을 재개했다고 보도했어요.",
+     "reportedAt": "2026-10-22T07:17:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JNXVleGppd1BCRm9sLXE2VElMaERDbjVwZWdWc0s4dWlWaFNwY3JDU1pualdEYXl4TFVuMjdON1drNllUZVd3WHBzNFYzZ0pWZU5ULXlhWVJJN0ExeG5WRWJnMHFFSVktSlN1QWtIQU5GM3N10gF0QVVfeXFMT0lncDBySUZqMjdoZXBpNUh2UkF1MkktYkMxcXE5aVUzT3Vycm12SFRiWXE3amJTZ2FIOS1Wc0txNUZDSDZWa2NsY0hPQk5CbUV6STFha2oxaU15T1VGb09GZGxzT0N6LXB5c1BMQUVDamhfbVo?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "53e67d35bb72",
-   "articleIds": [
-    "8169c9ebac02",
-    "023baf1e406d",
-    "83c4182ab907",
-    "cb15fd9124fc",
-    "4958efee3f81",
-    "672133148cbf"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "연합군, 리야드·마디나·동부서 다수 무인기 요격했다고 발표",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "eastern"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T10:30:43.506Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaVdYbEh1SGgzcUhvTDVUN3RKVGVJTkNqOWxEcUIxWWhiWTJRUENBWTVnWEFjVHBpbXpDRUVWRk9neXRybWRSQWVYQ1VnbXBPRDUwNXN3Q2lEV0FKM0Vxd194N09DdHlYUG1kMm91WnRWNko4MWlmUHNQWkE4TWgzT0Itak44bUlwMlhBMjBmeWo0WnF6UjNZbW00Zl9KSXNHTy1NUjU5RXZ6ZHdUdHJOSg?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "GACA Issues Follow-up Statement on the Attack Targeting King Fahd International Airport in Dammam",
+     "titleKo": "GACA, 담맘 공항 공격 관련 추후 성명 발표",
+     "summary": "사우디 민항청(GACA)이 담맘 공항 공격에 대해 추가 성명을 냈다고 보도했어요.",
+     "reportedAt": "2026-10-22T07:17:17.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9WMmJ3aHZsU3NQRGw5eHlzSjNabjVkT3RoZW9sVjVjNzM1Mi12U2dpVlVlMjRTWVJjSTVjSDZQUVdneF9INkg4QTV3?oc=5"
+    },
     {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
@@ -379,6 +169,46 @@
     {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
+     "title": "Egypt Condemns Attack on King Fahd International Airport in Saudi Arabia",
+     "titleKo": "이집트, 담맘 킹 파흐드 공항 공격 규탄",
+     "summary": "이집트가 담맘 킹 파흐드 공항에 대한 공격을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-10-22T10:49:14.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5332317"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "India condemns deadly attacks on Saudi Arabia’s Eastern Province",
+     "titleKo": "인도, 사우디 동부 유전·공항 공격 규탄",
+     "summary": "인도가 동부주 유전과 공항에 대한 치명적 공격을 규탄했고, 인도인 사망 소식을 전했어요.",
+     "reportedAt": "2026-10-22T11:25:52.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbFpuMTlNRDJEcWpxcFVmUzFKeENaZE5VOU80a3VLVEtvRTRKWFlkN2pFSkp2SEtPNXRKUWl1VjRFNTVTZGxjRzhZeTcyZW9HOU5KU1dreXp5cXVXc2VXMldGdmlPX1BNSUZRc2JQaGs4X3J5VmM4NEVwbmVOZXYtR1d6d09hbTV3aTBfR1JJR1hNTUFTY2xvRzdFM1JIUDNFZGFWLQ?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Jordan Condemns Terrorist Attack by Houthi Militia on King Fahd International Airport in Dammam",
+     "titleKo": "요르단, 담맘 킹 파흐드 공항에 대한 후티의 테러 공격 규탄",
+     "summary": "요르단이 담맘 킹 파흐드 공항에 대한 후티의 테러 공격을 규탄했다고 발표했어요.",
+     "reportedAt": "2026-10-22T12:00:37.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE03eWJ1bFpncW9SQkdOVUl3WUZUYnNZLUFsemk4cTh1UnhEeXo1dEF6QVhkNVpFdzBQYW90SmRzZm9QbUJTNExtbWlB?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Death toll rises to two in attack on Dammam airport",
+     "titleKo": "담맘 공항 공격으로 사망자 2명으로 증가했다고 GACA 발표",
+     "summary": "사우디 항공청(GACA)은 담맘 킹파드공항 공격으로 사망자가 추가로 확인되어 사망자가 2명으로 늘었다고 발표했어요.",
+     "reportedAt": "2026-10-22T12:12:55.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665643/saudi-arabia/dammam-airport-attack-death-toll-rises-to-two-eight-injured"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
      "title": "Coalition: Four UAVs Intercepted and Destroyed in Riyadh and Madinah Regions",
      "titleKo": "연합군: 리야드·메디나 지역에서 4대의 UAV 요격·파괴",
      "summary": "연합군이 리야드와 메디나 지역에서 4대의 무인기(UAV)를 요격·파괴했다고 발표했어요.",
@@ -387,11 +217,21 @@
      "url": "https://english.aawsat.com/node/5332304"
     },
     {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Jordan, Egypt Condemn Attack on King Fahd International Airport in Saudi Arabia",
+     "titleKo": "요르단·이집트, 담맘 공항 공격 규탄",
+     "summary": "Jordan·Egypt 등이 담맘 킹파드공항 공격을 규탄했다고 Arab News가 전했어요.",
+     "reportedAt": "2026-10-22T12:41:14.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5332317"
+    },
+    {
      "outlet": "Saudi Gazette",
      "cat": "local",
      "title": "Coalition intercepts 9 UAVs in Madinah, Riyadh, and Eastern Province",
-     "titleKo": "연합군, 마디나·리야드·동부주로 향한 9대 무인기 요격 발표",
-     "summary": "연합군은 마디나·리야드·동부주를 향한 9대의 무인기를 요격했다고 발표했어요.",
+     "titleKo": "연합군이 마디나·리야드·동부주에서 9대 UAV 요격 발표",
+     "summary": "Saudi Gazette는 연합군이 마디나·리야드·동부주에서 9대의 UAV를 요격했다고 전했어요.",
      "reportedAt": "2026-10-22T12:57:12.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/665645/saudi-arabia/coalition-intercepts-9-uavs-in-madinah-riyadh-and-eastern-province"
@@ -400,35 +240,158 @@
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Coalition: Four UAVs Intercepted and Destroyed in Riyadh and Madinah Regions",
-     "titleKo": "연합군: 리야드·마디나 지역에서 무인항공기 4대 요격·파괴",
-     "summary": "연합군이 리야드와 마디나 지역에서 4대의 무인기를 요격·파괴했다고 발표했어요.",
+     "titleKo": "연합군, 리야드·마디나·동부주에서 UAV 요격 발표",
+     "summary": "사우디 연합군은 리야드·마디나·동부주 지역에서 4대의 무인기(UAV)를 요격했다고 발표했어요.",
      "reportedAt": "2026-10-22T13:17:48.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ncE81eDNlM3ZVVk4yc2k5aXJqd2p3dkIybzdFSk9EUnZ2elE0dU4yOW00amxjWXEycVlxaW9YU0FDVm9KWEhjUTB3?oc=5"
     },
     {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
+     "titleKo": "담맘 킹파드공항 공격으로 2명 사망했다고 보도",
+     "summary": "알자지라는 담맘 공항 공격으로 2명이 숨졌다고 보도했어요.",
+     "reportedAt": "2026-10-22T14:01:53.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Bahrain Strongly Condemns Terrorist Houthi Attacks on Saudi Arabia",
+     "titleKo": "바레인이 후티 공격을 규탄했다고 사우디 통신이 전함",
+     "summary": "사우디 국영통신은 바레인이 후티 공격을 강력히 규탄했다고 전했어요.",
+     "reportedAt": "2026-10-22T14:11:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1WRmxjMXhLZ1QydGJacFF3c0EzVldFNS1GeDRoQ3JGc3JLUnFTaWpheEUtWTB2ZXhKZkdYSmJZdlpVVm9ZQ0ZXei13?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Houthi attacks are acts of aggression, only undermine security and stability in the region: Djibouti ambassador",
+     "titleKo": "사우디 주재 외교단 대표가 후티 공격을 규탄했다고 보도",
+     "summary": "외교단 대표가 후티 공격이 지역 안보를 저해한다고 비판했다고 보도했어요.",
+     "reportedAt": "2026-10-22T14:32:24.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/houthi-attacks-are-acts-of-aggression-only-undermine-security-and-stability-in-the-region-djibouti-ambassador-3007734"
+    },
+    {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
-     "title": "Iraq Condemns Attacks on Saudi Arabia, Rejects Use of Its Territory to Target the Kingdom",
-     "titleKo": "이라크, 사우디 공격 규탄…자국 영토를 왕국 타깃으로 사용하는 것 거부",
-     "summary": "이라크가 자국 영토를 사우디를 겨냥한 공격에 이용하는 것을 규탄한다고 밝혔어요.",
-     "reportedAt": "2026-10-22T14:46:29.000Z",
+     "title": "Qatar, Bahrain Strongly Condemn Terrorist Houthi Attacks on Saudi Arabia",
+     "titleKo": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-22T15:05:15.000Z",
      "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5332397"
+     "url": "https://english.aawsat.com/node/5332395"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "UN chief condemns Houthi attacks on Saudi Arabia, warns an ‘El Nino of war’ is hitting world’s poor",
+     "titleKo": "유엔 사무총장이 후티 공격을 규탄했다고 보도",
+     "summary": "유엔 사무총장이 후티의 민간시설 공격을 규탄하며 전 세계 빈곤층에 미칠 영향을 경고했다고 보도했어요.",
+     "reportedAt": "2026-10-22T15:18:54.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/middle-east/un-chief-condemns-houthi-attacks-on-saudi-arabia-warns-an-el-nino-of-war-is-hitting-worlds-poor-3007756"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi, Iraqi FMs discuss expanding security cooperation amid Houthi attacks",
+     "titleKo": "사우디·이라크 외교장관, 후티 공격 대응 안보협력 확대 논의",
+     "summary": "사우디 외교장관과 이라크 장관이 후티의 공격 증가에 맞서 안보협력을 확대하는 방안을 논의했다고 보도했어요.",
+     "reportedAt": "2026-10-22T15:20:09.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-iraqi-fms-discuss-expanding-security-cooperation-amid-houthi-attacks-3007753"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Arab states condemn deadly Houthi attacks on Saudi airport and oilfield",
+     "titleKo": "아랍 국가들, 사우디 공항·유전 겨냥한 치명적 후티 공격 규탄",
+     "summary": "아랍 국가들과 무슬림월드리그가 전날 밤 발생한 담맘 킹파드공항과 동부주 샤이바 유전 공격을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-10-22T16:41:29.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/arab-states-condemn-deadly-houthi-attacks-on-saudi-airport-and-oilfield-3007763"
     }
    ]
   },
   {
-   "id": "93b4507e24d3",
+   "id": "bc78aca8198e",
    "articleIds": [
-    "fe8a951c6be7",
-    "fb340221e0e9"
+    "3de42b35b96d"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "이집트·바레인 등 주변국, 사우디에 대한 후티 공격을 강력히 규탄",
+   "title": "이라크, 사우디에 대한 후티 공격을 규탄했다고 보도",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T15:55:35.074Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Iraq condemns Houthi aggression on Saudi Arabia during call between foreign ministers",
+     "titleKo": "이라크, 사우디에 대한 후티 공격을 규탄했다고 보도",
+     "summary": "이라크 외교장관이 사우디 장관과 통화하며 후티 공격을 규탄하고 협력 강화 방안을 논의했다고 보도했어요.",
+     "reportedAt": "2026-10-22T15:49:12.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665649/saudi-arabia/iraq-condemns-houthi-aggression-on-saudi-arabia-during-call-between-foreign-ministers"
+    }
+   ]
+  },
+  {
+   "id": "4aba581bb47f",
+   "articleIds": [
+    "277d62093dd5"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "외교장관들이 사우디에 대한 테러 공격을 논의했다고 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T16:40:37.093Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Foreign Minister, Iraqi Counterpart Discuss Terrorist Attacks on Saudi Arabia",
+     "titleKo": "외교장관들이 사우디에 대한 테러 공격을 논의했다고 보도",
+     "summary": "사우디 국영통신은 사우디에 대한 테러 공격을 주제로 양국 외교장관 대화를 전했다는 제목을 내보냈어요.",
+     "reportedAt": "2026-10-22T15:19:27.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1yUWM5WjJtSlVzNWJxbGFkX0pKWDNIQi14dWJNX25VWEF3cHkxWmJuajB6em1MU1VvTkp2b2xVdGtSTkJMeFdsUENB?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "b3b8f7088cd1",
+   "articleIds": [
+    "efc68d7456da"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "알아즈하르 대이맴이 담맘 공항 공격을 강력히 규탄했다고 보도",
    "titleAuto": true,
    "regions": [
     "dammam",
@@ -438,85 +401,121 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T10:50:30.492Z",
+   "collectedAt": "2026-10-22T17:00:48.264Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Asharq Al-Awsat",
+     "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
-     "title": "Egypt Condemns Attack on King Fahd International Airport in Saudi Arabia",
-     "titleKo": "이집트, 담맘 킹 파흐드 공항 공격 규탄",
-     "summary": "이집트가 담맘 킹 파흐드 공항에 대한 공격을 규탄했다고 보도했어요.",
-     "reportedAt": "2026-10-22T10:49:14.000Z",
+     "title": "Al-Azhar Grand Imam Strongly Condemns Attack on King Fahd International Airport in Dammam",
+     "titleKo": "알아즈하르 대이맴이 담맘 공항 공격을 강력히 규탄했다고 보도",
+     "summary": "사우디 국영통신은 알아즈하르 대이맘이 담맘 공항 공격을 강력히 규탄했다고 보도했어요.",
+     "reportedAt": "2026-10-22T15:19:27.000Z",
      "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5332317"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Bahrain Strongly Condemns Terrorist Houthi Attacks on Saudi Arabia",
-     "titleKo": "바레인, 테러리스트 후티의 사우디 공격 강력 규탄",
-     "summary": "바레인이 후티의 사우디 공격을 강력히 규탄한다고 밝혔어요.",
-     "reportedAt": "2026-10-22T14:42:15.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5332395"
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UNUxpWjhmNHJ3SzkxM2hXMzlYRWxzOFBNVk9nZnFVeEw4QWR3elF2ZDdOY2FhX09NU0JTMGs5ZWpmSWhlUFlGLTF3?oc=5"
     }
    ]
   },
   {
-   "id": "3d90c97ee372",
+   "id": "767e6ac7b443",
    "articleIds": [
-    "7bbd2b402db6",
-    "b24741d6a204"
+    "76d75d8c67d5",
+    "d0e312185044",
+    "3b679b7b80d2",
+    "3079bdd07c31",
+    "cbbb1ad5302b",
+    "04310985fdcb"
    ],
-   "type": "energy",
+   "type": "evacuation",
    "sev": "high",
-   "status": "single",
+   "status": "multi",
    "directive": null,
-   "title": "후티 공격으로 유가 상승·금융시장 하락이 발생했다고 보도",
-   "titleAuto": true,
+   "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
+   "titleAuto": false,
    "regions": [
+    "dammam",
     "eastern",
-    "riyadh"
+    "riyadh",
+    "airport"
    ],
    "inferred": true,
-   "inferNote": "유가·시장 반응은 동부 유전·공항 공격 보도와 연관돼 동부주로 추정했어요.",
+   "inferNote": "아람코 본사가 있는 담란(다란) 관련 보도들이 있어 동부주·담맘 인근으로 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-10-22T13:20:32.057Z",
+   "collectedAt": "2026-10-22T08:30:35.292Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Houthi attacks on holy sites, civilian facilities is a grave crime, says Malaysia’s mufti",
-     "titleKo": "말레이시아 무프티, 후티의 성지·민간 시설 공격은 중대한 범죄라고 밝혀",
-     "summary": "",
-     "reportedAt": "2026-10-22T13:13:52.000Z",
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "On the road to Bahrain as Houthi attacks hit Saudi Arabia's haven status",
+     "titleKo": "후티 공격이 걸프의 안전지위를 흔든다고 보도",
+     "summary": "로이터는 후티 공격이 걸프의 안보 지위를 흔들고 있다고 보도했어요.",
+     "reportedAt": "2026-10-22T09:11:37.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/houthi-attacks-on-holy-sites-civilian-facilities-is-a-grave-crime-says-malaysias-mufti-3007716"
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50S3dGeDdqU1ZfaFUwWHNMbUhxUXF1SmswY3BaQV91NUIyT2ktVUZLU3ZRV0xDNVYxTlhyRGxicHMyN0pDdm4wTEFmVTZ5QU9oWi1RV2Z6ajVTT0VUb2ZfTEtFcjg5b28?oc=5"
     },
     {
      "outlet": "Arab News",
      "cat": "local",
-     "title": "Houthi attacks are acts of aggression, only undermine security and stability in the region: Djibouti ambassador",
-     "titleKo": "후티의 공격은 침략 행위이며 지역의 안전과 안보만 저해한다고 지부티 대사가 주장",
-     "summary": "지부티 대사가 후티 공격이 성지와 민간지역을 겨냥한 행위라며 강력히 비판한다고 말했어요.",
-     "reportedAt": "2026-10-22T14:32:24.000Z",
+     "title": "British expat lauds UK support for Saudi Arabia amid war",
+     "titleKo": "영국이 사우디 지원을 강화한다고 보도",
+     "summary": "Arab News는 영국이 사우디 지원을 강화한다고 보도했어요.",
+     "reportedAt": "2026-10-22T12:35:54.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/houthi-attacks-are-acts-of-aggression-only-undermine-security-and-stability-in-the-region-djibouti-ambassador-3007734"
+     "url": "https://www.arabnews.com/saudi-arabia/british-expat-lauds-uk-support-for-saudi-arabia-amid-war-3007707"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say",
+     "titleKo": "아람코가 다란 본사 직원 대피·원격 근무 지시했다고 보도",
+     "summary": "로이터는 사우디 아람코가 다란(담란) 본사 직원 대피와 원격 근무를 지시했다고 보도했어요.",
+     "reportedAt": "2026-10-22T12:51:32.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNDNYdWIxY2pGbkhqRTlJNmJRMUE4N1RsclJwWklRYzdQUy04Wi1ObjlQNm1JaER4QVpRREs1NkdOeVNzYi1wd3lURFQ0S29OYkdJOERlQUdlSlBQMU1Mb2VzRDVaZlpUbWt0UGdpODc3a0FjWkVoUDIyWEZCeHlSd2JfZkIzLVNNVV9LSFcyVGpNaFU0S3JOV19wc29qWU90SGJrV04xRlQ5cjlBMUp0dFZ5UlgzR3F0MEdJXw?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Asian soccer chief gives no hint about support — or opposition — to Infantino",
+     "titleKo": "사우디-후티 긴장 해결에 정치적 해법이 필요하다고 보도",
+     "summary": "중복 기사로 이미 요약되어 있습니다.",
+     "reportedAt": "2026-10-22T13:18:53.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/football/asian-soccer-chief-gives-no-hint-about-support-or-opposition-to-infantino-3007731"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "US must incorporate Houthi threat into its Iran strategy",
+     "titleKo": "후티 위협을 미 대이란 전략에 반영해야 한다고 주장",
+     "summary": "Arab News는 후티의 작전 확대가 미 대이란 전략에 포함돼야 한다고 주장하는 기사를 냈어요.",
+     "reportedAt": "2026-10-22T13:25:15.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/opinion/us-must-incorporate-houthi-threat-into-its-iran-strategy-3007470"
+    },
+    {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
+     "titleKo": null,
+     "summary": "MBC는 아람코가 본사 직원들에게 대피령과 원격 근무 지시를 내렸다고 보도했어요.",
+     "reportedAt": "2026-10-22T14:49:56.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JZ3AwcklGajI3aGVwaTVIdlJBdTJJLWJDMXFxOWlVM091cnJtdkhUYllxN2piU2dhSDktVnNLcTVGQ0g2VmtjbGNIT0JOQm1FekkxYWtqMWlNeU9VRm9PRmRsc09Dei1weXNQTEFFQ2poX21a0gF0QVVfeXFMT0lncDBySUZqMjdoZXBpNUh2UkF1MkktYkMxcXE5aVUzT3Vycm12SFRiWXE3amJTZ2FIOS1Wc0txNUZDSDZWa2NsY0hPQk5CbUV6STFha2oxaU15T1VGb09GZGxzT0N6LXB5c1BMQUVDamhfbVo?oc=5"
     }
    ]
   },
   {
-   "id": "ae2a9e882399",
+   "id": "65116f4b7085",
    "articleIds": [
-    "4cdade3a68d9"
+    "672133148cbf"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "official",
+   "status": "single",
    "directive": null,
-   "title": "바레인, 사우디아라비아에 대한 테러 후티 공격 강력 규탄",
+   "title": "이라크가 사우디에 대한 공격을 규탄했다고 보도",
    "titleAuto": true,
    "regions": [
     "all"
@@ -524,159 +523,115 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T15:30:40.405Z",
-   "aiNote": null,
+   "collectedAt": "2026-10-22T14:50:36.782Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "SPA (사우디 국영통신)",
+     "outlet": "Asharq Al-Awsat",
      "cat": "local",
-     "title": "Bahrain Strongly Condemns Terrorist Houthi Attacks on Saudi Arabia",
-     "titleKo": "바레인, 사우디아라비아에 대한 테러 후티 공격 강력 규탄",
-     "summary": "",
-     "reportedAt": "2026-10-22T14:11:44.000Z",
+     "title": "Iraq Condemns Attacks on Saudi Arabia, Rejects Use of Its Territory to Target the Kingdom",
+     "titleKo": "이라크가 사우디에 대한 공격을 규탄했다고 보도",
+     "summary": "이라크가 사우디에 대한 공격을 규탄하고 자국 영토를 이용한 공격을 거부한다고 보도했어요.",
+     "reportedAt": "2026-10-22T14:46:29.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1WRmxjMXhLZ1QydGJacFF3c0EzVldFNS1GeDRoQ3JGc3JLUnFTaWpheEUtWTB2ZXhKZkdYSmJZdlpVVm9ZQ0ZXei13?oc=5"
+     "url": "https://english.aawsat.com/node/5332397"
     }
    ]
   },
   {
-   "id": "0e6c604a8356",
+   "id": "00985b76d9ca",
    "articleIds": [
-    "173d49684789",
-    "ece2b942cf4e",
-    "66e4e81c879f",
-    "730e05099d6c",
-    "a971d122c685",
-    "7eaf3b7f8cfa",
-    "5c1758deadb9",
-    "0e6dcbbe7125",
-    "c4be5552006e",
-    "96b8ffd32cd4",
-    "fba8ef5bcaf8",
-    "5f4664958821",
-    "ae04826279d1",
-    "900d414ef7fc",
-    "654e7fd81735",
-    "302bfd0c70cf",
-    "cf52299f8991",
-    "ef746b31c959",
-    "3a102cfae04d",
-    "a44106c10e70",
-    "a7d2f035b0c9",
-    "02713ea4f986",
-    "b4e112061e37",
-    "ed47cc1309bf",
-    "3e6d6b4ad0ef",
-    "b1aefbc4c4e8",
-    "bc201b5a7091"
+    "fb340221e0e9"
    ],
-   "type": "airport",
+   "type": "security",
    "sev": "mid",
-   "status": "official",
+   "status": "single",
    "directive": null,
-   "title": "사우디 공항 피격에 사상자 속출…후티 충돌로 중동 곳곳 전운",
-   "titleAuto": false,
+   "title": "바레인이 후티의 사우디 공격을 규탄했다고 보도",
+   "titleAuto": true,
    "regions": [
-    "dammam",
-    "eastern",
-    "airport"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T02:00:47.266Z",
+   "collectedAt": "2026-10-22T14:50:36.782Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 공항 피격에 사상자 속출…후티 충돌로 중동 곳곳 전운",
-     "titleKo": null,
-     "summary": "공항 피격으로 사상자 속출 보도했어요.",
-     "reportedAt": "2026-10-22T01:43:54.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53cVk0NTNqUGVEUWF5Q1V5ZE9GSE9Yb3FMeTRzRXFoUEtsYm5NQ3FEcl8xeEFHTjI1a2ZkSzY3c3dZNHc0eDEwVjBobTNwZ081YjJ1UG1RLUtYQmvSAWBBVV95cUxPWXNUNnV3VUVockhmWXhWeUpEcE9NbjkwVGszOElWMW9yYTJHZUFYQ1FHc0xtQzk3dHdrTVVaeW9SVW9yNHMtRjU0RUhtUzJ4SHBaNDQwek5PeFZ3a05wcE4?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 공항 피격에 최소 9명 사상…후티 충돌에 중동 전운",
-     "titleKo": null,
-     "summary": "공항 피격으로 최소 9명 사상 보도했어요.",
-     "reportedAt": "2026-10-22T01:49:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEaGtkZjdoRTdjb0JseVJ2VjRkbGxyOTdNY2Y0OFhKeEstelp2Q3ZVWXduZlZOalo2WDZpY1dQa1ljQ3lpTGxZMmhzdjJIdDJBUklJU2g3anVFOFlQX1k4Vng2a01pQ1E?oc=5"
-    },
-    {
-     "outlet": "YTN",
-     "cat": "kr",
-     "title": "사우디 킹 파드 공항 피격...미국, 사우디 체류 직원 철수령",
-     "titleKo": null,
-     "summary": "미가 사우디 체류 직원 철수 명령을 내렸다고 보도했어요.",
-     "reportedAt": "2026-10-22T01:55:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qRjZpLWtEcVo1YnR5Rmw5R3FVcHpFSjV3T3lOeG5NdDUzMDF6Ty1SbzZPMjdyWUxoa0IyTTV4NzROU2o3clJOUWRLREhVNmM2OVZFdlFMTS02TTgzeWZBY3ktMjFNNlN1bjRpWkxNUQ?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "One killed, eight injured in attack on Dammam airport",
-     "titleKo": "담맘 공항 공격으로 1명 사망·8명 부상",
-     "summary": "Saudi Gazette는 담맘 공항 공격으로 외국인 1명이 사망하고 8명이 부상했다고 GACA 발표를 전했어요.",
-     "reportedAt": "2026-10-22T02:40:34.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665631/saudi-arabia/one-killed-eight-injured-in-dammam-airport-attack-as-coalition-intercepts-four-drones"
-    },
-    {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "사우디 '킹 파흐드' 공항, 후티군 추정 공습‥1명 사망·8명 부상",
-     "titleKo": null,
-     "summary": "MBC는 후티 추정 공격으로 담맘 공항에서 1명이 사망하고 8명이 부상했다고 보도했어요.",
-     "reportedAt": "2026-10-22T03:03:39.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Idm5YeF80MkloeFZWVkJCU29ZU0Z0OFRVNFlPSkI1YURQZE01cGQ3QTdkc29pOUd4VjBpSDBBWnpOUnUwZ3YyeFBqT2xpS3ctbTJjeTAtUVpQQ0JrWDc1Wmlxd1FsOWNEU1lYa0hxam8zTEJi0gF0QVVfeXFMT0Vzd0VwR3V3RUNONmhjT1hmRzVtVmMzblduYnBQWldKbFhveFhrTHN0RVdGeHdyazhBVm54RHJwZWdiS1RqRjVNSVlGOEhZUHIteFJrUDUtb1g2endEaS1jQ0l4ejRndkNmYUJ3RWpEaHIwbm0?oc=5"
-    },
-    {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
-     "title": "2 Killed, 8 Injured in Dammam Airport Attack",
-     "titleKo": "담맘 공항 공격으로 2명 사망·8명 부상",
-     "summary": "담맘 공항 공격으로 2명이 사망하고 8명이 부상했다고 보도됐어요.",
-     "reportedAt": "2026-10-22T03:24:48.000Z",
+     "title": "Bahrain Strongly Condemns Terrorist Houthi Attacks on Saudi Arabia",
+     "titleKo": "바레인이 후티의 사우디 공격을 규탄했다고 보도",
+     "summary": "바레인이 후티의 사우디 공격을 강력히 규탄했다고 보도했어요.",
+     "reportedAt": "2026-10-22T14:42:15.000Z",
      "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5332192"
-    },
+     "url": "https://english.aawsat.com/node/5332395"
+    }
+   ]
+  },
+  {
+   "id": "9ac6d4ed3510",
+   "articleIds": [
+    "5c3d29f9c501"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티 공격으로 걸프 시장이 하락했다고 보도",
+   "titleAuto": true,
+   "regions": [
+    "eastern"
+   ],
+   "inferred": true,
+   "inferNote": "에너지·금융 영향 보도들이 담맘·유전 공격과 연계돼 동부주로 추정했어요.",
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T08:30:35.292Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "1 Killed, 8 Injured in Dammam Airport Attack",
-     "titleKo": "담맘 공항 공격으로 1명 사망·8명 부상",
-     "summary": "담맘 공항 공격으로 1명이 사망하고 8명이 부상했다고 보도된 초기 보도가 있어요.",
-     "reportedAt": "2026-10-22T03:24:48.000Z",
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk",
+     "titleKo": "걸프 시장, 후티의 사우디 공격에 하락했다고 보도",
+     "summary": "로이터는 후티의 새로운 공격이 지역 위험을 높이며 걸프 시장이 하락했다고 보도했어요.",
+     "reportedAt": "2026-10-22T13:44:22.000Z",
      "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5332192"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "美, 중동 주둔 병력 감축…후티 위협 속 사우디 주재 직원 철수(종합)",
-     "titleKo": null,
-     "summary": "미가 중동 주둔 병력을 감축하고 사우디 직원 철수 조치를 했다고 보도했어요.",
-     "reportedAt": "2026-10-22T04:37:06.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MRF9sbXRNZ00ta0lvNXdkUTBMWTFWQk5jWkVBN2xHemhfVXVvTHVsY1hVZENOa1BoUUVUNzktbHQ3SW41LWU5X0h6aUx3eks2VGNabWJzUmxQekVOM1Y4b1gtaVphNGJlc291aUdOVE1FN3dQbnB1NtIBeEFVX3lxTE9MRF9sbXRNZ00ta0lvNXdkUTBMWTFWQk5jWkVBN2xHemhfVXVvTHVsY1hVZENOa1BoUUVUNzktbHQ3SW41LWU5X0h6aUx3eks2VGNabWJzUmxQekVOM1Y4b1gtaVphNGJlc291aUdOVE1FN3dQbnB1Ng?oc=5"
-    },
-    {
-     "outlet": "조선일보",
-     "cat": "kr",
-     "title": "美, 사우디 주재 공무원·가족 철수 명령…후티 반군 공격 임박했나",
-     "titleKo": null,
-     "summary": "미의 철수 명령 관련 보도예요.",
-     "reportedAt": "2026-10-22T04:40:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaXNMZ3hIQ0VWNUpBbnR4Z3kxSi1yaGhVdm9uVXIwcjVETHhfMTRSYU5ucHFWa01yUDVwS1ZFbGVGa0oxWnBTZUxyaDhScFVmMm9KUmpNSFg4SXZvRktPYm1ucV81WDJmYk5sR1lmODl2SU9lejFMbF9ybFVBYllYUzY4Yjk?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQS1ESU5ra242UzdCbkxuVkNzUkV2NWZVTGlRcDZnSzJBeE5KTkFyMEZvaTd0ZEl4LWduc0lmbGZkRnV6REF1dV9VUkRESHpVM3lLUkt0SmtfQzJDLXdnZ0l6akwwOWZpS1lza2tSbHczcnlpU2JPSXo5eHNrY0c4aWNpWjNJSlFYa2M2UEhDNnVsUnQySGF6MVJSY1FPam1LSlliSkJUTzFKck9tZ2J6S2xlUnVSam1TTllJbUxQWmtTcjQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "8005ccc85c97",
+   "articleIds": [
+    "96b8ffd32cd4",
+    "fba8ef5bcaf8",
+    "5f4664958821",
+    "654e7fd81735",
+    "302bfd0c70cf",
+    "ef746b31c959",
+    "3a102cfae04d",
+    "b1aefbc4c4e8"
+   ],
+   "type": "evacuation",
+   "sev": "high",
+   "status": "multi",
+   "directive": null,
+   "title": "美, 사우디 주재 공무원·가족 철수 명령… 후티 반군 공격 임박했나",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "eastern",
+    "airport",
+    "dammam"
+   ],
+   "inferred": true,
+   "inferNote": "미국 철수 조치 보도들이 지역을 특정하지 않아 수도 및 동부주를 포함해 추정했어요.",
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T05:00:44.846Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
      "outlet": "조선일보",
      "cat": "kr",
@@ -702,37 +657,17 @@
      "cat": "kr",
      "title": "거센 후티 반군 공격에...美, 사우디 주재 자국 외교관 '철수' 명령",
      "titleKo": null,
-     "summary": "미국이 사우디 체류 공무원 철수 명령을 내렸다고 보도됐어요.",
+     "summary": "한국일보는 미 정부가 사우디 주재 외교관 철수 명령을 내렸다고 보도했어요.",
      "reportedAt": "2026-10-22T06:58:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XbWJlR29MOEkxUHVfRkwwRXZ4M19nZUVYbDFIUTBaaXhGRWg3WUxWTDdUS2ZqY3BtTy0taUtZNjl4SGpSVzhZM3RBN211ZDJwaThtemRDeW9SNTIzTFpSa0NMbmRzTUEzV0JhOU1n0gFzQVVfeXFMTUk4dTVLOVI4MWhFLWFRMUxVU28tZGxWdUVvZUFibFJ2VHZlal9KX3NIcVpjcWVSQXZJZVZnQXZac1k1U3FhckV3V2JRZ2FRN2tSNUVhRG9vS2JSd0dWLURaWVI2X3B4Ym9mdzlpZHladEYwUQ?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Dammam’s King Fahd airport resumes operations after attack kills 2",
-     "titleKo": "담맘 킹 파흐드 공항, 공격 후 운영 재개",
-     "summary": "담맘 공항이 재가동됐고 샤이바 유전 드론 공격으로도 사상자가 발생했다고 전해졌어요.",
-     "reportedAt": "2026-10-22T07:17:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaVdYbEh1SGgzcUhvTDVUN3RKVGVJTkNqOWxEcUIxWWhiWTJRUENBWTVnWEFjVHBpbXpDRUVWRk9neXRybWRSQWVYQ1VnbXBPRDUwNXN3Q2lEV0FKM0Vxd194N09DdHlYUG1kMm91WnRWNko4MWlmUHNQWkE4TWgzT0Itak44bUlwMlhBMjBmeWo0WnF6UjNZbW00Zl9KSXNHTy1NUjU5RXZ6ZHdUdHJOSg?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "GACA Issues Follow-up Statement on the Attack Targeting King Fahd International Airport in Dammam",
-     "titleKo": "GACA, 담맘 공항 공격 관련 추후 성명 발표",
-     "summary": "사우디 민항청(GACA)이 담맘 공항 공격에 대해 추가 성명을 냈다고 보도했어요.",
-     "reportedAt": "2026-10-22T07:17:17.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9WMmJ3aHZsU3NQRGw5eHlzSjNabjVkT3RoZW9sVjVjNzM1Mi12U2dpVlVlMjRTWVJjSTVjSDZQUVdneF9INkg4QTV3?oc=5"
     },
     {
      "outlet": "뉴스1",
      "cat": "kr",
      "title": "中, 자국민에 사우디 방문 자제령…\"공항 등 시설 피격 지속\"",
      "titleKo": null,
-     "summary": "중국이 자국민에게 사우디 방문 자제를 권고했다고 보도됐어요.",
+     "summary": "뉴스1은 중국이 자국민에 사우디 방문 자제를 권고했다고 전했어요.",
      "reportedAt": "2026-10-22T07:29:22.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wakd0SmZ3UVF4dTlXOC1ZQ2tjOTlWamh3QzJDTGZJMjdiQ29INW5HeDh4d0NmNW5jWHlmOHZXVTBPQnBIVWVSYTVhbGdVU3NLdlhXQndFalhfUXdBVkE?oc=5"
@@ -742,27 +677,17 @@
      "cat": "kr",
      "title": "사우디 공항·유전 피격에 사상자 속출…중동 곳곳 불길(종합)",
      "titleKo": null,
-     "summary": "여러 보도가 담맘과 유전 피격에 따른 사상자 발생과 지역 긴장을 전했어요.",
+     "summary": "연합뉴스는 사우디 공항·유전 피격으로 사상자 발생 보도를 냈어요.",
      "reportedAt": "2026-10-22T07:30:23.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CaTNDLXQxN3lJWjN5MkhqX1VwRV9TYmNmbFY0LTc0UGZiSFVLXzh0UDVfbmpTYVV0Q1JEMXY0UGZjUHJ2WEN5WUJCZ0M2QUR0YXVRcllfWF9HUkdqT2p6Q9IBYEFVX3lxTE9CaTNDLXQxN3lJWjN5MkhqX1VwRV9TYmNmbFY0LTc0UGZiSFVLXzh0UDVfbmpTYVV0Q1JEMXY0UGZjUHJ2WEN5WUJCZ0M2QUR0YXVRcllfWF9HUkdqT2p6Qw?oc=5"
-    },
-    {
-     "outlet": "SBS",
-     "cat": "kr",
-     "title": "사우디 공항·유전 피격에 사상자 속출…중동 곳곳 불길",
-     "titleKo": null,
-     "summary": "공항과 유전 피격으로 사상자가 속출하고 있다고 보도했어요.",
-     "reportedAt": "2026-10-22T08:10:44.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12RzJjY1hzdVN3V3JoMmM2bHF2U3dnNndiZFdWNzhTSm5aT3VfNzVZVHcweWRqN0NWZnA0VUVhYS1MbkRCd2lIT0haY2c0azlWNFlhRGtMaUpjY0ZaWjhvcXc2ejVwZVN2clE?oc=5"
     },
     {
      "outlet": "뉴스1",
      "cat": "kr",
      "title": "사우디 석유 심장부 담맘공항 피격…2명 사망·8명 부상",
      "titleKo": null,
-     "summary": "담맘 공항 피격으로 2명 사망·8명 부상이라고 보도했어요.",
+     "summary": "뉴스1은 담맘공항 피격으로 2명 사망·8명 부상이라고 보도했어요.",
      "reportedAt": "2026-10-22T08:14:25.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MajVkSTFrX0RxY242dkVEZkJwMlBfMUpTcTJ4OTVqZHplUmVGQlQ5OF9hcEc3V1p0dFdNSjJGa3cwc3V1X2g0SkVHYXpmM3lGd1BadXptSzhIS1RJYUxGNnhn?oc=5"
@@ -772,140 +697,27 @@
      "cat": "kr",
      "title": "사우디 ‘석유 심장부’ 담맘공항 피격…1명 사망·8명 부상",
      "titleKo": null,
-     "summary": "담맘 공항 피격으로 1명 사망·8명 부상 보도했어요.",
+     "summary": "채널A는 담맘공항 피격으로 1명 사망·8명 부상 보도를 냈어요.",
      "reportedAt": "2026-10-22T08:56:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XajdTd3g1dXRRVFg0V2l2YXBVZFc0MGpGd19XTE5YVXAxWFlaeFoyV3U1Nm9kR1ktWG01TUxsRUU3S3RvZ2ljMXpRNDRuWF8zdkNsb3FLT1hTZVpIRmgyU0NpRdIBY0FVX3lxTE1XajdTd3g1dXRRVFg0V2l2YXBVZFc0MGpGd19XTE5YVXAxWFlaeFoyV3U1Nm9kR1ktWG01TUxsRUU3S3RvZ2ljMXpRNDRuWF8zdkNsb3FLT1hTZVpIRmgyU0NpRQ?oc=5"
-    },
-    {
-     "outlet": "한겨레",
-     "cat": "kr",
-     "title": "사우디 유전·공항서 후티 공격에 4명 사망…미, 공무원 철수 명령",
-     "titleKo": null,
-     "summary": "후티 공격으로 유전·공항에서 4명이 사망했고 미국이 공무원 철수를 명령했다고 보도했어요.",
-     "reportedAt": "2026-10-22T08:57:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNHZncVUzZjZNWlJXNjhKY2lfWVBpWmRUdDNNTDRuNlVvMGJSMTFRdzYtTVRiNzN6azV0QjcwbFNIdHVaMTYzN3g1MkhucTNzWFlqcjJqUjNMZ0x6eXgxUDY0QXpURkVlS0ltWlN4QUFUeVRMUUFfNm1JYTRKdVppNUln?oc=5"
-    },
-    {
-     "outlet": "한겨레",
-     "cat": "kr",
-     "title": "후티 공격에 사우디 유전·공항서 4명 사망…미, 대사관 직원 철수 명령",
-     "titleKo": null,
-     "summary": "후티 공격으로 사우디 유전과 공항에서 총 4명이 사망했다고 보도됐어요.",
-     "reportedAt": "2026-10-22T08:59:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNHZncVUzZjZNWlJXNjhKY2lfWVBpWmRUdDNNTDRuNlVvMGJSMTFRdzYtTVRiNzN6azV0QjcwbFNIdHVaMTYzN3g1MkhucTNzWFlqcjJqUjNMZ0x6eXgxUDY0QXpURkVlS0ltWlN4QUFUeVRMUUFfNm1JYTRKdVppNUln?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Jordan Condemns Terrorist Attack by Houthi Militia on King Fahd International Airport in Dammam",
-     "titleKo": "요르단, 담맘 킹 파흐드 공항에 대한 후티의 테러 공격 규탄",
-     "summary": "요르단이 담맘 킹 파흐드 공항에 대한 후티의 테러 공격을 규탄했다고 발표했어요.",
-     "reportedAt": "2026-10-22T12:00:37.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE03eWJ1bFpncW9SQkdOVUl3WUZUYnNZLUFsemk4cTh1UnhEeXo1dEF6QVhkNVpFdzBQYW90SmRzZm9QbUJTNExtbWlB?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
-     "titleKo": "미, 사우디 주재 외교관 철수 명령",
-     "summary": "미국이 외교관 철수 명령을 내렸다고 보도되며 긴장 고조 우려가 보도됐어요.",
-     "reportedAt": "2026-10-22T12:12:32.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent?traffic_source=rss"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Death toll rises to two in attack on Dammam airport",
-     "titleKo": "담맘 공항 공격 사망자 2명으로 증가",
-     "summary": "사우디 GACA가 담맘 공항 공격으로 사망자가 2명으로 늘었다고 발표했어요.",
-     "reportedAt": "2026-10-22T12:12:55.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665643/saudi-arabia/dammam-airport-attack-death-toll-rises-to-two-eight-injured"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Jordan, Egypt Condemn Attack on King Fahd International Airport in Saudi Arabia",
-     "titleKo": "요르단·이집트, 사우디 파하드 국왕 국제공항 공격 규탄",
-     "summary": "요르단과 이집트가 담맘 킹 파흐드 공항 공격을 규탄했다고 보도됐어요.",
-     "reportedAt": "2026-10-22T12:41:14.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5332317"
     },
     {
      "outlet": "뉴스1",
      "cat": "kr",
      "title": "친이란 후티, 사우디 석유거점 담맘공항 공격…2명 사망·8명 부상(종합)",
      "titleKo": null,
-     "summary": "후티가 담맘 공항을 공격해 2명이 사망하고 8명이 부상했다고 한국 언론들이 보도했어요.",
+     "summary": "한국 뉴스는 후티가 담맘 공항을 공격해 2명 사망·8명 부상했다고 보도했어요.",
      "reportedAt": "2026-10-22T13:43:50.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IelZTcmc2dThNVko3MXo3T1lENmRyLVN2WTgtbVFEaE9uVWhpVDczdWNlcmNKamJwdktHSUNpOXc1elZMc0NVZEJPb2t0aC1GeVNPNGl5S0VkNElsMUlBQTR3?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
-     "titleKo": "사우디 킹 파흐드 공항 공격으로 2명 사망",
-     "summary": "담맘 공항 공격으로 2명이 사망했다는 국제 보도가 있었어요.",
-     "reportedAt": "2026-10-22T14:01:53.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
     }
    ]
   },
   {
-   "id": "037e170f4c3f",
+   "id": "4dcf85f7ce2a",
    "articleIds": [
-    "3b679b7b80d2",
-    "5c3d29f9c501"
-   ],
-   "type": "evacuation",
-   "sev": "high",
-   "status": "claim",
-   "directive": null,
-   "title": "사우디 아람코, 다란(Dhahran) 본사 직원 대피를 지시했다고 복수 소식통이 전해",
-   "titleAuto": true,
-   "regions": [
-    "dammam",
-    "eastern"
-   ],
-   "inferred": true,
-   "inferNote": "다란(Dhahran)은 담맘 인근 아람코 본사 소재지라 동부주로 추정했어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T08:30:35.292Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say",
-     "titleKo": "로이터: 사우디 아람코, 다란 본사 직원 대피 지시",
-     "summary": "사우디 아람코가 다란 본사 직원 대피를 지시했다고 복수 소식통이 로이터에 전했어요.",
-     "reportedAt": "2026-10-22T12:51:32.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNDNYdWIxY2pGbkhqRTlJNmJRMUE4N1RsclJwWklRYzdQUy04Wi1ObjlQNm1JaER4QVpRREs1NkdOeVNzYi1wd3lURFQ0S29OYkdJOERlQUdlSlBQMU1Mb2VzRDVaZlpUbWt0UGdpODc3a0FjWkVoUDIyWEZCeHlSd2JfZkIzLVNNVV9LSFcyVGpNaFU0S3JOV19wc29qWU90SGJrV04xRlQ5cjlBMUp0dFZ5UlgzR3F0MEdJXw?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk",
-     "titleKo": "후티의 사우디 추가 공격에 지역 리스크 커지자 걸프 시장 하락",
-     "summary": "유가와 주식시장이 후티의 사우디 공격 소식에 하락했다고 로이터가 보도했어요.",
-     "reportedAt": "2026-10-22T13:44:22.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQS1ESU5ra242UzdCbkxuVkNzUkV2NWZVTGlRcDZnSzJBeE5KTkFyMEZvaTd0ZEl4LWduc0lmbGZkRnV6REF1dV9VUkRESHpVM3lLUkt0SmtfQzJDLXdnZ0l6akwwOWZpS1lza2tSbHczcnlpU2JPSXo5eHNrY0c4aWNpWjNJSlFYa2M2UEhDNnVsUnQySGF6MVJSY1FPam1LSlliSkJUTzFKck9tZ2J6S2xlUnVSam1TTllJbUxQWmtTcjQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "6d26e889bda6",
-   "articleIds": [
+    "a7d2f035b0c9",
     "318f325de701",
     "66bca40d4b72",
     "f77b3994cf61",
@@ -916,23 +728,33 @@
     "f40b16fb3845",
     "24dee4835c80"
    ],
-   "type": "energy",
+   "type": "missile",
    "sev": "high",
    "status": "claim",
    "directive": null,
-   "title": "후티 반군 \"사우디 국방부·공항 등 4곳 미사일·드론으로 타격\"",
+   "title": "후티 공격에 사우디 유전·공항서 4명 사망…미, 대사관 직원 철수 명령",
    "titleAuto": false,
    "regions": [
-    "jafurah",
     "eastern",
+    "riyadh",
     "airport"
    ],
    "inferred": true,
-   "inferNote": "기사에 '아람코 유전'과 '동부주' 언급으로 자푸라 등 동부 유전 지역을 추정했어요.",
+   "inferNote": "기사 제목들이 지명을 일부 언급하나 모든 기사에 위치가 명시되지 않아 동부주·리야드를 포함해 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-10-22T12:40:28.177Z",
+   "collectedAt": "2026-10-22T09:30:43.305Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "한겨레",
+     "cat": "kr",
+     "title": "후티 공격에 사우디 유전·공항서 4명 사망…미, 대사관 직원 철수 명령",
+     "titleKo": null,
+     "summary": "후티 공격으로 사우디 유전과 공항에서 총 4명이 사망했다고 보도됐어요.",
+     "reportedAt": "2026-10-22T08:59:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNHZncVUzZjZNWlJXNjhKY2lfWVBpWmRUdDNNTDRuNlVvMGJSMTFRdzYtTVRiNzN6azV0QjcwbFNIdHVaMTYzN3g1MkhucTNzWFlqcjJqUjNMZ0x6eXgxUDY0QXpURkVlS0ltWlN4QUFUeVRMUUFfNm1JYTRKdVppNUln?oc=5"
+    },
     {
      "outlet": "연합뉴스",
      "cat": "kr",
@@ -968,7 +790,7 @@
      "cat": "kr",
      "title": "후티 반군 “사우디 국방부·공항·아람코 등 4곳 타격”",
      "titleKo": null,
-     "summary": "",
+     "summary": "서울경제는 후티가 사우디 국방부·공항·아람코 등 4곳을 타격했다고 보도했어요.",
      "reportedAt": "2026-10-22T12:43:48.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93RDA2bWZoWlk1LXVaNlIwZFBkU3p4QXRmMzQzQzNhdy1YMF9tQzJSbFc5dm9UVkhlS2hHdlF1Y0g0VjczUFdqM09ZM1lqLWN4bmc?oc=5"
@@ -978,7 +800,7 @@
      "cat": "kr",
      "title": "후티 반군 \"사우디 국방부·공항 등 4곳 미사일·드론으로 타격\"",
      "titleKo": null,
-     "summary": "",
+     "summary": "MBC는 후티가 사우디 국방부·공항 등 4곳을 미사일·드론으로 타격했다고 주장 보도를 했어요.",
      "reportedAt": "2026-10-22T12:48:08.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15Tnl4RWgybUxzWGh0cG1jcExlYUZwVmlVR3JtTERWLVROUVY4aV9wajJmSjlLR29hWU1ScmZKZmNEVk8wS0ZuMTFxc0w5VmVBMkVpSWFNM3E5eFJJM3hZZ2tYU3JBbExtQ29JMGt0S0o0RERa0gF0QVVfeXFMUEszUU1EdmRrNTZRS2JIaFJpNWM1dFVUWXJvTExLdHl2Wm5ya2FkcFhyTVpSckxFOWhhekxMbFhFbEQ3b3FXRnQwVEk2X2dUZk9meTA1TzBSNVNNQ1VrYmllUl8zRXBELURIakZrZHUyOVJETGY?oc=5"
@@ -988,7 +810,7 @@
      "cat": "kr",
      "title": "후티 반군 \"사우디 국방부·공항 등 4곳 미사일·드론 타격\"",
      "titleKo": null,
-     "summary": "복수 국내 언론이 후티의 4곳 타격 주장 보도를 전했어요.",
+     "summary": "여러 매체가 후티의 4곳 타격 주장 내용을 보도했다고 전했어요.",
      "reportedAt": "2026-10-22T12:50:13.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pX2s0dlpGRmxGNjdTSEpvVVoxMDBQRjZrQTRkR0l5NlgxVmI4Q3VSaXV1Znp3TU5hUjRkMzBLZEp0ZVZtT1FHbm9tWWxRSXhJbng5b2NseTlIY1Rza3hwTQ?oc=5"
@@ -1008,7 +830,7 @@
      "cat": "kr",
      "title": "후티 반군 \"사우디 국방부·공항 등 4곳 미사일·드론으로 타격\"",
      "titleKo": null,
-     "summary": "한국 언론들도 후티가 사우디 국방부와 공항 등 4곳을 공격했다고 보도했어요.",
+     "summary": "세계일보는 후티가 사우디 국방부·공항 등 4곳을 미사일·드론로 타격했다고 보도했다고 전했어요.",
      "reportedAt": "2026-10-22T13:10:22.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6VU85RUNnS0kyVUNGcU4xdWo4QTk0djZpUnBxMXlJV0FGUVhYdW5FRm1VdDgxRWpVcC1nV1ZZcTV0NWFyQlRWN0hRakxxUWVEcWhCRzlzbFhNaU1YMjZDaHZKMmY4MERueEZ30gFUQVVfeXFMUHF2eGo4WkZ3aUZsYmx5TWtQZFhEZmtZSlBZMlVpYkJIT1lYTnNwWDlaaFFkVE9rQmtadGJRbV9GWVdtU042OVB4Y1ozODUtbFZTa2lw?oc=5"
@@ -1018,97 +840,33 @@
      "cat": "kr",
      "title": "예멘 후티 \"사우디 국방부·공항 등 4곳 타격…봉쇄 해제시까지 공격\"",
      "titleKo": null,
-     "summary": "후티가 사우디 국방부와 공항 등 4곳을 미사일·드론으로 타격했다고 성명을 통해 주장했어요.",
+     "summary": "뉴시스는 후티가 사우디 국방부·공항 등 4곳을 미사일·드론으로 타격했다고 보도했다고 전했어요.",
      "reportedAt": "2026-10-22T13:33:25.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vMHhva01UQ054aE5tc214ZU01bW5VbXAxeWNjZlZZWnJNNk1SUjQ3VDQyWUxlQU1Hb3FxOFZPREJPTFY3SDBQWG1Sblo5TnJTLWloRDRLY1pwOUN3aUhETtIBeEFVX3lxTE85WVNEcXMyUFJXUjVWSTVfT3IzVlc1N1RpNDZtaksyNE5CNDQ3YU5kUjBYTG9UdEZEbkszcDBvVnlUanNTZkQ3QmRtS2p4S1lUWlZ6YjFPMlJMdE9vQklvV1BHVFNBSnRBY205RldOMTl6MDR3dE5KUg?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85WVNEcXMyUFJXUjVWSTVfT3IzVlc1N1RpNDZtaksyNE5CNDQ3YU5kUjBYTG9UdEZEbkszcDBvVnlUanNTZkQ3QmRtS2p4S1lUWlZ6YjFPMlJMdE9vQklvV1BHVFNBSnRBY205RldOMTl6MDR3dE5KUtIBeEFVX3lxTE85WVNEcXMyUFJXUjVWSTVfT3IzVlc1N1RpNDZtaksyNE5CNDQ3YU5kUjBYTG9UdEZEbkszcDBvVnlUanNTZkQ3QmRtS2p4S1lUWlZ6YjFPMlJMdE9vQklvV1BHVFNBSnRBY205RldOMTl6MDR3dE5KUg?oc=5"
     }
    ]
   },
   {
-   "id": "4529487398e6",
+   "id": "5afafeb577c9",
    "articleIds": [
-    "cbbb1ad5302b"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "미국은 후티 위협을 이란 전략에 반영해야 한다",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T13:30:44.933Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "US must incorporate Houthi threat into its Iran strategy",
-     "titleKo": "미국은 후티 위협을 이란 전략에 반영해야 한다",
-     "summary": "미국이 후티 위협을 이란 전략에 반영해야 한다는 주장이 제기됐어요.",
-     "reportedAt": "2026-10-22T13:25:15.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/opinion/us-must-incorporate-houthi-threat-into-its-iran-strategy-3007470"
-    }
-   ]
-  },
-  {
-   "id": "3c5bed888274",
-   "articleIds": [
-    "3079bdd07c31"
+    "78638768964b",
+    "7bbd2b402db6"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "아시아 축구 수장, 인판티노에 대한 지지나 반대 여부에 대해 아무런 단서도 내놓지 않아",
+   "title": "여러 국가·기구가 후티 공격을 비난했다고 발표",
    "titleAuto": true,
    "regions": [
-    "all"
+    "eastern"
    ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T13:20:32.057Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Asian soccer chief gives no hint about support — or opposition — to Infantino",
-     "titleKo": "아시아 축구 수장, 인판티노에 대한 지지나 반대 여부에 대해 아무런 단서도 내놓지 않아",
-     "summary": "이집트 외교부 장관은 사우디-후티 긴화해를 정치적 해결로 풀어야 한다고 강조했어요.",
-     "reportedAt": "2026-10-22T13:18:53.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/football/asian-soccer-chief-gives-no-hint-about-support-or-opposition-to-infantino-3007731"
-    }
-   ]
-  },
-  {
-   "id": "dfdcdc3d714d",
-   "articleIds": [
-    "78638768964b"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "혼란스러운 주변 환경이 국가 발전을 더 어렵게 만든다",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "비난 성명들이 담맘·동부주 공격을 전제로 해 동부주와 연관 지어 추정했어요.",
    "occurredAt": null,
    "collectedAt": "2026-10-22T13:10:37.046Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "Arab News",
@@ -1119,23 +877,64 @@
      "reportedAt": "2026-10-22T13:09:20.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/opinion/a-countrys-progress-is-harder-in-a-troubled-neighborhood-3007282"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Houthi attacks on holy sites, civilian facilities is a grave crime, says Malaysia’s mufti",
+     "titleKo": "말레이시아 무프티, 후티의 성지·민간 시설 공격은 중대한 범죄라고 밝혀",
+     "summary": "",
+     "reportedAt": "2026-10-22T13:13:52.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/houthi-attacks-on-holy-sites-civilian-facilities-is-a-grave-crime-says-malaysias-mufti-3007716"
     }
    ]
   },
   {
-   "id": "46acd48b507b",
+   "id": "ed55b1ab1a5b",
    "articleIds": [
-    "d82ed52d1dce",
-    "d0e312185044"
+    "b4e112061e37"
    ],
-   "type": "advisory",
+   "type": "security",
    "sev": "mid",
-   "status": "multi",
+   "status": "single",
+   "directive": null,
+   "title": "이란 관련 긴장과 외교관 철수 소식 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T12:40:28.177Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
+     "titleKo": "이란 관련 긴장과 외교관 철수 소식 보도",
+     "summary": "알자지라는 이란 관련 긴장과 외교관 철수 소식을 전했다고 보도했어요.",
+     "reportedAt": "2026-10-22T12:12:32.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent?traffic_source=rss"
+    }
+   ]
+  },
+  {
+   "id": "89a1015715a2",
+   "articleIds": [
+    "d82ed52d1dce"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
    "directive": null,
    "title": "美, 사우디서 외교관 철수령… 후티 공격 임박 신호?",
    "titleAuto": false,
    "regions": [
-    "riyadh"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
@@ -1151,145 +950,256 @@
      "summary": "미국이 사우디에서 외교관 철수 명령을 내렸다고 한국 언론이 보도했어요.",
      "reportedAt": "2026-10-22T10:53:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kNzJQT3ZuMXp4dkZIUkFXUlRackZoRWs0SWszY1d0dy1SYmZnRk9UNWdNaDQ2V3oxdGdia3prS016a0ItU3hJWEtGS0ZyTlBScTJ5XzRDOE5rTUJMeS14MHNUbEJKS2xXVFHSAVRBVV95cUxQSjBkZEVLZkRGTlZsQ2wzc0V4RjRoQzdTVk9kSGJpV0xiUHNCbnljbktfUXRqdmlsVENTWExjU2pzc0o0dEJUMzFERnBGSk81cksxU1g?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "British expat lauds UK support for Saudi Arabia amid war",
-     "titleKo": "영국 교민, 전쟁 중 사우디아라비아에 대한 영국의 지원을 칭찬",
-     "summary": "영국이 사우디를 지원하기 위해 전투기와 공중급유 지원을 제공한다고 보도됐어요.",
-     "reportedAt": "2026-10-22T12:35:54.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/british-expat-lauds-uk-support-for-saudi-arabia-amid-war-3007707"
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKMGRkRUtmREZOVmxDbDNzRXhGNGhDN1NWT2RIYmlXTGJQc0JueWNuS19RdGp2aWxUQ1NYTGNTanNzSjR0QlQzMURGcEZKTzVySzFTWNIBVEFVX3lxTFBKMGRkRUtmREZOVmxDbDNzRXhGNGhDN1NWT2RIYmlXTGJQc0JueWNuS19RdGp2aWxUQ1NYTGNTanNzSjR0QlQzMURGcEZKTzVySzFTWA?oc=5"
     }
    ]
   },
   {
-   "id": "612fcaf384e7",
+   "id": "4bdb2ce3868c",
    "articleIds": [
-    "227fcca19da0"
+    "a44106c10e70"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "인도, 사우디 동부 유전·공항 공격 규탄",
+   "title": "사우디 유전·공항서 후티 공격에 4명 사망…미, 공무원 철수 명령",
+   "titleAuto": false,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T09:00:49.695Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "한겨레",
+     "cat": "kr",
+     "title": "사우디 유전·공항서 후티 공격에 4명 사망…미, 공무원 철수 명령",
+     "titleKo": null,
+     "summary": "후티 공격으로 유전·공항에서 4명이 사망했고 미국이 공무원 철수를 명령했다고 보도했어요.",
+     "reportedAt": "2026-10-22T08:57:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNHZncVUzZjZNWlJXNjhKY2lfWVBpWmRUdDNNTDRuNlVvMGJSMTFRdzYtTVRiNzN6azV0QjcwbFNIdHVaMTYzN3g1MkhucTNzWFlqcjJqUjNMZ0x6eXgxUDY0QXpURkVlS0ltWlN4QUFUeVRMUUFfNm1JYTRKdVppNUln?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "1f3857586bcb",
+   "articleIds": [
+    "cf52299f8991"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 공항·유전 피격에 사상자 속출…중동 곳곳 불길",
+   "titleAuto": false,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T08:20:57.231Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SBS",
+     "cat": "kr",
+     "title": "사우디 공항·유전 피격에 사상자 속출…중동 곳곳 불길",
+     "titleKo": null,
+     "summary": "공항과 유전 피격으로 사상자가 속출하고 있다고 보도했어요.",
+     "reportedAt": "2026-10-22T08:10:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12RzJjY1hzdVN3V3JoMmM2bHF2U3dnNndiZFdWNzhTSm5aT3VfNzVZVHcweWRqN0NWZnA0VUVhYS1MbkRCd2lIT0haY2c0azlWNFlhRGtMaUpjY0ZaWjhvcXc2ejVwZVN2clE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "4831342b85c9",
+   "articleIds": [
+    "c4be5552006e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "美, 사우디 주재 공무원·가족 철수 명령…후티 반군 공격 임박했나",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T04:50:26.015Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "조선일보",
+     "cat": "kr",
+     "title": "美, 사우디 주재 공무원·가족 철수 명령…후티 반군 공격 임박했나",
+     "titleKo": null,
+     "summary": "미의 철수 명령 관련 보도예요.",
+     "reportedAt": "2026-10-22T04:40:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaXNMZ3hIQ0VWNUpBbnR4Z3kxSi1yaGhVdm9uVXIwcjVETHhfMTRSYU5ucHFWa01yUDVwS1ZFbGVGa0oxWnBTZUxyaDhScFVmMm9KUmpNSFg4SXZvRktPYm1ucV81WDJmYk5sR1lmODl2SU9lejFMbF9ybFVBYllYUzY4Yjk?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "e6f0416c97f1",
+   "articleIds": [
+    "9c8579daa96c",
+    "7a9ef60808ad",
+    "61c0b3e247ca",
+    "49ac2dfcad73",
+    "730e05099d6c",
+    "5c1758deadb9"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "사우디 석유 도시 담맘 공항 공격으로 2명 사망·8명 부상",
    "titleAuto": true,
    "regions": [
+    "dammam",
+    "airport",
     "eastern"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T11:30:44.711Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "India condemns deadly attacks on Saudi Arabia’s Eastern Province",
-     "titleKo": "인도, 사우디 동부 유전·공항 공격 규탄",
-     "summary": "인도가 동부주 유전과 공항에 대한 치명적 공격을 규탄했고, 인도인 사망 소식을 전했어요.",
-     "reportedAt": "2026-10-22T11:25:52.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbFpuMTlNRDJEcWpxcFVmUzFKeENaZE5VOU80a3VLVEtvRTRKWFlkN2pFSkp2SEtPNXRKUWl1VjRFNTVTZGxjRzhZeTcyZW9HOU5KU1dreXp5cXVXc2VXMldGdmlPX1BNSUZRc2JQaGs4X3J5VmM4NEVwbmVOZXYtR1d6d09hbTV3aTBfR1JJR1hNTUFTY2xvRzdFM1JIUDNFZGFWLQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "df418bccb0a6",
-   "articleIds": [
-    "dda56645b2ab"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "[오피셜]모레노 운명 걸린 11월 A매치, '미사일 공격' 사우디 아닌 카타르 도하서 개최...13일 사우디-17일 카타르와 중동 2연전",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T10:10:31.426Z",
+   "collectedAt": "2026-10-21T22:30:39.902Z",
    "aiNote": null,
    "sources": [
     {
-     "outlet": "조선일보",
-     "cat": "kr",
-     "title": "[오피셜]모레노 운명 걸린 11월 A매치, '미사일 공격' 사우디 아닌 카타르 도하서 개최...13일 사우디-17일 카타르와 중동 2연전",
-     "titleKo": null,
-     "summary": "사우디와 관련된 축구 경기 일정 변경 소식이 보도됐어요.",
-     "reportedAt": "2026-10-22T10:14:00.000Z",
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Two killed, 8 injured in attack on airport in Saudi oil city Dammam",
+     "titleKo": "사우디 석유 도시 담맘 공항 공격으로 2명 사망·8명 부상",
+     "summary": "",
+     "reportedAt": "2026-10-21T22:21:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNREMxNVhmMXU1RTAyeVdvV3RNMmZQV1hscWdNc1hha0xzVXY0cDJwbEQ4R0FCMUJyaUQ4c3E3Rk1LVFJhZGJkMGExSU5XaVdrMjQ0Wk1CRXdOYzhsYlJkSVIzTDFxQjJqbXZXX0JpUmpsMk9Qc3N2TDcyVWhvQUFLVG8yWQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
+     "titleKo": "사우디 민항청: 킹 파흐드 공항 피격으로 사상자 발생",
+     "summary": "사우디 민항국은 담맘 공항 피격으로 1명 사망·8명 부상이라고 밝혔다고 보도했어요.",
+     "reportedAt": "2026-10-21T22:21:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "GACA: Attack Targets King Fahd International Airport in Dammam; One Killed, Eight Injured",
+     "titleKo": "GACA: 담맘 공항 공격, 1명 사망·8명 부상",
+     "summary": "GACA가 담맘 공항 공격으로 1명 사망·8명 부상 발표했다고 보도했어요.",
+     "reportedAt": "2026-10-21T23:48:24.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBwMVk0U0haOEMzeVZwVHVVcHhDLTh1N2s3THU4Y3A0SWI3TzUxa2JIVEpfX3g0UlUwM0JMNVJWd0tlYzhhTDlJSWZB?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+     "titleKo": "담맘 공항 피격으로 1명 사망·8명 부상",
+     "summary": "담맘 공항 피격으로 1명 사망·8명 부상 보도했어요.",
+     "reportedAt": "2026-10-22T00:31:08.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "One killed, eight injured in attack on Dammam airport",
+     "titleKo": "담맘 공항 공격으로 1명 사망·8명 부상",
+     "summary": "Saudi Gazette는 담맘 공항 공격으로 외국인 1명이 사망하고 8명이 부상했다고 GACA 발표를 전했어요.",
+     "reportedAt": "2026-10-22T02:40:34.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665631/saudi-arabia/one-killed-eight-injured-in-dammam-airport-attack-as-coalition-intercepts-four-drones"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "1 Killed, 8 Injured in Dammam Airport Attack",
+     "titleKo": "담맘 공항 공격으로 1명 사망·8명 부상",
+     "summary": "담맘 공항 공격으로 1명이 사망하고 8명이 부상했다고 보도된 초기 보도가 있어요.",
+     "reportedAt": "2026-10-22T03:24:48.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5332192"
     }
    ]
   },
   {
-   "id": "f63f407c78b0",
+   "id": "ecda5225eafe",
    "articleIds": [
-    "76d75d8c67d5"
+    "a971d122c685"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "후티 공격이 사우디의 안전지 위상에 타격",
-   "titleAuto": true,
+   "title": "사우디 '킹 파흐드' 공항, 후티군 추정 공습‥1명 사망·8명 부상",
+   "titleAuto": false,
    "regions": [
-    "all"
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T08:30:35.292Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-10-22T03:30:39.242Z",
+   "aiNote": null,
    "sources": [
     {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "On the road to Bahrain as Houthi attacks hit Saudi Arabia's haven status",
-     "titleKo": "후티 공격이 사우디의 안전지 위상에 타격",
-     "summary": "후티의 공격으로 사우디의 안보 지위에 변화가 있다는 분석 보도가 있었어요.",
-     "reportedAt": "2026-10-22T09:11:37.000Z",
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "사우디 '킹 파흐드' 공항, 후티군 추정 공습‥1명 사망·8명 부상",
+     "titleKo": null,
+     "summary": "MBC는 후티 추정 공격으로 담맘 공항에서 1명이 사망하고 8명이 부상했다고 보도했어요.",
+     "reportedAt": "2026-10-22T03:03:39.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50S3dGeDdqU1ZfaFUwWHNMbUhxUXF1SmswY3BaQV91NUIyT2ktVUZLU3ZRV0xDNVYxTlhyRGxicHMyN0pDdm4wTEFmVTZ5QU9oWi1RV2Z6ajVTT0VUb2ZfTEtFcjg5b28?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Idm5YeF80MkloeFZWVkJCU29ZU0Z0OFRVNFlPSkI1YURQZE01cGQ3QTdkc29pOUd4VjBpSDBBWnpOUnUwZ3YyeFBqT2xpS3ctbTJjeTAtUVpQQ0JrWDc1Wmlxd1FsOWNEU1lYa0hxam8zTEJi0gF0QVVfeXFMT0Vzd0VwR3V3RUNONmhjT1hmRzVtVmMzblduYnBQWldKbFhveFhrTHN0RVdGeHdyazhBVm54RHJwZWdiS1RqRjVNSVlGOEhZUHIteFJrUDUtb1g2endEaS1jQ0l4ejRndkNmYUJ3RWpEaHIwbm0?oc=5"
     }
    ]
   },
   {
-   "id": "857378309c5e",
+   "id": "1b1a458d9502",
    "articleIds": [
-    "6f54c7487c09"
+    "66e4e81c879f"
    ],
-   "type": "missile",
-   "sev": "high",
+   "type": "security",
+   "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "[공식발표] 韓 축구대표팀, '미사일 폭격' 사우디 대신 카타르 간다...모레노호, 11월 '중동 원정' 확정 \"사우디·카타르와 2연전\" - 머니투데이",
+   "title": "사우디 킹 파드 공항 피격...미국, 사우디 체류 직원 철수령",
    "titleAuto": false,
    "regions": [
-    "all"
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T09:18:07.913Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-10-22T02:10:30.001Z",
+   "aiNote": null,
    "sources": [
     {
-     "outlet": "머니투데이",
+     "outlet": "YTN",
      "cat": "kr",
-     "title": "[공식발표] 韓 축구대표팀, '미사일 폭격' 사우디 대신 카타르 간다...모레노호, 11월 '중동 원정' 확정 \"사우디·카타르와 2연전\" - 머니투데이",
+     "title": "사우디 킹 파드 공항 피격...미국, 사우디 체류 직원 철수령",
      "titleKo": null,
-     "summary": "한국 축구대표팀이 사우디 일정을 변경해 카타르 원정을 확정했다는 보도가 있어요.",
-     "reportedAt": "2026-10-22T09:01:00.000Z",
+     "summary": "미가 사우디 체류 직원 철수 명령을 내렸다고 보도했어요.",
+     "reportedAt": "2026-10-22T01:55:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qZS1QS2ZEZ21POXc5SHJYcUpWOVl5eko4VzVQN0o4c19ndW82SlFvSENnWU8yZ1hvVERsZ1VGVkpNeVdma3d2dzFaNl9GZTlVY09JTjhDNlNGRjJ0YTI5VThaem1fbnROYWfSAW9BVV95cUxQeElHUjFzRURwUVVMV2JvOEZHV3lzMzhxWFBMbkxaY1JFZnFKbW1UUndzSXF5dUdiUTYxY1dRN1V1OEprYzVOa0FQMEh2ZDVVTS1ndlFlMXVIZjQ1aE54ZzlJOUZjcFA4em9INXJuMVU?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1TnpDMmtkS1h5X0w1WTBZLTd2aXByOThmc0NFNGNoeVZwcXRCbHl2TW5na2tEZ2dwMjBILTJqTEtRM01FME5RMDBkeVlVWXB5dWNJbV9LLTYtZ0lON3c?oc=5"
     }
    ]
   },
@@ -1311,7 +1221,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-10-22T02:00:47.266Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "KBS",
@@ -1326,13 +1236,46 @@
    ]
   },
   {
-   "id": "13622c3d690b",
+   "id": "fc87115da5c5",
    "articleIds": [
-    "e38970cc4282"
+    "ece2b942cf4e"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
+   "directive": null,
+   "title": "사우디 공항 피격에 최소 9명 사상…후티 충돌에 중동 전운",
+   "titleAuto": false,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T02:00:47.266Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 공항 피격에 최소 9명 사상…후티 충돌에 중동 전운",
+     "titleKo": null,
+     "summary": "공항 피격으로 최소 9명 사상 보도했어요.",
+     "reportedAt": "2026-10-22T01:49:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEaGtkZjdoRTdjb0JseVJ2VjRkbGxyOTdNY2Y0OFhKeEstelp2Q3ZVWXduZlZOalo2WDZpY1dQa1ljQ3lpTGxZMmhzdjJIdDJBUklJU2g3anVFOFlQX1k4Vng2a01pQ1E?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "e2eaa3840324",
+   "articleIds": [
+    "e38970cc4282",
+    "173d49684789"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "multi",
    "directive": null,
    "title": "사우디 공항 피격에 사상자 속출…후티 충돌로 중동 곳곳 전운",
    "titleAuto": false,
@@ -1342,7 +1285,7 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-22T08:20:57.231Z",
+   "collectedAt": "2026-10-22T02:00:47.266Z",
    "aiNote": null,
    "sources": [
     {
@@ -1354,6 +1297,16 @@
      "reportedAt": "2026-10-22T01:43:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11cGl4SVAxaXFFUTVmaGJuLUR3TVgtNW51c29DVWoyNXQ3NVZ1dlZ6TThQMW1DZWhld2FqNjk0dGo5MWhXWVBzLTFHX2FNbGdLTXpzTlBTOVh4U3BybFl2amhlY1RKbld4OFpyMlN4WUVwUHhZU05zNkFoWEs?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 공항 피격에 사상자 속출…후티 충돌로 중동 곳곳 전운",
+     "titleKo": null,
+     "summary": "공항 피격으로 사상자 속출 보도했어요.",
+     "reportedAt": "2026-10-22T01:43:54.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53cVk0NTNqUGVEUWF5Q1V5ZE9GSE9Yb3FMeTRzRXFoUEtsYm5NQ3FEcl8xeEFHTjI1a2ZkSzY3c3dZNHc0eDEwVjBobTNwZ081YjJ1UG1RLUtYQmvSAWBBVV95cUxPWXNUNnV3VUVockhmWXhWeUpEcE9NbjkwVGszOElWMW9yYTJHZUFYQ1FHc0xtQzk3dHdrTVVaeW9SVW9yNHMtRjU0RUhtUzJ4SHBaNDQwek5PeFZ3a05wcE4?oc=5"
     }
    ]
   },
@@ -1419,62 +1372,6 @@
      "reportedAt": "2026-10-22T01:19:11.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdUxoa09KQm4tYmtFQ3REdW9vR0VtNXFMREdfdlFnSFJZR0RJVFo4cDBkaGY0bm9wS0JYbVZVWEFBQlNaQkpuOWxrWEFTUTN1OFR5c19HbGpsOEFGTHdkbDVNTmZaUzlNMWJxSmVYWWp0cG5yc3BCYjlaLUs1VU1NeExwb1VVbFdlaGdaT0lVTDBxVGdOb20zN1lJNVcwTHBkS3JUWV9xeXJFc0tId0lrNE1EdVFKd0E3enB1OHBzMHBINkRhNzhYSzQzdXA?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "34369bf6aa5c",
-   "articleIds": [
-    "7a9ef60808ad",
-    "61c0b3e247ca",
-    "49ac2dfcad73"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "사우디 민항청: 킹 파흐드 공항 피격으로 사상자 발생",
-   "titleAuto": true,
-   "regions": [
-    "airport",
-    "dammam",
-    "eastern"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T22:30:39.902Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
-     "titleKo": "사우디 민항청: 킹 파흐드 공항 피격으로 사상자 발생",
-     "summary": "사우디 민항국은 담맘 공항 피격으로 1명 사망·8명 부상이라고 밝혔다고 보도했어요.",
-     "reportedAt": "2026-10-21T22:21:44.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "GACA: Attack Targets King Fahd International Airport in Dammam; One Killed, Eight Injured",
-     "titleKo": "GACA: 담맘 공항 공격, 1명 사망·8명 부상",
-     "summary": "GACA가 담맘 공항 공격으로 1명 사망·8명 부상 발표했다고 보도했어요.",
-     "reportedAt": "2026-10-21T23:48:24.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBwMVk0U0haOEMzeVZwVHVVcHhDLTh1N2s3THU4Y3A0SWI3TzUxa2JIVEpfX3g0UlUwM0JMNVJWd0tlYzhhTDlJSWZB?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-     "titleKo": "담맘 공항 피격으로 1명 사망·8명 부상",
-     "summary": "담맘 공항 피격으로 1명 사망·8명 부상 보도했어요.",
-     "reportedAt": "2026-10-22T00:31:08.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
     }
    ]
   },
@@ -1860,40 +1757,6 @@
      "cat": "wire",
      "title": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue",
      "titleKo": "Saudi Aramco, 후티와의 충돌 계속되자 다란 직원들에게 대피 지시",
-     "summary": "",
-     "reportedAt": "2026-10-21T22:21:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "7f6f2b670843",
-   "articleIds": [
-    "9c8579daa96c"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 석유 도시 담맘 공항 공격으로 2명 사망·8명 부상",
-   "titleAuto": true,
-   "regions": [
-    "dammam",
-    "airport",
-    "eastern"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T07:30:35.427Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Two killed, 8 injured in attack on airport in Saudi oil city Dammam",
-     "titleKo": "사우디 석유 도시 담맘 공항 공격으로 2명 사망·8명 부상",
      "summary": "",
      "reportedAt": "2026-10-21T22:21:00.000Z",
      "dateOnly": false,
@@ -5488,9 +5351,8 @@
    ]
   },
   {
-   "id": "8ac0963e1c91",
+   "id": "e85a4fb97bf7",
    "articleIds": [
-    "01a7d2cf6d35",
     "bab05fcfd784",
     "bfcdfffa6e8e",
     "5a7376611bc1",
@@ -5501,7 +5363,7 @@
    "sev": "mid",
    "status": "multi",
    "directive": null,
-   "title": "후티 반군 \"사우디 아람코·리야드 공항 등 6곳 대규모 타격\"",
+   "title": "후티 반군 “사우디 아람코·리야드 공항 등 6곳 대규모 타격”",
    "titleAuto": false,
    "regions": [
     "riyadh",
@@ -5510,19 +5372,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-19T17:07:24.551Z",
+   "collectedAt": "2026-10-19T18:40:30.740Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티 반군 \"사우디 아람코·리야드 공항 등 6곳 대규모 타격\"",
-     "titleKo": null,
-     "summary": "후티가 아람코·리야드 공항 등 6곳을 대규모 타격했다고 주장했다고 보도했어요.",
-     "reportedAt": "2026-10-19T16:55:46.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02cmNwNEdtOVZsZWxNY3dpV0lBUXhDcmlQeHIzdDF5MkFES2J1LS05M1VTSmtFM3N2enJuRmtYMGJOSHViNm1KcXpKOHdLMzJYZzJpVzV5UmF4NUHSAWBBVV95cUxNNWc5ZGZPRmk2dUwyVG9DdlhQYUd4Q2k2R2p0S1BvUEF3dHJMbGFuWTI0SGxQTURaZXdvUlRMNEdRcVpQbHBseV9hZloyVUhxQkRqLUxfU3c3a1R5VkVqZU8?oc=5"
-    },
     {
      "outlet": "KBS",
      "cat": "kr",
@@ -5926,38 +5778,6 @@
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wTW1nRkJlOV9BZkZPM2NnZzFZV2pFVDctcjg2b3ljZWNkRko0ek1LRWRMV1hoWGdadk9xRkpLMWEtZ2k2Yk55Y1VB?oc=5"
     }
    ]
-  },
-  {
-   "id": "e164b7bfe72c",
-   "articleIds": [
-    "3ba053bcbf2a"
-   ],
-   "type": "airport",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "리야드 공항 폐쇄가 수도 생활에 혼란 초래",
-   "titleAuto": true,
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-19T17:07:24.551Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Saudi airport closure disrupts life in kingdom's capital",
-     "titleKo": "리야드 공항 폐쇄가 수도 생활에 혼란 초래",
-     "summary": "리야드 공항 폐쇄가 수도의 일상에 혼란을 줬다고 보도했어요.",
-     "reportedAt": "2026-10-19T16:59:48.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGRLX2JRa2xkUXBodUhjT2Z0NHZMQlBTTXIxQ3g0RXpuTWFaMEFEeFVrbi1GZ0VheGllVnZtc3JfMWZYT0NfRG5ReGhQVEZQbjlMbF80M0RUQlNXWkJrUDNpRXBtbUpsS241VGZOS3EwTWJCdnF2TEQwM2dPWG95VlRsYmo5cUZZd0VCTERCTmFVR3M5dGNObTdVcllMeWhyRDRTR09R?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -5972,12 +5792,32 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "외교장관, 이라크 장관과 사우디아라비아에 대한 테러 공격 논의",
+   "titleKo": "외교장관들이 사우디에 대한 테러 공격을 논의했다고 보도",
    "title": "Foreign Minister, Iraqi Counterpart Discuss Terrorist Attacks on Saudi Arabia",
-   "summary": "",
+   "summary": "사우디 국영통신은 사우디에 대한 테러 공격을 주제로 양국 외교장관 대화를 전했다는 제목을 내보냈어요.",
    "reportedAt": "2026-10-22T15:19:27.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1yUWM5WjJtSlVzNWJxbGFkX0pKWDNIQi14dWJNX25VWEF3cHkxWmJuajB6em1MU1VvTkp2b2xVdGtSTkJMeFdsUENB?oc=5"
+  },
+  {
+   "id": "efc68d7456da",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "dammam",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "titleKo": "알아즈하르 대이맴이 담맘 공항 공격을 강력히 규탄했다고 보도",
+   "title": "Al-Azhar Grand Imam Strongly Condemns Attack on King Fahd International Airport in Dammam",
+   "summary": "사우디 국영통신은 알아즈하르 대이맘이 담맘 공항 공격을 강력히 규탄했다고 보도했어요.",
+   "reportedAt": "2026-10-22T15:19:27.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UNUxpWjhmNHJ3SzkxM2hXMzlYRWxzOFBNVk9nZnFVeEw4QWR3elF2ZDdOY2FhX09NU0JTMGs5ZWpmSWhlUFlGLTF3?oc=5"
   },
   {
    "id": "563076dff16e",
@@ -6008,9 +5848,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "이라크, 사우디 공격 규탄…자국 영토를 왕국 타깃으로 사용하는 것 거부",
+   "titleKo": "이라크가 사우디에 대한 공격을 규탄했다고 보도",
    "title": "Iraq Condemns Attacks on Saudi Arabia, Rejects Use of Its Territory to Target the Kingdom",
-   "summary": "이라크가 자국 영토를 사우디를 겨냥한 공격에 이용하는 것을 규탄한다고 밝혔어요.",
+   "summary": "이라크가 사우디에 대한 공격을 규탄하고 자국 영토를 이용한 공격을 거부한다고 보도했어요.",
    "reportedAt": "2026-10-22T14:46:29.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5332397"
@@ -6026,9 +5866,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "바레인, 테러리스트 후티의 사우디 공격 강력 규탄",
+   "titleKo": "바레인이 후티의 사우디 공격을 규탄했다고 보도",
    "title": "Bahrain Strongly Condemns Terrorist Houthi Attacks on Saudi Arabia",
-   "summary": "바레인이 후티의 사우디 공격을 강력히 규탄한다고 밝혔어요.",
+   "summary": "바레인이 후티의 사우디 공격을 강력히 규탄했다고 보도했어요.",
    "reportedAt": "2026-10-22T14:42:15.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5332395"
@@ -6044,9 +5884,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "바레인, 사우디아라비아에 대한 테러 후티 공격 강력 규탄",
+   "titleKo": "바레인이 후티 공격을 규탄했다고 사우디 통신이 전함",
    "title": "Bahrain Strongly Condemns Terrorist Houthi Attacks on Saudi Arabia",
-   "summary": "",
+   "summary": "사우디 국영통신은 바레인이 후티 공격을 강력히 규탄했다고 전했어요.",
    "reportedAt": "2026-10-22T14:11:44.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1WRmxjMXhLZ1QydGJacFF3c0EzVldFNS1GeDRoQ3JGc3JLUnFTaWpheEUtWTB2ZXhKZkdYSmJZdlpVVm9ZQ0ZXei13?oc=5"
@@ -6062,9 +5902,9 @@
     "airport"
    ],
    "inferred": false,
-   "titleKo": "사우디 킹 파흐드 공항 공격으로 2명 사망",
+   "titleKo": "담맘 킹파드공항 공격으로 2명 사망했다고 보도",
    "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
-   "summary": "담맘 공항 공격으로 2명이 사망했다는 국제 보도가 있었어요.",
+   "summary": "알자지라는 담맘 공항 공격으로 2명이 숨졌다고 보도했어요.",
    "reportedAt": "2026-10-22T14:01:53.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
@@ -6080,9 +5920,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "후티의 사우디 추가 공격에 지역 리스크 커지자 걸프 시장 하락",
+   "titleKo": "걸프 시장, 후티의 사우디 공격에 하락했다고 보도",
    "title": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk",
-   "summary": "유가와 주식시장이 후티의 사우디 공격 소식에 하락했다고 로이터가 보도했어요.",
+   "summary": "로이터는 후티의 새로운 공격이 지역 위험을 높이며 걸프 시장이 하락했다고 보도했어요.",
    "reportedAt": "2026-10-22T13:44:22.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQS1ESU5ra242UzdCbkxuVkNzUkV2NWZVTGlRcDZnSzJBeE5KTkFyMEZvaTd0ZEl4LWduc0lmbGZkRnV6REF1dV9VUkRESHpVM3lLUkt0SmtfQzJDLXdnZ0l6akwwOWZpS1lza2tSbHczcnlpU2JPSXo5eHNrY0c4aWNpWjNJSlFYa2M2UEhDNnVsUnQySGF6MVJSY1FPam1LSlliSkJUTzFKck9tZ2J6S2xlUnVSam1TTllJbUxQWmtTcjQ?oc=5"
@@ -6098,9 +5938,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군: 리야드·마디나 지역에서 무인항공기 4대 요격·파괴",
+   "titleKo": "연합군, 리야드·마디나·동부주에서 UAV 요격 발표",
    "title": "Coalition: Four UAVs Intercepted and Destroyed in Riyadh and Madinah Regions",
-   "summary": "연합군이 리야드와 마디나 지역에서 4대의 무인기를 요격·파괴했다고 발표했어요.",
+   "summary": "사우디 연합군은 리야드·마디나·동부주 지역에서 4대의 무인기(UAV)를 요격했다고 발표했어요.",
    "reportedAt": "2026-10-22T13:17:48.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ncE81eDNlM3ZVVk4yc2k5aXJqd2p3dkIybzdFSk9EUnZ2elE0dU4yOW00amxjWXEycVlxaW9YU0FDVm9KWEhjUTB3?oc=5"
@@ -6116,9 +5956,9 @@
     "eastern"
    ],
    "inferred": false,
-   "titleKo": "로이터: 사우디 아람코, 다란 본사 직원 대피 지시",
+   "titleKo": "아람코가 다란 본사 직원 대피·원격 근무 지시했다고 보도",
    "title": "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say",
-   "summary": "사우디 아람코가 다란 본사 직원 대피를 지시했다고 복수 소식통이 로이터에 전했어요.",
+   "summary": "로이터는 사우디 아람코가 다란(담란) 본사 직원 대피와 원격 근무를 지시했다고 보도했어요.",
    "reportedAt": "2026-10-22T12:51:32.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNDNYdWIxY2pGbkhqRTlJNmJRMUE4N1RsclJwWklRYzdQUy04Wi1ObjlQNm1JaER4QVpRREs1NkdOeVNzYi1wd3lURFQ0S29OYkdJOERlQUdlSlBQMU1Mb2VzRDVaZlpUbWt0UGdpODc3a0FjWkVoUDIyWEZCeHlSd2JfZkIzLVNNVV9LSFcyVGpNaFU0S3JOV19wc29qWU90SGJrV04xRlQ5cjlBMUp0dFZ5UlgzR3F0MEdJXw?oc=5"
@@ -6136,9 +5976,9 @@
     "eastern"
    ],
    "inferred": false,
-   "titleKo": "요르단·이집트, 사우디 파하드 국왕 국제공항 공격 규탄",
+   "titleKo": "요르단·이집트, 담맘 공항 공격 규탄",
    "title": "Jordan, Egypt Condemn Attack on King Fahd International Airport in Saudi Arabia",
-   "summary": "요르단과 이집트가 담맘 킹 파흐드 공항 공격을 규탄했다고 보도됐어요.",
+   "summary": "Jordan·Egypt 등이 담맘 킹파드공항 공격을 규탄했다고 Arab News가 전했어요.",
    "reportedAt": "2026-10-22T12:41:14.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5332317"
@@ -6172,9 +6012,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "미, 사우디 주재 외교관 철수 명령",
+   "titleKo": "이란 관련 긴장과 외교관 철수 소식 보도",
    "title": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
-   "summary": "미국이 외교관 철수 명령을 내렸다고 보도되며 긴장 고조 우려가 보도됐어요.",
+   "summary": "알자지라는 이란 관련 긴장과 외교관 철수 소식을 전했다고 보도했어요.",
    "reportedAt": "2026-10-22T12:12:32.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent?traffic_source=rss"
@@ -6266,9 +6106,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "후티 공격이 사우디의 안전지 위상에 타격",
+   "titleKo": "후티 공격이 걸프의 안전지위를 흔든다고 보도",
    "title": "On the road to Bahrain as Houthi attacks hit Saudi Arabia's haven status",
-   "summary": "후티의 공격으로 사우디의 안보 지위에 변화가 있다는 분석 보도가 있었어요.",
+   "summary": "로이터는 후티 공격이 걸프의 안보 지위를 흔들고 있다고 보도했어요.",
    "reportedAt": "2026-10-22T09:11:37.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50S3dGeDdqU1ZfaFUwWHNMbUhxUXF1SmswY3BaQV91NUIyT2ktVUZLU3ZRV0xDNVYxTlhyRGxicHMyN0pDdm4wTEFmVTZ5QU9oWi1RV2Z6ajVTT0VUb2ZfTEtFcjg5b28?oc=5"
@@ -6306,9 +6146,9 @@
     "eastern"
    ],
    "inferred": false,
-   "titleKo": "담맘 공항 공격으로 2명 사망·8명 부상",
+   "titleKo": "담맘공항 공격으로 2명 사망·8명 부상 보도",
    "title": "2 Killed, 8 Injured in Dammam Airport Attack",
-   "summary": "담맘 공항 공격으로 2명이 사망하고 8명이 부상했다고 보도됐어요.",
+   "summary": "Asharq Al-Awsat는 담맘공항 공격으로 2명 사망·8명 부상이라고 보도했어요.",
    "reportedAt": "2026-10-22T03:24:48.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5332192"
@@ -7301,6 +7141,20 @@
     "firstSeen": 1792687237093
    },
    {
+    "id": "efc68d7456da",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Al-Azhar Grand Imam Strongly Condemns Attack on King Fahd International Airport in Dammam",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UNUxpWjhmNHJ3SzkxM2hXMzlYRWxzOFBNVk9nZnFVeEw4QWR3elF2ZDdOY2FhX09NU0JTMGs5ZWpmSWhlUFlGLTF3?oc=5",
+    "reportedAt": 1792682367000,
+    "assumeSaudi": false,
+    "firstSeen": 1792688448264
+   },
+   {
     "id": "ba3e3d804075",
     "feed": "Arab News",
     "cat": "local",
@@ -7337,7 +7191,7 @@
     "outlet": "MBC",
     "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JNXVleGppd1BCRm9sLXE2VElMaERDbjVwZWdWc0s4dWlWaFNwY3JDU1pualdEYXl4TFVuMjdON1drNllUZVd3WHBzNFYzZ0pWZU5ULXlhWVJJN0ExeG5WRWJnMHFFSVktSlN1QWtIQU5GM3N10gF0QVVfeXFMT0lncDBySUZqMjdoZXBpNUh2UkF1MkktYkMxcXE5aVUzT3Vycm12SFRiWXE3amJTZ2FIOS1Wc0txNUZDSDZWa2NsY0hPQk5CbUV6STFha2oxaU15T1VGb09GZGxzT0N6LXB5c1BMQUVDamhfbVo?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JZ3AwcklGajI3aGVwaTVIdlJBdTJJLWJDMXFxOWlVM091cnJtdkhUYllxN2piU2dhSDktVnNLcTVGQ0g2VmtjbGNIT0JOQm1FekkxYWtqMWlNeU9VRm9PRmRsc09Dei1weXNQTEFFQ2poX21a0gF0QVVfeXFMT0lncDBySUZqMjdoZXBpNUh2UkF1MkktYkMxcXE5aVUzT3Vycm12SFRiWXE3amJTZ2FIOS1Wc0txNUZDSDZWa2NsY0hPQk5CbUV6STFha2oxaU15T1VGb09GZGxzT0N6LXB5c1BMQUVDamhfbVo?oc=5",
     "reportedAt": 1792680596000,
     "assumeSaudi": false,
     "firstSeen": 1792681833396
@@ -7449,7 +7303,7 @@
     "outlet": "뉴시스",
     "title": "예멘 후티 \"사우디 국방부·공항 등 4곳 타격…봉쇄 해제시까지 공격\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vMHhva01UQ054aE5tc214ZU01bW5VbXAxeWNjZlZZWnJNNk1SUjQ3VDQyWUxlQU1Hb3FxOFZPREJPTFY3SDBQWG1Sblo5TnJTLWloRDRLY1pwOUN3aUhETtIBeEFVX3lxTE85WVNEcXMyUFJXUjVWSTVfT3IzVlc1N1RpNDZtaksyNE5CNDQ3YU5kUjBYTG9UdEZEbkszcDBvVnlUanNTZkQ3QmRtS2p4S1lUWlZ6YjFPMlJMdE9vQklvV1BHVFNBSnRBY205RldOMTl6MDR3dE5KUg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85WVNEcXMyUFJXUjVWSTVfT3IzVlc1N1RpNDZtaksyNE5CNDQ3YU5kUjBYTG9UdEZEbkszcDBvVnlUanNTZkQ3QmRtS2p4S1lUWlZ6YjFPMlJMdE9vQklvV1BHVFNBSnRBY205RldOMTl6MDR3dE5KUtIBeEFVX3lxTE85WVNEcXMyUFJXUjVWSTVfT3IzVlc1N1RpNDZtaksyNE5CNDQ3YU5kUjBYTG9UdEZEbkszcDBvVnlUanNTZkQ3QmRtS2p4S1lUWlZ6YjFPMlJMdE9vQklvV1BHVFNBSnRBY205RldOMTl6MDR3dE5KUg?oc=5",
     "reportedAt": 1792676005000,
     "assumeSaudi": false,
     "firstSeen": 1792677035314
@@ -7771,7 +7625,7 @@
     "outlet": "세계일보",
     "title": "美, 사우디서 외교관 철수령… 후티 공격 임박 신호?",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kNzJQT3ZuMXp4dkZIUkFXUlRackZoRWs0SWszY1d0dy1SYmZnRk9UNWdNaDQ2V3oxdGdia3prS016a0ItU3hJWEtGS0ZyTlBScTJ5XzRDOE5rTUJMeS14MHNUbEJKS2xXVFHSAVRBVV95cUxQSjBkZEVLZkRGTlZsQ2wzc0V4RjRoQzdTVk9kSGJpV0xiUHNCbnljbktfUXRqdmlsVENTWExjU2pzc0o0dEJUMzFERnBGSk81cksxU1g?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKMGRkRUtmREZOVmxDbDNzRXhGNGhDN1NWT2RIYmlXTGJQc0JueWNuS19RdGp2aWxUQ1NYTGNTanNzSjR0QlQzMURGcEZKTzVySzFTWNIBVEFVX3lxTFBKMGRkRUtmREZOVmxDbDNzRXhGNGhDN1NWT2RIYmlXTGJQc0JueWNuS19RdGp2aWxUQ1NYTGNTanNzSjR0QlQzMURGcEZKTzVySzFTWA?oc=5",
     "reportedAt": 1792666380000,
     "assumeSaudi": false,
     "firstSeen": 1792666856000
@@ -7855,7 +7709,7 @@
     "outlet": "머니투데이",
     "title": "[공식발표] 韓 축구대표팀, '미사일 폭격' 사우디 대신 카타르 간다...모레노호, 11월 '중동 원정' 확정 \"사우디·카타르와 2연전\" - 머니투데이",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qZS1QS2ZEZ21POXc5SHJYcUpWOVl5eko4VzVQN0o4c19ndW82SlFvSENnWU8yZ1hvVERsZ1VGVkpNeVdma3d2dzFaNl9GZTlVY09JTjhDNlNGRjJ0YTI5VThaem1fbnROYWfSAW9BVV95cUxQeElHUjFzRURwUVVMV2JvOEZHV3lzMzhxWFBMbkxaY1JFZnFKbW1UUndzSXF5dUdiUTYxY1dRN1V1OEprYzVOa0FQMEh2ZDVVTS1ndlFlMXVIZjQ1aE54ZzlJOUZjcFA4em9INXJuMVU?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4SUdSMXNFRHBRVUxXYm84RkdXeXMzOHFYUExuTFpjUkVmcUptbVRSd3NJcXl1R2JRNjFjV1E3VXU4SmtjNU5rQVAwSHZkNVVNLWd2UWUxdUhmNDVoTnhnOUk5RmNwUDh6b0g1cm4xVdIBb0FVX3lxTFB4SUdSMXNFRHBRVUxXYm84RkdXeXMzOHFYUExuTFpjUkVmcUptbVRSd3NJcXl1R2JRNjFjV1E3VXU4SmtjNU5rQVAwSHZkNVVNLWd2UWUxdUhmNDVoTnhnOUk5RmNwUDh6b0g1cm4xVQ?oc=5",
     "reportedAt": 1792659660000,
     "assumeSaudi": false,
     "firstSeen": 1792660687913
@@ -8121,7 +7975,7 @@
     "outlet": "YTN",
     "title": "사우디 킹 파드 공항 피격...미국, 사우디 체류 직원 철수령",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qRjZpLWtEcVo1YnR5Rmw5R3FVcHpFSjV3T3lOeG5NdDUzMDF6Ty1SbzZPMjdyWUxoa0IyTTV4NzROU2o3clJOUWRLREhVNmM2OVZFdlFMTS02TTgzeWZBY3ktMjFNNlN1bjRpWkxNUQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1TnpDMmtkS1h5X0w1WTBZLTd2aXByOThmc0NFNGNoeVZwcXRCbHl2TW5na2tEZ2dwMjBILTJqTEtRM01FME5RMDBkeVlVWXB5dWNJbV9LLTYtZ0lON3c?oc=5",
     "reportedAt": 1792634100000,
     "assumeSaudi": false,
     "firstSeen": 1792635030001
@@ -10733,34 +10587,6 @@
     "reportedAt": 1792429773000,
     "assumeSaudi": false,
     "firstSeen": 1792430429274
-   },
-   {
-    "id": "3ba053bcbf2a",
-    "feed": "AFP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AFP",
-    "title": "Saudi airport closure disrupts life in kingdom's capital",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGRLX2JRa2xkUXBodUhjT2Z0NHZMQlBTTXIxQ3g0RXpuTWFaMEFEeFVrbi1GZ0VheGllVnZtc3JfMWZYT0NfRG5ReGhQVEZQbjlMbF80M0RUQlNXWkJrUDNpRXBtbUpsS241VGZOS3EwTWJCdnF2TEQwM2dPWG95VlRsYmo5cUZZd0VCTERCTmFVR3M5dGNObTdVcllMeWhyRDRTR09R?oc=5",
-    "reportedAt": 1792429188000,
-    "assumeSaudi": false,
-    "firstSeen": 1792429644551
-   },
-   {
-    "id": "01a7d2cf6d35",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "연합뉴스",
-    "title": "후티 반군 \"사우디 아람코·리야드 공항 등 6곳 대규모 타격\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02cmNwNEdtOVZsZWxNY3dpV0lBUXhDcmlQeHIzdDF5MkFES2J1LS05M1VTSmtFM3N2enJuRmtYMGJOSHViNm1KcXpKOHdLMzJYZzJpVzV5UmF4NUHSAWBBVV95cUxNNWc5ZGZPRmk2dUwyVG9DdlhQYUd4Q2k2R2p0S1BvUEF3dHJMbGFuWTI0SGxQTURaZXdvUlRMNEdRcVpQbHBseV9hZloyVUhxQkRqLUxfU3c3a1R5VkVqZU8?oc=5",
-    "reportedAt": 1792428946000,
-    "assumeSaudi": false,
-    "firstSeen": 1792429644551
    }
   ],
   "summaries": {
@@ -10776,8 +10602,6 @@
    "1684a147bc01": "로이터는 사우디가 공격 뒤 회의를 연기했다고 보도했어요.",
    "ca978977012c": "ALECSO가 후티 공격을 규탄했다고 보도했어요.",
    "f87ff7f01fc6": "뉴스1 등도 포럼 연기 소식을 전했어요.",
-   "3ba053bcbf2a": "리야드 공항 폐쇄가 수도의 일상에 혼란을 줬다고 보도했어요.",
-   "01a7d2cf6d35": "후티가 아람코·리야드 공항 등 6곳을 대규모 타격했다고 주장했다고 보도했어요.",
    "090ebdcf588f": "KBS가 후티 공격으로 정부군 사상 소식을 보도했어요.",
    "9c336bfcd42f": "후티가 공항·아람코 등 공격을 주장했고 국제 유가가 상승했다고 보도했어요.",
    "d20c7d34056b": "예멘 군기지 공습으로 50여 명이 사망했고 사우디 행사가 연기됐다고 보도했어요.",
@@ -10953,62 +10777,70 @@
    "dda56645b2ab": "사우디와 관련된 축구 경기 일정 변경 소식이 보도됐어요.",
    "8169c9ebac02": "연합군이 리야드 지역에서 무인기를 요격·파괴했다고 보도됐어요.",
    "6f54c7487c09": "한국 축구대표팀이 사우디 일정을 변경해 카타르 원정을 확정했다는 보도가 있어요.",
-   "bc201b5a7091": "담맘 공항 공격으로 2명이 사망했다는 국제 보도가 있었어요.",
+   "bc201b5a7091": "알자지라는 담맘 공항 공격으로 2명이 숨졌다고 보도했어요.",
    "a7d2f035b0c9": "후티 공격으로 사우디 유전과 공항에서 총 4명이 사망했다고 보도됐어요.",
    "a44106c10e70": "후티 공격으로 유전·공항에서 4명이 사망했고 미국이 공무원 철수를 명령했다고 보도했어요.",
-   "3a102cfae04d": "담맘 공항 피격으로 1명 사망·8명 부상 보도했어요.",
-   "76d75d8c67d5": "후티의 공격으로 사우디의 안보 지위에 변화가 있다는 분석 보도가 있었어요.",
-   "ef746b31c959": "담맘 공항 피격으로 2명 사망·8명 부상이라고 보도했어요.",
+   "3a102cfae04d": "채널A는 담맘공항 피격으로 1명 사망·8명 부상 보도를 냈어요.",
+   "76d75d8c67d5": "로이터는 후티 공격이 걸프의 안보 지위를 흔들고 있다고 보도했어요.",
+   "ef746b31c959": "뉴스1은 담맘공항 피격으로 2명 사망·8명 부상이라고 보도했어요.",
    "cf52299f8991": "공항과 유전 피격으로 사상자가 속출하고 있다고 보도했어요.",
-   "5c3d29f9c501": "유가와 주식시장이 후티의 사우디 공격 소식에 하락했다고 로이터가 보도했어요.",
-   "302bfd0c70cf": "여러 보도가 담맘과 유전 피격에 따른 사상자 발생과 지역 긴장을 전했어요.",
-   "654e7fd81735": "중국이 자국민에게 사우디 방문 자제를 권고했다고 보도됐어요.",
+   "5c3d29f9c501": "로이터는 후티의 새로운 공격이 지역 위험을 높이며 걸프 시장이 하락했다고 보도했어요.",
+   "302bfd0c70cf": "연합뉴스는 사우디 공항·유전 피격으로 사상자 발생 보도를 냈어요.",
+   "654e7fd81735": "뉴스1은 중국이 자국민에 사우디 방문 자제를 권고했다고 전했어요.",
    "900d414ef7fc": "사우디 민항청(GACA)이 담맘 공항 공격에 대해 추가 성명을 냈다고 보도했어요.",
-   "5f4664958821": "미국이 사우디 체류 공무원 철수 명령을 내렸다고 보도됐어요.",
+   "5f4664958821": "한국일보는 미 정부가 사우디 주재 외교관 철수 명령을 내렸다고 보도했어요.",
    "fba8ef5bcaf8": "중동 긴장 확대로 유전·공항 피격 보도가 이어졌다고 전했어요.",
-   "7eaf3b7f8cfa": "담맘 공항 공격으로 2명이 사망하고 8명이 부상했다고 보도됐어요.",
+   "7eaf3b7f8cfa": "Asharq Al-Awsat는 담맘공항 공격으로 2명 사망·8명 부상이라고 보도했어요.",
    "e38970cc4282": "공항 피격으로 사상자 속출 보도했어요.",
-   "d0e312185044": "영국이 사우디를 지원하기 위해 전투기와 공중급유 지원을 제공한다고 보도됐어요.",
+   "d0e312185044": "Arab News는 영국이 사우디 지원을 강화한다고 보도했어요.",
    "66bca40d4b72": "연합뉴스 등도 후티의 4곳 공격 주장 내용을 보도했어요.",
    "83c4182ab907": "연합군이 리야드와 메디나 지역에서 4대의 무인기(UAV)를 요격·파괴했다고 발표했어요.",
-   "ed47cc1309bf": "사우디 GACA가 담맘 공항 공격으로 사망자가 2명으로 늘었다고 발표했어요.",
-   "b4e112061e37": "미국이 외교관 철수 명령을 내렸다고 보도되며 긴장 고조 우려가 보도됐어요.",
+   "ed47cc1309bf": "사우디 항공청(GACA)은 담맘 킹파드공항 공격으로 사망자가 추가로 확인되어 사망자가 2명으로 늘었다고 발표했어요.",
+   "b4e112061e37": "알자지라는 이란 관련 긴장과 외교관 철수 소식을 전했다고 보도했어요.",
    "02713ea4f986": "요르단이 담맘 킹 파흐드 공항에 대한 후티의 테러 공격을 규탄했다고 발표했어요.",
    "227fcca19da0": "인도가 동부주 유전과 공항에 대한 치명적 공격을 규탄했고, 인도인 사망 소식을 전했어요.",
    "d82ed52d1dce": "미국이 사우디에서 외교관 철수 명령을 내렸다고 한국 언론이 보도했어요.",
-   "3b679b7b80d2": "사우디 아람코가 다란 본사 직원 대피를 지시했다고 복수 소식통이 로이터에 전했어요.",
+   "3b679b7b80d2": "로이터는 사우디 아람코가 다란(담란) 본사 직원 대피와 원격 근무를 지시했다고 보도했어요.",
    "fe8a951c6be7": "이집트가 담맘 킹 파흐드 공항에 대한 공격을 규탄했다고 보도했어요.",
    "e194d448ca73": "샤이바 유전을 겨냥한 드론 공격으로 외국인 2명이 사망했다고 보도됐어요.",
-   "672133148cbf": "이라크가 자국 영토를 사우디를 겨냥한 공격에 이용하는 것을 규탄한다고 밝혔어요.",
-   "fb340221e0e9": "바레인이 후티의 사우디 공격을 강력히 규탄한다고 밝혔어요.",
-   "b24741d6a204": "지부티 대사가 후티 공격이 성지와 민간지역을 겨냥한 행위라며 강력히 비판한다고 말했어요.",
-   "b1aefbc4c4e8": "후티가 담맘 공항을 공격해 2명이 사망하고 8명이 부상했다고 한국 언론들이 보도했어요.",
-   "24dee4835c80": "후티가 사우디 국방부와 공항 등 4곳을 미사일·드론으로 타격했다고 성명을 통해 주장했어요.",
-   "cbbb1ad5302b": "미국이 후티 위협을 이란 전략에 반영해야 한다는 주장이 제기됐어요.",
-   "3079bdd07c31": "이집트 외교부 장관은 사우디-후티 긴화해를 정치적 해결로 풀어야 한다고 강조했어요.",
-   "4958efee3f81": "연합군이 리야드와 마디나 지역에서 4대의 무인기를 요격·파괴했다고 발표했어요.",
-   "f40b16fb3845": "한국 언론들도 후티가 사우디 국방부와 공항 등 4곳을 공격했다고 보도했어요.",
+   "672133148cbf": "이라크가 사우디에 대한 공격을 규탄하고 자국 영토를 이용한 공격을 거부한다고 보도했어요.",
+   "fb340221e0e9": "바레인이 후티의 사우디 공격을 강력히 규탄했다고 보도했어요.",
+   "b24741d6a204": "외교단 대표가 후티 공격이 지역 안보를 저해한다고 비판했다고 보도했어요.",
+   "b1aefbc4c4e8": "한국 뉴스는 후티가 담맘 공항을 공격해 2명 사망·8명 부상했다고 보도했어요.",
+   "24dee4835c80": "뉴시스는 후티가 사우디 국방부·공항 등 4곳을 미사일·드론으로 타격했다고 보도했다고 전했어요.",
+   "cbbb1ad5302b": "Arab News는 후티의 작전 확대가 미 대이란 전략에 포함돼야 한다고 주장하는 기사를 냈어요.",
+   "3079bdd07c31": "중복 기사로 이미 요약되어 있습니다.",
+   "4958efee3f81": "사우디 연합군은 리야드·마디나·동부주 지역에서 4대의 무인기(UAV)를 요격했다고 발표했어요.",
+   "f40b16fb3845": "세계일보는 후티가 사우디 국방부·공항 등 4곳을 미사일·드론로 타격했다고 보도했다고 전했어요.",
    "78638768964b": "후티의 사우디 민간·에너지 인프라 공격이 지역 안보를 약화시킨다는 분석이 나왔어요.",
    "2052e995bd88": "복수 보도에서 후티가 사우디 국방부와 공항 등 4곳을 미사일·드론으로 타격했다고 전했어요.",
-   "cb15fd9124fc": "연합군은 마디나·리야드·동부주를 향한 9대의 무인기를 요격했다고 발표했어요.",
-   "3e6d6b4ad0ef": "요르단과 이집트가 담맘 킹 파흐드 공항 공격을 규탄했다고 보도됐어요.",
+   "cb15fd9124fc": "Saudi Gazette는 연합군이 마디나·리야드·동부주에서 9대의 UAV를 요격했다고 전했어요.",
+   "3e6d6b4ad0ef": "Jordan·Egypt 등이 담맘 킹파드공항 공격을 규탄했다고 Arab News가 전했어요.",
    "f77b3994cf61": "한국 공중파 등도 후티의 4곳 공격 주장 보도를 전했어요.",
    "318f325de701": "여러 언론이 후티의 사우디 시설 타격 주장을 전했다고 보도했어요.",
-   "ae04826279d1": "담맘 공항이 재가동됐고 샤이바 유전 드론 공격으로도 사상자가 발생했다고 전해졌어요.",
-   "b925055d22f1": "복수 국내 언론이 후티의 4곳 타격 주장 보도를 전했어요."
+   "ae04826279d1": "Arab News는 담맘 공항이 공격 후 운영을 재개했다고 보도했어요.",
+   "b925055d22f1": "여러 매체가 후티의 4곳 타격 주장 내용을 보도했다고 전했어요.",
+   "75d03ba5a915": "아랍 국가들과 무슬림월드리그가 전날 밤 발생한 담맘 킹파드공항과 동부주 샤이바 유전 공격을 규탄했다고 보도했어요.",
+   "3de42b35b96d": "이라크 외교장관이 사우디 장관과 통화하며 후티 공격을 규탄하고 협력 강화 방안을 논의했다고 보도했어요.",
+   "d942218ddf92": "사우디 외교장관과 이라크 장관이 후티의 공격 증가에 맞서 안보협력을 확대하는 방안을 논의했다고 보도했어요.",
+   "277d62093dd5": "사우디 국영통신은 사우디에 대한 테러 공격을 주제로 양국 외교장관 대화를 전했다는 제목을 내보냈어요.",
+   "efc68d7456da": "사우디 국영통신은 알아즈하르 대이맘이 담맘 공항 공격을 강력히 규탄했다고 보도했어요.",
+   "ba3e3d804075": "유엔 사무총장이 후티의 민간시설 공격을 규탄하며 전 세계 빈곤층에 미칠 영향을 경고했다고 보도했어요.",
+   "04310985fdcb": "MBC는 아람코가 본사 직원들에게 대피령과 원격 근무 지시를 내렸다고 보도했어요.",
+   "4cdade3a68d9": "사우디 국영통신은 바레인이 후티 공격을 강력히 규탄했다고 전했어요.",
+   "a5a7e0c63acb": "MBC는 후티가 사우디 국방부·공항 등 4곳을 미사일·드론으로 타격했다고 주장 보도를 했어요.",
+   "5944b76fdca7": "서울경제는 후티가 사우디 국방부·공항·아람코 등 4곳을 타격했다고 보도했어요."
   },
   "titlesKo": {
    "91007dfce51c": "(이미 번역 있음)",
    "0cb4f10d8fcd": "파키스탄·이집트 외무장관, 후티 공격 규탄·4자 회의 요청",
    "ef32f77044ae": "알자지라: 이란의 후티 지원 의혹 및 사우디 도시 타격 보도",
-   "3ba053bcbf2a": "리야드 공항 폐쇄가 수도 생활에 혼란 초래",
    "1684a147bc01": "사우디, 공격으로 다보스 포럼 연기",
    "ca978977012c": "ALECSO, 후티 반군의 사우디 공격 규탄",
    "614a1655ebd6": "걸프, 후티의 사우디 공격 규탄·협력 촉구",
    "9cdaf4aa9fcf": "UAE·터키 외무장관, 사우디 FM과 통화해 긴장 완화 논의",
    "5b3a546dfff1": "후티 '아람코·킹칼리드공항 등 6개 표적 공습' 주장",
    "bfcdfffa6e8e": "후티 '석유시설·공항·군기지 등 6곳 공격' 주장",
-   "01a7d2cf6d35": "후티 '아람코·리야드 공항 등 6곳 대규모 타격' 주장",
    "681341695a98": "다보스 포럼 연기로 사우디 금융구상 차질",
    "d771eb56f0c4": "사막의 다보스 연기 보도",
    "f87ff7f01fc6": "사우디 다보스 포럼 연기",
@@ -11163,11 +10995,11 @@
    "96b8ffd32cd4": "미, 사우디 주재 공무원·가족 철수 명령",
    "e0c0f72edda8": "미, 사우디 체류 공무원 등 대피령…후티 적대행위 증가 이유로",
    "9c8579daa96c": "사우디 석유 도시 담맘 공항 공격으로 2명 사망·8명 부상",
-   "bc201b5a7091": "사우디 킹 파흐드 공항 공격으로 2명 사망",
+   "bc201b5a7091": "담맘 킹파드공항 공격으로 2명 사망했다고 보도",
    "900d414ef7fc": "GACA, 담맘 공항 공격 관련 추후 성명 발표",
-   "76d75d8c67d5": "후티 공격이 사우디의 안전지 위상에 타격",
-   "5c3d29f9c501": "후티의 사우디 추가 공격에 지역 리스크 커지자 걸프 시장 하락",
-   "7eaf3b7f8cfa": "담맘 공항 공격으로 2명 사망·8명 부상",
+   "76d75d8c67d5": "후티 공격이 걸프의 안전지위를 흔든다고 보도",
+   "5c3d29f9c501": "걸프 시장, 후티의 사우디 공격에 하락했다고 보도",
+   "7eaf3b7f8cfa": "담맘공항 공격으로 2명 사망·8명 부상 보도",
    "87c254435f88": "공항·석유시설 공격으로 사우디동부지역에서 4명 사망",
    "023baf1e406d": "연합군: 리야드 지역에서 UAV 요격·파괴",
    "8169c9ebac02": "연합군: 리야드 지역에서 UAV 요격·격추",
@@ -11175,12 +11007,12 @@
    "6f54c7487c09": "[공식] 한국 축구대표팀 11월 중동 원정 일정 확정",
    "a7d2f035b0c9": "후티 공격으로 유전·공항서 4명 사망, 미 철수 명령",
    "a44106c10e70": "후티 공격에 유전·공항서 4명 사망, 美 공무원 철수",
-   "3a102cfae04d": "담맘 공항 피격로 1명 사망·8명 부상",
-   "ef746b31c959": "담맘 공항 피격로 2명 사망·8명 부상",
+   "3a102cfae04d": "담맘공항 피격으로 1명 사망·8명 부상 보도",
+   "ef746b31c959": "담맘공항 피격으로 2명 사망·8명 부상 보도",
    "cf52299f8991": "공항·유전 피격에 사상자 속출",
-   "302bfd0c70cf": "사우디 공항·유전 피격에 중동 곳곳 불길",
-   "654e7fd81735": "중국, 사우디 방문 자제 권고",
-   "5f4664958821": "미, 사우디 주재 외교관 철수 명령",
+   "302bfd0c70cf": "사우디 공항·유전 피격에 사상자 발생 보도",
+   "654e7fd81735": "중국, 사우디 방문 자제 권고 보도",
+   "5f4664958821": "미, 사우디 주재 외교관 철수 명령을 내렸다고 보도",
    "fba8ef5bcaf8": "공항·유전 피격으로 중동 전운 확대",
    "c4be5552006e": "미의 사우디 주재 공무원 철수 보도",
    "0e6dcbbe7125": "미, 중동 주둔 병력 감축·사우디 직원 철수",
@@ -11196,69 +11028,70 @@
    "6d718d1b7265": "미, 사우디 주재 직원·가족 철수 명령",
    "ea3ebeeaaa94": "미, 사우디 공무원·가족 철수 명령",
    "56ec8d9c33a9": "미의 대피령 보도",
-   "3b679b7b80d2": "로이터: 사우디 아람코, 다란 본사 직원 대피 지시",
+   "3b679b7b80d2": "아람코가 다란 본사 직원 대피·원격 근무 지시했다고 보도",
    "fe8a951c6be7": "이집트, 담맘 킹 파흐드 공항 공격 규탄",
    "227fcca19da0": "인도, 사우디 동부 유전·공항 공격 규탄",
-   "ed47cc1309bf": "담맘 공항 공격 사망자 2명으로 증가",
+   "ed47cc1309bf": "담맘 공항 공격으로 사망자 2명으로 증가했다고 GACA 발표",
    "02713ea4f986": "요르단, 담맘 킹 파흐드 공항에 대한 후티의 테러 공격 규탄",
-   "d0e312185044": "영국 교민, 전쟁 중 사우디아라비아에 대한 영국의 지원을 칭찬",
+   "d0e312185044": "영국이 사우디 지원을 강화한다고 보도",
    "83c4182ab907": "연합군: 리야드·메디나 지역에서 4대의 UAV 요격·파괴",
-   "b4e112061e37": "미, 사우디 주재 외교관 철수 명령",
+   "b4e112061e37": "이란 관련 긴장과 외교관 철수 소식 보도",
    "66bca40d4b72": "후티 \"사우디 국방부·공항 등 4곳 미사일·드론 공격\"",
    "d82ed52d1dce": "미, 사우디서 외교관 철수령…후티 공격 임박 신호?",
    "e194d448ca73": "샤이바 유전 겨냥 드론 공격으로 외국인 2명 사망",
-   "3e6d6b4ad0ef": "요르단·이집트, 사우디 파하드 국왕 국제공항 공격 규탄",
-   "cb15fd9124fc": "연합군, 마디나·리야드·동부주로 향한 9대 무인기 요격 발표",
+   "3e6d6b4ad0ef": "요르단·이집트, 담맘 공항 공격 규탄",
+   "cb15fd9124fc": "연합군이 마디나·리야드·동부주에서 9대 UAV 요격 발표",
    "78638768964b": "혼란스러운 주변 환경이 국가 발전을 더 어렵게 만든다",
-   "3079bdd07c31": "아시아 축구 수장, 인판티노에 대한 지지나 반대 여부에 대해 아무런 단서도 내놓지 않아",
+   "3079bdd07c31": "사우디-후티 긴장 해결에 정치적 해법이 필요하다고 보도",
    "7bbd2b402db6": "말레이시아 무프티, 후티의 성지·민간 시설 공격은 중대한 범죄라고 밝혀",
    "7d7333f291a7": "Saudi Aramco, 후티와의 충돌 계속되자 다란 직원들에게 대피 지시",
-   "cbbb1ad5302b": "미국은 후티 위협을 이란 전략에 반영해야 한다",
-   "ae04826279d1": "담맘 킹 파흐드 공항, 공격 후 운영 재개",
-   "4958efee3f81": "연합군: 리야드·마디나 지역에서 무인항공기 4대 요격·파괴",
-   "b24741d6a204": "후티의 공격은 침략 행위이며 지역의 안전과 안보만 저해한다고 지부티 대사가 주장",
-   "672133148cbf": "이라크, 사우디 공격 규탄…자국 영토를 왕국 타깃으로 사용하는 것 거부",
-   "fb340221e0e9": "바레인, 테러리스트 후티의 사우디 공격 강력 규탄",
+   "cbbb1ad5302b": "후티 위협을 미 대이란 전략에 반영해야 한다고 주장",
+   "ae04826279d1": "담맘 공항이 공격 후 운영을 재개했다고 보도",
+   "4958efee3f81": "연합군, 리야드·마디나·동부주에서 UAV 요격 발표",
+   "b24741d6a204": "사우디 주재 외교단 대표가 후티 공격을 규탄했다고 보도",
+   "672133148cbf": "이라크가 사우디에 대한 공격을 규탄했다고 보도",
+   "fb340221e0e9": "바레인이 후티의 사우디 공격을 규탄했다고 보도",
    "563076dff16e": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄",
-   "d942218ddf92": "사우디·이라크 외교장관, 후티 공격 속 안보협력 확대 논의",
-   "ba3e3d804075": "UN 사무총장, 사우디에 대한 후티 공격 규탄…세계 빈곤층에 ‘전쟁의 엘니뇨’ 경고",
-   "4cdade3a68d9": "바레인, 사우디아라비아에 대한 테러 후티 공격 강력 규탄",
-   "3de42b35b96d": "이라크, 외무장관 통화 중 후티의 사우디 아라비아 공격 규탄",
-   "277d62093dd5": "외교장관, 이라크 장관과 사우디아라비아에 대한 테러 공격 논의",
-   "75d03ba5a915": "아랍 국가들, 사우디 공항·유전 겨냥한 치명적 후티 공격 규탄"
+   "d942218ddf92": "사우디·이라크 외교장관, 후티 공격 대응 안보협력 확대 논의",
+   "ba3e3d804075": "유엔 사무총장이 후티 공격을 규탄했다고 보도",
+   "4cdade3a68d9": "바레인이 후티 공격을 규탄했다고 사우디 통신이 전함",
+   "3de42b35b96d": "이라크, 사우디에 대한 후티 공격을 규탄했다고 보도",
+   "277d62093dd5": "외교장관들이 사우디에 대한 테러 공격을 논의했다고 보도",
+   "75d03ba5a915": "아랍 국가들, 사우디 공항·유전 겨냥한 치명적 후티 공격 규탄",
+   "efc68d7456da": "알아즈하르 대이맴이 담맘 공항 공격을 강력히 규탄했다고 보도",
+   "04310985fdcb": "아람코가 본사 직원에 대피·원격 근무 지시했다고 보도",
+   "b1aefbc4c4e8": "후티, 담맘공항 공격으로 2명 사망·8명 부상이라고 보도",
+   "24dee4835c80": "후티가 사우디 국방부·공항 등 4곳을 미사일·드론로 타격했다고 보도",
+   "f40b16fb3845": "후티가 사우디 주요 시설 4곳을 타격했다고 보도",
+   "b925055d22f1": "여러 매체가 후티의 4곳 타격 주장을 전했음",
+   "a5a7e0c63acb": "MBC, 후티가 사우디 4곳을 타격했다고 보도",
+   "5944b76fdca7": "후티가 사우디 국방부·공항·아람코 등 4곳 타격했다고 보도"
   },
   "aiClusters": [
    {
     "articleIds": [
-     "b1aefbc4c4e8",
-     "ef746b31c959",
-     "3a102cfae04d",
-     "7eaf3b7f8cfa",
-     "5c1758deadb9",
-     "730e05099d6c",
+     "3e6d6b4ad0ef",
+     "02713ea4f986",
+     "4cdade3a68d9",
+     "563076dff16e",
+     "ba3e3d804075",
+     "4958efee3f81",
+     "b24741d6a204",
+     "83c4182ab907",
+     "cb15fd9124fc",
+     "8169c9ebac02",
+     "023baf1e406d",
+     "900d414ef7fc",
      "ed47cc1309bf",
      "ae04826279d1",
-     "900d414ef7fc",
-     "02713ea4f986",
-     "3e6d6b4ad0ef",
      "bc201b5a7091",
-     "a971d122c685",
-     "66e4e81c879f",
-     "ece2b942cf4e",
-     "173d49684789",
-     "302bfd0c70cf",
-     "cf52299f8991",
-     "654e7fd81735",
-     "5f4664958821",
-     "96b8ffd32cd4",
-     "c4be5552006e",
-     "0e6dcbbe7125",
-     "b4e112061e37",
-     "fba8ef5bcaf8",
-     "a7d2f035b0c9",
-     "a44106c10e70"
+     "7eaf3b7f8cfa",
+     "75d03ba5a915",
+     "227fcca19da0",
+     "fe8a951c6be7",
+     "d942218ddf92"
     ],
-    "titleKo": "후티, 담맘 킹 파흐드 공항 등 동부주 시설을 미사일·드론으로 공격했다고 주장",
+    "titleKo": "후티의 담맘 킹파드공항 공격으로 사망·부상 발생했다고 보도들",
     "type": "airport",
     "regions": [
      "dammam",
@@ -11272,76 +11105,69 @@
    },
    {
     "articleIds": [
-     "66bca40d4b72",
-     "f40b16fb3845",
      "24dee4835c80",
-     "a5a7e0c63acb",
-     "b925055d22f1",
-     "f77b3994cf61",
-     "318f325de701",
      "2052e995bd88",
-     "5944b76fdca7"
+     "f40b16fb3845",
+     "a7d2f035b0c9",
+     "66bca40d4b72",
+     "318f325de701",
+     "b925055d22f1",
+     "a5a7e0c63acb",
+     "5944b76fdca7",
+     "f77b3994cf61"
     ],
-    "titleKo": "후티, 사우디 국방부·아람코 유전 등 4곳 미사일·드론로 타격했다고 주장",
-    "type": "energy",
+    "titleKo": "후티가 사우디 국방부·공항 등 4곳을 미사일·드론으로 타격했다고 주장",
+    "type": "missile",
     "regions": [
-     "jafurah",
-     "eastern"
+     "eastern",
+     "riyadh"
     ],
     "regionInferred": true,
-    "inferNote": "기사에 '아람코 유전'과 '동부주' 언급으로 자푸라 등 동부 유전 지역을 추정했어요.",
+    "inferNote": "기사 제목들이 지명을 일부 언급하나 모든 기사에 위치가 명시되지 않아 동부주·리야드를 포함해 추정했어요.",
     "claimOnly": true,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "cb15fd9124fc",
-     "4958efee3f81",
-     "83c4182ab907",
-     "8169c9ebac02",
-     "023baf1e406d",
-     "672133148cbf"
-    ],
-    "titleKo": "연합군, 리야드·마디나·동부서 다수 무인기 요격했다고 발표",
-    "type": "security",
-    "regions": [
-     "riyadh",
-     "eastern"
-    ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
      "3b679b7b80d2",
-     "5c3d29f9c501"
+     "04310985fdcb",
+     "3079bdd07c31",
+     "d0e312185044",
+     "cbbb1ad5302b",
+     "76d75d8c67d5"
     ],
-    "titleKo": "사우디 아람코, 다란(Dhahran) 본사 직원 대피를 지시했다고 복수 소식통이 전해",
+    "titleKo": "사우디 아람코가 담란(다란) 본사 직원 대피·원격 근무 지시했다고 보도",
     "type": "evacuation",
     "regions": [
      "dammam",
      "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "다란(Dhahran)은 담맘 인근 아람코 본사 소재지라 동부주로 추정했어요.",
-    "claimOnly": true,
-    "evacuationOrder": false,
+    "inferNote": "아람코 본사가 있는 담란(다란) 관련 보도들이 있어 동부주·담맘 인근으로 추정했어요.",
+    "claimOnly": false,
+    "evacuationOrder": true,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "d82ed52d1dce",
-     "d0e312185044"
+     "b1aefbc4c4e8",
+     "ef746b31c959",
+     "3a102cfae04d",
+     "302bfd0c70cf",
+     "fba8ef5bcaf8",
+     "654e7fd81735",
+     "5f4664958821",
+     "96b8ffd32cd4"
     ],
-    "titleKo": "미국, 사우디 주재 공무원·가족 철수 명령을 내렸다고 발표",
-    "type": "advisory",
-    "regions": [],
-    "regionInferred": false,
-    "inferNote": "",
+    "titleKo": "미국이 사우디 주재 공무원·가족 철수 명령을 내렸다고 보도",
+    "type": "evacuation",
+    "regions": [
+     "riyadh",
+     "eastern"
+    ],
+    "regionInferred": true,
+    "inferNote": "미국 철수 조치 보도들이 지역을 특정하지 않아 수도 및 동부주를 포함해 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": true,
     "occurredAt": null
@@ -11349,55 +11175,122 @@
    {
     "articleIds": [
      "7bbd2b402db6",
-     "b24741d6a204"
+     "78638768964b"
     ],
-    "titleKo": "후티 공격으로 유가 상승·금융시장 하락이 발생했다고 보도",
+    "titleKo": "여러 국가·기구가 후티 공격을 비난했다고 발표",
+    "type": "security",
+    "regions": [
+     "eastern"
+    ],
+    "regionInferred": true,
+    "inferNote": "비난 성명들이 담맘·동부주 공격을 전제로 해 동부주와 연관 지어 추정했어요.",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "5c3d29f9c501"
+    ],
+    "titleKo": "후티 공격으로 걸프 시장이 하락했다고 보도",
     "type": "energy",
     "regions": [
      "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "유가·시장 반응은 동부 유전·공항 공격 보도와 연관돼 동부주로 추정했어요.",
+    "inferNote": "에너지·금융 영향 보도들이 담맘·유전 공격과 연계돼 동부주로 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "fb340221e0e9",
-     "fe8a951c6be7"
+     "3de42b35b96d"
+    ]
+   },
+   {
+    "articleIds": [
+     "277d62093dd5"
+    ]
+   },
+   {
+    "articleIds": [
+     "efc68d7456da"
+    ]
+   },
+   {
+    "articleIds": [
+     "672133148cbf"
+    ]
+   },
+   {
+    "articleIds": [
+     "fb340221e0e9"
+    ]
+   },
+   {
+    "articleIds": [
+     "b4e112061e37"
+    ]
+   },
+   {
+    "articleIds": [
+     "d82ed52d1dce"
+    ]
+   },
+   {
+    "articleIds": [
+     "a44106c10e70"
+    ]
+   },
+   {
+    "articleIds": [
+     "cf52299f8991"
+    ]
+   },
+   {
+    "articleIds": [
+     "c4be5552006e"
+    ]
+   },
+   {
+    "articleIds": [
+     "5c1758deadb9",
+     "730e05099d6c",
+     "49ac2dfcad73",
+     "61c0b3e247ca",
+     "7a9ef60808ad",
+     "9c8579daa96c"
     ],
-    "titleKo": "이집트·바레인 등 주변국, 사우디에 대한 후티 공격을 강력히 규탄",
-    "type": "security",
-    "regions": [],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
+    "fromRule": true
    },
    {
     "articleIds": [
-     "227fcca19da0"
-    ]
+     "a971d122c685"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
-     "76d75d8c67d5"
-    ]
-   },
-   {
-    "articleIds": [
-     "6f54c7487c09"
-    ]
+     "66e4e81c879f"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
      "dc6cc9764d1e"
-    ]
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
+     "ece2b942cf4e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "173d49684789",
      "e38970cc4282"
     ],
     "fromRule": true
@@ -11408,14 +11301,6 @@
      "60788c7fd8e6",
      "0ec0208fbd90",
      "860caea64187"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "49ac2dfcad73",
-     "61c0b3e247ca",
-     "7a9ef60808ad"
     ],
     "fromRule": true
    },
@@ -11455,6 +11340,12 @@
    },
    {
     "articleIds": [
+     "17e480e8761e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
      "35be6eadc301",
      "8eeb555e81fa"
     ],
@@ -11470,12 +11361,6 @@
    {
     "articleIds": [
      "7d7333f291a7"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "9c8579daa96c"
     ],
     "fromRule": true
    },
@@ -11521,12 +11406,6 @@
    {
     "articleIds": [
      "6e0882036cf5"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "17e480e8761e"
     ],
     "fromRule": true
    },
@@ -11600,6 +11479,18 @@
    {
     "articleIds": [
      "4a1b1074dd5d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "4804bd89163b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3c091d90ab68"
     ],
     "fromRule": true
    },
@@ -12107,8 +11998,7 @@
      "91f24e2529c0",
      "5a7376611bc1",
      "bfcdfffa6e8e",
-     "bab05fcfd784",
-     "01a7d2cf6d35"
+     "bab05fcfd784"
     ],
     "fromRule": true
    },
@@ -12177,106 +12067,16 @@
      "ca978977012c"
     ],
     "fromRule": true
-   },
-   {
-    "articleIds": [
-     "3ba053bcbf2a"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "cbbb1ad5302b"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "3079bdd07c31"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "78638768964b"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "dda56645b2ab"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "563076dff16e"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "04310985fdcb"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "d942218ddf92"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "ba3e3d804075"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "4cdade3a68d9"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "3de42b35b96d"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "4804bd89163b"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "3c091d90ab68"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "277d62093dd5"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "75d03ba5a915"
-    ],
-    "fromRule": true
    }
   ],
   "aiSummaryKo": [
-   "담맘 킹 파흐드 공항이 공격받아 사상자가 발생했다고 복수 보도가 전했어요(국영통신·로이터 등).",
-   "후티는 사우디 국방부와 공항·아람코 유전 등 4곳을 미사일·드론으로 타격했다고 주장했어요(주장, 미확인).",
-   "연합군은 리야드·마디나·동부주에서 다수 무인기를 요격했다고 발표했어요.",
-   "미국이 사우디 주재 공무원·가족에 철수 명령을 내렸다고 보도됐어요."
+   "담맘 킹파드공항과 동부 유전 공격으로 사상자가 발생했다고 보도됐어요(국영통신·로이터 등).",
+   "아람코가 본사 직원 대피·원격 근무를 지시했다고 일부 매체가 전했어요(로이터 보도).",
+   "미국이 사우디 주재 공무원·가족 철수 명령을 내렸다고 보도됐어요(복수 매체).",
+   "후티는 국방부·공항 등 4곳을 미사일·드론로 타격했다고 주장했으나 독립 확인은 혼재돼 있어요."
   ],
-  "lastAiAt": 1792680636782,
-  "summaryAt": "2026-10-22T14:50:36.782Z",
+  "lastAiAt": 1792688448264,
+  "summaryAt": "2026-10-22T17:00:48.264Z",
   "promptVersion": 4
  }
 }
