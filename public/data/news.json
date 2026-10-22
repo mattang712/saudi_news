@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-22T19:41:45.974Z",
-  "lastAttemptAt": "2026-10-22T19:41:45.974Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-22T19:50:31.935Z",
+  "lastAttemptAt": "2026-10-22T19:50:31.935Z",
   "aiSummary": true,
   "summaryAt": "2026-10-22T19:10:33.328Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 58
+    "count": 59
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 195
+    "count": 194
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 73
+    "count": 71
    },
    {
     "name": "AFP",
@@ -41,7 +41,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 65
+    "count": 64
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,29 +51,90 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 97
+    "count": 99
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 2
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 62
+    "count": 65
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 남부지역 공격 관련 신변 유의",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
+    "date": "2026-10-19",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "41afb90ec52e",
+   "articleIds": [
+    "7a76eb33dbba"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T19:50:31.935Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-22T19:29:09.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZWkFkSVFZQ0ltaFRtZVF0VGtwVHRJYzU3alRDNXJZZ1BIYXBVbUw4dXhFTk0zV0FXZlJiLVFZR2c3akpxbVgxWHYzWnNOaVNsQjBCVEdzZnI1NGvSAWBBVV95cUxQbEwzb3VIaUY5TmJpaGNpMUFCV2NVSnNCVmlpUllyYktnVVdLZktpOGstR2lvVHZ0d3p0X253dmNESE56ZUlCWUZTVEZPNFBaMFpyYW5vWGRaQjFmZHUxYW8?oc=5"
+    }
+   ]
+  },
   {
    "id": "2b7a65a7f77c",
    "articleIds": [
@@ -1344,7 +1405,7 @@
      "summary": "미가 사우디 체류 직원 철수 명령을 내렸다고 보도했어요.",
      "reportedAt": "2026-10-22T01:55:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qRjZpLWtEcVo1YnR5Rmw5R3FVcHpFSjV3T3lOeG5NdDUzMDF6Ty1SbzZPMjdyWUxoa0IyTTV4NzROU2o3clJOUWRLREhVNmM2OVZFdlFMTS02TTgzeWZBY3ktMjFNNlN1bjRpWkxNUQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1TnpDMmtkS1h5X0w1WTBZLTd2aXByOThmc0NFNGNoeVZwcXRCbHl2TW5na2tEZ2dwMjBILTJqTEtRM01FME5RMDBkeVlVWXB5dWNJbV9LLTYtZ0lON3c?oc=5"
     }
    ]
   },
@@ -1905,7 +1966,7 @@
      "summary": "미가 철수 명령을 내렸다고 보도했어요.",
      "reportedAt": "2026-10-21T22:12:22.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hNHJ2Y1p0QzFYYS1GckhHbHZzcENUckdncWYycTJfdXlOMk1XYkVuRndicUVnQXJkLXRBS0JSTVV3Zm9tTGNXdlVkVUk3cHd1SG5TVHRnQ3d3TGc5T243M1B3NkQ3WFJOMU4zTWlR0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3ZXhITWlnaHJfdEhFTnRyY3ZGOE1Ub2NfY1FXZ1lUU3VXeUgzQkJON0l0UGl5X0tZUXJYVlk1Z29vc1NnT0p6RDRlYlY1X1RweHU0Y3dCd0pvRlFlVER5cFJQaXcxeVcz0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5"
     }
    ]
   },
@@ -6900,6 +6961,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "7a76eb33dbba",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZWkFkSVFZQ0ltaFRtZVF0VGtwVHRJYzU3alRDNXJZZ1BIYXBVbUw4dXhFTk0zV0FXZlJiLVFZR2c3akpxbVgxWHYzWnNOaVNsQjBCVEdzZnI1NGvSAWBBVV95cUxQbEwzb3VIaUY5TmJpaGNpMUFCV2NVSnNCVmlpUllyYktnVVdLZktpOGstR2lvVHZ0d3p0X253dmNESE56ZUlCWUZTVEZPNFBaMFpyYW5vWGRaQjFmZHUxYW8?oc=5",
+    "reportedAt": 1792697349000,
+    "assumeSaudi": false,
+    "firstSeen": 1792698631935
+   },
+   {
     "id": "5ab111a4c3d4",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -7818,7 +7893,7 @@
     "outlet": "YTN",
     "title": "사우디 킹 파드 공항 피격...미국, 사우디 체류 직원 철수령",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qRjZpLWtEcVo1YnR5Rmw5R3FVcHpFSjV3T3lOeG5NdDUzMDF6Ty1SbzZPMjdyWUxoa0IyTTV4NzROU2o3clJOUWRLREhVNmM2OVZFdlFMTS02TTgzeWZBY3ktMjFNNlN1bjRpWkxNUQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1TnpDMmtkS1h5X0w1WTBZLTd2aXByOThmc0NFNGNoeVZwcXRCbHl2TW5na2tEZ2dwMjBILTJqTEtRM01FME5RMDBkeVlVWXB5dWNJbV9LLTYtZ0lON3c?oc=5",
     "reportedAt": 1792634100000,
     "assumeSaudi": false,
     "firstSeen": 1792635030001
@@ -8084,7 +8159,7 @@
     "outlet": "머니투데이",
     "title": "美, 주사우디 공무원·가족에 철수 명령…\"후티 공격 확대\" - 머니투데이",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hNHJ2Y1p0QzFYYS1GckhHbHZzcENUckdncWYycTJfdXlOMk1XYkVuRndicUVnQXJkLXRBS0JSTVV3Zm9tTGNXdlVkVUk3cHd1SG5TVHRnQ3d3TGc5T243M1B3NkQ3WFJOMU4zTWlR0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3ZXhITWlnaHJfdEhFTnRyY3ZGOE1Ub2NfY1FXZ1lUU3VXeUgzQkJON0l0UGl5X0tZUXJYVlk1Z29vc1NnT0p6RDRlYlY1X1RweHU0Y3dCd0pvRlFlVER5cFJQaXcxeVcz0gFuQVVfeXFMT2E0cnZjWnRDMVhhLUZySEdsdnNwQ1RyR2dxZjJxMl91eU4yTVdiRW5Gd2JxRWdBcmQtdEFLQlJNVXdmb21MY1d2VWRVSTdwd3VIblNUdGdDd3dMZzlPbjczUHc2RDdYUk4xTjNNaVE?oc=5",
     "reportedAt": 1792620742000,
     "assumeSaudi": false,
     "firstSeen": 1792621231803
@@ -11638,6 +11713,12 @@
    {
     "articleIds": [
      "35743138445c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "7a76eb33dbba"
     ],
     "fromRule": true
    }
