@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-22T19:10:33.328Z",
-  "lastAttemptAt": "2026-10-22T19:10:33.328Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-22T19:20:34.632Z",
+  "lastAttemptAt": "2026-10-22T19:20:34.632Z",
   "aiSummary": true,
   "summaryAt": "2026-10-22T19:10:33.328Z",
   "aiError": null,
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 187
+    "count": 190
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 73
+    "count": 74
    },
    {
     "name": "AFP",
@@ -51,27 +51,56 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 99
+    "count": 96
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 2
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 66
+    "count": 65
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 남부지역 공격 관련 신변 유의",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
+    "date": "2026-10-19",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -281,6 +310,41 @@
      "reportedAt": "2026-10-22T18:14:52.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9QMnVHUHNIdUNUUjltSm5BLThvUUpmSDdreVZ3RGIwOWJFZVdjdWlscWFFY0EwM3J5Rm1TcC1MVGRlSnduaFFNd2Vn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "5468d31e7dc9",
+   "articleIds": [
+    "714cfe005c3f"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "담맘 킹파드공항 표적화로 경기 일정 변경",
+   "titleAuto": true,
+   "regions": [
+    "dammam",
+    "jeddah",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T17:50:37.169Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Sellami’s tough start to Saudi football continues as Al-Fateh crumble against Al-Shabab",
+     "titleKo": "담맘 킹파드공항 표적화로 경기 일정 변경",
+     "summary": "담맘의 킹파드공항이 수요일 저녁 공격을 받아 알-Ahli와 알-Khaleej 경기 일정이 변경됐어요.",
+     "reportedAt": "2026-10-22T17:45:50.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-pro-league/sellamis-tough-start-to-saudi-football-continues-as-al-fateh-crumble-against-al-shabab-3007771"
     }
    ]
   },
@@ -827,38 +891,6 @@
    ]
   },
   {
-   "id": "3c5bed888274",
-   "articleIds": [
-    "3079bdd07c31"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "아시안 축구 관계자, 정치적 해법 필요성 언급",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T13:20:32.057Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Asian soccer chief gives no hint about support — or opposition — to Infantino",
-     "titleKo": "아시안 축구 관계자, 정치적 해법 필요성 언급",
-     "summary": "아시안 축구 관계자가 사우디-후티 긴장 속 정치적 해결 필요성을 강조했어요.",
-     "reportedAt": "2026-10-22T13:18:53.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/football/asian-soccer-chief-gives-no-hint-about-support-or-opposition-to-infantino-3007731"
-    }
-   ]
-  },
-  {
    "id": "14c3de484871",
    "articleIds": [
     "fe8a951c6be7",
@@ -966,6 +998,70 @@
      "reportedAt": "2026-10-22T10:53:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKMGRkRUtmREZOVmxDbDNzRXhGNGhDN1NWT2RIYmlXTGJQc0JueWNuS19RdGp2aWxUQ1NYTGNTanNzSjR0QlQzMURGcEZKTzVySzFTWNIBVEFVX3lxTFBKMGRkRUtmREZOVmxDbDNzRXhGNGhDN1NWT2RIYmlXTGJQc0JueWNuS19RdGp2aWxUQ1NYTGNTanNzSjR0QlQzMURGcEZKTzVySzFTWA?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "df418bccb0a6",
+   "articleIds": [
+    "dda56645b2ab"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "[오피셜]모레노 운명 걸린 11월 A매치, '미사일 공격' 사우디 아닌 카타르 도하서 개최...13일 사우디-17일 카타르와 중동 2연전",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T10:10:31.426Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "조선일보",
+     "cat": "kr",
+     "title": "[오피셜]모레노 운명 걸린 11월 A매치, '미사일 공격' 사우디 아닌 카타르 도하서 개최...13일 사우디-17일 카타르와 중동 2연전",
+     "titleKo": null,
+     "summary": "사우디와 관련된 축구 경기 일정 변경 소식이 보도됐어요.",
+     "reportedAt": "2026-10-22T10:14:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNREMxNVhmMXU1RTAyeVdvV3RNMmZQV1hscWdNc1hha0xzVXY0cDJwbEQ4R0FCMUJyaUQ4c3E3Rk1LVFJhZGJkMGExSU5XaVdrMjQ0Wk1CRXdOYzhsYlJkSVIzTDFxQjJqbXZXX0JpUmpsMk9Qc3N2TDcyVWhvQUFLVG8yWQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "857378309c5e",
+   "articleIds": [
+    "6f54c7487c09"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "[공식발표] 韓 축구대표팀, '미사일 폭격' 사우디 대신 카타르 간다...모레노호, 11월 '중동 원정' 확정 \"사우디·카타르와 2연전\" - 머니투데이",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T09:18:07.913Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "[공식발표] 韓 축구대표팀, '미사일 폭격' 사우디 대신 카타르 간다...모레노호, 11월 '중동 원정' 확정 \"사우디·카타르와 2연전\" - 머니투데이",
+     "titleKo": null,
+     "summary": "한국 축구대표팀이 사우디 일정을 변경해 카타르 원정을 확정했다는 보도가 있어요.",
+     "reportedAt": "2026-10-22T09:01:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4SUdSMXNFRHBRVUxXYm84RkdXeXMzOHFYUExuTFpjUkVmcUptbVRSd3NJcXl1R2JRNjFjV1E3VXU4SmtjNU5rQVAwSHZkNVVNLWd2UWUxdUhmNDVoTnhnOUk5RmNwUDh6b0g1cm4xVdIBb0FVX3lxTFB4SUdSMXNFRHBRVUxXYm84RkdXeXMzOHFYUExuTFpjUkVmcUptbVRSd3NJcXl1R2JRNjFjV1E3VXU4SmtjNU5rQVAwSHZkNVVNLWd2UWUxdUhmNDVoTnhnOUk5RmNwUDh6b0g1cm4xVQ?oc=5"
     }
    ]
   },
@@ -4808,16 +4904,15 @@
    ]
   },
   {
-   "id": "b8f5c91b5bc9",
+   "id": "54d7c7457d47",
    "articleIds": [
-    "04f4fae40d9c",
     "9f5f8dfbcf6d"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "official",
+   "status": "single",
    "directive": null,
-   "title": "터키 외무장관 등, 후티의 사우디 공격 규탄",
+   "title": "UAE·터키 외교장관들, 후티 공격 규탄",
    "titleAuto": true,
    "regions": [
     "all"
@@ -4825,19 +4920,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-19T19:59:00.143Z",
+   "collectedAt": "2026-10-20T04:40:30.585Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Foreign Minister, Turkish Counterpart Condemn Houthi Continued Attacks on Saudi Arabia",
-     "titleKo": "터키 외무장관 등, 후티의 사우디 공격 규탄",
-     "summary": "터키 외무장관은 후티의 사우디 공격을 규탄하며 사우디와 통화했다고 사우디 국영통신이 보도했어요.",
-     "reportedAt": "2026-10-19T19:17:12.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5yMXNfbll4cHlVYnpsVVBuMDl1TEU5MkFQVGFSRHgyZVdjZkVObHpodFZCUThBVC1BME1TVVpTNzlrT0hUZTgtcm9B?oc=5"
-    },
     {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
@@ -5129,9 +5214,8 @@
    ]
   },
   {
-   "id": "266097ca8060",
+   "id": "5bef7289ad34",
    "articleIds": [
-    "0dd7ef410752",
     "89ff095283de",
     "5ff00f935ea5",
     "61dbd163a6fa"
@@ -5140,7 +5224,7 @@
    "sev": "mid",
    "status": "multi",
    "directive": null,
-   "title": "후티 공세에 사우디, ‘사막의 다보스’ 내년으로 전격 연기",
+   "title": "사우디, 후티 공습에 ‘사막의 다보스포럼’ 내년으로 연기",
    "titleAuto": false,
    "regions": [
     "all"
@@ -5148,19 +5232,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-19T19:30:40.115Z",
+   "collectedAt": "2026-10-19T21:00:52.409Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "후티 공세에 사우디, ‘사막의 다보스’ 내년으로 전격 연기",
-     "titleKo": null,
-     "summary": "사우디가 다보스 포럼을 연기했다고 보도했어요.",
-     "reportedAt": "2026-10-19T19:17:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYSk9aaWMtT1FDTkRWTmVVcVZWbzgtQkNnN2gtRE83Qi1VNmphVFB5VmYyWlA4Mi1NY1RhOVpXV3l2aVBZTERpY3NDblZmcGd2MTRYYmtkb3hqQjg?oc=5"
-    },
     {
      "outlet": "중앙일보",
      "cat": "kr",
@@ -6862,24 +6936,6 @@
    "reportedAt": "2026-10-19T20:47:09.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE92Q19QOEtLT1Z4bFVwZS1GVVJMWVVLcjhxY0ZTM1Nfa2VQWlI5UjFRTi1CX1JUTjJJU3hXb3FiNF9nVmdyamRySGtB?oc=5"
-  },
-  {
-   "id": "04f4fae40d9c",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "터키 외무장관 등, 후티의 사우디 공격 규탄",
-   "title": "Foreign Minister, Turkish Counterpart Condemn Houthi Continued Attacks on Saudi Arabia",
-   "summary": "터키 외무장관은 후티의 사우디 공격을 규탄하며 사우디와 통화했다고 사우디 국영통신이 보도했어요.",
-   "reportedAt": "2026-10-19T19:17:12.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5yMXNfbll4cHlVYnpsVVBuMDl1TEU5MkFQVGFSRHgyZVdjZkVObHpodFZCUThBVC1BME1TVVpTNzlrT0hUZTgtcm9B?oc=5"
   }
  ],
  "_cache": {
@@ -7191,20 +7247,6 @@
     "reportedAt": 1792675515000,
     "assumeSaudi": false,
     "firstSeen": 1792675844933
-   },
-   {
-    "id": "3079bdd07c31",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Asian soccer chief gives no hint about support — or opposition — to Infantino",
-    "snippet": "Egypt’s Foreign Minister emphasized the need for a political solution to resolve tensions between Saudi Arabia and the Houthis, amid a series of Houthi attacks on Saudi targets.",
-    "url": "https://www.arabnews.com/football/asian-soccer-chief-gives-no-hint-about-support-or-opposition-to-infantino-3007731",
-    "reportedAt": 1792675133000,
-    "assumeSaudi": false,
-    "firstSeen": 1792675232057
    },
    {
     "id": "4958efee3f81",
@@ -10233,34 +10275,6 @@
     "reportedAt": 1792437960000,
     "assumeSaudi": false,
     "firstSeen": 1792438240115
-   },
-   {
-    "id": "04f4fae40d9c",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Foreign Minister, Turkish Counterpart Condemn Houthi Continued Attacks on Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5yMXNfbll4cHlVYnpsVVBuMDl1TEU5MkFQVGFSRHgyZVdjZkVObHpodFZCUThBVC1BME1TVVpTNzlrT0hUZTgtcm9B?oc=5",
-    "reportedAt": 1792437432000,
-    "assumeSaudi": false,
-    "firstSeen": 1792439940143
-   },
-   {
-    "id": "0dd7ef410752",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "KBS",
-    "title": "후티 공세에 사우디, ‘사막의 다보스’ 내년으로 전격 연기",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYSk9aaWMtT1FDTkRWTmVVcVZWbzgtQkNnN2gtRE83Qi1VNmphVFB5VmYyWlA4Mi1NY1RhOVpXV3l2aVBZTERpY3NDblZmcGd2MTRYYmtkb3hqQjg?oc=5",
-    "reportedAt": 1792437420000,
-    "assumeSaudi": false,
-    "firstSeen": 1792438240115
    }
   ],
   "summaries": {
@@ -10273,7 +10287,6 @@
    "5a7376611bc1": "후티가 석유시설·공항·군기지 등 6곳을 공격했다고 주장했다고 보도했어요.",
    "22c98b86261c": "아랍 뉴스는 정신건강 전문가들이 최근 긴장 속에서 지원을 독려한다고 보도했어요.",
    "a4fa3a276cb6": "아랍 뉴스는 제다 주지사가 한국 영사를 접견했다고 전했어요.",
-   "0dd7ef410752": "사우디가 다보스 포럼을 연기했다고 보도했어요.",
    "66a7742a79d2": "",
    "23dbdcbb31bf": "",
    "c50f7878173c": "",
@@ -10282,7 +10295,6 @@
    "3c2cb93f6ea8": "",
    "5ff00f935ea5": "",
    "89ff095283de": "사우디가 후티 공습 영향으로 다보스포럼을 내년으로 연기했다고 보도했어요.",
-   "04f4fae40d9c": "터키 외무장관은 후티의 사우디 공격을 규탄하며 사우디와 통화했다고 사우디 국영통신이 보도했어요.",
    "fb47eac68470": "사우디와 UAE 외무장관이 후티의 테러 공격 지속을 규탄했다고 전했어요.",
    "98b52ccd9f2a": "사막의 다보스 10주년 행사가 후티 공습으로 연기됐다고 아시아경제가 보도했어요.",
    "0ccfa7aaa225": "알자지라가 다보스 행사를 취소했다고 보도했어요.",
@@ -10470,7 +10482,6 @@
    "b1aefbc4c4e8": "후티가 담맘 공항을 공격해 사상자가 발생했다고 보도됐어요.",
    "24dee4835c80": "후티가 사우디 국방부·공항 등 4곳을 미사일·드론으로 타격했다고 주장했어요.",
    "cbbb1ad5302b": "미국 정책에 후티 위협을 반영해야 한다는 분석이 나왔어요.",
-   "3079bdd07c31": "아시안 축구 관계자가 사우디-후티 긴장 속 정치적 해결 필요성을 강조했어요.",
    "4958efee3f81": "연합군이 리야드와 마디나·동부에서 4대의 무인기를 요격했다고 발표했어요.",
    "f40b16fb3845": "후티가 사우디 국방부와 공항 등 4곳을 미사일·드론로 타격했다고 주장하는 보도였어요.",
    "2052e995bd88": "후티가 사우디 국방부·공항 등 4곳을 타격했다고 주장했다고 종합 보도했어요.",
@@ -10502,7 +10513,6 @@
    "ef32f77044ae": "알자지라: 이란의 후티 지원 의혹 및 사우디 도시 타격 보도",
    "22c98b86261c": "사우디 내 정신건강 지원 권고",
    "a4fa3a276cb6": "제다 주지사, 한국 영사 접견",
-   "04f4fae40d9c": "터키 외무장관 등, 후티의 사우디 공격 규탄",
    "fb47eac68470": "사우디·UAE 외무장관, 후티의 테러 공격 지속 규탄",
    "9c336bfcd42f": "후티, 사우디 공항·아람코 시설 공격 주장…유가 상승",
    "090ebdcf588f": "후티 공격에 정부군 사상 보도",
@@ -10515,7 +10525,6 @@
    "89ff095283de": "사우디, 후티 공습에 '사막의 다보스포럼' 연기",
    "91f24e2529c0": "후티 '사우디 석유시설·공항 등 6곳 대규모 타격' 주장",
    "5a7376611bc1": "후티 '석유시설·공항·군기지 등 6곳 공격' 주장",
-   "0dd7ef410752": "후티 공세에 사우디, 다보스 포럼 내년 연기",
    "0ccfa7aaa225": "사우디, 다보스 행사 취소 amid 후티 공격",
    "98b52ccd9f2a": "사우디 다보스 행사 10주년, 후티 공습으로 연기",
    "61dbd163a6fa": "사우디, 후티 공격 격화로 행사 내년으로 연기",
@@ -10694,7 +10703,6 @@
    "e194d448ca73": "샤이바 유전 겨냥 드론 공격으로 외국인 2명 사망",
    "3e6d6b4ad0ef": "요르단·이집트, 담맘 공항 공격 규탄",
    "cb15fd9124fc": "연합군, 마디나·리야드·동부서 9대 UAV 요격",
-   "3079bdd07c31": "아시안 축구 관계자, 정치적 해법 필요성 언급",
    "7d7333f291a7": "Saudi Aramco, 후티와의 충돌 계속되자 다란 직원들에게 대피 지시",
    "cbbb1ad5302b": "미 정책에 후티 위협 반영 필요성 제기",
    "ae04826279d1": "담맘 킹파드공항, 공격 후 운항 재개",
@@ -10880,11 +10888,6 @@
    {
     "articleIds": [
      "b1aefbc4c4e8"
-    ]
-   },
-   {
-    "articleIds": [
-     "3079bdd07c31"
     ]
    },
    {
@@ -11550,8 +11553,7 @@
    },
    {
     "articleIds": [
-     "9f5f8dfbcf6d",
-     "04f4fae40d9c"
+     "9f5f8dfbcf6d"
     ],
     "fromRule": true
    },
@@ -11609,8 +11611,7 @@
     "articleIds": [
      "61dbd163a6fa",
      "5ff00f935ea5",
-     "89ff095283de",
-     "0dd7ef410752"
+     "89ff095283de"
     ],
     "fromRule": true
    },
@@ -11680,6 +11681,24 @@
    {
     "articleIds": [
      "a4fa3a276cb6"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "714cfe005c3f"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "dda56645b2ab"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "6f54c7487c09"
     ],
     "fromRule": true
    }
