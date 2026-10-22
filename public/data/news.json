@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-22T15:00:52.720Z",
-  "lastAttemptAt": "2026-10-22T15:00:52.720Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-22T15:10:33.396Z",
+  "lastAttemptAt": "2026-10-22T15:10:33.396Z",
   "aiSummary": true,
   "summaryAt": "2026-10-22T14:50:36.782Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 60
+    "count": 62
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 124
+    "count": 129
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 70
+    "count": 74
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 151
+    "count": 150
    },
    {
     "name": "Saudi Gazette",
@@ -46,63 +46,98 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 203
+    "count": 202
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 98
+    "count": 97
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 56
+    "count": 52
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동지역 정세 악화에 따른 출국 및 여행 취소&middot;연기 권고",
-    "date": "2026-10-16",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
-    "date": "2026-10-15",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "6abd824616c1",
+   "articleIds": [
+    "563076dff16e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T15:10:33.396Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Qatar, Bahrain Strongly Condemn Terrorist Houthi Attacks on Saudi Arabia",
+     "titleKo": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄",
+     "summary": "",
+     "reportedAt": "2026-10-22T15:05:15.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5332395"
+    }
+   ]
+  },
+  {
+   "id": "8f145022a361",
+   "articleIds": [
+    "04310985fdcb"
+   ],
+   "type": "evacuation",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T15:10:33.396Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-22T14:49:56.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JNXVleGppd1BCRm9sLXE2VElMaERDbjVwZWdWc0s4dWlWaFNwY3JDU1pualdEYXl4TFVuMjdON1drNllUZVd3WHBzNFYzZ0pWZU5ULXlhWVJJN0ExeG5WRWJnMHFFSVktSlN1QWtIQU5GM3N10gF0QVVfeXFMT0lncDBySUZqMjdoZXBpNUh2UkF1MkktYkMxcXE5aVUzT3Vycm12SFRiWXE3amJTZ2FIOS1Wc0txNUZDSDZWa2NsY0hPQk5CbUV6STFha2oxaU15T1VGb09GZGxzT0N6LXB5c1BMQUVDamhfbVo?oc=5"
+    }
+   ]
+  },
   {
    "id": "53e67d35bb72",
    "articleIds": [
@@ -5703,6 +5738,24 @@
  ],
  "timeline": [
   {
+   "id": "563076dff16e",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄",
+   "title": "Qatar, Bahrain Strongly Condemn Terrorist Houthi Attacks on Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-22T15:05:15.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5332395"
+  },
+  {
    "id": "672133148cbf",
    "outlet": "Asharq Al-Awsat",
    "official": false,
@@ -6892,6 +6945,34 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "563076dff16e",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Qatar, Bahrain Strongly Condemn Terrorist Houthi Attacks on Saudi Arabia",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5332395",
+    "reportedAt": 1792681515000,
+    "assumeSaudi": false,
+    "firstSeen": 1792681833396
+   },
+   {
+    "id": "04310985fdcb",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "MBC",
+    "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JNXVleGppd1BCRm9sLXE2VElMaERDbjVwZWdWc0s4dWlWaFNwY3JDU1pualdEYXl4TFVuMjdON1drNllUZVd3WHBzNFYzZ0pWZU5ULXlhWVJJN0ExeG5WRWJnMHFFSVktSlN1QWtIQU5GM3N10gF0QVVfeXFMT0lncDBySUZqMjdoZXBpNUh2UkF1MkktYkMxcXE5aVUzT3Vycm12SFRiWXE3amJTZ2FIOS1Wc0txNUZDSDZWa2NsY0hPQk5CbUV6STFha2oxaU15T1VGb09GZGxzT0N6LXB5c1BMQUVDamhfbVo?oc=5",
+    "reportedAt": 1792680596000,
+    "assumeSaudi": false,
+    "firstSeen": 1792681833396
+   },
    {
     "id": "672133148cbf",
     "feed": "Asharq Al-Awsat",
@@ -10753,7 +10834,8 @@
    "4958efee3f81": "연합군: 리야드·마디나 지역에서 무인항공기 4대 요격·파괴",
    "b24741d6a204": "후티의 공격은 침략 행위이며 지역의 안전과 안보만 저해한다고 지부티 대사가 주장",
    "672133148cbf": "이라크, 사우디 공격 규탄…자국 영토를 왕국 타깃으로 사용하는 것 거부",
-   "fb340221e0e9": "바레인, 테러리스트 후티의 사우디 공격 강력 규탄"
+   "fb340221e0e9": "바레인, 테러리스트 후티의 사우디 공격 강력 규탄",
+   "563076dff16e": "카타르·바레인, 사우디에 대한 테러 후티 공격 강력 규탄"
   },
   "aiClusters": [
    {
@@ -11744,6 +11826,18 @@
    {
     "articleIds": [
      "dda56645b2ab"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "563076dff16e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "04310985fdcb"
     ],
     "fromRule": true
    }
