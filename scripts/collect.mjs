@@ -346,7 +346,8 @@ ${JSON.stringify(batch)}`;
     const out = JSON.parse(text.slice(s, e + 1));
     const ids = new Set(batch.map((b) => b.id));
     for (const [id, t] of Object.entries(out)) {
-      if (ids.has(id) && typeof t === "string" && t.length > 0 && t.length < 200) titlesKo[id] = t.trim();
+      // 한글이 하나도 없으면 번역이 안 된 것 → 저장하지 않고 다음 수집 때 다시 번역
+      if (ids.has(id) && typeof t === "string" && /[가-힣]/.test(t) && t.length < 200) titlesKo[id] = t.trim();
     }
   }
 }
@@ -457,6 +458,8 @@ async function main() {
   const firstSeen = Object.fromEntries(prevArticles.map((a) => [a.id, a.firstSeen]));
   const summaries = cache.summaries || {};
   const titlesKo = cache.titlesKo || {};
+  // 예전에 번역이 안 된 채(영어 그대로) 저장된 제목은 지워서 다시 번역
+  for (const [id, t] of Object.entries(titlesKo)) if (!/[가-힣]/.test(t)) delete titlesKo[id];
 
   const results = await Promise.all(FEEDS.map(async (f) => {
     try { const items = await fetchFeed(f); return { feed: f, ok: true, items }; }
@@ -522,7 +525,7 @@ async function main() {
         if (ids.has(id) && typeof s === "string" && s.length < 400) { summaries[id] = s; byId.get(id).summaryKo = s; }
       }
       for (const [id, t] of Object.entries(r.articleTitlesKo || {})) {
-        if (ids.has(id) && typeof t === "string" && t.length < 200) titlesKo[id] = t;
+        if (ids.has(id) && typeof t === "string" && /[가-힣]/.test(t) && t.length < 200) titlesKo[id] = t;
       }
       const used = new Set();
       clusters = (r.clusters || [])
