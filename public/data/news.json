@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-23T05:40:25.694Z",
-  "lastAttemptAt": "2026-10-23T05:40:25.694Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-23T05:50:29.770Z",
+  "lastAttemptAt": "2026-10-23T05:50:29.770Z",
   "aiSummary": true,
   "summaryAt": "2026-10-23T05:40:25.694Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 47
+    "count": 48
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 193
+    "count": 198
    },
    {
     "name": "AP",
@@ -31,12 +31,12 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 11
+    "count": 12
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 166
+    "count": 168
    },
    {
     "name": "Saudi Gazette",
@@ -46,22 +46,24 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 200
+    "count": 199
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 71
+    "count": 72
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,40 +71,150 @@
     "count": 58
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 남부지역 공격 관련 신변 유의",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "6b22ea479523",
+   "articleIds": [
+    "dacd1fa049e3"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 \"리야드 겨냥 후티 미사일 요격\"",
+   "titleAuto": false,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-23T05:50:29.770Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 \"리야드 겨냥 후티 미사일 요격\"",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-23T05:35:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fUkx4eS1Uamt2eGE0ZldIWUlWSVFrNzRJdTdPNXc1clVSa0RvSFNqcDUwRDBQVEoxVThCRGRKY25BNzNtdElWQVpWOEJWeVo1bGtlSEFJWmZXYXdydW4wcWdIUzQ1ek9iMkdDVkV2cnV6dnl3?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "d6d13c99a2dd",
+   "articleIds": [
+    "dda02ff4532d",
+    "2c4b0a23e014",
+    "8850d384aa52",
+    "1da19d28de08",
+    "63150d02339d",
+    "5bcbe5f77876",
+    "17951d2b7f55",
+    "7accb26262b6"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "multi",
+   "directive": null,
+   "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
+   "titleAuto": false,
+   "regions": [
+    "eastern"
+   ],
+   "inferred": true,
+   "inferNote": "유가 영향은 사우디 전체 공급 우려와 연관돼 지역을 동부로 추정했습니다.",
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T20:40:37.376Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
+     "titleKo": null,
+     "summary": "여러 매체가 후티의 공격으로 국제유가가 급등했다고 보도했습니다.",
+     "reportedAt": "2026-10-22T19:29:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzYklSVlRTdTM2RzAyckk2X3RlZ29DNzJCRzhOdVBydTVLNEh3VUhfWExKQk5aZVZHUmg3MmJtendFV29CRGRRYmNpeUlQOGNCLWdDSXBxM2xCdU50QTEtcHBfaFpCQTd0cXFJZmY2cm15eG9yR3JSMnczU2g?oc=5"
+    },
+    {
+     "outlet": "SBS",
+     "cat": "kr",
+     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
+     "titleKo": null,
+     "summary": "후티의 사우디 공격으로 유가가 급등했다고 보도했습니다.",
+     "reportedAt": "2026-10-22T19:40:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhZXJHaWl2ZnlvRnktUlI4MFY2aS1kdXNMRlVxSWhNVXFRM1l3UHlxYnQ3XzJYbXNacml1a09Id2ZfT1VDWmFZSkd6YUdWSWhCNzIzc2g3dzLSAVhBVV95cUxQYWVyR2lpdmZ5b0Z5LVJSODBWNmktZHVzTEZVcUloTVVxUTNZd1B5cWJ0N18yWG1zWnJpdWtPSHdmX09VQ1phWUpHemFHVkloQjcyM3NoN3cy?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티의 사우디 공격에 국제유가 급등…브렌트유 5개월 만에 최고",
+     "titleKo": null,
+     "summary": "후티의 사우디 공격으로 국제유가가 급등했다고 보도했습니다.",
+     "reportedAt": "2026-10-22T20:08:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sTHQ1b09UdkxMU3RBSEFhNng0LWVYMm1aMjRFSmRqMVNxWE5uUzhwMmJOcV9icm5YY00xQlR6dHUteEEzZEhnc3cwa2ZWeThXT3JJZWxGdVprWW1mV1FKUE9QYW1uRDg?oc=5"
+    },
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월 만에 최고",
+     "titleKo": null,
+     "summary": "국제유가가 후티의 사우디 공격에 급등했다고 보도했습니다.",
+     "reportedAt": "2026-10-22T20:29:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBcGJRMVpIT25mOUJKM2Y1aEJrby1ubzVQeHBxZUxQZlAzZTVFQjRqZ3Z1SzRMbGVneXJYa0NmYU9RS1JqMFl6VExFQVhHanQ1RW9rSGZoSE1ROGM?oc=5"
+    },
+    {
+     "outlet": "YTN",
+     "cat": "kr",
+     "title": "국제 유가, 후티의 사우디 공격에 5개월 만에 최고",
+     "titleKo": null,
+     "summary": "국제 유가가 후티의 사우디 공격으로 5개월 만에 최고로 올랐다고 보도했습니다.",
+     "reportedAt": "2026-10-22T20:55:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NRnExck5Nakw3bk54UUctNnp6LTJXTFJtR0laakh1U1F4SjkwaHNTQVNTdnRCbWx6VDk5WHZTQ2NzZkJlRHVuQzRpVHJVbTlhZENZSVZXYUZUanpIbmc?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
+     "titleKo": "후티 공격 이후 유가 보합세를 기록",
+     "summary": "후티 공격으로 공급 우려가 지속되며 유가가 소폭 변동했다고 보도했습니다.",
+     "reportedAt": "2026-10-23T01:04:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
+     "titleKo": "후티의 사우디 공격에 공급 우려로 유가 소폭 변동",
+     "summary": "후티의 사우디 공격으로 공급 우려가 커지자 국제유가가 소폭 변동했다고 전했습니다.",
+     "reportedAt": "2026-10-23T01:46:01.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/business/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-3007831"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Oil prices rise as supply concerns linger amid Houthi attacks on Saudi Arabia",
+     "titleKo": "후티의 사우디 공격 지속에 공급 우려…유가 상승",
+     "summary": "후티의 공격 이후 국제유가가 상승했다고 로이터가 전했습니다.",
+     "reportedAt": "2026-10-23T05:27:30.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
+    }
+   ]
+  },
   {
    "id": "a19136a0a85c",
    "articleIds": [
@@ -224,115 +336,6 @@
    ]
   },
   {
-   "id": "d6d13c99a2dd",
-   "articleIds": [
-    "dda02ff4532d",
-    "2c4b0a23e014",
-    "8850d384aa52",
-    "1da19d28de08",
-    "63150d02339d",
-    "7accb26262b6",
-    "5bcbe5f77876",
-    "17951d2b7f55"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "multi",
-   "directive": null,
-   "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
-   "titleAuto": false,
-   "regions": [
-    "eastern"
-   ],
-   "inferred": true,
-   "inferNote": "유가 영향은 사우디 전체 공급 우려와 연관돼 지역을 동부로 추정했습니다.",
-   "occurredAt": null,
-   "collectedAt": "2026-10-22T20:40:37.376Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "한국경제",
-     "cat": "kr",
-     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
-     "titleKo": null,
-     "summary": "여러 매체가 후티의 공격으로 국제유가가 급등했다고 보도했습니다.",
-     "reportedAt": "2026-10-22T19:29:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzYklSVlRTdTM2RzAyckk2X3RlZ29DNzJCRzhOdVBydTVLNEh3VUhfWExKQk5aZVZHUmg3MmJtendFV29CRGRRYmNpeUlQOGNCLWdDSXBxM2xCdU50QTEtcHBfaFpCQTd0cXFJZmY2cm15eG9yR3JSMnczU2g?oc=5"
-    },
-    {
-     "outlet": "SBS",
-     "cat": "kr",
-     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
-     "titleKo": null,
-     "summary": "후티의 사우디 공격으로 유가가 급등했다고 보도했습니다.",
-     "reportedAt": "2026-10-22T19:40:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhZXJHaWl2ZnlvRnktUlI4MFY2aS1kdXNMRlVxSWhNVXFRM1l3UHlxYnQ3XzJYbXNacml1a09Id2ZfT1VDWmFZSkd6YUdWSWhCNzIzc2g3dzLSAVhBVV95cUxQYWVyR2lpdmZ5b0Z5LVJSODBWNmktZHVzTEZVcUloTVVxUTNZd1B5cWJ0N18yWG1zWnJpdWtPSHdmX09VQ1phWUpHemFHVkloQjcyM3NoN3cy?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티의 사우디 공격에 국제유가 급등…브렌트유 5개월 만에 최고",
-     "titleKo": null,
-     "summary": "후티의 사우디 공격으로 국제유가가 급등했다고 보도했습니다.",
-     "reportedAt": "2026-10-22T20:08:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sTHQ1b09UdkxMU3RBSEFhNng0LWVYMm1aMjRFSmRqMVNxWE5uUzhwMmJOcV9icm5YY00xQlR6dHUteEEzZEhnc3cwa2ZWeThXT3JJZWxGdVprWW1mV1FKUE9QYW1uRDg?oc=5"
-    },
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월 만에 최고",
-     "titleKo": null,
-     "summary": "국제유가가 후티의 사우디 공격에 급등했다고 보도했습니다.",
-     "reportedAt": "2026-10-22T20:29:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBcGJRMVpIT25mOUJKM2Y1aEJrby1ubzVQeHBxZUxQZlAzZTVFQjRqZ3Z1SzRMbGVneXJYa0NmYU9RS1JqMFl6VExFQVhHanQ1RW9rSGZoSE1ROGM?oc=5"
-    },
-    {
-     "outlet": "YTN",
-     "cat": "kr",
-     "title": "국제 유가, 후티의 사우디 공격에 5개월 만에 최고",
-     "titleKo": null,
-     "summary": "국제 유가가 후티의 사우디 공격으로 5개월 만에 최고로 올랐다고 보도했습니다.",
-     "reportedAt": "2026-10-22T20:55:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NRnExck5Nakw3bk54UUctNnp6LTJXTFJtR0laakh1U1F4SjkwaHNTQVNTdnRCbWx6VDk5WHZTQ2NzZkJlRHVuQzRpVHJVbTlhZENZSVZXYUZUanpIbmc?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Oil prices rise as supply concerns linger amid Houthi attacks on Saudi Arabia",
-     "titleKo": "후티의 사우디 공격 지속에 공급 우려…유가 상승",
-     "summary": "후티의 공격 이후 국제유가가 상승했다고 로이터가 전했습니다.",
-     "reportedAt": "2026-10-23T01:04:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
-     "titleKo": "후티 공격 이후 유가 보합세를 기록",
-     "summary": "후티 공격으로 공급 우려가 지속되며 유가가 소폭 변동했다고 보도했습니다.",
-     "reportedAt": "2026-10-23T01:04:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
-     "titleKo": "후티의 사우디 공격에 공급 우려로 유가 소폭 변동",
-     "summary": "후티의 사우디 공격으로 공급 우려가 커지자 국제유가가 소폭 변동했다고 전했습니다.",
-     "reportedAt": "2026-10-23T01:46:01.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/business/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-3007831"
-    }
-   ]
-  },
-  {
    "id": "0ca7ffb372e2",
    "articleIds": [
     "60a1eb31a8c6"
@@ -361,6 +364,38 @@
      "reportedAt": "2026-10-23T01:22:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OT2NocjU2WEwwNnYxUlZqQ3JIOTE5NGZrTlVIZTEwNTFfa1JOcGpiZTQ2WmRjV1Bub3pUZHhESmJYNGhxM3d0YXNwWVNhSGhibnM1RmFiNjZudzh1ekVIUVRiMnJUVXc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "33d5e4697d50",
+   "articleIds": [
+    "78e019a9b709"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 의료단체 Al-Balsam, 나이지리아서 6일간 심장수술 112건 시행",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-22T23:20:32.554Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi medical charity Al-Balsam performs 112 heart-related surgeries in 6 days in Nigeria",
+     "titleKo": "사우디 의료단체 Al-Balsam, 나이지리아서 6일간 심장수술 112건 시행",
+     "summary": "사우디 의료단체가 나이지리아에서 심장수술 봉사를 진행했다고 보도했습니다.",
+     "reportedAt": "2026-10-22T23:12:30.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-medical-charity-al-balsam-performs-112-heart-related-surgeries-in-6-days-in-nigeria-3007802"
     }
    ]
   },
@@ -680,7 +715,7 @@
      "summary": "아람코 본사 직원들에게 대피령이 내려졌다고 보도했습니다.",
      "reportedAt": "2026-10-22T21:05:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZZnBlQ2lVQ3N0Zkd1RWR6OEtNWmtyRzZLbUxnZ3FlbnhVNHNuZlZDZlhtaHY2T09qZXQxNFpfR2xtT0VuamNQaGNfdW9hQnVxeWJJUHVNek9fbmhtVHZTLXRFb3BDNEpjMDVqZ3lqb2c3elBkS1E?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUE9lOXpQbGhXelQ3NmpEQW0yMkUwVjRXWl9VMVp6X1FCdjVHRkRualBqcFdOZEdTRS12dmVLVUVJZ0tkY1B2WnlQeWVDd3R2V2NkTUdxWGRxb2JzZEE?oc=5"
     }
    ]
   },
@@ -1730,7 +1765,7 @@
      "summary": "한국일보는 미 정부가 사우디 주재 외교관 철수 명령을 내렸다고 보도했어요.",
      "reportedAt": "2026-10-22T06:58:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JOHU1SzlSODFoRS1hUTFMVVNvLWRsVnVFb2VBYmxSdlR2ZWpfSl9zSHFaY3FlUkF2SWVWZ0F2WnNZNVNxYXJFd1diUWdhUTdrUjVFYURvb0tiUndHVi1EWllSNl9weGJvZnc5aWR5WnRGMFHSAXNBVV95cUxNSTh1NUs5UjgxaEUtYVExTFVTby1kbFZ1RW9lQWJsUnZUdmVqX0pfc0hxWmNxZVJBdkllVmdBdlpzWTVTcWFyRXdXYlFnYVE3a1I1RWFEb29LYlJ3R1YtRFpZUjZfcHhib2Z3OWlkeVp0RjBR?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XbWJlR29MOEkxUHVfRkwwRXZ4M19nZUVYbDFIUTBaaXhGRWg3WUxWTDdUS2ZqY3BtTy0taUtZNjl4SGpSVzhZM3RBN211ZDJwaThtemRDeW9SNTIzTFpSa0NMbmRzTUEzV0JhOU1n0gFzQVVfeXFMTUk4dTVLOVI4MWhFLWFRMUxVU28tZGxWdUVvZUFibFJ2VHZlal9KX3NIcVpjcWVSQXZJZVZnQXZac1k1U3FhckV3V2JRZ2FRN2tSNUVhRG9vS2JSd0dWLURaWVI2X3B4Ym9mdzlpZHladEYwUQ?oc=5"
     }
    ]
   },
@@ -5431,52 +5466,27 @@
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52Tnp2czR0OGFXUzM2M05EU3NaRFByOUdEdXExN3F2WHpZeUtfTlYzZzdHeG9QNjZUUjVUWTNUX0RLM2xKUEtWeExKMDZJUDNtOFhncThfVDByNmc?oc=5"
     }
    ]
-  },
+  }
+ ],
+ "timeline": [
   {
-   "id": "9ca4fe99dc6f",
-   "articleIds": [
-    "af3e2144cddb",
-    "2f257ebd9ae8"
-   ],
+   "id": "7accb26262b6",
+   "outlet": "Reuters",
+   "official": false,
+   "claim": false,
    "type": "security",
    "sev": "mid",
-   "status": "multi",
-   "directive": null,
-   "title": "사우디·후티 충돌 격화에…울산시, 중동 투자유치단 파견 잠정 연기",
-   "titleAuto": false,
    "regions": [
     "all"
    ],
    "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-20T06:00:43.523Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "사우디·후티 충돌 격화에…울산시, 중동 투자유치단 파견 잠정 연기",
-     "titleKo": null,
-     "summary": "뉴스1이 울산시의 중동 파견 연기 소식을 보도했어요.",
-     "reportedAt": "2026-10-20T05:47:52.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NOG1Zc0NPd0UxekFURk1iekkxRnhER0RFUFVGZHllV1YtM1ZfQXpDdjM3cEY5eWlpR05UU2x5WnBseUhTZmRacFoxM0lOd1o5dGc?oc=5"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "사우디-후티 반군 '교전'…울산시, 투자유치단 파견 연기",
-     "titleKo": null,
-     "summary": "뉴시스가 사우디-후티 교전에 따라 한국 지자체 파견 연기를 보도했어요.",
-     "reportedAt": "2026-10-20T05:50:12.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BbEZzcEVrTXZ5MHJ1a3Ita2YwYUNmdE5rNUxYcW9ldEpFOHpDQmZ6S0FLNVQ1R2xVaE0tWHpjLVB0bjVwdHp6dWJLZjhyOXF5M20zNjFWeklMaF9nWUdmNC00dk5EeVM3MElGM1d3QU0wTXBsOUtyStIBeEFVX3lxTE5BbEZzcEVrTXZ5MHJ1a3Ita2YwYUNmdE5rNUxYcW9ldEpFOHpDQmZ6S0FLNVQ1R2xVaE0tWHpjLVB0bjVwdHp6dWJLZjhyOXF5M20zNjFWeklMaF9nWUdmNC00dk5EeVM3MElGM1d3QU0wTXBsOUtySg?oc=5"
-    }
-   ]
-  }
- ],
- "timeline": [
+   "titleKo": "후티의 사우디 공격 지속에 공급 우려…유가 상승",
+   "title": "Oil prices rise as supply concerns linger amid Houthi attacks on Saudi Arabia",
+   "summary": "후티의 공격 이후 국제유가가 상승했다고 로이터가 전했습니다.",
+   "reportedAt": "2026-10-23T05:27:30.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
+  },
   {
    "id": "909447782b5f",
    "outlet": "Asharq Al-Awsat",
@@ -5548,24 +5558,6 @@
    "reportedAt": "2026-10-23T01:21:53.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5DN09DRmcwVVdyUEdPRTY2OHJKVmVsUkF1WlpWLTFtcHlyMzZxTXpIb1ZjVi11WEpfcmk1amRFTUxHRWl0R3RkUV9n?oc=5"
-  },
-  {
-   "id": "7accb26262b6",
-   "outlet": "Reuters",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "후티의 사우디 공격 지속에 공급 우려…유가 상승",
-   "title": "Oil prices rise as supply concerns linger amid Houthi attacks on Saudi Arabia",
-   "summary": "후티의 공격 이후 국제유가가 상승했다고 로이터가 전했습니다.",
-   "reportedAt": "2026-10-23T01:04:00.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
   },
   {
    "id": "5bcbe5f77876",
@@ -6767,6 +6759,34 @@
  "_cache": {
   "articles": [
    {
+    "id": "dacd1fa049e3",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "사우디 \"리야드 겨냥 후티 미사일 요격\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fUkx4eS1Uamt2eGE0ZldIWUlWSVFrNzRJdTdPNXc1clVSa0RvSFNqcDUwRDBQVEoxVThCRGRKY25BNzNtdElWQVpWOEJWeVo1bGtlSEFJWmZXYXdydW4wcWdIUzQ1ek9iMkdDVkV2cnV6dnl3?oc=5",
+    "reportedAt": 1792733744000,
+    "assumeSaudi": false,
+    "firstSeen": 1792734629770
+   },
+   {
+    "id": "7accb26262b6",
+    "feed": "Reuters",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "Reuters",
+    "title": "Oil prices rise as supply concerns linger amid Houthi attacks on Saudi Arabia",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5",
+    "reportedAt": 1792733250000,
+    "assumeSaudi": false,
+    "firstSeen": 1792734025694
+   },
+   {
     "id": "909447782b5f",
     "feed": "Asharq Al-Awsat",
     "cat": "local",
@@ -6865,20 +6885,6 @@
     "firstSeen": 1792718429710
    },
    {
-    "id": "7accb26262b6",
-    "feed": "Reuters",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "Reuters",
-    "title": "Oil prices rise as supply concerns linger amid Houthi attacks on Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5",
-    "reportedAt": 1792717440000,
-    "assumeSaudi": false,
-    "firstSeen": 1792734025694
-   },
-   {
     "id": "5bcbe5f77876",
     "feed": "Reuters",
     "cat": "wire",
@@ -6943,7 +6949,7 @@
     "outlet": "YTN",
     "title": "후티 \"사우디 국방부 등 4곳 타격\"...아람코 본사 건물 대피령",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZZnBlQ2lVQ3N0Zkd1RWR6OEtNWmtyRzZLbUxnZ3FlbnhVNHNuZlZDZlhtaHY2T09qZXQxNFpfR2xtT0VuamNQaGNfdW9hQnVxeWJJUHVNek9fbmhtVHZTLXRFb3BDNEpjMDVqZ3lqb2c3elBkS1E?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUE9lOXpQbGhXelQ3NmpEQW0yMkUwVjRXWl9VMVp6X1FCdjVHRkRualBqcFdOZEdTRS12dmVLVUVJZ0tkY1B2WnlQeWVDd3R2V2NkTUdxWGRxb2JzZEE?oc=5",
     "reportedAt": 1792703100000,
     "assumeSaudi": false,
     "firstSeen": 1792706448315
@@ -7881,7 +7887,7 @@
     "outlet": "한국일보",
     "title": "거센 후티 반군 공격에...美, 사우디 주재 자국 외교관 '철수' 명령",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JOHU1SzlSODFoRS1hUTFMVVNvLWRsVnVFb2VBYmxSdlR2ZWpfSl9zSHFaY3FlUkF2SWVWZ0F2WnNZNVNxYXJFd1diUWdhUTdrUjVFYURvb0tiUndHVi1EWllSNl9weGJvZnc5aWR5WnRGMFHSAXNBVV95cUxNSTh1NUs5UjgxaEUtYVExTFVTby1kbFZ1RW9lQWJsUnZUdmVqX0pfc0hxWmNxZVJBdkllVmdBdlpzWTVTcWFyRXdXYlFnYVE3a1I1RWFEb29LYlJ3R1YtRFpZUjZfcHhib2Z3OWlkeVp0RjBR?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XbWJlR29MOEkxUHVfRkwwRXZ4M19nZUVYbDFIUTBaaXhGRWg3WUxWTDdUS2ZqY3BtTy0taUtZNjl4SGpSVzhZM3RBN211ZDJwaThtemRDeW9SNTIzTFpSa0NMbmRzTUEzV0JhOU1n0gFzQVVfeXFMTUk4dTVLOVI4MWhFLWFRMUxVU28tZGxWdUVvZUFibFJ2VHZlal9KX3NIcVpjcWVSQXZJZVZnQXZac1k1U3FhckV3V2JRZ2FRN2tSNUVhRG9vS2JSd0dWLURaWVI2X3B4Ym9mdzlpZHladEYwUQ?oc=5",
     "reportedAt": 1792652280000,
     "assumeSaudi": false,
     "firstSeen": 1792653030674
@@ -9989,34 +9995,6 @@
     "reportedAt": 1792476112000,
     "assumeSaudi": false,
     "firstSeen": 1792477228024
-   },
-   {
-    "id": "2f257ebd9ae8",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴시스",
-    "title": "사우디-후티 반군 '교전'…울산시, 투자유치단 파견 연기",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BbEZzcEVrTXZ5MHJ1a3Ita2YwYUNmdE5rNUxYcW9ldEpFOHpDQmZ6S0FLNVQ1R2xVaE0tWHpjLVB0bjVwdHp6dWJLZjhyOXF5M20zNjFWeklMaF9nWUdmNC00dk5EeVM3MElGM1d3QU0wTXBsOUtyStIBeEFVX3lxTE5BbEZzcEVrTXZ5MHJ1a3Ita2YwYUNmdE5rNUxYcW9ldEpFOHpDQmZ6S0FLNVQ1R2xVaE0tWHpjLVB0bjVwdHp6dWJLZjhyOXF5M20zNjFWeklMaF9nWUdmNC00dk5EeVM3MElGM1d3QU0wTXBsOUtySg?oc=5",
-    "reportedAt": 1792475412000,
-    "assumeSaudi": false,
-    "firstSeen": 1792476043523
-   },
-   {
-    "id": "af3e2144cddb",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴스1",
-    "title": "사우디·후티 충돌 격화에…울산시, 중동 투자유치단 파견 잠정 연기",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NOG1Zc0NPd0UxekFURk1iekkxRnhER0RFUFVGZHllV1YtM1ZfQXpDdjM3cEY5eWlpR05UU2x5WnBseUhTZmRacFoxM0lOd1o5dGc?oc=5",
-    "reportedAt": 1792475272000,
-    "assumeSaudi": false,
-    "firstSeen": 1792476043523
    }
   ],
   "summaries": {
@@ -10024,8 +10002,6 @@
    "090ebdcf588f": "KBS가 후티 공격으로 정부군 사상 소식을 보도했어요.",
    "d37055c26426": "JTBC는 후티가 타이푼 전투기를 격추했다고 주장하는 보도를 전했어요.",
    "6ca25a0b92a5": "연합뉴스가 사우디 탈출 전세기 가격 급등을 보도했어요.",
-   "2f257ebd9ae8": "뉴시스가 사우디-후티 교전에 따라 한국 지자체 파견 연기를 보도했어요.",
-   "af3e2144cddb": "뉴스1이 울산시의 중동 파견 연기 소식을 보도했어요.",
    "111df0ef706b": "Arab News는 연합군의 요격 사실을 보도했어요.",
    "5c493d687bb4": "Arab News는 연합군이 리야드로 향한 미사일을 요격했다고 보도했어요.",
    "fc4efe20ac28": "로이터가 후티의 에너지·공항 공격 주장으로 걸프 증시가 하락했다고 보도했어요.",
@@ -10250,8 +10226,6 @@
    "090ebdcf588f": "후티 공격에 정부군 사상 보도",
    "d37055c26426": "후티, 타이푼 격추 성공했다고 주장",
    "6ca25a0b92a5": "후티 공격으로 전세기 가격 급등 보도",
-   "2f257ebd9ae8": "사우디-후티 교전에 따른 파견 연기 보도",
-   "af3e2144cddb": "울산시, 중동 파견 연기 보도",
    "fc4efe20ac28": "로이터: 후티의 에너지·공항 공격 주장으로 시장 하락",
    "111df0ef706b": "연합군의 미사일 요격 보도",
    "5c493d687bb4": "연합군, 리야드 향한 미사일 요격 보도",
@@ -11402,8 +11376,13 @@
    },
    {
     "articleIds": [
-     "2f257ebd9ae8",
-     "af3e2144cddb"
+     "dacd1fa049e3"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "78e019a9b709"
     ],
     "fromRule": true
    }
