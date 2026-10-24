@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-24T07:20:37.123Z",
-  "lastAttemptAt": "2026-10-24T07:20:37.123Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-24T07:30:36.811Z",
+  "lastAttemptAt": "2026-10-24T07:30:36.811Z",
   "aiSummary": true,
   "summaryAt": "2026-10-24T04:50:32.450Z",
   "aiError": null,
@@ -14,43 +14,50 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 32
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 57
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 12
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 11
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 166
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 52
+    "count": 33,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 191
+    "count": 190
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 78
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -64,8 +71,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 74
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -4589,38 +4597,6 @@
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFWGdhV2J2QmRSSE5hTml1bzcwSGlXczgxSjRrckhyOE84X2V5dE4wQmljSkdJeTNHN0g4bXlyX0c4eFJ0SmlNVHlucXlpY1Jtekt6Z2pic3prUDlPR1ZGZkpxcmZMckU?oc=5"
     }
    ]
-  },
-  {
-   "id": "269416e311dd",
-   "articleIds": [
-    "013b1bb30a05"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T07:30:40.816Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
-     "titleKo": null,
-     "summary": "AP 등 보도는 영국이 방어적 공중순찰로 사우디를 지원한다고 보도했어요.",
-     "reportedAt": "2026-10-21T07:22:32.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yZ0dteVpBVHhUMjg3MzZYajRHLVBtS2ZDZTRTY0NHSHRvcXZCV3phWDdNUjdEUmFvbmJkeEZDZ3lsa3RaN3J4TzVMRGRBc3FkaDY5NW43bmo0aXEwWmlWTTdzcVdtQmlGYzNUNjFn0gFuQVVfeXFMTzJnR215WkFUeFQyODczNlhqNEctUG1LZkNlNFNjQ0dIdG9xdkJXemFYN01SN0RSYW9uYmR4RkNneWxrdFo3cnhPNUxEZEFzcWRoNjk1bjduajRpcTBaaVZNN3NxV21CaUZjM1Q2MWc?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -8707,20 +8683,6 @@
     "reportedAt": 1792568903000,
     "assumeSaudi": false,
     "firstSeen": 1792571438432
-   },
-   {
-    "id": "013b1bb30a05",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "머니투데이",
-    "title": "'방어'만 돕는 우방, 떠나는 부유층…후티에 흔들리는 사우디의 꿈 - 머니투데이",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yZ0dteVpBVHhUMjg3MzZYajRHLVBtS2ZDZTRTY0NHSHRvcXZCV3phWDdNUjdEUmFvbmJkeEZDZ3lsa3RaN3J4TzVMRGRBc3FkaDY5NW43bmo0aXEwWmlWTTdzcVdtQmlGYzNUNjFn0gFuQVVfeXFMTzJnR215WkFUeFQyODczNlhqNEctUG1LZkNlNFNjQ0dIdG9xdkJXemFYN01SN0RSYW9uYmR4RkNneWxrdFo3cnhPNUxEZEFzcWRoNjk1bjduajRpcTBaaVZNN3NxV21CaUZjM1Q2MWc?oc=5",
-    "reportedAt": 1792567352000,
-    "assumeSaudi": false,
-    "firstSeen": 1792567840816
    }
   ],
   "summaries": {
@@ -8730,7 +8692,6 @@
    "014f41f485cb": "(이미 요약 있음)",
    "8d8cd59cb2b4": "(이미 요약 있음)",
    "1c84fc8869b5": "후티가 사우디 연합군을 상대로 벌어진 교전 장면을 공개했다고 보도됐어요.",
-   "013b1bb30a05": "AP 등 보도는 영국이 방어적 공중순찰로 사우디를 지원한다고 보도했어요.",
    "087b2548e622": "영국이 사우디에 타이푼 전투기를 보내 방어를 지원한다고 보도됐어요.",
    "e3fb7938e8cd": "AFP는 이집트가 후티와의 전쟁 참여를 검토 중이라고 보도했으나 이집트는 공격 불가 방침을 밝혔어요.",
    "f990ae70cfbd": "알자지라는 영국 전투기 파견이 사우디 방어 강화라는 맥락이라고 보도했어요.",
@@ -8932,7 +8893,6 @@
    "1c84fc8869b5": "후티가 사우디전 교전 장면 공개",
    "014f41f485cb": "(이미 번역 있음)",
    "8d8cd59cb2b4": "(이미 번역 있음)",
-   "013b1bb30a05": "후티 공격에 따른 사우디의 사회경제적 영향 보도",
    "3481fbb9bb27": "후티, 메디나 향 드론 발사 부인",
    "f990ae70cfbd": "(이미 번역 있음)",
    "e3fb7938e8cd": "이집트, 사우디의 후티 대응 동참 검토 보도",
@@ -9890,12 +9850,6 @@
    {
     "articleIds": [
      "1c84fc8869b5"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "013b1bb30a05"
     ],
     "fromRule": true
    }
