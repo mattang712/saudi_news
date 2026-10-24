@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-24T20:00:10.141Z",
-  "lastAttemptAt": "2026-10-24T20:00:10.141Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-24T20:02:36.150Z",
+  "lastAttemptAt": "2026-10-24T20:02:36.150Z",
   "aiSummary": true,
   "summaryAt": "2026-10-24T20:00:10.141Z",
   "aiError": null,
@@ -51,58 +51,93 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 44
+    "count": 40
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 51
+    "count": 50
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 남부지역 공격 관련 신변 유의",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "8623090287de",
+   "articleIds": [
+    "5f847913f2d8"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "Editorial: ‘알라의 적들’을 지목할 때입니다",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-24T20:00:10.141Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Editorial: Time to call out the ‘Enemies of Allah’",
+     "titleKo": "Editorial: ‘알라의 적들’을 지목할 때입니다",
+     "summary": "(요약 없음)",
+     "reportedAt": "2026-10-24T19:58:44.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/editorial-time-to-call-out-the-enemies-of-allah-3008094"
+    }
+   ]
+  },
+  {
+   "id": "b8b75cf05bd5",
+   "articleIds": [
+    "a65dea2d84fb"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "살만 국왕·왕세자, 요르단 교회 공격 규탄…압둘라 2세에게 조의 표해",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-24T20:02:36.150Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "King Salman, Crown Prince condemn Jordan church attack, send condolences to King Abdullah II",
+     "titleKo": "살만 국왕·왕세자, 요르단 교회 공격 규탄…압둘라 2세에게 조의 표해",
+     "summary": "",
+     "reportedAt": "2026-10-24T19:18:04.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665696/saudi-arabia/king-salman-crown-prince-condemn-jordan-church-attack-offer-condolences-to-king-abdullah-ii"
+    }
+   ]
+  },
   {
    "id": "b1081e69d729",
    "articleIds": [
@@ -231,9 +266,41 @@
      "title": "Eastern Province emir visits survivor of Houthi attack on Dammam airport",
      "titleKo": "동부 주지사, 담맘 공항 공격 생존자 방문",
      "summary": "동부 주지사가 담맘 공항 공격 생존자를 방문했다고 보도됐어요.",
-     "reportedAt": "2026-10-24T19:13:00.000Z",
+     "reportedAt": "2026-10-24T19:13:27.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPY3VyYnNwTFdfRF9VY3BDT3pUYkdERnlNdEduN0FRRGdMZkRXS0Y2R1ZxcGVxV0ZmamdqUFk4NUpQTTlGckxoVm9aQ1pVYzZGMUFfYWo1MkVodl9GU01XcVVZZlphYjh0eDQyeWxoU2NrenYtX1dpdE90ZHg5YXlONE9MMDBndkpYMTJ0SEx5dzdacDBMTll1OGNBTmNrVlpqMGN6aEpLdjl1N1ZTd0o0bUVXM1N2Z21wRmZncWlSMlpNUEZMUmVqOXh3T2RtQXhYcXZuVQ?oc=5"
+     "url": "https://saudigazette.com.sa/article/665695/saudi-arabia/eastern-province-emir-visits-survivor-of-attack-on-king-fahd-international-airport"
+    }
+   ]
+  },
+  {
+   "id": "8d2247ce9acd",
+   "articleIds": [
+    "7fa9368285a5"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 민방위, 마카·제다·타이프·라비그에서 미사일 잔해 낙하 보고",
+   "titleAuto": true,
+   "regions": [
+    "jeddah"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-24T20:02:36.150Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi Civil Defense reports missile debris falling in Makkah, Jeddah, Taif and Rabigh",
+     "titleKo": "사우디 민방위, 마카·제다·타이프·라비그에서 미사일 잔해 낙하 보고",
+     "summary": "",
+     "reportedAt": "2026-10-24T19:06:33.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665694/saudi-arabia/saudi-civil-defense-reports-houthi-missile-debris-in-makkah-jeddah-taif-and-rabigh"
     }
    ]
   },
@@ -520,6 +587,38 @@
      "reportedAt": "2026-10-24T15:24:40.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ydTk4UThmVkJhNHc4NS1kQVU5a2UyMkIzLThCdDJrOFBqSjQ4MUJFaVJkRGU3azg2RGJmcUl2ODkwcUFpTTVXS1hqOVhGVmw3UmxrUzVuOVNBVUFhSFhtN9IBYEFVX3lxTE9ydTk4UThmVkJhNHc4NS1kQVU5a2UyMkIzLThCdDJrOFBqSjQ4MUJFaVJkRGU3azg2RGJmcUl2ODkwcUFpTTVXS1hqOVhGVmw3UmxrUzVuOVNBVUFhSFhtNw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "fba451a2131f",
+   "articleIds": [
+    "6ed6df59bce6"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 등 11개국, 요르단 교회 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-24T13:00:41.824Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi Arabia condemns Jordan church attack as 11 Arab nations express solidarity",
+     "titleKo": "사우디 등 11개국, 요르단 교회 공격 규탄",
+     "summary": "사우디 등 11개국이 요르단 교회 공격을 규탄했다고 보도됐어요.",
+     "reportedAt": "2026-10-24T12:55:39.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665682/saudi-arabia/saudi-arabia-condemns-jordan-church-attack-as-11-arab-nations-express-solidarity"
     }
    ]
   },
@@ -5252,6 +5351,20 @@
     "firstSeen": 1792872010141
    },
    {
+    "id": "a65dea2d84fb",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "King Salman, Crown Prince condemn Jordan church attack, send condolences to King Abdullah II",
+    "snippet": "RIYADH — Custodian of the Two Holy Mosques King Salman bin Abdulaziz and Crown Prince and Prime Minister Mohammed bin Salman sent separate cables of condolences to Jordan's King Abdullah II following the terrorist attack on a church in Karak governorate that left several people dead and injured.In his cable, King Salman condemned the attack and expressed his deepest condolences and sympathy to Kin",
+    "url": "https://saudigazette.com.sa/article/665696/saudi-arabia/king-salman-crown-prince-condemn-jordan-church-attack-offer-condolences-to-king-abdullah-ii",
+    "reportedAt": 1792869484000,
+    "assumeSaudi": false,
+    "firstSeen": 1792872156150
+   },
+   {
     "id": "7f840ab99e7b",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -5259,11 +5372,25 @@
     "lang": "en",
     "outlet": "Saudi Gazette",
     "title": "Eastern Province emir visits survivor of Houthi attack on Dammam airport",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPY3VyYnNwTFdfRF9VY3BDT3pUYkdERnlNdEduN0FRRGdMZkRXS0Y2R1ZxcGVxV0ZmamdqUFk4NUpQTTlGckxoVm9aQ1pVYzZGMUFfYWo1MkVodl9GU01XcVVZZlphYjh0eDQyeWxoU2NrenYtX1dpdE90ZHg5YXlONE9MMDBndkpYMTJ0SEx5dzdacDBMTll1OGNBTmNrVlpqMGN6aEpLdjl1N1ZTd0o0bUVXM1N2Z21wRmZncWlSMlpNUEZMUmVqOXh3T2RtQXhYcXZuVQ?oc=5",
-    "reportedAt": 1792869180000,
+    "snippet": "DAMMAM — Eastern Province Emir Prince Saud bin Naif and Deputy Emir Prince Saud bin Bandar visited Saturday a patient receiving medical treatment for injuries sustained in the attack on King Fahd International Airport in Dammam.During the visit, Prince Saud bin Naif conveyed the greetings of Custodian of the Two Holy Mosques King Salman bin Abdulaziz and Crown Prince and Prime Minister Mohammed bi",
+    "url": "https://saudigazette.com.sa/article/665695/saudi-arabia/eastern-province-emir-visits-survivor-of-attack-on-king-fahd-international-airport",
+    "reportedAt": 1792869207000,
     "assumeSaudi": false,
     "firstSeen": 1792869632252
+   },
+   {
+    "id": "7fa9368285a5",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Saudi Civil Defense reports missile debris falling in Makkah, Jeddah, Taif and Rabigh",
+    "snippet": "JEDDAH — Saudi Civil Defense announced Saturday that debris from the interception of two ballistic missiles launched by the terrorist Houthi militia toward the Makkah and Madinah regions fell in several locations, including Makkah, Jeddah, Taif and Rabigh.The official spokesperson for Civil Defense said emergency teams in the Makkah and Madinah regions responded to the falling debris following the",
+    "url": "https://saudigazette.com.sa/article/665694/saudi-arabia/saudi-civil-defense-reports-houthi-missile-debris-in-makkah-jeddah-taif-and-rabigh",
+    "reportedAt": 1792868793000,
+    "assumeSaudi": false,
+    "firstSeen": 1792872156150
    },
    {
     "id": "6ab3b0ee342b",
@@ -8192,7 +8319,9 @@
    "6ab3b0ee342b": "리야드 공항 공격 생존자들, 공포와 구조 노력 증언",
    "7f840ab99e7b": "동부 주지사, 담맘 공항 공격 생존자 방문",
    "5f847913f2d8": "Editorial: ‘알라의 적들’을 지목할 때입니다",
-   "dae0fb7c13df": "사우디·예멘 후티, 미사일·공습으로 맞대응하며 충돌 격화"
+   "dae0fb7c13df": "사우디·예멘 후티, 미사일·공습으로 맞대응하며 충돌 격화",
+   "a65dea2d84fb": "살만 국왕·왕세자, 요르단 교회 공격 규탄…압둘라 2세에게 조의 표해",
+   "7fa9368285a5": "사우디 민방위, 마카·제다·타이프·라비그에서 미사일 잔해 낙하 보고"
   },
   "aiClusters": [
    {
@@ -8897,6 +9026,30 @@
    {
     "articleIds": [
      "c95befa2c37a"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "5f847913f2d8"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a65dea2d84fb"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "7fa9368285a5"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "6ed6df59bce6"
     ],
     "fromRule": true
    }
