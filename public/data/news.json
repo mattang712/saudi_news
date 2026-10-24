@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-24T20:02:36.150Z",
-  "lastAttemptAt": "2026-10-24T20:02:36.150Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-24T20:10:31.406Z",
+  "lastAttemptAt": "2026-10-24T20:10:31.406Z",
   "aiSummary": true,
   "summaryAt": "2026-10-24T20:00:10.141Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 20
+    "count": 21
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 35
+    "count": 31
    },
    {
     "name": "AP",
@@ -51,29 +51,90 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 40
+    "count": 41
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 50
+    "count": 49
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 남부지역 공격 관련 신변 유의",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
+    "date": "2026-10-19",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "c2b0a5b7e6ea",
+   "articleIds": [
+    "3b3ccb9eb49c"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 지도자들, 교회 공격에 대한 요르단 국왕 조문",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-24T20:10:31.406Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi leaders send condolences to Jordan’s king over church attack",
+     "titleKo": "사우디 지도자들, 교회 공격에 대한 요르단 국왕 조문",
+     "summary": "",
+     "reportedAt": "2026-10-24T20:03:51.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-leaders-send-condolences-to-jordans-king-over-church-attack-3008103"
+    }
+   ]
+  },
   {
    "id": "8623090287de",
    "articleIds": [
@@ -103,6 +164,39 @@
      "reportedAt": "2026-10-24T19:58:44.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/editorial-time-to-call-out-the-enemies-of-allah-3008094"
+    }
+   ]
+  },
+  {
+   "id": "1e371caf17f1",
+   "articleIds": [
+    "3d50cde19e73"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 반군 \"사우디 수도 리야드 공항·동서 송유관 등 타격\"(종합)",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-24T20:10:31.406Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티 반군 \"사우디 수도 리야드 공항·동서 송유관 등 타격\"(종합)",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-24T19:43:40.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KNVpZY3Fkemdzci1ENnF4Y3ZySFdnMTFTRGk0RXZTSE0wSVA0OXVhNHpTTklySHdpcGJWTkdoTl9fdDFHbUNLUHpoeG9CaV9oSHdITkc2S2duZEXSAWBBVV95cUxOaEJ6YXlkZDRRQkpwRml4RGswMTlnaElRZFlrd3lyTEdQZ0VOMU9BTFp2Q3NhcGJlbjNVaGtwUTk5TVdBZ1pYTFFNUk5xMi1YeFlpUlZKcGlTZG5yZmE5aVg?oc=5"
     }
    ]
   },
@@ -5337,6 +5431,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "3b3ccb9eb49c",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi leaders send condolences to Jordan’s king over church attack",
+    "snippet": "RIYADH: Saudi Arabia’s King Salman and Crown Prince Mohammed bin Salman on Saturday sent cables of condolences to Jordan’s King Abdullah II following a terrorist attack on a church in the southern governorate of Karak that killed nine people and injured at least 40 others. The Saudi leaders condemned the attack and expressed their sympathy to the families of the victims and the people of Jordan, t",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-leaders-send-condolences-to-jordans-king-over-church-attack-3008103",
+    "reportedAt": 1792872231000,
+    "assumeSaudi": false,
+    "firstSeen": 1792872631406
+   },
+   {
     "id": "5f847913f2d8",
     "feed": "Arab News",
     "cat": "local",
@@ -5349,6 +5457,20 @@
     "reportedAt": 1792871924000,
     "assumeSaudi": false,
     "firstSeen": 1792872010141
+   },
+   {
+    "id": "3d50cde19e73",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "후티 반군 \"사우디 수도 리야드 공항·동서 송유관 등 타격\"(종합)",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KNVpZY3Fkemdzci1ENnF4Y3ZySFdnMTFTRGk0RXZTSE0wSVA0OXVhNHpTTklySHdpcGJWTkdoTl9fdDFHbUNLUHpoeG9CaV9oSHdITkc2S2duZEXSAWBBVV95cUxOaEJ6YXlkZDRRQkpwRml4RGswMTlnaElRZFlrd3lyTEdQZ0VOMU9BTFp2Q3NhcGJlbjNVaGtwUTk5TVdBZ1pYTFFNUk5xMi1YeFlpUlZKcGlTZG5yZmE5aVg?oc=5",
+    "reportedAt": 1792871020000,
+    "assumeSaudi": false,
+    "firstSeen": 1792872631406
    },
    {
     "id": "a65dea2d84fb",
@@ -8321,7 +8443,8 @@
    "5f847913f2d8": "Editorial: ‘알라의 적들’을 지목할 때입니다",
    "dae0fb7c13df": "사우디·예멘 후티, 미사일·공습으로 맞대응하며 충돌 격화",
    "a65dea2d84fb": "살만 국왕·왕세자, 요르단 교회 공격 규탄…압둘라 2세에게 조의 표해",
-   "7fa9368285a5": "사우디 민방위, 마카·제다·타이프·라비그에서 미사일 잔해 낙하 보고"
+   "7fa9368285a5": "사우디 민방위, 마카·제다·타이프·라비그에서 미사일 잔해 낙하 보고",
+   "3b3ccb9eb49c": "사우디 지도자들, 교회 공격에 대한 요르단 국왕 조문"
   },
   "aiClusters": [
    {
@@ -9050,6 +9173,18 @@
    {
     "articleIds": [
      "6ed6df59bce6"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3b3ccb9eb49c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3d50cde19e73"
     ],
     "fromRule": true
    }
