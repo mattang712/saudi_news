@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-24T19:00:45.805Z",
-  "lastAttemptAt": "2026-10-24T19:00:45.805Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-24T19:10:28.964Z",
+  "lastAttemptAt": "2026-10-24T19:10:28.964Z",
   "aiSummary": true,
   "summaryAt": "2026-10-24T17:20:32.471Z",
   "aiError": null,
@@ -15,33 +15,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 22
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 35
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 14
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 4
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 120
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 52
+    "count": 29,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +57,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 44
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 50
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -4384,38 +4392,6 @@
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaE5XN3NqWFZpVDlpS3ZHc1c1WWR6SlE4SXl0ekh4akM0bVYtQkUtZ1BTdDV6cjA2SGhWR1ZIZDZ0NnVNbW92YTNQQURKTnNvR2lfOE5QQVNZbjByMzNldzR1ZnBscFpiSFJnV0gyQzc2MHN5QklFVExfeWRKRjhUZW9oT2xYUHB3YkQ1MzZPZWp4MlAzX3hVTGxFX1F6bjVPcUk3Z0tHRDRGem8tb3hmV3pJSmpKYmVxek13TUpldnZ2bUU?oc=5"
     }
    ]
-  },
-  {
-   "id": "002c3a279e26",
-   "articleIds": [
-    "4e2b3032a6b0"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-21T20:40:36.396Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Faisal Alkabbani Turns Childhood Passion into Back-to-Back Saudi Time Attack Titles",
-     "titleKo": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
-     "summary": "샤이바 유전 공격으로 2명이 숨졌고 운영엔 영향이 없다고 에너지부가 전했다고 보도했어요.",
-     "reportedAt": "2026-10-21T19:10:16.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IY2xfUWNXdVpwRExwODNaNFZ2eUlZLURqWW9seG13b1hpdGF5SWFmS0FIaWxaNlRMTnFwV21ac2lpM0lWZGp1Ylln?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -5506,24 +5482,6 @@
    "reportedAt": "2026-10-21T19:15:55.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSFhacmtBdGRlT0NRV3BIbVVtYnI5NXJXTWlPYzUtei1CemFlOW5aWk55cUF3Z2loa3pvNjM4UUxJa0FsdGNuLTdaLTdUcTJiZ0lXZjM1Nk51Xzh2dmxoVXVVRU1XOHBYM0RwbVo2MmxQUDBfemdPREFTSG5velNHTFhNbTB6M25yM2ZBcnBSbm1DY0NvMFJQX05XTUV0djdUNVl2aXBmYWJ6aDEwNnEtbExqVjBpYWRWb3c?oc=5"
-  },
-  {
-   "id": "4e2b3032a6b0",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
-   "title": "Faisal Alkabbani Turns Childhood Passion into Back-to-Back Saudi Time Attack Titles",
-   "summary": "샤이바 유전 공격으로 2명이 숨졌고 운영엔 영향이 없다고 에너지부가 전했다고 보도했어요.",
-   "reportedAt": "2026-10-21T19:10:16.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IY2xfUWNXdVpwRExwODNaNFZ2eUlZLURqWW9seG13b1hpdGF5SWFmS0FIaWxaNlRMTnFwV21ac2lpM0lWZGp1Ylln?oc=5"
   }
  ],
  "_cache": {
@@ -8187,20 +8145,6 @@
     "reportedAt": 1792610113000,
     "assumeSaudi": false,
     "firstSeen": 1792610431702
-   },
-   {
-    "id": "4e2b3032a6b0",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Faisal Alkabbani Turns Childhood Passion into Back-to-Back Saudi Time Attack Titles",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IY2xfUWNXdVpwRExwODNaNFZ2eUlZLURqWW9seG13b1hpdGF5SWFmS0FIaWxaNlRMTnFwV21ac2lpM0lWZGp1Ylln?oc=5",
-    "reportedAt": 1792609816000,
-    "assumeSaudi": false,
-    "firstSeen": 1792615236396
    }
   ],
   "summaries": {
@@ -8215,7 +8159,6 @@
    "80d94b4db67e": "사우디 샤이바 유전 겨냥 드론 공격으로 외국인 2명이 사망했다고 전했어요.",
    "995f0b7bd85a": "사우디 방공이 드론을 요격했지만 샤이바 유전에서 외국인 2명이 숨졌다고 보도했어요.",
    "0e81df85dacd": "미 보도는 외교관 철수 명령을 전하면서 사우디 내 Houthi 공격을 언급했어요.",
-   "4e2b3032a6b0": "샤이바 유전 공격으로 2명이 숨졌고 운영엔 영향이 없다고 에너지부가 전했다고 보도했어요.",
    "a2af509cc084": "호르무즈 유조선 피격과 사우디 석유시설 공격 소식이 국제유가에 영향을 미쳤다고 보도했어요.",
    "8eeb555e81fa": "미의 철수 명령 관련 보도예요.",
    "d985789f03a1": "동부 지역 공항·유전 공격으로 3명 사망 보도했어요.",
@@ -8397,7 +8340,6 @@
    "6a56c26e82e5": "사우디 당국: 유전 시설 낙하물로 외국인 2명 사망",
    "17e480e8761e": "미, 일부 외교관 사우디 출국 명령",
    "0ec0208fbd90": "미, 후티 공격 우려로 사우디 주재 외교관 철수 명령 단독 보도",
-   "4e2b3032a6b0": "사우디 에너지부: 샤이바 유전서 2명 사망, 작전 영향 없어",
    "c36e719137f2": "이집트 대통령 \"사우디 지원하겠지만 예멘 직접 공격 않겠다\"",
    "72042bdf68df": "미의 대피령 관련 보도",
    "c95befa2c37a": "샤이바 유전에 드론 공격, 2명 사망",
@@ -9286,12 +9228,6 @@
    {
     "articleIds": [
      "d5ec3dcef267"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "4e2b3032a6b0"
     ],
     "fromRule": true
    },
