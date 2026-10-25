@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-25T16:50:26.307Z",
-  "lastAttemptAt": "2026-10-25T16:50:26.307Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-25T17:00:45.427Z",
+  "lastAttemptAt": "2026-10-25T17:00:45.427Z",
   "aiSummary": true,
   "summaryAt": "2026-10-25T15:20:33.243Z",
   "aiError": null,
@@ -15,12 +15,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 26
+    "count": 25
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 57
+    "count": 62
    },
    {
     "name": "AP",
@@ -35,105 +35,44 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 124
+    "count": 123
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 35
+    "count": 36
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 168
+    "count": 170
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 54
+    "count": 55
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 54
+    "count": 53
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
-  {
-   "id": "7c8460741007",
-   "articleIds": [
-    "94d90bf97a71"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-25T15:40:32.103Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
-     "titleKo": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
-     "summary": "",
-     "reportedAt": "2026-10-25T15:52:18.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5"
-    }
-   ]
-  },
   {
    "id": "9860ab5a2230",
    "articleIds": [
@@ -164,6 +103,39 @@
      "reportedAt": "2026-10-25T15:45:54.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZZ1NiNFVHM29QbnNxeXlnNUZjaEp0c1E0OVc2T0g0QkZkQ29DeGlLdTdhdFVpUVUzOWtpUHNmNE81Zjc2bENWRHVYSkZBTXNocFdHRFpMZG5Oa2ZyUlNuTF9KZDJGMEwxNW5yTkxsT1JHRnEx?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "7fee7310774e",
+   "articleIds": [
+    "52c494abc8ef"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 리야드공항 재개 첫날…후티 공격 지속에 제한적 운항(종합2보)",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-25T17:00:45.427Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "사우디 리야드공항 재개 첫날…후티 공격 지속에 제한적 운항(종합2보)",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-25T15:45:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2ZIdHpHVk1acjdlTDdzU2lZUFNJbS1ycU9KdmZuZ2hYN2thTG5FTVFXeW5fdFRPbEh2Y0xJU2ZDN2xCQzNNZlNFV3FzUVRlVVBmdGNKbXNpcW12eTN1UzMwbGgtOFRDWllHRFMydG9KdjBnbklqOVlhWURtWVZQWA?oc=5"
     }
    ]
   },
@@ -604,6 +576,38 @@
      "reportedAt": "2026-10-25T14:52:39.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/665719/saudi-arabia/intercepted-missile-debris-injures-2-damage-buildings-and-vehicles-in-asir-region"
+    }
+   ]
+  },
+  {
+   "id": "7c8460741007",
+   "articleIds": [
+    "94d90bf97a71"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-25T15:40:32.103Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
+     "titleKo": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
+     "summary": "",
+     "reportedAt": "2026-10-25T14:49:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5"
     }
    ]
   },
@@ -3291,7 +3295,7 @@
    "titleKo": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
    "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
    "summary": "",
-   "reportedAt": "2026-10-25T15:52:18.000Z",
+   "reportedAt": "2026-10-25T14:49:03.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5"
   },
@@ -4210,20 +4214,6 @@
  "_cache": {
   "articles": [
    {
-    "id": "94d90bf97a71",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5",
-    "reportedAt": 1792943538000,
-    "assumeSaudi": false,
-    "firstSeen": 1792942832103
-   },
-   {
     "id": "4bb2b5ee284f",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4236,6 +4226,20 @@
     "reportedAt": 1792943154000,
     "assumeSaudi": false,
     "firstSeen": 1792944041663
+   },
+   {
+    "id": "52c494abc8ef",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "한국경제",
+    "title": "사우디 리야드공항 재개 첫날…후티 공격 지속에 제한적 운항(종합2보)",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2ZIdHpHVk1acjdlTDdzU2lZUFNJbS1ycU9KdmZuZ2hYN2thTG5FTVFXeW5fdFRPbEh2Y0xJU2ZDN2xCQzNNZlNFV3FzUVRlVVBmdGNKbXNpcW12eTN1UzMwbGgtOFRDWllHRFMydG9KdjBnbklqOVlhWURtWVZQWA?oc=5",
+    "reportedAt": 1792943100000,
+    "assumeSaudi": false,
+    "firstSeen": 1792947645427
    },
    {
     "id": "3f8068946d59",
@@ -4278,6 +4282,20 @@
     "reportedAt": 1792939959000,
     "assumeSaudi": false,
     "firstSeen": 1792940441355
+   },
+   {
+    "id": "94d90bf97a71",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5",
+    "reportedAt": 1792939743000,
+    "assumeSaudi": false,
+    "firstSeen": 1792942832103
    },
    {
     "id": "529a5a93d3d5",
@@ -7032,6 +7050,12 @@
     "articleIds": [
      "aba5ff86c311",
      "65f96b7383b6"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "52c494abc8ef"
     ],
     "fromRule": true
    }
