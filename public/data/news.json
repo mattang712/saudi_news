@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-25T14:10:32.319Z",
-  "lastAttemptAt": "2026-10-25T14:10:32.319Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-25T14:20:31.126Z",
+  "lastAttemptAt": "2026-10-25T14:20:31.126Z",
   "aiSummary": true,
   "summaryAt": "2026-10-25T13:00:44.376Z",
   "aiError": null,
@@ -15,12 +15,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 25
+    "count": 26
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 31
+    "count": 30
    },
    {
     "name": "AP",
@@ -35,32 +35,34 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 137
+    "count": 132
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 40
+    "count": 39
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 179
+    "count": 178
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 50
+    "count": 51
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -68,38 +70,7 @@
     "count": 47
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 남부지역 공격 관련 신변 유의",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
-    "date": "2026-10-19",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -163,6 +134,38 @@
      "reportedAt": "2026-10-25T13:55:51.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/debris-from-intercepted-houthi-missiles-injures-2-in-saudi-arabias-khamis-mushait-ahad-rufaydah-3008206"
+    }
+   ]
+  },
+  {
+   "id": "895b69b6b1b9",
+   "articleIds": [
+    "d48dc9641fec"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "요격된 후티 미사일 잔해, 사우디 카미스무셰이트·아하드 라피다에서 2명 부상",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-25T14:20:31.126Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Debris from intercepted Houthi missiles injures 2 in Saudi Arabia’s Khamis Mushait, Ahad Rafidah",
+     "titleKo": "요격된 후티 미사일 잔해, 사우디 카미스무셰이트·아하드 라피다에서 2명 부상",
+     "summary": "",
+     "reportedAt": "2026-10-25T13:55:51.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/debris-from-intercepted-houthi-missiles-injures-2-in-saudi-arabias-khamis-mushait-ahad-rafidah-3008206"
     }
    ]
   },
@@ -317,9 +320,9 @@
     "518db3667e27",
     "dc5c1906e86f",
     "be4da037d3f5",
-    "77c035b26602",
     "a41a01bcb8a0",
-    "5868531c2ef1"
+    "5868531c2ef1",
+    "77c035b26602"
    ],
    "type": "airport",
    "sev": "mid",
@@ -687,9 +690,9 @@
      "title": "후티 반군 \"사우디 리야드공항·석유 시설 등 타격\"",
      "titleKo": null,
      "summary": "후티가 리야드 공항·석유 시설 등을 타격했다고 주장했다고 보도했어요.",
-     "reportedAt": "2026-10-25T00:37:07.000Z",
+     "reportedAt": "2026-10-25T00:37:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1icEdWZnJmN1luR3JMczVRTXlOUUFUaUU4UDZ4bG1EMW5xdnhFaWN3Y2dCcW90QzJfRWgweEZBSVpGRTdCTjFkZlcwLTNLSnNhV0hjNG9ZUlVoRTdLME1xaVEyS0lqMWdqX3Nscm9mQy1jaHpm?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56ZjJIbWpJTl9LUkRlSm9WWjdHMmNUVG11OUdjZjBYOU9UR2tGeUJQQmRfMTdWb2FscURzWnNNdGQxS0RhOWVOTlJSQnFxVzJ5WFlZS3B1QkxCUGNBRUNLdHh2SW9saUk?oc=5"
     },
     {
      "outlet": "한국일보",
@@ -862,16 +865,6 @@
      "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss"
     },
     {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages - Al Jazeera",
-     "titleKo": "후티와 교전 격화 속 사우디가 미사일·드론을 요격했다고 보도",
-     "summary": "전투가 계속되는 가운데 사우디가 미사일과 드론을 요격했다고 알자지라가 보도했어요.",
-     "reportedAt": "2026-10-25T11:50:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdU4wekRKZktSRXoyYnpKN1ZfX2tDenFoOUJXVmt3T0V6QVRJT05RZXgwbTlPVTBkLXhScldIRnVqeVJsTGpHTUludUNGOVJOMktPM2Z1cjgtOThDLWxfZzNlaTUwdjRsWlRiXzFNSzRpWEh0a2JDcG5BSjdqSXloVXZKVWY0Wmx3cWFLczU5VHBkdEkwRThJZjJTQnlBUVg3bFY3M09wNWhJamJpOG9nZnBwSkhHM0RjekR1dE03cDYwRWtWRktRMkFNVUJHYU00?oc=5"
-    },
-    {
      "outlet": "AP",
      "cat": "wire",
      "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist, and other Mideast news",
@@ -890,38 +883,16 @@
      "reportedAt": "2026-10-25T12:49:15.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XejE0RHFvVkE4N0txWUktdjNzMk0yVFZmRGQtbDNGd2h2RktuVENjV0l2WjljMElONExjU0xvdjB4UlU2X2J3ampRNi1HNV90a2doUUhB?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "92dedc8e9e52",
-   "articleIds": [
-    "36a3f3813cef"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "이집트는 왜 예멘 분쟁 개입을 그렇게 경계하나?",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-25T14:10:32.319Z",
-   "aiNote": null,
-   "sources": [
+    },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
-     "title": "Why is Egypt so wary of getting involved in Yemen’s conflict?",
-     "titleKo": "이집트는 왜 예멘 분쟁 개입을 그렇게 경계하나?",
-     "summary": "",
-     "reportedAt": "2026-10-25T07:59:38.000Z",
+     "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages - Al Jazeera",
+     "titleKo": "후티와 교전 격화 속 사우디가 미사일·드론을 요격했다고 보도",
+     "summary": "전투가 계속되는 가운데 사우디가 미사일과 드론을 요격했다고 알자지라가 보도했어요.",
+     "reportedAt": "2026-10-25T12:52:59.000Z",
      "dateOnly": false,
-     "url": "https://www.aljazeera.com/news-analysis/2026/10/25/why-is-egypt-so-wary-of-getting-involved-in-yemens-conflict?traffic_source=rss"
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdU4wekRKZktSRXoyYnpKN1ZfX2tDenFoOUJXVmt3T0V6QVRJT05RZXgwbTlPVTBkLXhScldIRnVqeVJsTGpHTUludUNGOVJOMktPM2Z1cjgtOThDLWxfZzNlaTUwdjRsWlRiXzFNSzRpWEh0a2JDcG5BSjdqSXloVXZKVWY0Wmx3cWFLczU5VHBkdEkwRThJZjJTQnlBUVg3bFY3M09wNWhJamJpOG9nZnBwSkhHM0RjekR1dE03cDYwRWtWRktRMkFNVUJHYU00?oc=5"
     }
    ]
   },
@@ -3172,7 +3143,7 @@
    "titleKo": "후티와 교전 격화 속 사우디가 미사일·드론을 요격했다고 보도",
    "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages - Al Jazeera",
    "summary": "전투가 계속되는 가운데 사우디가 미사일과 드론을 요격했다고 알자지라가 보도했어요.",
-   "reportedAt": "2026-10-25T11:50:00.000Z",
+   "reportedAt": "2026-10-25T12:52:59.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdU4wekRKZktSRXoyYnpKN1ZfX2tDenFoOUJXVmt3T0V6QVRJT05RZXgwbTlPVTBkLXhScldIRnVqeVJsTGpHTUludUNGOVJOMktPM2Z1cjgtOThDLWxfZzNlaTUwdjRsWlRiXzFNSzRpWEh0a2JDcG5BSjdqSXloVXZKVWY0Wmx3cWFLczU5VHBkdEkwRThJZjJTQnlBUVg3bFY3M09wNWhJamJpOG9nZnBwSkhHM0RjekR1dE03cDYwRWtWRktRMkFNVUJHYU00?oc=5"
   },
@@ -3184,7 +3155,7 @@
    "type": "missile",
    "sev": "high",
    "regions": [
-    "riyadh"
+    "all"
    ],
    "inferred": false,
    "titleKo": "사우디가 리야드 향 드론·미사일 요격, 남부에선 10발 요격",
@@ -3193,24 +3164,6 @@
    "reportedAt": "2026-10-25T10:42:51.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss"
-  },
-  {
-   "id": "36a3f3813cef",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "이집트는 왜 예멘 분쟁 개입을 그렇게 경계하나?",
-   "title": "Why is Egypt so wary of getting involved in Yemen’s conflict?",
-   "summary": "",
-   "reportedAt": "2026-10-25T07:59:38.000Z",
-   "dateOnly": false,
-   "url": "https://www.aljazeera.com/news-analysis/2026/10/25/why-is-egypt-so-wary-of-getting-involved-in-yemens-conflict?traffic_source=rss"
   },
   {
    "id": "e19225c3489c",
@@ -4128,6 +4081,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "d48dc9641fec",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Debris from intercepted Houthi missiles injures 2 in Saudi Arabia’s Khamis Mushait, Ahad Rafidah",
+    "snippet": "RIYADH: Debris from two intercepted ballistic missiles launched by Yemen’s Iran-backed Houthis injured two people and damaged homes and vehicles in Saudi Arabia on Sunday, authorities said. A Saudi citizen and an Asian expatriate resident were injured when debris fell in Khamis Mushait and Ahad Rafidah, a Saudi Civil Defense spokesperson said. Three residential buildings and seven vehicles were da",
+    "url": "https://www.arabnews.com/saudi-arabia/debris-from-intercepted-houthi-missiles-injures-2-in-saudi-arabias-khamis-mushait-ahad-rafidah-3008206",
+    "reportedAt": 1792936551000,
+    "assumeSaudi": false,
+    "firstSeen": 1792938031126
+   },
+   {
     "id": "8e8f7d45c494",
     "feed": "Arab News",
     "cat": "local",
@@ -4198,6 +4165,20 @@
     "firstSeen": 1792936227774
    },
    {
+    "id": "77c035b26602",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdU4wekRKZktSRXoyYnpKN1ZfX2tDenFoOUJXVmt3T0V6QVRJT05RZXgwbTlPVTBkLXhScldIRnVqeVJsTGpHTUludUNGOVJOMktPM2Z1cjgtOThDLWxfZzNlaTUwdjRsWlRiXzFNSzRpWEh0a2JDcG5BSjdqSXloVXZKVWY0Wmx3cWFLczU5VHBkdEkwRThJZjJTQnlBUVg3bFY3M09wNWhJamJpOG9nZnBwSkhHM0RjekR1dE03cDYwRWtWRktRMkFNVUJHYU00?oc=5",
+    "reportedAt": 1792932779000,
+    "assumeSaudi": false,
+    "firstSeen": 1792932030311
+   },
+   {
     "id": "5868531c2ef1",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4226,20 +4207,6 @@
     "firstSeen": 1792914027261
    },
    {
-    "id": "77c035b26602",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdU4wekRKZktSRXoyYnpKN1ZfX2tDenFoOUJXVmt3T0V6QVRJT05RZXgwbTlPVTBkLXhScldIRnVqeVJsTGpHTUludUNGOVJOMktPM2Z1cjgtOThDLWxfZzNlaTUwdjRsWlRiXzFNSzRpWEh0a2JDcG5BSjdqSXloVXZKVWY0Wmx3cWFLczU5VHBkdEkwRThJZjJTQnlBUVg3bFY3M09wNWhJamJpOG9nZnBwSkhHM0RjekR1dE03cDYwRWtWRktRMkFNVUJHYU00?oc=5",
-    "reportedAt": 1792929000000,
-    "assumeSaudi": false,
-    "firstSeen": 1792932030311
-   },
-   {
     "id": "be4da037d3f5",
     "feed": "Al Jazeera",
     "cat": "local",
@@ -4247,7 +4214,7 @@
     "lang": "en",
     "outlet": "Al Jazeera",
     "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
-    "snippet": "Saudi-led coalition says intercepted drone, missile launched towards Riyadh and 10 missiles targeting southern region.",
+    "snippet": "Saudi Civil Defence says the interception of Houthi ballistic missiles caused two injuries in the country&#039;s south.",
     "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
     "reportedAt": 1792924971000,
     "assumeSaudi": false,
@@ -4294,20 +4261,6 @@
     "reportedAt": 1792916092000,
     "assumeSaudi": false,
     "firstSeen": 1792916842297
-   },
-   {
-    "id": "36a3f3813cef",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Why is Egypt so wary of getting involved in Yemen’s conflict?",
-    "snippet": "As Egypt considers defending Saudi Arabia against Houthi attacks, memories of its war in Yemen in the 1960s loom large.",
-    "url": "https://www.aljazeera.com/news-analysis/2026/10/25/why-is-egypt-so-wary-of-getting-involved-in-yemens-conflict?traffic_source=rss",
-    "reportedAt": 1792915178000,
-    "assumeSaudi": false,
-    "firstSeen": 1792937432319
    },
    {
     "id": "e19225c3489c",
@@ -4542,8 +4495,8 @@
     "outlet": "연합뉴스",
     "title": "후티 반군 \"사우디 리야드공항·석유 시설 등 타격\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1icEdWZnJmN1luR3JMczVRTXlOUUFUaUU4UDZ4bG1EMW5xdnhFaWN3Y2dCcW90QzJfRWgweEZBSVpGRTdCTjFkZlcwLTNLSnNhV0hjNG9ZUlVoRTdLME1xaVEyS0lqMWdqX3Nscm9mQy1jaHpm?oc=5",
-    "reportedAt": 1792888627000,
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56ZjJIbWpJTl9LUkRlSm9WWjdHMmNUVG11OUdjZjBYOU9UR2tGeUJQQmRfMTdWb2FscURzWnNNdGQxS0RhOWVOTlJSQnFxVzJ5WFlZS3B1QkxCUGNBRUNLdHh2SW9saUk?oc=5",
+    "reportedAt": 1792888620000,
     "assumeSaudi": false,
     "firstSeen": 1792890042010
    },
@@ -6439,7 +6392,7 @@
    "909f5df8ae25": "후티 미사일 요격 잔해, 사우디 카미스무샤이트 아하드 루파이다에서 2명 부상",
    "42d934f33f5c": "사우디 방공, 메카 인근에서 후티의 집중 공격 요격",
    "8e8f7d45c494": "요격된 후티 미사일 잔해로 사우디 카미스 무샤이트에서 2명 부상, 아하드 루파이다",
-   "36a3f3813cef": "이집트는 왜 예멘 분쟁 개입을 그렇게 경계하나?"
+   "d48dc9641fec": "요격된 후티 미사일 잔해, 사우디 카미스무셰이트·아하드 라피다에서 2명 부상"
   },
   "aiClusters": [
    {
@@ -6930,7 +6883,7 @@
    },
    {
     "articleIds": [
-     "36a3f3813cef"
+     "d48dc9641fec"
     ],
     "fromRule": true
    }
