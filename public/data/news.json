@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-25T17:09:10.889Z",
-  "lastAttemptAt": "2026-10-25T17:09:10.889Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-25T17:10:31.424Z",
+  "lastAttemptAt": "2026-10-25T17:10:31.424Z",
   "aiSummary": true,
   "summaryAt": "2026-10-25T15:20:33.243Z",
   "aiError": null,
@@ -14,33 +14,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 26
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 65
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 16
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 6
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 121
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 36
+    "count": 29,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,7 +56,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 54
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -64,8 +71,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 55
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -102,6 +110,38 @@
   ]
  },
  "events": [
+  {
+   "id": "5ac3a5646b0b",
+   "articleIds": [
+    "de6fc8f06ff4"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "레바논, 내무장관 통화 중 사우디아라비아에 연대 표명",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-25T17:10:31.424Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Lebanon voices solidarity with Saudi Arabia during call between interior ministers",
+     "titleKo": "레바논, 내무장관 통화 중 사우디아라비아에 연대 표명",
+     "summary": "",
+     "reportedAt": "2026-10-25T16:55:25.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665721/saudi-arabia/lebanon-voices-solidarity-with-saudi-arabia-during-call-between-interior-ministers"
+    }
+   ]
+  },
   {
    "id": "7c8460741007",
    "articleIds": [
@@ -4243,6 +4283,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "de6fc8f06ff4",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Lebanon voices solidarity with Saudi Arabia during call between interior ministers",
+    "snippet": "RIYADH — Minister of Interior Prince Abdulaziz bin Saud bin Naif received on Sunday a phone call from Lebanese Minister of Interior and Municipalities Ahmad Al-Hajjar. During the call, Al-Hajjar condemned the blatant attacks targeting Saudi Arabia by the terrorist Houthi militia. He expressed Lebanon’s solidarity with Saudi Arabia. The ministers discussed the latest developments in the region. The",
+    "url": "https://saudigazette.com.sa/article/665721/saudi-arabia/lebanon-voices-solidarity-with-saudi-arabia-during-call-between-interior-ministers",
+    "reportedAt": 1792947325000,
+    "assumeSaudi": false,
+    "firstSeen": 1792948231424
+   },
+   {
     "id": "94d90bf97a71",
     "feed": "Al Jazeera",
     "cat": "local",
@@ -6511,7 +6565,8 @@
    "826041f59679": "리야드 공항 재개 첫날 폭발음·미사일 격추",
    "1d0eb66bce44": "리야드 공항 2주 만에 재개하자 폭발음 발생",
    "94d90bf97a71": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
-   "13ed0714374a": "사우디, 후티 위협 재개에도 리야드 공항 부분 재운항이라고 밝혀"
+   "13ed0714374a": "사우디, 후티 위협 재개에도 리야드 공항 부분 재운항이라고 밝혀",
+   "de6fc8f06ff4": "레바논, 내무장관 통화 중 사우디아라비아에 연대 표명"
   },
   "aiClusters": [
    {
@@ -7085,6 +7140,12 @@
    {
     "articleIds": [
      "52c494abc8ef"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "de6fc8f06ff4"
     ],
     "fromRule": true
    }
