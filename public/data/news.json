@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-25T17:00:45.427Z",
-  "lastAttemptAt": "2026-10-25T17:00:45.427Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-25T17:09:10.889Z",
+  "lastAttemptAt": "2026-10-25T17:09:10.889Z",
   "aiSummary": true,
   "summaryAt": "2026-10-25T15:20:33.243Z",
   "aiError": null,
@@ -15,17 +15,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 25
+    "count": 26
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 62
+    "count": 65
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 17
+    "count": 16
    },
    {
     "name": "AFP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 123
+    "count": 121
    },
    {
     "name": "Saudi Gazette",
@@ -45,34 +45,95 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 170
+    "count": 169
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 55
+    "count": 54
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 2
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 53
+    "count": 55
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "7c8460741007",
+   "articleIds": [
+    "94d90bf97a71"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-25T15:40:32.103Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
+     "titleKo": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
+     "summary": "",
+     "reportedAt": "2026-10-25T15:52:18.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5"
+    }
+   ]
+  },
   {
    "id": "9860ab5a2230",
    "articleIds": [
@@ -580,38 +641,6 @@
    ]
   },
   {
-   "id": "7c8460741007",
-   "articleIds": [
-    "94d90bf97a71"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-25T15:40:32.103Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
-     "titleKo": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
-     "summary": "",
-     "reportedAt": "2026-10-25T14:49:03.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5"
-    }
-   ]
-  },
-  {
    "id": "c2ee73fa9a96",
    "articleIds": [
     "42d934f33f5c"
@@ -971,7 +1000,7 @@
      "summary": "사우디와 후티가 미사일·공습으로 맞대응하고 충돌이 격화됐다고 보도됐어요.",
      "reportedAt": "2026-10-24T17:50:46.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04NDRmV3hBaGdZWWp5d25pUWJoZ2plOVA2RG9LVnZvM0p0akpfOGFPb0ZNRFR0YzdrM3NWZHFCWVVkd29qSWtKX0ZCdGEyVGFnOXoxZUsyeThONnVMZGJPT9IBeEFVX3lxTE5adTFTazBvMHl4dmRxYWdpOUp3aHVsaUpINnluVklPeUZ4Rko5NTJILTV6dGNTclVIUG96bzdPUWh2d2dNYlpNUUZiVEIxdVYwQUJ4ZDBmWlFYdmhJWnNVYm5Jb0EyWS1vMTVrVERRbWhfTFFYczljWQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5adTFTazBvMHl4dmRxYWdpOUp3aHVsaUpINnluVklPeUZ4Rko5NTJILTV6dGNTclVIUG96bzdPUWh2d2dNYlpNUUZiVEIxdVYwQUJ4ZDBmWlFYdmhJWnNVYm5Jb0EyWS1vMTVrVERRbWhfTFFYczljWdIBeEFVX3lxTE5adTFTazBvMHl4dmRxYWdpOUp3aHVsaUpINnluVklPeUZ4Rko5NTJILTV6dGNTclVIUG96bzdPUWh2d2dNYlpNUUZiVEIxdVYwQUJ4ZDBmWlFYdmhJWnNVYm5Jb0EyWS1vMTVrVERRbWhfTFFYczljWQ?oc=5"
     },
     {
      "outlet": "KBS",
@@ -1153,7 +1182,7 @@
      "summary": "후티가 리야드 공항·송유관 등을 타격했다고 종합 보도됐어요.",
      "reportedAt": "2026-10-24T19:43:40.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oQnpheWRkNFFCSnBGaXhEazAxOWdoSVFkWWt3eXJMR1BnRU4xT0FMWnZDc2FwYmVuM1Voa3BROTlNV0FnWlhMUU1STnEyLVh4WWlSVkpwaVNkbnJmYTlpWNIBYEFVX3lxTE5oQnpheWRkNFFCSnBGaXhEazAxOWdoSVFkWWt3eXJMR1BnRU4xT0FMWnZDc2FwYmVuM1Voa3BROTlNV0FnWlhMUU1STnEyLVh4WWlSVkpwaVNkbnJmYTlpWA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KNVpZY3Fkemdzci1ENnF4Y3ZySFdnMTFTRGk0RXZTSE0wSVA0OXVhNHpTTklySHdpcGJWTkdoTl9fdDFHbUNLUHpoeG9CaV9oSHdITkc2S2duZEXSAWBBVV95cUxOaEJ6YXlkZDRRQkpwRml4RGswMTlnaElRZFlrd3lyTEdQZ0VOMU9BTFp2Q3NhcGJlbjNVaGtwUTk5TVdBZ1pYTFFNUk5xMi1YeFlpUlZKcGlTZG5yZmE5aVg?oc=5"
     }
    ]
   },
@@ -3295,7 +3324,7 @@
    "titleKo": "사우디 방공, 메카 인근에서 후티의 포격 요격 - Al Jazeera",
    "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
    "summary": "",
-   "reportedAt": "2026-10-25T14:49:03.000Z",
+   "reportedAt": "2026-10-25T15:52:18.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5"
   },
@@ -4214,6 +4243,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "94d90bf97a71",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5",
+    "reportedAt": 1792943538000,
+    "assumeSaudi": false,
+    "firstSeen": 1792942832103
+   },
+   {
     "id": "4bb2b5ee284f",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4282,20 +4325,6 @@
     "reportedAt": 1792939959000,
     "assumeSaudi": false,
     "firstSeen": 1792940441355
-   },
-   {
-    "id": "94d90bf97a71",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3Y1Vk4yMGVVNTg4THAtWFVjVTRjQlBwLTVGWnJLSzBtZW1VLWRJMHpvenVUU1FaOEl3bTlGaDk3SlZFUW1xTGFnWVo5Y1hTdkFCNWJpakcwN3BVMXRUeWRtdEN6SU15bDg4S1FZTGVIOFYxbllzVFJmaTlnN3p0NmF3OTItMzR5bVNaMTFWbldKaFc1R3VXbnFwVkRKLXNKc2loQXpUNjhTN1M4eE9xSDlNMkR2Zw?oc=5",
-    "reportedAt": 1792939743000,
-    "assumeSaudi": false,
-    "firstSeen": 1792942832103
    },
    {
     "id": "529a5a93d3d5",
@@ -4894,7 +4923,7 @@
     "outlet": "연합뉴스",
     "title": "후티 반군 \"사우디 수도 리야드 공항·동서 송유관 등 타격\"(종합)",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oQnpheWRkNFFCSnBGaXhEazAxOWdoSVFkWWt3eXJMR1BnRU4xT0FMWnZDc2FwYmVuM1Voa3BROTlNV0FnWlhMUU1STnEyLVh4WWlSVkpwaVNkbnJmYTlpWNIBYEFVX3lxTE5oQnpheWRkNFFCSnBGaXhEazAxOWdoSVFkWWt3eXJMR1BnRU4xT0FMWnZDc2FwYmVuM1Voa3BROTlNV0FnWlhMUU1STnEyLVh4WWlSVkpwaVNkbnJmYTlpWA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KNVpZY3Fkemdzci1ENnF4Y3ZySFdnMTFTRGk0RXZTSE0wSVA0OXVhNHpTTklySHdpcGJWTkdoTl9fdDFHbUNLUHpoeG9CaV9oSHdITkc2S2duZEXSAWBBVV95cUxOaEJ6YXlkZDRRQkpwRml4RGswMTlnaElRZFlrd3lyTEdQZ0VOMU9BTFp2Q3NhcGJlbjNVaGtwUTk5TVdBZ1pYTFFNUk5xMi1YeFlpUlZKcGlTZG5yZmE5aVg?oc=5",
     "reportedAt": 1792871020000,
     "assumeSaudi": false,
     "firstSeen": 1792872631406
@@ -4992,7 +5021,7 @@
     "outlet": "뉴시스",
     "title": "사우디·예멘 후티, 미사일·공습 맞대응…충돌 격화",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04NDRmV3hBaGdZWWp5d25pUWJoZ2plOVA2RG9LVnZvM0p0akpfOGFPb0ZNRFR0YzdrM3NWZHFCWVVkd29qSWtKX0ZCdGEyVGFnOXoxZUsyeThONnVMZGJPT9IBeEFVX3lxTE5adTFTazBvMHl4dmRxYWdpOUp3aHVsaUpINnluVklPeUZ4Rko5NTJILTV6dGNTclVIUG96bzdPUWh2d2dNYlpNUUZiVEIxdVYwQUJ4ZDBmWlFYdmhJWnNVYm5Jb0EyWS1vMTVrVERRbWhfTFFYczljWQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5adTFTazBvMHl4dmRxYWdpOUp3aHVsaUpINnluVklPeUZ4Rko5NTJILTV6dGNTclVIUG96bzdPUWh2d2dNYlpNUUZiVEIxdVYwQUJ4ZDBmWlFYdmhJWnNVYm5Jb0EyWS1vMTVrVERRbWhfTFFYczljWdIBeEFVX3lxTE5adTFTazBvMHl4dmRxYWdpOUp3aHVsaUpINnluVklPeUZ4Rko5NTJILTV6dGNTclVIUG96bzdPUWh2d2dNYlpNUUZiVEIxdVYwQUJ4ZDBmWlFYdmhJWnNVYm5Jb0EyWS1vMTVrVERRbWhfTFFYczljWQ?oc=5",
     "reportedAt": 1792864246000,
     "assumeSaudi": false,
     "firstSeen": 1792865427243
