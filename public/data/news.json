@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-26T16:00:49.185Z",
-  "lastAttemptAt": "2026-10-26T16:00:49.185Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-26T16:03:32.360Z",
+  "lastAttemptAt": "2026-10-26T16:03:32.360Z",
   "aiSummary": true,
   "summaryAt": "2026-10-26T16:00:49.185Z",
   "aiError": null,
@@ -14,33 +14,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 27
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 141
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 30
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 16
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 110
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 43
+    "count": 40,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,7 +56,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 65
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -64,8 +71,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 60
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -102,6 +110,38 @@
   ]
  },
  "events": [
+  {
+   "id": "30ae39049bb3",
+   "articleIds": [
+    "c8d6d15b1d7f"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "이집트 의회, 사우디아라비아에 군사 지원 승인",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-26T16:03:32.360Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Egyptian parliament authorises military aid for Saudi Arabia",
+     "titleKo": "이집트 의회, 사우디아라비아에 군사 지원 승인",
+     "summary": "",
+     "reportedAt": "2026-10-26T15:41:29.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss"
+    }
+   ]
+  },
   {
    "id": "43c79ff0458c",
    "articleIds": [
@@ -519,6 +559,38 @@
    ]
   },
   {
+   "id": "64b1493858c4",
+   "articleIds": [
+    "c76662fa5fac"
+   ],
+   "type": "fire",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디, 루시드 전기차 리콜 발표",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-26T13:30:38.480Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi Arabia recalls 2,888 Lucid Air vehicles over fire, accident risks",
+     "titleKo": "사우디, 루시드 전기차 리콜 발표",
+     "summary": "해당 기사에 대한 한국어 요약이 이미 제공되어 있어 추가 요약이 없습니다.",
+     "reportedAt": "2026-10-26T13:18:22.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665745/saudi-arabia/saudi-arabia-recalls-2888-lucid-air-vehicles-over-fire-accident-risks"
+    }
+   ]
+  },
+  {
    "id": "04c31c37bc02",
    "articleIds": [
     "5ff0cbf9b6a2"
@@ -709,6 +781,38 @@
      "reportedAt": "2026-10-26T09:52:58.000Z",
      "dateOnly": false,
      "url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss"
+    }
+   ]
+  },
+  {
+   "id": "e46cc94e2f3e",
+   "articleIds": [
+    "a98ce2294aa6"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 사나 발사대 파괴 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-26T07:10:32.745Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil drops from near six-month highs on hopes Iran war hostilities to ease",
+     "titleKo": "연합군, 사나 발사대 파괴 보도",
+     "summary": "해당 기사에 대한 한국어 요약이 이미 제공되어 있어 추가 요약이 없습니다.",
+     "reportedAt": "2026-10-26T07:04:10.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/energy/oil-drops-from-near-six-month-highs-on-hopes-iran-war-hostilities-to-ease-3008294"
     }
    ]
   },
@@ -3760,6 +3864,24 @@
  ],
  "timeline": [
   {
+   "id": "c8d6d15b1d7f",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "이집트 의회, 사우디아라비아에 군사 지원 승인",
+   "title": "Egyptian parliament authorises military aid for Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-26T15:41:29.000Z",
+   "dateOnly": false,
+   "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss"
+  },
+  {
    "id": "594d6ff8f7a7",
    "outlet": "Al Jazeera",
    "official": false,
@@ -4924,6 +5046,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "c8d6d15b1d7f",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Egyptian parliament authorises military aid for Saudi Arabia",
+    "snippet": "Legislators approve military support amid Houthi attacks on Saudi Arabia, but Cairo has ruled out strikes on Yemen.",
+    "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
+    "reportedAt": 1793029289000,
+    "assumeSaudi": false,
+    "firstSeen": 1793030612360
+   },
    {
     "id": "1c76bcd9f357",
     "feed": "AP",
@@ -7390,7 +7526,8 @@
    "2110139be7fa": "이집트 의회, 후티 공격에 맞서 사우디아라비아 방어 위한 군사 지원 승인",
    "594d6ff8f7a7": "메카 방위동맹 회원국들, 이란-미·예멘 긴장 완화 위해 테헤란 방문",
    "bb77e92ddf1e": "후티 공격이 이어지는 가운데 사우디 방위 협정 국가들, 이란에서 회담 개최",
-   "4d382d27e6fd": "후티가 요격된 미사일이 사우디 아라비아 도시에서 피해를 일으켜 - Al Jazeera"
+   "4d382d27e6fd": "후티가 요격된 미사일이 사우디 아라비아 도시에서 피해를 일으켜 - Al Jazeera",
+   "c8d6d15b1d7f": "이집트 의회, 사우디아라비아에 군사 지원 승인"
   },
   "aiClusters": [
    {
@@ -8034,6 +8171,24 @@
    {
     "articleIds": [
      "1b4f0ff3a18f"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c8d6d15b1d7f"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "c76662fa5fac"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a98ce2294aa6"
     ],
     "fromRule": true
    }
