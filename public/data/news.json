@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-26T21:54:55.676Z",
-  "lastAttemptAt": "2026-10-26T21:54:55.676Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-26T22:00:43.224Z",
+  "lastAttemptAt": "2026-10-26T22:00:43.224Z",
   "aiSummary": true,
   "summaryAt": "2026-10-26T20:51:05.581Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 29
+    "count": 33
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 91
+    "count": 88
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 30
+    "count": 31
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 94
+    "count": 96
    },
    {
     "name": "Saudi Gazette",
@@ -55,13 +55,15 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 6
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,38 +71,7 @@
     "count": 78
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
-    "date": "2026-10-26",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 겨냥 공격 빈발 관련 신변 유의 (10.25)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.25)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -579,8 +550,8 @@
     "4f0817df4bc4",
     "400ed28b7bac",
     "8602e8feeab2",
-    "726dc28fdbfa",
     "fd3cedf74171",
+    "726dc28fdbfa",
     "eb6b432ab4a4",
     "5ff0cbf9b6a2"
    ],
@@ -662,6 +633,16 @@
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xd3BrcmtEMHZpdFdld0hHdFZiNWlKaTBWQ1JUN0dkVEVYV0lEenU1N1ppNnotNTVhMXVTaFVYQmJiTE9Pajg3ZDhTSmZjanhjY1RyWHhheUdRTjA?oc=5"
     },
     {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Houthis say attacked Riyadh airport hours after flights resume",
+     "titleKo": "후티, 항공편 재개 몇 시간 만에 리야드 공항 공격했다고 주장",
+     "summary": "후티는 항공편이 재개된 지 몇 시간 만에 리야드 공항을 공격했다고 주장했어요.",
+     "reportedAt": "2026-10-26T01:08:11.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFlyQ1ZrWENVbkc5TVRiaEdPRmNyemRjMXlPWHRPTU0yYXpzUTRzSmJHdW5KaTgtbEFXeWRHMnJuQUhtU0hDTkw5STFWbUExX3pjMjBmR3QtVVhFUHl4bmtPcEdncmtKRXpsZnZzLWNlRTc3SW5XSlBBZGZ2el9TQ0N6WGFWRHhTWEJyNFlR?oc=5"
+    },
+    {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Coalition: Air Defenses Intercept, Destroy Ballistic Missile Launched by Terrorist Houthi Militia Toward Riyadh",
@@ -670,16 +651,6 @@
      "reportedAt": "2026-10-26T01:51:25.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ZcXpBM3cyMWlUX2NKSnBpclNLbkREVU5LR0h1UmhkbVlfX2hLMno3b0JmQm9ELXg4cmprM3RKbDJwQ2MzZ3VBWkN3?oc=5"
-    },
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Houthis say attacked Riyadh airport hours after flights resume",
-     "titleKo": "후티, 항공편 재개 몇 시간 만에 리야드 공항 공격했다고 주장",
-     "summary": "후티는 항공편이 재개된 지 몇 시간 만에 리야드 공항을 공격했다고 주장했어요.",
-     "reportedAt": "2026-10-26T02:10:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56Qmg3LXpsSFV5TW02S0E5U0l6cTNjbS1hRnNWS21FZVJHV24xS21IU3VUWlI2emFKT1hudFo1T0ZYZ0hRcTJKWkNtdw?oc=5"
     },
     {
      "outlet": "뉴스1",
@@ -729,9 +700,9 @@
      "title": "Houthis attack Saudi Arabia before high-stakes talks in Tehran",
      "titleKo": "후티, 테헤란 고위급 회담을 앞두고 사우디아라비아 공격",
      "summary": "해당 기사에 대한 한국어 요약이 이미 제공되어 있어 추가 요약이 없습니다.",
-     "reportedAt": "2026-10-26T11:40:15.000Z",
+     "reportedAt": "2026-10-26T11:40:13.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yZllHTU5vc25MVzFCa2RfMnZRd0VEWU9VSDlaVUtVdC1laS1YTTZUbEpjcTNoNGZLUGhHaWhEODhyNWs0N0c2M0VXcw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LdUFXNHM4S3ZJazVaeFdIY2ZIejZ2N3o2Z2Ric3hYXzZCbV9uODBsSUJhN2NRVFJVbnYwR3ZKLVAydWlXX3hHS0dIZw?oc=5"
     }
    ]
   },
@@ -5236,8 +5207,8 @@
     "outlet": "AFP",
     "title": "Houthis attack Saudi Arabia before high-stakes talks in Tehran",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yZllHTU5vc25MVzFCa2RfMnZRd0VEWU9VSDlaVUtVdC1laS1YTTZUbEpjcTNoNGZLUGhHaWhEODhyNWs0N0c2M0VXcw?oc=5",
-    "reportedAt": 1793014815000,
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LdUFXNHM4S3ZJazVaeFdIY2ZIejZ2N3o2Z2Ric3hYXzZCbV9uODBsSUJhN2NRVFJVbnYwR3ZKLVAydWlXX3hHS0dIZw?oc=5",
+    "reportedAt": 1793014813000,
     "assumeSaudi": false,
     "firstSeen": 1793012447720
    },
@@ -5522,20 +5493,6 @@
     "firstSeen": 1792984229946
    },
    {
-    "id": "fd3cedf74171",
-    "feed": "AFP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AFP",
-    "title": "Houthis say attacked Riyadh airport hours after flights resume",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56Qmg3LXpsSFV5TW02S0E5U0l6cTNjbS1hRnNWS21FZVJHV24xS21IU3VUWlI2emFKT1hudFo1T0ZYZ0hRcTJKWkNtdw?oc=5",
-    "reportedAt": 1792980649000,
-    "assumeSaudi": false,
-    "firstSeen": 1792964426367
-   },
-   {
     "id": "726dc28fdbfa",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -5548,6 +5505,20 @@
     "reportedAt": 1792979485000,
     "assumeSaudi": false,
     "firstSeen": 1792900227664
+   },
+   {
+    "id": "fd3cedf74171",
+    "feed": "AFP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AFP",
+    "title": "Houthis say attacked Riyadh airport hours after flights resume",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFlyQ1ZrWENVbkc5TVRiaEdPRmNyemRjMXlPWHRPTU0yYXpzUTRzSmJHdW5KaTgtbEFXeWRHMnJuQUhtU0hDTkw5STFWbUExX3pjMjBmR3QtVVhFUHl4bmtPcEdncmtKRXpsZnZzLWNlRTc3SW5XSlBBZGZ2el9TQ0N6WGFWRHhTWEJyNFlR?oc=5",
+    "reportedAt": 1792976891000,
+    "assumeSaudi": false,
+    "firstSeen": 1792964426367
    },
    {
     "id": "8602e8feeab2",
