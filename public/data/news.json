@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-26T05:00:43.413Z",
-  "lastAttemptAt": "2026-10-26T05:00:43.413Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-26T05:10:29.137Z",
+  "lastAttemptAt": "2026-10-26T05:10:29.137Z",
   "aiSummary": true,
   "summaryAt": "2026-10-26T04:00:42.599Z",
   "aiError": null,
@@ -15,12 +15,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 28
+    "count": 31
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 81
+    "count": 82
    },
    {
     "name": "AP",
@@ -30,7 +30,7 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 9
+    "count": 10
    },
    {
     "name": "Arab News",
@@ -40,7 +40,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 36
+    "count": 35
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,58 +50,62 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 53
+    "count": 55
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 67
+    "count": 63
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "29386b6c0bf6",
+   "articleIds": [
+    "eb6b432ab4a4"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 연합군 \"후티 탄도미사일 요격\"…후티 \"리야드 공항 타격\"",
+   "titleAuto": false,
+   "regions": [
+    "riyadh",
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-26T05:10:29.137Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "사우디 연합군 \"후티 탄도미사일 요격\"…후티 \"리야드 공항 타격\"",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-10-26T04:58:28.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zbVdmXzNROElNYk9ReU1ZOWRNM2hpWjhzOEwyZ0xzZVZwY3NDQmZMdG1RTjdPQmpQeW1mNkxwWkc2bnhnTDN2TjZsc3pfZjNDaWhOMG9pSkJnMk5jSU0yREhn?oc=5"
+    }
+   ]
+  },
   {
    "id": "76fd1cad87e5",
    "articleIds": [
@@ -689,9 +693,9 @@
      "title": "Houthis say attacked Riyadh airport hours after flights resume",
      "titleKo": "후티, 항공편 재개 몇 시간 후 리야드공항 공격했다고 주장",
      "summary": "후티가 항공편이 재개된 몇 시간 후 리야드공항을 공격했다고 주장했다고 AFP가 보도했어요.",
-     "reportedAt": "2026-10-26T01:08:11.000Z",
+     "reportedAt": "2026-10-26T02:10:50.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFlyQ1ZrWENVbkc5TVRiaEdPRmNyemRjMXlPWHRPTU0yYXpzUTRzSmJHdW5KaTgtbEFXeWRHMnJuQUhtU0hDTkw5STFWbUExX3pjMjBmR3QtVVhFUHl4bmtPcEdncmtKRXpsZnZzLWNlRTc3SW5XSlBBZGZ2el9TQ0N6WGFWRHhTWEJyNFlR?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50clByZjY0VlFNNmEtVjZpdnB0b0g2ei1fNVZaVUFjSGFFaExaX3oxb3o0ckJqajNYQ3BTTlVSZHVuYldVUVBXTW1YWQ?oc=5"
     }
    ]
   },
@@ -827,38 +831,6 @@
    ]
   },
   {
-   "id": "fe4c5de37e4b",
-   "articleIds": [
-    "8602e8feeab2"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 수도 공항 운항 재개…후티 공격에 또 차질",
-   "titleAuto": false,
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-25T21:24:15.204Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "사우디 수도 공항 운항 재개…후티 공격에 또 차질",
-     "titleKo": null,
-     "summary": "리야드 공항 운항이 재개됐지만 후티 공격으로 차질이 빚어지고 있다고 보도했어요.",
-     "reportedAt": "2026-10-25T22:32:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iYnJWS2d2ZnE2VTlTOE1TSi13NEVzOHRrWW5pa2huQ3IwV1RsWGJJSWtNNE1ueFduY2wwY09pb2NVR3hDSlhjXzgybWlnMHhiV0lBY05MellXS1k?oc=5"
-    }
-   ]
-  },
-  {
    "id": "bd9fba5a4787",
    "articleIds": [
     "b34c663fbd7c",
@@ -944,6 +916,38 @@
      "reportedAt": "2026-10-25T22:27:42.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wTi1INm5CbTVOb2FfS3RPX1h0aTVjNUdGLUgyVHU5MGtaZmxlS3N2clZyVDE3SXdyMW5RZXN0Tm1kRlZnVmkybnN3?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "fe4c5de37e4b",
+   "articleIds": [
+    "8602e8feeab2"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 수도 공항 운항 재개…후티 공격에 또 차질",
+   "titleAuto": false,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-25T21:24:15.204Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "사우디 수도 공항 운항 재개…후티 공격에 또 차질",
+     "titleKo": null,
+     "summary": "리야드 공항 운항이 재개됐지만 후티 공격으로 차질이 빚어지고 있다고 보도했어요.",
+     "reportedAt": "2026-10-25T21:15:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11ZG9mOWVpUzdHRUlYaVdOR09pNldTcGhyWWdwUGNGUXJGOG1VU2JLVkNzcGx6NWdiWTVJYi1hQ3phbDNOOU1JQmVoRHNEOTBrVFdHUWFVcFJuWG8?oc=5"
     }
    ]
   },
@@ -4196,6 +4200,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "eb6b432ab4a4",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "뉴스1",
+    "title": "사우디 연합군 \"후티 탄도미사일 요격\"…후티 \"리야드 공항 타격\"",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zbVdmXzNROElNYk9ReU1ZOWRNM2hpWjhzOEwyZ0xzZVZwY3NDQmZMdG1RTjdPQmpQeW1mNkxwWkc2bnhnTDN2TjZsc3pfZjNDaWhOMG9pSkJnMk5jSU0yREhn?oc=5",
+    "reportedAt": 1792990708000,
+    "assumeSaudi": false,
+    "firstSeen": 1792991429137
+   },
+   {
     "id": "e28259d750fa",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4266,6 +4284,20 @@
     "firstSeen": 1792984229946
    },
    {
+    "id": "fd3cedf74171",
+    "feed": "AFP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AFP",
+    "title": "Houthis say attacked Riyadh airport hours after flights resume",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50clByZjY0VlFNNmEtVjZpdnB0b0g2ei1fNVZaVUFjSGFFaExaX3oxb3o0ckJqajNYQ3BTTlVSZHVuYldVUVBXTW1YWQ?oc=5",
+    "reportedAt": 1792980650000,
+    "assumeSaudi": false,
+    "firstSeen": 1792964426367
+   },
+   {
     "id": "726dc28fdbfa",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4278,20 +4310,6 @@
     "reportedAt": 1792979485000,
     "assumeSaudi": false,
     "firstSeen": 1792900227664
-   },
-   {
-    "id": "fd3cedf74171",
-    "feed": "AFP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AFP",
-    "title": "Houthis say attacked Riyadh airport hours after flights resume",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFlyQ1ZrWENVbkc5TVRiaEdPRmNyemRjMXlPWHRPTU0yYXpzUTRzSmJHdW5KaTgtbEFXeWRHMnJuQUhtU0hDTkw5STFWbUExX3pjMjBmR3QtVVhFUHl4bmtPcEdncmtKRXpsZnZzLWNlRTc3SW5XSlBBZGZ2el9TQ0N6WGFWRHhTWEJyNFlR?oc=5",
-    "reportedAt": 1792976891000,
-    "assumeSaudi": false,
-    "firstSeen": 1792964426367
    },
    {
     "id": "9ebe47c0ccb5",
@@ -4364,20 +4382,6 @@
     "firstSeen": 1792971631127
    },
    {
-    "id": "8602e8feeab2",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "KBS",
-    "title": "사우디 수도 공항 운항 재개…후티 공격에 또 차질",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iYnJWS2d2ZnE2VTlTOE1TSi13NEVzOHRrWW5pa2huQ3IwV1RsWGJJSWtNNE1ueFduY2wwY09pb2NVR3hDSlhjXzgybWlnMHhiV0lBY05MellXS1k?oc=5",
-    "reportedAt": 1792967520000,
-    "assumeSaudi": false,
-    "firstSeen": 1792963455204
-   },
-   {
     "id": "c5dab765100b",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4390,6 +4394,20 @@
     "reportedAt": 1792967262000,
     "assumeSaudi": false,
     "firstSeen": 1792960831173
+   },
+   {
+    "id": "8602e8feeab2",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "KBS",
+    "title": "사우디 수도 공항 운항 재개…후티 공격에 또 차질",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11ZG9mOWVpUzdHRUlYaVdOR09pNldTcGhyWWdwUGNGUXJGOG1VU2JLVkNzcGx6NWdiWTVJYi1hQ3phbDNOOU1JQmVoRHNEOTBrVFdHUWFVcFJuWG8?oc=5",
+    "reportedAt": 1792962900000,
+    "assumeSaudi": false,
+    "firstSeen": 1792963455204
    },
    {
     "id": "354759a42fc7",
@@ -6991,6 +7009,12 @@
    {
     "articleIds": [
      "e28259d750fa"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "eb6b432ab4a4"
     ],
     "fromRule": true
    }
