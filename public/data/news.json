@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-26T12:50:30.591Z",
-  "lastAttemptAt": "2026-10-26T12:50:30.591Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-26T13:00:50.891Z",
+  "lastAttemptAt": "2026-10-26T13:00:50.891Z",
   "aiSummary": true,
   "summaryAt": "2026-10-26T12:00:46.590Z",
   "aiError": null,
@@ -15,17 +15,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 33
+    "count": 30
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 121
+    "count": 122
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 25
+    "count": 22
    },
    {
     "name": "AFP",
@@ -40,7 +40,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 39
+    "count": 37
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,56 +50,27 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 62
+    "count": 66
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 57
+    "count": 68
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
-    "date": "2026-10-22",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -3485,16 +3456,15 @@
    ]
   },
   {
-   "id": "053467f5866d",
+   "id": "a1355cb5f27c",
    "articleIds": [
-    "0a2e14ca0bc0",
     "4460423d1707"
    ],
    "type": "missile",
    "sev": "high",
    "status": "single",
    "directive": null,
-   "title": "연합군, 리야드 겨냥 미사일 요격",
+   "title": "연합군, 리야드·카미스 무샤이트 향한 요격 작전",
    "titleAuto": true,
    "regions": [
     "riyadh"
@@ -3502,19 +3472,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-23T13:00:47.660Z",
+   "collectedAt": "2026-10-23T13:10:30.794Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition air defenses down missile bound for Riyadh, Khamis Mushait amid ongoing Houthi attacks",
-     "titleKo": "연합군, 리야드 겨냥 미사일 요격",
-     "summary": "연합군이 리야드를 향한 미사일을 요격했다고 보도됐어요.",
-     "reportedAt": "2026-10-23T13:00:34.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTloxbk9QZFZTMjNsNmJWMFN0MU1GZHBRZlUyMG9vQjVuLVBfQW84dDhabVgwWFNCakRyb3ZsWDBTS1I0cmlDbGxHczQ5dUR0Wk1lRE8zcHIzbElpZUNucVhhLUxMM0pXVkVyMFc2NVpHMnRocmd1RDlzbERHbWRMeDE4dktDUlpfSERMck1heGFyQWMyQ09mOHhZOWs4ZzlOellkVmZPTlN2cFd4QUlDay1tX0dLTC1aSFBOQWVPeTNIX1piSXIwUm5maWtubUV5UVlDSFhiWG0?oc=5"
-    },
     {
      "outlet": "Arab News",
      "cat": "local",
@@ -6501,20 +6461,6 @@
     "reportedAt": 1792760814000,
     "assumeSaudi": false,
     "firstSeen": 1792761030794
-   },
-   {
-    "id": "0a2e14ca0bc0",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition air defenses down missile bound for Riyadh, Khamis Mushait amid ongoing Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTloxbk9QZFZTMjNsNmJWMFN0MU1GZHBRZlUyMG9vQjVuLVBfQW84dDhabVgwWFNCakRyb3ZsWDBTS1I0cmlDbGxHczQ5dUR0Wk1lRE8zcHIzbElpZUNucVhhLUxMM0pXVkVyMFc2NVpHMnRocmd1RDlzbERHbWRMeDE4dktDUlpfSERMck1heGFyQWMyQ09mOHhZOWs4ZzlOellkVmZPTlN2cFd4QUlDay1tX0dLTC1aSFBOQWVPeTNIX1piSXIwUm5maWtubUV5UVlDSFhiWG0?oc=5",
-    "reportedAt": 1792760434000,
-    "assumeSaudi": false,
-    "firstSeen": 1792760447660
    }
   ],
   "summaries": {
@@ -6532,7 +6478,6 @@
    "0e756facbf2d": "리야드 공항 공격 생존자들이 다큐멘터리에서 당시 상황을 증언했다고 보도했어요.",
    "a0d5c153b78f": "프랑스 의원이 사우디 인프라 보호 약속을 지키겠다고 말했다고 보도했어요.",
    "0d2f2eb5ae00": "리야드 공항에서 숨진 사람의 가족이 애도 기사를 냈다고 보도했어요.",
-   "0a2e14ca0bc0": "연합군이 리야드를 향한 미사일을 요격했다고 보도됐어요.",
    "b249f3e860cc": "사우디가 리야드 공격에 사용된 탄도미사일 발사대를 파괴했다고 발표했어요.",
    "25e58307fb8d": "사우디가 요르단 카락 지역 교회 테러를 규탄했다고 보도했어요.",
    "1f9909fa4a27": "보도가 사우디의 미사일 생산시설 확장과 중국 연관 가능성을 전했어요.",
@@ -6658,7 +6603,6 @@
    "16af7dcd70ca": "리야드 공항 운항이 제한적이라고 보도했어요."
   },
   "titlesKo": {
-   "0a2e14ca0bc0": "연합군, 리야드 겨냥 미사일 요격",
    "0b12da065fa6": "위성사진으로 드러난 사우디의 미사일 시설 의혹",
    "a0d5c153b78f": "프랑스 의원이 사우디 인프라 보호 약속을 재확인",
    "0d2f2eb5ae00": "리야드 공항에서 숨진 사람 가족의 애도 기사",
@@ -7399,8 +7343,7 @@
    },
    {
     "articleIds": [
-     "4460423d1707",
-     "0a2e14ca0bc0"
+     "4460423d1707"
     ],
     "fromRule": true
    },
