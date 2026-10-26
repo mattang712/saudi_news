@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-26T13:00:50.891Z",
-  "lastAttemptAt": "2026-10-26T13:00:50.891Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-26T13:10:29.832Z",
+  "lastAttemptAt": "2026-10-26T13:10:29.832Z",
   "aiSummary": true,
   "summaryAt": "2026-10-26T12:00:46.590Z",
   "aiError": null,
@@ -15,27 +15,27 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 30
+    "count": 33
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 122
+    "count": 117
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 22
+    "count": 26
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 11
+    "count": 14
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 113
    },
    {
     "name": "Saudi Gazette",
@@ -50,29 +50,90 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 66
+    "count": 77
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 2
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 68
+    "count": 67
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 주요 시설 공격 관련 신변안전 유의 및 출국 관련 안내(10.22.)",
+    "date": "2026-10-22",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "99990d0e0767",
+   "articleIds": [
+    "676d2fc20ad5"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "요격된 후티 미사일이 사우디아라비아 도시에서 피해를 초래",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-26T13:10:29.832Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Intercepted Houthi missiles cause damage in Saudi Arabian city",
+     "titleKo": "요격된 후티 미사일이 사우디아라비아 도시에서 피해를 초래",
+     "summary": "",
+     "reportedAt": "2026-10-26T12:54:05.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/intercepted-houthi-missiles-cause-damage-in-saudi-arabian-city?traffic_source=rss"
+    }
+   ]
+  },
   {
    "id": "04c31c37bc02",
    "articleIds": [
@@ -104,6 +165,38 @@
      "reportedAt": "2026-10-26T12:34:41.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/saudi-nursing-student-injured-in-riyadh-airport-attack-turns-survival-into-message-of-hope-3008341"
+    }
+   ]
+  },
+  {
+   "id": "e6a7961b1601",
+   "articleIds": [
+    "4e4659c0f1b3"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 주도의 연합군, 후티 미사일 시설을 타격했다고 주장 - Al Jazeera",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-26T13:10:29.832Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi-led coalition says it struck Houthi missile facilities - Al Jazeera",
+     "titleKo": "사우디 주도의 연합군, 후티 미사일 시설을 타격했다고 주장 - Al Jazeera",
+     "summary": "",
+     "reportedAt": "2026-10-26T11:56:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkRQU2ptbnMyS2FVNVA1WU16QWRwbEpMZkptNF9Hc1lJR01iOEZQS3ZIVzdZcjg0LVFUU2V3bDdUbTBKSWg2Q0RVLXUyYXlVbVlQZW0yRUhNSHdiQVd1c3RYaWhmZ3V2ZEhRNWl5b05WNnU1QnNDX3A2V29uaFhpS1U3bWUwU3dnRm1PTkwxQTZmT3N0WjhTXzgtRDRfS3hFNml6UEhlcmhFSnVoQURNN0k1aVNMRVZyZUZRVlVn?oc=5"
     }
    ]
   },
@@ -141,9 +234,9 @@
      "title": "Houthis say attacked Riyadh airport hours after flights resume",
      "titleKo": "후티, 운항 재개 몇 시간 만에 리야드공항 공격했다고 주장",
      "summary": "후티가 항공편 재개 수시간 만에 리야드 공항을 공격했다고 주장했다고 보도했어요.",
-     "reportedAt": "2026-10-26T02:10:49.000Z",
+     "reportedAt": "2026-10-26T01:08:11.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56Qmg3LXpsSFV5TW02S0E5U0l6cTNjbS1hRnNWS21FZVJHV24xS21IU3VUWlI2emFKT1hudFo1T0ZYZ0hRcTJKWkNtdw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFlyQ1ZrWENVbkc5TVRiaEdPRmNyemRjMXlPWHRPTU0yYXpzUTRzSmJHdW5KaTgtbEFXeWRHMnJuQUhtU0hDTkw5STFWbUExX3pjMjBmR3QtVVhFUHl4bmtPcEdncmtKRXpsZnZzLWNlRTc3SW5XSlBBZGZ2el9TQ0N6WGFWRHhTWEJyNFlR?oc=5"
     },
     {
      "outlet": "Reuters",
@@ -215,7 +308,7 @@
      "summary": "사우디 주도 연합군이 후티의 미사일과 발사대·저장 터널을 파괴했다고 보도했어요.",
      "reportedAt": "2026-10-26T10:59:12.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yTGtYcXdBbldVbnZPZVE0WDNjZnlrQzcwdi1oUHpTVURSdnBPbk92bHBHa1lkSWxsSEdTQ0lRRGY2UmhYQlRPVTd2VlNjUEU1cjRWN3JVZmlXMEREeEhZX9IBeEFVX3lxTE85TkRYTjlLaFlURFpJODVxRHpxbENSOTFYeDRucV9DUGhvNUFOS3pBOEF5eW5qSUhrWEVuWTJ2SUM3ejN5S0Z0anlNZDFpUXQxWV9mSVJMVkRtMWxBYUpHN0hsenJWcElhNmdtWjQwdld1allZRmRkcg?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85TkRYTjlLaFlURFpJODVxRHpxbENSOTFYeDRucV9DUGhvNUFOS3pBOEF5eW5qSUhrWEVuWTJ2SUM3ejN5S0Z0anlNZDFpUXQxWV9mSVJMVkRtMWxBYUpHN0hsenJWcElhNmdtWjQwdld1allZRmRkctIBeEFVX3lxTE85TkRYTjlLaFlURFpJODVxRHpxbENSOTFYeDRucV9DUGhvNUFOS3pBOEF5eW5qSUhrWEVuWTJ2SUM3ejN5S0Z0anlNZDFpUXQxWV9mSVJMVkRtMWxBYUpHN0hsenJWcElhNmdtWjQwdld1allZRmRkcg?oc=5"
     }
    ]
   },
@@ -418,12 +511,11 @@
    ]
   },
   {
-   "id": "fbe9157dc474",
+   "id": "f4b659aefb83",
    "articleIds": [
     "b5db1d0d4aba",
     "b64dbaa64c56",
     "a3b83b9eef0e",
-    "68b8725f9c24",
     "1c76bcd9f357"
    ],
    "type": "korean",
@@ -470,16 +562,6 @@
      "reportedAt": "2026-10-26T00:00:00.000Z",
      "dateOnly": false,
      "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-     "titleKo": "메카 협정국 관리들, 지역 긴장 속 이란서 회담",
-     "summary": "이란에서 고위급 회담이 예정돼 있다고 보도했어요.",
-     "reportedAt": "2026-10-26T07:33:47.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions?traffic_source=rss"
     },
     {
      "outlet": "AP",
@@ -3454,41 +3536,45 @@
      "url": "https://saudigazette.com.sa/article/665668/saudi-arabia/saudi-air-defenses-intercept-houthi-missiles-targeting-riyadh-khamis-mushait"
     }
    ]
-  },
-  {
-   "id": "a1355cb5f27c",
-   "articleIds": [
-    "4460423d1707"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 리야드·카미스 무샤이트 향한 요격 작전",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-23T13:10:30.794Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition air defenses down missiles bound for Riyadh, Khamis Mushait amid ongoing Houthi attacks",
-     "titleKo": "연합군, 리야드·카미스 무샤이트 향한 요격 작전",
-     "summary": "연합군의 요격 작전으로 리야드와 카미스 무샤이트를 보호했다고 보도됐어요.",
-     "reportedAt": "2026-10-23T13:06:54.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSmlfSUVJUXZKd0Y2WTQ0TEpaQnk1cFBlYzZ4dGZqYnBQMG9tcXY3RkRGOXdyQTZlUXEyRWFTQzNQV1BOWlhFX0dLRlQ1Z2N3c1docTMxa2Q0RHBZQlJtVE8tQmhZVVFUMXdJTFBXbVBrUklWdVBkTVloR2RTY3ZhcExtY1lWc0FfenVsQmxpNDJhajJ2a3ZFdmppUkJTbjhTaE5GVHNnSm1JeWVibmE5NTBBY3ZUUkJ6ejFSY1NXQXdFcENDN3RJWF9OblphSEJWa1hweUt2LVRqZw?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
+  {
+   "id": "676d2fc20ad5",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "요격된 후티 미사일이 사우디아라비아 도시에서 피해를 초래",
+   "title": "Intercepted Houthi missiles cause damage in Saudi Arabian city",
+   "summary": "",
+   "reportedAt": "2026-10-26T12:54:05.000Z",
+   "dateOnly": false,
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/intercepted-houthi-missiles-cause-damage-in-saudi-arabian-city?traffic_source=rss"
+  },
+  {
+   "id": "4e4659c0f1b3",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "사우디 주도의 연합군, 후티 미사일 시설을 타격했다고 주장 - Al Jazeera",
+   "title": "Saudi-led coalition says it struck Houthi missile facilities - Al Jazeera",
+   "summary": "",
+   "reportedAt": "2026-10-26T11:56:20.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkRQU2ptbnMyS2FVNVA1WU16QWRwbEpMZkptNF9Hc1lJR01iOEZQS3ZIVzdZcjg0LVFUU2V3bDdUbTBKSWg2Q0RVLXUyYXlVbVlQZW0yRUhNSHdiQVd1c3RYaWhmZ3V2ZEhRNWl5b05WNnU1QnNDX3A2V29uaFhpS1U3bWUwU3dnRm1PTkwxQTZmT3N0WjhTXzgtRDRfS3hFNml6UEhlcmhFSnVoQURNN0k1aVNMRVZyZUZRVlVn?oc=5"
+  },
   {
    "id": "a797f8397bc3",
    "outlet": "Reuters",
@@ -3580,24 +3666,6 @@
    "reportedAt": "2026-10-26T08:01:22.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5"
-  },
-  {
-   "id": "68b8725f9c24",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "메카 협정국 관리들, 지역 긴장 속 이란서 회담",
-   "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-   "summary": "이란에서 고위급 회담이 예정돼 있다고 보도했어요.",
-   "reportedAt": "2026-10-26T07:33:47.000Z",
-   "dateOnly": false,
-   "url": "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions?traffic_source=rss"
   },
   {
    "id": "ca978977012c",
@@ -4457,6 +4525,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "676d2fc20ad5",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Intercepted Houthi missiles cause damage in Saudi Arabian city",
+    "snippet": "Debris fell on the Saudi city of Khamis Mushait after Houthi-fired missiles were intercepted.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/intercepted-houthi-missiles-cause-damage-in-saudi-arabian-city?traffic_source=rss",
+    "reportedAt": 1793019245000,
+    "assumeSaudi": false,
+    "firstSeen": 1793020229832
+   },
+   {
     "id": "5ff0cbf9b6a2",
     "feed": "Arab News",
     "cat": "local",
@@ -4469,6 +4551,20 @@
     "reportedAt": 1793018081000,
     "assumeSaudi": false,
     "firstSeen": 1793018431338
+   },
+   {
+    "id": "4e4659c0f1b3",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Saudi-led coalition says it struck Houthi missile facilities - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkRQU2ptbnMyS2FVNVA1WU16QWRwbEpMZkptNF9Hc1lJR01iOEZQS3ZIVzdZcjg0LVFUU2V3bDdUbTBKSWg2Q0RVLXUyYXlVbVlQZW0yRUhNSHdiQVd1c3RYaWhmZ3V2ZEhRNWl5b05WNnU1QnNDX3A2V29uaFhpS1U3bWUwU3dnRm1PTkwxQTZmT3N0WjhTXzgtRDRfS3hFNml6UEhlcmhFSnVoQURNN0k1aVNMRVZyZUZRVlVn?oc=5",
+    "reportedAt": 1793015780000,
+    "assumeSaudi": false,
+    "firstSeen": 1793020229832
    },
    {
     "id": "a797f8397bc3",
@@ -4493,7 +4589,7 @@
     "outlet": "뉴시스",
     "title": "사우디 주도 연합군, 후티반군 미사일 및 발사대 저장 터널 파괴",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yTGtYcXdBbldVbnZPZVE0WDNjZnlrQzcwdi1oUHpTVURSdnBPbk92bHBHa1lkSWxsSEdTQ0lRRGY2UmhYQlRPVTd2VlNjUEU1cjRWN3JVZmlXMEREeEhZX9IBeEFVX3lxTE85TkRYTjlLaFlURFpJODVxRHpxbENSOTFYeDRucV9DUGhvNUFOS3pBOEF5eW5qSUhrWEVuWTJ2SUM3ejN5S0Z0anlNZDFpUXQxWV9mSVJMVkRtMWxBYUpHN0hsenJWcElhNmdtWjQwdld1allZRmRkcg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85TkRYTjlLaFlURFpJODVxRHpxbENSOTFYeDRucV9DUGhvNUFOS3pBOEF5eW5qSUhrWEVuWTJ2SUM3ejN5S0Z0anlNZDFpUXQxWV9mSVJMVkRtMWxBYUpHN0hsenJWcElhNmdtWjQwdld1allZRmRkctIBeEFVX3lxTE85TkRYTjlLaFlURFpJODVxRHpxbENSOTFYeDRucV9DUGhvNUFOS3pBOEF5eW5qSUhrWEVuWTJ2SUM3ejN5S0Z0anlNZDFpUXQxWV9mSVJMVkRtMWxBYUpHN0hsenJWcElhNmdtWjQwdld1allZRmRkcg?oc=5",
     "reportedAt": 1793012352000,
     "assumeSaudi": false,
     "firstSeen": 1793013028864
@@ -4595,20 +4691,6 @@
     "reportedAt": 1793000587000,
     "assumeSaudi": false,
     "firstSeen": 1793001647301
-   },
-   {
-    "id": "68b8725f9c24",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-    "snippet": "Talks to be first high-level contact between Iran and the bloc since Houthi rebels escalated attacks on Saudi Arabia.",
-    "url": "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions?traffic_source=rss",
-    "reportedAt": 1793000027000,
-    "assumeSaudi": false,
-    "firstSeen": 1793001029457
    },
    {
     "id": "a98ce2294aa6",
@@ -4751,20 +4833,6 @@
     "firstSeen": 1792984229946
    },
    {
-    "id": "fd3cedf74171",
-    "feed": "AFP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AFP",
-    "title": "Houthis say attacked Riyadh airport hours after flights resume",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56Qmg3LXpsSFV5TW02S0E5U0l6cTNjbS1hRnNWS21FZVJHV24xS21IU3VUWlI2emFKT1hudFo1T0ZYZ0hRcTJKWkNtdw?oc=5",
-    "reportedAt": 1792980649000,
-    "assumeSaudi": false,
-    "firstSeen": 1792964426367
-   },
-   {
     "id": "726dc28fdbfa",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4777,6 +4845,20 @@
     "reportedAt": 1792979485000,
     "assumeSaudi": false,
     "firstSeen": 1792900227664
+   },
+   {
+    "id": "fd3cedf74171",
+    "feed": "AFP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AFP",
+    "title": "Houthis say attacked Riyadh airport hours after flights resume",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFlyQ1ZrWENVbkc5TVRiaEdPRmNyemRjMXlPWHRPTU0yYXpzUTRzSmJHdW5KaTgtbEFXeWRHMnJuQUhtU0hDTkw5STFWbUExX3pjMjBmR3QtVVhFUHl4bmtPcEdncmtKRXpsZnZzLWNlRTc3SW5XSlBBZGZ2el9TQ0N6WGFWRHhTWEJyNFlR?oc=5",
+    "reportedAt": 1792976891000,
+    "assumeSaudi": false,
+    "firstSeen": 1792964426367
    },
    {
     "id": "9ebe47c0ccb5",
@@ -6447,20 +6529,6 @@
     "reportedAt": 1792761230000,
     "assumeSaudi": false,
     "firstSeen": 1792762707329
-   },
-   {
-    "id": "4460423d1707",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition air defenses down missiles bound for Riyadh, Khamis Mushait amid ongoing Houthi attacks",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSmlfSUVJUXZKd0Y2WTQ0TEpaQnk1cFBlYzZ4dGZqYnBQMG9tcXY3RkRGOXdyQTZlUXEyRWFTQzNQV1BOWlhFX0dLRlQ1Z2N3c1docTMxa2Q0RHBZQlJtVE8tQmhZVVFUMXdJTFBXbVBrUklWdVBkTVloR2RTY3ZhcExtY1lWc0FfenVsQmxpNDJhajJ2a3ZFdmppUkJTbjhTaE5GVHNnSm1JeWVibmE5NTBBY3ZUUkJ6ejFSY1NXQXdFcENDN3RJWF9OblphSEJWa1hweUt2LVRqZw?oc=5",
-    "reportedAt": 1792760814000,
-    "assumeSaudi": false,
-    "firstSeen": 1792761030794
    }
   ],
   "summaries": {
@@ -6471,7 +6539,6 @@
    "d1194f1db0e9": "아랍연맹이 담맘 공항·셰이바 유전 공격을 강력히 규탄했다고 보도했어요.",
    "0b12da065fa6": "위성사진 등이 공개되며 사우디의 미사일 생산시설 확장 의혹을 보도했어요.",
    "1c57f7a4eefe": "연합군이 리야드·카미스 무샤이트를 향한 미사일과 드론을 요격했다고 발표했어요.",
-   "4460423d1707": "연합군의 요격 작전으로 리야드와 카미스 무샤이트를 보호했다고 보도됐어요.",
    "26dffb10e00f": "사우디가 요르단 교회 테러를 규탄했다는 소식이 보도됐어요.",
    "2dbc233be6a4": "후티 위협이 사우디를 넘는 문제라고 분석 보도했어요.",
    "0de2a5ca138b": "리야드 공항 공격 생존자들이 공포와 동료 승객 구조 노력을 증언했다고 보도했어요.",
@@ -6588,7 +6655,6 @@
    "e28259d750fa": "아랍 내무장관회의 사무국이 후티의 적대행위를 규탄했다고 보도했어요.",
    "1c76bcd9f357": "연합군이 후티의 미사일 시설을 파괴했다고 보도하며 기타 중동 소식을 전했어요.",
    "1ac9c7ef20bc": "연합군이 후티의 미사일 저장용 터널 5개와 발사대 4개, 저장시설을 파괴했다고 발표했다고 보도했어요.",
-   "68b8725f9c24": "이란에서 고위급 회담이 예정돼 있다고 보도했어요.",
    "a98ce2294aa6": "유가가 소폭 하락했으나 사우디 공격 우려가 계속된다고 보도했어요.",
    "8d40b793c7c3": "사우디·파키스탄·튀르키예가 이란에서 후티-사우디 충돌 문제를 논의한다고 보도했어요.",
    "eb61170dc3d4": "후티가 사우디의 유전 펌프·송유설비와 리야드 공항을 공격했다고 주장했다고 보도했어요.",
@@ -6610,7 +6676,6 @@
    "2c58f5bb5f01": "사우디 보건부, 담맘 공항 부상자 사망 경위 설명",
    "d1194f1db0e9": "아랍연맹, 담맘 공항·셰이바 유전 공격 규탄",
    "1c57f7a4eefe": "연합군, 리야드·카미스 무샤이트 향한 미사일·드론 요격",
-   "4460423d1707": "연합군, 리야드·카미스 무샤이트 향한 요격 작전",
    "edc6efeb12f3": "아랍연맹 \"담맘 공항·샤이바 유전 표적화 규탄\"",
    "ec0c6e41ee36": "사우디 미사일 공장 확장 가능성 보도",
    "257699d6881d": "사우디, 리야드 공격 발사대 파괴 발표",
@@ -6730,7 +6795,6 @@
    "32b29b5d853f": "사우디 연합군, 후티가 리야드 공항 공격한 뒤 미사일 요격했다고 밝혀",
    "eb61170dc3d4": "후티, 사우디 유전 펌프·리야드공항 공격했다고 주장",
    "a98ce2294aa6": "유가, 미·이란 긴장 완화 기대에 하락",
-   "68b8725f9c24": "메카 협정국 관리들, 지역 긴장 속 이란서 회담",
    "1ac9c7ef20bc": "연합군, 예맨 작전서 후티 미사일 5개 탄도터널·발사대 4기 파괴",
    "1c76bcd9f357": "사우디 주도 연합, 예멘 반군의 미사일 시설 파괴했다고 밝혀…중동 주요 소식",
    "8d40b793c7c3": "사우디·파키스탄·튀르키예, 이란서 후티-사우디 충돌 문제 논의",
@@ -6742,7 +6806,9 @@
    "c574609fb21e": "사우디아라비아, 공격에도 불구하고 아시안컵 2027 개최 1월 시작 확정 - Al Jazeera",
    "44e43ea948a6": "사우디 연합, 리야드 공항 공격 후 후티 미사일 시설 타격했다고 밝혀",
    "16af7dcd70ca": "리야드 공항 재개했지만 후티 공격에 운항 제한",
-   "5ff0cbf9b6a2": "리야드 공항 공격에 부상한 사우디 간호학과 학생, 생존을 희망의 메시지로 바꿔"
+   "5ff0cbf9b6a2": "리야드 공항 공격에 부상한 사우디 간호학과 학생, 생존을 희망의 메시지로 바꿔",
+   "676d2fc20ad5": "요격된 후티 미사일이 사우디아라비아 도시에서 피해를 초래",
+   "4e4659c0f1b3": "사우디 주도의 연합군, 후티 미사일 시설을 타격했다고 주장 - Al Jazeera"
   },
   "aiClusters": [
    {
@@ -6861,7 +6927,6 @@
    {
     "articleIds": [
      "1c76bcd9f357",
-     "68b8725f9c24",
      "a3b83b9eef0e",
      "b64dbaa64c56",
      "b5db1d0d4aba"
@@ -7343,12 +7408,6 @@
    },
    {
     "articleIds": [
-     "4460423d1707"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "a98ce2294aa6"
     ],
     "fromRule": true
@@ -7356,6 +7415,18 @@
    {
     "articleIds": [
      "5ff0cbf9b6a2"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "676d2fc20ad5"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "4e4659c0f1b3"
     ],
     "fromRule": true
    }
