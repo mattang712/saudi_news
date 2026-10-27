@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-27T20:11:45.941Z",
-  "lastAttemptAt": "2026-10-27T20:11:45.941Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-27T20:20:32.720Z",
+  "lastAttemptAt": "2026-10-27T20:20:32.720Z",
   "aiSummary": true,
   "summaryAt": "2026-10-27T17:21:08.555Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 24
+    "count": 26
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 126
+    "count": 120
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 31
+    "count": 30
    },
    {
     "name": "AFP",
@@ -56,52 +56,23 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 73
+    "count": 74
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
-    "date": "2026-10-26",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 겨냥 공격 빈발 관련 신변 유의 (10.25)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.25)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -136,8 +107,8 @@
     "a0e880d339a8",
     "315574fdcc93",
     "ac534b62920c",
-    "c309c7110978",
-    "edc6efeb12f3"
+    "edc6efeb12f3",
+    "c309c7110978"
    ],
    "type": "missile",
    "sev": "high",
@@ -448,16 +419,6 @@
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1rZE1WR3hYOGFPaDRsb2VpS29kV2g3c0hvVlVPYnpBVEROdDUySXNMQklpay1YRXdzMTVyelhxeFpfd1gyaHc2LTNB?oc=5"
     },
     {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
-     "titleKo": "후티, 라스 타누라 정유시설 미사일 공격했다고 주장",
-     "summary": "후티는 라스 타누라 정유시설을 미사일로 공격했다고 주장했다고 전했어요.",
-     "reportedAt": "2026-10-27T14:36:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5"
-    },
-    {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
@@ -466,6 +427,16 @@
      "reportedAt": "2026-10-27T17:30:49.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wTEVxczYwZEFhSGh2OVAyWF9lcVJROXNPVWxwNWJzU0JGVEZGcm5sd1JRVnBVQ3hySnlpaTZ6UkFTY3h0RS1vTzNB?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
+     "titleKo": "후티, 라스 타누라 정유시설 미사일 공격했다고 주장",
+     "summary": "후티는 라스 타누라 정유시설을 미사일로 공격했다고 주장했다고 전했어요.",
+     "reportedAt": "2026-10-27T19:17:53.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5"
     }
    ]
   },
@@ -3343,6 +3314,24 @@
  ],
  "timeline": [
   {
+   "id": "c309c7110978",
+   "outlet": "Reuters",
+   "official": false,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "eastern"
+   ],
+   "inferred": false,
+   "titleKo": "후티, 라스 타누라 정유시설 미사일 공격했다고 주장",
+   "title": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
+   "summary": "후티는 라스 타누라 정유시설을 미사일로 공격했다고 주장했다고 전했어요.",
+   "reportedAt": "2026-10-27T19:17:53.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5"
+  },
+  {
    "id": "edc6efeb12f3",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -3397,24 +3386,6 @@
    "reportedAt": "2026-10-27T15:17:13.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1MaFVwWl9UYjZNQWlRQWdsT3VMSFdHOGNET280czR1VHVVdENQN1lnVWRsZWFlUlhCYTd3S2UwYTZWcHhCaW4tYXhR?oc=5"
-  },
-  {
-   "id": "c309c7110978",
-   "outlet": "Reuters",
-   "official": false,
-   "claim": false,
-   "type": "missile",
-   "sev": "high",
-   "regions": [
-    "eastern"
-   ],
-   "inferred": false,
-   "titleKo": "후티, 라스 타누라 정유시설 미사일 공격했다고 주장",
-   "title": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
-   "summary": "후티는 라스 타누라 정유시설을 미사일로 공격했다고 주장했다고 전했어요.",
-   "reportedAt": "2026-10-27T14:36:49.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5"
   },
   {
    "id": "ac534b62920c",
@@ -4488,6 +4459,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "c309c7110978",
+    "feed": "Reuters",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "Reuters",
+    "title": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5",
+    "reportedAt": 1793128673000,
+    "assumeSaudi": false,
+    "firstSeen": 1793110828522
+   },
+   {
     "id": "edc6efeb12f3",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4626,20 +4611,6 @@
     "reportedAt": 1793113860000,
     "assumeSaudi": false,
     "firstSeen": 1793114437055
-   },
-   {
-    "id": "c309c7110978",
-    "feed": "Reuters",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "Reuters",
-    "title": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5",
-    "reportedAt": 1793111809000,
-    "assumeSaudi": false,
-    "firstSeen": 1793110828522
    },
    {
     "id": "ce6953fde9c5",
