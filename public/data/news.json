@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-28T20:10:40.245Z",
-  "lastAttemptAt": "2026-10-28T20:10:40.245Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-28T20:16:58.491Z",
+  "lastAttemptAt": "2026-10-28T20:16:58.491Z",
   "aiSummary": true,
   "summaryAt": "2026-10-28T19:20:33.226Z",
   "aiError": null,
@@ -15,17 +15,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 14
+    "count": 11
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 80
+    "count": 78
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 31
+    "count": 32
    },
    {
     "name": "AFP",
@@ -35,12 +35,12 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 125
+    "count": 114
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 50
+    "count": 52
    },
    {
     "name": "Asharq Al-Awsat",
@@ -54,25 +54,86 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 75
+    "count": 73
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
+    "date": "2026-10-26",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.25. 오후 업데이트)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "347d2639459b",
+   "articleIds": [
+    "32150b027bfb"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디·말레이시아 국방장관, 통화로 지역 정세 논의",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-28T20:16:58.491Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi, Malaysian defense ministers discuss over phone regional developments",
+     "titleKo": "사우디·말레이시아 국방장관, 통화로 지역 정세 논의",
+     "summary": "",
+     "reportedAt": "2026-10-28T20:05:38.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665810/saudi-arabia/saudi-malaysian-defense-ministers-discuss-over-phone-regional-developments"
+    }
+   ]
+  },
   {
    "id": "b185d3c7a895",
    "articleIds": [
@@ -3637,6 +3698,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "32150b027bfb",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Saudi, Malaysian defense ministers discuss over phone regional developments",
+    "snippet": "RIYADH — Saudi Minister of Defense Prince Khalid bin Salman held on Wednesday a phone call with Malaysian Minister of Defense Mohamed Khaled Nordin.During the call, the ministers discussed bilateral defense relations and reviewed regional developments. They also condemned the attacks launched by the terrorist Houthi militia against Saudi Arabia and the holy sites.",
+    "url": "https://saudigazette.com.sa/article/665810/saudi-arabia/saudi-malaysian-defense-ministers-discuss-over-phone-regional-developments",
+    "reportedAt": 1793217938000,
+    "assumeSaudi": false,
+    "firstSeen": 1793218618491
+   },
+   {
     "id": "eeb2eb71fc5a",
     "feed": "Arab News",
     "cat": "local",
@@ -5363,7 +5438,8 @@
    "0447394cc4b4": "후티 주장: 사우디 연합 공습으로 북예멘 시장서 14명 사망 보도",
    "eeb2eb71fc5a": "사우디·말레이시아 국방장관, 후티 공격 속 군사협력 논의",
    "cc95997c716f": "국방장관, 말레이시아 counterparts와 방위 협력 논의…후티의 사우디 및 성지 공격 규탄",
-   "cc19672b45f5": "예멘 전투·사우디 정유소 공격에 유가 상승"
+   "cc19672b45f5": "예멘 전투·사우디 정유소 공격에 유가 상승",
+   "32150b027bfb": "사우디·말레이시아 국방장관, 통화로 지역 정세 논의"
   },
   "aiClusters": [
    {
@@ -5843,6 +5919,12 @@
    {
     "articleIds": [
      "cc19672b45f5"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "32150b027bfb"
     ],
     "fromRule": true
    }
