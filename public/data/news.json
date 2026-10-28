@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-28T17:30:42.885Z",
-  "lastAttemptAt": "2026-10-28T17:30:42.885Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-28T17:40:31.196Z",
+  "lastAttemptAt": "2026-10-28T17:40:31.196Z",
   "aiSummary": true,
   "summaryAt": "2026-10-28T16:30:40.591Z",
   "aiError": null,
@@ -15,43 +15,50 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 28
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 70
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 46
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 108
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 51
+    "count": 47,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 202
+    "count": 201
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 50
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 54
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -103,6 +111,38 @@
   ]
  },
  "events": [
+  {
+   "id": "b185d3c7a895",
+   "articleIds": [
+    "eeb2eb71fc5a"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디·말레이시아 국방장관, 후티 공격 속 군사협력 논의",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-28T17:40:31.196Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi, Malaysian defense ministers discuss military cooperation amid Houthi attacks",
+     "titleKo": "사우디·말레이시아 국방장관, 후티 공격 속 군사협력 논의",
+     "summary": "",
+     "reportedAt": "2026-10-28T17:31:20.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-malaysian-defense-ministers-discuss-military-cooperation-amid-houthi-attacks-3008732"
+    }
+   ]
+  },
   {
    "id": "3aec9f9235ef",
    "articleIds": [
@@ -3417,6 +3457,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "eeb2eb71fc5a",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi, Malaysian defense ministers discuss military cooperation amid Houthi attacks",
+    "snippet": "RIYADH: Saudi Defense Minister Prince Khalid bin Salman and his Malaysian counterpart Mohamed Khaled Nordin on Wednesday discussed ways to strengthen bilateral defense cooperation. During a phone call, the two ministers reviewed regional developments and condemned Houthi attacks on Saudi Arabia and Islamic holy sites, the Saudi Press Agency reported. The talks came amid continued Houthi missile an",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-malaysian-defense-ministers-discuss-military-cooperation-amid-houthi-attacks-3008732",
+    "reportedAt": 1793208680000,
+    "assumeSaudi": false,
+    "firstSeen": 1793209231196
+   },
+   {
     "id": "0447394cc4b4",
     "feed": "AP",
     "cat": "wire",
@@ -5161,7 +5215,8 @@
    "be9f42408eda": "사우디·쿠웨이트 외교장관, 리야드서 후티 공격 논의",
    "13a689e63f63": "후티, 사우디 공습으로 북부 시장서 13명 사망했다고 주장",
    "8dd5e2a03d66": "사우디·쿠웨이트, 후티 공격에 단호한 국제 대응 촉구",
-   "0447394cc4b4": "후티, 사우디 공습으로 북부 예멘 시장서 14명 사망했다고 주장"
+   "0447394cc4b4": "후티, 사우디 공습으로 북부 예멘 시장서 14명 사망했다고 주장",
+   "eeb2eb71fc5a": "사우디·말레이시아 국방장관, 후티 공격 속 군사협력 논의"
   },
   "aiClusters": [
    {
@@ -5644,6 +5699,12 @@
    {
     "articleIds": [
      "96f3ac039d6f"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "eeb2eb71fc5a"
     ],
     "fromRule": true
    }
