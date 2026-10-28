@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-28T07:00:48.053Z",
-  "lastAttemptAt": "2026-10-28T07:00:48.053Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-28T07:10:29.012Z",
+  "lastAttemptAt": "2026-10-28T07:10:29.012Z",
   "aiSummary": true,
   "summaryAt": "2026-10-28T06:30:40.688Z",
   "aiError": null,
@@ -15,17 +15,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 19
+    "count": 22
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 145
+    "count": 150
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 60
+    "count": 58
    },
    {
     "name": "AFP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 118
+    "count": 123
    },
    {
     "name": "Saudi Gazette",
@@ -51,58 +51,93 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 44
+    "count": 45
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 59
+    "count": 76
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
-    "date": "2026-10-26",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 겨냥 공격 빈발 관련 신변 유의 (10.25)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.25)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "7721deca8ee4",
+   "articleIds": [
+    "0d134464b8db"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "원유, 공급 우려 지속에 1% 이상 상승",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-28T07:10:29.012Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil rises more than 1% as supply concerns persist",
+     "titleKo": "원유, 공급 우려 지속에 1% 이상 상승",
+     "summary": "",
+     "reportedAt": "2026-10-28T07:07:09.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/energy/oil-rises-more-than-1-as-supply-concerns-persist-3008645"
+    }
+   ]
+  },
+  {
+   "id": "68e5b4cfc582",
+   "articleIds": [
+    "377c8296c3eb"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 정유시설 공격으로 공급 위험 재점화에 원유 1% 이상 상승",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-28T07:10:29.012Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil rises over 1% after Saudi Arabian refinery attack reignites supply risk",
+     "titleKo": "사우디 정유시설 공격으로 공급 위험 재점화에 원유 1% 이상 상승",
+     "summary": "",
+     "reportedAt": "2026-10-28T07:07:09.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVXdzN1BUTmhnbWhGb2NHaGcxQXZRLVc2blM2Q0xzM0NOcjN4NFZhd2hKWmtsQ195b0lNZ3ZYcGhXRk1pZnVkWmsxSU8ybzJYcDdIMm1faC1MOU5ZOFZlUElqUzV1UFo3NXdFNnJkcVgtMnNTSnJGMzlCOUlSVk41d3Nvd0hSeFUtOGhHRXktTkRFQVY0WU5TRlhJSDBvZVF5cUVVZFNUczU4QWlabTlOM3RJTWM?oc=5"
+    }
+   ]
+  },
   {
    "id": "34ac218910a2",
    "articleIds": [
@@ -4044,6 +4079,34 @@
  "_cache": {
   "articles": [
    {
+    "id": "0d134464b8db",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Oil rises more than 1% as supply concerns persist",
+    "snippet": "SINGAPORE: Oil prices climbed more than 1 percent on Wednesday after an attack on ​a refinery in Saudi Arabia renewed concerns around supply risks from the ‌major exporter. Brent crude futures gained $1.59, or 1.4 percent, to $115.47 a barrel as of 07:35 a.m. Saudi time. US West Texas Intermediate crude rose $1.43 or 1.4 percent to $101.33. Prices swung higher after dropping nearly $2 on Tuesday. ",
+    "url": "https://www.arabnews.com/energy/oil-rises-more-than-1-as-supply-concerns-persist-3008645",
+    "reportedAt": 1793171229000,
+    "assumeSaudi": false,
+    "firstSeen": 1793171429012
+   },
+   {
+    "id": "377c8296c3eb",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Oil rises over 1% after Saudi Arabian refinery attack reignites supply risk",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVXdzN1BUTmhnbWhGb2NHaGcxQXZRLVc2blM2Q0xzM0NOcjN4NFZhd2hKWmtsQ195b0lNZ3ZYcGhXRk1pZnVkWmsxSU8ybzJYcDdIMm1faC1MOU5ZOFZlUElqUzV1UFo3NXdFNnJkcVgtMnNTSnJGMzlCOUlSVk41d3Nvd0hSeFUtOGhHRXktTkRFQVY0WU5TRlhJSDBvZVF5cUVVZFNUczU4QWlabTlOM3RJTWM?oc=5",
+    "reportedAt": 1793171229000,
+    "assumeSaudi": false,
+    "firstSeen": 1793171429012
+   },
+   {
     "id": "361d8764c26b",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -5965,7 +6028,9 @@
    "613182cf043d": "메카 회담 다음날 후티 또 사우디 공격 주장",
    "744dee589ffc": "연합, 타이프 방향 미사일 요격 시도 보도",
    "96fef862dacc": "사우디 정유공장 공격 후 유가 1% 이상 상승",
-   "c72b48887d5b": "사우디, 수도 상공의 후티 미사일을 방공망이 요격했다고 밝혀"
+   "c72b48887d5b": "사우디, 수도 상공의 후티 미사일을 방공망이 요격했다고 밝혀",
+   "0d134464b8db": "원유, 공급 우려 지속에 1% 이상 상승",
+   "377c8296c3eb": "사우디 정유시설 공격으로 공급 위험 재점화에 원유 1% 이상 상승"
   },
   "aiClusters": [
    {
@@ -6520,6 +6585,18 @@
    {
     "articleIds": [
      "c72b48887d5b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "0d134464b8db"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "377c8296c3eb"
     ],
     "fromRule": true
    }
