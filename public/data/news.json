@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-29T06:02:03.516Z",
-  "lastAttemptAt": "2026-10-29T06:02:03.516Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-29T06:10:29.508Z",
+  "lastAttemptAt": "2026-10-29T06:10:29.508Z",
   "aiSummary": true,
   "summaryAt": "2026-10-29T05:30:36.077Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 21
+    "count": 19
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 49
+    "count": 52
    },
    {
     "name": "AP",
@@ -36,12 +36,12 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 108
+    "count": 104
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 52
+    "count": 51
    },
    {
     "name": "Asharq Al-Awsat",
@@ -55,52 +55,23 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 86
+    "count": 80
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
-    "date": "2026-10-26",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 공항 및 항공편 운항 현황(10.25. 오후 업데이트)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -1337,38 +1308,6 @@
    ]
   },
   {
-   "id": "74ad266bfb75",
-   "articleIds": [
-    "7be8a5e4e8fc"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "연합군, 리야드·남부서 UAV 3기 요격 발표",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-26T16:51:35.480Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Three UAVs Intercepted and Destroyed in Riyadh and Southern Regions",
-     "titleKo": "연합군, 리야드·남부서 UAV 3기 요격 발표",
-     "summary": "연합군이 리야드와 남부 지역에서 3대의 UAV를 요격했다고 SPA가 보도했어요.",
-     "reportedAt": "2026-10-26T21:49:31.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zZVVnRDRWbVVXRWFGdHlDWFV6eHVBcGlDa3ZweVR4TXV0Q25xTURkODUxSHFsY0pCMm95VDRfR2w5dG1GaXIwV0VR?oc=5"
-    }
-   ]
-  },
-  {
    "id": "6e131cdb6127",
    "articleIds": [
     "a2863ab0f5f2"
@@ -1538,6 +1477,38 @@
      "reportedAt": "2026-10-26T17:04:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2ZURmR6T3lKaFZzbDlabVVqcnpoM2FrYnh6YURqOGZlTDlOVFZ0TTFSckF4THV3RUxwcVJySHhmRU9ZdWNycnQ3LVVlY3p5WW1uX1BlSjYtVTN0eGVLZlA5QXFCMGQ0Si1KY3AxZFpRLTdBUE14WmdCLU9xT2tZWnJ0WkpHNDMxd0JwTnFSMnFuUQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "74ad266bfb75",
+   "articleIds": [
+    "7be8a5e4e8fc"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "연합군, 리야드·남부서 UAV 3기 요격 발표",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-26T16:51:35.480Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Three UAVs Intercepted and Destroyed in Riyadh and Southern Regions",
+     "titleKo": "연합군, 리야드·남부서 UAV 3기 요격 발표",
+     "summary": "연합군이 리야드와 남부 지역에서 3대의 UAV를 요격했다고 SPA가 보도했어요.",
+     "reportedAt": "2026-10-26T15:52:16.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zZVVnRDRWbVVXRWFGdHlDWFV6eHVBcGlDa3ZweVR4TXV0Q25xTURkODUxSHFsY0pCMm95VDRfR2w5dG1GaXIwV0VR?oc=5"
     }
    ]
   },
@@ -2521,7 +2492,7 @@
    "titleKo": "연합군, 리야드·남부서 UAV 3기 요격 발표",
    "title": "Coalition: Three UAVs Intercepted and Destroyed in Riyadh and Southern Regions",
    "summary": "연합군이 리야드와 남부 지역에서 3대의 UAV를 요격했다고 SPA가 보도했어요.",
-   "reportedAt": "2026-10-26T21:49:31.000Z",
+   "reportedAt": "2026-10-26T15:52:16.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zZVVnRDRWbVVXRWFGdHlDWFV6eHVBcGlDa3ZweVR4TXV0Q25xTURkODUxSHFsY0pCMm95VDRfR2w5dG1GaXIwV0VR?oc=5"
   },
@@ -3596,20 +3567,6 @@
     "firstSeen": 1793062232554
    },
    {
-    "id": "7be8a5e4e8fc",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Coalition: Three UAVs Intercepted and Destroyed in Riyadh and Southern Regions",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zZVVnRDRWbVVXRWFGdHlDWFV6eHVBcGlDa3ZweVR4TXV0Q25xTURkODUxSHFsY0pCMm95VDRfR2w5dG1GaXIwV0VR?oc=5",
-    "reportedAt": 1793051371000,
-    "assumeSaudi": false,
-    "firstSeen": 1793033495480
-   },
-   {
     "id": "a2863ab0f5f2",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -3706,6 +3663,20 @@
     "reportedAt": 1793031900000,
     "assumeSaudi": false,
     "firstSeen": 1793062845071
+   },
+   {
+    "id": "7be8a5e4e8fc",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Coalition: Three UAVs Intercepted and Destroyed in Riyadh and Southern Regions",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zZVVnRDRWbVVXRWFGdHlDWFV6eHVBcGlDa3ZweVR4TXV0Q25xTURkODUxSHFsY0pCMm95VDRfR2w5dG1GaXIwV0VR?oc=5",
+    "reportedAt": 1793029936000,
+    "assumeSaudi": false,
+    "firstSeen": 1793033495480
    },
    {
     "id": "1661d7d6514a",
