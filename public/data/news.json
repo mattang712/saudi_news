@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-10-29T06:10:29.508Z",
-  "lastAttemptAt": "2026-10-29T06:10:29.508Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-10-29T06:20:32.897Z",
+  "lastAttemptAt": "2026-10-29T06:20:32.897Z",
   "aiSummary": true,
   "summaryAt": "2026-10-29T05:30:36.077Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 19
+    "count": 18
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 52
+    "count": 49
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 22
+    "count": 19
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 104
+    "count": 108
    },
    {
     "name": "Saudi Gazette",
@@ -46,7 +46,7 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 201
+    "count": 203
    },
    {
     "name": "Al Jazeera",
@@ -55,23 +55,52 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 80
+    "count": 66
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
+    "date": "2026-10-26",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 공항 및 항공편 운항 현황(10.25. 오후 업데이트)",
+    "date": "2026-10-25",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -577,9 +606,9 @@
   {
    "id": "e5e8ba3e69bf",
    "articleIds": [
+    "edc6efeb12f3",
     "28755364f85e",
-    "08d03889bde3",
-    "edc6efeb12f3"
+    "08d03889bde3"
    ],
    "type": "airport",
    "sev": "mid",
@@ -589,9 +618,9 @@
    "titleAuto": false,
    "regions": [
     "airport",
-    "riyadh",
     "dammam",
-    "eastern"
+    "eastern",
+    "riyadh"
    ],
    "inferred": false,
    "inferNote": null,
@@ -599,6 +628,16 @@
    "collectedAt": "2026-10-23T09:57:49.093Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
+     "titleKo": "아랍연맹, 담맘 공항·셰이바 유전 공격 강력 규탄",
+     "summary": "아덴공항과 민간시설을 향한 후티의 공격이 전쟁범죄 가능성을 제기받고 있다고 보도됐어요.",
+     "reportedAt": "2026-10-27T17:30:49.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wTEVxczYwZEFhSGh2OVAyWF9lcVJROXNPVWxwNWJzU0JGVEZGcm5sd1JRVnBVQ3hySnlpaTZ6UkFTY3h0RS1vTzNB?oc=5"
+    },
     {
      "outlet": "Arab News",
      "cat": "local",
@@ -618,16 +657,6 @@
      "reportedAt": "2026-10-28T13:18:08.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YOTlEZ0Jhbk9UZ29QaC1HdDcwOTB6VkwzNmhfTkI4R19qMjAzbWY3UXVTMVZyNW9CS2h0OE91anZaZXJEYVd4dVFJR0NQN19LYW80czMxTlUyaXVpMS1MZkt3?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
-     "titleKo": "아랍연맹, 담맘 공항·셰이바 유전 공격 강력 규탄",
-     "summary": "아덴공항과 민간시설을 향한 후티의 공격이 전쟁범죄 가능성을 제기받고 있다고 보도됐어요.",
-     "reportedAt": "2026-10-28T13:58:09.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5"
     }
    ]
   },
@@ -1973,38 +2002,6 @@
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5"
     }
    ]
-  },
-  {
-   "id": "6da4b847b7a6",
-   "articleIds": [
-    "8d40b793c7c3"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "\"'방위 동맹' 사우디·파키스탄·튀르키예, 이란서 후티-사우디 충돌 문제 논의\"",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-10-26T07:40:28.813Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "\"'방위 동맹' 사우디·파키스탄·튀르키예, 이란서 후티-사우디 충돌 문제 논의\"",
-     "titleKo": null,
-     "summary": "사우디·파키스탄·튀르키예 등 방위 동맹이 이란에서 후티-사우디 문제를 논의했다고 보도됐어요.",
-     "reportedAt": "2026-10-26T06:18:27.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02Y1FiTjYyNzdzZVpvX2VYbkx1YlNqV1gyamJGYWlVSWpUMF9mcnp5ZThPZGVMR2xKMUNHSGE3VktzeGJCaUpTalpGTEhyMUVER1h6eUhicDJPMml6ZUJHd0lDai1UYm9TYjBnVHZobmNSS1RT0gF0QVVfeXFMTnJLZG4wbGVNTU9WRzE4TkZfdE9zMTl2Z1o3TWw4UTQ0SUtRQmRHUFg0OTJYNkF6ZzRqaHYteHI5dkozLXkyaEhfeFF6SE5qcTJObWhlX2Vxcjd1RFhpWVhmTUR5REhpdm5LS0FPRGtOei1ULXM?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -2079,26 +2076,6 @@
    "reportedAt": "2026-10-28T15:57:51.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5334790"
-  },
-  {
-   "id": "edc6efeb12f3",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "energy",
-   "sev": "high",
-   "regions": [
-    "dammam",
-    "airport",
-    "eastern"
-   ],
-   "inferred": false,
-   "titleKo": "아랍연맹, 담맘 공항·셰이바 유전 공격 강력 규탄",
-   "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
-   "summary": "아덴공항과 민간시설을 향한 후티의 공격이 전쟁범죄 가능성을 제기받고 있다고 보도됐어요.",
-   "reportedAt": "2026-10-28T13:58:09.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5"
   },
   {
    "id": "cc19672b45f5",
@@ -2243,6 +2220,26 @@
    "reportedAt": "2026-10-27T19:17:53.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5"
+  },
+  {
+   "id": "edc6efeb12f3",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "dammam",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "titleKo": "아랍연맹, 담맘 공항·셰이바 유전 공격 강력 규탄",
+   "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
+   "summary": "아덴공항과 민간시설을 향한 후티의 공격이 전쟁범죄 가능성을 제기받고 있다고 보도됐어요.",
+   "reportedAt": "2026-10-27T17:30:49.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wTEVxczYwZEFhSGh2OVAyWF9lcVJROXNPVWxwNWJzU0JGVEZGcm5sd1JRVnBVQ3hySnlpaTZ6UkFTY3h0RS1vTzNB?oc=5"
   },
   {
    "id": "82a4655b88bc",
@@ -2867,20 +2864,6 @@
     "firstSeen": 1793199651125
    },
    {
-    "id": "edc6efeb12f3",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5",
-    "reportedAt": 1793195889000,
-    "assumeSaudi": false,
-    "firstSeen": 1792749469093
-   },
-   {
     "id": "08d03889bde3",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -3201,6 +3184,20 @@
     "reportedAt": 1793128673000,
     "assumeSaudi": false,
     "firstSeen": 1793110828522
+   },
+   {
+    "id": "edc6efeb12f3",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wTEVxczYwZEFhSGh2OVAyWF9lcVJROXNPVWxwNWJzU0JGVEZGcm5sd1JRVnBVQ3hySnlpaTZ6UkFTY3h0RS1vTzNB?oc=5",
+    "reportedAt": 1793122249000,
+    "assumeSaudi": false,
+    "firstSeen": 1792749469093
    },
    {
     "id": "b08b24aafade",
@@ -3957,26 +3954,11 @@
     "reportedAt": 1792996694000,
     "assumeSaudi": false,
     "firstSeen": 1792998047356
-   },
-   {
-    "id": "8d40b793c7c3",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "MBC",
-    "title": "\"'방위 동맹' 사우디·파키스탄·튀르키예, 이란서 후티-사우디 충돌 문제 논의\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02Y1FiTjYyNzdzZVpvX2VYbkx1YlNqV1gyamJGYWlVSWpUMF9mcnp5ZThPZGVMR2xKMUNHSGE3VktzeGJCaUpTalpGTEhyMUVER1h6eUhicDJPMml6ZUJHd0lDai1UYm9TYjBnVHZobmNSS1RT0gF0QVVfeXFMTnJLZG4wbGVNTU9WRzE4TkZfdE9zMTl2Z1o3TWw4UTQ0SUtRQmRHUFg0OTJYNkF6ZzRqaHYteHI5dkozLXkyaEhfeFF6SE5qcTJObWhlX2Vxcjd1RFhpWVhmTUR5REhpdm5LS0FPRGtOei1ULXM?oc=5",
-    "reportedAt": 1792995507000,
-    "assumeSaudi": false,
-    "firstSeen": 1793000428813
    }
   ],
   "summaries": {
    "edc6efeb12f3": "아덴공항과 민간시설을 향한 후티의 공격이 전쟁범죄 가능성을 제기받고 있다고 보도됐어요.",
    "1c76bcd9f357": "연합군은 예멘 반군의 미사일 시설을 파괴했다고 발표했습니다,",
-   "8d40b793c7c3": "사우디·파키스탄·튀르키예 등 방위 동맹이 이란에서 후티-사우디 문제를 논의했다고 보도됐어요.",
    "eb61170dc3d4": "후티는 사우디의 석유 송유관과 리야드 공항 등을 공격했다고 주장했지만 사우디 확인은 없다고 보도했어요.",
    "a797f8397bc3": "후티의 공격으로 사우디 내 항공편 운항이 중단되거나 지연됐다고 보도했습니다.",
    "9bb960654b1b": "사우디 연합군이 후티의 미사일 및 저장 시설을 파괴했다고 보도했습니다.",
@@ -4067,7 +4049,6 @@
    "edc6efeb12f3": "아랍연맹, 담맘 공항·셰이바 유전 공격 강력 규탄",
    "eb61170dc3d4": "후티, 사우디 송유관·리야드 공항 등 공격했다고 주장",
    "1c76bcd9f357": "연합군, 예멘 반군 미사일 시설 파괴 발표",
-   "8d40b793c7c3": "사우디·파키스탄·튀르키예 고위대표단, 이란서 회담",
    "2db0bd055ccb": "사우디, 아시안컵 2027 개막 예정대로 확정",
    "a797f8397bc3": "후티 공격으로 항공편 운항 중단·지연 발생 보도",
    "df994b0d0e83": "후티, 고위급 회담 앞두고 사우디 공격 주장",
@@ -4464,12 +4445,6 @@
    {
     "articleIds": [
      "eb61170dc3d4"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "8d40b793c7c3"
     ],
     "fromRule": true
    },
