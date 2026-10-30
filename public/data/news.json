@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-10-30T00:13:11.297Z",
-  "lastAttemptAt": "2026-10-30T00:13:11.297Z",
+  "lastSuccessAt": "2026-10-30T00:20:32.457Z",
+  "lastAttemptAt": "2026-10-30T00:20:32.457Z",
   "aiSummary": true,
   "summaryAt": "2026-10-29T22:30:34.999Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 6
+    "count": 13
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 43
+    "count": 42
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 17
+    "count": 18
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 113
+    "count": 114
    },
    {
     "name": "Saudi Gazette",
@@ -51,7 +51,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 39
+    "count": 38
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 69
+    "count": 63
    }
   ],
   "mofaLatest": [
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "bf0dc00c99f6",
+   "articleIds": [
+    "05b90eb31511"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "claim",
+   "directive": null,
+   "title": "후티군, 사우디 공항·석유 시설 6건 공격했다고 주장",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-30T00:20:32.457Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
+     "titleKo": "후티군, 사우디 공항·석유 시설 6건 공격했다고 주장",
+     "summary": "",
+     "reportedAt": "2026-10-30T00:11:20.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss"
+    }
+   ]
+  },
   {
    "id": "df02cb666d74",
    "articleIds": [
@@ -1908,6 +1940,24 @@
  ],
  "timeline": [
   {
+   "id": "05b90eb31511",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": true,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "titleKo": "후티군, 사우디 공항·석유 시설 6건 공격했다고 주장",
+   "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
+   "summary": "",
+   "reportedAt": "2026-10-30T00:11:20.000Z",
+   "dateOnly": false,
+   "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss"
+  },
+  {
    "id": "53d519c8da9d",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -2452,6 +2502,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "05b90eb31511",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
+    "snippet": "The announcement comes despite talks between Iran and the Mecca pact countries in Tehran earlier this week.",
+    "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
+    "reportedAt": 1793319080000,
+    "assumeSaudi": false,
+    "firstSeen": 1793319632457
+   },
    {
     "id": "e421624aa00c",
     "feed": "한국 주요 언론",
@@ -3780,7 +3844,8 @@
    "e421624aa00c": "후티 반군 \"사우디 정유시설 등 겨냥 6차례 공격…보복 지속\"",
    "dd4476be6214": "후티 반군 \"사우디 공항·석유시설 등 6곳 공격\"",
    "6818534bbccb": "후티 반군 \"사우디 리야드 공항·아람코 석유시설 등 6곳 타격\"",
-   "ea326534f28a": "후티 반군 \"사우디 리야드 공항·아람코 석유시설 등 6곳 타격\""
+   "ea326534f28a": "후티 반군 \"사우디 리야드 공항·아람코 석유시설 등 6곳 타격\"",
+   "05b90eb31511": "후티군, 사우디 공항·석유 시설 6건 공격했다고 주장"
   },
   "aiClusters": [
    {
@@ -4128,6 +4193,12 @@
    {
     "articleIds": [
      "2ae06d7e8f1d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "05b90eb31511"
     ],
     "fromRule": true
    }
