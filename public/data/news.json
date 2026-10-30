@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-10-30T18:00:42.946Z",
-  "lastAttemptAt": "2026-10-30T18:00:42.946Z",
+  "lastSuccessAt": "2026-10-30T18:10:30.756Z",
+  "lastAttemptAt": "2026-10-30T18:10:30.756Z",
   "aiSummary": true,
   "summaryAt": "2026-10-30T16:40:32.876Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 31
+    "count": 25
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 40
+    "count": 38
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 19
+    "count": 18
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 102
+    "count": 100
    },
    {
     "name": "Saudi Gazette",
@@ -46,12 +46,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 194
+    "count": 195
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 65
+    "count": 52
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 41
+    "count": 42
    }
   ],
   "mofaLatest": [
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "fef1a4c10481",
+   "articleIds": [
+    "72a996890432"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 사우디에 발사된 탄도·순항미사일 및 드론 2대 격추했다고 밝혀",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-30T18:10:30.756Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Coalition Says Destroys Ballistic, Cruise Missiles, 2 Drones Fired at Saudi Arabia",
+     "titleKo": "연합군, 사우디에 발사된 탄도·순항미사일 및 드론 2대 격추했다고 밝혀",
+     "summary": "",
+     "reportedAt": "2026-10-30T18:06:32.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5335721"
+    }
+   ]
+  },
   {
    "id": "3df93cbd9ed1",
    "articleIds": [
@@ -1795,6 +1827,24 @@
  ],
  "timeline": [
   {
+   "id": "72a996890432",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "연합군, 사우디에 발사된 탄도·순항미사일 및 드론 2대 격추했다고 밝혀",
+   "title": "Coalition Says Destroys Ballistic, Cruise Missiles, 2 Drones Fired at Saudi Arabia",
+   "summary": "",
+   "reportedAt": "2026-10-30T18:06:32.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5335721"
+  },
+  {
    "id": "91007dfce51c",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -2303,6 +2353,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "72a996890432",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Coalition Says Destroys Ballistic, Cruise Missiles, 2 Drones Fired at Saudi Arabia",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5335721",
+    "reportedAt": 1793383592000,
+    "assumeSaudi": false,
+    "firstSeen": 1793383830756
+   },
    {
     "id": "91007dfce51c",
     "feed": "SPA (사우디 국영통신)",
@@ -3581,7 +3645,8 @@
    "4153d865b397": "ZATCA, 알하디사 국경서 43,371정 암페타민 밀수 시도 저지",
    "91007dfce51c": "연합군: 리야드 지역에서 무인기 요격·파괴",
    "29621f4bbf09": "사우디 주도 연합군, 리야드 상공에서 후티 드론·남부에서 미사일 요격",
-   "bc90cfc09b9a": "사우디 \"후티, 이슬람 성지 메카 드론 공격시도\"…후티는 부인"
+   "bc90cfc09b9a": "사우디 \"후티, 이슬람 성지 메카 드론 공격시도\"…후티는 부인",
+   "72a996890432": "연합군, 사우디에 발사된 탄도·순항미사일 및 드론 2대 격추했다고 밝혀"
   },
   "aiClusters": [
    {
@@ -3884,6 +3949,12 @@
    {
     "articleIds": [
      "4153d865b397"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "72a996890432"
     ],
     "fromRule": true
    }
