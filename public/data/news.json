@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-10-30T15:50:32.899Z",
-  "lastAttemptAt": "2026-10-30T15:50:32.899Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-10-30T16:00:47.367Z",
+  "lastAttemptAt": "2026-10-30T16:00:47.367Z",
   "aiSummary": true,
   "summaryAt": "2026-10-30T15:00:54.808Z",
   "aiError": null,
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 39
+    "count": 41
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 23
+    "count": 22
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 90
+    "count": 100
    },
    {
     "name": "Saudi Gazette",
@@ -51,56 +51,27 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 61
+    "count": 56
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 41
+    "count": 51
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.29)",
-    "date": "2026-10-29",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
-    "date": "2026-10-26",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "중동 정세 관련 안전 유의 안내(10.25.)",
-    "date": "2026-10-25",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -1588,9 +1559,8 @@
    ]
   },
   {
-   "id": "fbdf5decc584",
+   "id": "0b24da3ef401",
    "articleIds": [
-    "613182cf043d",
     "b08b24aafade",
     "e9347b5a7215"
    ],
@@ -1606,19 +1576,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-27T16:10:32.629Z",
+   "collectedAt": "2026-10-27T16:50:34.880Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "메카 3국·이란 회담 다음날…후티 \"사우디 국방부 등 공격\"",
-     "titleKo": null,
-     "summary": "후티가 사우디 주요 시설을 공격했다고 주장했다고 보도했어요.",
-     "reportedAt": "2026-10-27T15:58:27.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vTlZKVHlyVWpVNTg4ZkQ3UHJDTE9jeUNZbHptNG1iQjJ1UWpWMUJfTFI1VTRjaTJVVWh5SnlzNUYxYTJyUDNyQ1g2b2tXMmhCZTJFVDBlV0l0azNaNk9jeNIBYEFVX3lxTE9vTlZKVHlyVWpVNTg4ZkQ3UHJDTE9jeUNZbHptNG1iQjJ1UWpWMUJfTFI1VTRjaTJVVWh5SnlzNUYxYTJyUDNyQ1g2b2tXMmhCZTJFVDBlV0l0azNaNk9jeA?oc=5"
-    },
     {
      "outlet": "SBS",
      "cat": "kr",
@@ -3448,20 +3408,6 @@
     "reportedAt": 1793117988000,
     "assumeSaudi": false,
     "firstSeen": 1793118032738
-   },
-   {
-    "id": "613182cf043d",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "연합뉴스",
-    "title": "메카 3국·이란 회담 다음날…후티 \"사우디 국방부 등 공격\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vTlZKVHlyVWpVNTg4ZkQ3UHJDTE9jeUNZbHptNG1iQjJ1UWpWMUJfTFI1VTRjaTJVVWh5SnlzNUYxYTJyUDNyQ1g2b2tXMmhCZTJFVDBlV0l0azNaNk9jeNIBYEFVX3lxTE9vTlZKVHlyVWpVNTg4ZkQ3UHJDTE9jeUNZbHptNG1iQjJ1UWpWMUJfTFI1VTRjaTJVVWh5SnlzNUYxYTJyUDNyQ1g2b2tXMmhCZTJFVDBlV0l0azNaNk9jeA?oc=5",
-    "reportedAt": 1793116707000,
-    "assumeSaudi": false,
-    "firstSeen": 1793117432629
    }
   ],
   "summaries": {
@@ -3472,7 +3418,6 @@
    "fab8b8cb07f2": "리야드 상공에서 폭발음이 들렸고 당국은 후티 미사일을 요격했다고 보도했어요.",
    "b08b24aafade": "후티가 사우디 국방부 등 주요 표적을 공격했다고 주장했다고 보도했어요.",
    "82a4655b88bc": "연합군이 사우디에 발사된 5발의 탄도미사일과 4대의 드론을 격파했다고 보도했어요.",
-   "613182cf043d": "후티가 사우디 주요 시설을 공격했다고 주장했다고 보도했어요.",
    "6fe0d6dc1f89": "요격된 미사일 파편으로 리야드의 건물과 차량에 물적 피해가 발생했다고 사우디 민방위가 발표했어요.",
    "4a381fe34198": "후티가 사우디군 지원 정부군의 공격을 보도하며 내전 관련 소식을 전했다고 보도해요.",
    "43a7919fb3a6": "사우디 정유시설 공격이 공급 우려를 일으켜 유가가 올랐다고 보도해요.",
@@ -3553,7 +3498,6 @@
    "43a7919fb3a6": "정유시설 공격에 따른 유가 상승 보도",
    "9388ef936e99": "사우디, 수도 상공에서 후티 미사일 요격 보도",
    "e9347b5a7215": "후티 \"사우디 국방부 등 공격\"이라고 주장",
-   "613182cf043d": "후티가 사우디 주요 시설을 공격했다고 주장",
    "96fef862dacc": "정유시설 공격 뒤 유가 1% 이상 상승",
    "c72b48887d5b": "동부주 상공에서 후티 탄도미사일 요격",
    "377c8296c3eb": "사우디 정유소 공격으로 유가 1% 이상 상승",
@@ -3864,8 +3808,7 @@
    {
     "articleIds": [
      "e9347b5a7215",
-     "b08b24aafade",
-     "613182cf043d"
+     "b08b24aafade"
     ],
     "fromRule": true
    },
