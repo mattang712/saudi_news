@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-10-31T05:30:40.175Z",
-  "lastAttemptAt": "2026-10-31T05:30:40.175Z",
+  "lastSuccessAt": "2026-10-31T05:40:30.294Z",
+  "lastAttemptAt": "2026-10-31T05:40:30.294Z",
   "aiSummary": true,
   "summaryAt": "2026-10-31T05:30:40.175Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 24
+    "count": 22
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 49
+    "count": 53
    },
    {
     "name": "AP",
@@ -36,12 +36,12 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 89
+    "count": 91
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 60
+    "count": 61
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +51,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 54
+    "count": 57
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 46
+    "count": 48
    }
   ],
   "mofaLatest": [
@@ -103,6 +103,86 @@
   ]
  },
  "events": [
+  {
+   "id": "9420b48ed5b0",
+   "articleIds": [
+    "8e4844514198",
+    "57c7c56048bb",
+    "6c852f27727c",
+    "d0a9a9ef98b6",
+    "edc6efeb12f3"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "후티, 동부(석유지대)에 탄도미사일 발사했다고 사우디 연합군 발표(국영통신 보도)",
+   "titleAuto": true,
+   "regions": [
+    "eastern",
+    "jafurah",
+    "dammam",
+    "riyadh",
+    "airport"
+   ],
+   "inferred": true,
+   "inferNote": "기사에 'Eastern Province', 'oil field' 등 지명은 있지만 자푸라·담맘이 직접 모두 명시되지 않아 추정해요.",
+   "occurredAt": null,
+   "collectedAt": "2026-10-23T09:57:49.093Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Coalition Intercepts Houthi Missile Fired towards Eastern Province",
+     "titleKo": "연합군, 동부주 향한 후티 미사일 요격 보도",
+     "summary": "연합이 동부주를 향한 후티 미사일을 요격했다고 보도했어요.",
+     "reportedAt": "2026-10-29T05:30:00.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5334994"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Houthi ballistic missile intercepted over Eastern Province",
+     "titleKo": "후티 탄도미사일 동부주 상공에서 요격",
+     "summary": "사우디 방공이 동부주 상공에서 발사된 탄도미사일을 요격·파괴했다고 밝혔어요.",
+     "reportedAt": "2026-10-29T12:41:52.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665829/saudi-arabia/houthi-ballistic-missile-intercepted-over-eastern-province"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Yemen's Houthis attack Saudi oil heartland",
+     "titleKo": "로이터: 예멘 후티, 사우디 석유 심장지대 공격",
+     "summary": "로이터는 후티가 사우디 석유 중심지를 공격했다고 보도했어요.",
+     "reportedAt": "2026-10-30T13:01:25.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YWm5BSGY1OXFnN09EOWoyVVhiZlB5ZXpmM0tMUzZEdzdTUWJ5aGZTQjZUT3p3SGJhWmNaMVc3MWEyWUNrb3lHeElyT2FwdmtKR3RRZFVCZ3cxekRB?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Saudi-led coalition says it downs drone over oil-rich Eastern Region",
+     "titleKo": "사우디 주도 연합, 유전이 많은 동부 지역 상공 드론 격추했다고 밝혀",
+     "summary": "사우디 연합은 동부 석유지대로 향한 드론을 요격했다고 발표했어요.",
+     "reportedAt": "2026-10-30T19:37:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdTZlcVd4TG9tTWJjN0dRNEZ4enV5NHc1bGpzWnZjSjVwcGhuM3M3V2pERWNoNW9QLVFzTE9uVXhJb1lBOWFmMEhCRVZNeFdZX0ZFR21LcnlTLTRwemdlTzZ2OHlidndqVEJKaXJEMDRuVEo1V0xMVlpwWVF3LWVOTmJuOHAyTG9RTFhhUW9mcXVRR0N2dXJxQVRqdVVQQnZqdHFRdVdiZ1dvVzFrWWhHai1JSFhsdzhVcjlCU05IVXg?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
+     "titleKo": "아랍연맹, 담맘 공항·쉐이바 유전 공격 강력 규탄",
+     "summary": "아랍연맹은 담맘 공항과 섀이바 유전 공격을 강력히 규탄했다고 국영통신이 전했어요.",
+     "reportedAt": "2026-10-31T04:32:12.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5"
+    }
+   ]
+  },
   {
    "id": "88676afa157b",
    "articleIds": [
@@ -465,82 +545,34 @@
    ]
   },
   {
-   "id": "9420b48ed5b0",
+   "id": "4a64d5ae215b",
    "articleIds": [
-    "8e4844514198",
-    "57c7c56048bb",
-    "6c852f27727c",
-    "edc6efeb12f3",
-    "d0a9a9ef98b6"
+    "4153d865b397"
    ],
-   "type": "energy",
-   "sev": "high",
-   "status": "official",
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
    "directive": null,
-   "title": "후티, 동부(석유지대)에 탄도미사일 발사했다고 사우디 연합군 발표(국영통신 보도)",
+   "title": "ZATCA, 알하디사 국경서 43,371정 암페타민 밀수 시도 저지",
    "titleAuto": true,
    "regions": [
-    "eastern",
-    "jafurah",
-    "dammam",
-    "riyadh",
-    "airport"
+    "riyadh"
    ],
-   "inferred": true,
-   "inferNote": "기사에 'Eastern Province', 'oil field' 등 지명은 있지만 자푸라·담맘이 직접 모두 명시되지 않아 추정해요.",
+   "inferred": false,
+   "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-10-23T09:57:49.093Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-10-30T14:40:33.080Z",
+   "aiNote": null,
    "sources": [
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Coalition Intercepts Houthi Missile Fired towards Eastern Province",
-     "titleKo": "연합군, 동부주 향한 후티 미사일 요격 보도",
-     "summary": "연합이 동부주를 향한 후티 미사일을 요격했다고 보도했어요.",
-     "reportedAt": "2026-10-29T05:30:00.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5334994"
-    },
     {
      "outlet": "Saudi Gazette",
      "cat": "local",
-     "title": "Houthi ballistic missile intercepted over Eastern Province",
-     "titleKo": "후티 탄도미사일 동부주 상공에서 요격",
-     "summary": "사우디 방공이 동부주 상공에서 발사된 탄도미사일을 요격·파괴했다고 밝혔어요.",
-     "reportedAt": "2026-10-29T12:41:52.000Z",
+     "title": "ZATCA foil attempt to smuggle over 43,000 amphetamine pills through Al-Haditha border crossing",
+     "titleKo": "ZATCA, 알하디사 국경서 43,371정 암페타민 밀수 시도 저지",
+     "summary": "사우디발 보도로는 유가·공급 우려와 관련된 보도가 포함됐어요.",
+     "reportedAt": "2026-10-30T14:12:55.000Z",
      "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/665829/saudi-arabia/houthi-ballistic-missile-intercepted-over-eastern-province"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Yemen's Houthis attack Saudi oil heartland",
-     "titleKo": "로이터: 예멘 후티, 사우디 석유 심장지대 공격",
-     "summary": "로이터는 후티가 사우디 석유 중심지를 공격했다고 보도했어요.",
-     "reportedAt": "2026-10-30T13:01:25.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YWm5BSGY1OXFnN09EOWoyVVhiZlB5ZXpmM0tMUzZEdzdTUWJ5aGZTQjZUT3p3SGJhWmNaMVc3MWEyWUNrb3lHeElyT2FwdmtKR3RRZFVCZ3cxekRB?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
-     "titleKo": "아랍연맹, 담맘 공항·쉐이바 유전 공격 강력 규탄",
-     "summary": "아랍연맹은 담맘 공항과 섀이바 유전 공격을 강력히 규탄했다고 국영통신이 전했어요.",
-     "reportedAt": "2026-10-30T13:17:54.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi-led coalition says it downs drone over oil-rich Eastern Region",
-     "titleKo": "사우디 주도 연합, 유전이 많은 동부 지역 상공 드론 격추했다고 밝혀",
-     "summary": "사우디 연합은 동부 석유지대로 향한 드론을 요격했다고 발표했어요.",
-     "reportedAt": "2026-10-30T19:37:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdTZlcVd4TG9tTWJjN0dRNEZ4enV5NHc1bGpzWnZjSjVwcGhuM3M3V2pERWNoNW9QLVFzTE9uVXhJb1lBOWFmMEhCRVZNeFdZX0ZFR21LcnlTLTRwemdlTzZ2OHlidndqVEJKaXJEMDRuVEo1V0xMVlpwWVF3LWVOTmJuOHAyTG9RTFhhUW9mcXVRR0N2dXJxQVRqdVVQQnZqdHFRdVdiZ1dvVzFrWWhHai1JSFhsdzhVcjlCU05IVXg?oc=5"
+     "url": "https://saudigazette.com.sa/article/665859/saudi-arabia/saudi-customs-seize-43371-amphetamine-pills-at-al-haditha-border-crossing"
     }
    ]
   },
@@ -638,7 +670,7 @@
      "summary": "리야드에서는 요격된 미사일 잔해로 시민이 부상하고 주택·차량이 파손됐다고 보도됐어요.",
      "reportedAt": "2026-10-30T13:00:28.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/debris-from-intercepted-missile-injures-citizen-damages-house-and-vehicle-in-riyadh-3008997"
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTFKbGc0dEdkV0pFbkxseUo3bXBJZGJKNm9jZkR2NUo0T05XTG5MTzN2UTBHUEFkamVxZFhVd1ZUMHdZWkg2NWxWeE5Bb0ZUUWxiQmVjUTJlZVJXcERId29uZlRwTFJ2cDdCbFBCd1B6WnpDcjlLT21TNm9LTWpvNEw2bVBaQ3lmQTRsSlNTd09ibTBQYS16WmR6V1N2eUY5N0Fad1R5T19mUi02bDBfR21ScmxZTXJzallqcHQ3cjhNa3ZEbXlzWA?oc=5"
     }
    ]
   },
@@ -1678,6 +1710,26 @@
  ],
  "timeline": [
   {
+   "id": "edc6efeb12f3",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "dammam",
+    "airport",
+    "eastern"
+   ],
+   "inferred": false,
+   "titleKo": "아랍연맹, 담맘 공항·쉐이바 유전 공격 강력 규탄",
+   "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
+   "summary": "아랍연맹은 담맘 공항과 섀이바 유전 공격을 강력히 규탄했다고 국영통신이 전했어요.",
+   "reportedAt": "2026-10-31T04:32:12.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5"
+  },
+  {
    "id": "6bd4e1ab78fb",
    "outlet": "Reuters",
    "official": false,
@@ -1784,26 +1836,6 @@
    "reportedAt": "2026-10-30T16:38:44.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE92dmpOaWJvREtlN2RCckowWldycGdWNElCNVBROGZWZ2F0VnZMSzYtZlFhRGlLV1dqU1lnY3NYX1UyQ285VHRScHVB?oc=5"
-  },
-  {
-   "id": "edc6efeb12f3",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "energy",
-   "sev": "high",
-   "regions": [
-    "dammam",
-    "airport",
-    "eastern"
-   ],
-   "inferred": false,
-   "titleKo": "아랍연맹, 담맘 공항·쉐이바 유전 공격 강력 규탄",
-   "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
-   "summary": "아랍연맹은 담맘 공항과 섀이바 유전 공격을 강력히 규탄했다고 국영통신이 전했어요.",
-   "reportedAt": "2026-10-30T13:17:54.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5"
   },
   {
    "id": "6c852f27727c",
@@ -2133,6 +2165,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "edc6efeb12f3",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5",
+    "reportedAt": 1793421132000,
+    "assumeSaudi": false,
+    "firstSeen": 1792749469093
+   },
+   {
     "id": "c82d918129c7",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -2385,20 +2431,6 @@
     "firstSeen": 1793371233080
    },
    {
-    "id": "edc6efeb12f3",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Arab League Strongly Denounces Houthi Attacks on Dammam Airport, Shaybah Oil Field",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jd3lGYklPUXczeUxXWElhdGpDR09SeDBILUQ4MTdpRXl0NVVHWnN5NXdweUhIVExIaEp5dWNUOUJkMktvX2ZWWTN3?oc=5",
-    "reportedAt": 1793366274000,
-    "assumeSaudi": false,
-    "firstSeen": 1792749469093
-   },
-   {
     "id": "6c852f27727c",
     "feed": "Reuters",
     "cat": "wire",
@@ -2420,8 +2452,8 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Debris from intercepted missile injures citizen, damages house and vehicle in Riyadh",
-    "snippet": "The General Directorate of Saudi Civil Defense said on Friday that a citizen sustained minor injuries when debris from two ballistic missiles launched by the terrorist Houthi militia fell in Riyadh after the missiles were intercepted and destroyed on Thursday. “The fall of shrapnel as a result of the interception of two ballistic missiles in Riyadh city has led to a minor injury to a citizen and m",
-    "url": "https://www.arabnews.com/saudi-arabia/debris-from-intercepted-missile-injures-citizen-damages-house-and-vehicle-in-riyadh-3008997",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTFKbGc0dEdkV0pFbkxseUo3bXBJZGJKNm9jZkR2NUo0T05XTG5MTzN2UTBHUEFkamVxZFhVd1ZUMHdZWkg2NWxWeE5Bb0ZUUWxiQmVjUTJlZVJXcERId29uZlRwTFJ2cDdCbFBCd1B6WnpDcjlLT21TNm9LTWpvNEw2bVBaQ3lmQTRsSlNTd09ibTBQYS16WmR6V1N2eUY5N0Fad1R5T19mUi02bDBfR21ScmxZTXJzallqcHQ3cjhNa3ZEbXlzWA?oc=5",
     "reportedAt": 1793365228000,
     "assumeSaudi": false,
     "firstSeen": 1793365249748
@@ -3698,6 +3730,12 @@
    {
     "articleIds": [
      "361d8764c26b"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "4153d865b397"
     ],
     "fromRule": true
    }
