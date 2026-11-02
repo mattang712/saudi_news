@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-02T05:40:31.838Z",
-  "lastAttemptAt": "2026-11-02T05:40:31.838Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-02T05:50:29.927Z",
+  "lastAttemptAt": "2026-11-02T05:50:29.927Z",
   "aiSummary": true,
   "summaryAt": "2026-11-02T05:40:31.838Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 18
+    "count": 15
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 11
+    "count": 12
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 15
+    "count": 16
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 98
+    "count": 96
    },
    {
     "name": "Saudi Gazette",
@@ -46,7 +46,7 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 146
+    "count": 145
    },
    {
     "name": "Al Jazeera",
@@ -55,52 +55,23 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 56
+    "count": 57
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
-    "date": "2026-11-01",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.29)",
-    "date": "2026-10-29",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
-    "date": "2026-10-26",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -496,8 +467,7 @@
    "regions": [
     "dammam",
     "airport",
-    "eastern",
-    "riyadh"
+    "eastern"
    ],
    "inferred": false,
    "inferNote": null,
@@ -523,7 +493,7 @@
      "summary": "사우디는 걸프에서 카타르 LNG선이 공격받은 점을 규탄하며 국제적 조치를 촉구했다고 보도됐어요.",
      "reportedAt": "2026-11-01T16:19:15.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-attack-on-qatari-lng-carrier-in-gulf-3009281"
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMXJiWG9GemlNYWNmZkcxTUxmNEtGLVdRYXZEZUNCM2xCQlgyOU1ZYUVCdFlDTE5xb05qR0dGRlBYLWlqSTFtY3B1bWxaejdoQzlrclZneVI0UXNwNlNkbTZKbDhLbExfaUExYU1LcTdqY2FWMlBNUEVKdGVsMDVXX25qdnpRY2t4MjVoNlpVNkticmxGX0QzQnhjZTlBbXhJNG5YTHBVTQ?oc=5"
     }
    ]
   },
@@ -1026,6 +996,38 @@
      "reportedAt": "2026-10-30T18:40:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyYktsTUlwMVVMc210SXJXdzZQVGtYWXBzZGtIZFhGTklhR21LbU4wbS15UWplRFp4bXJaZE9Ja2FlV2NlbzItOERUcThhTkZXQzNNSDlydi00bEJBWHk0dGdjYWZQWEk?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "4a64d5ae215b",
+   "articleIds": [
+    "4153d865b397"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디, 메카 지역서 후티 드론 요격 발표",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-10-30T14:40:33.080Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "ZATCA foil attempt to smuggle over 43,000 amphetamine pills through Al-Haditha border crossing",
+     "titleKo": "사우디, 메카 지역서 후티 드론 요격 발표",
+     "summary": "ZATCA가 알하디사 국경에서 필로폰 4만여정을 적발·차단했다고 보도했어요.",
+     "reportedAt": "2026-10-30T14:12:55.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665859/saudi-arabia/saudi-customs-seize-43371-amphetamine-pills-at-al-haditha-border-crossing"
     }
    ]
   },
@@ -1628,8 +1630,8 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Saudi Arabia condemns attack on Qatari LNG carrier in Gulf",
-    "snippet": "RIYADH: Saudi Arabia condemned on Sunday the targeting of a Qatari liquefied natural gas tanker in the Gulf, calling for urgent international action to protect shipping and global energy supplies. The Qatar Gas Transport Company vessel Al-Mayeda was struck on Friday night. The company said in a statement that none of the crew members was injured, and no environmental damage was reported. Saudi Ara",
-    "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-attack-on-qatari-lng-carrier-in-gulf-3009281",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMXJiWG9GemlNYWNmZkcxTUxmNEtGLVdRYXZEZUNCM2xCQlgyOU1ZYUVCdFlDTE5xb05qR0dGRlBYLWlqSTFtY3B1bWxaejdoQzlrclZneVI0UXNwNlNkbTZKbDhLbExfaUExYU1LcTdqY2FWMlBNUEVKdGVsMDVXX25qdnpRY2t4MjVoNlpVNkticmxGX0QzQnhjZTlBbXhJNG5YTHBVTQ?oc=5",
     "reportedAt": 1793549955000,
     "assumeSaudi": false,
     "firstSeen": 1793550031765
@@ -2540,6 +2542,12 @@
     "articleIds": [
      "19858f3a93ae"
     ]
+   },
+   {
+    "articleIds": [
+     "4153d865b397"
+    ],
+    "fromRule": true
    }
   ],
   "aiSummaryKo": [
