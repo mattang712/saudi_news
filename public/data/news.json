@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-11-03T06:26:30.775Z",
-  "lastAttemptAt": "2026-11-03T06:26:30.775Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-11-03T06:30:40.326Z",
+  "lastAttemptAt": "2026-11-03T06:30:40.326Z",
   "aiSummary": true,
   "summaryAt": "2026-11-03T06:20:31.965Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 19
+    "count": 21
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 28
+    "count": 29
    },
    {
     "name": "AP",
@@ -51,27 +51,56 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 44
+    "count": 43
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 63
+    "count": 60
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
+    "date": "2026-11-01",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.29)",
+    "date": "2026-10-29",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
+    "date": "2026-10-26",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -827,15 +856,14 @@
    ]
   },
   {
-   "id": "a2f1802e85a4",
+   "id": "b0823840e434",
    "articleIds": [
-    "9e0808485dfe",
     "662c8b752d74",
     "9923abb6a3fd"
    ],
    "type": "missile",
    "sev": "high",
-   "status": "official",
+   "status": "multi",
    "directive": null,
    "title": "사우디 공군·방공망, 미사일·드론 요격했다고 발표",
    "titleAuto": true,
@@ -849,16 +877,6 @@
    "collectedAt": "2026-10-31T07:20:28.387Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Air Defenses Intercept and Destroy Hostile UAV in Riyadh Region",
-     "titleKo": "연합군: 리야드 지역 적대 UAV 요격·파괴",
-     "summary": "사우디 국영통신은 리야드 지역에서 적대적 무인기를 요격·파괴했다고 보도했어요.",
-     "reportedAt": "2026-10-31T06:28:22.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vNVdCaWFXMWJPdVZzSXdkSldpWU5pbVFFaU92THVwRjNwZm5pYWVhTW8xTEI4d3FqdU5vSzRDeEVIVENOMnpSYW1n?oc=5"
-    },
     {
      "outlet": "Saudi Gazette",
      "cat": "local",
@@ -1072,24 +1090,6 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcDdybGI4VjV5MVJtOTMwR21NUVVYZnNDLUVSVW1va2VBOVpmeTZrR3lBUnVjb1ViN2xoeEFvMXhJanlLel9XWHY4Njl1MHpKX1U3c0h3S1VuTVRMTlhuYWtwZ1JjaTFVWk1Da2lqd09fTVdMNWF5X0kyXzVtZHhmU2ZBMlZlajFjSkZieFhmd092ckw5Ty1WZEtYd0VOa2U0dXVycVlhaFFNckd1RUVmaVV3T1RQMFpL0gG-AUFVX3lxTE1ReEZ6dGplTGlsSGk2V3lNZ3hMTEo1X00yYmwzc0RkUDVTcHByRUtCT3U5LTB0dUVCazY3UVhNaGtkdDRaVXRVaFFFdWt2R3VtM2lzbTJpZTJFMlRiOEo3N3hUY3BCNENxOWI0ZzR1TlhqRGZpQW42SUw0bjZ1amlxNDB1M0w5STVMRFBUaXIyZkp5VF9XaW94eXh1dGtudU1QSHA0R2dMWE0tYnRrZjRoM3BzXzBNNDAzR0V1aFE?oc=5"
   },
   {
-   "id": "04446d00b56b",
-   "outlet": "Asharq Al-Awsat",
-   "official": false,
-   "claim": false,
-   "type": "missile",
-   "sev": "high",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "연합군, 후티 탄도미사일 남부 목표 요격",
-   "title": "Coalition Intercepts Houthi Missile Targeting Saudi Arabia's Southern Region",
-   "summary": "연합군이 후티의 남부 지역 목표 탄도미사일을 요격했다고 보도됐어요.",
-   "reportedAt": "2026-11-02T07:23:47.000Z",
-   "dateOnly": false,
-   "url": "https://english.aawsat.com/node/5336514"
-  },
-  {
    "id": "ffaf350b20b9",
    "outlet": "Asharq Al-Awsat",
    "official": false,
@@ -1103,6 +1103,24 @@
    "titleKo": "연합군 발표: 후티 남부 탄도미사일 요격",
    "title": "Coalition Intercepts Houthi Missile Targeting Saudi Arabia&#039;s Southern Region",
    "summary": "같은 내용으로 후티의 남부 지역 탄도미사일 요격 보도가 반복됐어요.",
+   "reportedAt": "2026-11-02T07:23:47.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5336514"
+  },
+  {
+   "id": "04446d00b56b",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "연합군, 후티 탄도미사일 남부 목표 요격",
+   "title": "Coalition Intercepts Houthi Missile Targeting Saudi Arabia's Southern Region",
+   "summary": "연합군이 후티의 남부 지역 목표 탄도미사일을 요격했다고 보도됐어요.",
    "reportedAt": "2026-11-02T07:23:47.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5336514"
@@ -1214,24 +1232,6 @@
    "reportedAt": "2026-10-31T08:15:20.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR2JnM09TN0huWnRSdGZZMmtwLW51Q1lCM3lBWU1fMUl1YlR2Y203ckZKekRZREM5akNOMmpYTEo1VzFzQkItQmRxb0RxMHZnWGdpekdxNnZCdTVwR196NDJIekRjX00tYjlHVDlwcjVaRVh4ZjNJYTA4UTh0RWc5ZGM4QUtaQW1vVl81YUFpOHQ2dFBCUjFwaHR1c1h5VS0tTC0wRE1kNUXSAa4BQVVfeXFMTTNRV2V3eWthVkMtZTMzdHRIc2hBZ0wwRW1pNDk1MVRMQjg4NGZiSnFGLTJWZ21DWmJaT3A5OWR6aUYwQnlIMTNFUnZTd0Zma3JvSHp6RF9IcFo0cFZlT285RzZLc2NXZzIwVVFJenNWUFhrY3dvUDZReW9iRGFsazcyMGRQOEhnN0kzZTNvb3RfWmR6cGhxbVE0cE1EOGRpdnFOb1d4bWdHSHdURHVR?oc=5"
-  },
-  {
-   "id": "9e0808485dfe",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "drone",
-   "sev": "high",
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "titleKo": "연합군: 리야드 지역 적대 UAV 요격·파괴",
-   "title": "Coalition: Air Defenses Intercept and Destroy Hostile UAV in Riyadh Region",
-   "summary": "사우디 국영통신은 리야드 지역에서 적대적 무인기를 요격·파괴했다고 보도했어요.",
-   "reportedAt": "2026-10-31T06:28:22.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vNVdCaWFXMWJPdVZzSXdkSldpWU5pbVFFaU92THVwRjNwZm5pYWVhTW8xTEI4d3FqdU5vSzRDeEVIVENOMnpSYW1n?oc=5"
   }
  ],
  "_cache": {
@@ -1475,20 +1475,6 @@
     "firstSeen": 1793613647722
    },
    {
-    "id": "04446d00b56b",
-    "feed": "Asharq Al-Awsat",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Asharq Al-Awsat",
-    "title": "Coalition Intercepts Houthi Missile Targeting Saudi Arabia's Southern Region",
-    "snippet": "",
-    "url": "https://english.aawsat.com/node/5336514",
-    "reportedAt": 1793604227000,
-    "assumeSaudi": false,
-    "firstSeen": 1793604634657
-   },
-   {
     "id": "ffaf350b20b9",
     "feed": "Asharq Al-Awsat",
     "cat": "local",
@@ -1501,6 +1487,20 @@
     "reportedAt": 1793604227000,
     "assumeSaudi": false,
     "firstSeen": 1793621430771
+   },
+   {
+    "id": "04446d00b56b",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Coalition Intercepts Houthi Missile Targeting Saudi Arabia's Southern Region",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5336514",
+    "reportedAt": 1793604227000,
+    "assumeSaudi": false,
+    "firstSeen": 1793604634657
    },
    {
     "id": "3f42e4c326cb",
@@ -1937,24 +1937,9 @@
     "reportedAt": 1793434520000,
     "assumeSaudi": false,
     "firstSeen": 1793434831295
-   },
-   {
-    "id": "9e0808485dfe",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Coalition: Air Defenses Intercept and Destroy Hostile UAV in Riyadh Region",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vNVdCaWFXMWJPdVZzSXdkSldpWU5pbVFFaU92THVwRjNwZm5pYWVhTW8xTEI4d3FqdU5vSzRDeEVIVENOMnpSYW1n?oc=5",
-    "reportedAt": 1793428102000,
-    "assumeSaudi": false,
-    "firstSeen": 1793431838636
    }
   ],
   "summaries": {
-   "9e0808485dfe": "사우디 국영통신은 리야드 지역에서 적대적 무인기를 요격·파괴했다고 보도했어요.",
    "9923abb6a3fd": "연합군이 리야드·마디나 상공 드론을 요격하고 남부 미사일을 요격했다고 보도됐어요.",
    "662c8b752d74": "리야드 지역에서 적대적 무인기를 요격해 파괴했다고 보도됐어요.",
    "3d20a0f0238e": "후티의 공격에 러시아 위성 활용 가능성을 분석한 기사들이 보도됐어요.",
@@ -2007,7 +1992,6 @@
   },
   "titlesKo": {
    "9923abb6a3fd": "연합군, 리야드·마디나 상공 드론·남부 미사일 요격",
-   "9e0808485dfe": "연합군: 리야드 지역 적대 UAV 요격·파괴",
    "0b648945105d": "후티가 러시아 위성 활용 가능성 보도",
    "3d20a0f0238e": "후티가 러시아 위성 활용 가능성 보도",
    "662c8b752d74": "리야드 지역에서 적대 드론 격추, 인명 피해 無 보도",
@@ -2087,8 +2071,7 @@
    {
     "articleIds": [
      "9923abb6a3fd",
-     "662c8b752d74",
-     "9e0808485dfe"
+     "662c8b752d74"
     ],
     "titleKo": "사우디 공군·방공망, 미사일·드론 요격했다고 발표",
     "type": "missile",
