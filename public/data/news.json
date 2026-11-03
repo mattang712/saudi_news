@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-11-03T12:40:29.440Z",
-  "lastAttemptAt": "2026-11-03T12:40:29.440Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-11-03T12:50:31.498Z",
+  "lastAttemptAt": "2026-11-03T12:50:31.498Z",
   "aiSummary": true,
   "summaryAt": "2026-11-03T11:10:28.768Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 35
+    "count": 28
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 89
+    "count": 90
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 25
+    "count": 27
    },
    {
     "name": "AFP",
@@ -36,12 +36,12 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 118
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 40
+    "count": 42
    },
    {
     "name": "Asharq Al-Awsat",
@@ -55,25 +55,86 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 60
+    "count": 69
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
+    "date": "2026-11-01",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.29)",
+    "date": "2026-10-29",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
+    "date": "2026-10-26",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "e3253762a3b3",
+   "articleIds": [
+    "ea177cbdf15a"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디-미 국방장관, 통화서 후티 공격·지역 긴장완화 논의",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-03T12:50:31.498Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi, US defense ministers discuss Houthi attacks, regional de-escalation in phone call",
+     "titleKo": "사우디-미 국방장관, 통화서 후티 공격·지역 긴장완화 논의",
+     "summary": "",
+     "reportedAt": "2026-11-03T12:39:20.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/665958/saudi-arabia/saudi-us-defense-ministers-discuss-houthi-attacks-regional-de-escalation-in-phone-call"
+    }
+   ]
+  },
   {
    "id": "2fa56a8ec5cf",
    "articleIds": [
@@ -526,7 +587,7 @@
      "summary": "사우디와 요르단 왕세자가 리야드에서 후티 공격을 논의했다고 전했어요.",
      "reportedAt": "2026-11-02T21:18:24.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/saudi-and-jordanian-crown-princes-hold-talks-in-riyadh-discuss-recent-houthi-attacks-3009498"
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX1VHS1Q5eVhueEtma19Kc1ZpeXEyNVdKX1VHb0lUQlN6RzM4Sm9RampvdFZ6SlBDR0UzZy1MUGdrakpVdGJvcU9YbXVOTnVaVldkLW9qN0tiV3pQcmlQWjQ0WGExMDdEVTNkNlgtNWowclFoYjkyLTlOUWpSWGVGUGwzSzRiNjl0Z2FPTzdZMnhISTFiZXo2NmdYVGVLWWxrdy14aHVMdUxjLW43R25Lc0NXRkljcHl5aVhibTVLZXFyR2doVDFLbFF3?oc=5"
     },
     {
      "outlet": "Arab News",
@@ -1322,6 +1383,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "ea177cbdf15a",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Saudi, US defense ministers discuss Houthi attacks, regional de-escalation in phone call",
+    "snippet": "RIYADH — Saudi Minister of Defense Prince Khalid bin Salman held a phone call with US Secretary of War Pete Hegseth on Tuesday. During the call, they reviewed prospects for strategic defense cooperation between the two countries. They discussed regional and international developments, particularly efforts to de-escalate tensions in the region and the terrorist Houthi militia's continued attacks on",
+    "url": "https://saudigazette.com.sa/article/665958/saudi-arabia/saudi-us-defense-ministers-discuss-houthi-attacks-regional-de-escalation-in-phone-call",
+    "reportedAt": 1793709560000,
+    "assumeSaudi": false,
+    "firstSeen": 1793710231498
+   },
+   {
     "id": "af3208a4177f",
     "feed": "AP",
     "cat": "wire",
@@ -1525,8 +1600,8 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Saudi and Jordanian crown princes hold talks in Riyadh, discuss recent Houthi attacks",
-    "snippet": "RIYADH: Jordan’s Crown Prince Hussein bin Abdullah condemned recent attacks by the Houthis in Yemen targeting Saudi Arabia, and expressed Amman’s full support for all measures the Kingdom takes to confront threats to its security and the safety of its citizens and residents, and to protect its resources. His comments came during a meeting in Riyadh on Monday with Saudi Crown Prince Mohammed bin Sa",
-    "url": "https://www.arabnews.com/saudi-arabia/saudi-and-jordanian-crown-princes-hold-talks-in-riyadh-discuss-recent-houthi-attacks-3009498",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX1VHS1Q5eVhueEtma19Kc1ZpeXEyNVdKX1VHb0lUQlN6RzM4Sm9RampvdFZ6SlBDR0UzZy1MUGdrakpVdGJvcU9YbXVOTnVaVldkLW9qN0tiV3pQcmlQWjQ0WGExMDdEVTNkNlgtNWowclFoYjkyLTlOUWpSWGVGUGwzSzRiNjl0Z2FPTzdZMnhISTFiZXo2NmdYVGVLWWxrdy14aHVMdUxjLW43R25Lc0NXRkljcHl5aVhibTVLZXFyR2doVDFLbFF3?oc=5",
     "reportedAt": 1793654304000,
     "assumeSaudi": false,
     "firstSeen": 1793659230526
@@ -2204,7 +2279,8 @@
    "1e84c8ff67f1": "사우디-후티 분쟁 중재하나…이란 외교장관 \"사우디와 회담 중\"",
    "242e1a700853": "이란 “사우디와 회담 중”…사우디-후티 분쟁 개입하나",
    "c7a34c05be02": "사우디 공격으로 아시안컵 개최가 2027년 말로 연기",
-   "0b35d6ba1901": "공격에도 사우디 아람코, 최신 분기 순이익 34% 증가"
+   "0b35d6ba1901": "공격에도 사우디 아람코, 최신 분기 순이익 34% 증가",
+   "ea177cbdf15a": "사우디-미 국방장관, 통화서 후티 공격·지역 긴장완화 논의"
   },
   "aiClusters": [
    {
@@ -2397,6 +2473,12 @@
    {
     "articleIds": [
      "0b35d6ba1901"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "ea177cbdf15a"
     ],
     "fromRule": true
    }
