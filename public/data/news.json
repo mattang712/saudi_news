@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-03T14:50:37.577Z",
-  "lastAttemptAt": "2026-11-03T14:50:37.577Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-03T15:00:51.141Z",
+  "lastAttemptAt": "2026-11-03T15:00:51.141Z",
   "aiSummary": true,
   "summaryAt": "2026-11-03T13:10:34.337Z",
   "aiError": null,
@@ -16,7 +16,7 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 33
+    "count": 38
    },
    {
     "name": "Reuters",
@@ -26,17 +26,17 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 23
+    "count": 26
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 9
+    "count": 10
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 116
    },
    {
     "name": "Saudi Gazette",
@@ -51,58 +51,61 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 39
+    "count": 37
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 69
+    "count": 71
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
-    "date": "2026-11-01",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.29)",
-    "date": "2026-10-29",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
-    "date": "2026-10-26",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
+  {
+   "id": "2ab3651b0ea9",
+   "articleIds": [
+    "1237380e19ef"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "잠깐: 1,570만 대회 시청자가 어떻게 세로 스트리밍으로 바뀌었나",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-03T15:00:51.141Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Hold the phone: How 15.7 million tournament viewers switched to vertical streams",
+     "titleKo": "잠깐: 1,570만 대회 시청자가 어떻게 세로 스트리밍으로 바뀌었나",
+     "summary": "",
+     "reportedAt": "2026-11-03T14:52:26.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/sport/hold-the-phone-how-157-million-tournament-viewers-switched-to-vertical-streams-3009619"
+    }
+   ]
+  },
   {
    "id": "ddd0b4963052",
    "articleIds": [
@@ -1070,39 +1073,6 @@
      "url": "https://saudigazette.com.sa/article/665908/saudi-arabia/coalition-launches-precision-military-strike-targeting-houthi-war-resources-in-yemen"
     }
    ]
-  },
-  {
-   "id": "1d372f028de5",
-   "articleIds": [
-    "057ccac66673"
-   ],
-   "type": "advisory",
-   "sev": "mid",
-   "status": "official",
-   "directive": "advice",
-   "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
-   "titleAuto": false,
-   "regions": [
-    "jeddah",
-    "airport"
-   ],
-   "inferred": true,
-   "inferNote": "공지문이 젯다 공항 등 서부·서남부 공항 운영 문제를 언급해 젯다와 서부지역으로 추정했어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-11-01T16:00:43.656Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "외교부 안전공지",
-     "cat": "official",
-     "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
-     "titleKo": null,
-     "summary": "외교부가 사우디 서부·서남부 공항 운항 차질을 이유로 이용 주의사항을 공지했다고 밝혔어요.",
-     "reportedAt": "2026-10-31T15:00:00.000Z",
-     "dateOnly": true,
-     "url": "https://www.0404.go.kr"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -1359,28 +1329,24 @@
    "reportedAt": "2026-11-02T03:17:08.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QN1dDSzhpRWFaNFJkN1ZISXhSM2F2ZmliUTRLcDJ3ZXYyRzBqbFc4QmI2Um96NkpaRlhjdGtHZEZOMm02bXdhWjBweUNJR0V6UmRHMGtqT2ZwTnpOOGxZNXNXdl9ZUzg?oc=5"
-  },
-  {
-   "id": "057ccac66673",
-   "outlet": "외교부 안전공지",
-   "official": true,
-   "claim": false,
-   "type": "korean",
-   "sev": "mid",
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "titleKo": "외교부, 사우디 서부·서남부 공항 이용 주의 공지",
-   "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
-   "summary": "외교부가 사우디 서부·서남부 공항 운항 차질을 이유로 이용 주의사항을 공지했다고 밝혔어요.",
-   "reportedAt": "2026-10-31T15:00:00.000Z",
-   "dateOnly": true,
-   "url": "https://www.0404.go.kr"
   }
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "1237380e19ef",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Hold the phone: How 15.7 million tournament viewers switched to vertical streams",
+    "snippet": "RIYADH: In June, a Saudi team, Falcons, won Counter-Strike’s biggest tournament for the first time, and 15.7 million people followed the event on TikTok, on a screen smaller than their hand. Most had never followed the teams. Plenty had never watched the game. They found it while scrolling, and they stayed. That last detail should interest anyone putting on live sport in the Kingdom. Saudi Arabia ",
+    "url": "https://www.arabnews.com/sport/hold-the-phone-how-157-million-tournament-viewers-switched-to-vertical-streams-3009619",
+    "reportedAt": 1793717546000,
+    "assumeSaudi": false,
+    "firstSeen": 1793718051141
+   },
    {
     "id": "d47a1aa7ad78",
     "feed": "Reuters",
@@ -2178,26 +2144,9 @@
     "reportedAt": 1793542360000,
     "assumeSaudi": false,
     "firstSeen": 1793545243581
-   },
-   {
-    "id": "057ccac66673",
-    "feed": "외교부 안전공지",
-    "cat": "official",
-    "official": true,
-    "lang": "ko",
-    "outlet": "외교부 안전공지",
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
-    "snippet": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및 해당 항공편 이용 가능 여부를 반드시 재확인해 주시기 바랍니다. - 젯다 공항: 정상 운영 중이나 이착륙 지연이 빈번하게 발생하고 있으며, 항공사측 결정으로 인해 일부 국제선의 운항이 임시 중단되었습니다. ※ 젯다발 주요 국제선 : Turkish Airline 젯다-이스탄불 일일 수 차례 운항, Egyptair 젯다-카이로 일일 수 차례 운항 - 메디나 ",
-    "url": "https://www.0404.go.kr",
-    "reportedAt": 1793458800000,
-    "dateOnly": true,
-    "presetType": "korean",
-    "assumeSaudi": true,
-    "firstSeen": 1793548843656
    }
   ],
   "summaries": {
-   "057ccac66673": "외교부가 사우디 서부·서남부 공항 운항 차질을 이유로 이용 주의사항을 공지했다고 밝혔어요.",
    "52d63ffcd3f6": "후티가 사우디 영공 통과를 금지하라며 민항기 공격을 경고했다고 보도했어요.",
    "da0f48ea6f8c": "후티가 민항기 공격 가능성을 경고했다고 여러 매체가 전했어요.",
    "2be1718ce8e7": "후티의 민항기 위협 관련 보도가 반복 보도되었다고 전했어요.",
@@ -2254,7 +2203,6 @@
   },
   "titlesKo": {
    "ff88a01b0988": "연합군, 예멘 내 후티 자원 정밀타격 발표",
-   "057ccac66673": "외교부, 사우디 서부·서남부 공항 이용 주의 공지",
    "4421d7c319fa": "사우디, 걸프서 발생한 LNG 선박 공격 규탄",
    "87158f1ab215": "사우디·일본 외무장관, 항행 자유 등 논의",
    "dc58dd5aa2ba": "연합군, 후티가 발사한 탄도미사일·UAV 요격했다고 발표",
@@ -2310,7 +2258,8 @@
    "9350388d1903": "‘우리는 여기 머물 것이다’: EU 대사, 사우디아라비아에 대한 지지 재확인",
    "5f75794be6ec": "후티가 발사한 UAV, 마카 지역에서 요격",
    "4d3d256784eb": "Asian Cup, 공격 여파로 사우디아라비아 개최 경기 연기 예정",
-   "d47a1aa7ad78": "미국 공격 우려가 이란-사우디 회담 효과를 상쇄하며 걸프 증시 혼조"
+   "d47a1aa7ad78": "미국 공격 우려가 이란-사우디 회담 효과를 상쇄하며 걸프 증시 혼조",
+   "1237380e19ef": "잠깐: 1,570만 대회 시청자가 어떻게 세로 스트리밍으로 바뀌었나"
   },
   "aiClusters": [
    {
@@ -2458,22 +2407,6 @@
    },
    {
     "articleIds": [
-     "057ccac66673"
-    ],
-    "titleKo": "외교부, 사우디 서부·서남부 공항 이용 주의사항 공지",
-    "type": "advisory",
-    "regions": [
-     "jeddah",
-     "western"
-    ],
-    "regionInferred": true,
-    "inferNote": "공지문이 젯다 공항 등 서부·서남부 공항 운영 문제를 언급해 젯다와 서부지역으로 추정했어요.",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
      "45d264c13bbd"
     ]
    },
@@ -2519,6 +2452,12 @@
    {
     "articleIds": [
      "d47a1aa7ad78"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "1237380e19ef"
     ],
     "fromRule": true
    }
