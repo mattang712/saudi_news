@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-11-05T18:20:38.927Z",
-  "lastAttemptAt": "2026-11-05T18:20:38.927Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-11-05T18:30:39.314Z",
+  "lastAttemptAt": "2026-11-05T18:30:39.314Z",
   "aiSummary": true,
   "summaryAt": "2026-11-05T16:40:29.867Z",
   "aiError": null,
@@ -21,22 +21,22 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 105
+    "count": 101
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 24
+    "count": 25
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 11
+    "count": 12
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 134
+    "count": 133
    },
    {
     "name": "Saudi Gazette",
@@ -46,7 +46,7 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 176
+    "count": 177
    },
    {
     "name": "Al Jazeera",
@@ -55,23 +55,52 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 74
+    "count": 73
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.4)",
+    "date": "2026-11-04",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.1)",
+    "date": "2026-11-01",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.29)",
+    "date": "2026-10-29",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
   {
@@ -1460,20 +1489,6 @@
     "firstSeen": 1793877028288
    },
    {
-    "id": "a7f1faf48952",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says Houthi missile fired at Saudi Arabia's Madinah region intercepted",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGdtWFdoSUVTbkE3WlZieG1uRmxMLU5iWFlFTlFlTGp4OUZOaEozTFVqRkN4S0w3R0o0M3EzN29qYVEtS2tQRVVoZ1RJa1U5clJ3anYydnNlOE9ST1NLZnhFYnBVTkFrNlpsXy1HTjY2S2J4VTAtMDFEYTZLZGZVTFNDWG5KMlpMZUZ2dUYtMFBzbjJ6TmhkN09LZncyUFlNWDVnS0JaamR3MVExMGhMVXR3NG1yT0JVTXNUVTdIaFdwMFk?oc=5",
-    "reportedAt": 1793873333000,
-    "assumeSaudi": false,
-    "firstSeen": 1793893232910
-   },
-   {
     "id": "ea7d8eadfefd",
     "feed": "Arab News",
     "cat": "local",
@@ -1486,6 +1501,20 @@
     "reportedAt": 1793873333000,
     "assumeSaudi": false,
     "firstSeen": 1793886632446
+   },
+   {
+    "id": "a7f1faf48952",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Coalition says Houthi missile fired at Saudi Arabia's Madinah region intercepted",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGdtWFdoSUVTbkE3WlZieG1uRmxMLU5iWFlFTlFlTGp4OUZOaEozTFVqRkN4S0w3R0o0M3EzN29qYVEtS2tQRVVoZ1RJa1U5clJ3anYydnNlOE9ST1NLZnhFYnBVTkFrNlpsXy1HTjY2S2J4VTAtMDFEYTZLZGZVTFNDWG5KMlpMZUZ2dUYtMFBzbjJ6TmhkN09LZncyUFlNWDVnS0JaamR3MVExMGhMVXR3NG1yT0JVTXNUVTdIaFdwMFk?oc=5",
+    "reportedAt": 1793873333000,
+    "assumeSaudi": false,
+    "firstSeen": 1793893232910
    },
    {
     "id": "00d18787feb7",
