@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-05T12:20:28.327Z",
-  "lastAttemptAt": "2026-11-05T12:20:28.327Z",
+  "lastSuccessAt": "2026-11-05T12:30:46.977Z",
+  "lastAttemptAt": "2026-11-05T12:30:46.977Z",
   "aiSummary": true,
   "summaryAt": "2026-11-05T11:10:28.288Z",
   "aiError": null,
@@ -15,17 +15,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 12
+    "count": 11
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 140
+    "count": 145
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 25
+    "count": 26
    },
    {
     "name": "AFP",
@@ -35,12 +35,12 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 127
+    "count": 125
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 47
+    "count": 49
    },
    {
     "name": "Asharq Al-Awsat",
@@ -65,7 +65,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 71
+    "count": 72
    }
   ],
   "mofaLatest": [
@@ -102,6 +102,38 @@
   ]
  },
  "events": [
+  {
+   "id": "eea87f3e29ed",
+   "articleIds": [
+    "faac640da1ab"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 방공, 마디나 지역 향해 발사된 후티 미사일 요격",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-05T12:30:46.977Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi air defenses intercept Houthi missile fired toward Madinah region",
+     "titleKo": "사우디 방공, 마디나 지역 향해 발사된 후티 미사일 요격",
+     "summary": "",
+     "reportedAt": "2026-11-05T12:25:10.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666021/saudi-arabia/saudi-air-defenses-intercept-houthi-missile-fired-toward-madinah-region"
+    }
+   ]
+  },
   {
    "id": "355e9f45a1f3",
    "articleIds": [
@@ -1454,6 +1486,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "faac640da1ab",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Saudi air defenses intercept Houthi missile fired toward Madinah region",
+    "snippet": "RIYADH — Saudi air defenses intercepted and destroyed a ballistic missile fired by the terrorist Houthi militia toward the Madinah region. This was revealed by Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Restore Legitimacy in Yemen. Earlier on Tuesday, Al-Turki had said that the Coalition intercepted and destroyed a Houthi-fired UAV in the Makkah region.",
+    "url": "https://saudigazette.com.sa/article/666021/saudi-arabia/saudi-air-defenses-intercept-houthi-missile-fired-toward-madinah-region",
+    "reportedAt": 1793881510000,
+    "assumeSaudi": false,
+    "firstSeen": 1793881846977
+   },
+   {
     "id": "4101e685a089",
     "feed": "Reuters",
     "cat": "wire",
@@ -2362,7 +2408,8 @@
    "00d18787feb7": "사우디 연합군, 후티가 메디나 지역으로 발사한 미사일 요격했다고 주장",
    "2df8732ff678": "예멘 정부의 공세 개시 한 달, 소모전 양상 심화",
    "445f9d7ba628": "후티가 메디나에 발사한 미사일이 요격됐다고 사우디 연합군 밝혔다",
-   "4101e685a089": "후티 공격 지속에 사우디, 얀부 석유 허브의 잠재적 위험 경고"
+   "4101e685a089": "후티 공격 지속에 사우디, 얀부 석유 허브의 잠재적 위험 경고",
+   "faac640da1ab": "사우디 방공, 마디나 지역 향해 발사된 후티 미사일 요격"
   },
   "aiClusters": [
    {
@@ -2582,6 +2629,12 @@
    {
     "articleIds": [
      "4101e685a089"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "faac640da1ab"
     ],
     "fromRule": true
    }
