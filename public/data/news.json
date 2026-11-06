@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-06T07:40:31.581Z",
-  "lastAttemptAt": "2026-11-06T07:40:31.581Z",
+  "lastSuccessAt": "2026-11-06T07:50:33.668Z",
+  "lastAttemptAt": "2026-11-06T07:50:33.668Z",
   "aiSummary": true,
   "summaryAt": "2026-11-06T06:30:36.892Z",
   "aiError": null,
@@ -16,17 +16,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 11
+    "count": 13
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 83
+    "count": 93
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 25
+    "count": 24
    },
    {
     "name": "AFP",
@@ -36,22 +36,22 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 138
+    "count": 136
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 46
+    "count": 45
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 176
+    "count": 177
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 68
+    "count": 64
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 81
+    "count": 80
    }
   ],
   "mofaLatest": [
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "67c008690f3c",
+   "articleIds": [
+    "f0bda0aa21f4"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 나지란 겨냥한 후티 탄도미사일 요격",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-06T07:50:33.668Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition forces intercept Houthi ballistic missiles targeting Najran",
+     "titleKo": "연합군, 나지란 겨냥한 후티 탄도미사일 요격",
+     "summary": "",
+     "reportedAt": "2026-11-06T07:43:27.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-forces-intercept-houthi-ballistic-missiles-targeting-najran-3010126"
+    }
+   ]
+  },
   {
    "id": "a65a801c5a7b",
    "articleIds": [
@@ -1291,6 +1323,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "f0bda0aa21f4",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Coalition forces intercept Houthi ballistic missiles targeting Najran",
+    "snippet": "Coalition forces successfully intercepted two Houthi ballistic missiles aimed at Saudi Arabia’s Najran province, according to Maj. Gen. Turki Al-Maliki. While debris from the interception fell, the assessment of any damage is ongoing, and a warning issued by Saudi civil defense authorities was lifted shortly after.",
+    "url": "https://www.arabnews.com/saudi-arabia/coalition-forces-intercept-houthi-ballistic-missiles-targeting-najran-3010126",
+    "reportedAt": 1793951007000,
+    "assumeSaudi": false,
+    "firstSeen": 1793951433668
+   },
+   {
     "id": "3359b77cedc1",
     "feed": "Arab News",
     "cat": "local",
@@ -2174,7 +2220,8 @@
    "7c601ee16b22": "터키 의회, 메카 방위협정 비준",
    "5111a53914ac": "사우디 관리, 후티 요구 관련 보도 부인",
    "6c4be53d3166": "후티, 사우디에 '전쟁 끝내려면 68조원 내라' 요구 보도",
-   "3359b77cedc1": "사우디 외무부, 이집트 국경 공격 규탄"
+   "3359b77cedc1": "사우디 외무부, 이집트 국경 공격 규탄",
+   "f0bda0aa21f4": "연합군, 나지란 겨냥한 후티 탄도미사일 요격"
   },
   "aiClusters": [
    {
@@ -2376,6 +2423,12 @@
    {
     "articleIds": [
      "3359b77cedc1"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f0bda0aa21f4"
     ],
     "fromRule": true
    }
