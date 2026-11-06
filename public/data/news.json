@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-06T07:20:28.950Z",
-  "lastAttemptAt": "2026-11-06T07:20:28.950Z",
+  "lastSuccessAt": "2026-11-06T07:30:40.335Z",
+  "lastAttemptAt": "2026-11-06T07:30:40.335Z",
   "aiSummary": true,
   "summaryAt": "2026-11-06T06:30:36.892Z",
   "aiError": null,
@@ -16,7 +16,7 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 9
+    "count": 11
    },
    {
     "name": "Reuters",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 138
+    "count": 137
    },
    {
     "name": "Saudi Gazette",
@@ -46,12 +46,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 175
+    "count": 176
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 70
+    "count": 69
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 84
+    "count": 83
    }
   ],
   "mofaLatest": [
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "a65a801c5a7b",
+   "articleIds": [
+    "3359b77cedc1"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 외무부, 이집트 국경 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-06T07:30:40.335Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi foreign ministry condemns Egypt border attack",
+     "titleKo": "사우디 외무부, 이집트 국경 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-11-06T07:30:12.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-foreign-ministry-condemns-egypt-border-attack-3010124"
+    }
+   ]
+  },
   {
    "id": "3fa45a69194b",
    "articleIds": [
@@ -1270,6 +1302,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "3359b77cedc1",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi foreign ministry condemns Egypt border attack",
+    "snippet": "RIYADH: Saudi Arabia's Ministry of Foreign Affairs condemned the armed attack in the southern of Egypt, which resulted in the death of two border guard officers. In a statement on X, the Kingdom expresses its sincere condolences and sympathy to the families of the victims and to the government and people of Egypt, affirming its full solidarity with Egypt in confronting any attempt to undermine its",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-foreign-ministry-condemns-egypt-border-attack-3010124",
+    "reportedAt": 1793950212000,
+    "assumeSaudi": false,
+    "firstSeen": 1793950240335
+   },
+   {
     "id": "5111a53914ac",
     "feed": "Asharq Al-Awsat",
     "cat": "local",
@@ -2154,7 +2200,8 @@
    "5cacdbad061b": "사우디 연합, 메디나 향 미사일 요격 보도",
    "7c601ee16b22": "터키 의회, 메카 방위협정 비준",
    "5111a53914ac": "사우디 관리, 후티 요구 관련 보도 부인",
-   "6c4be53d3166": "후티, 사우디에 '전쟁 끝내려면 68조원 내라' 요구 보도"
+   "6c4be53d3166": "후티, 사우디에 '전쟁 끝내려면 68조원 내라' 요구 보도",
+   "3359b77cedc1": "사우디 외무부, 이집트 국경 공격 규탄"
   },
   "aiClusters": [
    {
@@ -2351,6 +2398,12 @@
    {
     "articleIds": [
      "c95396fec3db"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "3359b77cedc1"
     ],
     "fromRule": true
    }
