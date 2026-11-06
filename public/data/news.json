@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-06T20:20:36.014Z",
-  "lastAttemptAt": "2026-11-06T20:20:36.014Z",
+  "lastSuccessAt": "2026-11-06T20:30:38.819Z",
+  "lastAttemptAt": "2026-11-06T20:30:38.819Z",
   "aiSummary": true,
   "summaryAt": "2026-11-06T18:30:43.388Z",
   "aiError": null,
@@ -15,12 +15,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 10
+    "count": 11
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 84
+    "count": 81
    },
    {
     "name": "AP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 127
+    "count": 125
    },
    {
     "name": "Saudi Gazette",
@@ -102,6 +102,38 @@
   ]
  },
  "events": [
+  {
+   "id": "edbd87fe5f2a",
+   "articleIds": [
+    "8169c9ebac02"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "연합군: 리야드 지역에서 UAV 요격·격파",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-06T20:30:38.819Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: UAV Intercepted and Destroyed in Riyadh Region",
+     "titleKo": "연합군: 리야드 지역에서 UAV 요격·격파",
+     "summary": "",
+     "reportedAt": "2026-11-06T20:27:51.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBlNzNoNktVUWdITUdLcmk5b0JhM1NpLTNNLVEtMUtwaWh3ZzhOTjJYbk5BYUR0bEZpdDdGOTFjNlVCT2pKMzZadUNB?oc=5"
+    }
+   ]
+  },
   {
    "id": "2579b32b0689",
    "articleIds": [
@@ -1071,6 +1103,24 @@
  ],
  "timeline": [
   {
+   "id": "8169c9ebac02",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "drone",
+   "sev": "high",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "연합군: 리야드 지역에서 UAV 요격·격파",
+   "title": "Coalition: UAV Intercepted and Destroyed in Riyadh Region",
+   "summary": "",
+   "reportedAt": "2026-11-06T20:27:51.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBlNzNoNktVUWdITUdLcmk5b0JhM1NpLTNNLVEtMUtwaWh3ZzhOTjJYbk5BYUR0bEZpdDdGOTFjNlVCT2pKMzZadUNB?oc=5"
+  },
+  {
    "id": "13aa8cff5547",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -1253,6 +1303,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "8169c9ebac02",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Coalition: UAV Intercepted and Destroyed in Riyadh Region",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBlNzNoNktVUWdITUdLcmk5b0JhM1NpLTNNLVEtMUtwaWh3ZzhOTjJYbk5BYUR0bEZpdDdGOTFjNlVCT2pKMzZadUNB?oc=5",
+    "reportedAt": 1793996871000,
+    "assumeSaudi": false,
+    "firstSeen": 1793997038819
+   },
    {
     "id": "2b54b05ad3b4",
     "feed": "Arab News",
@@ -2035,7 +2099,8 @@
    "13aa8cff5547": "무슬림세계연맹, 사우디 내 성지·민간인 겨냥한 후티 공격 규탄",
    "e0259a8500bb": "시리아, 후티 공격 속 사우디에 군사 자문·병력 제공했다고 복수 소식통",
    "8011c27bbefd": "시리아, 후티 공격 속 사우디에 군사 자문·병력 제공했다고 복수 소식통",
-   "2b54b05ad3b4": "스캔들에 관한 메모: WSJ의 510억 달러 후티(claim) 주장 해부"
+   "2b54b05ad3b4": "스캔들에 관한 메모: WSJ의 510억 달러 후티(claim) 주장 해부",
+   "8169c9ebac02": "연합군: 리야드 지역에서 UAV 요격·격파"
   },
   "aiClusters": [
    {
@@ -2230,6 +2295,12 @@
    {
     "articleIds": [
      "2b54b05ad3b4"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "8169c9ebac02"
     ],
     "fromRule": true
    }
