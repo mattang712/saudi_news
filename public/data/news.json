@@ -1,16 +1,16 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-08T16:50:32.844Z",
-  "lastAttemptAt": "2026-11-08T16:50:32.844Z",
+  "lastSuccessAt": "2026-11-08T17:00:44.111Z",
+  "lastAttemptAt": "2026-11-08T17:00:44.111Z",
   "aiSummary": true,
-  "summaryAt": "2026-11-08T16:50:32.844Z",
+  "summaryAt": "2026-11-08T17:00:44.111Z",
   "aiError": null,
   "summaryKo": [
-   "가장 최근 보도에서 사우디 에너지부는 리야드 아람코 건물에 제한적 피해가 발생했다고 발표(국영통신 발표).",
-   "사우디 방공은 리야드·동부주·남부를 향한 후티 미사일·드론을 요격했다고 사우디 측이 발표(로이터·알자지라 보도).",
-   "예멘 후티는 리야드 금융지구와 아람코 건물 공격을 주장했으나 수치는 미확인(AFP 보도, 후티 주장).",
-   "후티는 사우디 정유시설·군사시설·공항 등에 다수의 미사일·드론 공격을 벌였다고 주장하며 관련 피해를 제기(후티 주장, 복수 보도)."
+   "리야드 금융지구의 아람코 건물이 발사체 낙하물로 일부 손상됐다고 사우디가 발표했어요.",
+   "사우디 방공이 리야드와 동부를 겨냥한 다수 미사일·드론을 요격했다고 보도됐어요.",
+   "GACA는 공항 시설과 항공기 두 차례 공격이 있었다고 발표했어요.",
+   "외교부는 중부·동부·공항 지역 관련 안전 유의와 출국 권고 검토를 당부했어요."
   ],
   "sources": [
    {
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 62
+    "count": 61
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 15
+    "count": 16
    },
    {
     "name": "AFP",
@@ -36,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 129
+    "count": 128
    },
    {
     "name": "Saudi Gazette",
@@ -46,12 +46,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 146
+    "count": 147
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 55
+    "count": 54
    },
    {
     "name": "외교부 여행경보",
@@ -104,15 +104,17 @@
  },
  "events": [
   {
-   "id": "49de1ea2f37e",
+   "id": "f02e3fb45344",
    "articleIds": [
-    "784b1ed01a69"
+    "da6663af1807",
+    "784b1ed01a69",
+    "ed64cc0bf40f"
    ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
+   "type": "security",
+   "sev": "mid",
+   "status": "multi",
    "directive": null,
-   "title": "카타르·바레인·시리아, 후티의 리야드 미사일 공격 규탄",
+   "title": "이집트·카타르·바레인 등, 후티의 리야드 미사일 공격 규탄 발표",
    "titleAuto": true,
    "regions": [
     "riyadh"
@@ -120,82 +122,269 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-08T15:30:40.131Z",
-   "aiNote": null,
+   "collectedAt": "2026-11-08T15:11:34.449Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Syria, Kuwait and Bahrain condemn Houthi missile and drone attacks on Saudi Arabia",
+     "titleKo": "시리아·쿠웨이트·바레인, 후티의 미사일·드론 공격 규탄",
+     "summary": "시리아·쿠웨이트·바레인이 후티의 미사일·드론 공격을 강하게 규탄했습니다.",
+     "reportedAt": "2026-11-08T14:35:01.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666086/saudi-arabia/syria-kuwait-and-bahrain-condemn-houthi-missile-and-drone-attacks-on-saudi-arabia"
+    },
     {
      "outlet": "Arab News",
      "cat": "local",
      "title": "Qatar, Bahrain, and Syria condemn Houthi missile attacks on Riyadh",
      "titleKo": "카타르·바레인·시리아, 후티의 리야드 미사일 공격 규탄",
-     "summary": "",
+     "summary": "카타르·바레인·시리아가 후티의 리야드 미사일 공격을 규탄하며 사우디 안보 중요성을 강조했습니다.",
      "reportedAt": "2026-11-08T16:28:36.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/middle-east/qatar-bahrain-and-syria-condemn-houthi-missile-attacks-on-riyadh-3010523"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Egypt Condemns Missile Launch Targeting Riyadh",
+     "titleKo": "이집트, 리야드 겨냥 미사일 발사 규탄",
+     "summary": "이집트가 리야드를 겨냥한 미사일 발사를 규탄했습니다.",
+     "reportedAt": "2026-11-08T16:59:56.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5338998"
     }
    ]
   },
   {
-   "id": "d68c5d74125c",
+   "id": "8a30976a4838",
    "articleIds": [
+    "9e985800377e"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디, 미사일 요격·아람코 빌딩 일부 피해 보고",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T10:09:59.903Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
+     "titleKo": "사우디, 미사일 요격·아람코 빌딩 일부 피해 보고",
+     "summary": "사우디가 미사일을 요격했고 리야드의 아람코 건물이 피해를 입었다고 보도했습니다.",
+     "reportedAt": "2026-11-08T14:47:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1hPV0p1dkZfcU92OEJVMkYtQTNHb3hKSDdGZHp5U1RkUTZlc2dzTU9oNjQ4dk5nUGZ6WVhkTlk2VTJ0cFkxOHozbE9aWUJObXFUYVBCZEwtaktnOGExQjVfUlhNdFlxRV9KeHMzS1Rsc2c3OFAxNHF6RjM2X0FRamhCalJsTk1BY1g2NFhHX2ZnUQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "071d544e3f62",
+   "articleIds": [
+    "fe26e632f74b"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 ’심장부’ 금융지구 피격…“후티 공격에 아람코타워 파손“",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T14:40:34.310Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 ’심장부’ 금융지구 피격…“후티 공격에 아람코타워 파손“",
+     "titleKo": null,
+     "summary": "후티 공격으로 아람코타워가 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T14:27:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vZ2JVdDBGQmhnWjZaekFVa28zMjJwcHJKbnlRV0pHOXpKM2hHX3p1SlFLMGRRRTNkV1dBMlBrbnBEUVhqQVRjZmpZTFUxWmhVaWFNbGFZUlFOVWRLME02WjRfUnR2MEE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "b158c57aeb50",
+   "articleIds": [
+    "ac90a1a50fcf"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 ‘심장부’ 리야드 금융지구 피격…“후티 공격에 아람코타워 파손”",
+   "titleAuto": false,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T14:20:28.087Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "중앙일보",
+     "cat": "kr",
+     "title": "사우디 ‘심장부’ 리야드 금융지구 피격…“후티 공격에 아람코타워 파손”",
+     "titleKo": null,
+     "summary": "리야드 금융지구와 아람코 타워가 후티 공격으로 손상됐다고 전했습니다.",
+     "reportedAt": "2026-11-08T14:12:34.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxdlRJTWFYUF8yZGYxWm5oSWJCZE5nT1RhUTk5VU8xT1pGYlZKajdybmFkLWRVQ25GRVN4MnNyNHpmaUpOUG5jQ2Z1aURTLW9nVkRrNmtR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "881e23265c8e",
+   "articleIds": [
+    "e4489e2f51c3"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합2보)",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T14:10:32.923Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합2보)",
+     "titleKo": null,
+     "summary": "리야드 금융지구가 피격돼 아람코타워가 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T13:59:22.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5IetIBYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5Ieg?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "6edb76f9541b",
+   "articleIds": [
+    "9a43153ed413",
+    "901b73044bb8",
+    "5d2d94244528",
+    "1b7093745db9",
     "18ecc1dda2fc",
+    "fb4e4b90f0f0",
     "be3d2a6b3491",
-    "06af226ab381",
     "9c315f505dd5",
+    "06af226ab381",
     "578d637231a8",
     "3f44ed9bbd4d",
     "9412162b422d",
     "d3ce4783d782",
     "b104b061f72a",
-    "59ffd25ef828",
+    "68e6faf7012e",
+    "eb8f1241e3ce",
     "e3d208718300",
-    "e09e6e570872",
-    "059b95eb2f43",
-    "1b49880c4b64",
     "2e235e4b9157",
     "ad81ff730156",
     "13a61eacfb55",
     "a6b01bf44f08",
     "fb427a4a58bc",
-    "8d4b7f0a7a79",
-    "75b4476ba222",
-    "3689e0540fc2",
-    "d1c8de5dea84",
-    "6412b751af2f",
-    "a638ed55eb19",
-    "5d9667eb7f20",
-    "70987bf34cbf",
-    "d609854dd2bb",
-    "3d1ce6ed193a",
-    "f75abf28b905",
-    "5d59e361ba3d",
-    "e4489e2f51c3",
-    "ac90a1a50fcf",
-    "fe26e632f74b",
-    "9e985800377e"
+    "5d59e361ba3d"
    ],
    "type": "energy",
    "sev": "high",
    "status": "multi",
    "directive": null,
-   "title": "[쇼츠] 공습에 치솟은 파편·연기…후티 \"사우디 전투기가 때렸다\"",
+   "title": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
    "titleAuto": false,
    "regions": [
     "riyadh",
-    "eastern"
+    "eastern",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-08T05:46:40.025Z",
+   "collectedAt": "2026-11-08T03:30:43.169Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Riyadh’s Saudi Aramco tower damaged during attack from Yemen",
+     "titleKo": "아람코 타워 공격으로 손상 발생 보도",
+     "summary": "아람코 타워가 공격으로 손상됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T00:00:56.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi defenses intercept Houthi ballistic missile targeting Eastern Province",
+     "titleKo": "사우디 방공, 동부주 목표로 한 후티 탄도미사일 요격",
+     "summary": "사우디가 동부지방을 겨냥한 후티 탄도미사일을 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-08T03:26:36.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWnJLYml2Nm0tSWwtSmxkM2ZweXU3THdDNm1tczlCZTFnWm1OMGFyMlNHQ3R3MVphRnFxQzJETlpkMHlWaHJudW1YaGNQVks0cVE5WDlXeTlzdUhjQWV1WTFMcHNmWlN2MWlXWlZCQXVaTkhSSnZYdzBqU2xvbnpCZTE2T0VUb0NjQnZDdnRrb2syYjRadjk4ZXlvdk5Fd0NKTUIwMV84WWY2ZG9IMkpCRlkzeERqNTdzODdWcDZsdw?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
+     "titleKo": null,
+     "summary": "후티는 사우디 공습으로 33명이 사망했다고 주장했습니다.",
+     "reportedAt": "2026-11-08T04:24:46.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vclNqRC1JNE5Lbk16T1BoTWpBX181LWh0b1k1TTktTW9qMkhWaDdCc1lTU2pKUXVCLUY3czJwNDVFX3BIWWZ4RHdEUEc3VklHcHZvTE5XU3N0V3fSAWBBVV95cUxQQ1BqYklmTUNiRnVFXzZJQXljXzBkZkZfV293MW03VGw4QVBTMmg3azRITjlUN3E3ZDVTd2JhdUJOd0V3aU5wTXZLcVdidmE4QWhmWUZTMHJQVUlvemdCb2E?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Houthi attack damages Aramco building in Riyadh's financial district",
+     "titleKo": "후티 공격이 리야드 금융지구의 아람코 건물에 피해를 입혀",
+     "summary": "",
+     "reportedAt": "2026-11-08T05:24:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5"
+    },
     {
      "outlet": "Reuters",
      "cat": "wire",
      "title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
      "titleKo": "아람코 건물, 시도된 공격으로 낙하물 피해 발생했다고 발표",
      "summary": "아람코 건물에 떨어진 파편으로 손상이 발생했다고 에너지부가 발표했다고 보도했어요.",
+     "reportedAt": "2026-11-08T05:24:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Saudi-led coalition intercepts two Houthi missiles fired towards Riyadh",
+     "titleKo": "사우디 주도 연합군, 리야드로 발사된 후티 미사일 2발 요격",
+     "summary": "로이터는 사우디 주도 연합군이 리야드를 향한 후티 미사일 2기를 요격했다고 보도했어요.",
      "reportedAt": "2026-11-08T05:24:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5"
@@ -213,9 +402,9 @@
     {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
-     "title": "Energy Ministry: Minor Damage in Attempted Attack on Saudi Aramco Building in Riyadh",
-     "titleKo": "에너지부: 리야드 아람코 건물 시도 공격에 경미한 피해 발생",
-     "summary": "에너지부는 리야드 아람코 건물에 시도된 공격으로 경미한 피해가 발생했다고 발표했어요.",
+     "title": "Coalition Destroys Missiles Fired at Riyadh, Eastern Region, Southern Region",
+     "titleKo": "연합군, 리야드·동부·남부 향한 미사일 격파 발표",
+     "summary": "연합군이 리야드·동부·남부를 향한 미사일을 격파했다고 보도했어요.",
      "reportedAt": "2026-11-08T05:44:14.000Z",
      "dateOnly": false,
      "url": "https://english.aawsat.com/node/5338801"
@@ -223,9 +412,9 @@
     {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
-     "title": "Coalition Destroys Missiles Fired at Riyadh, Eastern Region, Southern Region",
-     "titleKo": "연합군, 리야드·동부·남부 향한 미사일 격파 발표",
-     "summary": "연합군이 리야드·동부·남부를 향한 미사일을 격파했다고 보도했어요.",
+     "title": "Energy Ministry: Minor Damage in Attempted Attack on Saudi Aramco Building in Riyadh",
+     "titleKo": "에너지부: 리야드 아람코 건물 시도 공격에 경미한 피해 발생",
+     "summary": "에너지부는 리야드 아람코 건물에 시도된 공격으로 경미한 피해가 발생했다고 발표했어요.",
      "reportedAt": "2026-11-08T05:44:14.000Z",
      "dateOnly": false,
      "url": "https://english.aawsat.com/node/5338801"
@@ -245,7 +434,7 @@
      "cat": "kr",
      "title": "[쇼츠] 공습에 치솟은 파편·연기…후티 \"사우디 전투기가 때렸다\"",
      "titleKo": null,
-     "summary": "공습으로 파편과 연기가 치솟았고 후티는 사우디 전투기 공격이라고 주장했다고 전했어요.",
+     "summary": "공습으로 파편과 연기가 치솟았고 후티는 사우디 전투기 공격을 주장했습니다.",
      "reportedAt": "2026-11-08T05:47:23.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FQjczRm00aHhuS2dvZmVPN1VFV0dTYUJQdFlOUlF6Nml2LVJjQV9qSUxLeDBCU1lRMHpvbENUemJTbkxvYWtYQkkzQlRPUldpVlc3T3Q4VmZrTER4VHBNWdIBYEFVX3lxTE9FQjczRm00aHhuS2dvZmVPN1VFV0dTYUJQdFlOUlF6Nml2LVJjQV9qSUxLeDBCU1lRMHpvbENUemJTbkxvYWtYQkkzQlRPUldpVlc3T3Q4VmZrTER4VHBNWQ?oc=5"
@@ -264,8 +453,8 @@
      "outlet": "Saudi Gazette",
      "cat": "local",
      "title": "Saudi air defenses intercept 3 ballistic missiles, 2 cruise missiles targeting Riyadh, other regions",
-     "titleKo": "사우디 방공, 리야드 등 향한 탄도·순항미사일 요격·민방위 경보 발령",
-     "summary": "사우디 공군이 리야드 등으로 향한 탄도미사일 3기와 순항미사일 2기를 요격했다고 민방위 경고와 함께 보도됐어요.",
+     "titleKo": "사우디, 복수의 탄도·크루즈미사일 요격·민방위 경보",
+     "summary": "사우디가 3발의 탄도미사일과 2발의 크루즈미사일을 요격했고 민방위가 비상경보를 발령했다고 보도했습니다.",
      "reportedAt": "2026-11-08T06:17:11.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666074/saudi-arabia/saudi-air-defenses-intercept-3-ballistic-missiles-2-cruise-missiles-targeting-riyadh-other-regions"
@@ -274,68 +463,48 @@
      "outlet": "Al Jazeera",
      "cat": "local",
      "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
-     "titleKo": "사우디아라비아, 리야드·동부주 겨냥한 후티 미사일 요격",
-     "summary": "알자지라가 사우디가 후티 미사일을 요격했다고 전했어요.",
+     "titleKo": "사우디 방공, 리야드·동부 겨냥 미사일 요격",
+     "summary": "사우디 방공이 리야드와 동부를 겨냥한 미사일을 요격했다고 보도했습니다.",
      "reportedAt": "2026-11-08T07:42:48.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
     },
     {
-     "outlet": "경향신문",
-     "cat": "kr",
-     "title": "예멘 내전 점입가경···사우디 수도 아람코 건물 피격에 시리아 파병설까지, 이틀 새 63명 사망",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T08:00:00.000Z",
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Yemen's Houthis claim attack on Riyadh financial district, Aramco skyscraper damaged",
+     "titleKo": "후티, 리야드 금융지구 공격·아람코 손상 주장",
+     "summary": "후티는 리야드 금융지구 공격을 자처하며 아람코 마천루가 손상됐다고 주장했습니다.",
+     "reportedAt": "2026-11-08T08:11:54.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DZnNkeDB1dm9jN2dTRnZOYWI1TGJkMWxGS1RqZlhTRWZ1d1d5Q1ZnallDbmRNYUlid05vSl9PYmRYWW1yaXRnQmFtOVJGb3NTNThYSWJxWjM4YVdIOWFv0gFfQVVfeXFMTUNmc2R4MHV2b2M3Z1NGdk5hYjVMYmQxbEZLVGpmWFNFZnV3V3lDVmdqWUNuZE1hSWJ3Tm9KX09iZFhZbXJpdGdCYW05UkZvc1M1OFhJYnFaMzhhV0g5YW8?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM0lvRUVEWDd5SjYweGdIOU5lck5WZy1SbHF0bFBCZDJuODQtelJrU0J3WmJZc19HM25OMTRiQUJ2Qm53US1hWkN2RXpORzFrRTVaREJxbzlRRTV2UW9sWTByTzJvNnRfby0zT01QWm1wak0zdDV4ZmNNcUZLVnlxM1ZPQmdDdEdUUXJUREVFaDZxSkFIOUJSWFBZSDFacmdKMzJ0V0FfVlF4UDRnRFM2Zjl3?oc=5"
+    },
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Yemen's Houthis claim attack on Aramco building in Riyadh's financial district",
+     "titleKo": "후티, 리야드 아람코 건물 공격 주장",
+     "summary": "후티가 리야드 아람코 건물 공격을 자처했다고 보도했습니다.",
+     "reportedAt": "2026-11-08T08:11:54.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX0dlaWhNaC1VOGlBdFRmSG10ODBOeWRnNXZ2dy1MVDBnd0xmVmU1bjF3aFFDNjU1b1J1NHloZnF1RHRaX0xHbzNnNVhJZDgtSmpyUDZaZXdmb0pNeE9PUWMwZG55bUdQT1JDZWJtSjlWUFhUaDNyWlFpWndkSllOZm5Bbmx1MGs4bUxlNDB4Z1Nfd2JmNXV2ZTg1eHNyN29KYVYxMlJSdWs1OGloWkZFc2lGaHYtWExQWS1PNnAxZDhpcUF1VGc?oc=5"
     },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
      "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province - Al Jazeera",
-     "titleKo": "알자지라: 사우디아라비아, 리야드·동부주를 겨냥한 후티 미사일 요격했다고 발표",
-     "summary": "알자지라가 후티의 리야드·동부주 표적 미사일을 사우디가 요격했다고 보도했어요.",
+     "titleKo": "사우디, 후티 미사일 요격 보도(알자지라)",
+     "summary": "사우디가 후티 미사일을 요격해 리야드와 동부를 방어했다고 보도했습니다.",
      "reportedAt": "2026-11-08T08:12:51.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZnI3N2YyUUctMWJJdEtFd0MxY29menhubGtiTXAxZzNrdVpPbDZXc1lPY1hqU3hiNXl2a2VyYkNubjlkVUpqT1AySUlGNm5fRnl4alhIRzlNdFc2ZmtyM1RZNHdRTTZNcGRPVUlXWkxTN3JXcTNOOGhTM2FGMVJyWV9GcFhOdVRIMDlvZHhOV0ZWTmNjbVR1aVVkN1ZrektMcG5sMHpxdDhPR0NVbThheG1kbE5SVzBXc3phM2RoZ2llX0M1R0liMW5tQmg5dw?oc=5"
     },
     {
-     "outlet": "한국경제",
-     "cat": "kr",
-     "title": "사우디 수도 금융지구도 피격…＂후티 공격에 아람코타워 파손＂",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T08:26:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1idEF3N0F6SVFLLUUwYXE5VUhEZnhOc1MxSWZGS25sWWQ1NTFoUVhfM09OU2RkQVJxS0V4Ymo4aURMYVhocENZeFFONmRkaF8yZmJpNXpzal9GNXBEUDZxWUo1bEp1WVJWb2N2ajJuNVNlZDV5VGFVSjlxTmU?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 수도 금융지구도 피격…\"후티 공격에 아람코타워 파손\"",
-     "titleKo": null,
-     "summary": "리야드 금융지구 피격과 아람코타워 파손 사실을 전했어요.",
-     "reportedAt": "2026-11-08T08:26:35.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5INFlPMVR5YzNXbWR6QlgzTDZpRk1ycUFVdzRrVE9KX1BYTDQzTFZkc1ZzN1NmTmNFSjgxblc0U1NDUTh5YkkyVU5HMERuUHhyNzFXQjdpbW1zN1XSAWBBVV95cUxNR1hhWDdEaTZtb1FLa0YwbG5xbzZ1Z0I3UkVJaEI1NERxdGs0T3ZmZDNwQWdnR1BnOC1DSERjNkpDVWZVZmprRDFIMUYwS09vdXhBaDZOVmFxV1IxMlJ4dU8?oc=5"
-    },
-    {
-     "outlet": "SBS",
-     "cat": "kr",
-     "title": "사우디·후티 반군 난타전...아람코타워 파손",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T08:33:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jU2hqeExzdUFMVFV3ZGQ5OXBlRVZGY0swVkJ6QWNuZ25OaWtpbXlrSUJFSVBhcm9obHlUbjVfTWJOOXBkUFBqWXhhWUxEOEtFSHQxTlNCTzfSAVhBVV95cUxNY1NoanhMc3VBTFRVd2RkOTlwZUVWRmNLMFZCekFjbmduTmlraW15a0lCRUlQYXJvaGx5VG41X01iTjlwZFBQall4YVlMRDhLRUh0MU5TQk83?oc=5"
-    },
-    {
      "outlet": "Arab News",
      "cat": "local",
      "title": "Aramco building in Riyadh targeted, Saudi energy ministry says",
-     "titleKo": "사우디 에너지부: 리야드 아람코 건물 공격 표적",
-     "summary": "사우디 방공이 동부주를 목표로 한 후티의 탄도미사일을 요격했다고 전했어요.",
+     "titleKo": "아람코 건물 표적, 에너지부 \"요격\"",
+     "summary": "아람코 건물이 공격 대상이었고 사우디 공군이 요격했다고 에너지부가 밝혔습니다.",
      "reportedAt": "2026-11-08T08:41:53.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/aramco-building-in-riyadh-targeted-saudi-energy-ministry-says-3010424"
@@ -344,8 +513,8 @@
      "outlet": "Arab News",
      "cat": "local",
      "title": "Saudi Aramco building in Riyadh sustains limited damage, ministry says",
-     "titleKo": "리야드 아람코 건물 제한적 피해 발생했다고 발표",
-     "summary": "아람코 건물이 제한적 피해를 입었다고 사우디 당국이 발표했어요.",
+     "titleKo": "아람코 건물 제한적 피해·방공 요격 발표",
+     "summary": "아람코 건물이 제한적 피해를 입었으며 방공이 미사일을 요격했다고 보도했습니다.",
      "reportedAt": "2026-11-08T08:41:53.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/saudi-aramco-building-in-riyadh-sustains-limited-damage-ministry-says-3010424"
@@ -354,8 +523,8 @@
      "outlet": "Arab News",
      "cat": "local",
      "title": "Saudi defenses intercept Houthi missiles, drone targeting Riyadh and southern regions",
-     "titleKo": "사우디 방공, 리야드·남부 표적 미사일·드론 요격",
-     "summary": "사우디가 후티가 발사한 미사일과 드론를 요격했다고 보도했어요.",
+     "titleKo": "사우디 방공, 리야드와 남부 미사일·드론 요격",
+     "summary": "사우디 방공이 리야드와 남부 지역을 겨냥한 후티의 미사일과 드론을 요격했다고 전했습니다.",
      "reportedAt": "2026-11-08T08:41:53.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/saudi-defenses-intercept-houthi-missiles-drone-targeting-riyadh-and-southern-regions-3010424"
@@ -364,8 +533,8 @@
      "outlet": "Saudi Gazette",
      "cat": "local",
      "title": "Saudi Aramco facility targeted in attempted attack in Riyadh; no casualties reported",
-     "titleKo": "에너지부: 리야드 아람코 건물 시도된 공격에 경미한 손상",
-     "summary": "아람코 건물이 시도된 공격으로 제한적 손상과 낙하물 피해를 입었으나 인명피해는 없었다고 한 발표가 보도됐어요.",
+     "titleKo": "아람코 행정건물 시도된 공격으로 일부 파손",
+     "summary": "아람코 행정용 건물이 시도된 공격으로 일부 파손됐으나 인명피해는 없다고 에너지부 관계자가 전했습니다.",
      "reportedAt": "2026-11-08T09:03:10.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666080/saudi-arabia/saudi-aramco-facility-targeted-in-attempted-attack-in-riyadh-no-casualties-reported"
@@ -375,510 +544,483 @@
      "cat": "kr",
      "title": "사우디 수도 금융지구도 피격…“후티 공격에 아람코타워 파손”",
      "titleKo": null,
-     "summary": "사우디 금융지구 피격과 아람코타워 파손 사실을 보도했어요.",
+     "summary": "사우디 방공이 후티의 미사일과 드론을 요격했다고 보도됐습니다.",
      "reportedAt": "2026-11-08T09:08:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZVhZaVhVYjZ5Z1VwLVVMMW5WWGU4NXFmcHhuNXNQd2Z0c2F3NjdhMVIwTlF0d2tnb2VDWExYN1hjYTZTTDZWbFNSY3g2c1hLdGJlZmJYcEwwS28?oc=5"
     },
     {
-     "outlet": "중앙일보",
-     "cat": "kr",
-     "title": "사우디 수도 금융지구도 피격…“후티 반군, 아람코타워 파손”",
-     "titleKo": null,
-     "summary": "사우디 수도 금융지구가 피격돼 후티가 아람코타워를 파손했다고 보도했어요.",
-     "reportedAt": "2026-11-08T09:09:26.000Z",
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Riyadh’s students return to classrooms as fresh attacks hit capital",
+     "titleKo": "학생들 등교한 날 리야드에 추가 공격 발생",
+     "summary": "리야드 학생들이 등교한 날에 추가 공격이 발생했다고 전했습니다.",
+     "reportedAt": "2026-11-08T13:45:49.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIcjVaUTVxeC1OMTZkWmUwdEtteUJKbUdCSURDU19XOTNZWkh2NkRfZ3JBc2xFY0VnT3hsbEVEOUllMkFSMklUT0dLaS1laV9iT2Z0OHpB?oc=5"
-    },
+     "url": "https://www.arabnews.com/saudi-arabia/riyadhs-students-return-to-classrooms-as-fresh-attacks-hit-capital-3010492"
+    }
+   ]
+  },
+  {
+   "id": "b1b8a66faaad",
+   "articleIds": [
+    "f75abf28b905"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "아람코 빌딩, '시도된' 공격으로 피해",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T10:30:37.237Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "사우디 수도 금융지구도 피격‥\"후티 공격에 아람코타워 파손\"",
-     "titleKo": null,
-     "summary": "사우디 수도 금융지구가 피격돼 아람코타워가 파손됐다고 보도했어요.",
-     "reportedAt": "2026-11-08T09:44:57.000Z",
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
+     "titleKo": "아람코 빌딩, '시도된' 공격으로 피해",
+     "summary": "아람코 빌딩이 '시도된' 공격으로 피해를 봤다고 보도했습니다.",
+     "reportedAt": "2026-11-08T13:19:35.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ma3ZZNjZQR0FiU3FWbnh1RUxtRjUxeHFZYy1GWDlsM01tSmpabXVxTmdKQjl4cVVPc1A1WjI0NGxVeVdPMVJkbUpMTGVrS21aS1FkRHlVX0s5Q1NXel83Sk9DOVhGV3ZkYXhrV3U2cTBrUGk40gF0QVVfeXFMT25jTlJtTWpkcW9ra010R0pmUUtvWVpVWFl3YUlPQmZxUmdfb3VqeXB2Y1VBOGFKZ05PVUdjb0MtM3hjbmZmczZZTWszZUI1TWVmeWZhYXU1d25BMmJjbS1vcXVDYlNza0VBTTdTQ0RGUUZJZ2U?oc=5"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "사우디 리야드 금융지구, 예멘 후티 미사일에 피격…\"아람코 타워 파손\"",
-     "titleKo": null,
-     "summary": "리야드 금융지구가 예멘 후티의 미사일로 피격돼 아람코 타워가 파손됐다고 전했어요.",
-     "reportedAt": "2026-11-08T11:02:38.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FbEdCZXc5bW0tY1pYM3UxWkVmV0JON1lOSW5HRG8tRTd1Nl9PTm9pTzllaUFTOGRvekI2VDhHZERpa3ZQYmN1NjdfWHdRVFZHTF9KMmpoc3RQczNOTGlOQmRR?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합)",
-     "titleKo": null,
-     "summary": "사우디 금융지구가 피격돼 아람코타워가 파손됐다고 전했어요.",
-     "reportedAt": "2026-11-08T11:35:59.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hNk5fZFBXTW1fMjktT2RTUGUwbldjNlVFN19XNlRQZmRiSGZhS2Q3Y0h3YlJ2WWt0UndGTWNJa3JUeFZid09wYmFLbmdoWWhoeG9tWWRrbXNaRHfSAWBBVV95cUxNbkRBVXdFajh5UlAxZWJieHdoTDgxRTljRlRqNVNnUjNhMzhJVDFRR3hIN0Y5S0ktTGM5YnU4b3l2VkxETnMtMDh1akxiMGM3Y2RUWVRsczRLQ3p4QkhRRjM?oc=5"
-    },
-    {
-     "outlet": "조선일보",
-     "cat": "kr",
-     "title": "후티, 사우디 수도 마천루까지 때렸다 \"아람코 타워 피격\"",
-     "titleKo": null,
-     "summary": "후티가 리야드의 아람코 타워를 피격했다고 보도했어요.",
-     "reportedAt": "2026-11-08T11:46:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0g0THlSeG1TOEsyZDhBd2xSdmFNcnZpVHNVNmhKc0h3U0phS2ZHRC1lUDBXcFVxSUdibE9RdkdXSVZhRE1qdjB6Qzh0TUdFeV9PWGx5amRhdTByUVZhOTdJdUFTRTVELVdCX0VyYjZKelEzR1BIVUFXS0tWNHVEZnhwd2Q2U3AxZFpaY1FYdmRwOWhHaHg0eWJqYVBldw?oc=5"
-    },
-    {
-     "outlet": "한국경제",
-     "cat": "kr",
-     "title": "사우디 수도 핵심지역에 '후티 공격'…아람코타워까지 파손",
-     "titleKo": null,
-     "summary": "사우디 수도 핵심지역에서 후티의 공격으로 아람코타워가 파손됐다고 보도했어요.",
-     "reportedAt": "2026-11-08T12:15:55.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RTGFyS0hWYUhLcG90bFh6dkcwUmFhSzMzaEg1djctU2ttXzhheFYzNFZWcmlTUXJIRk91UDh4U0VKYjIxdWU3Nm1BYVJ5QUFxWlFPZFZDWThqUQ?oc=5"
-    },
-    {
-     "outlet": "서울경제",
-     "cat": "kr",
-     "title": "아람코타워까지 피격…후티, 사우디 심장 ‘금융지구’ 공격",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T12:19:19.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSYWxnbXFoSlRWWFJBUUpobEtvZ2NDRjFCSW4wU2Fid280Mi1iRVA5ZTU2SmhYVXNaMU5tdi0wQlh3TnVTbFZsVnVzSGloTjdvdEFB0gFTQVVfeXFMUFJhbGdtcWhKVFZYUkFRSmhsS29nY0NGMUJJbjBTYWJ3bzQyLWJFUDllNTZKaFhVc1oxTm12LTBCWHdOdVNsVmxWdXNIaWhON290QUE?oc=5"
-    },
-    {
-     "outlet": "한겨레",
-     "cat": "kr",
-     "title": "사우디 금융지구 아람코 건물 공격받아…당국 “인명피해 없어”",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T12:55:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRm5mazNfRmlSM3ZJN3M1S1F1MXZIb2E1V2hSUmxYNnRJQldBLXRoRzB1UVoxNFdwOTRlWU9hejd0U09aYmhCaVMxTzhEY0J0Q2RpWmdrOWI5UGlYZDVLTDFSSmhmLUs1T2FDZEJZeTRSQjg1NlM1RWg4Y29UUGs1TVNR?oc=5"
-    },
-    {
-     "outlet": "한겨레",
-     "cat": "kr",
-     "title": "후티, 사우디 금융지구 아람코 건물 공격…사상자는 없어",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T13:00:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRm5mazNfRmlSM3ZJN3M1S1F1MXZIb2E1V2hSUmxYNnRJQldBLXRoRzB1UVoxNFdwOTRlWU9hejd0U09aYmhCaVMxTzhEY0J0Q2RpWmdrOWI5UGlYZDVLTDFSSmhmLUs1T2FDZEJZeTRSQjg1NlM1RWg4Y29UUGs1TVNR?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "add65c8c1369",
+   "articleIds": [
+    "3d1ce6ed193a"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 사우디 수도 중심부 금융지구 공격…아람코 타워도 손상",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T13:20:27.259Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
      "outlet": "한국일보",
      "cat": "kr",
      "title": "후티, 사우디 수도 중심부 금융지구 공격…아람코 타워도 손상",
      "titleKo": null,
-     "summary": "",
+     "summary": "후티의 공격으로 아람코 타워가 손상됐다고 전했습니다.",
      "reportedAt": "2026-11-08T13:13:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wWkhhRGRXck1hOF96bnhvZEx4YlFyNWZBb0hqMkVLb043emZhaHJlQ0djd2UxaHo4UDZSQ3ltOU4tVENJcmNMUWNNNDlWOXVtNUFZblNXUzlIeHNPbE1ZN08xZmZUM29Id2V3ZUJjTnlWb03SAXNBVV95cUxPMFpIYURkV3JNYThfem54b2RMeGJRcjVmQW9IajJFS29ON3pmYWhyZUNHY3dlMWh6OFA2UkN5bTlOLVRDSXJjTFFjTTQ5Vjl1bTVBWW5TV1M5SHhzT2xNWTdPMWZmVDNvSHdld2VCY055Vm9N?oc=5"
-    },
+    }
+   ]
+  },
+  {
+   "id": "16699a41c375",
+   "articleIds": [
+    "d609854dd2bb"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 사우디 금융지구 아람코 건물 공격…사상자는 없어",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T13:10:32.344Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
-     "titleKo": "리야드의 아람코 건물, '시도된' 공격으로 피해 발생",
-     "summary": "리야드의 아람코 건물이 '시도된' 공격으로 손상됐다고 보도했어요.",
-     "reportedAt": "2026-11-08T13:19:35.000Z",
+     "outlet": "한겨레",
+     "cat": "kr",
+     "title": "후티, 사우디 금융지구 아람코 건물 공격…사상자는 없어",
+     "titleKo": null,
+     "summary": "후티가 리야드 금융지구 아람코 건물을 공격했으며 인명피해는 없다고 보도했습니다.",
+     "reportedAt": "2026-11-08T13:00:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRm5mazNfRmlSM3ZJN3M1S1F1MXZIb2E1V2hSUmxYNnRJQldBLXRoRzB1UVoxNFdwOTRlWU9hejd0U09aYmhCaVMxTzhEY0J0Q2RpWmdrOWI5UGlYZDVLTDFSSmhmLUs1T2FDZEJZeTRSQjg1NlM1RWg4Y29UUGs1TVNR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "2cfaf866ce0c",
+   "articleIds": [
+    "70987bf34cbf"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 금융지구 아람코 건물 공격받아…당국 “인명피해 없어”",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T13:10:32.344Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Riyadh’s students return to classrooms as fresh attacks hit capital",
-     "titleKo": "리야드 학생들 등교 복귀 첫날 새 공격 발생",
-     "summary": "리야드의 학생들이 등교를 재개한 날 새 공격이 발생해 수도에 긴장이 다시 높아졌다고 보도했어요.",
-     "reportedAt": "2026-11-08T13:45:49.000Z",
+     "outlet": "한겨레",
+     "cat": "kr",
+     "title": "사우디 금융지구 아람코 건물 공격받아…당국 “인명피해 없어”",
+     "titleKo": null,
+     "summary": "아람코 건물이 공격받았으나 당국은 인명피해가 없다고 밝혔습니다.",
+     "reportedAt": "2026-11-08T12:55:00.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/riyadhs-students-return-to-classrooms-as-fresh-attacks-hit-capital-3010492"
-    },
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRm5mazNfRmlSM3ZJN3M1S1F1MXZIb2E1V2hSUmxYNnRJQldBLXRoRzB1UVoxNFdwOTRlWU9hejd0U09aYmhCaVMxTzhEY0J0Q2RpWmdrOWI5UGlYZDVLTDFSSmhmLUs1T2FDZEJZeTRSQjg1NlM1RWg4Y29UUGs1TVNR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "a428831363c6",
+   "articleIds": [
+    "5d9667eb7f20"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "아람코타워까지 피격…후티, 사우디 심장 ‘금융지구’ 공격",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T13:10:32.344Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "서울경제",
+     "cat": "kr",
+     "title": "아람코타워까지 피격…후티, 사우디 심장 ‘금융지구’ 공격",
+     "titleKo": null,
+     "summary": "후티가 리야드 금융지구를 공격해 아람코타워까지 피해가 났다고 전했습니다.",
+     "reportedAt": "2026-11-08T12:19:19.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSYWxnbXFoSlRWWFJBUUpobEtvZ2NDRjFCSW4wU2Fid280Mi1iRVA5ZTU2SmhYVXNaMU5tdi0wQlh3TnVTbFZsVnVzSGloTjdvdEFB0gFTQVVfeXFMUFJhbGdtcWhKVFZYUkFRSmhsS29nY0NGMUJJbjBTYWJ3bzQyLWJFUDllNTZKaFhVc1oxTm12LTBCWHdOdVNsVmxWdXNIaWhON290QUE?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "5716c7a87fdf",
+   "articleIds": [
+    "a638ed55eb19"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 수도 핵심지역에 '후티 공격'…아람코타워까지 파손",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T12:20:31.980Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "사우디 수도 핵심지역에 '후티 공격'…아람코타워까지 파손",
+     "titleKo": null,
+     "summary": "후티 공격으로 수도 핵심지역 아람코타워가 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T12:15:55.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RTGFyS0hWYUhLcG90bFh6dkcwUmFhSzMzaEg1djctU2ttXzhheFYzNFZWcmlTUXJIRk91UDh4U0VKYjIxdWU3Nm1BYVJ5QUFxWlFPZFZDWThqUQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "a78cec95b7b8",
+   "articleIds": [
+    "6412b751af2f"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 사우디 수도 마천루까지 때렸다 \"아람코 타워 피격\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T11:40:32.235Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "조선일보",
+     "cat": "kr",
+     "title": "후티, 사우디 수도 마천루까지 때렸다 \"아람코 타워 피격\"",
+     "titleKo": null,
+     "summary": "후티가 리야드 마천루를 공격해 아람코 타워가 피격됐다고 전했습니다.",
+     "reportedAt": "2026-11-08T11:46:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0g0THlSeG1TOEsyZDhBd2xSdmFNcnZpVHNVNmhKc0h3U0phS2ZHRC1lUDBXcFVxSUdibE9RdkdXSVZhRE1qdjB6Qzh0TUdFeV9PWGx5amRhdTByUVZhOTdJdUFTRTVELVdCX0VyYjZKelEzR1BIVUFXS0tWNHVEZnhwd2Q2U3AxZFpaY1FYdmRwOWhHaHg0eWJqYVBldw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "a85744b7c94a",
+   "articleIds": [
+    "d1c8de5dea84"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합)",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T11:50:31.814Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
      "outlet": "연합뉴스",
      "cat": "kr",
-     "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합2보)",
+     "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합)",
      "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T13:59:22.000Z",
+     "summary": "리야드 금융지구가 후티 공격으로 아람코타워 파손을 입었다고 보도했습니다.",
+     "reportedAt": "2026-11-08T11:35:59.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5IetIBYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5Ieg?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hNk5fZFBXTW1fMjktT2RTUGUwbldjNlVFN19XNlRQZmRiSGZhS2Q3Y0h3YlJ2WWt0UndGTWNJa3JUeFZid09wYmFLbmdoWWhoeG9tWWRrbXNaRHfSAWBBVV95cUxNbkRBVXdFajh5UlAxZWJieHdoTDgxRTljRlRqNVNnUjNhMzhJVDFRR3hIN0Y5S0ktTGM5YnU4b3l2VkxETnMtMDh1akxiMGM3Y2RUWVRsczRLQ3p4QkhRRjM?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "94db3a4322ef",
+   "articleIds": [
+    "3689e0540fc2"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 리야드 금융지구, 예멘 후티 미사일에 피격…\"아람코 타워 파손\"",
+   "titleAuto": false,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T11:20:32.947Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "사우디 리야드 금융지구, 예멘 후티 미사일에 피격…\"아람코 타워 파손\"",
+     "titleKo": null,
+     "summary": "예멘 후티 미사일에 리야드 금융지구가 피격돼 아람코 타워가 파손됐다고 전했습니다.",
+     "reportedAt": "2026-11-08T11:02:38.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FbEdCZXc5bW0tY1pYM3UxWkVmV0JON1lOSW5HRG8tRTd1Nl9PTm9pTzllaUFTOGRvekI2VDhHZERpa3ZQYmN1NjdfWHdRVFZHTF9KMmpoc3RQczNOTGlOQmRR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "c9e50c62c09c",
+   "articleIds": [
+    "75b4476ba222"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 수도 금융지구도 피격‥\"후티 공격에 아람코타워 파손\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T09:50:32.558Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "사우디 수도 금융지구도 피격‥\"후티 공격에 아람코타워 파손\"",
+     "titleKo": null,
+     "summary": "리야드 금융지구가 피격돼 아람코타워가 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T09:44:57.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ma3ZZNjZQR0FiU3FWbnh1RUxtRjUxeHFZYy1GWDlsM01tSmpabXVxTmdKQjl4cVVPc1A1WjI0NGxVeVdPMVJkbUpMTGVrS21aS1FkRHlVX0s5Q1NXel83Sk9DOVhGV3ZkYXhrV3U2cTBrUGk40gF0QVVfeXFMT25jTlJtTWpkcW9ra010R0pmUUtvWVpVWFl3YUlPQmZxUmdfb3VqeXB2Y1VBOGFKZ05PVUdjb0MtM3hjbmZmczZZTWszZUI1TWVmeWZhYXU1d25BMmJjbS1vcXVDYlNza0VBTTdTQ0RGUUZJZ2U?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "e89a9c67e1a4",
+   "articleIds": [
+    "8d4b7f0a7a79"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 수도 금융지구도 피격…“후티 반군, 아람코타워 파손”",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T09:20:32.609Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
      "outlet": "중앙일보",
      "cat": "kr",
-     "title": "사우디 ‘심장부’ 리야드 금융지구 피격…“후티 공격에 아람코타워 파손”",
+     "title": "사우디 수도 금융지구도 피격…“후티 반군, 아람코타워 파손”",
      "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T14:12:34.000Z",
+     "summary": "후티 반군이 아람코타워를 파손했다고 전했습니다.",
+     "reportedAt": "2026-11-08T09:09:26.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxdlRJTWFYUF8yZGYxWm5oSWJCZE5nT1RhUTk5VU8xT1pGYlZKajdybmFkLWRVQ25GRVN4MnNyNHpmaUpOUG5jQ2Z1aURTLW9nVkRrNmtR?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "사우디 ’심장부’ 금융지구 피격…“후티 공격에 아람코타워 파손“",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-08T14:27:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vZ2JVdDBGQmhnWjZaekFVa28zMjJwcHJKbnlRV0pHOXpKM2hHX3p1SlFLMGRRRTNkV1dBMlBrbnBEUVhqQVRjZmpZTFUxWmhVaWFNbGFZUlFOVWRLME02WjRfUnR2MEE?oc=5"
-    },
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
-     "titleKo": "사우디, 아람코 건물 피해·미사일 요격 보도",
-     "summary": "사우디가 미사일을 요격했고 리야드의 아람코 건물이 피해를 봤다고 전했어요.",
-     "reportedAt": "2026-11-08T14:47:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1hPV0p1dkZfcU92OEJVMkYtQTNHb3hKSDdGZHp5U1RkUTZlc2dzTU9oNjQ4dk5nUGZ6WVhkTlk2VTJ0cFkxOHozbE9aWUJObXFUYVBCZEwtaktnOGExQjVfUlhNdFlxRV9KeHMzS1Rsc2c3OFAxNHF6RjM2X0FRamhCalJsTk1BY1g2NFhHX2ZnUQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIcjVaUTVxeC1OMTZkWmUwdEtteUJKbUdCSURDU19XOTNZWkh2NkRfZ3JBc2xFY0VnT3hsbEVEOUllMkFSMklUT0dLaS1laV9iT2Z0OHpB?oc=5"
     }
    ]
   },
   {
-   "id": "74d75aee88b4",
+   "id": "2f9c8473d1aa",
    "articleIds": [
-    "da6663af1807"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "시리아·쿠웨이트·바레인, 후티의 사우디 대상 미사일·드론 공격 규탄",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-08T15:11:34.449Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Syria, Kuwait and Bahrain condemn Houthi missile and drone attacks on Saudi Arabia",
-     "titleKo": "시리아·쿠웨이트·바레인, 후티의 사우디 대상 미사일·드론 공격 규탄",
-     "summary": "",
-     "reportedAt": "2026-11-08T14:35:01.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666086/saudi-arabia/syria-kuwait-and-bahrain-condemn-houthi-missile-and-drone-attacks-on-saudi-arabia"
-    }
-   ]
-  },
-  {
-   "id": "16c1734fa0f1",
-   "articleIds": [
-    "68e6faf7012e"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "claim",
-   "directive": null,
-   "title": "예멘 후티, 리야드 금융지구 공격과 아람코 마천루 피해를 주장",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-08T15:00:45.362Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Yemen's Houthis claim attack on Riyadh financial district, Aramco skyscraper damaged",
-     "titleKo": "예멘 후티, 리야드 금융지구 공격과 아람코 마천루 피해를 주장",
-     "summary": "",
-     "reportedAt": "2026-11-08T08:11:54.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM0lvRUVEWDd5SjYweGdIOU5lck5WZy1SbHF0bFBCZDJuODQtelJrU0J3WmJZc19HM25OMTRiQUJ2Qm53US1hWkN2RXpORzFrRTVaREJxbzlRRTV2UW9sWTByTzJvNnRfby0zT01QWm1wak0zdDV4ZmNNcUZLVnlxM1ZPQmdDdEdUUXJUREVFaDZxSkFIOUJSWFBZSDFacmdKMzJ0V0FfVlF4UDRnRFM2Zjl3?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "36358a9455a0",
-   "articleIds": [
-    "eb8f1241e3ce"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "claim",
-   "directive": null,
-   "title": "예멘 후티, 리야드 금융지구 아람코 건물 공격 주장",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-08T16:30:36.476Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Yemen's Houthis claim attack on Aramco building in Riyadh's financial district",
-     "titleKo": "예멘 후티, 리야드 금융지구 아람코 건물 공격 주장",
-     "summary": "",
-     "reportedAt": "2026-11-08T08:11:54.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX0dlaWhNaC1VOGlBdFRmSG10ODBOeWRnNXZ2dy1MVDBnd0xmVmU1bjF3aFFDNjU1b1J1NHloZnF1RHRaX0xHbzNnNVhJZDgtSmpyUDZaZXdmb0pNeE9PUWMwZG55bUdQT1JDZWJtSjlWUFhUaDNyWlFpWndkSllOZm5Bbmx1MGs4bUxlNDB4Z1Nfd2JmNXV2ZTg1eHNyN29KYVYxMlJSdWs1OGloWkZFc2lGaHYtWExQWS1PNnAxZDhpcUF1VGc?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "b27631f172fa",
-   "articleIds": [
-    "fb4e4b90f0f0"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 주도 연합군, 리야드로 발사된 후티 미사일 2발 요격",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-08T07:10:26.990Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi-led coalition intercepts two Houthi missiles fired towards Riyadh",
-     "titleKo": "사우디 주도 연합군, 리야드로 발사된 후티 미사일 2발 요격",
-     "summary": "로이터는 사우디 주도 연합군이 리야드를 향한 후티 미사일 2기를 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-08T05:24:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "c730fd912ab3",
-   "articleIds": [
-    "1b7093745db9"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티 공격이 리야드 금융지구의 아람코 건물에 피해를 입혀",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-08T16:10:31.286Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Houthi attack damages Aramco building in Riyadh's financial district",
-     "titleKo": "후티 공격이 리야드 금융지구의 아람코 건물에 피해를 입혀",
-     "summary": "",
-     "reportedAt": "2026-11-08T05:24:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "0781624e3504",
-   "articleIds": [
-    "5d2d94244528"
+    "1b49880c4b64"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
+   "title": "사우디·후티 반군 난타전...아람코타워 파손",
    "titleAuto": false,
    "regions": [
-    "airport"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-08T04:40:34.301Z",
+   "collectedAt": "2026-11-08T14:20:28.087Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SBS",
+     "cat": "kr",
+     "title": "사우디·후티 반군 난타전...아람코타워 파손",
+     "titleKo": null,
+     "summary": "사우디와 후티 반군의 충돌로 아람코타워가 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T08:33:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jU2hqeExzdUFMVFV3ZGQ5OXBlRVZGY0swVkJ6QWNuZ25OaWtpbXlrSUJFSVBhcm9obHlUbjVfTWJOOXBkUFBqWXhhWUxEOEtFSHQxTlNCTzfSAVhBVV95cUxNY1NoanhMc3VBTFRVd2RkOTlwZUVWRmNLMFZCekFjbmduTmlraW15a0lCRUlQYXJvaGx5VG41X01iTjlwZFBQall4YVlMRDhLRUh0MU5TQk83?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "17edbff87d59",
+   "articleIds": [
+    "059b95eb2f43"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 수도 금융지구도 피격…\"후티 공격에 아람코타워 파손\"",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T08:40:29.810Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "연합뉴스",
      "cat": "kr",
-     "title": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
+     "title": "사우디 수도 금융지구도 피격…\"후티 공격에 아람코타워 파손\"",
      "titleKo": null,
-     "summary": "후티는 사우디 공습으로 33명 사망을 주장했고 보복 공격을 진행했다고 전했어요.",
-     "reportedAt": "2026-11-08T04:24:46.000Z",
+     "summary": "리야드 금융지구가 피격돼 아람코타워가 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T08:26:35.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vclNqRC1JNE5Lbk16T1BoTWpBX181LWh0b1k1TTktTW9qMkhWaDdCc1lTU2pKUXVCLUY3czJwNDVFX3BIWWZ4RHdEUEc3VklHcHZvTE5XU3N0V3fSAWBBVV95cUxQQ1BqYklmTUNiRnVFXzZJQXljXzBkZkZfV293MW03VGw4QVBTMmg3azRITjlUN3E3ZDVTd2JhdUJOd0V3aU5wTXZLcVdidmE4QWhmWUZTMHJQVUlvemdCb2E?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5INFlPMVR5YzNXbWR6QlgzTDZpRk1ycUFVdzRrVE9KX1BYTDQzTFZkc1ZzN1NmTmNFSjgxblc0U1NDUTh5YkkyVU5HMERuUHhyNzFXQjdpbW1zN1XSAWBBVV95cUxNR1hhWDdEaTZtb1FLa0YwbG5xbzZ1Z0I3UkVJaEI1NERxdGs0T3ZmZDNwQWdnR1BnOC1DSERjNkpDVWZVZmprRDFIMUYwS09vdXhBaDZOVmFxV1IxMlJ4dU8?oc=5"
     }
    ]
   },
   {
-   "id": "483317ee27d8",
+   "id": "43b7f2db2aa8",
    "articleIds": [
-    "7ca27c9997f1",
-    "cdaa478b388d",
-    "d62cafe01f42",
-    "55b9e1652675",
-    "5cf6d5ce8e2a",
-    "9a43153ed413",
-    "5dbb7148df02",
-    "8f1684da1e53",
-    "57b6a7409bae",
-    "901b73044bb8"
+    "e09e6e570872"
    ],
-   "type": "airport",
-   "sev": "mid",
-   "status": "official",
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
    "directive": null,
-   "title": "[속보] 예멘 후티군, 사우디 군· 정유시설에 미사일 · 무인기 공습작전",
+   "title": "사우디 수도 금융지구도 피격…＂후티 공격에 아람코타워 파손＂",
    "titleAuto": false,
    "regions": [
-    "airport",
-    "riyadh",
-    "eastern"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-07T05:30:40.021Z",
+   "collectedAt": "2026-11-08T13:00:46.438Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Coalition: Houthi Cruise Missile Launched Toward Riyadh Region Destroyed",
-     "titleKo": "연합: 리야드 향한 후티 순항미사일 파괴",
-     "summary": "연합군은 리야드 지역을 향한 후티의 순항미사일을 파괴했다고 보도했어요.",
-     "reportedAt": "2026-11-07T09:35:43.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5338529"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi air defenses intercept ballistic missile, drone in Riyadh region",
-     "titleKo": "사우디 방공, 리야드 지역에서 탄도미사일·드론 요격",
-     "summary": "사우디 방공이 리야드 지역에서 탄도미사일과 무인기를 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-07T11:09:26.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc1VsZU1YMXFnNUxjbWFaOXY1bjZLSVJ6QmJlOHI1RjBIYzNSdEtZZmtlMGRvUElyME11eEgtNGtpaDIyUTRrdXF5QTQwaHpZZ3ljemNmXzlDQ00tYm8wNHRNV25WWWQ5MDFUb3FTRHNBVV9DYVMyRUVuRVBjVGxSMjI0RVdDeHlraHNHdlNjLXFFZWw4VnNKLTM1cHdkbFZtXzVkeFlId2hrZ0lNLXJHdHR0VEpwQQ?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Pakistani Prime Minister Strongly Condemns Attack on Riyadh Airport",
-     "titleKo": "파키스탄 총리, 리야드 공항 공격 강력 규탄",
-     "summary": "파키스탄 총리가 리야드 공항 폭탄 공격을 강력 규탄했다고 전했어요.",
-     "reportedAt": "2026-11-07T12:25:26.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PR0l3aE42bXBXNlQwUEZsbkNyUlZLY1VxRFIwY1pSU3FrdFl1b2Z4UVh1VEJNY3JUUVFVbGJhLWMwNHJGQjRqU2pmUXBwcjBnTlBkYnFvSWJUUTBYWll4dG5mTFk0TFoxTlE?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "GACA: Two Attacks Target King Khalid International Airport Facilities and a Saudia Aircraft",
-     "titleKo": "GACA: 킹 칼리드 공항 시설과 항공기 두 건이 공격 대상이었다",
-     "summary": "사우디 항공당국은 킹칼리드 국제공항 시설과 항공기를 겨냥한 공격 두 건이 있었다고 알렸어요.",
-     "reportedAt": "2026-11-07T14:19:41.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9aSWduaDhLZlAydXQybHFaQ2RlQXQzUVVFV1VBaGNJcFBvWUhybkhvQ1cxN2ZSWW1nS0t4bm1kTmU4amdIUE1BN29B?oc=5"
-    },
-    {
-     "outlet": "뉴시스",
+     "outlet": "한국경제",
      "cat": "kr",
-     "title": "[속보] 예멘 후티군, 사우디 군· 정유시설에 미사일 · 무인기 공습작전",
+     "title": "사우디 수도 금융지구도 피격…＂후티 공격에 아람코타워 파손＂",
      "titleKo": null,
-     "summary": "예멘 후티군이 사우디의 군·정유시설을 향해 미사일·무인기 공격을 감행했다고 보도했어요.",
-     "reportedAt": "2026-11-07T21:27:55.000Z",
+     "summary": "리야드 금융지구가 후티 공격으로 아람코타워가 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-08T08:26:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5uaDZMX3loX0RSNnA4TUhyejJrTkNaaWxJa3FLV3R2aG5WQXBYd3ladDR6aUVWMmdGbGlKWXhYR3dNQmpSM3RIWXFvSDN2RFJ2Y2dCcmN4b2NNMFZiQnEyUtIBeEFVX3lxTE9pNlZRcll6azI4UUdtem9KaUZtaHZKMVdWaVBwX0ljZW9WLWFPc2UwUU5kYS1nNXhtVEthQ1lPMndpTk1hNjJyeVhST2owY01wU19Sb0Zaa1U5UjYtdE5ERU91S0dnYXZWcXFORmxSYXc1YzZ5ajJVWA?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Riyadh’s Saudi Aramco tower damaged during attack from Yemen",
-     "titleKo": "리야드 아람코 타워가 예멘 발 공격으로 피해 입었다고 보도",
-     "summary": "알자지라가 리야드 아람코 타워가 예멘에서 발사된 공격으로 피해를 봤다고 보도했어요.",
-     "reportedAt": "2026-11-08T00:00:56.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "후티군, 사우디 정유시설· 군사 목표에 미사일 ·드론 폭격 작전 6회",
-     "titleKo": null,
-     "summary": "후티군이 사우디의 정유시설과 군사 목표를 미사일·드론으로 공격했다고 주장했다고 보도했어요.",
-     "reportedAt": "2026-11-08T00:11:21.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwa3VnN2JVWEJjRG9tQVhST3F6a3ZlMFlRUUN3emRmZjNoaDJvdmNCXzB3N1VHSFo2ZXQwdFNaTVBub180M1hRSWVYSi1NQjZ5eE5CMzVjTkxJcGNHb0RuZNIBeEFVX3lxTFB3LTZuSlVfR05jcVFSOVZKMjhVMldoR3lmRVBBYlZFd3ZPUkw2QjlOckdqSUg3Q1dqQVdlSVBhZ25YQzVFS05ZbnlUYS1ZdWVpRW5MMkpRQ3psZl9odDRaYnE4S29xZzdpSUJnWmZVRWdzUXVlZ1JDVg?oc=5"
-    },
-    {
-     "outlet": "뉴시스",
-     "cat": "kr",
-     "title": "후티군, 사우디 정유시설·군사 목표에 미사일 ·드론 폭격 작전6회",
-     "titleKo": null,
-     "summary": "후티는 사우디 공습으로 예멘 수도 인근에서 25명 사망했다고 주장했다고 보도되었어요.",
-     "reportedAt": "2026-11-08T00:11:21.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE52SEpnOC1Ca0s5b3dOZTRObG4tS3dmRm9wZmRYNE9PVGNscFBuRjlZZmYwV1BVX2F4Q2VLdnRWWnhYMVpXbktHRWxTOHR1NzN2ajd2MVFraFdxcjBQTkE1aGJ3?oc=5"
-    },
-    {
-     "outlet": "YTN",
-     "cat": "kr",
-     "title": "후티 \"사우디 공습에 60여 명 사상\"...시리아, 사우디 지원군 보내나?",
-     "titleKo": null,
-     "summary": "후티는 사우디 공습으로 60여 명 사상했다고 주장했다고 보도했어요.",
-     "reportedAt": "2026-11-08T00:47:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fQWdqNFNNeUdKbFRMeWsyeUF1NkJlZURVUjBiQzhlWHVmTmtlUlNfVmZmZWFtWWZrRFpWMTBDNVVaMlFZVjRMNFdZZmMxbDh4TFBISnhBZXhRTzc5ZHc?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi defenses intercept Houthi ballistic missile targeting Eastern Province",
-     "titleKo": "사우디 방공, 동부주 목표로 한 후티 탄도미사일 요격",
-     "summary": "사우디가 동부지방을 겨냥한 후티 탄도미사일을 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-08T03:26:36.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWnJLYml2Nm0tSWwtSmxkM2ZweXU3THdDNm1tczlCZTFnWm1OMGFyMlNHQ3R3MVphRnFxQzJETlpkMHlWaHJudW1YaGNQVks0cVE5WDlXeTlzdUhjQWV1WTFMcHNmWlN2MWlXWlZCQXVaTkhSSnZYdzBqU2xvbnpCZTE2T0VUb0NjQnZDdnRrb2syYjRadjk4ZXlvdk5Fd0NKTUIwMV84WWY2ZG9IMkpCRlkzeERqNTdzODdWcDZsdw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1idEF3N0F6SVFLLUUwYXE5VUhEZnhOc1MxSWZGS25sWWQ1NTFoUVhfM09OU2RkQVJxS0V4Ymo4aURMYVhocENZeFFONmRkaF8yZmJpNXpzal9GNXBEUDZxWUo1bEp1WVJWb2N2ajJuNVNlZDV5VGFVSjlxTmU?oc=5"
     }
    ]
   },
   {
-   "id": "afa712567e85",
+   "id": "63f2e4ff3dbf",
    "articleIds": [
     "fed266db7025",
     "3c30e8c66b3d",
-    "666c5b5ea194",
     "cfa53e55c688",
     "9ec32e6c47be",
     "6df5c544c37c",
-    "209df172fe64"
+    "209df172fe64",
+    "57b6a7409bae"
    ],
-   "type": "security",
+   "type": "korean",
    "sev": "mid",
    "status": "claim",
    "directive": null,
@@ -912,16 +1054,6 @@
      "reportedAt": "2026-11-07T15:36:59.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KMEVDMXJNelQ5U3RRbEUxXzZKOUVNOFRKY3FjbEswcG8wS2IzVkVuNXFrTU9mdHhZOUplLTVRb2ZlWlAwQXQxbVdrVnhaT1hoMnB6dGJDcW1YTTNxS25WddIBeEFVX3lxTE4xUW9WcjNITUNjU1ZybE04UTd0YzhwR2RPbEFZVHpVU2lWTDdjdkpwd2VJRm15MUdxaDJjbk1TQkE4Unp5MVUwbVd5azBKQVBOMXRPZndaQm1aUkpxSi1BdEx6cWhKQzZfczA2clNpdUJnMmc5bWV3RA?oc=5"
-    },
-    {
-     "outlet": "한국경제",
-     "cat": "kr",
-     "title": "후티 ＂사우디 공습으로 예멘 수도 인근서 27명 사망＂ 주장(종합)",
-     "titleKo": null,
-     "summary": "후티는 사우디 공습으로 예멘에서 27명 사망했다고 주장했다고 전했어요.",
-     "reportedAt": "2026-11-07T18:49:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1aN01QYlZETUZucFAzYUhCUE4xbUlUeTZaWTEyTVp6R2MxNFhoUmMydERCVUVVS1R4N1ZwZXpNbzgxemt0LXdLUmVyM1BrVEd0MDJzUk5pUnBmT29PNE5pT3N2UXNZdzdEa3JNaFlkZ3FvQXZqVmxUNVEwYjg?oc=5"
     },
     {
      "outlet": "연합뉴스",
@@ -962,6 +1094,112 @@
      "reportedAt": "2026-11-07T23:42:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QaEgwTU83Z1JnUWpvbEFEQ21qakdKVDJ3N0pVOWNqRDE5VjRzT012T1VfUTExUnh1TXFkaVNlVUlucmdxWVF2LWkxd2x2OUUzYjlCdHVnRzlkbWRrZnfSAWNBVV95cUxQaFk1TEpSTHl6WGgzNzRycjBjTGZ6THNFdUhJTG1mT094V29iZG0yZHZlYW5uQjVMV0FNc0R4akRzSUtDZ1VLNWU3eHB5ckdrcnQ3V1BPeFNCdVp0eERJQmxKZE0?oc=5"
+    },
+    {
+     "outlet": "YTN",
+     "cat": "kr",
+     "title": "후티 \"사우디 공습에 60여 명 사상\"...시리아, 사우디 지원군 보내나?",
+     "titleKo": null,
+     "summary": "후티는 사우디 공습으로 60여 명 사상했다고 주장했다고 보도했어요.",
+     "reportedAt": "2026-11-08T00:47:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fQWdqNFNNeUdKbFRMeWsyeUF1NkJlZURVUjBiQzhlWHVmTmtlUlNfVmZmZWFtWWZrRFpWMTBDNVVaMlFZVjRMNFdZZmMxbDh4TFBISnhBZXhRTzc5ZHc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "b6bc18192b0c",
+   "articleIds": [
+    "5dbb7148df02"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티군, 사우디 정유시설· 군사 목표에 미사일 ·드론 폭격 작전 6회",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T00:20:35.307Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "후티군, 사우디 정유시설· 군사 목표에 미사일 ·드론 폭격 작전 6회",
+     "titleKo": null,
+     "summary": "후티군이 사우디의 정유시설과 군사 목표를 미사일·드론으로 공격했다고 주장했다고 보도했어요.",
+     "reportedAt": "2026-11-08T00:11:21.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwa3VnN2JVWEJjRG9tQVhST3F6a3ZlMFlRUUN3emRmZjNoaDJvdmNCXzB3N1VHSFo2ZXQwdFNaTVBub180M1hRSWVYSi1NQjZ5eE5CMzVjTkxJcGNHb0RuZNIBeEFVX3lxTFB3LTZuSlVfR05jcVFSOVZKMjhVMldoR3lmRVBBYlZFd3ZPUkw2QjlOckdqSUg3Q1dqQVdlSVBhZ25YQzVFS05ZbnlUYS1ZdWVpRW5MMkpRQ3psZl9odDRaYnE4S29xZzdpSUJnWmZVRWdzUXVlZ1JDVg?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "ce0ceba162d4",
+   "articleIds": [
+    "8f1684da1e53"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티군, 사우디 정유시설·군사 목표에 미사일 ·드론 폭격 작전6회",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T01:40:33.017Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "후티군, 사우디 정유시설·군사 목표에 미사일 ·드론 폭격 작전6회",
+     "titleKo": null,
+     "summary": "후티는 사우디 공습으로 예멘 수도 인근에서 25명 사망했다고 주장했다고 보도되었어요.",
+     "reportedAt": "2026-11-08T00:11:21.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE52SEpnOC1Ca0s5b3dOZTRObG4tS3dmRm9wZmRYNE9PVGNscFBuRjlZZmYwV1BVX2F4Q2VLdnRWWnhYMVpXbktHRWxTOHR1NzN2ajd2MVFraFdxcjBQTkE1aGJ3?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "7701c2f334c9",
+   "articleIds": [
+    "5cf6d5ce8e2a"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "[속보] 예멘 후티군, 사우디 군· 정유시설에 미사일 · 무인기 공습작전",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-07T21:37:24.698Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "[속보] 예멘 후티군, 사우디 군· 정유시설에 미사일 · 무인기 공습작전",
+     "titleKo": null,
+     "summary": "예멘 후티군이 사우디의 군·정유시설을 향해 미사일·무인기 공격을 감행했다고 보도했어요.",
+     "reportedAt": "2026-11-07T21:27:55.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5uaDZMX3loX0RSNnA4TUhyejJrTkNaaWxJa3FLV3R2aG5WQXBYd3ladDR6aUVWMmdGbGlKWXhYR3dNQmpSM3RIWXFvSDN2RFJ2Y2dCcmN4b2NNMFZiQnEyUtIBeEFVX3lxTE9pNlZRcll6azI4UUdtem9KaUZtaHZKMVdWaVBwX0ljZW9WLWFPc2UwUU5kYS1nNXhtVEthQ1lPMndpTk1hNjJyeVhST2owY01wU19Sb0Zaa1U5UjYtdE5ERU91S0dnYXZWcXFORmxSYXc1YzZ5ajJVWA?oc=5"
     }
    ]
   },
@@ -998,26 +1236,60 @@
    ]
   },
   {
-   "id": "0832a1b5da3a",
+   "id": "6f36f2751a51",
    "articleIds": [
-    "d873269dd730"
+    "666c5b5ea194"
    ],
-   "type": "korean",
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 ＂사우디 공습으로 예멘 수도 인근서 27명 사망＂ 주장(종합)",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T08:00:46.293Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "후티 ＂사우디 공습으로 예멘 수도 인근서 27명 사망＂ 주장(종합)",
+     "titleKo": null,
+     "summary": "후티는 사우디 공습으로 예멘에서 27명 사망했다고 주장했다고 전했어요.",
+     "reportedAt": "2026-11-07T18:49:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1aN01QYlZETUZucFAzYUhCUE4xbUlUeTZaWTEyTVp6R2MxNFhoUmMydERCVUVVS1R4N1ZwZXpNbzgxemt0LXdLUmVyM1BrVEd0MDJzUk5pUnBmT29PNE5pT3N2UXNZdzdEa3JNaFlkZ3FvQXZqVmxUNVEwYjg?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "379573e67b60",
+   "articleIds": [
+    "d873269dd730",
+    "a859193b4b06"
+   ],
+   "type": "advisory",
    "sev": "mid",
    "status": "official",
    "directive": "advice",
    "title": "중부 및 동부지역 공격 관련 안전 유의(11.8.)",
    "titleAuto": false,
    "regions": [
-    "dammam",
+    "riyadh",
     "eastern",
-    "riyadh"
+    "airport",
+    "dammam"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-08T16:00:50.391Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "외교부 안전공지",
@@ -1028,29 +1300,7 @@
      "reportedAt": "2026-11-07T15:00:00.000Z",
      "dateOnly": true,
      "url": "https://www.0404.go.kr"
-    }
-   ]
-  },
-  {
-   "id": "9013bda17de5",
-   "articleIds": [
-    "a859193b4b06"
-   ],
-   "type": "korean",
-   "sev": "mid",
-   "status": "official",
-   "directive": "advice",
-   "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.8)",
-   "titleAuto": false,
-   "regions": [
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-08T16:00:50.391Z",
-   "aiNote": null,
-   "sources": [
+    },
     {
      "outlet": "외교부 안전공지",
      "cat": "official",
@@ -1064,15 +1314,49 @@
    ]
   },
   {
-   "id": "2ab25a448160",
+   "id": "0d5e1484cce3",
    "articleIds": [
+    "55b9e1652675"
+   ],
+   "type": "airport",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "GACA: 공항 시설·항공기 두 차례 공격 발생했다고 발표",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-07T20:00:43.446Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "GACA: Two Attacks Target King Khalid International Airport Facilities and a Saudia Aircraft",
+     "titleKo": "GACA: 킹 칼리드 공항 시설과 항공기 두 건이 공격 대상이었다",
+     "summary": "사우디 항공당국은 킹칼리드 국제공항 시설과 항공기를 겨냥한 공격 두 건이 있었다고 알렸어요.",
+     "reportedAt": "2026-11-07T14:19:41.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9aSWduaDhLZlAydXQybHFaQ2RlQXQzUVVFV1VBaGNJcFBvWUhybkhvQ1cxN2ZSWW1nS0t4bm1kTmU4amdIUE1BN29B?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "ee62020ac812",
+   "articleIds": [
+    "33a000dc53b6",
+    "5fa7b9f6363f",
     "d46975bec41d"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "single",
+   "status": "multi",
    "directive": null,
-   "title": "후티 \"사우디 공습으로 예멘 수도 인근 22명 사망\"",
+   "title": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
    "titleAuto": false,
    "regions": [
     "all"
@@ -1080,9 +1364,29 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-07T14:50:29.292Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-11-07T13:38:04.978Z",
+   "aiNote": null,
    "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
+     "titleKo": null,
+     "summary": "후티는 사나주 인근에서 22명이 사망했다고 주장했다고 보도됐어요.",
+     "reportedAt": "2026-11-07T13:17:11.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02UU1ST1dGVzhwdEFPbXJWVnQtTHFNYWhMdnpMVE9zNDdQUGY3N2tqeXQ0Z0trZ3gzZHYtWXNabi1OZDM4OXFNdG1MTHdIbXN1ZnNWR0hZLWlfVUN6QTdpYdIBYEFVX3lxTE02UU1ST1dGVzhwdEFPbXJWVnQtTHFNYWhMdnpMVE9zNDdQUGY3N2tqeXQ0Z0trZ3gzZHYtWXNabi1OZDM4OXFNdG1MTHdIbXN1ZnNWR0hZLWlfVUN6QTdpYQ?oc=5"
+    },
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "후티 반군 \"사우디 공습으로 예멘 사나주에서 22명 사망\"",
+     "titleKo": null,
+     "summary": "후티는 사나 인근에서 22명이 사망했다고 주장했다고 전했어요.",
+     "reportedAt": "2026-11-07T13:20:49.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0Z3JRYkJLVXYtZm9xZmFoNmdpY0Q4eVJtMjZCN2dYNXdoSC1FOEptcUZ4VFFnN2VYWTRoWVZKaGdZQ01XSE5hRTR6ZjhxNmd2UllYcl9wOHZ5SklETjVNSkxn?oc=5"
+    },
     {
      "outlet": "YTN",
      "cat": "kr",
@@ -1096,66 +1400,35 @@
    ]
   },
   {
-   "id": "b9f1de2f682b",
+   "id": "33467f3dffa4",
    "articleIds": [
-    "5fa7b9f6363f"
+    "d62cafe01f42"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "single",
+   "status": "official",
    "directive": null,
-   "title": "후티 반군 \"사우디 공습으로 예멘 사나주에서 22명 사망\"",
-   "titleAuto": false,
+   "title": "파키스탄 총리, 리야드 공항 공격 강력 규탄",
+   "titleAuto": true,
    "regions": [
-    "all"
+    "riyadh",
+    "airport"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-07T13:38:04.978Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-11-07T22:00:46.084Z",
+   "aiNote": null,
    "sources": [
     {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "후티 반군 \"사우디 공습으로 예멘 사나주에서 22명 사망\"",
-     "titleKo": null,
-     "summary": "후티는 사나 인근에서 22명이 사망했다고 주장했다고 전했어요.",
-     "reportedAt": "2026-11-07T13:20:49.000Z",
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Pakistani Prime Minister Strongly Condemns Attack on Riyadh Airport",
+     "titleKo": "파키스탄 총리, 리야드 공항 공격 강력 규탄",
+     "summary": "파키스탄 총리가 리야드 공항 폭탄 공격을 강력 규탄했다고 전했어요.",
+     "reportedAt": "2026-11-07T12:25:26.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0Z3JRYkJLVXYtZm9xZmFoNmdpY0Q4eVJtMjZCN2dYNXdoSC1FOEptcUZ4VFFnN2VYWTRoWVZKaGdZQ01XSE5hRTR6ZjhxNmd2UllYcl9wOHZ5SklETjVNSkxn?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "109e85e21e88",
-   "articleIds": [
-    "33a000dc53b6"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-07T13:38:04.978Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
-     "titleKo": null,
-     "summary": "후티는 사나주 인근에서 22명이 사망했다고 주장했다고 보도됐어요.",
-     "reportedAt": "2026-11-07T13:17:11.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02UU1ST1dGVzhwdEFPbXJWVnQtTHFNYWhMdnpMVE9zNDdQUGY3N2tqeXQ0Z0trZ3gzZHYtWXNabi1OZDM4OXFNdG1MTHdIbXN1ZnNWR0hZLWlfVUN6QTdpYdIBYEFVX3lxTE02UU1ST1dGVzhwdEFPbXJWVnQtTHFNYWhMdnpMVE9zNDdQUGY3N2tqeXQ0Z0trZ3gzZHYtWXNabi1OZDM4OXFNdG1MTHdIbXN1ZnNWR0hZLWlfVUN6QTdpYQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PR0l3aE42bXBXNlQwUEZsbkNyUlZLY1VxRFIwY1pSU3FrdFl1b2Z4UVh1VEJNY3JUUVFVbGJhLWMwNHJGQjRqU2pmUXBwcjBnTlBkYnFvSWJUUTBYWll4dG5mTFk0TFoxTlE?oc=5"
     }
    ]
   },
@@ -1177,7 +1450,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-07T23:00:45.414Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "SPA (사우디 국영통신)",
@@ -1210,7 +1483,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-07T13:00:44.703Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "SPA (사우디 국영통신)",
@@ -1221,6 +1494,92 @@
      "reportedAt": "2026-11-07T11:13:48.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE03TUxmNTZXV0hieTQ3R0lLUmFLU0dKaGxyR0dSeEdFWU5kSHd2SjBMbl9ZVmxVRVNZT1JNZUI1MkJQU1RMSHdvQnRR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "070fdd9a21c8",
+   "articleIds": [
+    "cdaa478b388d"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 방공, 리야드 지역에서 탄도미사일·드론 요격",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-07T05:30:40.021Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi air defenses intercept ballistic missile, drone in Riyadh region",
+     "titleKo": "사우디 방공, 리야드 지역에서 탄도미사일·드론 요격",
+     "summary": "사우디 방공이 리야드 지역에서 탄도미사일과 무인기를 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-07T11:09:26.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc1VsZU1YMXFnNUxjbWFaOXY1bjZLSVJ6QmJlOHI1RjBIYzNSdEtZZmtlMGRvUElyME11eEgtNGtpaDIyUTRrdXF5QTQwaHpZZ3ljemNmXzlDQ00tYm8wNHRNV25WWWQ5MDFUb3FTRHNBVV9DYVMyRUVuRVBjVGxSMjI0RVdDeHlraHNHdlNjLXFFZWw4VnNKLTM1cHdkbFZtXzVkeFlId2hrZ0lNLXJHdHR0VEpwQQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "57a92319ef84",
+   "articleIds": [
+    "8cab3ed508a3",
+    "607e2a269b7f",
+    "7ca27c9997f1"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "연합: 리야드 향한 후티 탄도미사일 요격·파괴",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-07T00:10:31.713Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Ballistic Missile Launched by Terrorist Houthi Militia Toward Riyadh Intercepted and Destroyed",
+     "titleKo": "연합: 리야드 향한 후티 탄도미사일 요격·파괴",
+     "summary": "연합군이 리야드를 향한 탄도미사일을 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-06T23:16:04.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9nMXFmQkZyRnIxRU1ZNUNFTDJJd01zNzg4Wjg0SmRHQ3N3anEyZW02T1pZM2V4b2xGSlFDZURObVNhWUp5dUE?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+     "titleKo": "연합: 리야드 향한 순항미사일 요격·파괴",
+     "summary": "연합군이 리야드 지역을 향한 순항미사일을 요격했다고 발표했어요.",
+     "reportedAt": "2026-11-07T06:34:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9aT3I0TThmM1NmaEw0ZEFTWEdEM09MWHZFMHNiRFNuMUR6aUh5aDlkQXc4VHA0Zk1NU0gtR0hwWFNfQzh0Q29uWjFn?oc=5"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Coalition: Houthi Cruise Missile Launched Toward Riyadh Region Destroyed",
+     "titleKo": "연합: 리야드 향한 후티 순항미사일 파괴",
+     "summary": "연합군은 리야드 지역을 향한 후티의 순항미사일을 파괴했다고 보도했어요.",
+     "reportedAt": "2026-11-07T09:35:43.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5338529"
     }
    ]
   },
@@ -1285,49 +1644,6 @@
      "reportedAt": "2026-11-07T08:38:23.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666055/saudi-arabia/cruise-missile-and-uav-fired-by-houthi-militia-intercepted-over-riyadh"
-    }
-   ]
-  },
-  {
-   "id": "9ffa81168c5e",
-   "articleIds": [
-    "8cab3ed508a3",
-    "607e2a269b7f"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "연합: 리야드 향한 후티 탄도미사일 요격·파괴",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-07T00:10:31.713Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Ballistic Missile Launched by Terrorist Houthi Militia Toward Riyadh Intercepted and Destroyed",
-     "titleKo": "연합: 리야드 향한 후티 탄도미사일 요격·파괴",
-     "summary": "연합군이 리야드를 향한 탄도미사일을 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-06T23:16:04.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9nMXFmQkZyRnIxRU1ZNUNFTDJJd01zNzg4Wjg0SmRHQ3N3anEyZW02T1pZM2V4b2xGSlFDZURObVNhWUp5dUE?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
-     "titleKo": "연합: 리야드 향한 순항미사일 요격·파괴",
-     "summary": "연합군이 리야드 지역을 향한 순항미사일을 요격했다고 발표했어요.",
-     "reportedAt": "2026-11-07T06:34:20.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9aT3I0TThmM1NmaEw0ZEFTWEdEM09MWHZFMHNiRFNuMUR6aUh5aDlkQXc4VHA0Zk1NU0gtR0hwWFNfQzh0Q29uWjFn?oc=5"
     }
    ]
   },
@@ -2095,6 +2411,24 @@
  ],
  "timeline": [
   {
+   "id": "ed64cc0bf40f",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "이집트, 리야드 겨냥 미사일 발사 규탄",
+   "title": "Egypt Condemns Missile Launch Targeting Riyadh",
+   "summary": "이집트가 리야드를 겨냥한 미사일 발사를 규탄했습니다.",
+   "reportedAt": "2026-11-08T16:59:56.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5338998"
+  },
+  {
    "id": "f75abf28b905",
    "outlet": "Al Jazeera",
    "official": false,
@@ -2105,9 +2439,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "리야드의 아람코 건물, '시도된' 공격으로 피해 발생",
+   "titleKo": "아람코 빌딩, '시도된' 공격으로 피해",
    "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
-   "summary": "리야드의 아람코 건물이 '시도된' 공격으로 손상됐다고 보도했어요.",
+   "summary": "아람코 빌딩이 '시도된' 공격으로 피해를 봤다고 보도했습니다.",
    "reportedAt": "2026-11-08T13:19:35.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
@@ -2124,9 +2458,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "알자지라: 사우디아라비아, 리야드·동부주를 겨냥한 후티 미사일 요격했다고 발표",
+   "titleKo": "사우디, 후티 미사일 요격 보도(알자지라)",
    "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province - Al Jazeera",
-   "summary": "알자지라가 후티의 리야드·동부주 표적 미사일을 사우디가 요격했다고 보도했어요.",
+   "summary": "사우디가 후티 미사일을 요격해 리야드와 동부를 방어했다고 보도했습니다.",
    "reportedAt": "2026-11-08T08:12:51.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZnI3N2YyUUctMWJJdEtFd0MxY29menhubGtiTXAxZzNrdVpPbDZXc1lPY1hqU3hiNXl2a2VyYkNubjlkVUpqT1AySUlGNm5fRnl4alhIRzlNdFc2ZmtyM1RZNHdRTTZNcGRPVUlXWkxTN3JXcTNOOGhTM2FGMVJyWV9GcFhOdVRIMDlvZHhOV0ZWTmNjbVR1aVVkN1ZrektMcG5sMHpxdDhPR0NVbThheG1kbE5SVzBXc3phM2RoZ2llX0M1R0liMW5tQmg5dw?oc=5"
@@ -2143,9 +2477,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "사우디아라비아, 리야드·동부주 겨냥한 후티 미사일 요격",
+   "titleKo": "사우디 방공, 리야드·동부 겨냥 미사일 요격",
    "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
-   "summary": "알자지라가 사우디가 후티 미사일을 요격했다고 전했어요.",
+   "summary": "사우디 방공이 리야드와 동부를 겨냥한 미사일을 요격했다고 보도했습니다.",
    "reportedAt": "2026-11-08T07:42:48.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
@@ -2251,9 +2585,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "리야드 아람코 타워가 예멘 발 공격으로 피해 입었다고 보도",
+   "titleKo": "아람코 타워 공격으로 손상 발생 보도",
    "title": "Iran war live: Riyadh’s Saudi Aramco tower damaged during attack from Yemen",
-   "summary": "알자지라가 리야드 아람코 타워가 예멘에서 발사된 공격으로 피해를 봤다고 보도했어요.",
+   "summary": "아람코 타워가 공격으로 손상됐다고 보도했습니다.",
    "reportedAt": "2026-11-08T00:00:56.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss"
@@ -2680,6 +3014,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "ed64cc0bf40f",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Egypt Condemns Missile Launch Targeting Riyadh",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5338998",
+    "reportedAt": 1794157196000,
+    "assumeSaudi": false,
+    "firstSeen": 1794157244111
+   },
    {
     "id": "784b1ed01a69",
     "feed": "Arab News",
@@ -4140,34 +4488,49 @@
    "8f1684da1e53": "후티는 사우디 공습으로 예멘 수도 인근에서 25명 사망했다고 주장했다고 보도되었어요.",
    "be3d2a6b3491": "후티의 탄도미사일을 사우디가 동부주를 향해 요격했다고 보도했어요.",
    "578d637231a8": "후티의 탄도미사일을 사우디가 요격했다고 보도했어요.",
-   "5d2d94244528": "후티는 사우디 공습으로 33명 사망을 주장했고 보복 공격을 진행했다고 전했어요.",
-   "3f44ed9bbd4d": "공습으로 파편과 연기가 치솟았고 후티는 사우디 전투기 공격이라고 주장했다고 전했어요.",
+   "5d2d94244528": "후티는 사우디 공습으로 33명이 사망했다고 주장했습니다.",
+   "3f44ed9bbd4d": "공습으로 파편과 연기가 치솟았고 후티는 사우디 전투기 공격을 주장했습니다.",
    "6df5c544c37c": "후티는 사우디 공습으로 예멘 인근에서 27명 사망했다고 주장했어요.",
-   "b104b061f72a": "알자지라가 사우디가 후티 미사일을 요격했다고 전했어요.",
-   "d3ce4783d782": "사우디 공군이 리야드 등으로 향한 탄도미사일 3기와 순항미사일 2기를 요격했다고 민방위 경고와 함께 보도됐어요.",
+   "b104b061f72a": "사우디 방공이 리야드와 동부를 겨냥한 미사일을 요격했다고 보도했습니다.",
+   "d3ce4783d782": "사우디가 3발의 탄도미사일과 2발의 크루즈미사일을 요격했고 민방위가 비상경보를 발령했다고 보도했습니다.",
    "9412162b422d": "사우디가 리야드 등 남부 지역을 겨냥한 후티 미사일을 요격했다고 보도했어요.",
    "9c315f505dd5": "연합군이 리야드·동부·남부를 향한 미사일을 격파했다고 보도했어요.",
    "fb4e4b90f0f0": "로이터는 사우디 주도 연합군이 리야드를 향한 후티 미사일 2기를 요격했다고 보도했어요.",
-   "75b4476ba222": "사우디 수도 금융지구가 피격돼 아람코타워가 파손됐다고 보도했어요.",
-   "8d4b7f0a7a79": "사우디 수도 금융지구가 피격돼 후티가 아람코타워를 파손했다고 보도했어요.",
-   "a6b01bf44f08": "아람코 건물이 시도된 공격으로 제한적 손상과 낙하물 피해를 입었으나 인명피해는 없었다고 한 발표가 보도됐어요.",
-   "2e235e4b9157": "사우디 방공이 동부주를 목표로 한 후티의 탄도미사일을 요격했다고 전했어요.",
-   "ad81ff730156": "아람코 건물이 제한적 피해를 입었다고 사우디 당국이 발표했어요.",
-   "13a61eacfb55": "사우디가 후티가 발사한 미사일과 드론를 요격했다고 보도했어요.",
-   "059b95eb2f43": "리야드 금융지구 피격과 아람코타워 파손 사실을 전했어요.",
-   "e3d208718300": "알자지라가 후티의 리야드·동부주 표적 미사일을 사우디가 요격했다고 보도했어요.",
+   "75b4476ba222": "리야드 금융지구가 피격돼 아람코타워가 파손됐다고 보도했습니다.",
+   "8d4b7f0a7a79": "후티 반군이 아람코타워를 파손했다고 전했습니다.",
+   "a6b01bf44f08": "아람코 행정용 건물이 시도된 공격으로 일부 파손됐으나 인명피해는 없다고 에너지부 관계자가 전했습니다.",
+   "2e235e4b9157": "아람코 건물이 공격 대상이었고 사우디 공군이 요격했다고 에너지부가 밝혔습니다.",
+   "ad81ff730156": "아람코 건물이 제한적 피해를 입었으며 방공이 미사일을 요격했다고 보도했습니다.",
+   "13a61eacfb55": "사우디 방공이 리야드와 남부 지역을 겨냥한 후티의 미사일과 드론을 요격했다고 전했습니다.",
+   "059b95eb2f43": "리야드 금융지구가 피격돼 아람코타워가 파손됐다고 보도했습니다.",
+   "e3d208718300": "사우디가 후티 미사일을 요격해 리야드와 동부를 방어했다고 보도했습니다.",
    "06af226ab381": "에너지부는 리야드 아람코 건물에 시도된 공격으로 경미한 피해가 발생했다고 발표했어요.",
-   "9a43153ed413": "알자지라가 리야드 아람코 타워가 예멘에서 발사된 공격으로 피해를 봤다고 보도했어요.",
+   "9a43153ed413": "아람코 타워가 공격으로 손상됐다고 보도했습니다.",
    "666c5b5ea194": "후티는 사우디 공습으로 예멘에서 27명 사망했다고 주장했다고 전했어요.",
-   "a638ed55eb19": "사우디 수도 핵심지역에서 후티의 공격으로 아람코타워가 파손됐다고 보도했어요.",
-   "d1c8de5dea84": "사우디 금융지구가 피격돼 아람코타워가 파손됐다고 전했어요.",
-   "6412b751af2f": "후티가 리야드의 아람코 타워를 피격했다고 보도했어요.",
-   "3689e0540fc2": "리야드 금융지구가 예멘 후티의 미사일로 피격돼 아람코 타워가 파손됐다고 전했어요.",
-   "9e985800377e": "사우디가 미사일을 요격했고 리야드의 아람코 건물이 피해를 봤다고 전했어요.",
-   "fb427a4a58bc": "사우디 금융지구 피격과 아람코타워 파손 사실을 보도했어요.",
-   "f75abf28b905": "리야드의 아람코 건물이 '시도된' 공격으로 손상됐다고 보도했어요.",
+   "a638ed55eb19": "후티 공격으로 수도 핵심지역 아람코타워가 파손됐다고 보도했습니다.",
+   "d1c8de5dea84": "리야드 금융지구가 후티 공격으로 아람코타워 파손을 입었다고 보도했습니다.",
+   "6412b751af2f": "후티가 리야드 마천루를 공격해 아람코 타워가 피격됐다고 전했습니다.",
+   "3689e0540fc2": "예멘 후티 미사일에 리야드 금융지구가 피격돼 아람코 타워가 파손됐다고 전했습니다.",
+   "9e985800377e": "사우디가 미사일을 요격했고 리야드의 아람코 건물이 피해를 입었다고 보도했습니다.",
+   "fb427a4a58bc": "사우디 방공이 후티의 미사일과 드론을 요격했다고 보도됐습니다.",
+   "f75abf28b905": "아람코 빌딩이 '시도된' 공격으로 피해를 봤다고 보도했습니다.",
    "18ecc1dda2fc": "아람코 건물에 떨어진 파편으로 손상이 발생했다고 에너지부가 발표했다고 보도했어요.",
-   "5d59e361ba3d": "리야드의 학생들이 등교를 재개한 날 새 공격이 발생해 수도에 긴장이 다시 높아졌다고 보도했어요."
+   "5d59e361ba3d": "리야드 학생들이 등교한 날에 추가 공격이 발생했다고 전했습니다.",
+   "ed64cc0bf40f": "이집트가 리야드를 겨냥한 미사일 발사를 규탄했습니다.",
+   "784b1ed01a69": "카타르·바레인·시리아가 후티의 리야드 미사일 공격을 규탄하며 사우디 안보 중요성을 강조했습니다.",
+   "da6663af1807": "시리아·쿠웨이트·바레인이 후티의 미사일·드론 공격을 강하게 규탄했습니다.",
+   "fe26e632f74b": "후티 공격으로 아람코타워가 파손됐다고 보도했습니다.",
+   "ac90a1a50fcf": "리야드 금융지구와 아람코 타워가 후티 공격으로 손상됐다고 전했습니다.",
+   "e4489e2f51c3": "리야드 금융지구가 피격돼 아람코타워가 파손됐다고 보도했습니다.",
+   "3d1ce6ed193a": "후티의 공격으로 아람코 타워가 손상됐다고 전했습니다.",
+   "d609854dd2bb": "후티가 리야드 금융지구 아람코 건물을 공격했으며 인명피해는 없다고 보도했습니다.",
+   "70987bf34cbf": "아람코 건물이 공격받았으나 당국은 인명피해가 없다고 밝혔습니다.",
+   "5d9667eb7f20": "후티가 리야드 금융지구를 공격해 아람코타워까지 피해가 났다고 전했습니다.",
+   "1b49880c4b64": "사우디와 후티 반군의 충돌로 아람코타워가 파손됐다고 보도했습니다.",
+   "e09e6e570872": "리야드 금융지구가 후티 공격으로 아람코타워가 파손됐다고 보도했습니다.",
+   "68e6faf7012e": "후티는 리야드 금융지구 공격을 자처하며 아람코 마천루가 손상됐다고 주장했습니다.",
+   "eb8f1241e3ce": "후티가 리야드 아람코 건물 공격을 자처했다고 보도했습니다.",
+   "59ffd25ef828": "아람코 건물 피격과 관련해 예멘 내전 상황과 사망자 수 보도를 함께 다뤘습니다."
   },
   "titlesKo": {
    "54622840550e": "사우디 관리, WSJ 보도 부인",
@@ -4223,73 +4586,150 @@
    "209df172fe64": "후티, 리야드에 미사일 보복 작전 펼쳤다고 주장",
    "be3d2a6b3491": "사우디, 동부지방 겨냥 탄도미사일 2발 요격",
    "578d637231a8": "사우디, 리야드 겨냥한 두 발의 탄도미사일 요격",
-   "5d2d94244528": "후티 주장: 사우디 공습으로 33명 사망, 보복 공격 실행",
+   "5d2d94244528": "후티, 사우디 공습으로 33명 사망 주장",
    "57b6a7409bae": "후티 주장: 사우디 공습으로 60여 명 사상",
    "9412162b422d": "사우디 방공, 리야드·남부 지역 겨냥한 후티 미사일 요격",
-   "d3ce4783d782": "사우디 방공, 리야드 등 향한 탄도·순항미사일 요격·민방위 경보 발령",
+   "d3ce4783d782": "사우디, 복수의 탄도·크루즈미사일 요격·민방위 경보",
    "9c315f505dd5": "연합군, 리야드·동부·남부 향한 미사일 격파 발표",
    "fb4e4b90f0f0": "사우디 주도 연합군, 리야드로 발사된 후티 미사일 2발 요격",
-   "b104b061f72a": "사우디아라비아, 리야드·동부주 겨냥한 후티 미사일 요격",
-   "3f44ed9bbd4d": "공습으로 파편·연기 치솟아, 후티는 사우디 전투기 공격 주장",
+   "b104b061f72a": "사우디 방공, 리야드·동부 겨냥 미사일 요격",
+   "3f44ed9bbd4d": "공습으로 파편·연기 상승…후티는 사우디 전투기 주장",
    "6df5c544c37c": "후티 \"사우디 공습으로 예멘 수도 인근 27명 사망\"",
-   "13a61eacfb55": "사우디 방공, 리야드·남부 표적 미사일·드론 요격",
-   "a6b01bf44f08": "에너지부: 리야드 아람코 건물 시도된 공격에 경미한 손상",
-   "ad81ff730156": "리야드 아람코 건물 제한적 피해 발생했다고 발표",
-   "2e235e4b9157": "사우디 에너지부: 리야드 아람코 건물 공격 표적",
-   "e3d208718300": "알자지라: 사우디아라비아, 리야드·동부주를 겨냥한 후티 미사일 요격했다고 발표",
-   "9a43153ed413": "리야드 아람코 타워가 예멘 발 공격으로 피해 입었다고 보도",
+   "13a61eacfb55": "사우디 방공, 리야드와 남부 미사일·드론 요격",
+   "a6b01bf44f08": "아람코 행정건물 시도된 공격으로 일부 파손",
+   "ad81ff730156": "아람코 건물 제한적 피해·방공 요격 발표",
+   "2e235e4b9157": "아람코 건물 표적, 에너지부 \"요격\"",
+   "e3d208718300": "사우디, 후티 미사일 요격 보도(알자지라)",
+   "9a43153ed413": "아람코 타워 공격으로 손상 발생 보도",
    "06af226ab381": "에너지부: 리야드 아람코 건물 시도 공격에 경미한 피해 발생",
-   "9e985800377e": "사우디, 아람코 건물 피해·미사일 요격 보도",
+   "9e985800377e": "사우디, 미사일 요격·아람코 빌딩 일부 피해 보고",
    "18ecc1dda2fc": "아람코 건물, 시도된 공격으로 낙하물 피해 발생했다고 발표",
-   "f75abf28b905": "리야드의 아람코 건물, '시도된' 공격으로 피해 발생",
-   "5d59e361ba3d": "리야드 학생들 등교 복귀 첫날 새 공격 발생",
-   "68e6faf7012e": "예멘 후티, 리야드 금융지구 공격과 아람코 마천루 피해를 주장",
-   "da6663af1807": "시리아·쿠웨이트·바레인, 후티의 사우디 대상 미사일·드론 공격 규탄",
+   "f75abf28b905": "아람코 빌딩, '시도된' 공격으로 피해",
+   "5d59e361ba3d": "학생들 등교한 날 리야드에 추가 공격 발생",
+   "68e6faf7012e": "후티, 리야드 금융지구 공격·아람코 손상 주장",
+   "da6663af1807": "시리아·쿠웨이트·바레인, 후티의 미사일·드론 공격 규탄",
    "784b1ed01a69": "카타르·바레인·시리아, 후티의 리야드 미사일 공격 규탄",
    "1b7093745db9": "후티 공격이 리야드 금융지구의 아람코 건물에 피해를 입혀",
-   "eb8f1241e3ce": "예멘 후티, 리야드 금융지구 아람코 건물 공격 주장"
+   "eb8f1241e3ce": "후티, 리야드 아람코 건물 공격 주장",
+   "ed64cc0bf40f": "이집트, 리야드 겨냥 미사일 발사 규탄",
+   "fe26e632f74b": "사우디 금융지구 피격…아람코타워 파손 보도",
+   "ac90a1a50fcf": "리야드 금융지구 피격…아람코 타워 손상",
+   "e4489e2f51c3": "리야드 금융지구 피격, 아람코타워 파손 보도",
+   "3d1ce6ed193a": "후티, 리야드 금융지구 공격…아람코 타워 손상",
+   "d609854dd2bb": "후티가 아람코 건물 공격, 인명피해 없다고 보도",
+   "70987bf34cbf": "아람코 건물 피격…당국 \"인명피해 없어\"",
+   "5d9667eb7f20": "후티, 리야드 금융지구 공격…아람코타워 피해",
+   "a638ed55eb19": "수도 핵심지역에 후티 공격…아람코타워 파손",
+   "6412b751af2f": "후티, 리야드 마천루까지 공격했다고 주장",
+   "d1c8de5dea84": "리야드 금융지구 피격…아람코타워 파손(종합)",
+   "3689e0540fc2": "리야드 금융지구 아람코 타워 파손 보도",
+   "75b4476ba222": "리야드 금융지구 피격…아람코타워 파손",
+   "8d4b7f0a7a79": "후티 반군, 아람코타워 파손 주장",
+   "fb427a4a58bc": "사우디 방공, 후티 미사일·드론 요격",
+   "1b49880c4b64": "사우디·후티 충돌로 아람코타워 파손",
+   "059b95eb2f43": "리야드 금융지구 피격…아람코타워 파손 보도",
+   "e09e6e570872": "리야드 금융지구 피격…아람코타워 파손",
+   "59ffd25ef828": "아람코 건물 피격과 예멘 내전 관련 사망자 보도"
   },
   "aiClusters": [
    {
     "articleIds": [
-     "fe26e632f74b",
-     "ac90a1a50fcf",
-     "e4489e2f51c3",
-     "5d59e361ba3d",
-     "f75abf28b905",
-     "3d1ce6ed193a",
-     "d609854dd2bb",
-     "70987bf34cbf",
-     "9e985800377e",
-     "5d9667eb7f20",
-     "a638ed55eb19",
-     "6412b751af2f",
-     "d1c8de5dea84",
-     "3689e0540fc2",
-     "75b4476ba222",
-     "8d4b7f0a7a79",
-     "fb427a4a58bc",
-     "a6b01bf44f08",
+     "1b7093745db9",
+     "18ecc1dda2fc",
+     "fb4e4b90f0f0",
      "2e235e4b9157",
      "ad81ff730156",
      "13a61eacfb55",
-     "1b49880c4b64",
-     "059b95eb2f43",
-     "e09e6e570872",
-     "e3d208718300",
-     "59ffd25ef828",
      "b104b061f72a",
-     "d3ce4783d782",
-     "9412162b422d",
-     "3f44ed9bbd4d",
-     "578d637231a8",
-     "06af226ab381",
      "9c315f505dd5",
      "be3d2a6b3491",
-     "18ecc1dda2fc"
+     "d3ce4783d782",
+     "9412162b422d",
+     "578d637231a8",
+     "901b73044bb8",
+     "fb427a4a58bc",
+     "68e6faf7012e",
+     "eb8f1241e3ce",
+     "06af226ab381",
+     "a6b01bf44f08",
+     "e3d208718300",
+     "5d59e361ba3d",
+     "3f44ed9bbd4d",
+     "5d2d94244528",
+     "9a43153ed413"
     ],
-    "titleKo": "후티가 리야드 금융지구 아람코 타워를 공격했다고 주장",
+    "titleKo": "아람코 건물에 발사체 낙하물 피해 발생, 당국은 미사일 요격·피해 일부라고 발표",
     "type": "energy",
+    "regions": [
+     "riyadh",
+     "eastern"
+    ],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "9ec32e6c47be",
+     "cfa53e55c688",
+     "6df5c544c37c",
+     "209df172fe64",
+     "57b6a7409bae",
+     "3c30e8c66b3d",
+     "fed266db7025"
+    ],
+    "titleKo": "후티, 사우디 공습으로 다수 사상자 발생했다고 주장",
+    "type": "korean",
+    "regions": [],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": true,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "55b9e1652675"
+    ],
+    "titleKo": "GACA: 공항 시설·항공기 두 차례 공격 발생했다고 발표",
+    "type": "airport",
+    "regions": [
+     "airport"
+    ],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "d873269dd730",
+     "a859193b4b06"
+    ],
+    "titleKo": "외교부, 중부·동부·공항 지역 관련 안전 유의와 출국권고 검토 권고",
+    "type": "advisory",
+    "regions": [
+     "riyadh",
+     "eastern",
+     "airport"
+    ],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "ed64cc0bf40f",
+     "784b1ed01a69",
+     "da6663af1807"
+    ],
+    "titleKo": "이집트·카타르·바레인 등, 후티의 리야드 미사일 공격 규탄 발표",
+    "type": "security",
     "regions": [
      "riyadh"
     ],
@@ -4301,55 +4741,107 @@
    },
    {
     "articleIds": [
-     "5dbb7148df02",
-     "8f1684da1e53",
-     "9a43153ed413",
-     "901b73044bb8",
-     "57b6a7409bae",
-     "5cf6d5ce8e2a",
-     "d62cafe01f42",
-     "cdaa478b388d",
-     "7ca27c9997f1",
-     "55b9e1652675"
-    ],
-    "titleKo": "후티가 사우디 정유시설·공항 등에 미사일·드론 공격을 했다고 주장",
-    "type": "airport",
-    "regions": [
-     "airport"
-    ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": true,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "209df172fe64",
-     "6df5c544c37c",
-     "3c30e8c66b3d",
-     "fed266db7025",
-     "9ec32e6c47be",
-     "cfa53e55c688",
-     "666c5b5ea194"
-    ],
-    "titleKo": "후티가 사우디 공습으로 예멘에서 다수가 사망했다고 주장",
-    "type": "security",
-    "regions": [],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": true,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "fb4e4b90f0f0"
+     "9e985800377e"
     ]
    },
    {
     "articleIds": [
-     "5d2d94244528"
+     "fe26e632f74b"
+    ]
+   },
+   {
+    "articleIds": [
+     "ac90a1a50fcf"
+    ]
+   },
+   {
+    "articleIds": [
+     "e4489e2f51c3"
+    ]
+   },
+   {
+    "articleIds": [
+     "f75abf28b905"
+    ]
+   },
+   {
+    "articleIds": [
+     "3d1ce6ed193a"
+    ]
+   },
+   {
+    "articleIds": [
+     "d609854dd2bb"
+    ]
+   },
+   {
+    "articleIds": [
+     "70987bf34cbf"
+    ]
+   },
+   {
+    "articleIds": [
+     "5d9667eb7f20"
+    ]
+   },
+   {
+    "articleIds": [
+     "a638ed55eb19"
+    ]
+   },
+   {
+    "articleIds": [
+     "6412b751af2f"
+    ]
+   },
+   {
+    "articleIds": [
+     "d1c8de5dea84"
+    ]
+   },
+   {
+    "articleIds": [
+     "3689e0540fc2"
+    ]
+   },
+   {
+    "articleIds": [
+     "75b4476ba222"
+    ]
+   },
+   {
+    "articleIds": [
+     "8d4b7f0a7a79"
+    ]
+   },
+   {
+    "articleIds": [
+     "1b49880c4b64"
+    ]
+   },
+   {
+    "articleIds": [
+     "059b95eb2f43"
+    ]
+   },
+   {
+    "articleIds": [
+     "e09e6e570872"
+    ]
+   },
+   {
+    "articleIds": [
+     "5dbb7148df02"
+    ]
+   },
+   {
+    "articleIds": [
+     "8f1684da1e53"
+    ]
+   },
+   {
+    "articleIds": [
+     "5cf6d5ce8e2a"
     ]
    },
    {
@@ -4359,28 +4851,48 @@
    },
    {
     "articleIds": [
-     "d46975bec41d"
+     "666c5b5ea194"
     ]
    },
    {
     "articleIds": [
-     "5fa7b9f6363f"
-    ]
-   },
-   {
-    "articleIds": [
+     "d46975bec41d",
+     "5fa7b9f6363f",
      "33a000dc53b6"
-    ]
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "d62cafe01f42"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
      "53d519c8da9d"
-    ]
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
      "21a6eac8321f"
-    ]
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "cdaa478b388d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "7ca27c9997f1",
+     "607e2a269b7f",
+     "8cab3ed508a3"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
@@ -4391,13 +4903,6 @@
    {
     "articleIds": [
      "416940428541"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "607e2a269b7f",
-     "8cab3ed508a3"
     ],
     "fromRule": true
    },
@@ -4534,58 +5039,16 @@
      "54622840550e"
     ],
     "fromRule": true
-   },
-   {
-    "articleIds": [
-     "68e6faf7012e"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "da6663af1807"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "784b1ed01a69"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "d873269dd730"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "a859193b4b06"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "1b7093745db9"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "eb8f1241e3ce"
-    ],
-    "fromRule": true
    }
   ],
   "aiSummaryKo": [
-   "가장 최근 보도에서 사우디 에너지부는 리야드 아람코 건물에 제한적 피해가 발생했다고 발표(국영통신 발표).",
-   "사우디 방공은 리야드·동부주·남부를 향한 후티 미사일·드론을 요격했다고 사우디 측이 발표(로이터·알자지라 보도).",
-   "예멘 후티는 리야드 금융지구와 아람코 건물 공격을 주장했으나 수치는 미확인(AFP 보도, 후티 주장).",
-   "후티는 사우디 정유시설·군사시설·공항 등에 다수의 미사일·드론 공격을 벌였다고 주장하며 관련 피해를 제기(후티 주장, 복수 보도)."
+   "리야드 금융지구의 아람코 건물이 발사체 낙하물로 일부 손상됐다고 사우디가 발표했어요.",
+   "사우디 방공이 리야드와 동부를 겨냥한 다수 미사일·드론을 요격했다고 보도됐어요.",
+   "GACA는 공항 시설과 항공기 두 차례 공격이 있었다고 발표했어요.",
+   "외교부는 중부·동부·공항 지역 관련 안전 유의와 출국 권고 검토를 당부했어요."
   ],
-  "lastAiAt": 1794148834310,
-  "summaryAt": "2026-11-08T16:50:32.844Z",
+  "lastAiAt": 1794157244111,
+  "summaryAt": "2026-11-08T17:00:44.111Z",
   "promptVersion": 4
  }
 }
