@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-08T06:10:28.768Z",
-  "lastAttemptAt": "2026-11-08T06:10:28.768Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-08T06:20:31.087Z",
+  "lastAttemptAt": "2026-11-08T06:20:31.087Z",
   "aiSummary": true,
   "summaryAt": "2026-11-08T05:46:40.025Z",
   "aiError": null,
@@ -14,43 +14,50 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 9
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 110
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 15
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 6
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 118
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 33
+    "count": 32,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 145
+    "count": 144
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 39
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -64,8 +71,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 40
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -102,6 +110,39 @@
   ]
  },
  "events": [
+  {
+   "id": "ba9f67a735e5",
+   "articleIds": [
+    "9412162b422d"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 방공, 리야드·남부 지역 겨냥한 후티 미사일 요격",
+   "titleAuto": true,
+   "regions": [
+    "eastern",
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-08T06:20:31.087Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi defenses intercept Houthi missiles targeting Riyadh, southern regions",
+     "titleKo": "사우디 방공, 리야드·남부 지역 겨냥한 후티 미사일 요격",
+     "summary": "",
+     "reportedAt": "2026-11-08T06:13:58.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-defenses-intercept-houthi-missiles-targeting-riyadh-southern-regions-3010424"
+    }
+   ]
+  },
   {
    "id": "82dabd99f2de",
    "articleIds": [
@@ -2111,6 +2152,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "9412162b422d",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi defenses intercept Houthi missiles targeting Riyadh, southern regions",
+    "snippet": "Saudi air defenses successfully intercepted a ballistic missile launched by Yemen's Houthi militia targeting the Eastern Province, marking yet another recent aerial threat amid ongoing conflict involving Iran. The Saudi coalition reported a series of interceptions over recent days, including threats to various regions and civilian infrastructure, highlighting the escalating tensions and disruption",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-defenses-intercept-houthi-missiles-targeting-riyadh-southern-regions-3010424",
+    "reportedAt": 1794118438000,
+    "assumeSaudi": false,
+    "firstSeen": 1794118831087
+   },
+   {
     "id": "be3d2a6b3491",
     "feed": "Arab News",
     "cat": "local",
@@ -3313,7 +3368,8 @@
    "be3d2a6b3491": "사우디 방공, 동부주(Eastern Province) 겨냥한 후티 탄도미사일 2발 요격",
    "578d637231a8": "사우디 방공, 리야드 겨냥한 후티 탄도미사일 2발 요격",
    "5d2d94244528": "후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
-   "57b6a7409bae": "후티 \"사우디 공습에 60여 명 사상\"...시리아, 사우디 지원군 보내나?"
+   "57b6a7409bae": "후티 \"사우디 공습에 60여 명 사상\"...시리아, 사우디 지원군 보내나?",
+   "9412162b422d": "사우디 방공, 리야드·남부 지역 겨냥한 후티 미사일 요격"
   },
   "aiClusters": [
    {
@@ -3594,6 +3650,12 @@
    {
     "articleIds": [
      "54622840550e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "9412162b422d"
     ],
     "fromRule": true
    }
