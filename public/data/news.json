@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-09T06:50:32.774Z",
-  "lastAttemptAt": "2026-11-09T06:50:32.774Z",
+  "lastSuccessAt": "2026-11-09T07:00:45.235Z",
+  "lastAttemptAt": "2026-11-09T07:00:45.235Z",
   "aiSummary": true,
   "summaryAt": "2026-11-09T06:40:48.226Z",
   "aiError": null,
@@ -21,7 +21,7 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 41
+    "count": 44
    },
    {
     "name": "AP",
@@ -36,17 +36,17 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 136
+    "count": 138
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 35
+    "count": 34
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 146
+    "count": 145
    },
    {
     "name": "Al Jazeera",
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "d93f4fa14f54",
+   "articleIds": [
+    "4856659e4381"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 민방위, 리야드 위험경보 해제",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-09T07:00:45.235Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi Civil Defense lifts danger warning in Riyadh",
+     "titleKo": "사우디 민방위, 리야드 위험경보 해제",
+     "summary": "",
+     "reportedAt": "2026-11-09T06:50:34.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-civil-defense-lifts-danger-warning-in-riyadh-3010670"
+    }
+   ]
+  },
   {
    "id": "06421b6408d9",
    "articleIds": [
@@ -2945,6 +2977,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "4856659e4381",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi Civil Defense lifts danger warning in Riyadh",
+    "snippet": "The Saudi Civil Defense lifted its warning in Riyadh following a brief alarm due to missile and drone attacks from Yemen's Houthi militia. Residents were advised against gathering or filming while Saudi air defenses intercepted multiple threats, including an attempted attack on a Saudi Aramco building that caused minor damage but no injuries. The Coalition to Restore Legitimacy in Yemen reported t",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-civil-defense-lifts-danger-warning-in-riyadh-3010670",
+    "reportedAt": 1794207034000,
+    "assumeSaudi": false,
+    "firstSeen": 1794207645235
+   },
+   {
     "id": "b8699bb68bb1",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4636,7 +4682,8 @@
    "06e9c77da6c2": "후티, 사우디 공항·석유탱크·금융센터 공격 보도",
    "1db340054f83": "사우디 금융지구 후티 공격으로 아람코 타워 피해",
    "4c10d8e37859": "유가 안정세, 호르무즈 인근 공격 우려 계속",
-   "35490753c99b": "후티 반군이 사우디 금융지구까지 공격"
+   "35490753c99b": "후티 반군이 사우디 금융지구까지 공격",
+   "4856659e4381": "사우디 민방위, 리야드 위험경보 해제"
   },
   "aiClusters": [
    {
@@ -5034,6 +5081,12 @@
    {
     "articleIds": [
      "4c10d8e37859"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "4856659e4381"
     ],
     "fromRule": true
    }
