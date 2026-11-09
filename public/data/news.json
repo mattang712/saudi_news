@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-09T02:34:53.631Z",
-  "lastAttemptAt": "2026-11-09T02:34:53.631Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-09T02:40:29.553Z",
+  "lastAttemptAt": "2026-11-09T02:40:29.553Z",
   "aiSummary": true,
   "summaryAt": "2026-11-09T01:36:04.117Z",
   "aiError": null,
@@ -51,17 +51,19 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 49
+    "count": 48
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 2
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
@@ -69,38 +71,7 @@
     "count": 1
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "중부 및 동부지역 공격 관련 안전 유의(11.8.)",
-    "date": "2026-11-08",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.8)",
-    "date": "2026-11-08",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.4)",
-    "date": "2026-11-04",
-    "outlet": "외교부 안전공지"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -153,7 +124,39 @@
      "summary": "시리아가 후티와 싸우는 사우디에 경제지원을 하고 파병을 추진한다는 내용입니다.",
      "reportedAt": "2026-11-09T01:28:46.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtS3NQR2xxWUNzVWc4eS10MXFKVHRhcFY3elRhUzdaVG5YSjdZd2FFemZjOWRWbGx4dmoxaFNxdHNLOGNISlVMSi00LVFlMVZLZzdDdXJQQWRtbWvSAWBBVV95cUxNT2tZSUpHbnVGc3JRbEtWWlpqYnM0RFdQN0pjdWFlZ2ZtbVRJR0ZBZkNxZWxOSUlUdGtMNWlvWG01eUZzZzh2bnZOa2hOMmI4VTJKa1BQbTBHR1JHMkx2ZEc?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Pa1lJSkdudUZzclFsS1ZaWmpiczREV1A3SmN1YWVnZm1tVElHRkFmQ3FlbE5JSVR0a0w1aW9YbTV5RnNnOHZudk5raE4yYjhVMkprUFBtMEdHUkcyTHZkR9IBYEFVX3lxTE1Pa1lJSkdudUZzclFsS1ZaWmpiczREV1A3SmN1YWVnZm1tVElHRkFmQ3FlbE5JSVR0a0w1aW9YbTV5RnNnOHZudk5raE4yYjhVMkprUFBtMEdHUkcyTHZkRw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "6dc4ec8301a2",
+   "articleIds": [
+    "35490753c99b"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "폭주하는 후티 반군...사우디 '심장부' 금융지구까지 때렸다 [자막뉴스]",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-09T02:40:29.553Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "YTN",
+     "cat": "kr",
+     "title": "폭주하는 후티 반군...사우디 '심장부' 금융지구까지 때렸다 [자막뉴스]",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-11-09T00:58:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pNS1DQ0J1WnhrVEgzNTlKaV9GNlVraDlRa0NfQ0h4N1dBV1VoZFFScldWWklNVHhydjBZLXNRWURfSXVQd0l3NkNKZ3FSNlNnODB5TzJPbnV6OWoxdlZESG5LSnJIYnFPM0VrOTBZUEhPcFlueHc?oc=5"
     }
    ]
   },
@@ -2569,10 +2572,24 @@
     "outlet": "연합뉴스",
     "title": "시리아, 후티와 싸우는 사우디에 경제지원 받고 파병 추진",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtS3NQR2xxWUNzVWc4eS10MXFKVHRhcFY3elRhUzdaVG5YSjdZd2FFemZjOWRWbGx4dmoxaFNxdHNLOGNISlVMSi00LVFlMVZLZzdDdXJQQWRtbWvSAWBBVV95cUxNT2tZSUpHbnVGc3JRbEtWWlpqYnM0RFdQN0pjdWFlZ2ZtbVRJR0ZBZkNxZWxOSUlUdGtMNWlvWG01eUZzZzh2bnZOa2hOMmI4VTJKa1BQbTBHR1JHMkx2ZEc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Pa1lJSkdudUZzclFsS1ZaWmpiczREV1A3SmN1YWVnZm1tVElHRkFmQ3FlbE5JSVR0a0w1aW9YbTV5RnNnOHZudk5raE4yYjhVMkprUFBtMEdHUkcyTHZkR9IBYEFVX3lxTE1Pa1lJSkdudUZzclFsS1ZaWmpiczREV1A3SmN1YWVnZm1tVElHRkFmQ3FlbE5JSVR0a0w1aW9YbTV5RnNnOHZudk5raE4yYjhVMkprUFBtMEdHUkcyTHZkRw?oc=5",
     "reportedAt": 1794187726000,
     "assumeSaudi": false,
     "firstSeen": 1794188164117
+   },
+   {
+    "id": "35490753c99b",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "YTN",
+    "title": "폭주하는 후티 반군...사우디 '심장부' 금융지구까지 때렸다 [자막뉴스]",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pNS1DQ0J1WnhrVEgzNTlKaV9GNlVraDlRa0NfQ0h4N1dBV1VoZFFScldWWklNVHhydjBZLXNRWURfSXVQd0l3NkNKZ3FSNlNnODB5TzJPbnV6OWoxdlZESG5LSnJIYnFPM0VrOTBZUEhPcFlueHc?oc=5",
+    "reportedAt": 1794185880000,
+    "assumeSaudi": false,
+    "firstSeen": 1794192029553
    },
    {
     "id": "f75abf28b905",
@@ -4533,6 +4550,12 @@
    {
     "articleIds": [
      "5111a53914ac"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "35490753c99b"
     ],
     "fromRule": true
    }
