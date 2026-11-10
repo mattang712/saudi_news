@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-10T05:30:36.621Z",
-  "lastAttemptAt": "2026-11-10T05:30:36.621Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-10T05:40:32.016Z",
+  "lastAttemptAt": "2026-11-10T05:40:32.016Z",
   "aiSummary": true,
   "summaryAt": "2026-11-10T03:40:33.142Z",
   "aiError": null,
@@ -15,43 +15,50 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 38
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 143
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 21
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 17
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 99
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 44
+    "count": 40,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 146
+    "count": 148
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 62
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 33
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -103,6 +111,49 @@
   ]
  },
  "events": [
+  {
+   "id": "aeaa8ed0cf83",
+   "articleIds": [
+    "38ef6a59e20d",
+    "a57c88550cde"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "multi",
+   "directive": null,
+   "title": "리야드 부지사, 후티 공격 이후 아람코 행정동 점검",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-10T05:40:32.016Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Riyadh Deputy Governor Inspects Aramco Administrative Building Following Houthi Attack",
+     "titleKo": "리야드 부지사, 후티 공격 이후 아람코 행정동 점검",
+     "summary": "",
+     "reportedAt": "2026-11-10T05:32:06.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5339521"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Riyadh deputy governor inspects damage to Aramco building after Houthi attack",
+     "titleKo": "리야드 부지사, 후티 공격 후 아람코 건물 피해 점검",
+     "summary": "",
+     "reportedAt": "2026-11-10T05:40:04.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/riyadh-deputy-governor-inspects-damage-to-aramco-building-after-houthi-attack-3010868"
+    }
+   ]
+  },
   {
    "id": "cc244932c4bb",
    "articleIds": [
@@ -2795,6 +2846,24 @@
  ],
  "timeline": [
   {
+   "id": "38ef6a59e20d",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 부지사, 후티 공격 이후 아람코 행정동 점검",
+   "title": "Riyadh Deputy Governor Inspects Aramco Administrative Building Following Houthi Attack",
+   "summary": "",
+   "reportedAt": "2026-11-10T05:32:06.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5339521"
+  },
+  {
    "id": "0a8f22ae9173",
    "outlet": "Al Jazeera",
    "official": false,
@@ -3433,6 +3502,34 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "a57c88550cde",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Riyadh deputy governor inspects damage to Aramco building after Houthi attack",
+    "snippet": "RIYADH: Riyadh Deputy Gov. Prince Mohammed bin Abdulrahman inspected a Saudi Aramco administrative building in the capital on Monday to assess limited damage caused by a Houthi attack on civilian facilities. He said the attack underscored the Houthis’ continued targeting of civilian infrastructure and praised the efforts of civilian, military and security personnel. He was briefed on measures take",
+    "url": "https://www.arabnews.com/saudi-arabia/riyadh-deputy-governor-inspects-damage-to-aramco-building-after-houthi-attack-3010868",
+    "reportedAt": 1794289204000,
+    "assumeSaudi": false,
+    "firstSeen": 1794289232016
+   },
+   {
+    "id": "38ef6a59e20d",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Riyadh Deputy Governor Inspects Aramco Administrative Building Following Houthi Attack",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5339521",
+    "reportedAt": 1794288726000,
+    "assumeSaudi": false,
+    "firstSeen": 1794289232016
+   },
    {
     "id": "12a38c909323",
     "feed": "Arab News",
@@ -5491,7 +5588,9 @@
    "824f64f3fb91": "후티 미사일·드론 요격…연합군, 민병대 탄도미사일 시설 파괴했다고 밝혀",
    "12a38c909323": "후티 미사일·드론 요격…연합군, 민병대 탄도미사일 공장 파괴했다고 밝혀",
    "0a8f22ae9173": "사우디, 후티의 송유관 공격 뒤 리야드로 발사된 미사일 격추 - Al Jazeera",
-   "06340279f11d": "사우디 주도 연합, 후티 미사일·드론 요격 보고; Saba는 사우디의 사나 공습 보도"
+   "06340279f11d": "사우디 주도 연합, 후티 미사일·드론 요격 보고; Saba는 사우디의 사나 공습 보도",
+   "a57c88550cde": "리야드 부지사, 후티 공격 후 아람코 건물 피해 점검",
+   "38ef6a59e20d": "리야드 부지사, 후티 공격 이후 아람코 행정동 점검"
   },
   "aiClusters": [
    {
@@ -5977,6 +6076,13 @@
    {
     "articleIds": [
      "06340279f11d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a57c88550cde",
+     "38ef6a59e20d"
     ],
     "fromRule": true
    }
