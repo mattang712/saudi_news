@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-11-12T20:30:45.043Z",
-  "lastAttemptAt": "2026-11-12T20:30:45.043Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-11-12T20:40:33.706Z",
+  "lastAttemptAt": "2026-11-12T20:40:33.706Z",
   "aiSummary": true,
   "summaryAt": "2026-11-12T20:30:45.043Z",
   "aiError": null,
@@ -15,17 +15,17 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 22
+    "count": 21
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 130
+    "count": 119
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 14
+    "count": 15
    },
    {
     "name": "AFP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 96
+    "count": 94
    },
    {
     "name": "Saudi Gazette",
@@ -50,29 +50,90 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 56
+    "count": 59
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
-    "ok": false,
-    "count": 0,
-    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
+    "ok": true,
+    "count": 1
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 82
+    "count": 80
    }
   ],
-  "mofaLatest": []
+  "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "date": "2026-11-11",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "메디나주 송유관 피격 및 남부지역 미사일 요격 관련 신변 유의",
+    "date": "2026-11-10",
+    "outlet": "외교부 안전공지"
+   },
+   {
+    "title": "중부 및 동부지역 공격 관련 안전 유의(11.8.)",
+    "date": "2026-11-08",
+    "outlet": "외교부 안전공지"
+   }
+  ]
  },
  "events": [
+  {
+   "id": "85f8af9e6f27",
+   "articleIds": [
+    "ecbae4293069"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "연합군: 테러 후티 민병대가 발사한 UAV, 리야드 지역에서 요격·격파",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-12T20:40:33.706Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
+     "titleKo": "연합군: 테러 후티 민병대가 발사한 UAV, 리야드 지역에서 요격·격파",
+     "summary": "",
+     "reportedAt": "2026-11-12T19:58:13.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mbGI3eWxMYzhNOXJCeTNKTEJDb0YxYjN0aFJ6ZHhfdG9vN1BKLUwxZFlJZS1RbElRZW9QeEJ4N3d2MGwt?oc=5"
+    }
+   ]
+  },
   {
    "id": "559c1d63e495",
    "articleIds": [
@@ -1729,9 +1790,8 @@
    ]
   },
   {
-   "id": "69f35ed8fe69",
+   "id": "6ef4262292d4",
    "articleIds": [
-    "034bc32c9100",
     "dd1879e6e710"
    ],
    "type": "security",
@@ -1746,19 +1806,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-09T20:40:33.175Z",
+   "collectedAt": "2026-11-09T21:00:48.354Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Trump says Qatar, Saudi Arabia want peaceful solution on Iran but US ready for strikes if necessary -Reuters interview",
-     "titleKo": "트럼프: 카타르·사우디, 이란 평화적 해결 원해…필요시 미군 준비",
-     "summary": "트럼프가 카타르·사우디가 이란의 평화적 해결을 원한다고 말한 인터뷰 보도입니다.",
-     "reportedAt": "2026-11-09T20:31:56.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5"
-    },
     {
      "outlet": "Reuters",
      "cat": "wire",
@@ -1773,6 +1823,24 @@
   }
  ],
  "timeline": [
+  {
+   "id": "ecbae4293069",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "drone",
+   "sev": "high",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "연합군: 테러 후티 민병대가 발사한 UAV, 리야드 지역에서 요격·격파",
+   "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
+   "summary": "",
+   "reportedAt": "2026-11-12T19:58:13.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mbGI3eWxMYzhNOXJCeTNKTEJDb0YxYjN0aFJ6ZHhfdG9vN1BKLUwxZFlJZS1RbElRZW9QeEJ4N3d2MGwt?oc=5"
+  },
   {
    "id": "9e589d354d03",
    "outlet": "Reuters",
@@ -2421,28 +2489,24 @@
    "reportedAt": "2026-11-09T20:42:43.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5"
-  },
-  {
-   "id": "034bc32c9100",
-   "outlet": "Reuters",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "트럼프: 카타르·사우디, 이란 평화적 해결 원해…필요시 미군 준비",
-   "title": "Trump says Qatar, Saudi Arabia want peaceful solution on Iran but US ready for strikes if necessary -Reuters interview",
-   "summary": "트럼프가 카타르·사우디가 이란의 평화적 해결을 원한다고 말한 인터뷰 보도입니다.",
-   "reportedAt": "2026-11-09T20:31:56.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5"
   }
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "ecbae4293069",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mbGI3eWxMYzhNOXJCeTNKTEJDb0YxYjN0aFJ6ZHhfdG9vN1BKLUwxZFlJZS1RbElRZW9QeEJ4N3d2MGwt?oc=5",
+    "reportedAt": 1794513493000,
+    "assumeSaudi": false,
+    "firstSeen": 1794516033706
+   },
    {
     "id": "0e97afe79a85",
     "feed": "Arab News",
@@ -3648,27 +3712,12 @@
     "reportedAt": 1794256963000,
     "assumeSaudi": false,
     "firstSeen": 1794258048354
-   },
-   {
-    "id": "034bc32c9100",
-    "feed": "Reuters",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "Reuters",
-    "title": "Trump says Qatar, Saudi Arabia want peaceful solution on Iran but US ready for strikes if necessary -Reuters interview",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5",
-    "reportedAt": 1794256316000,
-    "assumeSaudi": false,
-    "firstSeen": 1794256833175
    }
   ],
   "summaries": {
    "b4a858b5e52f": "캐나다 총리가 후티의 사우디 공격을 규탄했다는 보도예요.",
    "6de1d28bcc6a": "캐나다 총리가 후티의 사우디 공격을 규탄했다는 보도입니다.",
    "dd1879e6e710": "트럼프가 카타르·사우디가 이란의 평화적 해결을 원한다고 말하며 필요시 미군 행동 준비 언급 보도입니다.",
-   "034bc32c9100": "트럼프가 카타르·사우디가 이란의 평화적 해결을 원한다고 말한 인터뷰 보도입니다.",
    "e176f3c1191d": "후티는 사우디 내 외국기업에 폭격을 피하려면 명단에 오르라며 협박했다고 보도했어요.",
    "75a2e218edd3": "캐나다 총리가 후티 공격을 규탄했다고 보도됐어요.",
    "eff14c2104a0": "사우디의 동서 송유관에 새로운 공격이 발생했다고 알자지라가 보도했어요.",
@@ -3754,7 +3803,6 @@
    "3123f4169418": "코모로스가 사우디 주권 침해를 규탄했다고 사우디 통신이 전했어요."
   },
   "titlesKo": {
-   "034bc32c9100": "트럼프: 카타르·사우디, 이란 평화적 해결 원해…필요시 미군 준비",
    "6de1d28bcc6a": "캐나다 총리, 후티의 사우디 공격 규탄",
    "dd1879e6e710": "트럼프: 카타르·사우디, 이란 평화적 해결 원해…필요시 미군 준비",
    "b4a858b5e52f": "캐나다 총리, 후티의 사우디 공격 규탄",
@@ -3839,7 +3887,8 @@
    "4e21d9b3c044": "후티 반군 \"사우디 동서 송유관·얀부 석유시설 타격\"(종합)",
    "2cd5fc239a06": "후티 반군, 사우디 동서 송유관·얀부 석유시설 공격",
    "bea4f5bfa95f": "후티 반군 “사우디 동서 송유관·석유시설 타격”",
-   "1c74abac646b": "사우디 '후티가 메카 때린다'…성지모독 프레임에 후티 반발"
+   "1c74abac646b": "사우디 '후티가 메카 때린다'…성지모독 프레임에 후티 반발",
+   "ecbae4293069": "연합군: 테러 후티 민병대가 발사한 UAV, 리야드 지역에서 요격·격파"
   },
   "aiClusters": [
    {
@@ -4147,8 +4196,13 @@
    },
    {
     "articleIds": [
-     "dd1879e6e710",
-     "034bc32c9100"
+     "dd1879e6e710"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "ecbae4293069"
     ],
     "fromRule": true
    }
