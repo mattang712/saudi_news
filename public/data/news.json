@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-12T08:20:32.176Z",
-  "lastAttemptAt": "2026-11-12T08:20:32.176Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-12T08:30:34.658Z",
+  "lastAttemptAt": "2026-11-12T08:30:34.658Z",
   "aiSummary": true,
   "summaryAt": "2026-11-12T07:10:29.860Z",
   "aiError": null,
@@ -15,33 +15,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 20
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 90
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 16
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 9
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 110
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 53
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +57,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 60
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 106
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -1959,38 +1967,6 @@
      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkcmlUNFNRLVQ2THhXZFR6MHN2ZkZVME1jVUVRc1ltM3RvUDlqNDY2QUxtaDFYWGRPS1k0dGhwQ2llRDFjNU80MQ?oc=5"
     }
    ]
-  },
-  {
-   "id": "32a47ff9b18a",
-   "articleIds": [
-    "08acd8bff600"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "여러 국가·기구, 후티의 사우디 공격 규탄",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-09T08:50:32.267Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Six more nations, GCC and Muslim World League condemn Houthi attacks on Saudi Arabia",
-     "titleKo": "여러 국가·기구, 후티의 사우디 공격 규탄",
-     "summary": "여섯 개국과 GCC 등이 후티 공격을 규탄했다고 보도합니다.",
-     "reportedAt": "2026-11-09T08:27:40.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666103/saudi-arabia/six-more-nations-gcc-and-muslim-world-league-condemn-houthi-attacks-on-saudi-arabia"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -3873,24 +3849,9 @@
     "reportedAt": 1794217176000,
     "assumeSaudi": false,
     "firstSeen": 1794265247793
-   },
-   {
-    "id": "08acd8bff600",
-    "feed": "Saudi Gazette",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Saudi Gazette",
-    "title": "Six more nations, GCC and Muslim World League condemn Houthi attacks on Saudi Arabia",
-    "snippet": "RIYADH — Six more countries along with the Gulf Cooperation Council (GCC) and Muslim World League (MWL), have strongly condemned the terrorist Houthi militia’s continued attacks on Saudi Arabia, joining Syria, Kuwait and Bahrain in reaffirming solidarity with the Kingdom and support for its security and sovereignty. In a statement issued on Monday, the UAE Ministry of Foreign Affairs condemned the",
-    "url": "https://saudigazette.com.sa/article/666103/saudi-arabia/six-more-nations-gcc-and-muslim-world-league-condemn-houthi-attacks-on-saudi-arabia",
-    "reportedAt": 1794212860000,
-    "assumeSaudi": false,
-    "firstSeen": 1794214232267
    }
   ],
   "summaries": {
-   "08acd8bff600": "여섯 개국과 GCC 등이 후티 공격을 규탄했다고 보도합니다.",
    "70986d1b9c6a": "사우디가 기아 K8 차량 리콜을 발표했다고 보도합니다.",
    "ba7bbe4a3715": "사우디가 후티 미사일을 요격했고 아람코 건물이 피해를 입었다고 보도했습니다",
    "422854754227": "시리아가 사우디로 병력을 파견했다고 확인했다고 알자지라가 보도했습니다.",
@@ -3982,7 +3943,6 @@
    "f8b5bd321185": "사우디는 후티가 이슬람 성지를 잇따라 공격했다고 전했다고 보도했어요."
   },
   "titlesKo": {
-   "08acd8bff600": "여러 국가·기구, 후티의 사우디 공격 규탄",
    "ba7bbe4a3715": "사우디, 후티 미사일 요격·아람코 건물 피해 보고",
    "70986d1b9c6a": "사우디, 기아 K8 차량 리콜 발표",
    "fd6eb08da45c": "연합군: 후티 탄도미사일 발사용 차량 파괴 보도",
@@ -4392,12 +4352,6 @@
    {
     "articleIds": [
      "b2294a727d5b"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "08acd8bff600"
     ],
     "fromRule": true
    },
