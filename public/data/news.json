@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-15T10:50:29.719Z",
-  "lastAttemptAt": "2026-11-15T10:50:29.719Z",
+  "lastSuccessAt": "2026-11-15T11:00:51.723Z",
+  "lastAttemptAt": "2026-11-15T11:00:51.723Z",
   "aiSummary": true,
   "summaryAt": "2026-11-15T10:30:40.496Z",
   "aiError": null,
@@ -15,12 +15,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 15
+    "count": 13
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 81
+    "count": 80
    },
    {
     "name": "AP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 128
+    "count": 129
    },
    {
     "name": "Saudi Gazette",
@@ -50,7 +50,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 51
+    "count": 52
    },
    {
     "name": "외교부 여행경보",
@@ -65,7 +65,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 33
+    "count": 32
    }
   ],
   "mofaLatest": [
@@ -102,6 +102,38 @@
   ]
  },
  "events": [
+  {
+   "id": "4bf485908810",
+   "articleIds": [
+    "f2bc4c8f82d1"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디, 바레인에 대한 이란의 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-15T11:00:51.723Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi Arabia condemns Iranian attacks on Bahrain",
+     "titleKo": "사우디, 바레인에 대한 이란의 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-11-15T10:55:09.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-iranian-attacks-on-bahrain-3012030"
+    }
+   ]
+  },
   {
    "id": "d02b9c22edac",
    "articleIds": [
@@ -1771,6 +1803,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "f2bc4c8f82d1",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi Arabia condemns Iranian attacks on Bahrain",
+    "snippet": "RIYADH: Saudi Arabia’s foreign ministry on Sunday strongly condemned the Iranian aerial attacks on Bahrain, expressing the Kingdom’s full solidarity with Manama and its support for all measures taken to protect the country’s security and stability. Iran's Revolutionary Guards said Sunday that it had targeted a US radar system at a base in Bahrain, according to a statement carried by the Iranian st",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-iranian-attacks-on-bahrain-3012030",
+    "reportedAt": 1794740109000,
+    "assumeSaudi": false,
+    "firstSeen": 1794740451723
+   },
+   {
     "id": "bc9e5f311573",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -2685,7 +2731,8 @@
    "3abf8c113056": "아랍 연합, 리야드 향한 미사일·동부의 드론 요격 보도",
    "9c059976b880": "사우디 주도 연합군, 추정 후티 미사일·드론 요격",
    "9f2785e8c893": "사우디 방공, 리야드·동부 향한 탄도미사일 2기와 드론 요격",
-   "bc9e5f311573": "사우디, 이란의 바레인 공중공격 규탄 보도"
+   "bc9e5f311573": "사우디, 이란의 바레인 공중공격 규탄 보도",
+   "f2bc4c8f82d1": "사우디, 바레인에 대한 이란의 공격 규탄"
   },
   "aiClusters": [
    {
@@ -2896,6 +2943,12 @@
    {
     "articleIds": [
      "f173e2319594"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f2bc4c8f82d1"
     ],
     "fromRule": true
    }
