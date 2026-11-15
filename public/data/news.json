@@ -1,16 +1,15 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-15T22:30:38.877Z",
-  "lastAttemptAt": "2026-11-15T22:30:38.877Z",
+  "lastSuccessAt": "2026-11-15T22:40:31.133Z",
+  "lastAttemptAt": "2026-11-15T22:40:31.133Z",
   "aiSummary": true,
-  "summaryAt": "2026-11-15T21:30:39.041Z",
+  "summaryAt": "2026-11-15T22:40:31.133Z",
   "aiError": null,
   "summaryKo": [
-   "연합군이 최근 들어 리야드·동부 향 미사일과 드론을 다수 요격했다고 국영통신 발표.",
-   "동부(담맘·자푸라) 방향 드론·미사일도 연합군이 요격했다는 로이터·알자지라 보도.",
-   "후티가 리야드 공항·금융지구 겨냥 발사했다고 주장했으나 미확인.",
-   "외교·안보 관련 기관들과 국제언론이 연이은 요격을 보도·전달하고 있다."
+   "후티가 리야드와 동부를 향해 미사일·드론을 발사했다고 주장했고 연합은 이를 요격했다고 발표했어요.",
+   "연합은 마카와 마디나 지역으로 날아온 드론들도 요격해 격추했다고 발표했어요.",
+   "여러 국가·기구가 후티의 공격과 관련해 규탄 성명을 냈고 사우디는 중국과 안보 문제를 논의했다고 보도됐어요."
   ],
   "sources": [
    {
@@ -21,7 +20,7 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 51
+    "count": 48
    },
    {
     "name": "AP",
@@ -36,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 129
+    "count": 127
    },
    {
     "name": "Saudi Gazette",
@@ -104,91 +103,167 @@
  },
  "events": [
   {
-   "id": "9f165aa79a43",
+   "id": "924c00f69f1d",
    "articleIds": [
-    "27449e9056b5"
+    "fca9d4904874",
+    "68e6faf7012e",
+    "c96c20831908"
    ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
+   "type": "energy",
+   "sev": "high",
+   "status": "claim",
    "directive": null,
-   "title": "Muslim World League, 후티의 마카 공격 규탄",
-   "titleAuto": true,
+   "title": "후티 “사우디 동서 송유관·얀부 석유시설 공격해”",
+   "titleAuto": false,
    "regions": [
-    "all"
+    "riyadh",
+    "eastern",
+    "airport"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "기사에 직접 지명이 모두 없고 리야드·아람코 관련 보도가 섞여 있어 동부(아람코)는 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-15T20:50:32.285Z",
-   "aiNote": null,
+   "collectedAt": "2026-11-12T23:20:34.244Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Muslim World League condemns Houthi attacks on Makkah",
-     "titleKo": "Muslim World League, 후티의 마카 공격 규탄",
-     "summary": "",
-     "reportedAt": "2026-11-15T20:42:30.000Z",
+     "outlet": "경향신문",
+     "cat": "kr",
+     "title": "후티 “사우디 동서 송유관·얀부 석유시설 공격해”",
+     "titleKo": null,
+     "summary": "후티가 사우디 동서 송유관과 얀부의 석유시설을 공격했다고 후티 측이 주장했다고 보도했어요.",
+     "reportedAt": "2026-11-12T22:50:00.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/muslim-world-league-condemns-houthi-attacks-on-makkah-3012117"
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmdERwVXNLVTVvWEx1Q2tVRFZ2dXdGTVROa3BsVnh2aEx6MThOU0stSHk2VXltb1ZFQ2w1bzl1XzFLX2dSd0xYeEViTjQzWDFDRGlyMDUwdWpwaUw3bHA00gFfQVVfeXFMUGZ0RHBVc0tVNW9YTHVDa1VEVnZ1d0ZNVE5rcGxWeHZoTHoxOE5TSy1IeTZVeW1vVkVDbDVvOXVfMUtfZ1J3TFh4RWJONDNYMUNEaXIwNTB1anBpTDdscDQ?oc=5"
+    },
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Yemen's Houthis claim attack on Riyadh financial district, Aramco skyscraper damaged",
+     "titleKo": "후티, 리야드 금융지구 공격해 아람코 고층건물 피해라고 주장",
+     "summary": "후티가 리야드 금융지구를 공격해 아람코 고층건물이 피해를 입었다고 주장했다고 AFP가 보도했어요.",
+     "reportedAt": "2026-11-14T14:17:06.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SV3pfVl9ST2NSQ2did2NhbTJzNk1xbkNPT1c0QjlBRldxeURQeFdnSEVqLXlfenFWMUpwdExLYkxLVkF3OGtfWDM0bw?oc=5"
+    },
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
+     "titleKo": null,
+     "summary": "후티군이 사우디와 예멘 정부를 상대로 대대적 폭격을 단행했고 리야드 공항과 금융센터도 공격했다고 보도했어요.",
+     "reportedAt": "2026-11-15T22:25:57.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TX3NDekdHNlpZV083RldSbG9qWmVfUjExeWhZTDVsUU15YWZPelI3RDNsSXhNSFZ0aHlaTEptLS1pbTdac2hXVHdFX1c4dlZRSllqRFVzZ01iTVJ1SGlCQdIBeEFVX3lxTE9yZ1lCRU1CLXZ0MnZaQVB1UVJHWFVCRjVxWkc4ZVBPbW92TTBTTXdVOTItMW1NaS1xYm12XzRldW8xRkF1Z3pZRjRxZDFQSi1KaUVQc0xIbS1XMWMtRzdWZXozdnRkU0dJeWIyaE9rN3BPTWxvYUNQdw?oc=5"
     }
    ]
   },
   {
-   "id": "17e51f77c548",
+   "id": "da7e8209bb4f",
    "articleIds": [
-    "bed40e8601e0",
+    "5903a381f821",
+    "ecbae4293069",
+    "9c32f2101f06",
+    "3de2c9a1ec89",
     "69bfa5fed1b3",
+    "0b8cde12039e",
     "2b2f6954031f",
     "2c1d8d7eeea3",
     "cc4b3e2d2f70",
-    "a69ba5a61dac",
-    "bc9e5f311573",
-    "f2bc4c8f82d1",
-    "431fd2837ef7"
+    "3f4f854602cb",
+    "da15086368a2",
+    "042a4308d983",
+    "e2bff7d1889a",
+    "c4ddb27ed672",
+    "19059ceefb27",
+    "ef128570c686",
+    "13369bf3a151",
+    "9b6a70de2aad",
+    "9336ba9b4be5",
+    "27449e9056b5"
    ],
-   "type": "security",
-   "sev": "mid",
+   "type": "drone",
+   "sev": "high",
    "status": "official",
    "directive": null,
-   "title": "사우디·여러 국가들이 후티·이란의 공격을 규탄했다고 발표",
+   "title": "연이은 후티의 드론·미사일 공격을 연합군이 요격했다고 발표",
    "titleAuto": true,
    "regions": [
-    "riyadh"
+    "riyadh",
+    "eastern"
    ],
    "inferred": true,
-   "inferNote": "외교부 성명 등은 리야드 발표가 많아 중심 지역을 리야드로 추정했어요.",
+   "inferNote": "일부 기사들은 지역명을 다양하게 언급해 특정 기사별로 지역을 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-12T16:00:52.780Z",
+   "collectedAt": "2026-11-12T20:40:33.706Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Riyadh, China discuss Houthis as group claims Aramco attacks",
+     "titleKo": "연합, 리야드 향한 드론 요격·후티의 아람코 공격 주장 보도",
+     "summary": "연합이 리야드를 향한 드론을 요격했고 후티가 아람코 시설을 공격했다고 주장했다고 보도했어요.",
+     "reportedAt": "2026-11-13T00:00:26.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
+     "titleKo": "연합, 리야드 지역 무인기 요격·격추",
+     "summary": "연합이 리야드 지역에서 무인기를 요격·격추했다고 보도했어요.",
+     "reportedAt": "2026-11-13T00:03:29.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mbGI3eWxMYzhNOXJCeTNKTEJDb0YxYjN0aFJ6ZHhfdG9vN1BKLUwxZFlJZS1RbElRZW9QeEJ4N3d2MGwt?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+     "titleKo": "후티, 사우디에 대한 공격 재개 보도",
+     "summary": "후티가 사우디에 대한 공격을 재개했다고 보도했어요.",
+     "reportedAt": "2026-11-13T00:46:35.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczh4SThZNndlcnhvbjZxLWgzZ0x1Ym5zRUt0WHQ1V1k3dW54dDFGNFFGa015aE9NLVNBanFwNVB6S1JPLWp0ZEswUGpDc1pwRWtTbzJZOFdWQTlXVzA0QlhIZ0xTM1VNTUZzS3RGck80TU1tRmVxclhFLTlJbVBtWmdjVnNkUDB6RGJudDhabHktT1lkYzdlNzdBTUFDY0FjN3FXSTFuWGVxeWxvNkFlTUl30gG3AUFVX3lxTE1TT3FLV3RuLVdWMUR6TXc3UFhRODUxeVdpWDdoeUxnMUtpYTk1bVJJMy1jYnp4S0liVXJlTlB2WXM3M2ZwMktmTi1pbzBPbURfcl9LNDRaM0ZJZ21fOThTQzRtX3kzTUk3cWQ1TzlJb2I2OWFuWDk5ekVsd3JHck04SGpvUUhZU2lJaHhMRGhPNWR1eHJ1VFltYUU1ZzJjLTBLMmM3UVM5ZTFRbHZDSVRUZnlKdlFwbw?oc=5"
+    },
+    {
      "outlet": "Saudi Gazette",
      "cat": "local",
-     "title": "Saudi, Chinese officials discuss Houthi attacks, regional security and maritime navigation",
-     "titleKo": "사우디·중국 고위인사, 후티 공격·지역 안보 논의",
-     "summary": "사우디 고위 외교관과 중국 특사가 후티 공격과 지역 안보를 논의했다고 보도됐어요.",
-     "reportedAt": "2026-11-13T05:55:55.000Z",
+     "title": "Jordan, Egypt, Kuwait, Bahrain and Arab League condemn Houthi attacks on Saudi Arabia",
+     "titleKo": "여러 아랍국, 후티의 사우디 공격 규탄",
+     "summary": "여러 아랍국들이 후티의 사우디 공격을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-11-13T13:56:53.000Z",
      "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666224/saudi-arabia/saudi-chinese-officials-discuss-houthi-attacks-regional-security-and-maritime-navigation"
+     "url": "https://saudigazette.com.sa/article/666231/saudi-arabia/jordan-egypt-kuwait-bahrain-and-arab-league-condemn-houthi-attacks-on-saudi-arabia"
     },
     {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Russian Grand Mufti Condemns Houthi Terrorist Attacks Against Saudi Arabia",
-     "titleKo": "사우디 보도: 러시아 대무프티 규탄",
-     "summary": "러시아 대무프티가 후티의 사우디 공격을 규탄했다고 보도합니다.",
+     "titleKo": "러시아 대무프티, 후티 공격 규탄",
+     "summary": "러시아 대무프티가 후티 공격을 규탄했다고 보도했어요.",
      "reportedAt": "2026-11-13T18:53:38.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9SYkRaMzE1QnlSb3Vaei0wZ3lmNlB3R1hzNTlkbU5VV3FYRDRkN0JKYU5xLUk5emF3cm5pcUNUU2xKaEI0aEdLZVJB?oc=5"
     },
     {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan",
+     "titleKo": "후티, 지나즈서 사우디군 겨냥 미사일 발사했다고 주장",
+     "summary": "후티가 지나즈에서 사우디군을 겨냥한 미사일을 발사했다고 후티가 주장했다고 로이터가 보도했어요.",
+     "reportedAt": "2026-11-13T20:54:19.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5"
+    },
+    {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Grand Mufti of North Macedonia Condemns Houthi Terrorist Attacks on Saudi Arabia",
-     "titleKo": "북마케도니아 대무프티, 후티 공격 규탄",
-     "summary": "북마케도니아의 대무프티가 후티 공격을 규탄했다고 전합니다.",
+     "titleKo": "북마케도니아 대무프티, 후티의 사우디 공격 규탄",
+     "summary": "북마케도니아 대무프티가 후티의 사우디 공격을 규탄했다고 보도했어요.",
      "reportedAt": "2026-11-13T22:51:22.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE53UmRDTF9mUmRaY3ZxQWthN3E5ZDF2dFpUN1A1ZmRZbjMydkpBLTlxUF9kYWZfVG1zUUFxT3Z3NWhCRjVXamlHbGJB?oc=5"
@@ -197,8 +272,8 @@
      "outlet": "Saudi Gazette",
      "cat": "local",
      "title": "Russian Grand Mufti condemns Houthi terrorist attacks on Saudi Arabia",
-     "titleKo": "러시아 대무프티, 후티의 사우디 공격 규탄",
-     "summary": "러시아 대무프티가 후티의 사우디 공격을 규탄했다고 전합니다.",
+     "titleKo": "러시아 대무프티, 후티의 사우디 공격 강력 규탄",
+     "summary": "러시아 대무프티가 후티의 사우디 공격을 강력 규탄했다고 보도했어요.",
      "reportedAt": "2026-11-14T12:34:56.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666239/saudi-arabia/russian-grand-mufti-condemns-houthi-terrorist-attacks-on-saudi-arabia"
@@ -207,11 +282,169 @@
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Foreign Ministers of Saudi Arabia, Arab and Islamic Countries Condemn Israeli Strike on Nasser Medical Complex, Urge Unimpeded Humanitarian Aid to Gaza",
-     "titleKo": "사우디 등 외교장관, 가자 의료시설 공격 규탄",
-     "summary": "사우디 등 외교장관들이 가자 의료시설 공격을 규탄했다고 보도됐어요.",
+     "titleKo": "사우디 등 외교장관들, 가자 의료시설 공습 규탄·인도주의 촉구",
+     "summary": "사우디 등 외교장관들이 가자 의료시설 공격을 규탄하고 인도적 지원을 촉구했다고 보도했어요.",
      "reportedAt": "2026-11-14T13:08:25.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE56MkVSMEtjQXMzWFpVZVlYWHQwb0VkUHBtMmZTV2pkcTBPTHAzcDZ5Qng3UEZtWkRIUnllc1NLbDd5SGEwWXFuQ1lB?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Arab, Islamic FMs slam Israeli strike on Gaza’s Nasser Medical Complex, demand unhindered aid delivery",
+     "titleKo": "아랍·이슬람 외무장관들, 가자의 의료시설 공습 규탄",
+     "summary": "아랍·이슬람 외무장관들이 가자의 의료시설 공습을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-11-14T13:09:36.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666240/saudi-arabia/arab-islamic-fms-slam-israeli-strike-on-gazas-nasser-medical-complex-demand-unhindered-aid-delivery"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition says it destroyed Houthi drones launched towards Riyadh, southern region",
+     "titleKo": "연합, 리야드·남부 향한 드론 파괴 발표",
+     "summary": "연합이 리야드와 남부 지역을 향한 드론을 파괴했다고 보도했어요.",
+     "reportedAt": "2026-11-14T13:20:09.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUFBoRUhNX29yVF8wbHNiRUthQTU4eXd1ODlRVERRV2daTUVWUzdPcVJmaHNTR2QtSUVmZ0Nwdmo5V3ZVV2NKUHl2enlNWUN5TDEzR21idTFOUWNlc2MwSXIwbTR5Q3MwRDNWanFVOGVXZWpxN2lhZjBHc1NxR21jUllGNzJOZnFWQTZTbTV3QnVxV2hSeldaRGdHYTh5RzNtOEVqUnJVRnRtVEdiU3hVRGJhdHNOOFpYLTlILUJTUUY5WjZYZ3c?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Two UAVs Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh and Southern Regions",
+     "titleKo": "연합, 리야드·남부 지역 무인기 2대 요격·격추",
+     "summary": "연합이 리야드와 남부 지역으로 발사된 2대의 무인기를 요격·격추했다고 발표했어요.",
+     "reportedAt": "2026-11-14T13:39:13.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9kb2dNNkRkTG5HYnZTcG5hY0xUYk81UjZhd09DNi01TllnalN5czZYMXRpSmJMbmVJRDQtWlRNZW9FV0xJMWc1TFRR?oc=5"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Coalition Destroys 2 Houthi Drones Fired at Riyadh, Southern Regions",
+     "titleKo": "연합, 리야드 향한 드론 2대 파괴",
+     "summary": "연합이 리야드를 향한 드론 2대를 파괴했다고 보도했어요.",
+     "reportedAt": "2026-11-14T16:33:42.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5341208"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Saudi Arabia and 17 Arab, Islamic Countries Condemn Israeli Strike on Nasser Medical Complex in Gaza",
+     "titleKo": "아랍국들, 이스라엘의 가자 의료시설 공습 규탄",
+     "summary": "아랍국들이 이스라엘의 가자 의료시설 공습을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-11-14T17:04:30.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5341218"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition forces intercept 2 Houthi missiles, 5 drones targeting Saudi Arabia",
+     "titleKo": "연합군, 2발의 미사일·5대의 드론 요격 보도",
+     "summary": "연합군이 2발의 미사일과 5대의 드론을 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-15T13:42:11.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0o5cWFFWWFpMTNWYWduSWxKV3pBaFZaMWhSeWRzOUtYUUt6VmNLOHRPRm43b09wcXYtTkE5ZXA4R0dKbzFYNmlMTmN4SGhMMTE3QjVGOUFSTnNhX2RHMDQ2TC1mY2dYNTIyME1xTEhEQVY5VG1pblYzbDlldXJsRFg2eVBYZDRMOGM2RTNGOHdhSUh3S1NNUW1aTW9uVFBMRnVHYkxMcmkxbE0wT19YLTFNa2FENGVGV0F0WEhVOA?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Commerce ministry recalls 2,214 Bose speakers over battery overheating and fire risk",
+     "titleKo": "상거래부, 보스 스피커 과열 위험으로 리콜 발표",
+     "summary": "상거래부가 배터리 과열 위험으로 보스 스피커 2,214대 리콜을 발표했고 사용 중단을 권고했어요.",
+     "reportedAt": "2026-11-15T14:01:29.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666266/saudi-arabia/commerce-ministry-recalls-2214-bose-speakers-over-battery-overheating-and-fire-risk"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition intercepts 3 Houthi drones in Makkah and Madinah regions",
+     "titleKo": "연합, 마카와 마디나 향한 드론 3대 요격",
+     "summary": "연합이 마카와 마디나 지역으로 발사된 3대의 드론을 요격해 격추했다고 발표했어요.",
+     "reportedAt": "2026-11-15T14:54:05.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition intercepts Houthi UAVs fired at Makkah and Madinah regions",
+     "titleKo": "연합, 마카와 마디나 향한 무인기 요격",
+     "summary": "연합이 마카와 마디나 지역을 향한 무인기들을 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-15T14:54:05.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition intercepts 2 Houthi UAVs fired at Makkah region",
+     "titleKo": "연합, 마카 지역 향한 무인기 2대 요격",
+     "summary": "연합이 마카 지역을 향한 2대의 무인기를 요격했다고 발표했어요.",
+     "reportedAt": "2026-11-15T14:54:05.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Muslim World League condemns Houthi attacks on Makkah",
+     "titleKo": "무슬림월드리그, 메카에 대한 후티 공격 규탄",
+     "summary": "무슬림월드리그가 메카에 대한 후티의 공격을 규탄했고 종교적 성역 훼손이라고 비판했어요.",
+     "reportedAt": "2026-11-15T20:42:30.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/muslim-world-league-condemns-houthi-attacks-on-makkah-3012117"
+    }
+   ]
+  },
+  {
+   "id": "cb8a64591343",
+   "articleIds": [
+    "e9b8dcec9c62",
+    "9dce119f0a80",
+    "a69ba5a61dac",
+    "bc9e5f311573",
+    "f2bc4c8f82d1",
+    "9c059976b880",
+    "431fd2837ef7"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "여러 국가·기구가 후티 공격과 이란의 공습을 규탄했다고 발표",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-12T16:00:52.780Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Saudi-led coalition strikes down 3 drones",
+     "titleKo": "연합군, 몇 시간 동안 후티 드론 3대 격추",
+     "summary": "연합군이 몇 시간 동안 후티 드론 3대를 격추했다고 보도됐고 이란은 바레인 내 미군 기지를 공격했다고 주장했다고 보도됐어요.",
+     "reportedAt": "2026-11-15T00:00:08.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Saudi-led coalition strikes down 3 drones in as many hours",
+     "titleKo": "연합군, 몇 시간 동안 후티 드론 3대 격추",
+     "summary": "연합군이 몇 시간 동안 후티 드론 3대를 격추했다고 보도됐어요.",
+     "reportedAt": "2026-11-15T00:00:08.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
     },
     {
      "outlet": "SPA (사우디 국영통신)",
@@ -241,216 +474,7 @@
      "summary": "사우디 외무부가 이란의 바레인 공습을 강력히 규탄했다고 보도됐어요.",
      "reportedAt": "2026-11-15T10:55:09.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-iranian-attacks-on-bahrain-3012030"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Saudi Arabia: Iran’s Attack on Bahrain is a Violation of Int’l Law",
-     "titleKo": "사우디아라비아: 이란의 바레인 공격은 국제법 위반이라고 주장",
-     "summary": "사우디아라비아는 이란의 바레인에 대한 공격이 국제법 위반이라고 밝혔다고 보도됐어요.",
-     "reportedAt": "2026-11-15T19:30:15.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5341645"
-    }
-   ]
-  },
-  {
-   "id": "27db07f17344",
-   "articleIds": [
-    "ecbae4293069",
-    "3de2c9a1ec89",
-    "6fe21c0433ad",
-    "042a4308d983",
-    "e2bff7d1889a",
-    "c846e7a24a32",
-    "ac534b62920c",
-    "1e6a09746b28",
-    "a28dc2271771",
-    "3022559bf535",
-    "b30ebcb142b4",
-    "c12cfc6ae6f5",
-    "3abf8c113056",
-    "9f2785e8c893",
-    "cd709fac8212",
-    "9336ba9b4be5",
-    "9c059976b880"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "후티가 리야드·동부 지역을 겨냥한 미사일·드론을 발사했다고 주장",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "eastern"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-12T20:40:33.706Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
-     "titleKo": "연합군, 리야드 지역서 후티 UAV 요격·파괴",
-     "summary": "연합군이 리야드 지역에서 후티가 발사한 UAV를 요격·파괴했다고 보도됐어요.",
-     "reportedAt": "2026-11-13T00:03:29.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mbGI3eWxMYzhNOXJCeTNKTEJDb0YxYjN0aFJ6ZHhfdG9vN1BKLUwxZFlJZS1RbElRZW9QeEJ4N3d2MGwt?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Jordan, Egypt, Kuwait, Bahrain and Arab League condemn Houthi attacks on Saudi Arabia",
-     "titleKo": "여러 아랍국, 후티의 사우디 공격 규탄",
-     "summary": "여러 아랍국들이 후티의 사우디 공격을 규탄했다고 보도됐어요.",
-     "reportedAt": "2026-11-13T13:56:53.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666231/saudi-arabia/jordan-egypt-kuwait-bahrain-and-arab-league-condemn-houthi-attacks-on-saudi-arabia"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Coalition Announces Destruction of Drone in Eastern Saudi Arabia",
-     "titleKo": "연합군, 동부 사우디에서 드론 1대 파괴",
-     "summary": "연합군이 동부 사우디에서 드론 1대를 파괴했다고 보도됐어요.",
-     "reportedAt": "2026-11-13T16:38:21.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5340884"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Two UAVs Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh and Southern Regions",
-     "titleKo": "연합군: 리야드·남부서 후티 UAV 2대 요격·파괴",
-     "summary": "연합군이 리야드와 남부 지역에서 후티가 발사한 UAV 2대를 요격해 파괴했다고 밝혔어요.",
-     "reportedAt": "2026-11-14T13:39:13.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9kb2dNNkRkTG5HYnZTcG5hY0xUYk81UjZhd09DNi01TllnalN5czZYMXRpSmJMbmVJRDQtWlRNZW9FV0xJMWc1TFRR?oc=5"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Coalition Destroys 2 Houthi Drones Fired at Riyadh, Southern Regions",
-     "titleKo": "연합군, 리야드·남부 향한 후티 드론 2대 파괴",
-     "summary": "연합군이 리야드와 남부 지역을 향한 후티 드론 2대를 파괴했다고 보도됐어요.",
-     "reportedAt": "2026-11-14T16:33:42.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5341208"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts 2 UAVs, fired by Houthi militia, in Riyadh and southern regions",
-     "titleKo": "연합군 대변인: 리야드·남부 지역서 UAV 2대 요격",
-     "summary": "연합군 대변인이 리야드와 남부 지역에서 발사된 UAV 2대를 요격·파괴했다고 밝혔어요.",
-     "reportedAt": "2026-11-14T17:05:56.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666251/saudi-arabia/coalition-intercepts-2-uavs-fired-by-houthi-militia-in-riyadh-and-southern-regions"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Air Defenses Intercept, Destroy Two Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
-     "titleKo": "국영통신: 연합, 리야드 향 탄도미사일 2기 요격·파괴",
-     "summary": "사우디 국영통신은 연합이 리야드를 향한 탄도미사일 2기를 요격·파괴했다고 보도했어요.",
-     "reportedAt": "2026-11-15T01:46:20.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9fTXZjRHlJbV8wcl9PVjlfRmJ3WWw3ZG9uUkIydkFGZHdCTUR0cXZhZ2h1UlFjWWVHSXdJbWI0bjRfeFBIdTY2dWx3?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
-     "titleKo": "로이터: 연합, 리야드 향 미사일·동부 드론 요격",
-     "summary": "로이터는 연합이 리야드 방면의 미사일과 동부의 드론을 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-15T02:58:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi-led coalition intercepts two missiles, two drones in Riyadh",
-     "titleKo": "연합군, 리야드서 미사일·드론 2대 요격 보도",
-     "summary": "알자지라가 연합군이 리야드에서 미사일과 드론 2대를 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-15T03:06:08.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi-led coalition intercepts two missiles, two drones in Riyadh - Al Jazeera",
-     "titleKo": "알자지라: 연합군, 리야드서 미사일·드론 2대 요격",
-     "summary": "알자지라가 연합군이 리야드에서 미사일과 드론 2대를 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-15T03:21:47.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa2xoUjgtbkJyWVpPR0lTTkRvV0lIT1RocnY2QW8wNHFZOFBTSjczd3RsQ25DVzRKLUZhTU12YkxYdlBnQjBiY3pyS2R1STljY2N3ZEFJbVhMRmNmWUJJRXZxZnBKSTl4U2xGeFg2QkpTcDZOaXFCcGswa3ZTbVM3aDd4cTIxVndUTTEtN3NIb0hMcGoyZ1NKYVlLQVAxR19HSGZraW44emtOVENqX2hMUXBidkhsVlBYTk01Vi1aUmpha0k?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition forces intercept 2 Houthi missiles, 6 drones targeting Saudi Arabia",
-     "titleKo": "연합군, 리야드 향한 미사일 2기·동부 향한 3대 드론 요격",
-     "summary": "연합군이 리야드를 향한 미사일 2기와 동부지방을 향한 3대의 드론을 요격했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T03:34:17.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/coalition-forces-intercept-2-houthi-missiles-6-drones-targeting-saudi-arabia-3011963"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition forces intercept 2 Houthi missiles targeting Riyadh, 3 drones in Eastern Province",
-     "titleKo": "연합군, 리야드 겨냥 미사일 2기·동부 드론 3기 요격",
-     "summary": "연합군이 리야드를 겨냥한 미사일 2기와 동부지방의 드론 3기를 요격했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T03:34:58.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRk4wb1hxcTQ5WURyQV95RXBoUDZ3SGkwOTBfeFNIMXA0Zms2NzIxQkk1ckRPSkZEVFpIem5pWTF4U05Lb1hDcm1yQTE4S2d2NGdac1BzRmJxUHNqblBWbFBvYUx6Q3ZBQW5ISUxaRUJxOWxJQU1CbTE0bXBuWEdISmZoc0tOMXVnZnNyUzRXaHVJZ3pFTkU1WUp2RmJjbHVjWlF2TGl6U3NRNGprX1ZDVXR3UXpmSnNsT2JQRDBHMlVobDdwN0lBZTNXbjZfWFFLZ1E?oc=5"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Arab Coalition Intercepts Missiles Towards Riyadh, Drones in Eastern Province",
-     "titleKo": "아랍 연합, 리야드 향한 미사일·동부의 드론 요격",
-     "summary": "아랍 연합군이 리야드를 향한 미사일과 동부지방의 드론을 요격했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T05:16:41.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5341308"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Saudi air defenses intercept 2 ballistic missiles, drone targeting Riyadh and Eastern regions",
-     "titleKo": "사우디 방공, 리야드·동부 향한 탄도미사일 2기·드론 1기 요격",
-     "summary": "사우디 방공이 리야드와 동부를 향한 탄도미사일 2기와 드론 1대를 요격했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T06:31:58.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666253/saudi-arabia/saudi-air-defenses-intercept-2-houthi-ballistic-missiles-drone-targeting-riyadh-and-eastern-regions"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi Arabia’s economic fundamentals defy regional uncertainty",
-     "titleKo": "사우디 경제 기초가 지역 불확실성에도 견조하다고 평가",
-     "summary": "사우디의 경제 기초가 지역 불확실성에도 견조하다고 평가했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T12:32:00.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/opinion/saudi-arabias-economic-fundamentals-defy-regional-uncertainty-3012045"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts 2 Houthi UAVs fired at Makkah region",
-     "titleKo": "연합군이 메카 지역 향한 후티 UAV 2대 요격",
-     "summary": "연합군이 메카 지역을 향한 후티 UAV 2대를 요격했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T14:54:05.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnl0cHo0eE9iZ0VsOEt5NC1rS182N2FiQ0piTDlVVmo0YzNXY1ZvdjBReHlaY2xCQlF3dFZsR3duX3BqUHpqb0VqUExickp4Ul9ndUd0RHc5S3luckxXSHBGazFDSDcwMFFRTEphQ2ZKS1B0NEo1ZlJMQm11NTlIeFc3djVCX2JrWE1oSG9IM2xzenZrN3dwTndn?oc=5"
     },
     {
      "outlet": "Al Jazeera",
@@ -461,6 +485,16 @@
      "reportedAt": "2026-11-15T18:50:27.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Saudi Arabia: Iran’s Attack on Bahrain is a Violation of Int’l Law",
+     "titleKo": "사우디아라비아: 이란의 바레인 공격은 국제법 위반이라고 주장",
+     "summary": "사우디아라비아는 이란의 바레인에 대한 공격이 국제법 위반이라고 밝혔다고 보도됐어요.",
+     "reportedAt": "2026-11-15T19:30:15.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5341645"
     }
    ]
   },
@@ -498,271 +532,15 @@
    ]
   },
   {
-   "id": "3e6712e3d8e7",
+   "id": "460d76dbf28a",
    "articleIds": [
-    "bd1d5f57db35"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "\"저건 초등부도 욕먹는 짓\" 이천수, 한국 대표팀 수비에 분노 폭발...사우디전 3실점 참사에 \"클린스만 축구 같다\" 직격탄 - 머니투데이",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T15:20:30.736Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "\"저건 초등부도 욕먹는 짓\" 이천수, 한국 대표팀 수비에 분노 폭발...사우디전 3실점 참사에 \"클린스만 축구 같다\" 직격탄 - 머니투데이",
-     "titleKo": null,
-     "summary": "한국 대표팀의 수비 실수로 사우디전에서 3실점한 경기 내용과 이천수의 비판이 보도됐어요.",
-     "reportedAt": "2026-11-15T14:59:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXVVRXNHBybWhfSjU2YWNpTUVScUpqcDNvdVEzNVVGXzZLeFBYOXJnZng2M2VqUHFVZTVoby1GdlpsbFpwQ3A5Tk1kSHBhR2JOTmlNLUVpSk5pOFl1Q2ZyMkhBcEtqdUx1WWdUbGJKONIBb0FVX3lxTFBXVVRXNHBybWhfSjU2YWNpTUVScUpqcDNvdVEzNVVGXzZLeFBYOXJnZng2M2VqUHFVZTVoby1GdlpsbFpwQ3A5Tk1kSHBhR2JOTmlNLUVpSk5pOFl1Q2ZyMkhBcEtqdUx1WWdUbGJKOA?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "9073f9e2c980",
-   "articleIds": [
-    "9b6a70de2aad"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 메카 지역 향한 후티 UAV 2대 요격",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T16:40:30.443Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts Houthi UAVs fired at Makkah and Madinah regions",
-     "titleKo": "연합군, 메카 지역 향한 후티 UAV 2대 요격",
-     "summary": "연합군 대변인이 메카 지역으로 향한 후티 무인기 2대를 요격해 파괴했다고 밝혔어요.",
-     "reportedAt": "2026-11-15T14:54:05.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
-    }
-   ]
-  },
-  {
-   "id": "d630326a695f",
-   "articleIds": [
-    "13369bf3a151"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 마카·마디나 지역서 후티 드론 3대 요격",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T19:50:31.314Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts 3 Houthi drones in Makkah and Madinah regions",
-     "titleKo": "연합군, 마카·마디나 지역서 후티 드론 3대 요격",
-     "summary": "",
-     "reportedAt": "2026-11-15T14:54:05.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
-    }
-   ]
-  },
-  {
-   "id": "2004bf490395",
-   "articleIds": [
-    "ef128570c686"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "상업부, 배터리 과열 위험으로 Bose 스피커 2,214대 리콜",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": true,
-   "inferNote": "제품 리콜 발표는 리야드 발 기사로 보도됐어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T14:30:39.105Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Commerce ministry recalls 2,214 Bose speakers over battery overheating and fire risk",
-     "titleKo": "상업부, 배터리 과열 위험으로 Bose 스피커 2,214대 리콜",
-     "summary": "상업부가 배터리 과열과 화재 위험으로 Bose 스피커 2,214대를 리콜한다고 발표했어요.",
-     "reportedAt": "2026-11-15T14:01:29.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666266/saudi-arabia/commerce-ministry-recalls-2214-bose-speakers-over-battery-overheating-and-fire-risk"
-    }
-   ]
-  },
-  {
-   "id": "88e1cdba706b",
-   "articleIds": [
-    "19059ceefb27"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 사우디 겨냥 후티 미사일 2기·드론 5기 요격",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T13:50:30.237Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition forces intercept 2 Houthi missiles, 5 drones targeting Saudi Arabia",
-     "titleKo": "연합군, 사우디 겨냥 후티 미사일 2기·드론 5기 요격",
-     "summary": "연합군이 사우디를 겨냥한 후티의 미사일 2기와 드론 5기를 요격했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T13:42:11.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0o5cWFFWWFpMTNWYWduSWxKV3pBaFZaMWhSeWRzOUtYUUt6VmNLOHRPRm43b09wcXYtTkE5ZXA4R0dKbzFYNmlMTmN4SGhMMTE3QjVGOUFSTnNhX2RHMDQ2TC1mY2dYNTIyME1xTEhEQVY5VG1pblYzbDlldXJsRFg2eVBYZDRMOGM2RTNGOHdhSUh3S1NNUW1aTW9uVFBMRnVHYkxMcmkxbE0wT19YLTFNa2FENGVGV0F0WEhVOA?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "982537835c6b",
-   "articleIds": [
-    "e9b8dcec9c62"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 몇 시간 동안 후티 드론 3대 격추",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T05:00:43.207Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Saudi-led coalition strikes down 3 drones",
-     "titleKo": "연합군, 몇 시간 동안 후티 드론 3대 격추",
-     "summary": "연합군이 몇 시간 동안 후티 드론 3대를 격추했다고 보도됐고 이란은 바레인 내 미군 기지를 공격했다고 주장했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T00:00:08.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
-    }
-   ]
-  },
-  {
-   "id": "9ce93fb54095",
-   "articleIds": [
-    "9dce119f0a80"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 몇 시간 동안 후티 드론 3대 격추",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T03:20:33.189Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Saudi-led coalition strikes down 3 drones in as many hours",
-     "titleKo": "연합군, 몇 시간 동안 후티 드론 3대 격추",
-     "summary": "연합군이 몇 시간 동안 후티 드론 3대를 격추했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T00:00:08.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
-    }
-   ]
-  },
-  {
-   "id": "92e1003401d4",
-   "articleIds": [
-    "6e0aec18ae41"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "\"언제까지 손흥민 감쌀 거냐, 차라리 이동경·엄지성 써라\" 팬들 인내심 폭발...사우디전 결정력 실종에 선발 제외론까지 - 머니투데이",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-13T22:00:57.355Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "\"언제까지 손흥민 감쌀 거냐, 차라리 이동경·엄지성 써라\" 팬들 인내심 폭발...사우디전 결정력 실종에 선발 제외론까지 - 머니투데이",
-     "titleKo": null,
-     "summary": "머니투데이는 한국 팬들이 손흥민 대신 다른 선수 기용을 주장했다고 전했어요.",
-     "reportedAt": "2026-11-14T21:10:51.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ONndHWFZiUGU1MEdXUmxaY1lNMHFoOUxURjUxV3FYaTd2QUhVX0YxazVQelRWbkY4T3EwQm5IN3FobVFiNFd2MXdmdnlyTEZaVEItdDEwaml3U1NydjZ2cVkwaUl2Z0FPbkHSAW9BVV95cUxNeEJSY05lUTVYemFBaHhUSnFWbkFzVkFUYjhvUTNYT01vUmUySUt2QWdSQ0Zja0QwS3JsTjB1SmJ5MTRTcmZfRmFiQVVJMGVaU2hzR3QyaU81Ym9HeHh1SUtJbWlmV2dHYTFhUVh5V28?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "51c480397da5",
-   "articleIds": [
-    "c4ddb27ed672"
+    "cd709fac8212"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "사우디 등 17개국, 가자 나세르 병원 공습 규탄",
+   "title": "사우디 경제 기초가 지역 불확실성에도 견조하다고 평가",
    "titleAuto": true,
    "regions": [
     "all"
@@ -770,181 +548,128 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-14T17:10:32.693Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Saudi Arabia and 17 Arab, Islamic Countries Condemn Israeli Strike on Nasser Medical Complex in Gaza",
-     "titleKo": "사우디 등 17개국, 가자 나세르 병원 공습 규탄",
-     "summary": "사우디 등 17개국이 가자 나세르 병원 공습을 규탄했다고 보도됐어요.",
-     "reportedAt": "2026-11-14T17:04:30.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5341218"
-    }
-   ]
-  },
-  {
-   "id": "16c1734fa0f1",
-   "articleIds": [
-    "68e6faf7012e"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티, 리야드 금융지구 공격해 아람코 고층건물 손상됐다고 주장",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-14T16:20:35.648Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Yemen's Houthis claim attack on Riyadh financial district, Aramco skyscraper damaged",
-     "titleKo": "후티, 리야드 금융지구 공격해 아람코 고층건물 손상됐다고 주장",
-     "summary": "후티가 리야드 금융지구를 공격했고 아람코 고층건물이 손상됐다고 주장했다고 보도됐어요.",
-     "reportedAt": "2026-11-14T14:17:06.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SV3pfVl9ST2NSQ2did2NhbTJzNk1xbkNPT1c0QjlBRldxeURQeFdnSEVqLXlfenFWMUpwdExLYkxLVkF3OGtfWDM0bw?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "bbd556466351",
-   "articleIds": [
-    "da15086368a2"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 리야드·남부 향한 후티 드론 파괴",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-14T13:20:31.616Z",
+   "collectedAt": "2026-11-15T12:40:34.697Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "Arab News",
      "cat": "local",
-     "title": "Coalition says it destroyed Houthi drones launched towards Riyadh, southern region",
-     "titleKo": "연합군, 리야드·남부 향한 후티 드론 파괴",
-     "summary": "연합군이 리야드와 남부 지역을 향한 후티 드론을 파괴했다고 밝혔어요.",
-     "reportedAt": "2026-11-14T13:20:09.000Z",
+     "title": "Saudi Arabia’s economic fundamentals defy regional uncertainty",
+     "titleKo": "사우디 경제 기초가 지역 불확실성에도 견조하다고 평가",
+     "summary": "사우디의 경제 기초가 지역 불확실성에도 견조하다고 평가했다고 보도됐어요.",
+     "reportedAt": "2026-11-15T12:32:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUFBoRUhNX29yVF8wbHNiRUthQTU4eXd1ODlRVERRV2daTUVWUzdPcVJmaHNTR2QtSUVmZ0Nwdmo5V3ZVV2NKUHl2enlNWUN5TDEzR21idTFOUWNlc2MwSXIwbTR5Q3MwRDNWanFVOGVXZWpxN2lhZjBHc1NxR21jUllGNzJOZnFWQTZTbTV3QnVxV2hSeldaRGdHYTh5RzNtOEVqUnJVRnRtVEdiU3hVRGJhdHNOOFpYLTlILUJTUUY5WjZYZ3c?oc=5"
+     "url": "https://www.arabnews.com/opinion/saudi-arabias-economic-fundamentals-defy-regional-uncertainty-3012045"
     }
    ]
   },
   {
-   "id": "9cb4e91937df",
+   "id": "60edca73441e",
    "articleIds": [
-    "3f4f854602cb"
+    "ac534b62920c",
+    "1e6a09746b28",
+    "a28dc2271771",
+    "3022559bf535",
+    "b30ebcb142b4",
+    "c12cfc6ae6f5",
+    "3abf8c113056",
+    "9f2785e8c893"
    ],
-   "type": "korean",
-   "sev": "mid",
-   "status": "single",
+   "type": "missile",
+   "sev": "high",
+   "status": "official",
    "directive": null,
-   "title": "한국 축구 관련 경기 소식 (사우디전 보도)",
+   "title": "후티, 리야드·동부 지역에 탄도미사일·드론 발사했다고 주장",
    "titleAuto": true,
    "regions": [
-    "riyadh"
+    "riyadh",
+    "eastern"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-14T13:30:39.843Z",
+   "collectedAt": "2026-11-15T02:20:31.629Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Saudi Gazette",
+     "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
-     "title": "Arab, Islamic FMs slam Israeli strike on Gaza’s Nasser Medical Complex, demand unhindered aid delivery",
-     "titleKo": "아랍·이슬람 외교장관들, 가자 의료시설 공습 규탄",
-     "summary": "여러 외교장관들이 가자 지구 병원 피해를 규탄했다고 보도했어요.",
-     "reportedAt": "2026-11-14T13:09:36.000Z",
+     "title": "Coalition: Air Defenses Intercept, Destroy Two Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
+     "titleKo": "연합: 후티가 리야드를 향해 쏜 탄도미사일 2발 요격·파괴",
+     "summary": "연합은 후티가 리야드를 향해 발사한 탄도미사일 2발을 요격·파괴했다고 발표했어요.",
+     "reportedAt": "2026-11-15T01:46:20.000Z",
      "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666240/saudi-arabia/arab-islamic-fms-slam-israeli-strike-on-gazas-nasser-medical-complex-demand-unhindered-aid-delivery"
-    }
-   ]
-  },
-  {
-   "id": "870a5e7ee4c9",
-   "articleIds": [
-    "fca9d4904874",
-    "9c32f2101f06",
-    "f173e2319594",
-    "0b8cde12039e"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "claim",
-   "directive": null,
-   "title": "후티 “사우디 동서 송유관·얀부 석유시설 공격해”",
-   "titleAuto": false,
-   "regions": [
-    "eastern",
-    "dammam",
-    "jafurah"
-   ],
-   "inferred": true,
-   "inferNote": "기사 제목이나 요약에 '동서 송유관'과 '동부' 언급이 있어 담맘·자푸라 인근으로 추정했어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-11-12T23:20:34.244Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "경향신문",
-     "cat": "kr",
-     "title": "후티 “사우디 동서 송유관·얀부 석유시설 공격해”",
-     "titleKo": null,
-     "summary": "후티가 사우디 동서 송유관과 얀부의 석유시설을 공격했다고 주장했다고 보도됐어요.",
-     "reportedAt": "2026-11-12T22:50:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmdERwVXNLVTVvWEx1Q2tVRFZ2dXdGTVROa3BsVnh2aEx6MThOU0stSHk2VXltb1ZFQ2w1bzl1XzFLX2dSd0xYeEViTjQzWDFDRGlyMDUwdWpwaUw3bHA00gFfQVVfeXFMUGZ0RHBVc0tVNW9YTHVDa1VEVnZ1d0ZNVE5rcGxWeHZoTHoxOE5TSy1IeTZVeW1vVkVDbDVvOXVfMUtfZ1J3TFh4RWJONDNYMUNEaXIwNTB1anBpTDdscDQ?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-     "titleKo": "알자지라: 후티, 사우디에 대한 공격 재개",
-     "summary": "후티가 공격을 재개했다고 알자지라가 보도했고 유엔 제재 연장이 언급됐어요.",
-     "reportedAt": "2026-11-13T00:46:35.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczh4SThZNndlcnhvbjZxLWgzZ0x1Ym5zRUt0WHQ1V1k3dW54dDFGNFFGa015aE9NLVNBanFwNVB6S1JPLWp0ZEswUGpDc1pwRWtTbzJZOFdWQTlXVzA0QlhIZ0xTM1VNTUZzS3RGck80TU1tRmVxclhFLTlJbVBtWmdjVnNkUDB6RGJudDhabHktT1lkYzdlNzdBTUFDY0FjN3FXSTFuWGVxeWxvNkFlTUl30gG3AUFVX3lxTE1TT3FLV3RuLVdWMUR6TXc3UFhRODUxeVdpWDdoeUxnMUtpYTk1bVJJMy1jYnp4S0liVXJlTlB2WXM3M2ZwMktmTi1pbzBPbURfcl9LNDRaM0ZJZ21fOThTQzRtX3kzTUk3cWQ1TzlJb2I2OWFuWDk5ekVsd3JHck04SGpvUUhZU2lJaHhMRGhPNWR1eHJ1VFltYUU1ZzJjLTBLMmM3UVM5ZTFRbHZDSVRUZnlKdlFwbw?oc=5"
-    },
-    {
-     "outlet": "조선일보",
-     "cat": "kr",
-     "title": "'충격, 추가시간 선제 실점' 너무 답답한 공격! 한국, 사우디아라비아와 전반전 0-1..'모레노 감독, 전술 변화 필요하다'",
-     "titleKo": null,
-     "summary": "조선일보는 전반전 한국의 공격이 답답했다고 보도했어요.",
-     "reportedAt": "2026-11-13T16:41:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSC01eVFTdGRmSV85YVQxYW0zb2tQM1FZUHZKX0VmQi1VOWFvdF9tMi1jRmFYT3FhSkhTU1FFMmQxWi1aU3pDQWowM2FqMjlVc3c1d2djSUVYM05LSnJhVU83NG9OWkRGc3c4aHdtcFo1MHBlNTBtTXdZVWltaU9ua0ZJOA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9fTXZjRHlJbV8wcl9PVjlfRmJ3WWw3ZG9uUkIydkFGZHdCTUR0cXZhZ2h1UlFjWWVHSXdJbWI0bjRfeFBIdTY2dWx3?oc=5"
     },
     {
      "outlet": "Reuters",
      "cat": "wire",
-     "title": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan",
-     "titleKo": "로이터: 후티가 자잔의 사우디군에 미사일을 발사했다고 주장",
-     "summary": "로이터는 후티가 자잔 지역의 사우디군을 향해 미사일을 발사했다고 전했어요.",
-     "reportedAt": "2026-11-13T20:54:19.000Z",
+     "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
+     "titleKo": "연합군, 리야드를 향한 미사일 2발과 동부 지역 드론 요격",
+     "summary": "사우디 주도 연합이 리야드를 향한 미사일 2발과 동부를 향한 드론을 요격해 격추했다고 보도했어요.",
+     "reportedAt": "2026-11-15T02:58:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi-led coalition intercepts two missiles, two drones in Riyadh",
+     "titleKo": "알자지라: 연합, 리야드 향한 미사일 2발·드론 2대 요격",
+     "summary": "연합이 리야드를 향한 미사일 2발과 드론 2대를 요격했다고 알자지라가 보도했어요.",
+     "reportedAt": "2026-11-15T03:06:08.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi-led coalition intercepts two missiles, two drones in Riyadh - Al Jazeera",
+     "titleKo": "알자지라: 연합, 리야드 향한 미사일 2발·드론 2대 요격",
+     "summary": "알자지라는 연합이 리야드를 향한 미사일 2발과 드론 2대를 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-15T03:21:47.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa2xoUjgtbkJyWVpPR0lTTkRvV0lIT1RocnY2QW8wNHFZOFBTSjczd3RsQ25DVzRKLUZhTU12YkxYdlBnQjBiY3pyS2R1STljY2N3ZEFJbVhMRmNmWUJJRXZxZnBKSTl4U2xGeFg2QkpTcDZOaXFCcGswa3ZTbVM3aDd4cTIxVndUTTEtN3NIb0hMcGoyZ1NKYVlLQVAxR19HSGZraW44emtOVENqX2hMUXBidkhsVlBYTk01Vi1aUmpha0k?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition forces intercept 2 Houthi missiles, 6 drones targeting Saudi Arabia",
+     "titleKo": "연합군, 리야드 향한 탄도미사일 2발·동부 드론 여러 대 요격",
+     "summary": "연합군이 리야드를 향한 탄도미사일 2발과 동부 지역을 향한 드론 여러 대를 요격했다고 보도했고 민방위 경보가 울렸다고 전했어요.",
+     "reportedAt": "2026-11-15T03:34:17.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-forces-intercept-2-houthi-missiles-6-drones-targeting-saudi-arabia-3011963"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition forces intercept 2 Houthi missiles targeting Riyadh, 3 drones in Eastern Province",
+     "titleKo": "연합군, 리야드 향한 미사일 2발·동부 향한 드론 3대 요격",
+     "summary": "연합군이 리야드를 겨냥한 미사일 2발과 동부 주를 겨냥한 드론 3대를 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-15T03:34:58.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRk4wb1hxcTQ5WURyQV95RXBoUDZ3SGkwOTBfeFNIMXA0Zms2NzIxQkk1ckRPSkZEVFpIem5pWTF4U05Lb1hDcm1yQTE4S2d2NGdac1BzRmJxUHNqblBWbFBvYUx6Q3ZBQW5ISUxaRUJxOWxJQU1CbTE0bXBuWEdISmZoc0tOMXVnZnNyUzRXaHVJZ3pFTkU1WUp2RmJjbHVjWlF2TGl6U3NRNGprX1ZDVXR3UXpmSnNsT2JQRDBHMlVobDdwN0lBZTNXbjZfWFFLZ1E?oc=5"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Arab Coalition Intercepts Missiles Towards Riyadh, Drones in Eastern Province",
+     "titleKo": "아랍 연합, 리야드 향한 미사일 요격·동부서 드론 요격",
+     "summary": "아랍 연합이 리야드를 향한 미사일을 요격하고 동부 지역에서 드론을 요격했다고 전했어요.",
+     "reportedAt": "2026-11-15T05:16:41.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5341308"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Saudi air defenses intercept 2 ballistic missiles, drone targeting Riyadh and Eastern regions",
+     "titleKo": "사우디 방공, 리야드·동부 겨냥 미사일 2발·드론 1대 요격",
+     "summary": "사우디 방공이 리야드와 동부 지역을 겨냥한 탄도미사일 2발과 드론 1대를 요격했다고 전했어요.",
+     "reportedAt": "2026-11-15T06:31:58.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666253/saudi-arabia/saudi-air-defenses-intercept-2-houthi-ballistic-missiles-drone-targeting-riyadh-and-eastern-regions"
     }
    ]
   },
@@ -998,7 +723,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-13T17:10:35.134Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "조선일보",
@@ -1009,102 +734,6 @@
      "reportedAt": "2026-11-13T16:56:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcm5lWjVNVmpaNEpFV3M4REFsVzB0UHVNVmtsNjlEb2ZpeDM1NXFPMmgzWFRsRzk2cFV3dFcxVGR1dTNIZ2JNOFlNS0JBaVF5dmZMSVFtWTl0NEpJdFRqZ2hqYm9sc2lMTXA2R2RQTTRSU1N2MGdBdUVIYjBiWERteFMxRQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "f09f8f9e175d",
-   "articleIds": [
-    "f6a159f03282"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "알 고어, 기후회의서 사우디 거부권 비판",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-13T09:30:42.634Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Gore blasts 'insane' Saudi veto power at climate talks",
-     "titleKo": "알 고어, 기후회의서 사우디 거부권 비판",
-     "summary": "알 고어가 기후회의에서 사우디의 거부권을 비판했다고 보도됐어요.",
-     "reportedAt": "2026-11-13T10:05:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5uNE1fczU3ZDVnNVZKeUwwbl9QdDJZVTk1cUNuQWRfODVmMGQxU1hDbEoxX0Fqam5Fcjd4M3VVN0xKaFNjR3JSaDZ3clB2MEJEWGJmOVVZVmt2enFZczRiMm1OTmxMQXVRRGhTRXN3NUxsdlY3Q2hRUVBhQmU?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "66403f49c118",
-   "articleIds": [
-    "5903a381f821"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "알자지라 생중계: 후티가 아람코 등 에너지시설 겨냥했다고 보도",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-13T00:20:30.685Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Riyadh, China discuss Houthis as group claims Aramco attacks",
-     "titleKo": "알자지라 생중계: 후티가 아람코 등 에너지시설 겨냥했다고 보도",
-     "summary": "알자지라가 후티가 아람코 등 에너지시설을 겨냥했다고 보도했다고 알렸어요.",
-     "reportedAt": "2026-11-13T00:00:26.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss"
-    }
-   ]
-  },
-  {
-   "id": "70293c667a3e",
-   "articleIds": [
-    "90eb6762acd6"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 외교장관·중국 특사, 후티 공격 논의",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-12T22:40:30.838Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi foreign minister and Chinese envoy discuss Houthi attacks and regional security",
-     "titleKo": "사우디 외교장관·중국 특사, 후티 공격 논의",
-     "summary": "사우디 외교장관과 중국 특사가 후티 공격과 지역 안보를 논의했다고 보도됐어요.",
-     "reportedAt": "2026-11-12T22:32:33.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWURncV92WE85d1gwVml1NlVWSkxfajZ6WUh4dnJpUXdMTjZFQnZaVThuOUY5ei1yN0hJbERpanhTeGM3Y0syYkdkeEpZNXBhYUlVcFp2ZFU3WlA0TU1QbW1NbVhtckZBZERtVFVSdXNFZjlocnRYZV9PUDEtVHRUaDc2R09JOERWb1RuUVpkNksyZXFOcjJwc00tSHExRGdRYmlKVjBlcVlfU2ExOUZFSUVPUVdlUktYOTk1RWNGVGhjRnlYMl9YRUhZOA?oc=5"
     }
    ]
   }
@@ -1195,9 +824,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "아랍 연합, 리야드 향한 미사일·동부의 드론 요격",
+   "titleKo": "아랍 연합, 리야드 향한 미사일 요격·동부서 드론 요격",
    "title": "Arab Coalition Intercepts Missiles Towards Riyadh, Drones in Eastern Province",
-   "summary": "아랍 연합군이 리야드를 향한 미사일과 동부지방의 드론을 요격했다고 보도됐어요.",
+   "summary": "아랍 연합이 리야드를 향한 미사일을 요격하고 동부 지역에서 드론을 요격했다고 전했어요.",
    "reportedAt": "2026-11-15T05:16:41.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5341308"
@@ -1213,9 +842,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "알자지라: 연합군, 리야드서 미사일·드론 2대 요격",
+   "titleKo": "알자지라: 연합, 리야드 향한 미사일 2발·드론 2대 요격",
    "title": "Saudi-led coalition intercepts two missiles, two drones in Riyadh - Al Jazeera",
-   "summary": "알자지라가 연합군이 리야드에서 미사일과 드론 2대를 요격했다고 보도했어요.",
+   "summary": "알자지라는 연합이 리야드를 향한 미사일 2발과 드론 2대를 요격했다고 보도했어요.",
    "reportedAt": "2026-11-15T03:21:47.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa2xoUjgtbkJyWVpPR0lTTkRvV0lIT1RocnY2QW8wNHFZOFBTSjczd3RsQ25DVzRKLUZhTU12YkxYdlBnQjBiY3pyS2R1STljY2N3ZEFJbVhMRmNmWUJJRXZxZnBKSTl4U2xGeFg2QkpTcDZOaXFCcGswa3ZTbVM3aDd4cTIxVndUTTEtN3NIb0hMcGoyZ1NKYVlLQVAxR19HSGZraW44emtOVENqX2hMUXBidkhsVlBYTk01Vi1aUmpha0k?oc=5"
@@ -1231,9 +860,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군, 리야드서 미사일·드론 2대 요격 보도",
+   "titleKo": "알자지라: 연합, 리야드 향한 미사일 2발·드론 2대 요격",
    "title": "Saudi-led coalition intercepts two missiles, two drones in Riyadh",
-   "summary": "알자지라가 연합군이 리야드에서 미사일과 드론 2대를 요격했다고 보도했어요.",
+   "summary": "연합이 리야드를 향한 미사일 2발과 드론 2대를 요격했다고 알자지라가 보도했어요.",
    "reportedAt": "2026-11-15T03:06:08.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
@@ -1250,9 +879,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "로이터: 연합, 리야드 향 미사일·동부 드론 요격",
+   "titleKo": "연합군, 리야드를 향한 미사일 2발과 동부 지역 드론 요격",
    "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
-   "summary": "로이터는 연합이 리야드 방면의 미사일과 동부의 드론을 요격했다고 보도했어요.",
+   "summary": "사우디 주도 연합이 리야드를 향한 미사일 2발과 동부를 향한 드론을 요격해 격추했다고 보도했어요.",
    "reportedAt": "2026-11-15T02:58:00.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5"
@@ -1268,9 +897,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "국영통신: 연합, 리야드 향 탄도미사일 2기 요격·파괴",
+   "titleKo": "연합: 후티가 리야드를 향해 쏜 탄도미사일 2발 요격·파괴",
    "title": "Coalition: Air Defenses Intercept, Destroy Two Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
-   "summary": "사우디 국영통신은 연합이 리야드를 향한 탄도미사일 2기를 요격·파괴했다고 보도했어요.",
+   "summary": "연합은 후티가 리야드를 향해 발사한 탄도미사일 2발을 요격·파괴했다고 발표했어요.",
    "reportedAt": "2026-11-15T01:46:20.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9fTXZjRHlJbV8wcl9PVjlfRmJ3WWw3ZG9uUkIydkFGZHdCTUR0cXZhZ2h1UlFjWWVHSXdJbWI0bjRfeFBIdTY2dWx3?oc=5"
@@ -1322,9 +951,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "사우디 등 17개국, 가자 나세르 병원 공습 규탄",
+   "titleKo": "아랍국들, 이스라엘의 가자 의료시설 공습 규탄",
    "title": "Saudi Arabia and 17 Arab, Islamic Countries Condemn Israeli Strike on Nasser Medical Complex in Gaza",
-   "summary": "사우디 등 17개국이 가자 나세르 병원 공습을 규탄했다고 보도됐어요.",
+   "summary": "아랍국들이 이스라엘의 가자 의료시설 공습을 규탄했다고 보도했어요.",
    "reportedAt": "2026-11-14T17:04:30.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5341218"
@@ -1340,9 +969,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군, 리야드·남부 향한 후티 드론 2대 파괴",
+   "titleKo": "연합, 리야드 향한 드론 2대 파괴",
    "title": "Coalition Destroys 2 Houthi Drones Fired at Riyadh, Southern Regions",
-   "summary": "연합군이 리야드와 남부 지역을 향한 후티 드론 2대를 파괴했다고 보도됐어요.",
+   "summary": "연합이 리야드를 향한 드론 2대를 파괴했다고 보도했어요.",
    "reportedAt": "2026-11-14T16:33:42.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5341208"
@@ -1358,9 +987,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군: 리야드·남부서 후티 UAV 2대 요격·파괴",
+   "titleKo": "연합, 리야드·남부 지역 무인기 2대 요격·격추",
    "title": "Coalition: Two UAVs Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh and Southern Regions",
-   "summary": "연합군이 리야드와 남부 지역에서 후티가 발사한 UAV 2대를 요격해 파괴했다고 밝혔어요.",
+   "summary": "연합이 리야드와 남부 지역으로 발사된 2대의 무인기를 요격·격추했다고 발표했어요.",
    "reportedAt": "2026-11-14T13:39:13.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9kb2dNNkRkTG5HYnZTcG5hY0xUYk81UjZhd09DNi01TllnalN5czZYMXRpSmJMbmVJRDQtWlRNZW9FV0xJMWc1TFRR?oc=5"
@@ -1376,9 +1005,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "사우디 등 외교장관, 가자 의료시설 공격 규탄",
+   "titleKo": "사우디 등 외교장관들, 가자 의료시설 공습 규탄·인도주의 촉구",
    "title": "Foreign Ministers of Saudi Arabia, Arab and Islamic Countries Condemn Israeli Strike on Nasser Medical Complex, Urge Unimpeded Humanitarian Aid to Gaza",
-   "summary": "사우디 등 외교장관들이 가자 의료시설 공격을 규탄했다고 보도됐어요.",
+   "summary": "사우디 등 외교장관들이 가자 의료시설 공격을 규탄하고 인도적 지원을 촉구했다고 보도했어요.",
    "reportedAt": "2026-11-14T13:08:25.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE56MkVSMEtjQXMzWFpVZVlYWHQwb0VkUHBtMmZTV2pkcTBPTHAzcDZ5Qng3UEZtWkRIUnllc1NLbDd5SGEwWXFuQ1lB?oc=5"
@@ -1394,9 +1023,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "북마케도니아 대무프티, 후티 공격 규탄",
+   "titleKo": "북마케도니아 대무프티, 후티의 사우디 공격 규탄",
    "title": "Grand Mufti of North Macedonia Condemns Houthi Terrorist Attacks on Saudi Arabia",
-   "summary": "북마케도니아의 대무프티가 후티 공격을 규탄했다고 전합니다.",
+   "summary": "북마케도니아 대무프티가 후티의 사우디 공격을 규탄했다고 보도했어요.",
    "reportedAt": "2026-11-13T22:51:22.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE53UmRDTF9mUmRaY3ZxQWthN3E5ZDF2dFpUN1A1ZmRZbjMydkpBLTlxUF9kYWZfVG1zUUFxT3Z3NWhCRjVXamlHbGJB?oc=5"
@@ -1412,9 +1041,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "로이터: 후티가 자잔의 사우디군에 미사일을 발사했다고 주장",
+   "titleKo": "후티, 지나즈서 사우디군 겨냥 미사일 발사했다고 주장",
    "title": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan",
-   "summary": "로이터는 후티가 자잔 지역의 사우디군을 향해 미사일을 발사했다고 전했어요.",
+   "summary": "후티가 지나즈에서 사우디군을 겨냥한 미사일을 발사했다고 후티가 주장했다고 로이터가 보도했어요.",
    "reportedAt": "2026-11-13T20:54:19.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5"
@@ -1430,9 +1059,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "사우디 보도: 러시아 대무프티 규탄",
+   "titleKo": "러시아 대무프티, 후티 공격 규탄",
    "title": "Russian Grand Mufti Condemns Houthi Terrorist Attacks Against Saudi Arabia",
-   "summary": "러시아 대무프티가 후티의 사우디 공격을 규탄했다고 보도합니다.",
+   "summary": "러시아 대무프티가 후티 공격을 규탄했다고 보도했어요.",
    "reportedAt": "2026-11-13T18:53:38.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9SYkRaMzE1QnlSb3Vaei0wZ3lmNlB3R1hzNTlkbU5VV3FYRDRkN0JKYU5xLUk5emF3cm5pcUNUU2xKaEI0aEdLZVJB?oc=5"
@@ -1448,9 +1077,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "연합군, 동부 사우디에서 드론 1대 파괴",
+   "titleKo": "연합, 동부 사우디에서 드론 1대 파괴",
    "title": "Coalition Announces Destruction of Drone in Eastern Saudi Arabia",
-   "summary": "연합군이 동부 사우디에서 드론 1대를 파괴했다고 보도됐어요.",
+   "summary": "연합이 동부 사우디에서 드론 1대를 파괴했다고 보도했어요.",
    "reportedAt": "2026-11-13T16:38:21.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5340884"
@@ -1466,9 +1095,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "알자지라: 후티, 사우디에 대한 공격 재개",
+   "titleKo": "후티, 사우디에 대한 공격 재개 보도",
    "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-   "summary": "후티가 공격을 재개했다고 알자지라가 보도했고 유엔 제재 연장이 언급됐어요.",
+   "summary": "후티가 사우디에 대한 공격을 재개했다고 보도했어요.",
    "reportedAt": "2026-11-13T00:46:35.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczh4SThZNndlcnhvbjZxLWgzZ0x1Ym5zRUt0WHQ1V1k3dW54dDFGNFFGa015aE9NLVNBanFwNVB6S1JPLWp0ZEswUGpDc1pwRWtTbzJZOFdWQTlXVzA0QlhIZ0xTM1VNTUZzS3RGck80TU1tRmVxclhFLTlJbVBtWmdjVnNkUDB6RGJudDhabHktT1lkYzdlNzdBTUFDY0FjN3FXSTFuWGVxeWxvNkFlTUl30gG3AUFVX3lxTE1TT3FLV3RuLVdWMUR6TXc3UFhRODUxeVdpWDdoeUxnMUtpYTk1bVJJMy1jYnp4S0liVXJlTlB2WXM3M2ZwMktmTi1pbzBPbURfcl9LNDRaM0ZJZ21fOThTQzRtX3kzTUk3cWQ1TzlJb2I2OWFuWDk5ekVsd3JHck04SGpvUUhZU2lJaHhMRGhPNWR1eHJ1VFltYUU1ZzJjLTBLMmM3UVM5ZTFRbHZDSVRUZnlKdlFwbw?oc=5"
@@ -1484,9 +1113,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군, 리야드 지역서 후티 UAV 요격·파괴",
+   "titleKo": "연합, 리야드 지역 무인기 요격·격추",
    "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
-   "summary": "연합군이 리야드 지역에서 후티가 발사한 UAV를 요격·파괴했다고 보도됐어요.",
+   "summary": "연합이 리야드 지역에서 무인기를 요격·격추했다고 보도했어요.",
    "reportedAt": "2026-11-13T00:03:29.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mbGI3eWxMYzhNOXJCeTNKTEJDb0YxYjN0aFJ6ZHhfdG9vN1BKLUwxZFlJZS1RbElRZW9QeEJ4N3d2MGwt?oc=5"
@@ -1502,9 +1131,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "알자지라 생중계: 후티가 아람코 등 에너지시설 겨냥했다고 보도",
+   "titleKo": "연합, 리야드 향한 드론 요격·후티의 아람코 공격 주장 보도",
    "title": "Iran war live: Riyadh, China discuss Houthis as group claims Aramco attacks",
-   "summary": "알자지라가 후티가 아람코 등 에너지시설을 겨냥했다고 보도했다고 알렸어요.",
+   "summary": "연합이 리야드를 향한 드론을 요격했고 후티가 아람코 시설을 공격했다고 주장했다고 보도했어요.",
    "reportedAt": "2026-11-13T00:00:26.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss"
@@ -1512,6 +1141,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "c96c20831908",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "뉴시스",
+    "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TX3NDekdHNlpZV083RldSbG9qWmVfUjExeWhZTDVsUU15YWZPelI3RDNsSXhNSFZ0aHlaTEptLS1pbTdac2hXVHdFX1c4dlZRSllqRFVzZ01iTVJ1SGlCQdIBeEFVX3lxTE9yZ1lCRU1CLXZ0MnZaQVB1UVJHWFVCRjVxWkc4ZVBPbW92TTBTTXdVOTItMW1NaS1xYm12XzRldW8xRkF1Z3pZRjRxZDFQSi1KaUVQc0xIbS1XMWMtRzdWZXozdnRkU0dJeWIyaE9rN3BPTWxvYUNQdw?oc=5",
+    "reportedAt": 1794781557000,
+    "assumeSaudi": false,
+    "firstSeen": 1794782431133
+   },
    {
     "id": "27449e9056b5",
     "feed": "Arab News",
@@ -1674,8 +1317,8 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Saudi Arabia condemns Iranian attacks on Bahrain",
-    "snippet": "RIYADH: Saudi Arabia’s foreign ministry on Sunday strongly condemned the Iranian aerial attacks on Bahrain, expressing the Kingdom’s full solidarity with Manama and its support for all measures taken to protect the country’s security and stability. Iran's Revolutionary Guards said Sunday that it had targeted a US radar system at a base in Bahrain, according to a statement carried by the Iranian st",
-    "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-iranian-attacks-on-bahrain-3012030",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnl0cHo0eE9iZ0VsOEt5NC1rS182N2FiQ0piTDlVVmo0YzNXY1ZvdjBReHlaY2xCQlF3dFZsR3duX3BqUHpqb0VqUExickp4Ul9ndUd0RHc5S3luckxXSHBGazFDSDcwMFFRTEphQ2ZKS1B0NEo1ZlJMQm11NTlIeFc3djVCX2JrWE1oSG9IM2xzenZrN3dwTndn?oc=5",
     "reportedAt": 1794740109000,
     "assumeSaudi": false,
     "firstSeen": 1794740451723
@@ -2183,144 +1826,123 @@
     "reportedAt": 1794523800000,
     "assumeSaudi": false,
     "firstSeen": 1794525634244
-   },
-   {
-    "id": "90eb6762acd6",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Saudi foreign minister and Chinese envoy discuss Houthi attacks and regional security",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWURncV92WE85d1gwVml1NlVWSkxfajZ6WUh4dnJpUXdMTjZFQnZaVThuOUY5ei1yN0hJbERpanhTeGM3Y0syYkdkeEpZNXBhYUlVcFp2ZFU3WlA0TU1QbW1NbVhtckZBZERtVFVSdXNFZjlocnRYZV9PUDEtVHRUaDc2R09JOERWb1RuUVpkNksyZXFOcjJwc00tSHExRGdRYmlKVjBlcVlfU2ExOUZFSUVPUVdlUktYOTk1RWNGVGhjRnlYMl9YRUhZOA?oc=5",
-    "reportedAt": 1794522753000,
-    "assumeSaudi": false,
-    "firstSeen": 1794523230838
    }
   ],
   "summaries": {
    "a69ba5a61dac": "파키스탄이 리야드의 아람코 관리 건물을 겨냥한 후티의 공격 시도를 강력히 규탄했다고 보도됐어요.",
-   "90eb6762acd6": "사우디 외교장관과 중국 특사가 후티 공격과 지역 안보를 논의했다고 보도됐어요.",
-   "ecbae4293069": "연합군이 리야드 지역에서 후티가 발사한 UAV를 요격·파괴했다고 보도됐어요.",
-   "bed40e8601e0": "사우디 고위 외교관과 중국 특사가 후티 공격과 지역 안보를 논의했다고 보도됐어요.",
-   "5903a381f821": "알자지라가 후티가 아람코 등 에너지시설을 겨냥했다고 보도했다고 알렸어요.",
-   "9c32f2101f06": "후티가 공격을 재개했다고 알자지라가 보도했고 유엔 제재 연장이 언급됐어요.",
-   "fca9d4904874": "후티가 사우디 동서 송유관과 얀부의 석유시설을 공격했다고 주장했다고 보도됐어요.",
+   "ecbae4293069": "연합이 리야드 지역에서 무인기를 요격·격추했다고 보도했어요.",
+   "bed40e8601e0": "사우디와 중국 관리들이 후티 공격과 지역 안보 문제를 논의했다고 전했어요.",
+   "5903a381f821": "연합이 리야드를 향한 드론을 요격했고 후티가 아람코 시설을 공격했다고 주장했다고 보도했어요.",
+   "9c32f2101f06": "후티가 사우디에 대한 공격을 재개했다고 보도했어요.",
+   "fca9d4904874": "후티가 사우디 동서 송유관과 얀부의 석유시설을 공격했다고 후티 측이 주장했다고 보도했어요.",
    "f6a159f03282": "알 고어가 기후회의에서 사우디의 거부권을 비판했다고 보도됐어요.",
-   "3de2c9a1ec89": "여러 아랍국들이 후티의 사우디 공격을 규탄했다고 보도됐어요.",
-   "6fe21c0433ad": "연합군이 동부 사우디에서 드론 1대를 파괴했다고 보도됐어요.",
-   "69bfa5fed1b3": "러시아 대무프티가 후티의 사우디 공격을 규탄했다고 보도합니다.",
+   "3de2c9a1ec89": "여러 아랍국들이 후티의 사우디 공격을 규탄했다고 보도했어요.",
+   "6fe21c0433ad": "연합이 동부 사우디에서 드론 1대를 파괴했다고 보도했어요.",
+   "69bfa5fed1b3": "러시아 대무프티가 후티 공격을 규탄했다고 보도했어요.",
    "af2ddcd3ad22": "아랍 의회가 유엔 결의 환영과 후티 공격 즉각 중단 요구를 지지한다고 보도합니다",
-   "2b2f6954031f": "북마케도니아의 대무프티가 후티 공격을 규탄했다고 전합니다.",
+   "2b2f6954031f": "북마케도니아 대무프티가 후티의 사우디 공격을 규탄했다고 보도했어요.",
    "6e0aec18ae41": "머니투데이는 한국 팬들이 손흥민 대신 다른 선수 기용을 주장했다고 전했어요.",
-   "0b8cde12039e": "로이터는 후티가 자잔 지역의 사우디군을 향해 미사일을 발사했다고 전했어요.",
+   "0b8cde12039e": "후티가 지나즈에서 사우디군을 겨냥한 미사일을 발사했다고 후티가 주장했다고 로이터가 보도했어요.",
    "6a0c9d8f963a": "조선일보는 한국-사우디 경기 중 오현규의 동점골 소식을 보도했어요.",
-   "f173e2319594": "조선일보는 전반전 한국의 공격이 답답했다고 보도했어요.",
-   "da15086368a2": "연합군이 리야드와 남부 지역을 향한 후티 드론을 파괴했다고 밝혔어요.",
-   "3f4f854602cb": "여러 외교장관들이 가자 지구 병원 피해를 규탄했다고 보도했어요.",
-   "c846e7a24a32": "연합군 대변인이 리야드와 남부 지역에서 발사된 UAV 2대를 요격·파괴했다고 밝혔어요.",
-   "c4ddb27ed672": "사우디 등 17개국이 가자 나세르 병원 공습을 규탄했다고 보도됐어요.",
-   "e2bff7d1889a": "연합군이 리야드와 남부 지역을 향한 후티 드론 2대를 파괴했다고 보도됐어요.",
-   "68e6faf7012e": "후티가 리야드 금융지구를 공격했고 아람코 고층건물이 손상됐다고 주장했다고 보도됐어요.",
-   "042a4308d983": "연합군이 리야드와 남부 지역에서 후티가 발사한 UAV 2대를 요격해 파괴했다고 밝혔어요.",
-   "cc4b3e2d2f70": "사우디 등 외교장관들이 가자 의료시설 공격을 규탄했다고 보도됐어요.",
-   "2c1d8d7eeea3": "러시아 대무프티가 후티의 사우디 공격을 규탄했다고 전합니다.",
-   "ac534b62920c": "사우디 국영통신은 연합이 리야드를 향한 탄도미사일 2기를 요격·파괴했다고 보도했어요.",
-   "c12cfc6ae6f5": "연합군이 리야드를 겨냥한 미사일 2기와 동부지방의 드론 3기를 요격했다고 보도됐어요.",
-   "3022559bf535": "알자지라가 연합군이 리야드에서 미사일과 드론 2대를 요격했다고 보도했어요.",
-   "a28dc2271771": "알자지라가 연합군이 리야드에서 미사일과 드론 2대를 요격했다고 보도했어요.",
-   "1e6a09746b28": "로이터는 연합이 리야드 방면의 미사일과 동부의 드론을 요격했다고 보도했어요.",
+   "f173e2319594": "한국과 사우디 축구 관련 기사로 지역 안보와 무관한 보도예요.",
+   "da15086368a2": "연합이 리야드와 남부 지역을 향한 드론을 파괴했다고 보도했어요.",
+   "3f4f854602cb": "아랍·이슬람 외무장관들이 가자의 의료시설 공습을 규탄했다고 보도했어요.",
+   "c846e7a24a32": "연합이 리야드와 남부 지역에서 무인기 2대를 요격했다고 발표했어요.",
+   "c4ddb27ed672": "아랍국들이 이스라엘의 가자 의료시설 공습을 규탄했다고 보도했어요.",
+   "e2bff7d1889a": "연합이 리야드를 향한 드론 2대를 파괴했다고 보도했어요.",
+   "68e6faf7012e": "후티가 리야드 금융지구를 공격해 아람코 고층건물이 피해를 입었다고 주장했다고 AFP가 보도했어요.",
+   "042a4308d983": "연합이 리야드와 남부 지역으로 발사된 2대의 무인기를 요격·격추했다고 발표했어요.",
+   "cc4b3e2d2f70": "사우디 등 외교장관들이 가자 의료시설 공격을 규탄하고 인도적 지원을 촉구했다고 보도했어요.",
+   "2c1d8d7eeea3": "러시아 대무프티가 후티의 사우디 공격을 강력 규탄했다고 보도했어요.",
+   "ac534b62920c": "연합은 후티가 리야드를 향해 발사한 탄도미사일 2발을 요격·파괴했다고 발표했어요.",
+   "c12cfc6ae6f5": "연합군이 리야드를 겨냥한 미사일 2발과 동부 주를 겨냥한 드론 3대를 요격했다고 보도했어요.",
+   "3022559bf535": "알자지라는 연합이 리야드를 향한 미사일 2발과 드론 2대를 요격했다고 보도했어요.",
+   "a28dc2271771": "연합이 리야드를 향한 미사일 2발과 드론 2대를 요격했다고 알자지라가 보도했어요.",
+   "1e6a09746b28": "사우디 주도 연합이 리야드를 향한 미사일 2발과 동부를 향한 드론을 요격해 격추했다고 보도했어요.",
    "e9b8dcec9c62": "연합군이 몇 시간 동안 후티 드론 3대를 격추했다고 보도됐고 이란은 바레인 내 미군 기지를 공격했다고 주장했다고 보도됐어요.",
    "9dce119f0a80": "연합군이 몇 시간 동안 후티 드론 3대를 격추했다고 보도됐어요.",
-   "9f2785e8c893": "사우디 방공이 리야드와 동부를 향한 탄도미사일 2기와 드론 1대를 요격했다고 보도됐어요.",
-   "3abf8c113056": "아랍 연합군이 리야드를 향한 미사일과 동부지방의 드론을 요격했다고 보도됐어요.",
+   "9f2785e8c893": "사우디 방공이 리야드와 동부 지역을 겨냥한 탄도미사일 2발과 드론 1대를 요격했다고 전했어요.",
+   "3abf8c113056": "아랍 연합이 리야드를 향한 미사일을 요격하고 동부 지역에서 드론을 요격했다고 전했어요.",
    "9c059976b880": "사우디 주도의 연합군이 의심되는 후티 미사일과 드론을 요격했다고 보도됐어요.",
    "bc9e5f311573": "사우디 외교부가 이란의 바레인에 대한 공중공격을 규탄하며 즉각 중단을 촉구했다고 보도됐어요.",
    "cd709fac8212": "사우디의 경제 기초가 지역 불확실성에도 견조하다고 평가했다고 보도됐어요.",
    "f2bc4c8f82d1": "사우디 외무부가 이란의 바레인 공습을 강력히 규탄했다고 보도됐어요.",
    "bd1d5f57db35": "한국 대표팀의 수비 실수로 사우디전에서 3실점한 경기 내용과 이천수의 비판이 보도됐어요.",
-   "ef128570c686": "상업부가 배터리 과열과 화재 위험으로 Bose 스피커 2,214대를 리콜한다고 발표했어요.",
-   "19059ceefb27": "연합군이 사우디를 겨냥한 후티의 미사일 2기와 드론 5기를 요격했다고 보도됐어요.",
-   "9b6a70de2aad": "연합군 대변인이 메카 지역으로 향한 후티 무인기 2대를 요격해 파괴했다고 밝혔어요.",
-   "9336ba9b4be5": "연합군이 메카 지역을 향한 후티 UAV 2대를 요격했다고 보도됐어요.",
-   "b30ebcb142b4": "연합군이 리야드를 향한 미사일 2기와 동부지방을 향한 3대의 드론을 요격했다고 보도됐어요.",
+   "ef128570c686": "상거래부가 배터리 과열 위험으로 보스 스피커 2,214대 리콜을 발표했고 사용 중단을 권고했어요.",
+   "19059ceefb27": "연합군이 2발의 미사일과 5대의 드론을 요격했다고 보도했어요.",
+   "9b6a70de2aad": "연합이 마카와 마디나 지역을 향한 무인기들을 요격했다고 보도했어요.",
+   "9336ba9b4be5": "연합이 마카 지역을 향한 2대의 무인기를 요격했다고 발표했어요.",
+   "b30ebcb142b4": "연합군이 리야드를 향한 탄도미사일 2발과 동부 지역을 향한 드론 여러 대를 요격했다고 보도했고 민방위 경보가 울렸다고 전했어요.",
    "431fd2837ef7": "사우디아라비아는 이란의 바레인에 대한 공격이 국제법 위반이라고 밝혔다고 보도됐어요.",
-   "15e5799921c9": "후티는 리야드 공항과 금융 지구를 겨냥해 탄도미사일을 발사했다고 주장했다고 보도됐어요."
+   "15e5799921c9": "후티는 리야드 공항과 금융 지구를 겨냥해 탄도미사일을 발사했다고 주장했다고 보도됐어요.",
+   "c96c20831908": "후티군이 사우디와 예멘 정부를 상대로 대대적 폭격을 단행했고 리야드 공항과 금융센터도 공격했다고 보도했어요.",
+   "13369bf3a151": "연합이 마카와 마디나 지역으로 발사된 3대의 드론을 요격해 격추했다고 발표했어요.",
+   "27449e9056b5": "무슬림월드리그가 메카에 대한 후티의 공격을 규탄했고 종교적 성역 훼손이라고 비판했어요."
   },
   "titlesKo": {
    "a69ba5a61dac": "파키스탄, 리야드 아람코 건물 겨냥 공격 시도 규탄",
-   "ecbae4293069": "연합군, 리야드 지역서 후티 UAV 요격·파괴",
-   "90eb6762acd6": "사우디 외교장관·중국 특사, 후티 공격 논의",
-   "5903a381f821": "알자지라 생중계: 후티가 아람코 등 에너지시설 겨냥했다고 보도",
-   "9c32f2101f06": "알자지라: 후티, 사우디에 대한 공격 재개",
-   "bed40e8601e0": "사우디·중국 고위인사, 후티 공격·지역 안보 논의",
-   "fca9d4904874": "후티, 사우디 동서 송유관·얀부 석유시설 공격했다고 주장",
+   "ecbae4293069": "연합, 리야드 지역 무인기 요격·격추",
+   "5903a381f821": "연합, 리야드 향한 드론 요격·후티의 아람코 공격 주장 보도",
+   "9c32f2101f06": "후티, 사우디에 대한 공격 재개 보도",
+   "bed40e8601e0": "사우디·중국 관리, 후티 공격과 지역 안보 논의",
+   "fca9d4904874": "후티 “사우디 동서 송유관·얀부 석유시설 공격해”",
    "f6a159f03282": "알 고어, 기후회의서 사우디 거부권 비판",
    "3de2c9a1ec89": "여러 아랍국, 후티의 사우디 공격 규탄",
-   "6fe21c0433ad": "연합군, 동부 사우디에서 드론 1대 파괴",
+   "6fe21c0433ad": "연합, 동부 사우디에서 드론 1대 파괴",
    "af2ddcd3ad22": "아랍 의회, 유엔 결의안 환영하며 후티 공격 중단 촉구",
-   "69bfa5fed1b3": "사우디 보도: 러시아 대무프티 규탄",
-   "0b8cde12039e": "로이터: 후티가 자잔의 사우디군에 미사일을 발사했다고 주장",
-   "2b2f6954031f": "북마케도니아 대무프티, 후티 공격 규탄",
+   "69bfa5fed1b3": "러시아 대무프티, 후티 공격 규탄",
+   "0b8cde12039e": "후티, 지나즈서 사우디군 겨냥 미사일 발사했다고 주장",
+   "2b2f6954031f": "북마케도니아 대무프티, 후티의 사우디 공격 규탄",
    "6e0aec18ae41": "팬들, 손흥민 교체 주장 보도",
    "6a0c9d8f963a": "오현규 환상 동점골 보도",
-   "f173e2319594": "한국 전반 공격 답답함 보도",
-   "da15086368a2": "연합군, 리야드·남부 향한 후티 드론 파괴",
-   "3f4f854602cb": "아랍·이슬람 외교장관들, 가자 의료시설 공습 규탄",
-   "2c1d8d7eeea3": "러시아 대무프티, 후티의 사우디 공격 규탄",
-   "042a4308d983": "연합군: 리야드·남부서 후티 UAV 2대 요격·파괴",
-   "68e6faf7012e": "후티, 리야드 금융지구 공격해 아람코 고층건물 손상됐다고 주장",
-   "e2bff7d1889a": "연합군, 리야드·남부 향한 후티 드론 2대 파괴",
-   "c4ddb27ed672": "사우디 등 17개국, 가자 나세르 병원 공습 규탄",
-   "c846e7a24a32": "연합군 대변인: 리야드·남부 지역서 UAV 2대 요격",
-   "cc4b3e2d2f70": "사우디 등 외교장관, 가자 의료시설 공격 규탄",
-   "ac534b62920c": "국영통신: 연합, 리야드 향 탄도미사일 2기 요격·파괴",
-   "a28dc2271771": "연합군, 리야드서 미사일·드론 2대 요격 보도",
-   "1e6a09746b28": "로이터: 연합, 리야드 향 미사일·동부 드론 요격",
+   "f173e2319594": "한국-사우디 축구 경기 관련 보도 (안보 무관)",
+   "da15086368a2": "연합, 리야드·남부 향한 드론 파괴 발표",
+   "3f4f854602cb": "아랍·이슬람 외무장관들, 가자의 의료시설 공습 규탄",
+   "2c1d8d7eeea3": "러시아 대무프티, 후티의 사우디 공격 강력 규탄",
+   "042a4308d983": "연합, 리야드·남부 지역 무인기 2대 요격·격추",
+   "68e6faf7012e": "후티, 리야드 금융지구 공격해 아람코 고층건물 피해라고 주장",
+   "e2bff7d1889a": "연합, 리야드 향한 드론 2대 파괴",
+   "c4ddb27ed672": "아랍국들, 이스라엘의 가자 의료시설 공습 규탄",
+   "c846e7a24a32": "연합, 리야드·남부 지역 무인기 2대 요격",
+   "cc4b3e2d2f70": "사우디 등 외교장관들, 가자 의료시설 공습 규탄·인도주의 촉구",
+   "ac534b62920c": "연합: 후티가 리야드를 향해 쏜 탄도미사일 2발 요격·파괴",
+   "a28dc2271771": "알자지라: 연합, 리야드 향한 미사일 2발·드론 2대 요격",
+   "1e6a09746b28": "연합군, 리야드를 향한 미사일 2발과 동부 지역 드론 요격",
    "9dce119f0a80": "연합군, 몇 시간 동안 후티 드론 3대 격추",
-   "c12cfc6ae6f5": "연합군, 리야드 겨냥 미사일 2기·동부 드론 3기 요격",
-   "3022559bf535": "알자지라: 연합군, 리야드서 미사일·드론 2대 요격",
+   "c12cfc6ae6f5": "연합군, 리야드 향한 미사일 2발·동부 향한 드론 3대 요격",
+   "3022559bf535": "알자지라: 연합, 리야드 향한 미사일 2발·드론 2대 요격",
    "e9b8dcec9c62": "연합군, 몇 시간 동안 후티 드론 3대 격추",
-   "3abf8c113056": "아랍 연합, 리야드 향한 미사일·동부의 드론 요격",
+   "3abf8c113056": "아랍 연합, 리야드 향한 미사일 요격·동부서 드론 요격",
    "9c059976b880": "사우디 주도 연합군, 의심되는 후티 미사일·드론 요격",
-   "9f2785e8c893": "사우디 방공, 리야드·동부 향한 탄도미사일 2기·드론 1기 요격",
+   "9f2785e8c893": "사우디 방공, 리야드·동부 겨냥 미사일 2발·드론 1대 요격",
    "bc9e5f311573": "사우디, 이란의 바레인 공습 규탄·즉각 중단 촉구",
    "f2bc4c8f82d1": "사우디, 이란의 바레인 공격 강력 규탄",
    "cd709fac8212": "사우디 경제 기초가 지역 불확실성에도 견조하다고 평가",
-   "19059ceefb27": "연합군, 사우디 겨냥 후티 미사일 2기·드론 5기 요격",
-   "ef128570c686": "상업부, 배터리 과열 위험으로 Bose 스피커 2,214대 리콜",
+   "19059ceefb27": "연합군, 2발의 미사일·5대의 드론 요격 보도",
+   "ef128570c686": "상거래부, 보스 스피커 과열 위험으로 리콜 발표",
    "bd1d5f57db35": "이천수, 한국 대표팀 수비에 분노…사우디전 3실점 비판",
-   "9336ba9b4be5": "연합군이 메카 지역 향한 후티 UAV 2대 요격",
-   "9b6a70de2aad": "연합군, 메카 지역 향한 후티 UAV 2대 요격",
-   "b30ebcb142b4": "연합군, 리야드 향한 미사일 2기·동부 향한 3대 드론 요격",
+   "9336ba9b4be5": "연합, 마카 지역 향한 무인기 2대 요격",
+   "9b6a70de2aad": "연합, 마카와 마디나 향한 무인기 요격",
+   "b30ebcb142b4": "연합군, 리야드 향한 탄도미사일 2발·동부 드론 여러 대 요격",
    "15e5799921c9": "후티, 리야드 공항·금융지구 향해 탄도미사일 발사했다고 주장",
    "431fd2837ef7": "사우디아라비아: 이란의 바레인 공격은 국제법 위반이라고 주장",
-   "13369bf3a151": "연합군, 마카·마디나 지역서 후티 드론 3대 요격",
-   "27449e9056b5": "Muslim World League, 후티의 마카 공격 규탄"
+   "13369bf3a151": "연합, 마카와 마디나 향한 드론 3대 요격",
+   "27449e9056b5": "무슬림월드리그, 메카에 대한 후티 공격 규탄",
+   "c96c20831908": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항·금융센터도"
   },
   "aiClusters": [
    {
     "articleIds": [
      "1e6a09746b28",
      "c12cfc6ae6f5",
+     "b30ebcb142b4",
      "3abf8c113056",
      "ac534b62920c",
-     "b30ebcb142b4",
-     "3022559bf535",
-     "a28dc2271771",
      "9f2785e8c893",
-     "3de2c9a1ec89",
-     "c846e7a24a32",
-     "042a4308d983",
-     "ecbae4293069",
-     "cd709fac8212",
-     "9336ba9b4be5",
-     "e2bff7d1889a",
-     "6fe21c0433ad",
-     "9c059976b880"
+     "3022559bf535",
+     "a28dc2271771"
     ],
-    "titleKo": "후티가 리야드·동부 지역을 겨냥한 미사일·드론을 발사했다고 주장",
+    "titleKo": "후티, 리야드·동부 지역에 탄도미사일·드론 발사했다고 주장",
     "type": "missile",
     "regions": [
      "riyadh",
@@ -2334,68 +1956,72 @@
    },
    {
     "articleIds": [
-     "fca9d4904874",
-     "9c32f2101f06",
-     "0b8cde12039e",
-     "f173e2319594"
+     "c96c20831908",
+     "68e6faf7012e",
+     "fca9d4904874"
     ],
-    "titleKo": "후티가 사우디 동서 송유관·아람코 시설 등 에너지 시설 공격했다고 주장",
+    "titleKo": "후티군, 리야드 금융지구·아람코 빌딩 공격했다고 주장",
     "type": "energy",
     "regions": [
-     "eastern",
-     "dammam",
-     "jafurah"
+     "riyadh",
+     "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "기사 제목이나 요약에 '동서 송유관'과 '동부' 언급이 있어 담맘·자푸라 인근으로 추정했어요.",
+    "inferNote": "기사에 직접 지명이 모두 없고 리야드·아람코 관련 보도가 섞여 있어 동부(아람코)는 추정했어요.",
     "claimOnly": true,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "bc9e5f311573",
+     "13369bf3a151",
+     "9b6a70de2aad",
+     "9336ba9b4be5",
+     "ef128570c686",
+     "19059ceefb27",
+     "27449e9056b5",
+     "2c1d8d7eeea3",
+     "3de2c9a1ec89",
+     "cc4b3e2d2f70",
+     "da15086368a2",
+     "042a4308d983",
+     "e2bff7d1889a",
+     "3f4f854602cb",
+     "2b2f6954031f",
+     "69bfa5fed1b3",
+     "0b8cde12039e",
+     "9c32f2101f06",
+     "ecbae4293069",
+     "5903a381f821",
+     "c4ddb27ed672"
+    ],
+    "titleKo": "연이은 후티의 드론·미사일 공격을 연합군이 요격했다고 발표",
+    "type": "drone",
+    "regions": [
+     "makkah",
+     "madinah",
+     "riyadh",
+     "southern",
+     "eastern"
+    ],
+    "regionInferred": true,
+    "inferNote": "일부 기사들은 지역명을 다양하게 언급해 특정 기사별로 지역을 추정했어요.",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
      "f2bc4c8f82d1",
+     "bc9e5f311573",
      "431fd2837ef7",
      "a69ba5a61dac",
-     "bed40e8601e0",
-     "cc4b3e2d2f70",
-     "2c1d8d7eeea3",
-     "69bfa5fed1b3",
-     "2b2f6954031f"
+     "9c059976b880",
+     "e9b8dcec9c62",
+     "9dce119f0a80"
     ],
-    "titleKo": "사우디·여러 국가들이 후티·이란의 공격을 규탄했다고 발표",
+    "titleKo": "여러 국가·기구가 후티 공격과 이란의 공습을 규탄했다고 발표",
     "type": "security",
-    "regions": [
-     "riyadh"
-    ],
-    "regionInferred": true,
-    "inferNote": "외교부 성명 등은 리야드 발표가 많아 중심 지역을 리야드로 추정했어요.",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "ef128570c686"
-    ],
-    "titleKo": "상업부, 배터리 과열 위험으로 Bose 스피커 2,214대 리콜",
-    "type": "fire",
-    "regions": [
-     "riyadh"
-    ],
-    "regionInferred": true,
-    "inferNote": "제품 리콜 발표는 리야드 발 기사로 보도됐어요.",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "3f4f854602cb"
-    ],
-    "titleKo": "한국 축구 관련 경기 소식 (사우디전 보도)",
-    "type": "korean",
     "regions": [],
     "regionInferred": false,
     "inferNote": "",
@@ -2410,42 +2036,7 @@
    },
    {
     "articleIds": [
-     "9b6a70de2aad"
-    ]
-   },
-   {
-    "articleIds": [
-     "19059ceefb27"
-    ]
-   },
-   {
-    "articleIds": [
-     "e9b8dcec9c62"
-    ]
-   },
-   {
-    "articleIds": [
-     "9dce119f0a80"
-    ]
-   },
-   {
-    "articleIds": [
-     "6e0aec18ae41"
-    ]
-   },
-   {
-    "articleIds": [
-     "c4ddb27ed672"
-    ]
-   },
-   {
-    "articleIds": [
-     "68e6faf7012e"
-    ]
-   },
-   {
-    "articleIds": [
-     "da15086368a2"
+     "cd709fac8212"
     ]
    },
    {
@@ -2455,53 +2046,17 @@
    },
    {
     "articleIds": [
-     "5903a381f821"
-    ]
-   },
-   {
-    "articleIds": [
-     "90eb6762acd6"
-    ]
-   },
-   {
-    "articleIds": [
-     "bd1d5f57db35"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "6a0c9d8f963a"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "f6a159f03282"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "13369bf3a151"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "27449e9056b5"
-    ],
-    "fromRule": true
+    ]
    }
   ],
   "aiSummaryKo": [
-   "연합군이 최근 들어 리야드·동부 향 미사일과 드론을 다수 요격했다고 국영통신 발표.",
-   "동부(담맘·자푸라) 방향 드론·미사일도 연합군이 요격했다는 로이터·알자지라 보도.",
-   "후티가 리야드 공항·금융지구 겨냥 발사했다고 주장했으나 미확인.",
-   "외교·안보 관련 기관들과 국제언론이 연이은 요격을 보도·전달하고 있다."
+   "후티가 리야드와 동부를 향해 미사일·드론을 발사했다고 주장했고 연합은 이를 요격했다고 발표했어요.",
+   "연합은 마카와 마디나 지역으로 날아온 드론들도 요격해 격추했다고 발표했어요.",
+   "여러 국가·기구가 후티의 공격과 관련해 규탄 성명을 냈고 사우디는 중국과 안보 문제를 논의했다고 보도됐어요."
   ],
-  "lastAiAt": 1794771035551,
-  "summaryAt": "2026-11-15T21:30:39.041Z",
+  "lastAiAt": 1794782431133,
+  "summaryAt": "2026-11-15T22:40:31.133Z",
   "promptVersion": 4
  }
 }
