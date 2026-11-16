@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-11-16T14:00:47.218Z",
-  "lastAttemptAt": "2026-11-16T14:00:47.218Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-11-16T14:10:44.783Z",
+  "lastAttemptAt": "2026-11-16T14:10:44.783Z",
   "aiSummary": true,
   "summaryAt": "2026-11-16T13:10:33.097Z",
   "aiError": null,
@@ -14,50 +14,43 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 17
    },
    {
     "name": "Reuters",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 87
    },
    {
     "name": "AP",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 17
    },
    {
     "name": "AFP",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 5
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 50,
-    "note": "일부 주소 실패: HTTP 503"
+    "count": 134
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 25,
-    "note": "일부 주소 실패: HTTP 503"
+    "count": 28
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 142
+    "count": 143
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 25,
-    "note": "일부 주소 실패: HTTP 503"
+    "count": 51
    },
    {
     "name": "외교부 여행경보",
@@ -71,9 +64,8 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 503"
+    "ok": true,
+    "count": 29
    }
   ],
   "mofaLatest": [
@@ -110,6 +102,38 @@
   ]
  },
  "events": [
+  {
+   "id": "a3892a8e1970",
+   "articleIds": [
+    "2bd2e3ddf1fc"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-16T14:10:44.783Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-11-16T13:42:48.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nclRvQkN3S1hFQXJxUzhQZDR3S0dVNTVjTUtUakM4SmloUU9lbTBJTGhBaDJBa1E1UnZLX1NldFlONEhGYkRldG9FY0RMVjJsby1ubm1PU0ZVZmPSAWBBVV95cUxQT2t3ZFVkNDU5Z1d6YlVxRUM5U0VTMTQyNWwxR2Jla0ZaSVZDZm03U1FaUUN6RmVrWEVpODhzWW9ZekVXZXFOV1V2cXBIY3M4aFR3N2JtdFZiRUQtN19iYjk?oc=5"
+    }
+   ]
+  },
   {
    "id": "9747b6a93115",
    "articleIds": [
@@ -1286,6 +1310,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "2bd2e3ddf1fc",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nclRvQkN3S1hFQXJxUzhQZDR3S0dVNTVjTUtUakM4SmloUU9lbTBJTGhBaDJBa1E1UnZLX1NldFlONEhGYkRldG9FY0RMVjJsby1ubm1PU0ZVZmPSAWBBVV95cUxQT2t3ZFVkNDU5Z1d6YlVxRUM5U0VTMTQyNWwxR2Jla0ZaSVZDZm03U1FaUUN6RmVrWEVpODhzWW9ZekVXZXFOV1V2cXBIY3M4aFR3N2JtdFZiRUQtN19iYjk?oc=5",
+    "reportedAt": 1794836568000,
+    "assumeSaudi": false,
+    "firstSeen": 1794838244783
+   },
+   {
     "id": "23cf142ca048",
     "feed": "Arab News",
     "cat": "local",
@@ -2174,6 +2212,12 @@
    {
     "articleIds": [
      "f173e2319594"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "2bd2e3ddf1fc"
     ],
     "fromRule": true
    }
