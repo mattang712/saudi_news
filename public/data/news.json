@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-17T15:40:30.540Z",
-  "lastAttemptAt": "2026-11-17T15:40:30.540Z",
+  "lastSuccessAt": "2026-11-17T15:50:36.454Z",
+  "lastAttemptAt": "2026-11-17T15:50:36.454Z",
   "aiSummary": true,
   "summaryAt": "2026-11-17T14:30:41.773Z",
   "aiError": null,
@@ -21,22 +21,22 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 83
+    "count": 82
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 31
+    "count": 30
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 43
+    "count": 41
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 104
+    "count": 106
    },
    {
     "name": "Saudi Gazette",
@@ -51,7 +51,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 61
+    "count": 62
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 83
+    "count": 85
    }
   ],
   "mofaLatest": [
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "63c01ff6ebff",
+   "articleIds": [
+    "ef58c9562dcb"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티의 아덴 진격, 예멘 남부 분리주의 재발 촉발할 수 있어",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-17T15:50:36.454Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Houthi advance on Aden may spur resurgence of Yemen’s southern separatists",
+     "titleKo": "후티의 아덴 진격, 예멘 남부 분리주의 재발 촉발할 수 있어",
+     "summary": "",
+     "reportedAt": "2026-11-17T15:26:55.000Z",
+     "dateOnly": false,
+     "url": "https://www.aljazeera.com/news/2026/11/17/houthi-advance-on-aden-sparks-resurgence-of-yemens-southern-separatists?traffic_source=rss"
+    }
+   ]
+  },
   {
    "id": "e35f880c355b",
    "articleIds": [
@@ -1314,6 +1346,24 @@
  ],
  "timeline": [
   {
+   "id": "ef58c9562dcb",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "후티의 아덴 진격, 예멘 남부 분리주의 재발 촉발할 수 있어",
+   "title": "Houthi advance on Aden may spur resurgence of Yemen’s southern separatists",
+   "summary": "",
+   "reportedAt": "2026-11-17T15:26:55.000Z",
+   "dateOnly": false,
+   "url": "https://www.aljazeera.com/news/2026/11/17/houthi-advance-on-aden-sparks-resurgence-of-yemens-southern-separatists?traffic_source=rss"
+  },
+  {
    "id": "99457c4cb509",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -1697,6 +1747,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "ef58c9562dcb",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Houthi advance on Aden may spur resurgence of Yemen’s southern separatists",
+    "snippet": "Southern separatists try to regain power to defend Aden as Saudi Arabia reshuffles its military command against Houthis.",
+    "url": "https://www.aljazeera.com/news/2026/11/17/houthi-advance-on-aden-sparks-resurgence-of-yemens-southern-separatists?traffic_source=rss",
+    "reportedAt": 1794929215000,
+    "assumeSaudi": false,
+    "firstSeen": 1794930636454
+   },
    {
     "id": "f2bc4c8f82d1",
     "feed": "Arab News",
@@ -2560,7 +2624,8 @@
    "d64ec1f7aec5": "사우디, 바레인에 대한 이란 공격 강력 규탄 보도",
    "17e8c0b4b7cc": "사우디아라비아, 이란의 바레인에 대한 반복적인 공격 규탄",
    "99457c4cb509": "사우디아라비아, 바레인에 대한 이란의 반복적 공격 규탄",
-   "6a4cb3cb7578": "슬로베니아 무프티, 후티의 사우디아라비아 공격 규탄"
+   "6a4cb3cb7578": "슬로베니아 무프티, 후티의 사우디아라비아 공격 규탄",
+   "ef58c9562dcb": "후티의 아덴 진격, 예멘 남부 분리주의 재발 촉발할 수 있어"
   },
   "aiClusters": [
    {
@@ -2819,6 +2884,12 @@
    {
     "articleIds": [
      "6a4cb3cb7578"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "ef58c9562dcb"
     ],
     "fromRule": true
    }
