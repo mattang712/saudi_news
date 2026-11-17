@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-17T06:50:40.135Z",
-  "lastAttemptAt": "2026-11-17T06:50:40.135Z",
+  "lastSuccessAt": "2026-11-17T07:00:46.155Z",
+  "lastAttemptAt": "2026-11-17T07:00:46.155Z",
   "aiSummary": true,
   "summaryAt": "2026-11-17T05:40:36.417Z",
   "aiError": null,
@@ -15,13 +15,13 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 5,
-    "note": "일부 주소 실패: HTTP 429"
+    "count": 6
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 67
+    "count": 49,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "AP",
@@ -32,12 +32,13 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 45
+    "count": 45,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 108,
+    "count": 97,
     "note": "일부 주소 실패: HTTP 429"
    },
    {
@@ -49,13 +50,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 145
+    "count": 146
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 51,
-    "note": "일부 주소 실패: HTTP 429"
+    "count": 51
    },
    {
     "name": "외교부 여행경보",
@@ -70,7 +70,8 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 51
+    "count": 27,
+    "note": "일부 주소 실패: HTTP 429"
    }
   ],
   "mofaLatest": [
@@ -108,6 +109,38 @@
  },
  "events": [
   {
+   "id": "a7ca4996e7b1",
+   "articleIds": [
+    "505fea7ca577"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "중동 수출 회복에 걸프 긴장 완화로 유가 하락",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-17T07:00:46.155Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil slips as recovering Mideast exports blunt Gulf tensions",
+     "titleKo": "중동 수출 회복에 걸프 긴장 완화로 유가 하락",
+     "summary": "",
+     "reportedAt": "2026-11-17T06:54:35.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/energy/oil-slips-as-recovering-mideast-exports-blunt-gulf-tensions-3012412"
+    }
+   ]
+  },
+  {
    "id": "689176ab760c",
    "articleIds": [
     "a2755b326385"
@@ -135,7 +168,7 @@
      "summary": "사우디전 경기에서 한국의 도움으로 사우디 감독이 직무를 유지했다는 내용이에요.",
      "reportedAt": "2026-11-17T05:26:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiUUNuOUJVV2l5dUNsXzBKN2VhdnVBSmR1V3V4SW5BYmtiakdTTDRUS0ItRWRXc0pXZm1MRTZRb1BpX2JPTndEM2lyWlladzBjMnNuQnpMb1ZRNE01RVNGSHVhTWxDN3VrZFHSAW9BVV95cUxOdEpVVFFQNnhQa1NSdldvOTZ4UjRjbkx3SC1oaWFMR0lBRElodTBKQTloQS0zN1ByZE5fWmN2VW9WcWxzNnVQSnpfekNNSnNjbGdTQkswUHFyVXNPS0g0bW5DbS1fanYzRm9scTV4bkU?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRdIBb0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRQ?oc=5"
     }
    ]
   },
@@ -1417,6 +1450,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "505fea7ca577",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Oil slips as recovering Mideast exports blunt Gulf tensions",
+    "snippet": "SINGAPORE: Oil prices fell on Tuesday as expectations of a supply surplus, driven by recovering Middle East exports, overshadowed concerns ​about continued attacks on tankers in the region and broader geopolitical tensions. Brent crude futures ‌dropped 78 cents, or 0.8 percent, to $91.66 a barrel by 07:30 a.m. Saudi time, while US West Texas Intermediate futures fell 73 cents, or 0.9 percent, to $",
+    "url": "https://www.arabnews.com/energy/oil-slips-as-recovering-mideast-exports-blunt-gulf-tensions-3012412",
+    "reportedAt": 1794898475000,
+    "assumeSaudi": false,
+    "firstSeen": 1794898846155
+   },
+   {
     "id": "a2755b326385",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -1425,7 +1472,7 @@
     "outlet": "머니투데이",
     "title": "'경질 위기' 사우디 감독, 한국 덕분에 살았다! \"역대 최초 3골 폭발 亞 강호 상대로 역사적 승리...잔류 근거 확보\" - 머니투데이",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiUUNuOUJVV2l5dUNsXzBKN2VhdnVBSmR1V3V4SW5BYmtiakdTTDRUS0ItRWRXc0pXZm1MRTZRb1BpX2JPTndEM2lyWlladzBjMnNuQnpMb1ZRNE01RVNGSHVhTWxDN3VrZFHSAW9BVV95cUxOdEpVVFFQNnhQa1NSdldvOTZ4UjRjbkx3SC1oaWFMR0lBRElodTBKQTloQS0zN1ByZE5fWmN2VW9WcWxzNnVQSnpfekNNSnNjbGdTQkswUHFyVXNPS0g0bW5DbS1fanYzRm9scTV4bkU?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRdIBb0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRQ?oc=5",
     "reportedAt": 1794893160000,
     "assumeSaudi": false,
     "firstSeen": 1794894036417
@@ -2267,7 +2314,8 @@
    "20edc93cd3ec": "사우디, 후티와 싸우는 연합군 사령관 해임",
    "a2755b326385": "경질 위기 사우디 감독, 한국 덕분에 살았다",
    "c75c742a7f65": "후티, 예멘 임시수도 아덴 접근…사우디 연합군 사령관 교체",
-   "9b9f134a3cc0": "후티에 고전한 사우디, 연합군 사령관 전격 경질"
+   "9b9f134a3cc0": "후티에 고전한 사우디, 연합군 사령관 전격 경질",
+   "505fea7ca577": "중동 수출 회복에 걸프 긴장 완화로 유가 하락"
   },
   "aiClusters": [
    {
@@ -2439,6 +2487,12 @@
    {
     "articleIds": [
      "6e0aec18ae41"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "505fea7ca577"
     ],
     "fromRule": true
    }
