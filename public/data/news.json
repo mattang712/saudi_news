@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-18T08:20:28.476Z",
-  "lastAttemptAt": "2026-11-18T08:20:28.476Z",
+  "lastSuccessAt": "2026-11-18T08:30:40.138Z",
+  "lastAttemptAt": "2026-11-18T08:30:40.138Z",
   "aiSummary": true,
   "summaryAt": "2026-11-18T07:00:44.454Z",
   "aiError": null,
@@ -15,12 +15,13 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 10
+    "count": 10,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 82
+    "count": 78
    },
    {
     "name": "AP",
@@ -35,7 +36,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 104,
+    "count": 64,
     "note": "일부 주소 실패: HTTP 429"
    },
    {
@@ -46,7 +47,7 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 170
+    "count": 171
    },
    {
     "name": "Al Jazeera",
@@ -66,7 +67,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 85
+    "count": 87
    }
   ],
   "mofaLatest": [
@@ -164,6 +165,38 @@
      "reportedAt": "2026-11-18T07:04:49.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/energy/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks-3012668"
+    }
+   ]
+  },
+  {
+   "id": "98ba10bcb2c2",
+   "articleIds": [
+    "607e2a269b7f"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-18T08:30:40.138Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+     "titleKo": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴",
+     "summary": "",
+     "reportedAt": "2026-11-18T06:56:36.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OTzZvTGstU180dFFKdEVreDIwdkpxaHNFWi1MODVPNUQyQXhBQXFkR3kyZmt6amdWNloyNzMtVTNQeW9wWXNKdVhB?oc=5"
     }
    ]
   },
@@ -1318,6 +1351,24 @@
  ],
  "timeline": [
   {
+   "id": "607e2a269b7f",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "missile",
+   "sev": "high",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴",
+   "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+   "summary": "",
+   "reportedAt": "2026-11-18T06:56:36.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OTzZvTGstU180dFFKdEVreDIwdkpxaHNFWi1MODVPNUQyQXhBQXFkR3kyZmt6amdWNloyNzMtVTNQeW9wWXNKdVhB?oc=5"
+  },
+  {
    "id": "c9fb626f6252",
    "outlet": "Reuters",
    "official": false,
@@ -1672,6 +1723,20 @@
     "reportedAt": 1794985489000,
     "assumeSaudi": false,
     "firstSeen": 1794985830721
+   },
+   {
+    "id": "607e2a269b7f",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OTzZvTGstU180dFFKdEVreDIwdkpxaHNFWi1MODVPNUQyQXhBQXFkR3kyZmt6amdWNloyNzMtVTNQeW9wWXNKdVhB?oc=5",
+    "reportedAt": 1794984996000,
+    "assumeSaudi": false,
+    "firstSeen": 1794990640138
    },
    {
     "id": "6d779369c0e3",
@@ -2604,7 +2669,8 @@
    "c9fb626f6252": "후티 매체, 사우디 공습으로 공장 화재 보도",
    "6d779369c0e3": "연합군, 후티 표적 60곳 공격·리야드 행 미사일 요격 발표",
    "ffe97c340939": "미국 원유 재고 증가로 공급 위험 완화되며 유가 하락",
-   "a884b2d42401": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스"
+   "a884b2d42401": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스",
+   "607e2a269b7f": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴"
   },
   "aiClusters": [
    {
@@ -2853,6 +2919,12 @@
    {
     "articleIds": [
      "a884b2d42401"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "607e2a269b7f"
     ],
     "fromRule": true
    }
