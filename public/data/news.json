@@ -1,31 +1,31 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-18T08:50:28.278Z",
-  "lastAttemptAt": "2026-11-18T08:50:28.278Z",
+  "lastSuccessAt": "2026-11-18T09:00:53.863Z",
+  "lastAttemptAt": "2026-11-18T09:00:53.863Z",
   "aiSummary": true,
-  "summaryAt": "2026-11-18T07:00:44.454Z",
+  "summaryAt": "2026-11-18T09:00:53.863Z",
   "aiError": null,
   "summaryKo": [
-   "후티는 사우디 동서 송유관을 드론로 공격했다고 주장했으나 확인되지 않았어요.",
-   "연합군은 리야드·마카 등지로 발사된 후티 드론과 미사일을 요격했다고 발표했어요.",
-   "사우디는 이란·후티의 공격을 국제무대에서 규탄했고 연합군 지휘부를 전격 교체했다고 보도됐어요."
+   "후티가 사우디 동서 송유관을 드론로 공격했다고 주장했으나 피해는 확인되지 않았어요.",
+   "연합군과 사우디 통신은 리야드 방향의 미사일·드론을 다수 요격했다고 발표했어요.",
+   "연합군은 후티 점령지 전역에 대규모 공습을 단행했다고 로이터·국영통신이 보도했어요."
   ],
   "sources": [
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 9
+    "count": 10
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 82
+    "count": 81
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 30
+    "count": 33
    },
    {
     "name": "AFP",
@@ -35,12 +35,13 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 109
+    "count": 112
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 43
+    "count": 40,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -65,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 87
+    "count": 83
    }
   ],
   "mofaLatest": [
@@ -103,227 +104,82 @@
  },
  "events": [
   {
-   "id": "45cc1682c737",
+   "id": "7269ac4845ca",
    "articleIds": [
-    "a884b2d42401"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-18T08:10:35.129Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Saudi-backed forces launch major attack on Houthis, and other Mideast news",
-     "titleKo": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스",
-     "summary": "",
-     "reportedAt": "2026-11-18T07:58:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGdKNEV2dGQxbWV0MUEzMUh5czNJQXBGSjZQUUlTbmJWYWQwMnB4bElQYWpOOC1LaGZkYUVZeUdYRFdrcVYtcWhFNDRLdzk2OUI5Rlh2T1k2cGI1T0lKdUprbzBnNG5SOGhvdnd4eFhFVE9KN1ZUdGJkY3MyWWZSVS1LWnUzUHpPN0tiYTdBQUZ3b0tIX24xWlNHNVZ4TUNHQWhubHFhT00?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "b7907f59b615",
-   "articleIds": [
-    "ffe97c340939"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "미국 원유 재고 증가로 공급 위험 완화되며 유가 하락",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-18T07:10:30.721Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Oil prices fall as higher US crude stocks temper supply risks",
-     "titleKo": "미국 원유 재고 증가로 공급 위험 완화되며 유가 하락",
-     "summary": "",
-     "reportedAt": "2026-11-18T07:04:49.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/energy/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks-3012668"
-    }
-   ]
-  },
-  {
-   "id": "98ba10bcb2c2",
-   "articleIds": [
-    "607e2a269b7f"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-18T08:30:40.138Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
-     "titleKo": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴",
-     "summary": "",
-     "reportedAt": "2026-11-18T06:56:36.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OTzZvTGstU180dFFKdEVreDIwdkpxaHNFWi1MODVPNUQyQXhBQXFkR3kyZmt6amdWNloyNzMtVTNQeW9wWXNKdVhB?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "1a373c25db8c",
-   "articleIds": [
-    "d9391728bc49",
-    "5c57de7874b1",
-    "b355a0c70c00",
-    "6d779369c0e3"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "multi",
-   "directive": null,
-   "title": "연합군, 리야드 지역으로 발사된 크루즈미사일을 요격했다고 발표",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-18T02:10:33.183Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Kuwait, Bahrain fend off Iranian aerial attacks as coalition hits Houthi military sites",
-     "titleKo": "후티 TV, 사우디 공습으로 공장 화염 보도",
-     "summary": "후티 방송은 사우디의 공습으로 예멘 공장이 불에 탔다고 보도했어요.",
-     "reportedAt": "2026-11-18T02:02:44.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/middle-east/kuwait-bahrain-fend-off-iranian-aerial-attacks-as-coalition-hits-houthi-military-sites-3012614"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition destroys Houthi missile launched toward Riyadh area",
-     "titleKo": "연합군, 리야드 향 크루즈미사일 요격·파괴",
-     "summary": "연합군은 리야드로 발사된 크루즈미사일을 요격·파괴했다고 보도했어요.",
-     "reportedAt": "2026-11-18T04:48:54.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/coalition-destroys-houthi-missile-launched-toward-riyadh-area-3012641"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi coalition destroys Houthi missile launched toward Riyadh area",
-     "titleKo": "연합군, 리야드 향 미사일 격추 발표",
-     "summary": "연합군이 리야드를 향한 후티 미사일을 격추했다고 발표했어요.",
-     "reportedAt": "2026-11-18T04:50:05.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcVJ0bDl4cXJqVmdvem9HLXNQMnJhQ3ZoR1ZiZXA3bXY0dnlQd0U3RmRtZDBhZ3cxbUp6eDhabnF5YzdHbHk4VE9uUmlKTVdVSUVocWMtaG52WDRuZXc2UFJZSUs0LVc5eEphcldVUWRaeDNXRWNMdkZUV0xUUHA0NmJlUi1fbTU5Z0hWLWNDQTlDcUtkY0YyUGc0Z2txamlWeURuY0xnUzRjQUREWVVFQkVpQQ?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition destroys 60 Houthi military targets in Yemen, intercepts cruise missile targeting Riyadh",
-     "titleKo": "연합군, 후티 표적 60곳 공격·리야드 행 미사일 요격 발표",
-     "summary": "연합군은 예멘 내 60개 후티 표적을 공격하고 리야드 향 미사일을 요격했다고 발표했어요.",
-     "reportedAt": "2026-11-18T06:27:56.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666329/saudi-arabia/coalition-destroys-60-houthi-military-targets-in-yemen-intercepts-cruise-missile-targeting-riyadh"
-    }
-   ]
-  },
-  {
-   "id": "b0a87a3aa7e5",
-   "articleIds": [
-    "a16bbc79e533",
-    "fdd255984c57",
+    "15e5799921c9",
+    "0fff5677b2a8",
     "ccaa951c7192",
+    "9b9f134a3cc0",
     "c75c742a7f65",
     "20edc93cd3ec",
-    "c9fb626f6252"
+    "f2bc4c8f82d1",
+    "d9391728bc49",
+    "c9fb626f6252",
+    "a884b2d42401",
+    "f8d68f9b9c24"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "claim",
+   "status": "multi",
    "directive": null,
-   "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
+   "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
    "titleAuto": false,
    "regions": [
-    "eastern"
+    "riyadh",
+    "airport"
    ],
-   "inferred": true,
-   "inferNote": "기사들은 예멘 내 피해를 보도했지만 일부는 보복 맥락에서 사우디-예멘 교전과 연결돼 동부 인근 영향 가능성을 추정했어요.",
+   "inferred": false,
+   "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-16T10:40:33.325Z",
+   "collectedAt": "2026-11-15T11:00:51.723Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "AP",
+     "outlet": "Reuters",
      "cat": "wire",
-     "title": "Houthis accuse Saudi Arabia of strikes that killed 3 including a child, and other Mideast news",
-     "titleKo": "후티, 사우디 폭격으로 사망자 발생 주장",
-     "summary": "후티는 사우디의 공습으로 어린이를 포함해 사망자가 발생했다고 주장했어요.",
-     "reportedAt": "2026-11-16T13:53:46.000Z",
+     "title": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre",
+     "titleKo": "후티, 리야드 공항·금융센터 향해 탄도미사일·드론 발사 주장",
+     "summary": "로이터는 후티가 리야드 공항·금융센터를 겨냥한 탄도미사일을 발사했다고 주장했다고 보도했어요.",
+     "reportedAt": "2026-11-15T18:02:53.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZG5hSUlUV1Faal92TE5Na3NzVENGU181SVRwMnN1VzgzMm0xUERkZDdFZG9DLUl6SVhLbnFTSXktZEcwU0RSMTBFaUlPYUZ3TjljdkU3NzdBcGVvQTMwd0Rxa0g1bVFfZnp6eWVkMDg2OGQ0aUczYlc2Q3NtaWRaWU9VSkNJeUZMZ1EyWDNoNXhha1YwQXRfUUpQYm1RbmZEV25QZTRuN3ZFMjRocWNwZ2dBZno?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2NSdXVjeDlTU0lLeTAtMGs5RmdHaW0wTVhVbzUwempOYUdlNVB3NXprMGZqYksyVjhLUU1OV250QlczemJOT2tXcVFIZEJYb0dwblVCblExbnFmZkVyeGZnZ0NJY3Z3a3NTcmxUQ21tR0ZsQVdhTTNRNWJaZW5pOEk4RDNEMXN3aExOaEE0QVNzaXV3UTM3ZjlNa2hDenRtajR2aGVGT3RQR0NOSnY1VHQ3czdCSkJWSUgxaFFYNThEUlBBMVpn?oc=5"
     },
     {
-     "outlet": "MBC",
+     "outlet": "동아일보",
      "cat": "kr",
-     "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
+     "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
      "titleKo": null,
-     "summary": "사우디가 연합군 사령관을 전격 교체했다고 국제언론이 보도했어요.",
-     "reportedAt": "2026-11-16T14:01:17.000Z",
+     "summary": "동아 등은 후티가 리야드 공항과 금융센터를 폭격했다고 보도했어요.",
+     "reportedAt": "2026-11-15T22:33:49.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1UYk8yUkMzcjJoSlQ2cDBFd2JpeEJMOFJ4a1ExRVB6ckNicFdPTEhzTzROZ1ItY09CVzBneGVudmV4MWlzX3RnT08xNVBydWQwV0JUM1ExOFQ2b0hQY0xHblJ5akhfTlZQdUZDeGY0T2RpM21R0gF0QVVfeXFMUHlMbUxmbVBZbi1wQTZrWnBxSWdmQUZNUVo0bUU4VkdvYzJPYXlsSkVNYmNuc1psazYxaG94Xzh5YmdEWGpuYXRid2hxNlJUV0ZpQVJCZXB5RGZKSlFWSTlxYWxfcDRvM01XZHA3VUV4OGhWQ1Y?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RbW5zOURYZ0VjRFJCWnUyUlpmTXFGSm4zdXJDcXl4Z24tSVhlZGplNEZQYVFXRW5PWmpxUnFvc1lPd1VmTHV0Tk5mM3NyWlk0OFgtNUxhdW9zTUxDbGdqVFh0b0FEeDBuV3o0d0ktUFpvVEnSAWZBVV95cUxPc0NSY3cwZXZvU1FXWjVNanZnakhHM210UmtIQ0l0cU8tRWhOQjZrSk9Vb1hvbVQycGhnd3F6c3V5U0pUU1hnMlJ0aTc1NUxiQ1NxWWtYN0ZrOFZod1RmNHRIbXdxZGc?oc=5"
     },
     {
      "outlet": "AFP",
      "cat": "wire",
      "title": "Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance",
      "titleKo": "연합군 지휘관 해임 보도",
-     "summary": "사우디가 연합군 지휘관을 해임했다고 AFP가 전했어요.",
+     "summary": "AFP는 사우디가 연합군 사령관을 경질했다고 보도했어요.",
      "reportedAt": "2026-11-16T14:42:44.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT3NjbXV1cHI4cUZiNmJmR0FscFVPTEVUR3FMVTN2Vk5UNXZmNWNMbTFxdDF1ZWYzQU16M0hCQ29aYXZScUlHUzJVSGJ2aVA2QmdsdmpBSWF6eFBvX1VwVEZOWmJaUEFUWUNSNHhHMWQ3QldPekUzc3FIdG02X2hVV3VFeTBXU1VfQnJRcVBKMktyanRiVVd2RFFEZmZYYVZqaldMQ1lzZzdHMmplYlZkbUU4TDF4eV8tRkE?oc=5"
+    },
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
+     "titleKo": null,
+     "summary": "KBS도 사우디의 연합군 사령관 경질을 보도했어요.",
+     "reportedAt": "2026-11-16T15:28:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UMTZBZ3FvdXFMa0QxclctR01reVhiUlhZVDh2T24wRkRDTEw2c3oxa1NGdURTNGRCNGRHbWItSDdJamo4MlJzUTVoTzNreTI1R09RZGJxZWlVQ00?oc=5"
     },
     {
      "outlet": "뉴시스",
      "cat": "kr",
      "title": "후티, 예멘 임시수도 아덴 접근…사우디, 연합군 사령관 교체",
      "titleKo": null,
-     "summary": "후티가 예멘 아덴 접근을 시도한다고 보도되면서 사령관 교체 소식이 전해졌어요.",
+     "summary": "뉴시스는 후티가 아덴에 접근 중이라 보도했고 사우디가 연합군 사령관을 교체했다고 전했어요.",
      "reportedAt": "2026-11-16T19:13:41.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14Z0p2X3hMbjdXbGpTMzhwSi13QjlXVUVNMENBbFFDdElxcjhqbkdJLVZXRUVNdXpFb21hTGJIbzd1aTBxajl1a0t3X0U5S2JBSDk0WjlyMEptZ0tqQk1pOGFud0xJODZlQ0FmS2hnUnR4WDhvNEN3RNIBeEFVX3lxTE14Z0p2X3hMbjdXbGpTMzhwSi13QjlXVUVNMENBbFFDdElxcjhqbkdJLVZXRUVNdXpFb21hTGJIbzd1aTBxajl1a0t3X0U5S2JBSDk0WjlyMEptZ0tqQk1pOGFud0xJODZlQ0FmS2hnUnR4WDhvNEN3RA?oc=5"
@@ -333,30 +189,256 @@
      "cat": "local",
      "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
      "titleKo": "사우디, 연합군 사령관 전격 교체 보도",
-     "summary": "사우디가 연합군 사령관을 전격 경질했다고 보도됐어요.",
+     "summary": "Al Jazeera는 사우디가 연합군 지휘관을 해임했다고 보도했어요.",
      "reportedAt": "2026-11-16T19:24:52.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd203NG52SlFONmtCTm91YjhsamNiTGxGRFlza0ZqS2FETXNPNHZ3Z1RDMWlaLXZGVjhua3A3QVA2WXgyd3ExOW96UVgweGU1VmpaM0toTl9DVEQxZXBFZVlCMDhOTmRsWExzOWhSZVNUVmFBSW50NmpUc1F3TEhYcXZ1Tno0ekdmY1lOZmhnbEM0YTNBQ2s2dWlPaTJ5U0VxRzJCQVpMZjJOaDRnTzFUbNIBtgFBVV95cUxOWGw4WGYyQUpwckQ1RUFsdjlTM25OMFYtUnlwTldhY2JhR2JwQXp0UTFOUE52Vm5qa3lCSzBZMllBNnBGcUJhOTh2Wl9lWHk2Y2VtQmh6aUZ6Z2dTRmJoY3BvR1RhMmdVRkg1Z19WTUxPU0ZOTHozci1EZ2xaX1kzTl9rLWZMb2tieDFRdHIwNWNyQ0tnMjVOQnpnMk5sNkx6YTk0anVyMHo5el9NbWcxUnlHckhqUQ?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi Arabia condemns Iranian attacks on Bahrain",
+     "titleKo": "사우디 외무, 이란 공격 규탄 발표",
+     "summary": "사우디 외교부 등 기관들이 후티의 사우디 공격을 규탄했다고 보도했어요.",
+     "reportedAt": "2026-11-17T14:40:22.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-iranian-attacks-on-bahrain-3012505"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Kuwait, Bahrain fend off Iranian aerial attacks as coalition hits Houthi military sites",
+     "titleKo": "후티 TV, 사우디 공습으로 공장 화염 보도",
+     "summary": "쿠웨이트·바레인이 이란의 공중 공격을 방어하는 가운데 연합군이 예멘의 후티 군사지를 타격했다고 보도했어요.",
+     "reportedAt": "2026-11-18T02:02:44.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/middle-east/kuwait-bahrain-fend-off-iranian-aerial-attacks-as-coalition-hits-houthi-military-sites-3012614"
     },
     {
      "outlet": "Reuters",
      "cat": "wire",
      "title": "Yemen factory engulfed in flames after Saudi strikes, Houthi TV says",
      "titleKo": "후티 매체, 사우디 공습으로 공장 화재 보도",
-     "summary": "후티 매체는 사우디의 공습으로 공장이 화염에 휩싸였다고 전했어요.",
+     "summary": "후티 TV는 사우디 공습으로 예멘의 한 공장이 불타고 있다고 보도했어요.",
      "reportedAt": "2026-11-18T03:36:35.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92SmpkeHlDTVUtWTFYRzMzcWt5eTFxM25BY29mMW5UQ0M1OXZpNHowVmJEOFo2cHRBejVyN1lPekdUZ2xnblV1Q0VrcEpTc0Z1S2g3Ri13S0dXWmpoRFJydDMwVnZqNGc?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Saudi-backed forces launch major attack on Houthis, and other Mideast news",
+     "titleKo": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스",
+     "summary": "사우디 지원군이 후티를 상대로 대대적 공격을 시작했다고 보도하는 등 중동 소식을 전했어요.",
+     "reportedAt": "2026-11-18T07:58:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGdKNEV2dGQxbWV0MUEzMUh5czNJQXBGSjZQUUlTbmJWYWQwMnB4bElQYWpOOC1LaGZkYUVZeUdYRFdrcVYtcWhFNDRLdzk2OUI5Rlh2T1k2cGI1T0lKdUprbzBnNG5SOGhvdnd4eFhFVE9KN1ZUdGJkY3MyWWZSVS1LWnUzUHpPN0tiYTdBQUZ3b0tIX24xWlNHNVZ4TUNHQWhubHFhT00?oc=5"
+    },
+    {
+     "outlet": "뉴시스",
+     "cat": "kr",
+     "title": "사우디 주도 연합군, 후티반군 점령 지역 전역에 대규모 공습",
+     "titleKo": null,
+     "summary": "사우디 주도 연합군이 후티 반군 점령 지역 전역에 대규모 공습을 가했다고 보도했어요.",
+     "reportedAt": "2026-11-18T08:26:19.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41bFk3YVd3djV1QlIxV1YycWY2UmtLRGZTN1Y5aFp0LWlPQTI4VEEzYVNuSUQzOGlhTzlUTkg3YlZsdTRyMDh2Y291bGlEclAxbXBvR2ktR2xaQklPX1E4btIBeEFVX3lxTFB0MF84eEFtd2RmMjFmMTZqYXA4RTN1RFBCUWZLaklPaWZvMkF5cmtwWlhxckJyc05oYzhwYndGSmlsMHl3cVFRaW51aERxWmhLZzIxZ29fZlFuLUN3RmNUSTdTR21SYXRLdjBPYTFKWk0zMlZQU3J0Nw?oc=5"
     }
    ]
   },
   {
-   "id": "c57019eeda87",
+   "id": "b7907f59b615",
    "articleIds": [
+    "ffe97c340939"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "미국 원유 재고 증가로 국제유가 하락 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-18T07:10:30.721Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil prices fall as higher US crude stocks temper supply risks",
+     "titleKo": "미국 원유 재고 증가로 유가 하락 보도",
+     "summary": "미국의 원유 및 연료 재고 증가가 확인돼 국제유가가 하락했지만 호르무즈 해협 긴장으로 낙폭은 제한됐다고 보도했어요.",
+     "reportedAt": "2026-11-18T07:04:49.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/energy/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks-3012668"
+    }
+   ]
+  },
+  {
+   "id": "31410b74f84f",
+   "articleIds": [
+    "9c059976b880",
+    "31ed0dcf7561",
+    "23cf142ca048",
+    "55e747a91792",
+    "7638a1cf6bff",
+    "de52b7e13574",
+    "d802241f8e33",
+    "ecbae4293069",
+    "5c57de7874b1",
+    "b355a0c70c00",
+    "6d779369c0e3",
+    "607e2a269b7f"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "연합군, 리야드 지역으로 향한 미사일·드론 요격했다고 발표",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-15T05:30:46.611Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+     "titleKo": "연합군, 후티 발사 추정 미사일·드론 요격 보도",
+     "summary": "연합군은 후티 발사로 추정되는 미사일·드론을 요격했다고 보도됐어요.",
+     "reportedAt": "2026-11-15T18:50:27.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "MWL Condemns Houthi Attempts to Target Makkah, Civilian Areas in Saudi Arabia",
+     "titleKo": "이슬람 기구, 후티의 메카·민간지역 타깃 시도 규탄",
+     "summary": "사우디 국영통신은 메카와 리야드 등 지역에서 후티 UAV 2대를 요격했다고 발표했어요.",
+     "reportedAt": "2026-11-16T06:50:39.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9IRjBpVXJrcmwxVi1mVjNQMW1LaU9LTWZqemo2WkFXWnRlYjk3SDBQVEdtc0tKRmRjcG9hMWF4aVJRX3NSMko0eHFn?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition intercepts two Houthi drones launched towards Makkah and Riyadh",
+     "titleKo": "연합군, 마카·리야드 향 후티 드론 2대 요격",
+     "summary": "Arab News는 Makkah과 Riyadh를 향한 드론이 요격됐다고 보도했어요.",
+     "reportedAt": "2026-11-16T13:09:05.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQXlIWERERnMtdXA3RTFWTFo3OUFjck9ENElKQnB3V290NXkwOGZBaG9JSWNJT05qYXNiYUJkSE5PUUlWZ0VOWWkwT2VkMVdqTEtlS0dBdHRvNzFmb0U5cXgwbU92dnoxaktaNWt5NTNSdGR6d3hDaHYyemJZaTNxQjF5R0hubGVadWlmSHU1MzhsUUpMUDVPbGVLOUI4SGN0Q1hVT3RBVWVEWXNQMHdBc0JscG04YWdkQ3Q0?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition intercepts 2 Houthi drones fired at Makkah and Riyadh regions",
+     "titleKo": "연합군, 마카·리야드서 후티 드론 2대 요격",
+     "summary": "Saudi Gazette는 메카와 리야드로 발사된 드론 2대를 연합군이 요격했다고 전했어요.",
+     "reportedAt": "2026-11-16T15:55:45.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666295/saudi-arabia/coalition-intercepts-2-houthi-drones-fired-at-makkah-and-riyadh-regions"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Saudi-backed forces in Yemen beef up defenses outside Aden to thwart Houthis, and other Mideast news",
+     "titleKo": "사우디 지원군, 아덴 인근 방어 강화",
+     "summary": "사우디 지원 세력이 아덴 외곽에서 방어 태세를 강화했다고 보도됐어요.",
+     "reportedAt": "2026-11-17T13:16:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Coalition Destroys Houthi Drone in Riyadh Region",
+     "titleKo": "연합군, 리야드 지역 후티 무인기 격추 발표",
+     "summary": "Asharq는 리야드 지역에서 후티 드론이 파괴됐다고 전했어요.",
+     "reportedAt": "2026-11-17T16:04:43.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5342404"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition intercepts Houthi drone in Riyadh region",
+     "titleKo": "연합군, 리야드서 후티 드론 요격했다고 밝혀",
+     "summary": "사우디 가제트는 연합군이 리야드 지역에서 후티 드론을 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-17T19:49:03.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666324/saudi-arabia/coalition-intercepts-houthi-drone-in-riyadh-region"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
+     "titleKo": "연합군, 리야드 지역서 후티 무인기 요격·파괴 발표",
+     "summary": "사우디 국영통신은 리야드 지역에서 후티가 발사한 UAV를 요격·파괴했다고 발표했어요.",
+     "reportedAt": "2026-11-17T21:21:27.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdFloWVdNeEpsNURBVl9XMnV3OVoxUlE4djVSRjZVSThlbmVNc19DbzBCMzJTMkxRTHU4SkNBNF9lcDVTcGJMY0t3?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition destroys Houthi missile launched toward Riyadh area",
+     "titleKo": "연합군, 리야드 향 크루즈미사일 요격·파괴",
+     "summary": "연합군이 리야드를 향한 순항미사일을 요격·파괴했다고 보도했어요.",
+     "reportedAt": "2026-11-18T04:48:54.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-destroys-houthi-missile-launched-toward-riyadh-area-3012641"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi coalition destroys Houthi missile launched toward Riyadh area",
+     "titleKo": "연합군, 리야드 향 미사일 격추 발표",
+     "summary": "연합군이 리야드를 향한 후티 미사일을 파괴했다고 보도했어요.",
+     "reportedAt": "2026-11-18T04:50:05.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcVJ0bDl4cXJqVmdvem9HLXNQMnJhQ3ZoR1ZiZXA3bXY0dnlQd0U3RmRtZDBhZ3cxbUp6eDhabnF5YzdHbHk4VE9uUmlKTVdVSUVocWMtaG52WDRuZXc2UFJZSUs0LVc5eEphcldVUWRaeDNXRWNMdkZUV0xUUHA0NmJlUi1fbTU5Z0hWLWNDQTlDcUtkY0YyUGc0Z2txamlWeURuY0xnUzRjQUREWVVFQkVpQQ?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition destroys 60 Houthi military targets in Yemen, intercepts cruise missile targeting Riyadh",
+     "titleKo": "연합군, 후티 표적 60곳 공격·리야드 행 미사일 요격 발표",
+     "summary": "연합군이 예멘 내 60곳의 후티 군사 표적을 파괴하고 리야드를 향한 순항미사일을 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-18T06:27:56.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666329/saudi-arabia/coalition-destroys-60-houthi-military-targets-in-yemen-intercepts-cruise-missile-targeting-riyadh"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+     "titleKo": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴",
+     "summary": "사우디 국영통신은 후티가 리야드 지역을 향해 발사한 순항미사일을 요격·파괴했다고 발표했어요.",
+     "reportedAt": "2026-11-18T06:56:36.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OTzZvTGstU180dFFKdEVreDIwdkpxaHNFWi1MODVPNUQyQXhBQXFkR3kyZmt6amdWNloyNzMtVTNQeW9wWXNKdVhB?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "d7b9648c0bd4",
+   "articleIds": [
+    "f8b570b8bb03",
     "08dcdb8d5e4c",
     "c04971f5dc26",
     "f491bcda822b",
-    "7b6a36ea7e33",
+    "ff131f95623b",
     "92f84c6b0c25",
     "66332d0c4d3a"
    ],
@@ -364,7 +446,7 @@
    "sev": "high",
    "status": "claim",
    "directive": null,
-   "title": "후티 \"사우디 동서 송유관 드론 공격\"∼피해 여부 확인 안 돼",
+   "title": "사우디 지원 예멘군, 홍해 요충지서 철수…후티 영향력 확대",
    "titleAuto": false,
    "regions": [
     "jafurah",
@@ -372,17 +454,27 @@
     "eastern"
    ],
    "inferred": true,
-   "inferNote": "기사들이 '사우디 동서 송유관'을 언급해 동부(담맘·자푸라 인근)와 관련있다고 추정했어요.",
+   "inferNote": "기사들이 ‘동서 송유관’ 또는 동부 송유관을 지칭해 자푸라·담맘 인근 동부지역과 연관이 있다고 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-17T18:30:40.096Z",
+   "collectedAt": "2026-11-15T23:40:30.342Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "사우디 지원 예멘군, 홍해 요충지서 철수…후티 영향력 확대",
+     "titleKo": null,
+     "summary": "한국경제는 사우디 지원 예멘군이 일부 지역에서 철수했다고 보도했어요.",
+     "reportedAt": "2026-11-15T23:07:25.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vdXdyb3M5Y0g3c1Z6eGhkQTAxSkI0anN3UDN4RGpxQTA4MkRoLWdJTzM3Z1g2U0FyN2Y3RmhMY3BWRXk5TWEyLVZWb25tbGd6TmcwVGJBOUZaQQ?oc=5"
+    },
     {
      "outlet": "Reuters",
      "cat": "wire",
      "title": "Yemen's Houthis say they launched drones towards Saudi East-West pipeline",
-     "titleKo": "후티, 사우디 동서 송유관 향해 드론 발사했다고 주장",
-     "summary": "후티가 사우디 동서 송유관을 향해 드론을 발사했다고 주장했으나 피해 여부는 확인되지 않았어요.",
+     "titleKo": "후티, 사우디 동서 송유관 쪽으로 드론 발사했다고 주장",
+     "summary": "로이터는 후티가 사우디 동서 송유관 방향으로 드론을 발사했다고 후티가 주장했다고 전했어요.",
      "reportedAt": "2026-11-17T18:20:54.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa1JWbURTTkJ4Z29LYnJBSXgtalBTYm56SVUyU2l2a0tDdnRBQ2hjdHRqZHFiVnFIbG9xUHBzM2EwZ2NINFhJUncxazNCSUMwUlJkRDVDTFlvU1dLR0Z3NktuSWpMRXJkUWZuRFJQRnRRbmxTVEdyZzNQd2lyd2dWbjVhUnNUUGtKVExlMzlIY0dET0NrZ0xpUW1KTWk3YkR3S2loZEpTcWdaOUxfd1FnMzFWWFlsZmJoTFowOW9JZWxYZVVq?oc=5"
@@ -392,7 +484,7 @@
      "cat": "kr",
      "title": "후티 \"사우디 동서 송유관 드론 공격\"∼피해 여부 확인 안 돼",
      "titleKo": null,
-     "summary": "후티가 사우디 동서 송유관을 드론으로 공격했다고 주장했다고 보도했어요.",
+     "summary": "뉴스1 등은 후티가 사우디 동서 송유관을 드론으로 공격했다고 주장했으나 피해 확인은 되지 않았다고 전했어요.",
      "reportedAt": "2026-11-17T19:23:31.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13eDZRMXZ4SmJYT2hOWDBrTEZOcFI4LWt0d0Vuc1liWlZzMkdfZm9fTzN4VmtJbHVyM2ZUT3BtUjl3MUNnSzZjbEpPZk5JOVlNSkhaYndsMFY0dEpTY2F6YXNn?oc=5"
@@ -402,27 +494,27 @@
      "cat": "kr",
      "title": "후티군 \"사우디 최대 송유관에 공습 시작\".. 사우디 폭격에 보복",
      "titleKo": null,
-     "summary": "후티가 송유관 공습을 시작했다고 주장하며 사우디 폭격에 보복했다고 보도했어요.",
+     "summary": "뉴시스는 후티가 사우디 송유관에 공습을 시작했다고 주장했다고 보도했어요.",
      "reportedAt": "2026-11-17T21:41:14.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CTG8xRG5RRGwtN1lFbXBGNWJkR01IQklpTnFmWWlhQUNEb2FEMlNPVjJfZlNNR2phYlZIM1UwUFZ0REpjcFl0UERya2hVbDg3SW5CdHZabUNsRFVpUkt2dlF2NkRKUkRySXVtbHZiODU0SndibmJOUtIBeEFVX3lxTE9CTG8xRG5RRGwtN1lFbXBGNWJkR01IQklpTnFmWWlhQUNEb2FEMlNPVjJfZlNNR2phYlZIM1UwUFZ0REpjcFl0UERya2hVbDg3SW5CdHZabUNsRFVpUkt2dlF2NkRKUkRySXVtbHZiODU0SndibmJOUg?oc=5"
     },
     {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "후티 \"사우디 송유관 타격\"…예멘 내전 격화속 민간인 피해 속출",
-     "titleKo": null,
-     "summary": "사우디 지원 예멘군 동향을 전하면서 후티 행동을 보도했어요.",
-     "reportedAt": "2026-11-17T23:08:40.000Z",
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news",
+     "titleKo": "사우디 지원군, 아덴 인근 방어 강화 보도",
+     "summary": "AP는 사우디 지원군이 예멘에서 방어를 강화하고 있다고 전했어요.",
+     "reportedAt": "2026-11-17T23:51:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4MUN6RGFFWWFkaEprdlg4VG5FWTdwQ0VfcWE5WmNhVnRoV3FLYm5XT3FPS0xlb1RuLVJTU0I1SVhNNHB1X3N0WmE4RXRiRXhOZDZBd2gtcS1Rb1NwS3hUMdIBYEFVX3lxTFA4MUN6RGFFWWFkaEprdlg4VG5FWTdwQ0VfcWE5WmNhVnRoV3FLYm5XT3FPS0xlb1RuLVJTU0I1SVhNNHB1X3N0WmE4RXRiRXhOZDZBd2gtcS1Rb1NwS3hUMQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5"
     },
     {
      "outlet": "MBC",
      "cat": "kr",
      "title": "후티 \"사우디 송유관 타격\"‥예멘 내전 격화 속 민간인 피해 속출",
      "titleKo": null,
-     "summary": "후티가 송유관을 타격했다고 주장하며 내전 격화 속 민간인 피해를 전했어요.",
+     "summary": "MBC는 후티가 송유관을 타격했다고 주장했고 민간 피해가 발생했다고 전했어요.",
      "reportedAt": "2026-11-18T00:08:56.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GZUhQVG0xN0pUUjFxRnAycThaVlROZ2tybG1ZeVg3Q1NtMFpDMmtSSmh1eU5uUV93NDBIc2c2SFQ0bk5TTFhaTDMwa2RhaW9MOEtOTkJZMmlnci1XdFYtUHlreV9lc3VKU2xkR1VFOWl6dWJD0gF0QVVfeXFMT0ZlSFBUbTE3SlRSMXFGcDJxOFpWVE5na3JsbVl5WDdDU20wWkMya1JKaHV5Tm5RX3c0MEhzZzZIVDRuTlNMWFpMMzBrZGFpb0w4S05OQlkyaWdyLVd0Vi1QeWt5X2VzdUpTbGRHVUU5aXp1YkM?oc=5"
@@ -432,7 +524,7 @@
      "cat": "kr",
      "title": "후티 “사우디 최대 송유관에 공습”…사우디 폭격에 보복",
      "titleKo": null,
-     "summary": "후티는 사우디 최대 송유관에 공습을 시작했다고 주장하며 보복했다고 전했어요.",
+     "summary": "중앙일보는 후티가 사우디 최대 송유관을 공습했다고 후티가 주장했다고 보도했어요.",
      "reportedAt": "2026-11-18T00:26:14.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02SW0tWlltUERhak9IUFJVTjlyY0UzZnhQQ29nczdtcWVuWGRFSlUyR0VUR2x2eUdvbXRmUDVnUXFzMW1JaTA4LTAzQlNfVHlzRU9LUEFn?oc=5"
@@ -440,34 +532,34 @@
    ]
   },
   {
-   "id": "017a857249f9",
+   "id": "98d1fad640b7",
    "articleIds": [
-    "ff131f95623b"
+    "7b6a36ea7e33"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "사우디 지원군, 아덴 인근 방어 강화 보도",
-   "titleAuto": true,
+   "title": "후티 \"사우디 송유관 타격\"…예멘 내전 격화속 민간인 피해 속출",
+   "titleAuto": false,
    "regions": [
     "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-17T16:20:27.051Z",
+   "collectedAt": "2026-11-17T23:20:29.038Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news",
-     "titleKo": "사우디 지원군, 아덴 인근 방어 강화 보도",
-     "summary": "예멘 내 사우디 지원군이 아덴 인근에서 방어를 강화했다고 AP가 전했어요.",
-     "reportedAt": "2026-11-17T23:51:00.000Z",
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "후티 \"사우디 송유관 타격\"…예멘 내전 격화속 민간인 피해 속출",
+     "titleKo": null,
+     "summary": "사우디 지원 예멘군 동향을 전하면서 후티 행동을 보도했어요.",
+     "reportedAt": "2026-11-17T23:08:40.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4MUN6RGFFWWFkaEprdlg4VG5FWTdwQ0VfcWE5WmNhVnRoV3FLYm5XT3FPS0xlb1RuLVJTU0I1SVhNNHB1X3N0WmE4RXRiRXhOZDZBd2gtcS1Rb1NwS3hUMdIBYEFVX3lxTFA4MUN6RGFFWWFkaEprdlg4VG5FWTdwQ0VfcWE5WmNhVnRoV3FLYm5XT3FPS0xlb1RuLVJTU0I1SVhNNHB1X3N0WmE4RXRiRXhOZDZBd2gtcS1Rb1NwS3hUMQ?oc=5"
     }
    ]
   },
@@ -504,155 +596,55 @@
    ]
   },
   {
-   "id": "c0aab02ac667",
+   "id": "f9fa6d44ada9",
    "articleIds": [
-    "9b6a70de2aad",
-    "9336ba9b4be5",
-    "23cf142ca048",
-    "55e747a91792",
-    "afc14bd4037b",
-    "5d25a941d145",
-    "b292bd488e7b",
-    "de52b7e13574",
-    "d802241f8e33",
-    "ecbae4293069"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "연합군, 리야드·마카 등지로 발사된 후티 드론·무인기 요격했다고 발표",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "eastern"
-   ],
-   "inferred": true,
-   "inferNote": "여러 보도가 리야드·마카 등 지역명을 직접 언급해 리야드 중심으로 영향을 추정했어요.",
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T15:30:45.068Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts Houthi UAVs fired at Makkah and Madinah regions",
-     "titleKo": "연합군, 마카·마디나 지역 무인기 요격 보도",
-     "summary": "연합군은 마카와 마디나 지역으로 발사된 무인기들을 요격했다고 보도했어요.",
-     "reportedAt": "2026-11-15T14:54:05.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts 2 Houthi UAVs fired at Makkah region",
-     "titleKo": "연합군, 마카 지역 무인기 2대 요격·파괴",
-     "summary": "연합군은 마카 지역으로 발사된 2대의 무인기를 요격·파괴했다고 밝혔어요.",
-     "reportedAt": "2026-11-15T14:54:05.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition intercepts two Houthi drones launched towards Makkah and Riyadh",
-     "titleKo": "연합군, 마카·리야드 향 후티 드론 2대 요격",
-     "summary": "연합군이 마카와 리야드를 향한 후티 드론 2대를 요격했다고 전했어요.",
-     "reportedAt": "2026-11-16T13:09:05.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQXlIWERERnMtdXA3RTFWTFo3OUFjck9ENElKQnB3V290NXkwOGZBaG9JSWNJT05qYXNiYUJkSE5PUUlWZ0VOWWkwT2VkMVdqTEtlS0dBdHRvNzFmb0U5cXgwbU92dnoxaktaNWt5NTNSdGR6d3hDaHYyemJZaTNxQjF5R0hubGVadWlmSHU1MzhsUUpMUDVPbGVLOUI4SGN0Q1hVT3RBVWVEWXNQMHdBc0JscG04YWdkQ3Q0?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts 2 Houthi drones fired at Makkah and Riyadh regions",
-     "titleKo": "연합군, 마카·리야드서 후티 드론 2대 요격",
-     "summary": "연합군이 마카와 리야드 등지에서 후티 드론 2대를 요격했다고 전했어요.",
-     "reportedAt": "2026-11-16T15:55:45.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666295/saudi-arabia/coalition-intercepts-2-houthi-drones-fired-at-makkah-and-riyadh-regions"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Coalition: Two Houthi Drones Intercepted and Destroyed in Makkah and Riyadh Regions",
-     "titleKo": "연합군, 마카·리야드 지역서 후티 드론 2대 격추 발표",
-     "summary": "연합군은 마카와 리야드 지역에서 후티 드론 2대를 격추했다고 보도했어요.",
-     "reportedAt": "2026-11-16T16:23:00.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5342018"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Two Houthi UAVs Intercepted and Destroyed in Makkah and Riyadh Regions",
-     "titleKo": "연합군, 마카·리야드서 후티 무인기 2대 격추",
-     "summary": "연합군은 마카와 리야드에서 후티 무인기 2대를 요격·파괴했다고 발표했어요.",
-     "reportedAt": "2026-11-16T18:17:39.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBpbEdLVzhuOHFMSi03VEdGcVdaTU9CNmhxLW13Y0NfYTY2RkNaM3N6dGllN1ZWOXM1N19FbWNKUkdqTFNkY2tNYmVR?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Houthi drone intercepted in Riyadh region, coalition says",
-     "titleKo": "연합군, 리야드로 향한 후티 드론 요격 발표",
-     "summary": "연합군은 리야드 지역으로 발사된 후티 드론을 요격했다고 발표했어요.",
-     "reportedAt": "2026-11-17T15:51:40.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVmNDNXdWTkdJRi1tRjhfVUFVdzJSaDFhTzFRd0EtTkFjUi04Wm51MVVnTkhnYXhrbkVFdGE4eENaRWhvYXBjQ3o4eE05bzVIVnZQeTlyUWdJQi1sTGFBOHUxVmp1Z1EtSXFVQldraXhveE5aUU1FU0ZBSlFmVktoSTVXZll3ZUxlcjVSZVpvWlo2X2RtVzhTWEVjNWgxNmdDMEU2eA?oc=5"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Coalition Destroys Houthi Drone in Riyadh Region",
-     "titleKo": "연합군, 리야드 지역 후티 무인기 격추 발표",
-     "summary": "연합군은 리야드 지역에서 후티 무인기를 격추했다고 보도했어요.",
-     "reportedAt": "2026-11-17T16:04:43.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5342404"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Coalition intercepts Houthi drone in Riyadh region",
-     "titleKo": "연합군, 리야드서 후티 드론 요격했다고 밝혀",
-     "summary": "연합군 대변인은 리야드 지역에서 후티 무인기를 요격했다고 밝혔어요.",
-     "reportedAt": "2026-11-17T19:49:03.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666324/saudi-arabia/coalition-intercepts-houthi-drone-in-riyadh-region"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
-     "titleKo": "연합군, 리야드 지역서 후티 무인기 요격·파괴 발표",
-     "summary": "사우디 연합군은 리야드 지역에서 후티가 발사한 무인기를 요격·파괴했다고 발표했어요.",
-     "reportedAt": "2026-11-17T21:21:27.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdFloWVdNeEpsNURBVl9XMnV3OVoxUlE4djVSRjZVSThlbmVNc19DbzBCMzJTMkxRTHU4SkNBNF9lcDVTcGJMY0t3?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "67f3934029a3",
-   "articleIds": [
-    "431fd2837ef7",
-    "62a9a6c37d91",
-    "e07e11f41570",
-    "d64ec1f7aec5",
-    "6a4cb3cb7578",
-    "99457c4cb509",
-    "f2bc4c8f82d1",
-    "21c2be95db9b",
     "da27b805da8a"
    ],
    "type": "korean",
    "sev": "mid",
    "status": "official",
    "directive": "advice",
-   "title": "사우디·각국, 이란·후티의 공격 행위를 강력히 규탄한다고 발표",
+   "title": "관계기관들, 후티 공격 규탄 성명 발표",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-17T20:10:30.883Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Arab Tourism Organization Condemns Houthi Attacks Targeting Saudi Arabia",
+     "titleKo": "아랍 관광기구, 후티의 사우디 공격 규탄",
+     "summary": "사우디 관광기구가 후티의 사우디 공격을 규탄했다고 통신이 전했어요.",
+     "reportedAt": "2026-11-17T19:53:31.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMeFo2VXlVN3BfZHk3Nk5welBvd1pWcFk1RVU0MUdmNkpubExMUmZ3MXJjMlByWlFtZDZpeG5VQUxuTFUxckp5Zk1n?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "0f1a956e9558",
+   "articleIds": [
+    "a69ba5a61dac",
+    "afc14bd4037b",
+    "62a9a6c37d91",
+    "d64ec1f7aec5",
+    "6a4cb3cb7578",
+    "99457c4cb509",
+    "17e8c0b4b7cc",
+    "21c2be95db9b",
+    "41b05892efed"
+   ],
+   "type": "korean",
+   "sev": "mid",
+   "status": "official",
+   "directive": "advice",
+   "title": "사우디, 이란의 바레인 공격·후티 위협 규탄·국제 반발 전파",
    "titleAuto": true,
    "regions": [
     "riyadh"
@@ -660,18 +652,28 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-15T11:00:51.723Z",
+   "collectedAt": "2026-11-12T16:00:52.780Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Pakistan Strongly Condemns Houthi Attempted Attack on Saudi Aramco Administrative Building in Riyadh",
+     "titleKo": "파키스탄, 리야드 아람코 건물 타깃 시도 규탄",
+     "summary": "사우디는 바레인 내 사우디 아람코 행정건물 대상 시도에 대해 파키스탄이 규탄했다고 전했어요.",
+     "reportedAt": "2026-11-16T02:51:05.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB2aEx6ckFqTHdHZlRsUXhZYUZWYWlnZjVWMzBkVHVuR3hwdlAyRzRqMkd2Wjg1cjVldWo0d3hka0hfTjRadTVyTG1B?oc=5"
+    },
+    {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
-     "title": "Saudi Arabia: Iran’s Attack on Bahrain is a Violation of Int’l Law",
-     "titleKo": "사우디, 이란의 바레인 공격 국제법 위반 규정 발표",
-     "summary": "사우디는 이란의 바레인 공격이 국제법 위반이라고 규정했다고 전했어요.",
-     "reportedAt": "2026-11-15T19:30:15.000Z",
+     "title": "Coalition: Two Houthi Drones Intercepted and Destroyed in Makkah and Riyadh Regions",
+     "titleKo": "연합군, 마카·리야드 지역서 후티 드론 2대 격추 발표",
+     "summary": "Asharq는 메카와 리야드에서 후티 드론 요격 소식을 전했어요.",
+     "reportedAt": "2026-11-16T16:23:00.000Z",
      "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5341645"
+     "url": "https://english.aawsat.com/node/5342018"
     },
     {
      "outlet": "SPA (사우디 국영통신)",
@@ -684,21 +686,11 @@
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1XRzEwN2JTYUhaQm43NHl3WldxTG85MWxXaS02TFdudDZ4eXhJVUliZGZHVXNFaEMxMm90YWw3aG9rcngxWFB5MVBn?oc=5"
     },
     {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Burundi's Grand Mufti Condemns Houthi Terrorist Attacks on Saudi Arabia",
-     "titleKo": "부룬디 대무프티, 후티 공격 규탄",
-     "summary": "부룬디 대무프티가 후티의 공격을 규탄했다고 전했어요.",
-     "reportedAt": "2026-11-16T17:06:55.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE51dWljZmtsNTktY3NoeV93aGctUm51alF6T3hJYkVwWndXTTlFTkJ3QzZma3o5Z192ZlM3bi1kTXpmRHB5enljdXZB?oc=5"
-    },
-    {
      "outlet": "Saudi Gazette",
      "cat": "local",
      "title": "Saudi Arabia strongly condemns repeated Iranian attacks on Bahrain",
      "titleKo": "사우디, 이란 공격 강력 규탄 보도",
-     "summary": "사우디는 이란의 바레인 공격을 강력히 규탄한다고 전해졌어요.",
+     "summary": "Saudi Gazette가 반복된 이란의 공격을 규탄하는 사우디 입장을 전했어요.",
      "reportedAt": "2026-11-17T14:03:00.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666314/saudi-arabia/saudi-arabia-strongly-condemns-repeated-iranian-attacks-on-bahrain"
@@ -708,7 +700,7 @@
      "cat": "local",
      "title": "Slovenian Mufti Condemns Houthi Attacks on Saudi Arabia",
      "titleKo": "슬로베니아 무프티, 후티 공격 규탄",
-     "summary": "슬로베니아 무프티가 후티 공격을 규탄했다고 보도됐어요.",
+     "summary": "슬로베니아 무프티가 후티 공격을 규탄했다고 사우디 통신이 보도했어요.",
      "reportedAt": "2026-11-17T14:40:17.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4tTThTUWpTY1JCVkJra1dmNi1ZNDk5LVpvZUFEZWY0N05QR3VTM3dvQVNPOFhNYnh6ajZ2Ukk2MmtWSjlqWC13UmJ3?oc=5"
@@ -718,7 +710,7 @@
      "cat": "local",
      "title": "Saudi Arabia Condemns Repeated Iranian Attacks on Bahrain",
      "titleKo": "사우디, 이란의 바레인 공격 강력 규탄",
-     "summary": "사우디는 바레인에 대한 이란의 공격을 강력히 규탄한다고 발표했어요.",
+     "summary": "사우디 국영통신이 이란 공격 규탄 성명을 전했어요.",
      "reportedAt": "2026-11-17T14:40:22.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9rY0RIUTFLZzc1ODZ2V0wwOGYwRDJvLTZ1LUg1bVVUcXRSRE51TmNnSV9fMG9xRU81X085ZnpNUXp1MnhfQ0JnX25R?oc=5"
@@ -726,61 +718,29 @@
     {
      "outlet": "Arab News",
      "cat": "local",
-     "title": "Saudi Arabia condemns Iranian attacks on Bahrain",
-     "titleKo": "사우디 외무, 이란 공격 규탄 발표",
-     "summary": "사우디 외무부는 이란의 바레인 공격을 규탄했다고 보도됐어요.",
+     "title": "Saudi Arabia condemns repeated Iranian attacks on Bahrain",
+     "titleKo": "사우디, 바레인 공격 규탄 보도",
+     "summary": "Arab News도 이란의 공격을 규탄하는 사우디 성명을 보도했어요.",
      "reportedAt": "2026-11-17T14:40:22.000Z",
      "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-iranian-attacks-on-bahrain-3012505"
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVnRJWFZxdHg0V2ZGOGJxRmZUVlE1VHkxRmpBb0tsZEw0ckJpbDdRbDdGQUpjNzZTNmJSRDFmM1BSVnhkdnRjYWNIVjdObS1TU3piaThqMmpNbllwQ2ZTclRVYU1sYTg2X2Fodi1rTEhFNnFwRTZRUlk0a3lsQm94dWpSN2htOUNIXzVBdVVjSXBJZDVxM2h2YjVmUHNhZ1VMcmJNR0JR?oc=5"
     },
     {
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
      "title": "Saudi Arabia Condemns Repeated Iranian Attacks on Bahrain",
      "titleKo": "아랍 기구들, 후티·이란 공격 규탄 성명 발표",
-     "summary": "사우디와 여러 기구는 이란과 후티의 공격을 강력히 규탄한다고 성명을 냈어요.",
+     "summary": "사우디는 이란의 바레인 공격을 강력히 규탄했다고 보도했어요.",
      "reportedAt": "2026-11-17T16:00:22.000Z",
      "dateOnly": false,
      "url": "https://english.aawsat.com/node/5342400"
     },
     {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Arab Tourism Organization Condemns Houthi Attacks Targeting Saudi Arabia",
-     "titleKo": "아랍 관광기구, 후티의 사우디 공격 규탄",
-     "summary": "아랍 관광기구가 후티의 사우디 공격을 규탄했다고 발표했어요.",
-     "reportedAt": "2026-11-17T19:53:31.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMeFo2VXlVN3BfZHk3Nk5welBvd1pWcFk1RVU0MUdmNkpubExMUmZ3MXJjMlByWlFtZDZpeG5VQUxuTFUxckp5Zk1n?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "a81237d5615f",
-   "articleIds": [
-    "41b05892efed"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "요르단, 바레인에 대한 이란 공격 규탄",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-17T19:40:35.476Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
      "outlet": "Arab News",
      "cat": "local",
      "title": "Jordan condemns Iran for repeated attacks on Bahrain amid rising aggression",
      "titleKo": "요르단, 바레인에 대한 이란 공격 규탄",
-     "summary": "요르단 외무가 바레인에 대한 이란 공격을 규탄했다고 보도됐어요.",
+     "summary": "Jordan 외무는 이란의 바레인 공격을 규탄했다고 보도했어요.",
      "reportedAt": "2026-11-17T19:35:43.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/middle-east/jordan-condemns-iran-for-repeated-attacks-on-bahrain-amid-rising-aggression-3012559"
@@ -788,133 +748,89 @@
    ]
   },
   {
-   "id": "be50a10a5088",
+   "id": "782ae4bac116",
    "articleIds": [
-    "17e8c0b4b7cc"
+    "5d25a941d145"
    ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
+   "type": "drone",
+   "sev": "high",
+   "status": "official",
    "directive": null,
-   "title": "사우디, 바레인 공격 규탄 보도",
+   "title": "연합군, 마카·리야드서 후티 무인기 2대 격추",
    "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-17T14:40:29.124Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi Arabia condemns repeated Iranian attacks on Bahrain",
-     "titleKo": "사우디, 바레인 공격 규탄 보도",
-     "summary": "사우디가 바레인의 안보 위협을 이유로 이란 공격을 규탄했다고 전해졌어요.",
-     "reportedAt": "2026-11-17T14:40:22.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVnRJWFZxdHg0V2ZGOGJxRmZUVlE1VHkxRmpBb0tsZEw0ckJpbDdRbDdGQUpjNzZTNmJSRDFmM1BSVnhkdnRjYWNIVjdObS1TU3piaThqMmpNbllwQ2ZTclRVYU1sYTg2X2Fodi1rTEhFNnFwRTZRUlk0a3lsQm94dWpSN2htOUNIXzVBdVVjSXBJZDVxM2h2YjVmUHNhZ1VMcmJNR0JR?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "1d0bfdbaaa52",
-   "articleIds": [
-    "7638a1cf6bff"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 지원군, 아덴 인근 방어 강화",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-17T11:50:30.039Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Saudi-backed forces in Yemen beef up defenses outside Aden to thwart Houthis, and other Mideast news",
-     "titleKo": "사우디 지원군, 아덴 인근 방어 강화",
-     "summary": "사우디 지원 세력이 아덴 외곽에서 방어 태세를 강화했다고 보도됐어요.",
-     "reportedAt": "2026-11-17T13:16:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "689176ab760c",
-   "articleIds": [
-    "a2755b326385"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "'경질 위기' 사우디 감독, 한국 덕분에 살았다! \"역대 최초 3골 폭발 亞 강호 상대로 역사적 승리...잔류 근거 확보\" - 머니투데이",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-17T05:40:36.417Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "'경질 위기' 사우디 감독, 한국 덕분에 살았다! \"역대 최초 3골 폭발 亞 강호 상대로 역사적 승리...잔류 근거 확보\" - 머니투데이",
-     "titleKo": null,
-     "summary": "국내 매체가 사우디 감독 관련 축구 소식을 전했어요.",
-     "reportedAt": "2026-11-17T05:26:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRdIBb0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "5d0fff523d13",
-   "articleIds": [
-    "f8b570b8bb03",
-    "5493d99ba6a4",
-    "9b9f134a3cc0"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "multi",
-   "directive": null,
-   "title": "사우디 지원 예멘군, 홍해 요충지서 철수…후티 영향력 확대",
-   "titleAuto": false,
    "regions": [
     "riyadh"
    ],
-   "inferred": true,
-   "inferNote": "사령관 교체 발표는 중앙 지휘부 관련으로 리야드와 연관됐을 가능성을 추정했어요.",
+   "inferred": false,
+   "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-15T23:40:30.342Z",
+   "collectedAt": "2026-11-16T14:50:41.855Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "한국경제",
-     "cat": "kr",
-     "title": "사우디 지원 예멘군, 홍해 요충지서 철수…후티 영향력 확대",
-     "titleKo": null,
-     "summary": "사우디 지원 세력이 홍해 요충지에서 철수하면서 후티 영향력이 커졌다고 보도했어요.",
-     "reportedAt": "2026-11-15T23:07:25.000Z",
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Two Houthi UAVs Intercepted and Destroyed in Makkah and Riyadh Regions",
+     "titleKo": "연합군, 마카·리야드서 후티 무인기 2대 격추",
+     "summary": "연합군은 마카와 리야드에서 후티 무인기 2대를 요격·파괴했다고 발표했어요.",
+     "reportedAt": "2026-11-16T18:17:39.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vdXdyb3M5Y0g3c1Z6eGhkQTAxSkI0anN3UDN4RGpxQTA4MkRoLWdJTzM3Z1g2U0FyN2Y3RmhMY3BWRXk5TWEyLVZWb25tbGd6TmcwVGJBOUZaQQ?oc=5"
-    },
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBpbEdLVzhuOHFMSi03VEdGcVdaTU9CNmhxLW13Y0NfYTY2RkNaM3N6dGllN1ZWOXM1N19FbWNKUkdqTFNkY2tNYmVR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "4201c6292722",
+   "articleIds": [
+    "e07e11f41570"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "부룬디 대무프티, 후티 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-16T18:50:31.093Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Burundi's Grand Mufti Condemns Houthi Terrorist Attacks on Saudi Arabia",
+     "titleKo": "부룬디 대무프티, 후티 공격 규탄",
+     "summary": "부룬디 대무프티가 후티의 공격을 규탄했다고 전했어요.",
+     "reportedAt": "2026-11-16T17:06:55.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE51dWljZmtsNTktY3NoeV93aGctUm51alF6T3hJYkVwWndXTTlFTkJ3QzZma3o5Z192ZlM3bi1kTXpmRHB5enljdXZB?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "aa06aa2bb3a0",
+   "articleIds": [
+    "5493d99ba6a4"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티에 고전 중인 사우디, 연합군 사령관 전격 경질",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-16T14:50:41.855Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
      "outlet": "경향신문",
      "cat": "kr",
@@ -924,16 +840,38 @@
      "reportedAt": "2026-11-16T14:04:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OTm9ReGZMRjZCdjVvTjAxVkdRVEp6ZVRqRnlzR29IcW1La2xTQkdUUHlWd2Y2c3dmYVRjQVJteEJaNWdHVFA1TlYtV1VHcjlXTXhMMEc0ZmVGOGdSdUZJ0gFfQVVfeXFMT05Ob1F4ZkxGNkJ2NW9OMDFWR1FUSnplVGpGeXNHb0hxbUtrbFNCR1RQeVZ3ZjZzd2ZhVGNBUm14Qlo1Z0dUUDVOVi1XVUdyOVdNeEwwRzRmZUY4Z1J1Rkk?oc=5"
-    },
+    }
+   ]
+  },
+  {
+   "id": "8e19c431150c",
+   "articleIds": [
+    "a16bbc79e533"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 사우디 폭격으로 사망자 발생 주장",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-16T10:40:33.325Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
     {
-     "outlet": "KBS",
-     "cat": "kr",
-     "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
-     "titleKo": null,
-     "summary": "KBS도 사우디의 연합군 사령관 경질을 보도했어요.",
-     "reportedAt": "2026-11-16T15:28:00.000Z",
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Houthis accuse Saudi Arabia of strikes that killed 3 including a child, and other Mideast news",
+     "titleKo": "후티, 사우디 폭격으로 사망자 발생 주장",
+     "summary": "후티는 사우디의 공습으로 어린이를 포함해 사망자가 발생했다고 주장했어요.",
+     "reportedAt": "2026-11-16T13:53:46.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UMTZBZ3FvdXFMa0QxclctR01reVhiUlhZVDh2T24wRkRDTEw2c3oxa1NGdURTNGRCNGRHbWItSDdJamo4MlJzUTVoTzNreTI1R09RZGJxZWlVQ00?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZG5hSUlUV1Faal92TE5Na3NzVENGU181SVRwMnN1VzgzMm0xUERkZDdFZG9DLUl6SVhLbnFTSXktZEcwU0RSMTBFaUlPYUZ3TjljdkU3NzdBcGVvQTMwd0Rxa0g1bVFfZnp6eWVkMDg2OGQ0aUczYlc2Q3NtaWRaWU9VSkNJeUZMZ1EyWDNoNXhha1YwQXRfUUpQYm1RbmZEV25QZTRuN3ZFMjRocWNwZ2dBZno?oc=5"
     }
    ]
   },
@@ -970,70 +908,6 @@
    ]
   },
   {
-   "id": "a9e1db6f6d0d",
-   "articleIds": [
-    "31ed0dcf7561"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "이슬람 기구, 후티의 메카·민간지역 타깃 시도 규탄",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-16T17:10:30.812Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "MWL Condemns Houthi Attempts to Target Makkah, Civilian Areas in Saudi Arabia",
-     "titleKo": "이슬람 기구, 후티의 메카·민간지역 타깃 시도 규탄",
-     "summary": "이슬람 단체가 후티의 메카·민간지역 타깃 시도를 규탄했다고 전해요.",
-     "reportedAt": "2026-11-16T06:50:39.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9IRjBpVXJrcmwxVi1mVjNQMW1LaU9LTWZqemo2WkFXWnRlYjk3SDBQVEdtc0tKRmRjcG9hMWF4aVJRX3NSMko0eHFn?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "1c0ec6e51867",
-   "articleIds": [
-    "a69ba5a61dac"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "파키스탄, 리야드 아람코 건물 타깃 시도 규탄",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-12T16:00:52.780Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Pakistan Strongly Condemns Houthi Attempted Attack on Saudi Aramco Administrative Building in Riyadh",
-     "titleKo": "파키스탄, 리야드 아람코 건물 타깃 시도 규탄",
-     "summary": "파키스탄이 리야드의 아람코 행정건물에 대한 후티의 시도를 규탄했다고 보도됐어요.",
-     "reportedAt": "2026-11-16T02:51:05.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB2aEx6ckFqTHdHZlRsUXhZYUZWYWlnZjVWMzBkVHVuR3hwdlAyRzRqMkd2Wjg1cjVldWo0d3hka0hfTjRadTVyTG1B?oc=5"
-    }
-   ]
-  },
-  {
    "id": "0fb0e13709e5",
    "articleIds": [
     "ae4a2758f8e2"
@@ -1062,39 +936,6 @@
      "reportedAt": "2026-11-16T01:48:51.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wSjRLV2xMMkhrMVJKMVlFQi1yZmZxVnpfVVltQVNxay0tM0l0Y0E5ckI5cmJmVVhFU3lUd0xHaW14UWE0QThUZHpaQmwzVWoySWV4Uk5R?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "d04c3f462221",
-   "articleIds": [
-    "0fff5677b2a8"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
-   "titleAuto": false,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-16T00:10:33.759Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "동아일보",
-     "cat": "kr",
-     "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
-     "titleKo": null,
-     "summary": "사우디 연합군이 후티의 미사일·드론을 리야드 공항·금융센터 방향으로 발사됐다고 발표했다는 보도예요.",
-     "reportedAt": "2026-11-15T22:33:49.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RbW5zOURYZ0VjRFJCWnUyUlpmTXFGSm4zdXJDcXl4Z24tSVhlZGplNEZQYVFXRW5PWmpxUnFvc1lPd1VmTHV0Tk5mM3NyWlk0OFgtNUxhdW9zTUxDbGdqVFh0b0FEeDBuV3o0d0ktUFpvVEnSAWZBVV95cUxPc0NSY3cwZXZvU1FXWjVNanZnakhHM210UmtIQ0l0cU8tRWhOQjZrSk9Vb1hvbVQycGhnd3F6c3V5U0pUU1hnMlJ0aTc1NUxiQ1NxWWtYN0ZrOFZod1RmNHRIbXdxZGc?oc=5"
     }
    ]
   },
@@ -1132,89 +973,34 @@
    ]
   },
   {
-   "id": "d72dc942b3bc",
+   "id": "2b26f35bad2a",
    "articleIds": [
-    "19059ceefb27",
-    "15e5799921c9",
-    "9c059976b880"
+    "431fd2837ef7"
    ],
-   "type": "airport",
-   "sev": "mid",
-   "status": "claim",
-   "directive": null,
-   "title": "후티, 리야드 공항·금융센터 향해 탄도미사일·드론을 발사했다고 주장",
-   "titleAuto": true,
-   "regions": [
-    "airport",
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-15T05:30:46.611Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition forces intercept 2 Houthi missiles, 5 drones targeting Saudi Arabia",
-     "titleKo": "연합군, 후티의 미사일 2기·드론 5기 요격 보도",
-     "summary": "연합군은 후티가 사우디를 향해 미사일 2기와 드론 5기를 발사했다고 보도했어요.",
-     "reportedAt": "2026-11-15T13:42:11.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0o5cWFFWWFpMTNWYWduSWxKV3pBaFZaMWhSeWRzOUtYUUt6VmNLOHRPRm43b09wcXYtTkE5ZXA4R0dKbzFYNmlMTmN4SGhMMTE3QjVGOUFSTnNhX2RHMDQ2TC1mY2dYNTIyME1xTEhEQVY5VG1pblYzbDlldXJsRFg2eVBYZDRMOGM2RTNGOHdhSUh3S1NNUW1aTW9uVFBMRnVHYkxMcmkxbE0wT19YLTFNa2FENGVGV0F0WEhVOA?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre",
-     "titleKo": "후티, 리야드 공항·금융센터 향해 탄도미사일·드론 발사 주장",
-     "summary": "후티는 리야드 공항과 금융센터를 향해 탄도미사일과 드론을 발사했다고 주장했어요.",
-     "reportedAt": "2026-11-15T18:02:53.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2NSdXVjeDlTU0lLeTAtMGs5RmdHaW0wTVhVbzUwempOYUdlNVB3NXprMGZqYksyVjhLUU1OV250QlczemJOT2tXcVFIZEJYb0dwblVCblExbnFmZkVyeGZnZ0NJY3Z3a3NTcmxUQ21tR0ZsQVdhTTNRNWJaZW5pOEk4RDNEMXN3aExOaEE0QVNzaXV3UTM3ZjlNa2hDenRtajR2aGVGT3RQR0NOSnY1VHQ3czdCSkJWSUgxaFFYNThEUlBBMVpn?oc=5"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
-     "titleKo": "연합군, 후티 발사 추정 미사일·드론 요격 보도",
-     "summary": "연합군은 후티 발사로 추정되는 미사일·드론을 요격했다고 보도됐어요.",
-     "reportedAt": "2026-11-15T18:50:27.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "3e6712e3d8e7",
-   "articleIds": [
-    "bd1d5f57db35"
-   ],
-   "type": "fire",
+   "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "\"저건 초등부도 욕먹는 짓\" 이천수, 한국 대표팀 수비에 분노 폭발...사우디전 3실점 참사에 \"클린스만 축구 같다\" 직격탄 - 머니투데이",
-   "titleAuto": false,
+   "title": "사우디, 이란의 바레인 공격 국제법 위반 규정 발표",
+   "titleAuto": true,
    "regions": [
     "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-15T15:20:30.736Z",
-   "aiNote": null,
+   "collectedAt": "2026-11-15T19:30:35.551Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "\"저건 초등부도 욕먹는 짓\" 이천수, 한국 대표팀 수비에 분노 폭발...사우디전 3실점 참사에 \"클린스만 축구 같다\" 직격탄 - 머니투데이",
-     "titleKo": null,
-     "summary": "머니투데이가 축구 경기 관련 의견을 보도했어요.",
-     "reportedAt": "2026-11-15T14:59:00.000Z",
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Saudi Arabia: Iran’s Attack on Bahrain is a Violation of Int’l Law",
+     "titleKo": "사우디, 이란의 바레인 공격 국제법 위반 규정 발표",
+     "summary": "사우디는 이란의 바레인 공격이 국제법 위반이라고 규정했다고 전했어요.",
+     "reportedAt": "2026-11-15T19:30:15.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXVVRXNHBybWhfSjU2YWNpTUVScUpqcDNvdVEzNVVGXzZLeFBYOXJnZng2M2VqUHFVZTVoby1GdlpsbFpwQ3A5Tk1kSHBhR2JOTmlNLUVpSk5pOFl1Q2ZyMkhBcEtqdUx1WWdUbGJKONIBb0FVX3lxTFBXVVRXNHBybWhfSjU2YWNpTUVScUpqcDNvdVEzNVVGXzZLeFBYOXJnZng2M2VqUHFVZTVoby1GdlpsbFpwQ3A5Tk1kSHBhR2JOTmlNLUVpSk5pOFl1Q2ZyMkhBcEtqdUx1WWdUbGJKOA?oc=5"
+     "url": "https://english.aawsat.com/node/5341645"
     }
    ]
   },
@@ -1236,7 +1022,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-15T19:50:31.314Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "Saudi Gazette",
@@ -1244,6 +1030,70 @@
      "title": "Coalition intercepts 3 Houthi drones in Makkah and Madinah regions",
      "titleKo": "연합군, 마카·마디나 향 후티 드론 3대 요격 발표",
      "summary": "연합군은 마카와 마디나 지역으로 향한 후티 드론 3대를 요격했다고 발표했어요.",
+     "reportedAt": "2026-11-15T14:54:05.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
+    }
+   ]
+  },
+  {
+   "id": "9073f9e2c980",
+   "articleIds": [
+    "9b6a70de2aad"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 마카·마디나 지역 무인기 요격 보도",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-15T16:40:30.443Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition intercepts Houthi UAVs fired at Makkah and Madinah regions",
+     "titleKo": "연합군, 마카·마디나 지역 무인기 요격 보도",
+     "summary": "연합군은 마카와 마디나 지역으로 발사된 무인기들을 요격했다고 보도했어요.",
+     "reportedAt": "2026-11-15T14:54:05.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
+    }
+   ]
+  },
+  {
+   "id": "c4cf8a336a61",
+   "articleIds": [
+    "9336ba9b4be5"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 마카 지역 무인기 2대 요격·파괴",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-15T15:30:45.068Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition intercepts 2 Houthi UAVs fired at Makkah region",
+     "titleKo": "연합군, 마카 지역 무인기 2대 요격·파괴",
+     "summary": "연합군은 마카 지역으로 발사된 2대의 무인기를 요격·파괴했다고 밝혔어요.",
      "reportedAt": "2026-11-15T14:54:05.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666268/saudi-arabia/coalition-intercepts-2-houthi-uavs-fired-at-makkah-region"
@@ -1259,7 +1109,7 @@
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "사우디 상무부, 과열 위험 보세(Bose) 스피커 리콜 발표",
+   "title": "사우디 상무부, 화재 위험 Bose 스피커 리콜 발표",
    "titleAuto": true,
    "regions": [
     "riyadh"
@@ -1283,6 +1133,38 @@
    ]
   },
   {
+   "id": "88e1cdba706b",
+   "articleIds": [
+    "19059ceefb27"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 후티의 미사일 2기·드론 5기 요격 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-15T13:50:30.237Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition forces intercept 2 Houthi missiles, 5 drones targeting Saudi Arabia",
+     "titleKo": "연합군, 후티의 미사일 2기·드론 5기 요격 보도",
+     "summary": "연합군은 후티가 사우디를 향해 미사일 2기와 드론 5기를 발사했다고 보도했어요.",
+     "reportedAt": "2026-11-15T13:42:11.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0o5cWFFWWFpMTNWYWduSWxKV3pBaFZaMWhSeWRzOUtYUUt6VmNLOHRPRm43b09wcXYtTkE5ZXA4R0dKbzFYNmlMTmN4SGhMMTE3QjVGOUFSTnNhX2RHMDQ2TC1mY2dYNTIyME1xTEhEQVY5VG1pblYzbDlldXJsRFg2eVBYZDRMOGM2RTNGOHdhSUh3S1NNUW1aTW9uVFBMRnVHYkxMcmkxbE0wT19YLTFNa2FENGVGV0F0WEhVOA?oc=5"
+    }
+   ]
+  },
+  {
    "id": "460d76dbf28a",
    "articleIds": [
     "cd709fac8212"
@@ -1300,7 +1182,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-15T12:40:34.697Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "Arab News",
@@ -1321,7 +1203,7 @@
    ],
    "type": "drone",
    "sev": "high",
-   "status": "single",
+   "status": "claim",
    "directive": null,
    "title": "사우디, 바레인 공격 즉각 중단 촉구",
    "titleAuto": true,
@@ -1332,7 +1214,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-15T10:30:40.496Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "Saudi Gazette",
@@ -1361,7 +1243,7 @@
    "inferred": false,
    "titleKo": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴",
    "title": "Coalition: Cruise Missile Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
-   "summary": "",
+   "summary": "사우디 국영통신은 후티가 리야드 지역을 향해 발사한 순항미사일을 요격·파괴했다고 발표했어요.",
    "reportedAt": "2026-11-18T06:56:36.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OTzZvTGstU180dFFKdEVreDIwdkpxaHNFWi1MODVPNUQyQXhBQXFkR3kyZmt6amdWNloyNzMtVTNQeW9wWXNKdVhB?oc=5"
@@ -1379,7 +1261,7 @@
    "inferred": false,
    "titleKo": "후티 매체, 사우디 공습으로 공장 화재 보도",
    "title": "Yemen factory engulfed in flames after Saudi strikes, Houthi TV says",
-   "summary": "후티 매체는 사우디의 공습으로 공장이 화염에 휩싸였다고 전했어요.",
+   "summary": "후티 TV는 사우디 공습으로 예멘의 한 공장이 불타고 있다고 보도했어요.",
    "reportedAt": "2026-11-18T03:36:35.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92SmpkeHlDTVUtWTFYRzMzcWt5eTFxM25BY29mMW5UQ0M1OXZpNHowVmJEOFo2cHRBejVyN1lPekdUZ2xnblV1Q0VrcEpTc0Z1S2g3Ri13S0dXWmpoRFJydDMwVnZqNGc?oc=5"
@@ -1397,7 +1279,7 @@
    "inferred": false,
    "titleKo": "연합군, 리야드 지역서 후티 무인기 요격·파괴 발표",
    "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Riyadh Region",
-   "summary": "사우디 연합군은 리야드 지역에서 후티가 발사한 무인기를 요격·파괴했다고 발표했어요.",
+   "summary": "사우디 국영통신은 리야드 지역에서 후티가 발사한 UAV를 요격·파괴했다고 발표했어요.",
    "reportedAt": "2026-11-17T21:21:27.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdFloWVdNeEpsNURBVl9XMnV3OVoxUlE4djVSRjZVSThlbmVNc19DbzBCMzJTMkxRTHU4SkNBNF9lcDVTcGJMY0t3?oc=5"
@@ -1415,7 +1297,7 @@
    "inferred": false,
    "titleKo": "아랍 관광기구, 후티의 사우디 공격 규탄",
    "title": "Arab Tourism Organization Condemns Houthi Attacks Targeting Saudi Arabia",
-   "summary": "아랍 관광기구가 후티의 사우디 공격을 규탄했다고 발표했어요.",
+   "summary": "사우디 관광기구가 후티의 사우디 공격을 규탄했다고 통신이 전했어요.",
    "reportedAt": "2026-11-17T19:53:31.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMeFo2VXlVN3BfZHk3Nk5welBvd1pWcFk1RVU0MUdmNkpubExMUmZ3MXJjMlByWlFtZDZpeG5VQUxuTFUxckp5Zk1n?oc=5"
@@ -1431,9 +1313,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "후티, 사우디 동서 송유관 향해 드론 발사했다고 주장",
+   "titleKo": "후티, 사우디 동서 송유관 쪽으로 드론 발사했다고 주장",
    "title": "Yemen's Houthis say they launched drones towards Saudi East-West pipeline",
-   "summary": "후티가 사우디 동서 송유관을 향해 드론을 발사했다고 주장했으나 피해 여부는 확인되지 않았어요.",
+   "summary": "로이터는 후티가 사우디 동서 송유관 방향으로 드론을 발사했다고 후티가 주장했다고 전했어요.",
    "reportedAt": "2026-11-17T18:20:54.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa1JWbURTTkJ4Z29LYnJBSXgtalBTYm56SVUyU2l2a0tDdnRBQ2hjdHRqZHFiVnFIbG9xUHBzM2EwZ2NINFhJUncxazNCSUMwUlJkRDVDTFlvU1dLR0Z3NktuSWpMRXJkUWZuRFJQRnRRbmxTVEdyZzNQd2lyd2dWbjVhUnNUUGtKVExlMzlIY0dET0NrZ0xpUW1KTWk3YkR3S2loZEpTcWdaOUxfd1FnMzFWWFlsZmJoTFowOW9JZWxYZVVq?oc=5"
@@ -1451,7 +1333,7 @@
    "inferred": false,
    "titleKo": "연합군, 리야드 지역 후티 무인기 격추 발표",
    "title": "Coalition Destroys Houthi Drone in Riyadh Region",
-   "summary": "연합군은 리야드 지역에서 후티 무인기를 격추했다고 보도했어요.",
+   "summary": "Asharq는 리야드 지역에서 후티 드론이 파괴됐다고 전했어요.",
    "reportedAt": "2026-11-17T16:04:43.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5342404"
@@ -1469,7 +1351,7 @@
    "inferred": false,
    "titleKo": "아랍 기구들, 후티·이란 공격 규탄 성명 발표",
    "title": "Saudi Arabia Condemns Repeated Iranian Attacks on Bahrain",
-   "summary": "사우디와 여러 기구는 이란과 후티의 공격을 강력히 규탄한다고 성명을 냈어요.",
+   "summary": "사우디는 이란의 바레인 공격을 강력히 규탄했다고 보도했어요.",
    "reportedAt": "2026-11-17T16:00:22.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5342400"
@@ -1487,7 +1369,7 @@
    "inferred": false,
    "titleKo": "사우디, 이란의 바레인 공격 강력 규탄",
    "title": "Saudi Arabia Condemns Repeated Iranian Attacks on Bahrain",
-   "summary": "사우디는 바레인에 대한 이란의 공격을 강력히 규탄한다고 발표했어요.",
+   "summary": "사우디 국영통신이 이란 공격 규탄 성명을 전했어요.",
    "reportedAt": "2026-11-17T14:40:22.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9rY0RIUTFLZzc1ODZ2V0wwOGYwRDJvLTZ1LUg1bVVUcXRSRE51TmNnSV9fMG9xRU81X085ZnpNUXp1MnhfQ0JnX25R?oc=5"
@@ -1505,7 +1387,7 @@
    "inferred": false,
    "titleKo": "슬로베니아 무프티, 후티 공격 규탄",
    "title": "Slovenian Mufti Condemns Houthi Attacks on Saudi Arabia",
-   "summary": "슬로베니아 무프티가 후티 공격을 규탄했다고 보도됐어요.",
+   "summary": "슬로베니아 무프티가 후티 공격을 규탄했다고 사우디 통신이 보도했어요.",
    "reportedAt": "2026-11-17T14:40:17.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4tTThTUWpTY1JCVkJra1dmNi1ZNDk5LVpvZUFEZWY0N05QR3VTM3dvQVNPOFhNYnh6ajZ2Ukk2MmtWSjlqWC13UmJ3?oc=5"
@@ -1523,7 +1405,7 @@
    "inferred": false,
    "titleKo": "사우디, 연합군 사령관 전격 교체 보도",
    "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-   "summary": "사우디가 연합군 사령관을 전격 경질했다고 보도됐어요.",
+   "summary": "Al Jazeera는 사우디가 연합군 지휘관을 해임했다고 보도했어요.",
    "reportedAt": "2026-11-16T19:24:52.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd203NG52SlFONmtCTm91YjhsamNiTGxGRFlza0ZqS2FETXNPNHZ3Z1RDMWlaLXZGVjhua3A3QVA2WXgyd3ExOW96UVgweGU1VmpaM0toTl9DVEQxZXBFZVlCMDhOTmRsWExzOWhSZVNUVmFBSW50NmpUc1F3TEhYcXZ1Tno0ekdmY1lOZmhnbEM0YTNBQ2s2dWlPaTJ5U0VxRzJCQVpMZjJOaDRnTzFUbNIBtgFBVV95cUxOWGw4WGYyQUpwckQ1RUFsdjlTM25OMFYtUnlwTldhY2JhR2JwQXp0UTFOUE52Vm5qa3lCSzBZMllBNnBGcUJhOTh2Wl9lWHk2Y2VtQmh6aUZ6Z2dTRmJoY3BvR1RhMmdVRkg1Z19WTUxPU0ZOTHozci1EZ2xaX1kzTl9rLWZMb2tieDFRdHIwNWNyQ0tnMjVOQnpnMk5sNkx6YTk0anVyMHo5el9NbWcxUnlHckhqUQ?oc=5"
@@ -1595,7 +1477,7 @@
    "inferred": false,
    "titleKo": "연합군, 마카·리야드 지역서 후티 드론 2대 격추 발표",
    "title": "Coalition: Two Houthi Drones Intercepted and Destroyed in Makkah and Riyadh Regions",
-   "summary": "연합군은 마카와 리야드 지역에서 후티 드론 2대를 격추했다고 보도했어요.",
+   "summary": "Asharq는 메카와 리야드에서 후티 드론 요격 소식을 전했어요.",
    "reportedAt": "2026-11-16T16:23:00.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5342018"
@@ -1613,7 +1495,7 @@
    "inferred": false,
    "titleKo": "이슬람 기구, 후티의 메카·민간지역 타깃 시도 규탄",
    "title": "MWL Condemns Houthi Attempts to Target Makkah, Civilian Areas in Saudi Arabia",
-   "summary": "이슬람 단체가 후티의 메카·민간지역 타깃 시도를 규탄했다고 전해요.",
+   "summary": "사우디 국영통신은 메카와 리야드 등 지역에서 후티 UAV 2대를 요격했다고 발표했어요.",
    "reportedAt": "2026-11-16T06:50:39.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9IRjBpVXJrcmwxVi1mVjNQMW1LaU9LTWZqemo2WkFXWnRlYjk3SDBQVEdtc0tKRmRjcG9hMWF4aVJRX3NSMko0eHFn?oc=5"
@@ -1631,7 +1513,7 @@
    "inferred": false,
    "titleKo": "파키스탄, 리야드 아람코 건물 타깃 시도 규탄",
    "title": "Pakistan Strongly Condemns Houthi Attempted Attack on Saudi Aramco Administrative Building in Riyadh",
-   "summary": "파키스탄이 리야드의 아람코 행정건물에 대한 후티의 시도를 규탄했다고 보도됐어요.",
+   "summary": "사우디는 바레인 내 사우디 아람코 행정건물 대상 시도에 대해 파키스탄이 규탄했다고 전했어요.",
    "reportedAt": "2026-11-16T02:51:05.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB2aEx6ckFqTHdHZlRsUXhZYUZWYWlnZjVWMzBkVHVuR3hwdlAyRzRqMkd2Wjg1cjVldWo0d3hka0hfTjRadTVyTG1B?oc=5"
@@ -1686,7 +1568,7 @@
    "inferred": false,
    "titleKo": "후티, 리야드 공항·금융센터 향해 탄도미사일·드론 발사 주장",
    "title": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre",
-   "summary": "후티는 리야드 공항과 금융센터를 향해 탄도미사일과 드론을 발사했다고 주장했어요.",
+   "summary": "로이터는 후티가 리야드 공항·금융센터를 겨냥한 탄도미사일을 발사했다고 주장했다고 보도했어요.",
    "reportedAt": "2026-11-15T18:02:53.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2NSdXVjeDlTU0lLeTAtMGs5RmdHaW0wTVhVbzUwempOYUdlNVB3NXprMGZqYksyVjhLUU1OV250QlczemJOT2tXcVFIZEJYb0dwblVCblExbnFmZkVyeGZnZ0NJY3Z3a3NTcmxUQ21tR0ZsQVdhTTNRNWJaZW5pOEk4RDNEMXN3aExOaEE0QVNzaXV3UTM3ZjlNa2hDenRtajR2aGVGT3RQR0NOSnY1VHQ3czdCSkJWSUgxaFFYNThEUlBBMVpn?oc=5"
@@ -1694,6 +1576,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "f8d68f9b9c24",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "뉴시스",
+    "title": "사우디 주도 연합군, 후티반군 점령 지역 전역에 대규모 공습",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41bFk3YVd3djV1QlIxV1YycWY2UmtLRGZTN1Y5aFp0LWlPQTI4VEEzYVNuSUQzOGlhTzlUTkg3YlZsdTRyMDh2Y291bGlEclAxbXBvR2ktR2xaQklPX1E4btIBeEFVX3lxTFB0MF84eEFtd2RmMjFmMTZqYXA4RTN1RFBCUWZLaklPaWZvMkF5cmtwWlhxckJyc05oYzhwYndGSmlsMHl3cVFRaW51aERxWmhLZzIxZ29fZlFuLUN3RmNUSTdTR21SYXRLdjBPYTFKWk0zMlZQU3J0Nw?oc=5",
+    "reportedAt": 1794990379000,
+    "assumeSaudi": false,
+    "firstSeen": 1794992453863
+   },
    {
     "id": "a884b2d42401",
     "feed": "AP",
@@ -2550,63 +2446,67 @@
    }
   ],
   "summaries": {
-   "a69ba5a61dac": "파키스탄이 리야드의 아람코 행정건물에 대한 후티의 시도를 규탄했다고 보도됐어요.",
+   "a69ba5a61dac": "사우디는 바레인 내 사우디 아람코 행정건물 대상 시도에 대해 파키스탄이 규탄했다고 전했어요.",
    "9c059976b880": "연합군은 후티 발사로 추정되는 미사일·드론을 요격했다고 보도됐어요.",
    "bc9e5f311573": "사우디가 바레인에 대한 이란 공중공격을 즉각 중단하라고 촉구했다고 보도됐어요.",
    "cd709fac8212": "지역 불안에도 사우디 경제 기초체력은 견고하다고 분석 보도했어요.",
-   "f2bc4c8f82d1": "사우디 외무부는 이란의 바레인 공격을 규탄했다고 보도됐어요.",
+   "f2bc4c8f82d1": "사우디 외교부 등 기관들이 후티의 사우디 공격을 규탄했다고 보도했어요.",
    "bd1d5f57db35": "머니투데이가 축구 경기 관련 의견을 보도했어요.",
    "ef128570c686": "사우디 상무부가 배터리 과열로 화재 위험이 있는 Bose 스피커 2,214대를 리콜한다고 발표했어요.",
    "19059ceefb27": "연합군은 후티가 사우디를 향해 미사일 2기와 드론 5기를 발사했다고 보도했어요.",
    "9b6a70de2aad": "연합군은 마카와 마디나 지역으로 발사된 무인기들을 요격했다고 보도했어요.",
    "9336ba9b4be5": "연합군은 마카 지역으로 발사된 2대의 무인기를 요격·파괴했다고 밝혔어요.",
    "431fd2837ef7": "사우디는 이란의 바레인 공격이 국제법 위반이라고 규정했다고 전했어요.",
-   "15e5799921c9": "후티는 리야드 공항과 금융센터를 향해 탄도미사일과 드론을 발사했다고 주장했어요.",
+   "15e5799921c9": "로이터는 후티가 리야드 공항·금융센터를 겨냥한 탄도미사일을 발사했다고 주장했다고 보도했어요.",
    "c96c20831908": "후티가 리야드 공항과 금융센터 등을 공격했다고 보도에서 주장했다고 전했어요.",
    "13369bf3a151": "연합군은 마카와 마디나 지역으로 향한 후티 드론 3대를 요격했다고 발표했어요.",
    "ae4a2758f8e2": "이란이 바레인의 미군 시설을 공격했다고 보도되며 후티의 공세가 이어졌어요.",
-   "f8b570b8bb03": "사우디 지원 세력이 홍해 요충지에서 철수하면서 후티 영향력이 커졌다고 보도했어요.",
-   "0fff5677b2a8": "사우디 연합군이 후티의 미사일·드론을 리야드 공항·금융센터 방향으로 발사됐다고 발표했다는 보도예요.",
+   "f8b570b8bb03": "한국경제는 사우디 지원 예멘군이 일부 지역에서 철수했다고 보도했어요.",
+   "0fff5677b2a8": "동아 등은 후티가 리야드 공항과 금융센터를 폭격했다고 보도했어요.",
    "a16bbc79e533": "후티는 사우디의 공습으로 어린이를 포함해 사망자가 발생했다고 주장했어요.",
-   "23cf142ca048": "연합군이 마카와 리야드를 향한 후티 드론 2대를 요격했다고 전했어요.",
-   "afc14bd4037b": "연합군은 마카와 리야드 지역에서 후티 드론 2대를 격추했다고 보도했어요.",
-   "55e747a91792": "연합군이 마카와 리야드 등지에서 후티 드론 2대를 요격했다고 전했어요.",
+   "23cf142ca048": "Arab News는 Makkah과 Riyadh를 향한 드론이 요격됐다고 보도했어요.",
+   "afc14bd4037b": "Asharq는 메카와 리야드에서 후티 드론 요격 소식을 전했어요.",
+   "55e747a91792": "Saudi Gazette는 메카와 리야드로 발사된 드론 2대를 연합군이 요격했다고 전했어요.",
    "5d25a941d145": "연합군은 마카와 리야드에서 후티 무인기 2대를 요격·파괴했다고 발표했어요.",
-   "ccaa951c7192": "사우디가 연합군 지휘관을 해임했다고 AFP가 전했어요.",
+   "ccaa951c7192": "AFP는 사우디가 연합군 사령관을 경질했다고 보도했어요.",
    "5493d99ba6a4": "경향신문도 사우디의 사령관 경질 소식을 전했어요.",
    "fdd255984c57": "사우디가 연합군 사령관을 전격 교체했다고 국제언론이 보도했어요.",
    "2bd2e3ddf1fc": "연합뉴스가 연합군 사령관 전격 경질을 보도했어요.",
    "e07e11f41570": "부룬디 대무프티가 후티의 공격을 규탄했다고 전했어요.",
-   "31ed0dcf7561": "이슬람 단체가 후티의 메카·민간지역 타깃 시도를 규탄했다고 전해요.",
+   "31ed0dcf7561": "사우디 국영통신은 메카와 리야드 등 지역에서 후티 UAV 2대를 요격했다고 발표했어요.",
    "a2755b326385": "국내 매체가 사우디 감독 관련 축구 소식을 전했어요.",
-   "20edc93cd3ec": "사우디가 연합군 사령관을 전격 경질했다고 보도됐어요.",
-   "c75c742a7f65": "후티가 예멘 아덴 접근을 시도한다고 보도되면서 사령관 교체 소식이 전해졌어요.",
+   "20edc93cd3ec": "Al Jazeera는 사우디가 연합군 지휘관을 해임했다고 보도했어요.",
+   "c75c742a7f65": "뉴시스는 후티가 아덴에 접근 중이라 보도했고 사우디가 연합군 사령관을 교체했다고 전했어요.",
    "62a9a6c37d91": "아랍 내무장관회의 사무국이 후티의 반복된 공격을 규탄했다고 발표했어요.",
    "9b9f134a3cc0": "KBS도 사우디의 연합군 사령관 경질을 보도했어요.",
-   "d64ec1f7aec5": "사우디는 이란의 바레인 공격을 강력히 규탄한다고 전해졌어요.",
-   "ecbae4293069": "사우디 연합군은 리야드 지역에서 후티가 발사한 무인기를 요격·파괴했다고 발표했어요.",
-   "de52b7e13574": "연합군은 리야드 지역에서 후티 무인기를 격추했다고 보도했어요.",
-   "b292bd488e7b": "연합군은 리야드 지역으로 발사된 후티 드론을 요격했다고 발표했어요.",
-   "ff131f95623b": "예멘 내 사우디 지원군이 아덴 인근에서 방어를 강화했다고 AP가 전했어요.",
-   "c04971f5dc26": "후티가 사우디 동서 송유관을 드론으로 공격했다고 주장했다고 보도했어요.",
-   "08dcdb8d5e4c": "후티가 사우디 동서 송유관을 향해 드론을 발사했다고 주장했으나 피해 여부는 확인되지 않았어요.",
-   "f491bcda822b": "후티가 송유관 공습을 시작했다고 주장하며 사우디 폭격에 보복했다고 보도했어요.",
-   "d802241f8e33": "연합군 대변인은 리야드 지역에서 후티 무인기를 요격했다고 밝혔어요.",
+   "d64ec1f7aec5": "Saudi Gazette가 반복된 이란의 공격을 규탄하는 사우디 입장을 전했어요.",
+   "ecbae4293069": "사우디 국영통신은 리야드 지역에서 후티가 발사한 UAV를 요격·파괴했다고 발표했어요.",
+   "de52b7e13574": "Asharq는 리야드 지역에서 후티 드론이 파괴됐다고 전했어요.",
+   "b292bd488e7b": "Arab News는 리야드를 향한 후티 드론을 연합군이 요격했다고 보도했어요.",
+   "ff131f95623b": "AP는 사우디 지원군이 예멘에서 방어를 강화하고 있다고 전했어요.",
+   "c04971f5dc26": "뉴스1 등은 후티가 사우디 동서 송유관을 드론으로 공격했다고 주장했으나 피해 확인은 되지 않았다고 전했어요.",
+   "08dcdb8d5e4c": "로이터는 후티가 사우디 동서 송유관 방향으로 드론을 발사했다고 후티가 주장했다고 전했어요.",
+   "f491bcda822b": "뉴시스는 후티가 사우디 송유관에 공습을 시작했다고 주장했다고 보도했어요.",
+   "d802241f8e33": "사우디 가제트는 연합군이 리야드 지역에서 후티 드론을 요격했다고 보도했어요.",
    "7638a1cf6bff": "사우디 지원 세력이 아덴 외곽에서 방어 태세를 강화했다고 보도됐어요.",
-   "da27b805da8a": "아랍 관광기구가 후티의 사우디 공격을 규탄했다고 발표했어요.",
-   "17e8c0b4b7cc": "사우디가 바레인의 안보 위협을 이유로 이란 공격을 규탄했다고 전해졌어요.",
-   "99457c4cb509": "사우디는 바레인에 대한 이란의 공격을 강력히 규탄한다고 발표했어요.",
-   "6a4cb3cb7578": "슬로베니아 무프티가 후티 공격을 규탄했다고 보도됐어요.",
-   "66332d0c4d3a": "후티는 사우디 최대 송유관에 공습을 시작했다고 주장하며 보복했다고 전했어요.",
+   "da27b805da8a": "사우디 관광기구가 후티의 사우디 공격을 규탄했다고 통신이 전했어요.",
+   "17e8c0b4b7cc": "Arab News도 이란의 공격을 규탄하는 사우디 성명을 보도했어요.",
+   "99457c4cb509": "사우디 국영통신이 이란 공격 규탄 성명을 전했어요.",
+   "6a4cb3cb7578": "슬로베니아 무프티가 후티 공격을 규탄했다고 사우디 통신이 보도했어요.",
+   "66332d0c4d3a": "중앙일보는 후티가 사우디 최대 송유관을 공습했다고 후티가 주장했다고 보도했어요.",
    "7b6a36ea7e33": "사우디 지원 예멘군 동향을 전하면서 후티 행동을 보도했어요.",
-   "41b05892efed": "요르단 외무가 바레인에 대한 이란 공격을 규탄했다고 보도됐어요.",
-   "92f84c6b0c25": "후티가 송유관을 타격했다고 주장하며 내전 격화 속 민간인 피해를 전했어요.",
-   "b355a0c70c00": "연합군이 리야드를 향한 후티 미사일을 격추했다고 발표했어요.",
-   "d9391728bc49": "후티 방송은 사우디의 공습으로 예멘 공장이 불에 탔다고 보도했어요.",
-   "21c2be95db9b": "사우디와 여러 기구는 이란과 후티의 공격을 강력히 규탄한다고 성명을 냈어요.",
-   "6d779369c0e3": "연합군은 예멘 내 60개 후티 표적을 공격하고 리야드 향 미사일을 요격했다고 발표했어요.",
-   "5c57de7874b1": "연합군은 리야드로 발사된 크루즈미사일을 요격·파괴했다고 보도했어요.",
-   "c9fb626f6252": "후티 매체는 사우디의 공습으로 공장이 화염에 휩싸였다고 전했어요."
+   "41b05892efed": "Jordan 외무는 이란의 바레인 공격을 규탄했다고 보도했어요.",
+   "92f84c6b0c25": "MBC는 후티가 송유관을 타격했다고 주장했고 민간 피해가 발생했다고 전했어요.",
+   "b355a0c70c00": "연합군이 리야드를 향한 후티 미사일을 파괴했다고 보도했어요.",
+   "d9391728bc49": "쿠웨이트·바레인이 이란의 공중 공격을 방어하는 가운데 연합군이 예멘의 후티 군사지를 타격했다고 보도했어요.",
+   "21c2be95db9b": "사우디는 이란의 바레인 공격을 강력히 규탄했다고 보도했어요.",
+   "6d779369c0e3": "연합군이 예멘 내 60곳의 후티 군사 표적을 파괴하고 리야드를 향한 순항미사일을 요격했다고 보도했어요.",
+   "5c57de7874b1": "연합군이 리야드를 향한 순항미사일을 요격·파괴했다고 보도했어요.",
+   "c9fb626f6252": "후티 TV는 사우디 공습으로 예멘의 한 공장이 불타고 있다고 보도했어요.",
+   "ffe97c340939": "미국의 원유 및 연료 재고 증가가 확인돼 국제유가가 하락했지만 호르무즈 해협 긴장으로 낙폭은 제한됐다고 보도했어요.",
+   "f8d68f9b9c24": "사우디 주도 연합군이 후티 반군 점령 지역 전역에 대규모 공습을 가했다고 보도했어요.",
+   "a884b2d42401": "사우디 지원군이 후티를 상대로 대대적 공격을 시작했다고 보도하는 등 중동 소식을 전했어요.",
+   "607e2a269b7f": "사우디 국영통신은 후티가 리야드 지역을 향해 발사한 순항미사일을 요격·파괴했다고 발표했어요."
   },
   "titlesKo": {
    "a69ba5a61dac": "파키스탄, 리야드 아람코 건물 타깃 시도 규탄",
@@ -2652,9 +2552,9 @@
    "de52b7e13574": "연합군, 리야드 지역 후티 무인기 격추 발표",
    "ff131f95623b": "사우디 지원군, 아덴 인근 방어 강화 보도",
    "ecbae4293069": "연합군, 리야드 지역서 후티 무인기 요격·파괴 발표",
-   "08dcdb8d5e4c": "후티, 사우디 동서 송유관 향해 드론 발사했다고 주장",
+   "08dcdb8d5e4c": "후티, 사우디 동서 송유관 쪽으로 드론 발사했다고 주장",
    "41b05892efed": "요르단, 바레인에 대한 이란 공격 규탄",
-   "c04971f5dc26": "후티, 사우디 동서 송유관 드론 공격을 주장",
+   "c04971f5dc26": "후티, 사우디 동서 송유관 드론 공격 주장∼피해 여부 확인 안 돼",
    "d802241f8e33": "연합군, 리야드서 후티 드론 요격했다고 밝혀",
    "da27b805da8a": "아랍 관광기구, 후티의 사우디 공격 규탄",
    "f491bcda822b": "후티군, 사우디 송유관 공습 시작 주장",
@@ -2666,21 +2566,22 @@
    "5c57de7874b1": "연합군, 리야드 향 크루즈미사일 요격·파괴",
    "c9fb626f6252": "후티 매체, 사우디 공습으로 공장 화재 보도",
    "6d779369c0e3": "연합군, 후티 표적 60곳 공격·리야드 행 미사일 요격 발표",
-   "ffe97c340939": "미국 원유 재고 증가로 공급 위험 완화되며 유가 하락",
+   "ffe97c340939": "미국 원유 재고 증가로 유가 하락 보도",
    "a884b2d42401": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스",
    "607e2a269b7f": "연합군: 리야드 지역 향해 발사된 테러 후티 민병대의 순항미사일 요격·파괴"
   },
   "aiClusters": [
    {
     "articleIds": [
-     "08dcdb8d5e4c",
-     "c04971f5dc26",
      "66332d0c4d3a",
      "92f84c6b0c25",
-     "7b6a36ea7e33",
-     "f491bcda822b"
+     "c04971f5dc26",
+     "08dcdb8d5e4c",
+     "ff131f95623b",
+     "f491bcda822b",
+     "f8b570b8bb03"
     ],
-    "titleKo": "후티, 사우디 동서(이스트-웨스트) 송유관 향해 드론·공습을 시작했다고 주장",
+    "titleKo": "후티, 사우디 동서(송유관) 타격 시도했다고 주장",
     "type": "energy",
     "regions": [
      "jafurah",
@@ -2688,44 +2589,27 @@
      "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "기사들이 '사우디 동서 송유관'을 언급해 동부(담맘·자푸라 인근)와 관련있다고 추정했어요.",
+    "inferNote": "기사들이 ‘동서 송유관’ 또는 동부 송유관을 지칭해 자푸라·담맘 인근 동부지역과 연관이 있다고 추정했어요.",
     "claimOnly": true,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "ecbae4293069",
-     "d802241f8e33",
-     "de52b7e13574",
-     "b292bd488e7b",
-     "55e747a91792",
-     "5d25a941d145",
-     "afc14bd4037b",
-     "23cf142ca048",
-     "9b6a70de2aad",
-     "9336ba9b4be5"
-    ],
-    "titleKo": "연합군, 리야드·마카 등지로 발사된 후티 드론·무인기 요격했다고 발표",
-    "type": "drone",
-    "regions": [
-     "riyadh",
-     "eastern"
-    ],
-    "regionInferred": true,
-    "inferNote": "여러 보도가 리야드·마카 등 지역명을 직접 언급해 리야드 중심으로 영향을 추정했어요.",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
+     "607e2a269b7f",
      "6d779369c0e3",
      "b355a0c70c00",
      "5c57de7874b1",
-     "d9391728bc49"
+     "ecbae4293069",
+     "d802241f8e33",
+     "de52b7e13574",
+     "23cf142ca048",
+     "31ed0dcf7561",
+     "55e747a91792",
+     "7638a1cf6bff",
+     "9c059976b880"
     ],
-    "titleKo": "연합군, 리야드 지역으로 발사된 크루즈미사일을 요격했다고 발표",
+    "titleKo": "연합군, 리야드 지역으로 향한 미사일·드론 요격했다고 발표",
     "type": "missile",
     "regions": [
      "riyadh"
@@ -2738,37 +2622,53 @@
    },
    {
     "articleIds": [
+     "f8d68f9b9c24",
+     "a884b2d42401",
      "c9fb626f6252",
-     "a16bbc79e533",
-     "fdd255984c57",
-     "ccaa951c7192",
+     "d9391728bc49",
+     "15e5799921c9",
+     "0fff5677b2a8",
+     "c75c742a7f65",
      "20edc93cd3ec",
-     "c75c742a7f65"
+     "ccaa951c7192",
+     "9b9f134a3cc0",
+     "f2bc4c8f82d1"
     ],
-    "titleKo": "예멘 내 공장·지역이 사우디 공습으로 불타졌다고 후티가 보도·비난",
+    "titleKo": "사우디 주도 연합군이 후티 점령지 전역에 대대적 공습했다고 보도",
     "type": "security",
-    "regions": [
-     "eastern"
-    ],
-    "regionInferred": true,
-    "inferNote": "기사들은 예멘 내 피해를 보도했지만 일부는 보복 맥락에서 사우디-예멘 교전과 연결돼 동부 인근 영향 가능성을 추정했어요.",
-    "claimOnly": true,
+    "regions": [],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
+     "ffe97c340939"
+    ],
+    "titleKo": "미국 원유 재고 증가로 국제유가 하락 보도",
+    "type": "energy",
+    "regions": [],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "41b05892efed",
      "21c2be95db9b",
      "99457c4cb509",
-     "f2bc4c8f82d1",
-     "431fd2837ef7",
+     "17e8c0b4b7cc",
      "d64ec1f7aec5",
+     "a69ba5a61dac",
      "6a4cb3cb7578",
-     "62a9a6c37d91",
-     "e07e11f41570",
-     "da27b805da8a"
+     "afc14bd4037b",
+     "62a9a6c37d91"
     ],
-    "titleKo": "사우디·각국, 이란·후티의 공격 행위를 강력히 규탄한다고 발표",
+    "titleKo": "사우디, 이란의 바레인 공격·후티 위협 규탄·국제 반발 전파",
     "type": "korean",
     "regions": [],
     "regionInferred": false,
@@ -2779,45 +2679,10 @@
    },
    {
     "articleIds": [
-     "9b9f134a3cc0",
-     "5493d99ba6a4",
-     "f8b570b8bb03"
+     "da27b805da8a"
     ],
-    "titleKo": "사우디, 연합군 사령관 교체했다고 발표",
-    "type": "security",
-    "regions": [
-     "riyadh"
-    ],
-    "regionInferred": true,
-    "inferNote": "사령관 교체 발표는 중앙 지휘부 관련으로 리야드와 연관됐을 가능성을 추정했어요.",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "15e5799921c9",
-     "9c059976b880",
-     "19059ceefb27"
-    ],
-    "titleKo": "후티, 리야드 공항·금융센터 향해 탄도미사일·드론을 발사했다고 주장",
-    "type": "airport",
-    "regions": [
-     "airport",
-     "riyadh"
-    ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": true,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "ef128570c686"
-    ],
-    "titleKo": "사우디 상무부, 과열 위험 보세(Bose) 스피커 리콜 발표",
-    "type": "fire",
+    "titleKo": "관계기관들, 후티 공격 규탄 성명 발표",
+    "type": "korean",
     "regions": [],
     "regionInferred": false,
     "inferNote": "",
@@ -2827,7 +2692,7 @@
    },
    {
     "articleIds": [
-     "ff131f95623b"
+     "7b6a36ea7e33"
     ]
    },
    {
@@ -2837,17 +2702,22 @@
    },
    {
     "articleIds": [
-     "41b05892efed"
+     "5d25a941d145"
     ]
    },
    {
     "articleIds": [
-     "17e8c0b4b7cc"
+     "e07e11f41570"
     ]
    },
    {
     "articleIds": [
-     "7638a1cf6bff"
+     "5493d99ba6a4"
+    ]
+   },
+   {
+    "articleIds": [
+     "a16bbc79e533"
     ]
    },
    {
@@ -2857,22 +2727,7 @@
    },
    {
     "articleIds": [
-     "31ed0dcf7561"
-    ]
-   },
-   {
-    "articleIds": [
-     "a69ba5a61dac"
-    ]
-   },
-   {
-    "articleIds": [
      "ae4a2758f8e2"
-    ]
-   },
-   {
-    "articleIds": [
-     "0fff5677b2a8"
     ]
    },
    {
@@ -2882,58 +2737,54 @@
    },
    {
     "articleIds": [
-     "cd709fac8212"
+     "431fd2837ef7"
     ]
-   },
-   {
-    "articleIds": [
-     "bc9e5f311573"
-    ]
-   },
-   {
-    "articleIds": [
-     "ffe97c340939"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "a2755b326385"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "bd1d5f57db35"
-    ],
-    "fromRule": true
    },
    {
     "articleIds": [
      "13369bf3a151"
+    ]
+   },
+   {
+    "articleIds": [
+     "9b6a70de2aad"
+    ]
+   },
+   {
+    "articleIds": [
+     "9336ba9b4be5"
+    ]
+   },
+   {
+    "articleIds": [
+     "ef128570c686"
+    ]
+   },
+   {
+    "articleIds": [
+     "19059ceefb27"
+    ]
+   },
+   {
+    "articleIds": [
+     "cd709fac8212"
     ],
     "fromRule": true
    },
    {
     "articleIds": [
-     "a884b2d42401"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "607e2a269b7f"
+     "bc9e5f311573"
     ],
     "fromRule": true
    }
   ],
   "aiSummaryKo": [
-   "후티는 사우디 동서 송유관을 드론로 공격했다고 주장했으나 확인되지 않았어요.",
-   "연합군은 리야드·마카 등지로 발사된 후티 드론과 미사일을 요격했다고 발표했어요.",
-   "사우디는 이란·후티의 공격을 국제무대에서 규탄했고 연합군 지휘부를 전격 교체했다고 보도됐어요."
+   "후티가 사우디 동서 송유관을 드론로 공격했다고 주장했으나 피해는 확인되지 않았어요.",
+   "연합군과 사우디 통신은 리야드 방향의 미사일·드론을 다수 요격했다고 발표했어요.",
+   "연합군은 후티 점령지 전역에 대규모 공습을 단행했다고 로이터·국영통신이 보도했어요."
   ],
-  "lastAiAt": 1794985244454,
-  "summaryAt": "2026-11-18T07:00:44.454Z",
+  "lastAiAt": 1794992453863,
+  "summaryAt": "2026-11-18T09:00:53.863Z",
   "promptVersion": 4
  }
 }
