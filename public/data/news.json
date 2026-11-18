@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-18T18:50:32.675Z",
-  "lastAttemptAt": "2026-11-18T18:50:32.675Z",
+  "lastSuccessAt": "2026-11-18T19:00:45.302Z",
+  "lastAttemptAt": "2026-11-18T19:00:45.302Z",
   "aiSummary": true,
   "summaryAt": "2026-11-18T18:00:56.416Z",
   "aiError": null,
@@ -16,12 +16,13 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 12
+    "count": 9,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 113
+    "count": 107
    },
    {
     "name": "AP",
@@ -31,7 +32,8 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 12
+    "count": 12,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Arab News",
@@ -46,12 +48,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 193
+    "count": 192
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 84
+    "count": 83
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +68,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 62
+    "count": 61
    }
   ],
   "mofaLatest": [
@@ -634,6 +636,38 @@
      "reportedAt": "2026-11-18T11:18:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGdKNEV2dGQxbWV0MUEzMUh5czNJQXBGSjZQUUlTbmJWYWQwMnB4bElQYWpOOC1LaGZkYUVZeUdYRFdrcVYtcWhFNDRLdzk2OUI5Rlh2T1k2cGI1T0lKdUprbzBnNG5SOGhvdnd4eFhFVE9KN1ZUdGJkY3MyWWZSVS1LWnUzUHpPN0tiYTdBQUZ3b0tIX24xWlNHNVZ4TUNHQWhubHFhT00?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "d0fe57585e10",
+   "articleIds": [
+    "ad8f516e5fb2"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 수도서 폭발음과 연기 목격…＂후티 순항미사일 요격＂",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-18T19:00:45.302Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "사우디 수도서 폭발음과 연기 목격…＂후티 순항미사일 요격＂",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-11-18T09:34:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBWQ1RvbWg1YWFnWmxJNDNxNkxhdW1pOWVVVjVNWGx1TURObFlZbENpTDhXajg3czJCT2FPY2pBQ3JjNDZyakJZR3BqcVZSRjUtd1RLN0tRZldzc2dxM3BQNXFIRXVQZkxWWmVaNlVwZnlMb0FuMzMwQjNtOWg?oc=5"
     }
    ]
   },
@@ -1911,6 +1945,20 @@
     "firstSeen": 1794995433623
    },
    {
+    "id": "ad8f516e5fb2",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "한국경제",
+    "title": "사우디 수도서 폭발음과 연기 목격…＂후티 순항미사일 요격＂",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBWQ1RvbWg1YWFnWmxJNDNxNkxhdW1pOWVVVjVNWGx1TURObFlZbENpTDhXajg3czJCT2FPY2pBQ3JjNDZyakJZR3BqcVZSRjUtd1RLN0tRZldzc2dxM3BQNXFIRXVQZkxWWmVaNlVwZnlMb0FuMzMwQjNtOWg?oc=5",
+    "reportedAt": 1794994440000,
+    "assumeSaudi": false,
+    "firstSeen": 1795028445302
+   },
+   {
     "id": "5a8add709423",
     "feed": "Arab News",
     "cat": "local",
@@ -2967,6 +3015,12 @@
    {
     "articleIds": [
      "a2755b326385"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "ad8f516e5fb2"
     ],
     "fromRule": true
    }
