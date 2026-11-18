@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-18T08:00:43.615Z",
-  "lastAttemptAt": "2026-11-18T08:00:43.615Z",
+  "lastSuccessAt": "2026-11-18T08:10:35.129Z",
+  "lastAttemptAt": "2026-11-18T08:10:35.129Z",
   "aiSummary": true,
   "summaryAt": "2026-11-18T07:00:44.454Z",
   "aiError": null,
@@ -20,12 +20,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 79
+    "count": 81
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 25
+    "count": 28
    },
    {
     "name": "AFP",
@@ -35,7 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 104
+    "count": 112
    },
    {
     "name": "Saudi Gazette",
@@ -102,6 +102,38 @@
   ]
  },
  "events": [
+  {
+   "id": "45cc1682c737",
+   "articleIds": [
+    "a884b2d42401"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-18T08:10:35.129Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Saudi-backed forces launch major attack on Houthis, and other Mideast news",
+     "titleKo": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스",
+     "summary": "",
+     "reportedAt": "2026-11-18T07:58:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGdKNEV2dGQxbWV0MUEzMUh5czNJQXBGSjZQUUlTbmJWYWQwMnB4bElQYWpOOC1LaGZkYUVZeUdYRFdrcVYtcWhFNDRLdzk2OUI5Rlh2T1k2cGI1T0lKdUprbzBnNG5SOGhvdnd4eFhFVE9KN1ZUdGJkY3MyWWZSVS1LWnUzUHpPN0tiYTdBQUZ3b0tIX24xWlNHNVZ4TUNHQWhubHFhT00?oc=5"
+    }
+   ]
+  },
   {
    "id": "b7907f59b615",
    "articleIds": [
@@ -1613,6 +1645,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "a884b2d42401",
+    "feed": "AP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AP",
+    "title": "Saudi-backed forces launch major attack on Houthis, and other Mideast news",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGdKNEV2dGQxbWV0MUEzMUh5czNJQXBGSjZQUUlTbmJWYWQwMnB4bElQYWpOOC1LaGZkYUVZeUdYRFdrcVYtcWhFNDRLdzk2OUI5Rlh2T1k2cGI1T0lKdUprbzBnNG5SOGhvdnd4eFhFVE9KN1ZUdGJkY3MyWWZSVS1LWnUzUHpPN0tiYTdBQUZ3b0tIX24xWlNHNVZ4TUNHQWhubHFhT00?oc=5",
+    "reportedAt": 1794988680000,
+    "assumeSaudi": false,
+    "firstSeen": 1794989435129
+   },
+   {
     "id": "ffe97c340939",
     "feed": "Arab News",
     "cat": "local",
@@ -2556,7 +2602,8 @@
    "5c57de7874b1": "연합군, 리야드 향 크루즈미사일 요격·파괴",
    "c9fb626f6252": "후티 매체, 사우디 공습으로 공장 화재 보도",
    "6d779369c0e3": "연합군, 후티 표적 60곳 공격·리야드 행 미사일 요격 발표",
-   "ffe97c340939": "미국 원유 재고 증가로 공급 위험 완화되며 유가 하락"
+   "ffe97c340939": "미국 원유 재고 증가로 공급 위험 완화되며 유가 하락",
+   "a884b2d42401": "사우디 지원 세력, 후티에 대한 대대적 공격 시작 — 중동 뉴스"
   },
   "aiClusters": [
    {
@@ -2799,6 +2846,12 @@
    {
     "articleIds": [
      "13369bf3a151"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "a884b2d42401"
     ],
     "fromRule": true
    }
