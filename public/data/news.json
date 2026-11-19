@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-19T15:30:44.141Z",
-  "lastAttemptAt": "2026-11-19T15:30:44.141Z",
+  "lastSuccessAt": "2026-11-19T15:40:32.841Z",
+  "lastAttemptAt": "2026-11-19T15:40:32.841Z",
   "aiSummary": true,
   "summaryAt": "2026-11-19T15:30:44.141Z",
   "aiError": null,
@@ -16,17 +16,18 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 20
+    "count": 15,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 98
+    "count": 101
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 22
+    "count": 24
    },
    {
     "name": "AFP",
@@ -36,22 +37,22 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 117
+    "count": 118
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 46
+    "count": 48
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 168
+    "count": 169
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 71
+    "count": 72
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +67,8 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 64
+    "count": 62,
+    "note": "일부 주소 실패: HTTP 429"
    }
   ],
   "mofaLatest": [
@@ -103,6 +105,38 @@
   ]
  },
  "events": [
+  {
+   "id": "f10ad682ef17",
+   "articleIds": [
+    "15e8f919428c"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티의 리야드 금융지구 타워 테러 공격으로 물적 피해 발생",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-19T15:40:32.841Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Houthi Terrorist Attack on Riyadh Financial District Tower Causes Material Damage",
+     "titleKo": "후티의 리야드 금융지구 타워 테러 공격으로 물적 피해 발생",
+     "summary": "",
+     "reportedAt": "2026-11-19T15:38:57.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5343235"
+    }
+   ]
+  },
   {
    "id": "a1e1f9eafad6",
    "articleIds": [
@@ -1671,6 +1705,24 @@
  ],
  "timeline": [
   {
+   "id": "15e8f919428c",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "후티의 리야드 금융지구 타워 테러 공격으로 물적 피해 발생",
+   "title": "Houthi Terrorist Attack on Riyadh Financial District Tower Causes Material Damage",
+   "summary": "",
+   "reportedAt": "2026-11-19T15:38:57.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5343235"
+  },
+  {
    "id": "354bd8a32872",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -2178,6 +2230,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "15e8f919428c",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Houthi Terrorist Attack on Riyadh Financial District Tower Causes Material Damage",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5343235",
+    "reportedAt": 1795102737000,
+    "assumeSaudi": false,
+    "firstSeen": 1795102832841
+   },
+   {
     "id": "354bd8a32872",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -2199,7 +2265,7 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Houthi attack on tower at King Abdullah Financial District causes damage, Saudi Civil Defense says",
-    "snippet": "RIYADH: Civil Defense teams responded to an incident in which one of the towers at King Abdullah Financial District was targeted in a Houthi attack on Thursday. The attack resulted in material damage to several floors of the tower and neighboring buildings, with no injuries reported.The Civil Defense stressed that this hostile targeting of civilian objects constitutes a flagrant violation of inter",
+    "snippet": "RIYADH: Civil Defense teams responded to an incident in which one of the towers at King Abdullah Financial District was targeted in a Houthi attack on Thursday. The attack resulted in material damage to several floors of the tower and neighboring buildings, with no injuries reported. The Civil Defense stressed that this hostile targeting of civilian objects constitutes a flagrant violation of inte",
     "url": "https://www.arabnews.com/saudi-arabia/houthi-attack-on-tower-at-king-abdullah-financial-district-causes-damage-saudi-civil-defense-says-3012970",
     "reportedAt": 1795101855000,
     "assumeSaudi": false,
@@ -3504,7 +3570,8 @@
    "354bd8a32872": "Civial Defesne: 후티 테러리스트의 리야드 금융지구 타워 공격으로 물적 피해 발생, 인명 피해는 없어",
    "2acd20195d3d": "사우디 민방위: 킹 압둘라 금융지구 타워에 대한 후티의 공격으로 피해 발생",
    "f3b12fb4b569": "리야드 80층 빌딩, 후티 미사일에 파손",
-   "edc55f3ba3bf": "사우디 수도 최고 빌딩, 후티 미사일에 피격"
+   "edc55f3ba3bf": "사우디 수도 최고 빌딩, 후티 미사일에 피격",
+   "15e8f919428c": "후티의 리야드 금융지구 타워 테러 공격으로 물적 피해 발생"
   },
   "aiClusters": [
    {
@@ -3780,6 +3847,12 @@
    {
     "articleIds": [
      "62a9a6c37d91"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "15e8f919428c"
     ],
     "fromRule": true
    }
