@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-19T13:10:31.910Z",
-  "lastAttemptAt": "2026-11-19T13:10:31.910Z",
+  "lastSuccessAt": "2026-11-19T13:20:38.852Z",
+  "lastAttemptAt": "2026-11-19T13:20:38.852Z",
   "aiSummary": true,
   "summaryAt": "2026-11-19T13:00:47.893Z",
   "aiError": null,
@@ -21,7 +21,7 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 108
+    "count": 105
    },
    {
     "name": "AP",
@@ -31,17 +31,17 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 62
+    "count": 65
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 116
+    "count": 114
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 45
+    "count": 46
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +51,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 73
+    "count": 72
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 60
+    "count": 59
    }
   ],
   "mofaLatest": [
@@ -132,6 +132,38 @@
      "reportedAt": "2026-11-19T13:04:04.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/middle-east/britain-steps-up-saudi-air-defense-support-amid-houthi-attacks-uk-middle-east-minister-says-3012930"
+    }
+   ]
+  },
+  {
+   "id": "18457dd9a938",
+   "articleIds": [
+    "f30d3a5a1483"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "claim",
+   "directive": null,
+   "title": "주미 리야드 대사관, 드론 공격 보도 부인",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-19T13:20:38.852Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "US Embassy in Riyadh denies drone attack reports",
+     "titleKo": "주미 리야드 대사관, 드론 공격 보도 부인",
+     "summary": "",
+     "reportedAt": "2026-11-19T12:51:33.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666372/saudi-arabia/us-embassy-in-riyadh-denies-drone-attack-reports"
     }
    ]
   },
@@ -2249,6 +2281,20 @@
     "firstSeen": 1795093831910
    },
    {
+    "id": "f30d3a5a1483",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "US Embassy in Riyadh denies drone attack reports",
+    "snippet": "RIYADH — The US Embassy in Riyadh on Thursday categorically denied reports and claims circulating on social media alleging that its premises had been targeted in a drone attack, affirming that these claims were entirely false.“Claims circulating online that the U.S. Embassy in Riyadh has been hit by a drone strike today are false,” the embassy said in a statement on its X account. A few days ago, ",
+    "url": "https://saudigazette.com.sa/article/666372/saudi-arabia/us-embassy-in-riyadh-denies-drone-attack-reports",
+    "reportedAt": 1795092693000,
+    "assumeSaudi": false,
+    "firstSeen": 1795094438852
+   },
+   {
     "id": "b5ba387d9698",
     "feed": "AP",
     "cat": "wire",
@@ -3608,7 +3654,8 @@
    "b5ba387d9698": "리야드 금융지구에서 미사일 공격으로 피해 발생 보고, 기타 중동 소식",
    "9e82225d07ba": "후티의 리야드 공격으로 80층 건물 파손",
    "680697b1a5f6": "리야드 지역에서 드론 요격되었다고 연합군 발표",
-   "5de0ed9b6fa3": "영국 중동 장관 \"후티 공격 속 사우디 방공 지원 강화\""
+   "5de0ed9b6fa3": "영국 중동 장관 \"후티 공격 속 사우디 방공 지원 강화\"",
+   "f30d3a5a1483": "주미 리야드 대사관, 드론 공격 보도 부인"
   },
   "aiClusters": [
    {
@@ -3908,6 +3955,12 @@
    {
     "articleIds": [
      "ac5fd6bf9ce6"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f30d3a5a1483"
     ],
     "fromRule": true
    }
