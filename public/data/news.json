@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-19T14:10:32.135Z",
-  "lastAttemptAt": "2026-11-19T14:10:32.135Z",
+  "lastSuccessAt": "2026-11-19T14:20:35.244Z",
+  "lastAttemptAt": "2026-11-19T14:20:35.244Z",
   "aiSummary": true,
   "summaryAt": "2026-11-19T13:00:47.893Z",
   "aiError": null,
@@ -21,12 +21,12 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 107
+    "count": 106
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 26
+    "count": 25
    },
    {
     "name": "AFP",
@@ -36,22 +36,23 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 115
+    "count": 114
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 45
+    "count": 47
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 168
+    "count": 169
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 74
+    "count": 51,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +67,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 62
+    "count": 60
    }
   ],
   "mofaLatest": [
@@ -103,6 +104,38 @@
   ]
  },
  "events": [
+  {
+   "id": "e9a0dd3f284d",
+   "articleIds": [
+    "39a8a868b667"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "미사일 공격 속 외국인 투자자 보호",
+   "titleAuto": true,
+   "regions": [
+    "airport"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-19T14:20:35.244Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Protecting foreign investors amid missile attacks",
+     "titleKo": "미사일 공격 속 외국인 투자자 보호",
+     "summary": "",
+     "reportedAt": "2026-11-19T14:12:24.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/opinion/protecting-foreign-investors-amid-missile-attacks-3012416"
+    }
+   ]
+  },
   {
    "id": "30c9547be922",
    "articleIds": [
@@ -2202,6 +2235,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "39a8a868b667",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Protecting foreign investors amid missile attacks",
+    "snippet": "When a missile closes an airport, the first call a foreign investor makes is to an insurer. The second should be to a lawyer. Long before this crisis, governments wrote rules on who bears the cost when war damages a foreign investment. Those rules sit in bilateral investment treaties, in regional agreements and in the conventions that created the world’s investment insurers. Saudi Arabia and Kuwai",
+    "url": "https://www.arabnews.com/opinion/protecting-foreign-investors-amid-missile-attacks-3012416",
+    "reportedAt": 1795097544000,
+    "assumeSaudi": false,
+    "firstSeen": 1795098035244
+   },
+   {
     "id": "5de0ed9b6fa3",
     "feed": "Arab News",
     "cat": "local",
@@ -3526,7 +3573,8 @@
    "9e82225d07ba": "후티의 리야드 공격으로 80층 건물 파손",
    "680697b1a5f6": "리야드 지역에서 드론 요격되었다고 연합군 발표",
    "5de0ed9b6fa3": "영국 중동 장관 \"후티 공격 속 사우디 방공 지원 강화\"",
-   "f30d3a5a1483": "주미 리야드 대사관, 드론 공격 보도 부인"
+   "f30d3a5a1483": "주미 리야드 대사관, 드론 공격 보도 부인",
+   "39a8a868b667": "미사일 공격 속 외국인 투자자 보호"
   },
   "aiClusters": [
    {
@@ -3823,6 +3871,12 @@
    {
     "articleIds": [
      "f30d3a5a1483"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "39a8a868b667"
     ],
     "fromRule": true
    }
