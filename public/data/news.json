@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-19T15:00:49.392Z",
-  "lastAttemptAt": "2026-11-19T15:00:49.392Z",
+  "lastSuccessAt": "2026-11-19T15:10:33.998Z",
+  "lastAttemptAt": "2026-11-19T15:10:33.998Z",
   "aiSummary": true,
   "summaryAt": "2026-11-19T15:00:49.392Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 20
+    "count": 21
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 103
+    "count": 102
    },
    {
     "name": "AP",
@@ -36,22 +36,23 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 118
+    "count": 119
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 47
+    "count": 46
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 169
+    "count": 168
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 69
+    "count": 51,
+    "note": "일부 주소 실패: fetch failed"
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +67,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 60
+    "count": 64
    }
   ],
   "mofaLatest": [
@@ -103,6 +104,104 @@
   ]
  },
  "events": [
+  {
+   "id": "50ecc7229bd2",
+   "articleIds": [
+    "59288160ed22",
+    "9e82225d07ba",
+    "7be96d8a8fb5",
+    "edc55f3ba3bf",
+    "f3b12fb4b569",
+    "b4a159a0fbc6",
+    "b5ba387d9698"
+   ],
+   "type": "korean",
+   "sev": "mid",
+   "status": "multi",
+   "directive": null,
+   "title": "후티의 리야드 공격으로 80층짜리 사우디 국부펀드 건물 파손",
+   "titleAuto": false,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-19T08:10:32.190Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks",
+     "titleKo": "리야드 마천루, 후티 공격으로 손상",
+     "summary": "리야드의 마천루가 후티의 공격으로 손상됐다고 보도합니다.",
+     "reportedAt": "2026-11-19T07:58:16.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2dIclQtc0NCVUk0dVZ6NS1XcVNLVS1EZFh2aTY3b2pmbGFuM3ltaGYwRkJOLWpsQlZIT0lPbkdabDA2ajhMeW9qeXc5a1JZUWhCbEthYTliRFcwNFB5XzFkdUQxTlh5am91aWFhSGVWRmY0WGw3QWFhVW14TlJESExsVjdHTnRoRkdzaHJzajB1TXpaU3NfMUpnUHFGc1lPMGQzNllEMGFyM21EUVktOGdqMkRPX2NMNnMxOFZwbmJVLURWR01SeA?oc=5"
+    },
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "후티의 리야드 공격으로 80층짜리 사우디 국부펀드 건물 파손",
+     "titleKo": null,
+     "summary": "후티의 리야드 공격으로 80층 건물이 파손됐다고 전합니다.",
+     "reportedAt": "2026-11-19T08:07:04.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3YkdLZ0lnMDJBR2RZMWZJYlM2UzkyVkZxQ0VTa3FoM3FCQ3AtZlRvRWpTejdqS0FuVTNYUzV0eFpVMEZYMS1oRUpwZDVicUxHRTlYUG41ZVNjUUppclBPVFV3?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "\"리야드 80층 빌딩 후티 미사일에 파손…빈살만 '비전2030' 상징\"",
+     "titleKo": null,
+     "summary": "연합뉴스는 80층 건물이 후티 미사일로 파손됐다며 빈살만의 비전2030 상징이라고 전했습니다.",
+     "reportedAt": "2026-11-19T08:35:53.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aNl9KUVM5TEEyQm1DTzV5T3pKcWpJczRyZkpGSkJVeTBmUkk4UnRqZXRUQWFlV21nbGJtME9BM0dNVEFJTnl3TWpZV3VPUl9yUWcxei0wUE1DRExnQ2w3WNIBYEFVX3lxTE1aNl9KUVM5TEEyQm1DTzV5T3pKcWpJczRyZkpGSkJVeTBmUkk4UnRqZXRUQWFlV21nbGJtME9BM0dNVEFJTnl3TWpZV3VPUl9yUWcxei0wUE1DRExnQ2w3WA?oc=5"
+    },
+    {
+     "outlet": "SBS",
+     "cat": "kr",
+     "title": "사우디 수도 385m 최고 빌딩, 후티 미사일에 피격",
+     "titleKo": null,
+     "summary": "SBS는 리야드의 385m 최고 빌딩이 후티 미사일에 피격됐다고 보도했습니다.",
+     "reportedAt": "2026-11-19T08:39:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YR2lxM0l3RVJ6bnVhbzh2S19kZFBrX1ltdVVVR3dwak95ZEVld3RyOU56MGQxMWsxNDhfVlVsVWUtZWZuT1dQVVJhR3ltMDU0d09fYXV1blHSAVhBVV95cUxPWEdpcTNJd0VSem51YW84dktfZGRQa19ZbXVVVUd3cGpPeWRFZXd0cjlOejBkMTFrMTQ4X1ZVbFVlLWVmbk9XUFVSYUd5bTA1NHdPX2F1dW5R?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "\"사우디 리야드 80층 빌딩, 후티 미사일에 파손\"",
+     "titleKo": null,
+     "summary": "연합뉴스는 리야드 80층 빌딩이 후티 미사일에 파손됐다고 보도했습니다.",
+     "reportedAt": "2026-11-19T08:42:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12aFFwMlBRaVJqa2phU3JIbHp6OHRfM3FYcUhsN2VXTmQ5RkNsM0xRMHl0QVFHV0NtQ0NsWkFkVmtuNmxxM3haVF8tTWdxMFk1Y000Y1pqN2t2RURXbXVXU0FGdThoSTQ?oc=5"
+    },
+    {
+     "outlet": "한국일보",
+     "cat": "kr",
+     "title": "사우디 리야드 80층 빌딩 피격…빈 살만 왕세자 개혁의 상징이 파손",
+     "titleKo": null,
+     "summary": "리야드의 80층 건물이 미사일로 파손됐다고 보도합니다.",
+     "reportedAt": "2026-11-19T10:15:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01a2FRZjZQOUxBaTREcElETlduT1piOVZ1enhOOTVzOERvbE9LWGsyTkZJdnhuN09mSXhBV0M5WTg4bEpnYks0dnhWTjZ4cUdfY1pEZ3JONmFRMXN1c1dmdHg3WHVtdUM2Y1JaaWU0SDNWTjTSAXNBVV95cUxNNWthUWY2UDlMQWk0RHBJRE5Xbk9aYjlWdXp4Tjk1czhEb2xPS1hrMk5GSXZ4bjdPZkl4QVdDOVk4OGxKZ2JLNHZ4Vk42eHFHX2NaRGdyTjZhUTFzdXNXZnR4N1h1bXVDNmNSWmllNEgzVk40?oc=5"
+    },
+    {
+     "outlet": "AP",
+     "cat": "wire",
+     "title": "Damage from missile attack reported in Riyadh’s financial district, and other Mideast news",
+     "titleKo": "리야드 금융지구에서 미사일 공격으로 피해 발생 보고, 기타 중동 소식",
+     "summary": "리야드 금융지구의 미사일 공격 피해 소식 등을 전합니다.",
+     "reportedAt": "2026-11-19T14:39:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWGRFYnRQN1pwV2JiVkRBSGdIY2RDN3hoVnJvTDg3YVpzV2JjNjVMRkVOLVdfNU9yeVZxR0tpV3ZhUU1OSXVMemxUOXBvWVNUMDJGb2Rxa0VRTGxWU0hsSVNvNEdYUVpydDlpNFh2NzVpWXhCWVNSQVJ4OUxoR0ZGS0Q0WTFWNFE0Si11U1FqRnFWZkRlN1haWC1vaHR6Zw?oc=5"
+    }
+   ]
+  },
   {
    "id": "e9a0dd3f284d",
    "articleIds": [
@@ -200,104 +299,6 @@
    ]
   },
   {
-   "id": "50ecc7229bd2",
-   "articleIds": [
-    "59288160ed22",
-    "9e82225d07ba",
-    "7be96d8a8fb5",
-    "edc55f3ba3bf",
-    "f3b12fb4b569",
-    "b4a159a0fbc6",
-    "b5ba387d9698"
-   ],
-   "type": "korean",
-   "sev": "mid",
-   "status": "multi",
-   "directive": null,
-   "title": "후티의 리야드 공격으로 80층짜리 사우디 국부펀드 건물 파손",
-   "titleAuto": false,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-19T08:10:32.190Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks",
-     "titleKo": "리야드 마천루, 후티 공격으로 손상",
-     "summary": "리야드의 마천루가 후티의 공격으로 손상됐다고 보도합니다.",
-     "reportedAt": "2026-11-19T07:58:16.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2dIclQtc0NCVUk0dVZ6NS1XcVNLVS1EZFh2aTY3b2pmbGFuM3ltaGYwRkJOLWpsQlZIT0lPbkdabDA2ajhMeW9qeXc5a1JZUWhCbEthYTliRFcwNFB5XzFkdUQxTlh5am91aWFhSGVWRmY0WGw3QWFhVW14TlJESExsVjdHTnRoRkdzaHJzajB1TXpaU3NfMUpnUHFGc1lPMGQzNllEMGFyM21EUVktOGdqMkRPX2NMNnMxOFZwbmJVLURWR01SeA?oc=5"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "후티의 리야드 공격으로 80층짜리 사우디 국부펀드 건물 파손",
-     "titleKo": null,
-     "summary": "후티의 리야드 공격으로 80층 건물이 파손됐다고 전합니다.",
-     "reportedAt": "2026-11-19T08:07:04.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3YkdLZ0lnMDJBR2RZMWZJYlM2UzkyVkZxQ0VTa3FoM3FCQ3AtZlRvRWpTejdqS0FuVTNYUzV0eFpVMEZYMS1oRUpwZDVicUxHRTlYUG41ZVNjUUppclBPVFV3?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "\"리야드 80층 빌딩 후티 미사일에 파손…빈살만 '비전2030' 상징\"",
-     "titleKo": null,
-     "summary": "연합뉴스는 80층 건물이 후티 미사일로 파손됐다며 빈살만의 비전2030 상징이라고 전했습니다.",
-     "reportedAt": "2026-11-19T08:35:53.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aNl9KUVM5TEEyQm1DTzV5T3pKcWpJczRyZkpGSkJVeTBmUkk4UnRqZXRUQWFlV21nbGJtME9BM0dNVEFJTnl3TWpZV3VPUl9yUWcxei0wUE1DRExnQ2w3WNIBYEFVX3lxTE1aNl9KUVM5TEEyQm1DTzV5T3pKcWpJczRyZkpGSkJVeTBmUkk4UnRqZXRUQWFlV21nbGJtME9BM0dNVEFJTnl3TWpZV3VPUl9yUWcxei0wUE1DRExnQ2w3WA?oc=5"
-    },
-    {
-     "outlet": "SBS",
-     "cat": "kr",
-     "title": "사우디 수도 385m 최고 빌딩, 후티 미사일에 피격",
-     "titleKo": null,
-     "summary": "SBS는 리야드의 385m 최고 빌딩이 후티 미사일에 피격됐다고 보도했습니다.",
-     "reportedAt": "2026-11-19T08:39:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YR2lxM0l3RVJ6bnVhbzh2S19kZFBrX1ltdVVVR3dwak95ZEVld3RyOU56MGQxMWsxNDhfVlVsVWUtZWZuT1dQVVJhR3ltMDU0d09fYXV1blHSAVhBVV95cUxPWEdpcTNJd0VSem51YW84dktfZGRQa19ZbXVVVUd3cGpPeWRFZXd0cjlOejBkMTFrMTQ4X1ZVbFVlLWVmbk9XUFVSYUd5bTA1NHdPX2F1dW5R?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "\"사우디 리야드 80층 빌딩, 후티 미사일에 파손\"",
-     "titleKo": null,
-     "summary": "연합뉴스는 리야드 80층 빌딩이 후티 미사일에 파손됐다고 보도했습니다.",
-     "reportedAt": "2026-11-19T08:42:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12aFFwMlBRaVJqa2phU3JIbHp6OHRfM3FYcUhsN2VXTmQ5RkNsM0xRMHl0QVFHV0NtQ0NsWkFkVmtuNmxxM3haVF8tTWdxMFk1Y000Y1pqN2t2RURXbXVXU0FGdThoSTQ?oc=5"
-    },
-    {
-     "outlet": "한국일보",
-     "cat": "kr",
-     "title": "사우디 리야드 80층 빌딩 피격…빈 살만 왕세자 개혁의 상징이 파손",
-     "titleKo": null,
-     "summary": "리야드의 80층 건물이 미사일로 파손됐다고 보도합니다.",
-     "reportedAt": "2026-11-19T10:15:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01a2FRZjZQOUxBaTREcElETlduT1piOVZ1enhOOTVzOERvbE9LWGsyTkZJdnhuN09mSXhBV0M5WTg4bEpnYks0dnhWTjZ4cUdfY1pEZ3JONmFRMXN1c1dmdHg3WHVtdUM2Y1JaaWU0SDNWTjTSAXNBVV95cUxNNWthUWY2UDlMQWk0RHBJRE5Xbk9aYjlWdXp4Tjk1czhEb2xPS1hrMk5GSXZ4bjdPZkl4QVdDOVk4OGxKZ2JLNHZ4Vk42eHFHX2NaRGdyTjZhUTFzdXNXZnR4N1h1bXVDNmNSWmllNEgzVk40?oc=5"
-    },
-    {
-     "outlet": "AP",
-     "cat": "wire",
-     "title": "Damage from missile attack reported in Riyadh’s financial district, and other Mideast news",
-     "titleKo": "리야드 금융지구에서 미사일 공격으로 피해 발생 보고, 기타 중동 소식",
-     "summary": "리야드 금융지구의 미사일 공격 피해 소식 등을 전합니다.",
-     "reportedAt": "2026-11-19T12:00:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWGRFYnRQN1pwV2JiVkRBSGdIY2RDN3hoVnJvTDg3YVpzV2JjNjVMRkVOLVdfNU9yeVZxR0tpV3ZhUU1OSXVMemxUOXBvWVNUMDJGb2Rxa0VRTGxWU0hsSVNvNEdYUVpydDlpNFh2NzVpWXhCWVNSQVJ4OUxoR0ZGS0Q0WTFWNFE0Si11U1FqRnFWZkRlN1haWC1vaHR6Zw?oc=5"
-    }
-   ]
-  },
-  {
    "id": "e64eaa82b877",
    "articleIds": [
     "0582eb308312"
@@ -343,10 +344,10 @@
     "ca30f42242d3",
     "4341b53a5570",
     "51ef69163967",
-    "dfacb2dea5bf",
     "c5c776faf465",
     "e5307372eda8",
     "1c9cc7705182",
+    "dfacb2dea5bf",
     "4c182931503f",
     "21bc9583749d",
     "692e9547b564",
@@ -483,16 +484,6 @@
     {
      "outlet": "Arab News",
      "cat": "local",
-     "title": "Coalition forces intercept Houthi missile launched towards Riyadh, debris causes damage",
-     "titleKo": "연합군, 리야드 향한 미사일 요격했으나 잔해로 피해 발생",
-     "summary": "연합군은 리야드를 향한 미사일을 요격했으나 잔해가 떨어져 피해가 났다고 밝혔습니다.",
-     "reportedAt": "2026-11-19T03:03:17.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/coalition-forces-intercept-houthi-missile-launched-towards-riyadh-debris-causes-damage-3012860"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
      "title": "Coalition forces deal with Houthi missile threat toward Riyadh, debris causes damage",
      "titleKo": "연합군, 리야드 향한 테러 후티 미사일 위협 처리했다고 밝혀",
      "summary": "연합군이 리야드를 향한 미사일 위협을 처리했으며 잔해로 인한 피해를 조사 중이라고 보도합니다.",
@@ -519,6 +510,16 @@
      "reportedAt": "2026-11-19T03:19:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUUVVMURmUjNxMHVQNThNQkRiUElQbkhnNVJNdkdVejBqLVVIRU1hUl9DWDhpYlFVWUtFZlo5dGNOSnFqTFU5VE93bXdGY3NaOEVmSERoWlJNOWhQN25NN3E1bGF1MEprczBsWFlkOHBDTUVLM21CSFJydjFzUFFaM2ozQU8wSTdnSENadVQ2UTNmSWhOMFBHNE1ZaDB5MURkMFM0cHZuU1BySDl0ZlQ2aDBEUEdmNUE5MnNzTnl2T2VBaV9sWUQ2Zg?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition forces intercept Houthi missile launched towards Riyadh, debris causes damage",
+     "titleKo": "연합군, 리야드 향한 미사일 요격했으나 잔해로 피해 발생",
+     "summary": "연합군은 리야드를 향한 미사일을 요격했으나 잔해가 떨어져 피해가 났다고 밝혔습니다.",
+     "reportedAt": "2026-11-19T03:31:46.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQa1k5ZGNHU2J3TkNRSFpMaTVWSjdvbG4wcUpubFh4Nnltb2MxYnBXQVhHaEpBSHRvQkpkYVFQSkpwUDVKWE50ZW5IRGs0TVZNM09zRVhHUk1iMUNnTG0tUm9jb0UzejVOXzJsYlpQRzJ1dWpwcFhNMHgxZUVjZjlXMFZfSWVORFVKUVFVNFptTzE0eDZXUExwaWF1RDZoZUZxTW9TLTNWRVF2WWNLWUMxS2RHbWZpU0JHNlpQamJNOHpyME9SX0YtY1JKejY?oc=5"
     },
     {
      "outlet": "SPA (사우디 국영통신)",
@@ -2170,6 +2171,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "b5ba387d9698",
+    "feed": "AP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AP",
+    "title": "Damage from missile attack reported in Riyadh’s financial district, and other Mideast news",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWGRFYnRQN1pwV2JiVkRBSGdIY2RDN3hoVnJvTDg3YVpzV2JjNjVMRkVOLVdfNU9yeVZxR0tpV3ZhUU1OSXVMemxUOXBvWVNUMDJGb2Rxa0VRTGxWU0hsSVNvNEdYUVpydDlpNFh2NzVpWXhCWVNSQVJ4OUxoR0ZGS0Q0WTFWNFE0Si11U1FqRnFWZkRlN1haWC1vaHR6Zw?oc=5",
+    "reportedAt": 1795099140000,
+    "assumeSaudi": false,
+    "firstSeen": 1795093247893
+   },
+   {
     "id": "39a8a868b667",
     "feed": "Arab News",
     "cat": "local",
@@ -2210,20 +2225,6 @@
     "reportedAt": 1795092693000,
     "assumeSaudi": false,
     "firstSeen": 1795094438852
-   },
-   {
-    "id": "b5ba387d9698",
-    "feed": "AP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AP",
-    "title": "Damage from missile attack reported in Riyadh’s financial district, and other Mideast news",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWGRFYnRQN1pwV2JiVkRBSGdIY2RDN3hoVnJvTDg3YVpzV2JjNjVMRkVOLVdfNU9yeVZxR0tpV3ZhUU1OSXVMemxUOXBvWVNUMDJGb2Rxa0VRTGxWU0hsSVNvNEdYUVpydDlpNFh2NzVpWXhCWVNSQVJ4OUxoR0ZGS0Q0WTFWNFE0Si11U1FqRnFWZkRlN1haWC1vaHR6Zw?oc=5",
-    "reportedAt": 1795089600000,
-    "assumeSaudi": false,
-    "firstSeen": 1795093247893
    },
    {
     "id": "b4a159a0fbc6",
@@ -2436,6 +2437,20 @@
     "firstSeen": 1795062034805
    },
    {
+    "id": "dfacb2dea5bf",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Coalition forces intercept Houthi missile launched towards Riyadh, debris causes damage",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQa1k5ZGNHU2J3TkNRSFpMaTVWSjdvbG4wcUpubFh4Nnltb2MxYnBXQVhHaEpBSHRvQkpkYVFQSkpwUDVKWE50ZW5IRGs0TVZNM09zRVhHUk1iMUNnTG0tUm9jb0UzejVOXzJsYlpQRzJ1dWpwcFhNMHgxZUVjZjlXMFZfSWVORFVKUVFVNFptTzE0eDZXUExwaWF1RDZoZUZxTW9TLTNWRVF2WWNLWUMxS2RHbWZpU0JHNlpQamJNOHpyME9SX0YtY1JKejY?oc=5",
+    "reportedAt": 1795059106000,
+    "assumeSaudi": false,
+    "firstSeen": 1795059041490
+   },
+   {
     "id": "e5307372eda8",
     "feed": "Reuters",
     "cat": "wire",
@@ -2460,20 +2475,6 @@
     "snippet": "",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUUVVMURmUjNxMHVQNThNQkRiUElQbkhnNVJNdkdVejBqLVVIRU1hUl9DWDhpYlFVWUtFZlo5dGNOSnFqTFU5VE93bXdGY3NaOEVmSERoWlJNOWhQN25NN3E1bGF1MEprczBsWFlkOHBDTUVLM21CSFJydjFzUFFaM2ozQU8wSTdnSENadVQ2UTNmSWhOMFBHNE1ZaDB5MURkMFM0cHZuU1BySDl0ZlQ2aDBEUEdmNUE5MnNzTnl2T2VBaV9sWUQ2Zg?oc=5",
     "reportedAt": 1795058340000,
-    "assumeSaudi": false,
-    "firstSeen": 1795059041490
-   },
-   {
-    "id": "dfacb2dea5bf",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition forces intercept Houthi missile launched towards Riyadh, debris causes damage",
-    "snippet": "RIYADH: Saudi Arabia intercepted a missile launched by Yemen’s Houthi militia toward Riyadh early Thursday, with debris falling and damage being assessed, the Saudi-led Coalition said, as the capital was rocked by a loud explosion. The Civil Defense issued a mobile phone alert at 4:42 a.m. warning of an “aerial threat.” A loud boom was heard about three minutes later, followed shortly by an all-cl",
-    "url": "https://www.arabnews.com/saudi-arabia/coalition-forces-intercept-houthi-missile-launched-towards-riyadh-debris-causes-damage-3012860",
-    "reportedAt": 1795057397000,
     "assumeSaudi": false,
     "firstSeen": 1795059041490
    },
