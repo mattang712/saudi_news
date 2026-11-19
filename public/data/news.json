@@ -1,47 +1,53 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-19T19:20:36.952Z",
-  "lastAttemptAt": "2026-11-19T19:20:36.952Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-19T19:30:53.032Z",
+  "lastAttemptAt": "2026-11-19T19:30:53.032Z",
   "aiSummary": true,
-  "summaryAt": "2026-11-19T17:30:52.853Z",
+  "summaryAt": "2026-11-19T19:30:53.032Z",
   "aiError": null,
   "summaryKo": [
-   "리야드에서 후티의 미사일·순항미사일이 요격됐고 잔해로 건물 일부가 파손됐다고 로이터·국영통신이 보도했어요.",
-   "후티는 킹 칼리드 공항과 리야드 금융중심지를 표적화했다고 주장했다고 로이터가 전했어요.",
-   "후티가 사우디 송유관을 타격했다고 주장하는 보도가 있어 동부 유전·송유 인프라 관련 가능성이 제기돼요.",
-   "미국 대사관은 드론 공격 보도를 부인했고 영국은 사우디 방공 지원을 강화했다고 보도됐어요."
+   "가장 최근 보도에 따르면 리야드 최고층 빌딩이 후티 미사일로 피해를 입었다고 국영통신 발표",
+   "담맘·자프라·동부주 관련 추가 피해 보도는 목록에 없음, 로이터 등 보도들 기준",
+   "후티는 킹 칼리드 공항과 리야드 금융지구를 표적화했다고 주장, 연합군은 요격·발사대 파괴를 발표",
+   "외교·안보 측 반응으로 요르단·종교계가 후티 공격을 규탄했고 영국은 방공 지원 강화 발표, 국영통신 보도"
   ],
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 18
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 136
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 24
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 83
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 115
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 49
+    "count": 45,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +57,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 76
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 76
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -1669,38 +1677,6 @@
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRdIBb0FVX3lxTE50SlVUUVA2eFBrU1J2V285NnhSNGNuTHdILWhpYUxHSUFESWh1MEpBOWhBLTM3UHJkTl9aY3ZVb1ZxbHM2dVBKel96Q01Kc2NsZ1NCSzBQcXJVc09LSDRtbkNtLV9qdjNGb2xxNXhuRQ?oc=5"
     }
    ]
-  },
-  {
-   "id": "2a3b69a77319",
-   "articleIds": [
-    "20edc93cd3ec"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디, 연합군 사령관 전격 해임 보도",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-16T19:30:42.400Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-     "titleKo": "사우디, 연합군 사령관 전격 해임 보도",
-     "summary": "사우디가 연합군 사령관을 해임했다고 보도됐어요.",
-     "reportedAt": "2026-11-16T19:24:52.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd203NG52SlFONmtCTm91YjhsamNiTGxGRFlza0ZqS2FETXNPNHZ3Z1RDMWlaLXZGVjhua3A3QVA2WXgyd3ExOW96UVgweGU1VmpaM0toTl9DVEQxZXBFZVlCMDhOTmRsWExzOWhSZVNUVmFBSW50NmpUc1F3TEhYcXZ1Tno0ekdmY1lOZmhnbEM0YTNBQ2s2dWlPaTJ5U0VxRzJCQVpMZjJOaDRnTzFUbNIBtgFBVV95cUxOWGw4WGYyQUpwckQ1RUFsdjlTM25OMFYtUnlwTldhY2JhR2JwQXp0UTFOUE52Vm5qa3lCSzBZMllBNnBGcUJhOTh2Wl9lWHk2Y2VtQmh6aUZ6Z2dTRmJoY3BvR1RhMmdVRkg1Z19WTUxPU0ZOTHozci1EZ2xaX1kzTl9rLWZMb2tieDFRdHIwNWNyQ0tnMjVOQnpnMk5sNkx6YTk0anVyMHo5el9NbWcxUnlHckhqUQ?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -2262,24 +2238,6 @@
    "reportedAt": "2026-11-17T14:40:17.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4tTThTUWpTY1JCVkJra1dmNi1ZNDk5LVpvZUFEZWY0N05QR3VTM3dvQVNPOFhNYnh6ajZ2Ukk2MmtWSjlqWC13UmJ3?oc=5"
-  },
-  {
-   "id": "20edc93cd3ec",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "사우디, 연합군 사령관 전격 해임 보도",
-   "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-   "summary": "사우디가 연합군 사령관을 해임했다고 보도됐어요.",
-   "reportedAt": "2026-11-16T19:24:52.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd203NG52SlFONmtCTm91YjhsamNiTGxGRFlza0ZqS2FETXNPNHZ3Z1RDMWlaLXZGVjhua3A3QVA2WXgyd3ExOW96UVgweGU1VmpaM0toTl9DVEQxZXBFZVlCMDhOTmRsWExzOWhSZVNUVmFBSW50NmpUc1F3TEhYcXZ1Tno0ekdmY1lOZmhnbEM0YTNBQ2s2dWlPaTJ5U0VxRzJCQVpMZjJOaDRnTzFUbNIBtgFBVV95cUxOWGw4WGYyQUpwckQ1RUFsdjlTM25OMFYtUnlwTldhY2JhR2JwQXp0UTFOUE52Vm5qa3lCSzBZMllBNnBGcUJhOTh2Wl9lWHk2Y2VtQmh6aUZ6Z2dTRmJoY3BvR1RhMmdVRkg1Z19WTUxPU0ZOTHozci1EZ2xaX1kzTl9rLWZMb2tieDFRdHIwNWNyQ0tnMjVOQnpnMk5sNkx6YTk0anVyMHo5el9NbWcxUnlHckhqUQ?oc=5"
   }
  ],
  "_cache": {
@@ -3473,26 +3431,11 @@
     "reportedAt": 1794893160000,
     "assumeSaudi": false,
     "firstSeen": 1794894036417
-   },
-   {
-    "id": "20edc93cd3ec",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd203NG52SlFONmtCTm91YjhsamNiTGxGRFlza0ZqS2FETXNPNHZ3Z1RDMWlaLXZGVjhua3A3QVA2WXgyd3ExOW96UVgweGU1VmpaM0toTl9DVEQxZXBFZVlCMDhOTmRsWExzOWhSZVNUVmFBSW50NmpUc1F3TEhYcXZ1Tno0ekdmY1lOZmhnbEM0YTNBQ2s2dWlPaTJ5U0VxRzJCQVpMZjJOaDRnTzFUbNIBtgFBVV95cUxOWGw4WGYyQUpwckQ1RUFsdjlTM25OMFYtUnlwTldhY2JhR2JwQXp0UTFOUE52Vm5qa3lCSzBZMllBNnBGcUJhOTh2Wl9lWHk2Y2VtQmh6aUZ6Z2dTRmJoY3BvR1RhMmdVRkg1Z19WTUxPU0ZOTHozci1EZ2xaX1kzTl9rLWZMb2tieDFRdHIwNWNyQ0tnMjVOQnpnMk5sNkx6YTk0anVyMHo5el9NbWcxUnlHckhqUQ?oc=5",
-    "reportedAt": 1794857092000,
-    "assumeSaudi": false,
-    "firstSeen": 1794857442400
    }
   ],
   "summaries": {
    "f2bc4c8f82d1": "사우디 외교부는 이란의 바레인 공격을 규탄하는 성명을 냈다고 보도됐어요.",
    "a2755b326385": "스포츠 관련 기사로 사우디 현지 경기와 관련된 내용이에요.",
-   "20edc93cd3ec": "사우디가 연합군 사령관을 해임했다고 보도됐어요.",
    "d64ec1f7aec5": "사우디 외교부가 반복된 이란의 바레인 공격을 강력히 규탄했다고 보도돼요.",
    "ecbae4293069": "사우디 국영통신은 리야드 지역에서 후티가 발사한 UAV를 요격했다고 보도했어요.",
    "de52b7e13574": "연합군 대변인은 리야드 지역에서 후티 드론을 파괴했다고 발표했어요.",
@@ -3574,7 +3517,6 @@
   },
   "titlesKo": {
    "f2bc4c8f82d1": "사우디 외교부, 이란의 바레인 공격 규탄",
-   "20edc93cd3ec": "사우디, 연합군 사령관 전격 해임 보도",
    "a2755b326385": "경질 위기 사우디 감독, 한국 덕분에 살았다",
    "7638a1cf6bff": "사우디 지원군, 아덴 외곽 방어 강화 보도",
    "d64ec1f7aec5": "사우디 외교부, 이란의 반복 공격 강력 규탄 발표",
@@ -3909,12 +3851,6 @@
    },
    {
     "articleIds": [
-     "20edc93cd3ec"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
      "8d5299429ff2"
     ],
     "fromRule": true
@@ -3945,13 +3881,13 @@
    }
   ],
   "aiSummaryKo": [
-   "리야드에서 후티의 미사일·순항미사일이 요격됐고 잔해로 건물 일부가 파손됐다고 로이터·국영통신이 보도했어요.",
-   "후티는 킹 칼리드 공항과 리야드 금융중심지를 표적화했다고 주장했다고 로이터가 전했어요.",
-   "후티가 사우디 송유관을 타격했다고 주장하는 보도가 있어 동부 유전·송유 인프라 관련 가능성이 제기돼요.",
-   "미국 대사관은 드론 공격 보도를 부인했고 영국은 사우디 방공 지원을 강화했다고 보도됐어요."
+   "가장 최근 보도에 따르면 리야드 최고층 빌딩이 후티 미사일로 피해를 입었다고 국영통신 발표",
+   "담맘·자프라·동부주 관련 추가 피해 보도는 목록에 없음, 로이터 등 보도들 기준",
+   "후티는 킹 칼리드 공항과 리야드 금융지구를 표적화했다고 주장, 연합군은 요격·발사대 파괴를 발표",
+   "외교·안보 측 반응으로 요르단·종교계가 후티 공격을 규탄했고 영국은 방공 지원 강화 발표, 국영통신 보도"
   ],
   "lastAiAt": 1795109452853,
-  "summaryAt": "2026-11-19T17:30:52.853Z",
+  "summaryAt": "2026-11-19T19:30:53.032Z",
   "promptVersion": 4
  }
 }
