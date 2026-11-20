@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-11-20T01:40:32.572Z",
-  "lastAttemptAt": "2026-11-20T01:40:32.572Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-11-20T01:50:30.178Z",
+  "lastAttemptAt": "2026-11-20T01:50:30.178Z",
   "aiSummary": true,
   "summaryAt": "2026-11-20T01:00:43.850Z",
   "aiError": null,
@@ -21,17 +21,17 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 103
+    "count": 96
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 31
+    "count": 33
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 103
+    "count": 105
    },
    {
     "name": "Arab News",
@@ -51,13 +51,12 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 76
+    "count": 78
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 500 { \"OpenAPI_ServiceResponse\": { \"cmmMsgHeader\": { \"errMsg\": \""
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
@@ -67,10 +66,25 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 80
+    "count": 84
    }
   ],
   "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
    {
     "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
     "date": "2026-11-13",
@@ -89,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "6ca292a4f859",
+   "articleIds": [
+    "29648eec3001"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "바레인, 리야드에 대한 후티의 지속적 테러 공격 강력 비난",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-20T01:50:30.178Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Bahrain Strongly Condemns Continued Houthi Terrorist Attacks on Riyadh",
+     "titleKo": "바레인, 리야드에 대한 후티의 지속적 테러 공격 강력 비난",
+     "summary": "",
+     "reportedAt": "2026-11-20T01:49:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE05ZWI2U2stQXJBWV92NmZvQXJuYmI3YlNPTHFsU0IzV0VfZWlYbUN0Xy1BMWRMbVR4NEItd3RWZkwzYWg0ODNKVl93?oc=5"
+    }
+   ]
+  },
   {
    "id": "3527c80ad91f",
    "articleIds": [
@@ -180,9 +226,9 @@
      "title": "사우디 리야드 80층 빌딩, 후티 미사일에 파손",
      "titleKo": null,
      "summary": "연합뉴스는 리야드 80층 빌딩이 후티 미사일에 파손됐다고 보도했어요.",
-     "reportedAt": "2026-11-20T00:53:00.000Z",
+     "reportedAt": "2026-11-20T00:54:05.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDNlZMSjU4aHJXcnA4T1Y3eTVjb0dlRzZ5TXNqU3J2aGozMjcwek1aS2lDNDZDZzNxXzdUNDlFN1ZXM3BsZHcxOHpZbDJrYVRrNk9ia1VTaVJpTkhhX2xlMlVHZjFvb2M?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZT2NkYW1OTTFfSlhTWElJbWItMWl1dGZZOE1BanpOZ0U3em56a0VpMTRUdktKdW8xaERWSkpjMFFyY09MeEo3Q2NWNlRfTTRveW9xSUNva2Y2X0xjV3pwLWtiMExhczJ0X2hqTUlzRU9jV1FP?oc=5"
     }
    ]
   },
@@ -260,7 +306,7 @@
      "summary": "한국일보는 후티가 4곳을 목표로 보복 공습했다고 보도했어요.",
      "reportedAt": "2026-11-19T22:51:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RYktnX1ljX2ZrWFFLd3oxaEJNdkE2R2ZMOHhoeVhwX0lOcm9MbHBfdThXRDhJRTJnVENON0VuWXdfM0dVdl9QbGxrRlJtQWRNWVNfTUlhQW9rbkhVcExBMm1LMm9JVUxyLW1NRXpB0gFzQVVfeXFMUGZKd3pqQXZLUWVIZDRVYVRxWW1yS0hQTlBiYTRwcm9fNHR3UlprSzk3cGpZQkt4QmZ3cVptRDdCVDZPanVhbFNKeG5ObC13U2NGU1lQZmY2TUFwR0xJUjh6cEpOR01QZGZGeDB2bVZEWUFlVQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmSnd6akF2S1FlSGQ0VWFUcVltcktIUE5QYmE0cHJvXzR0d1Jaa0s5N3BqWUJLeEJmd3FabUQ3QlQ2T2p1YWxTSnhuTmwtd1NjRlNZUGZmNk1BcEdMSVI4enBKTkdNUGRmRngwdm1WRFlBZVXSAXNBVV95cUxQZkp3empBdktRZUhkNFVhVHFZbXJLSFBOUGJhNHByb180dHdSWmtLOTdwallCS3hCZndxWm1EN0JUNk9qdWFsU0p4bk5sLXdTY0ZTWVBmZjZNQXBHTElSOHpwSk5HTVBkZkZ4MHZtVkRZQWVV?oc=5"
     }
    ]
   },
@@ -2055,6 +2101,24 @@
  ],
  "timeline": [
   {
+   "id": "29648eec3001",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "바레인, 리야드에 대한 후티의 지속적 테러 공격 강력 비난",
+   "title": "Bahrain Strongly Condemns Continued Houthi Terrorist Attacks on Riyadh",
+   "summary": "",
+   "reportedAt": "2026-11-20T01:49:03.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE05ZWI2U2stQXJBWV92NmZvQXJuYmI3YlNPTHFsU0IzV0VfZWlYbUN0Xy1BMWRMbVR4NEItd3RWZkwzYWg0ODNKVl93?oc=5"
+  },
+  {
    "id": "7f0ce59ca73e",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -2725,6 +2789,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "29648eec3001",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Bahrain Strongly Condemns Continued Houthi Terrorist Attacks on Riyadh",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE05ZWI2U2stQXJBWV92NmZvQXJuYmI3YlNPTHFsU0IzV0VfZWlYbUN0Xy1BMWRMbVR4NEItd3RWZkwzYWg0ODNKVl93?oc=5",
+    "reportedAt": 1795139343000,
+    "assumeSaudi": false,
+    "firstSeen": 1795139430178
+   },
+   {
     "id": "7f0ce59ca73e",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -2747,8 +2825,8 @@
     "outlet": "연합뉴스",
     "title": "사우디 리야드 80층 빌딩, 후티 미사일에 파손",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDNlZMSjU4aHJXcnA4T1Y3eTVjb0dlRzZ5TXNqU3J2aGozMjcwek1aS2lDNDZDZzNxXzdUNDlFN1ZXM3BsZHcxOHpZbDJrYVRrNk9ia1VTaVJpTkhhX2xlMlVHZjFvb2M?oc=5",
-    "reportedAt": 1795135980000,
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZT2NkYW1OTTFfSlhTWElJbWItMWl1dGZZOE1BanpOZ0U3em56a0VpMTRUdktKdW8xaERWSkpjMFFyY09MeEo3Q2NWNlRfTTRveW9xSUNva2Y2X0xjV3pwLWtiMExhczJ0X2hqTUlzRU9jV1FP?oc=5",
+    "reportedAt": 1795136045000,
     "assumeSaudi": false,
     "firstSeen": 1795136443850
    },
@@ -2789,7 +2867,7 @@
     "outlet": "한국일보",
     "title": "후티, 사우디 금융·석유·군사 핵심시설 4곳 보복 공습…양측 교전 최고조",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RYktnX1ljX2ZrWFFLd3oxaEJNdkE2R2ZMOHhoeVhwX0lOcm9MbHBfdThXRDhJRTJnVENON0VuWXdfM0dVdl9QbGxrRlJtQWRNWVNfTUlhQW9rbkhVcExBMm1LMm9JVUxyLW1NRXpB0gFzQVVfeXFMUGZKd3pqQXZLUWVIZDRVYVRxWW1yS0hQTlBiYTRwcm9fNHR3UlprSzk3cGpZQkt4QmZ3cVptRDdCVDZPanVhbFNKeG5ObC13U2NGU1lQZmY2TUFwR0xJUjh6cEpOR01QZGZGeDB2bVZEWUFlVQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmSnd6akF2S1FlSGQ0VWFUcVltcktIUE5QYmE0cHJvXzR0d1Jaa0s5N3BqWUJLeEJmd3FabUQ3QlQ2T2p1YWxTSnhuTmwtd1NjRlNZUGZmNk1BcEdMSVI4enBKTkdNUGRmRngwdm1WRFlBZVXSAXNBVV95cUxQZkp3empBdktRZUhkNFVhVHFZbXJLSFBOUGJhNHByb180dHdSWmtLOTdwallCS3hCZndxWm1EN0JUNk9qdWFsU0p4bk5sLXdTY0ZTWVBmZjZNQXBHTElSOHpwSk5HTVBkZkZ4MHZtVkRZQWVV?oc=5",
     "reportedAt": 1795128660000,
     "assumeSaudi": false,
     "firstSeen": 1795129833293
@@ -4320,7 +4398,8 @@
    "518c169cafb9": "후티, 사우디 금융·석유·군사 핵심시설 4곳 보복 공습…양측 교전 최고조",
    "b4a159a0fbc6": "한국일보: 리야드 80층 빌딩 피격 보도",
    "0aaa0072c2a1": "연합뉴스: 사우디 리야드 80층 빌딩, 후티 미사일에 파손",
-   "7f0ce59ca73e": "예멘, 리야드에 대한 후티 테러 공격 강력 규탄"
+   "7f0ce59ca73e": "예멘, 리야드에 대한 후티 테러 공격 강력 규탄",
+   "29648eec3001": "바레인, 리야드에 대한 후티의 지속적 테러 공격 강력 비난"
   },
   "aiClusters": [
    {
@@ -4677,6 +4756,12 @@
    {
     "articleIds": [
      "7f0ce59ca73e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "29648eec3001"
     ],
     "fromRule": true
    }
