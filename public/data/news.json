@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-20T19:50:34.105Z",
-  "lastAttemptAt": "2026-11-20T19:50:34.105Z",
+  "lastSuccessAt": "2026-11-20T20:00:57.160Z",
+  "lastAttemptAt": "2026-11-20T20:00:57.160Z",
   "aiSummary": true,
   "summaryAt": "2026-11-20T19:30:44.304Z",
   "aiError": null,
@@ -16,17 +16,18 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 18
+    "count": 31
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 112
+    "count": 110,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 23
+    "count": 24
    },
    {
     "name": "AFP",
@@ -36,12 +37,13 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 104
+    "count": 70,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 59
+    "count": 58
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +53,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 79
+    "count": 80
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +68,8 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 54
+    "count": 54,
+    "note": "일부 주소 실패: HTTP 429"
    }
   ],
   "mofaLatest": [
@@ -574,38 +577,6 @@
    ]
   },
   {
-   "id": "06ed3e8eb6b4",
-   "articleIds": [
-    "92472a0bbc26"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티, 사우디 수도에 대한 공격 격화 보도",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-20T10:20:32.608Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
-     "titleKo": "후티, 사우디 수도에 대한 공격 격화 보도",
-     "summary": "(원문 제목 이미 한국어 처리됨)",
-     "reportedAt": "2026-11-20T10:51:11.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNktCSDUyNm1zRUstX3lPWnRIUHBWcEs3RzdocUNrckJfV0lZcFZGZTIyd0JVRUlTZWFCcmdZaWhTcFlXbXRJOUU2VThXcEpRX25pTmxYU2JnZVRUVzVvd1doUzdJVTk2anROZHRrS29NYkhTdHZwX1RiX3VLdGpIZ3AyQXdOZnhFaFlWekxTWHpMNGdpT19oQVRHUG5FaC1idFRaVFlPNW9QUFFzNlFXOWkzZmpsRE5BUzFOVFRn?oc=5"
-    }
-   ]
-  },
-  {
    "id": "fd60538ba224",
    "articleIds": [
     "774a0572be31",
@@ -829,6 +800,38 @@
      "reportedAt": "2026-11-20T08:40:59.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qYmd0ZzJKR0hKMk80RHFvVG5ZLUVudllUR282X3V2SGZ1VEJWRDk2aGNRelNOR0llWlo4Y1lTdU5LNU1Ia19tWnAxMUh2TzJMemhnSnlmY2tjUS1sWWFBZVVNeGotdXdyUEx2cFBJQmpTS21N?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "06ed3e8eb6b4",
+   "articleIds": [
+    "92472a0bbc26"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티, 사우디 수도에 대한 공격 격화 보도",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-20T10:20:32.608Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
+     "titleKo": "후티, 사우디 수도에 대한 공격 격화 보도",
+     "summary": "(원문 제목 이미 한국어 처리됨)",
+     "reportedAt": "2026-11-20T08:02:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeld3RjRYaGhHaVlsQ2tBTGMzM0VuUWRDQ1lqeXFhNHFPd2xDR3kwdjE2WUhSM0dxaEpucDBySGdyZFkyOFgxOVdVTDByMEZENnlDN2tITk4ydkZLcG9hTGcxWGxmOEZxcDl4a0RYbFBtYVdLWk5zOFZfbGx2cWNhWWFuZmxGd1Nlc1NaQllTTFFCZ1hwT3Q1R0J4OUI5WU5JOEtWQ0RTb0kwSTRFX2kwU0JBcGI4elJ5VE1uTkhR?oc=5"
     }
    ]
   },
@@ -3026,38 +3029,6 @@
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdFloWVdNeEpsNURBVl9XMnV3OVoxUlE4djVSRjZVSThlbmVNc19DbzBCMzJTMkxRTHU4SkNBNF9lcDVTcGJMY0t3?oc=5"
     }
    ]
-  },
-  {
-   "id": "f9fa6d44ada9",
-   "articleIds": [
-    "da27b805da8a"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "국영통신: 후티가 리야드 지역 UAV 발사, 요격 보도",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-17T20:10:30.883Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Arab Tourism Organization Condemns Houthi Attacks Targeting Saudi Arabia",
-     "titleKo": "국영통신: 후티가 리야드 지역 UAV 발사, 요격 보도",
-     "summary": "사우디 국영통신은 후티의 리야드 지역 UAV 요격 사실을 전했다고 보도했어요.",
-     "reportedAt": "2026-11-17T19:53:31.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMeFo2VXlVN3BfZHk3Nk5welBvd1pWcFk1RVU0MUdmNkpubExMUmZ3MXJjMlByWlFtZDZpeG5VQUxuTFUxckp5Zk1n?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -3224,24 +3195,6 @@
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82ZnN5MWdKM29CNHVJRld2b3ZESGhhVHhKR3NtVDk1U1NLa255RkFvcGIxUktzMFV5R1E2LWxKSExSNHRWaFdHVjNR?oc=5"
   },
   {
-   "id": "92472a0bbc26",
-   "outlet": "Al Jazeera",
-   "official": false,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "후티, 사우디 수도에 대한 공격 격화 보도",
-   "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
-   "summary": "(원문 제목 이미 한국어 처리됨)",
-   "reportedAt": "2026-11-20T10:51:11.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNktCSDUyNm1zRUstX3lPWnRIUHBWcEs3RzdocUNrckJfV0lZcFZGZTIyd0JVRUlTZWFCcmdZaWhTcFlXbXRJOUU2VThXcEpRX25pTmxYU2JnZVRUVzVvd1doUzdJVTk2anROZHRrS29NYkhTdHZwX1RiX3VLdGpIZ3AyQXdOZnhFaFlWekxTWHpMNGdpT19oQVRHUG5FaC1idFRaVFlPNW9QUFFzNlFXOWkzZmpsRE5BUzFOVFRn?oc=5"
-  },
-  {
    "id": "044345b3f8c8",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -3312,6 +3265,24 @@
    "reportedAt": "2026-11-20T08:28:10.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE85T21YLXpJejBIa2ZPNTg5TW00SU1SZFluX2Jqel9nN2toVzctNjN2alRJdEotMG82Z2NSNElnTkJQZF9nd21mczdn?oc=5"
+  },
+  {
+   "id": "92472a0bbc26",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "후티, 사우디 수도에 대한 공격 격화 보도",
+   "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
+   "summary": "(원문 제목 이미 한국어 처리됨)",
+   "reportedAt": "2026-11-20T08:02:20.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeld3RjRYaGhHaVlsQ2tBTGMzM0VuUWRDQ1lqeXFhNHFPd2xDR3kwdjE2WUhSM0dxaEpucDBySGdyZFkyOFgxOVdVTDByMEZENnlDN2tITk4ydkZLcG9hTGcxWGxmOEZxcDl4a0RYbFBtYVdLWk5zOFZfbGx2cWNhWWFuZmxGd1Nlc1NaQllTTFFCZ1hwT3Q1R0J4OUI5WU5JOEtWQ0RTb0kwSTRFX2kwU0JBcGI4elJ5VE1uTkhR?oc=5"
   },
   {
    "id": "8443e9a9127b",
@@ -3979,24 +3950,6 @@
    "reportedAt": "2026-11-17T21:21:27.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1OdFloWVdNeEpsNURBVl9XMnV3OVoxUlE4djVSRjZVSThlbmVNc19DbzBCMzJTMkxRTHU4SkNBNF9lcDVTcGJMY0t3?oc=5"
-  },
-  {
-   "id": "da27b805da8a",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "국영통신: 후티가 리야드 지역 UAV 발사, 요격 보도",
-   "title": "Arab Tourism Organization Condemns Houthi Attacks Targeting Saudi Arabia",
-   "summary": "사우디 국영통신은 후티의 리야드 지역 UAV 요격 사실을 전했다고 보도했어요.",
-   "reportedAt": "2026-11-17T19:53:31.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMeFo2VXlVN3BfZHk3Nk5welBvd1pWcFk1RVU0MUdmNkpubExMUmZ3MXJjMlByWlFtZDZpeG5VQUxuTFUxckp5Zk1n?oc=5"
   }
  ],
  "_cache": {
@@ -4296,20 +4249,6 @@
     "firstSeen": 1795119633345
    },
    {
-    "id": "92472a0bbc26",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNktCSDUyNm1zRUstX3lPWnRIUHBWcEs3RzdocUNrckJfV0lZcFZGZTIyd0JVRUlTZWFCcmdZaWhTcFlXbXRJOUU2VThXcEpRX25pTmxYU2JnZVRUVzVvd1doUzdJVTk2anROZHRrS29NYkhTdHZwX1RiX3VLdGpIZ3AyQXdOZnhFaFlWekxTWHpMNGdpT19oQVRHUG5FaC1idFRaVFlPNW9QUFFzNlFXOWkzZmpsRE5BUzFOVFRn?oc=5",
-    "reportedAt": 1795171871000,
-    "assumeSaudi": false,
-    "firstSeen": 1795170032608
-   },
-   {
     "id": "a3a751bac5f1",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4406,6 +4345,20 @@
     "reportedAt": 1795163290000,
     "assumeSaudi": false,
     "firstSeen": 1795102244141
+   },
+   {
+    "id": "92472a0bbc26",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeld3RjRYaGhHaVlsQ2tBTGMzM0VuUWRDQ1lqeXFhNHFPd2xDR3kwdjE2WUhSM0dxaEpucDBySGdyZFkyOFgxOVdVTDByMEZENnlDN2tITk4ydkZLcG9hTGcxWGxmOEZxcDl4a0RYbFBtYVdLWk5zOFZfbGx2cWNhWWFuZmxGd1Nlc1NaQllTTFFCZ1hwT3Q1R0J4OUI5WU5JOEtWQ0RTb0kwSTRFX2kwU0JBcGI4elJ5VE1uTkhR?oc=5",
+    "reportedAt": 1795161740000,
+    "assumeSaudi": false,
+    "firstSeen": 1795170032608
    },
    {
     "id": "249b1dadb681",
@@ -5766,27 +5719,12 @@
     "reportedAt": 1794950487000,
     "assumeSaudi": false,
     "firstSeen": 1794934231874
-   },
-   {
-    "id": "da27b805da8a",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Arab Tourism Organization Condemns Houthi Attacks Targeting Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMeFo2VXlVN3BfZHk3Nk5welBvd1pWcFk1RVU0MUdmNkpubExMUmZ3MXJjMlByWlFtZDZpeG5VQUxuTFUxckp5Zk1n?oc=5",
-    "reportedAt": 1794945211000,
-    "assumeSaudi": false,
-    "firstSeen": 1794946230883
    }
   ],
   "summaries": {
    "ecbae4293069": "사우디 국영통신은 리야드 지역에서 후티가 발사한 UAV를 요격했다고 보도했어요.",
    "ff131f95623b": "AP는 사우디 지원군이 예멘에서 방어 태세를 강화했다고 보도했어요.",
    "f491bcda822b": "후티가 사우디 최대 송유관에 공습을 시작했다고 주장했다고 보도합니다.",
-   "da27b805da8a": "사우디 국영통신은 후티의 리야드 지역 UAV 요격 사실을 전했다고 보도했어요.",
    "66332d0c4d3a": "중앙일보는 후티가 사우디 최대 송유관을 공습했다고 후티 측 주장을 전했어요.",
    "7b6a36ea7e33": "연합뉴스는 후티의 송유관 타격 주장을 전했어요.",
    "92f84c6b0c25": "MBC는 후티가 사우디 송유관을 타격했다고 주장하며 예멘 내전이 격화됐다고 보도했어요.",
@@ -5911,7 +5849,6 @@
   "titlesKo": {
    "ff131f95623b": "사우디 지원군, 예멘서 방어 태세 강화",
    "ecbae4293069": "국영통신: 리야드 지역서 후티 UAV 요격",
-   "da27b805da8a": "국영통신: 후티가 리야드 지역 UAV 발사, 요격 보도",
    "f491bcda822b": "후티군 “사우디 최대 송유관에 공습 시작” 주장",
    "66332d0c4d3a": "후티 \"사우디 최대 송유관에 공습\" 주장",
    "7b6a36ea7e33": "후티, 사우디 송유관 타격 주장 보도",
@@ -6540,12 +6477,6 @@
    {
     "articleIds": [
      "ecbae4293069"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "da27b805da8a"
     ],
     "fromRule": true
    },
