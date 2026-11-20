@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-20T02:20:33.091Z",
-  "lastAttemptAt": "2026-11-20T02:20:33.091Z",
+  "lastSuccessAt": "2026-11-20T02:30:39.474Z",
+  "lastAttemptAt": "2026-11-20T02:30:39.474Z",
   "aiSummary": true,
   "summaryAt": "2026-11-20T01:00:43.850Z",
   "aiError": null,
@@ -16,27 +16,27 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 22
+    "count": 20
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 89
+    "count": 98
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 29
+    "count": 33
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 105
+    "count": 104
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 108
+    "count": 109
    },
    {
     "name": "Saudi Gazette",
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "232b6849e596",
+   "articleIds": [
+    "4978c2c65479"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티의 리야드 공격으로 공급 우려 커지자 유가 소폭 상승",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-20T02:30:39.474Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
+     "titleKo": "후티의 리야드 공격으로 공급 우려 커지자 유가 소폭 상승",
+     "summary": "",
+     "reportedAt": "2026-11-20T02:26:56.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/business/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-3013070"
+    }
+   ]
+  },
   {
    "id": "1ff84ae490e3",
    "articleIds": [
@@ -2921,6 +2953,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "4978c2c65479",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
+    "snippet": "Oil prices inched up on Friday due to heightened concerns over supply disruptions from Houthi attacks on Riyadh and tanker issues in the Strait of Hormuz, despite being set for a weekly decline. Brent crude rose to $92.22 a barrel, while expectations of continued OPEC+ production cuts provided some support amidst the ongoing Middle Eastern conflict affecting global oil trade.",
+    "url": "https://www.arabnews.com/business/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-3013070",
+    "reportedAt": 1795141616000,
+    "assumeSaudi": false,
+    "firstSeen": 1795141839474
+   },
+   {
     "id": "b21dc8c04fbf",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4575,7 +4621,8 @@
    "7f0ce59ca73e": "예멘, 리야드에 대한 후티 테러 공격 강력 규탄",
    "29648eec3001": "바레인, 리야드에 대한 후티의 지속적 테러 공격 강력 비난",
    "b21dc8c04fbf": "아랍 의회: 후티의 반복적 사우디 민간 시설 공격은 체계적 테러에 해당한다고 주장",
-   "5e74d32bff0d": "유가 소폭 상승, 후티의 리야드 공격으로 공급 우려 제기"
+   "5e74d32bff0d": "유가 소폭 상승, 후티의 리야드 공격으로 공급 우려 제기",
+   "4978c2c65479": "후티의 리야드 공격으로 공급 우려 커지자 유가 소폭 상승"
   },
   "aiClusters": [
    {
@@ -4956,6 +5003,12 @@
    {
     "articleIds": [
      "5e74d32bff0d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "4978c2c65479"
     ],
     "fromRule": true
    }
