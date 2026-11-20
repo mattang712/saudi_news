@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-20T13:30:42.559Z",
-  "lastAttemptAt": "2026-11-20T13:30:42.559Z",
+  "lastSuccessAt": "2026-11-20T13:40:31.095Z",
+  "lastAttemptAt": "2026-11-20T13:40:31.095Z",
   "aiSummary": true,
   "summaryAt": "2026-11-20T12:40:33.652Z",
   "aiError": null,
@@ -16,12 +16,12 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 16
+    "count": 17
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 130
+    "count": 125
    },
    {
     "name": "AP",
@@ -31,17 +31,18 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 94
+    "count": 47,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 110
+    "count": 112
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 71
+    "count": 68
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +52,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 72
+    "count": 70
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +67,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 74
+    "count": 71
    }
   ],
   "mofaLatest": [
@@ -103,6 +104,38 @@
   ]
  },
  "events": [
+  {
+   "id": "356165da7a35",
+   "articleIds": [
+    "1b3eaa72f14a"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 반군, 사우디 항구·발전소·금융지구 대대적 공습 예고",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-20T13:40:31.095Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "후티 반군, 사우디 항구·발전소·금융지구 대대적 공습 예고",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-11-20T13:24:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lemxkajVRV0JYSGpUQWNBdDBiUjBxOW9NN01vU0w4MzF4Wl9ub1pfVUJBMlVUVU5oelRSMHBobE1DTXpnbWJYZ0FWUGxFM2ptOUJVX2xJb2d3Y1BxNF9LdWFB?oc=5"
+    }
+   ]
+  },
   {
    "id": "53f868ebe902",
    "articleIds": [
@@ -220,70 +253,6 @@
      "reportedAt": "2026-11-20T11:35:09.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1MZEc3VW1QRXVSTi0wcm5HMGFmNlR3dXMzZzg4ZVg3NWV6OS0yTkRJRVRSNTlhU2VXYkQ5YXRhYk9WRUxsOXUwTmlB?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "444f827d746a",
-   "articleIds": [
-    "ac46e6c623d1"
-   ],
-   "type": "evacuation",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "연합군, 예멘 후데이다 항구 주민들에게 대피 요청",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-20T11:20:36.270Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition asks civilians to evacuate Hodeidah port in Yemen",
-     "titleKo": "연합군, 예멘 후데이다 항구 주민들에게 대피 요청",
-     "summary": "연합군 합동사령부가 후데이다 항구의 민간인들에게 대피를 촉구했다고 보도되었어요.",
-     "reportedAt": "2026-11-20T11:12:24.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/middle-east/coalition-asks-civilians-to-evacuate-hodeidah-port-in-yemen-3013147"
-    }
-   ]
-  },
-  {
-   "id": "4dbb778ffb76",
-   "articleIds": [
-    "a3a751bac5f1"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 80층 빌딩에 후티 미사일 ‘쾅’",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-20T11:20:36.270Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "채널A",
-     "cat": "kr",
-     "title": "사우디 80층 빌딩에 후티 미사일 ‘쾅’",
-     "titleKo": null,
-     "summary": "사우디의 80층 빌딩이 후티의 미사일에 맞았다고 보도되었어요.",
-     "reportedAt": "2026-11-20T10:44:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IWDFzS3I1ckp2bnZ0NDZLWHlzTGxjekFoSTNnT0tJeDRsbEpLS3pxZmt3LVp4aHgyMExucW5SUE14c1BScVdnQmtnR0VhcmFvS1k5VGNrQVdXU1BkTkHSAWNBVV95cUxNdTh4cF9wUnpPS1FvNVhSeGwxa3pzckJPNTVXdWZZVW51RS1RQlY1bEhtUE1xbE1sa18wX3cwX1Y4TjV6YjQyWFh6Y0I4TFJGbm84aklCSVVQeTg0alZpUER6S1k?oc=5"
     }
    ]
   },
@@ -413,9 +382,73 @@
      "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
      "titleKo": "이란 전쟁 최신: 후티가 사우디 수도에 대한 공격을 확대했다고 알자지라 보도",
      "summary": "알자지라가 후티의 공격이 리야드로 확대되고 있다고 보도했어요.",
-     "reportedAt": "2026-11-20T09:52:00.000Z",
+     "reportedAt": "2026-11-20T11:16:20.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZXVJUW8yNXllX09WZUxsM05Ha0U5N0RKdWpsSnhaTVNraGZMci04OFhYa2k1dnN6SFM4dENNdEhtRlFRbWhMYThzQ3pUTzl1QWFQN1RrN0xFd1A0VDJwamRwNW16QWlOZElFNHVMcktVLWxIOGU5Zlg5RDJpRGlZN0huWTlNaDl5NXJhVU95dEQ5YmtnLW1PN1ZTUGttdHA5Z29VcUJDeWRqMllYNWxCWUpZbkpTUENINE5Jc2JB?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWjlrOGFvZ1lvV3lqdjB1UG1ldU11MHNpWmNjMXpNSmdDcWRLZWhqbTJVdkgyQVUya2hzUEY2QmNfUThHZGJhVndzeFBzaHd5OWkyME9xQlpReVhJcGo1QVBQdE9fQkw0QWNTUXk1bnZQTGNDV1FrY2daNVZ4VFBFTTVIdGpHRHVMU2hkMWpwWWd1NDgxZUNWZER6ZjJGb0RNeGdNWGtKQXlWaXBBUktGOXpuX1QyVTB0d0stYlVR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "444f827d746a",
+   "articleIds": [
+    "ac46e6c623d1"
+   ],
+   "type": "evacuation",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 예멘 후데이다 항구 주민들에게 대피 요청",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-20T11:20:36.270Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition asks civilians to evacuate Hodeidah port in Yemen",
+     "titleKo": "연합군, 예멘 후데이다 항구 주민들에게 대피 요청",
+     "summary": "연합군 합동사령부가 후데이다 항구의 민간인들에게 대피를 촉구했다고 보도되었어요.",
+     "reportedAt": "2026-11-20T11:12:24.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/middle-east/coalition-asks-civilians-to-evacuate-hodeidah-port-in-yemen-3013147"
+    }
+   ]
+  },
+  {
+   "id": "4dbb778ffb76",
+   "articleIds": [
+    "a3a751bac5f1"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 80층 빌딩에 후티 미사일 ‘쾅’",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-20T11:20:36.270Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "채널A",
+     "cat": "kr",
+     "title": "사우디 80층 빌딩에 후티 미사일 ‘쾅’",
+     "titleKo": null,
+     "summary": "사우디의 80층 빌딩이 후티의 미사일에 맞았다고 보도되었어요.",
+     "reportedAt": "2026-11-20T10:44:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11OHhwX3BSek9LUW81WFJ4bDFrenNyQk81NVd1ZllVbnVFLVFCVjVsSG1QTXFsTWxrXzBfdzBfVjhONXpiNDJYWHpjQjhMUkZubzhqSUJJVVB5ODRqVmlQRHpLWdIBY0FVX3lxTE11OHhwX3BSek9LUW81WFJ4bDFrenNyQk81NVd1ZllVbnVFLVFCVjVsSG1QTXFsTWxrXzBfdzBfVjhONXpiNDJYWHpjQjhMUkZubzhqSUJJVVB5ODRqVmlQRHpLWQ?oc=5"
     }
    ]
   },
@@ -465,6 +498,7 @@
     "5234800f7d9c",
     "578e151930f3",
     "15f8952a7e6b",
+    "d261ac8f46dc",
     "e3b383d51f31",
     "774a0572be31",
     "1d2ccd1da233",
@@ -472,7 +506,6 @@
     "8d3bdf79ae40",
     "c35d91c42f16",
     "bf90d2292234",
-    "d261ac8f46dc",
     "b1ddf9aecd0d",
     "f7085028b012",
     "1138f73e92d5",
@@ -613,6 +646,16 @@
     {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
+     "title": "Mufti of Akkar Condemns Houthi Attacks on Saudi Arabia",
+     "titleKo": "아카르 무프티, 후티의 사우디 공격 규탄",
+     "summary": "SPA가 아카르 무프티가 후티의 사우디 공격을 규탄했다고 전했어요.",
+     "reportedAt": "2026-11-19T18:53:12.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UbDhUVDA1NklWTkp6QUh3SndYZnpxU0JwUHppeTgwNmNwV2pTbDhNWENVYnhpdEtRZkprYVlBc3JyM2hRa0N2cktB?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
      "title": "Jordan Condemns Houthi Terrorist Militia Attacks on Riyadh",
      "titleKo": "기사의 한국어 제목이 이미 제공되어 있어 별도 번역을 하지 않았습니다.",
      "summary": "사우디 국영통신은 요르단이 후티 공격을 규탄했다고 전했어요.",
@@ -679,16 +722,6 @@
      "reportedAt": "2026-11-19T20:37:14.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666386/saudi-arabia/gcc-chief-condemns-houthi-attack-on-kafd-calls-for-international-action"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Mufti of Akkar Condemns Houthi Attacks on Saudi Arabia",
-     "titleKo": "아카르 무프티, 후티의 사우디 공격 규탄",
-     "summary": "SPA가 아카르 무프티가 후티의 사우디 공격을 규탄했다고 전했어요.",
-     "reportedAt": "2026-11-19T21:22:23.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UbDhUVDA1NklWTkp6QUh3SndYZnpxU0JwUHppeTgwNmNwV2pTbDhNWENVYnhpdEtRZkprYVlBc3JyM2hRa0N2cktB?oc=5"
     },
     {
      "outlet": "Reuters",
@@ -2773,9 +2806,9 @@
    "titleKo": "이란 전쟁 최신: 후티가 사우디 수도에 대한 공격을 확대했다고 알자지라 보도",
    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
    "summary": "알자지라가 후티의 공격이 리야드로 확대되고 있다고 보도했어요.",
-   "reportedAt": "2026-11-20T09:52:00.000Z",
+   "reportedAt": "2026-11-20T11:16:20.000Z",
    "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZXVJUW8yNXllX09WZUxsM05Ha0U5N0RKdWpsSnhaTVNraGZMci04OFhYa2k1dnN6SFM4dENNdEhtRlFRbWhMYThzQ3pUTzl1QWFQN1RrN0xFd1A0VDJwamRwNW16QWlOZElFNHVMcktVLWxIOGU5Zlg5RDJpRGlZN0huWTlNaDl5NXJhVU95dEQ5YmtnLW1PN1ZTUGttdHA5Z29VcUJDeWRqMllYNWxCWUpZbkpTUENINE5Jc2JB?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWjlrOGFvZ1lvV3lqdjB1UG1ldU11MHNpWmNjMXpNSmdDcWRLZWhqbTJVdkgyQVUya2hzUEY2QmNfUThHZGJhVndzeFBzaHd5OWkyME9xQlpReVhJcGo1QVBQdE9fQkw0QWNTUXk1bnZQTGNDV1FrY2daNVZ4VFBFTTVIdGpHRHVMU2hkMWpwWWd1NDgxZUNWZER6ZjJGb0RNeGdNWGtKQXlWaXBBUktGOXpuX1QyVTB0d0stYlVR?oc=5"
   },
   {
    "id": "044345b3f8c8",
@@ -3066,24 +3099,6 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlellNcl9iOFk5YURTaUJXSTRKZkVTWk13NUhyS3ptX3VUOVMzVkV4VFdGQjZpQU9DMFdkNUNXMUZuNWl5SWxxdTZUcXIyNE1NM3VaOHBGWG41RThNQjJ3WjA1Tm0zU28?oc=5"
   },
   {
-   "id": "d261ac8f46dc",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "아카르 무프티, 후티의 사우디 공격 규탄",
-   "title": "Mufti of Akkar Condemns Houthi Attacks on Saudi Arabia",
-   "summary": "SPA가 아카르 무프티가 후티의 사우디 공격을 규탄했다고 전했어요.",
-   "reportedAt": "2026-11-19T21:22:23.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UbDhUVDA1NklWTkp6QUh3SndYZnpxU0JwUHppeTgwNmNwV2pTbDhNWENVYnhpdEtRZkprYVlBc3JyM2hRa0N2cktB?oc=5"
-  },
-  {
    "id": "c35d91c42f16",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -3136,6 +3151,24 @@
    "reportedAt": "2026-11-19T19:07:52.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5aSTQtRkx5MDlldkpZa3ZCa2RNUW02ZHRsMVVUMy16RjcxTmptbTh3OW5HVG1ieDl0S0REM1pMeWduRXc0eGVnTlZR?oc=5"
+  },
+  {
+   "id": "d261ac8f46dc",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "아카르 무프티, 후티의 사우디 공격 규탄",
+   "title": "Mufti of Akkar Condemns Houthi Attacks on Saudi Arabia",
+   "summary": "SPA가 아카르 무프티가 후티의 사우디 공격을 규탄했다고 전했어요.",
+   "reportedAt": "2026-11-19T18:53:12.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UbDhUVDA1NklWTkp6QUh3SndYZnpxU0JwUHppeTgwNmNwV2pTbDhNWENVYnhpdEtRZkprYVlBc3JyM2hRa0N2cktB?oc=5"
   },
   {
    "id": "d1cb469e7d85",
@@ -3628,6 +3661,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "1b3eaa72f14a",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "뉴스1",
+    "title": "후티 반군, 사우디 항구·발전소·금융지구 대대적 공습 예고",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lemxkajVRV0JYSGpUQWNBdDBiUjBxOW9NN01vU0w4MzF4Wl9ub1pfVUJBMlVUVU5oelRSMHBobE1DTXpnbWJYZ0FWUGxFM2ptOUJVX2xJb2d3Y1BxNF9LdWFB?oc=5",
+    "reportedAt": 1795181043000,
+    "assumeSaudi": false,
+    "firstSeen": 1795182031095
+   },
+   {
     "id": "d4d25b678463",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -3670,6 +3717,20 @@
     "firstSeen": 1795180834157
    },
    {
+    "id": "92472a0bbc26",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWjlrOGFvZ1lvV3lqdjB1UG1ldU11MHNpWmNjMXpNSmdDcWRLZWhqbTJVdkgyQVUya2hzUEY2QmNfUThHZGJhVndzeFBzaHd5OWkyME9xQlpReVhJcGo1QVBQdE9fQkw0QWNTUXk1bnZQTGNDV1FrY2daNVZ4VFBFTTVIdGpHRHVMU2hkMWpwWWd1NDgxZUNWZER6ZjJGb0RNeGdNWGtKQXlWaXBBUktGOXpuX1QyVTB0d0stYlVR?oc=5",
+    "reportedAt": 1795173380000,
+    "assumeSaudi": false,
+    "firstSeen": 1795170032608
+   },
+   {
     "id": "ac46e6c623d1",
     "feed": "Arab News",
     "cat": "local",
@@ -3692,24 +3753,10 @@
     "outlet": "채널A",
     "title": "사우디 80층 빌딩에 후티 미사일 ‘쾅’",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IWDFzS3I1ckp2bnZ0NDZLWHlzTGxjekFoSTNnT0tJeDRsbEpLS3pxZmt3LVp4aHgyMExucW5SUE14c1BScVdnQmtnR0VhcmFvS1k5VGNrQVdXU1BkTkHSAWNBVV95cUxNdTh4cF9wUnpPS1FvNVhSeGwxa3pzckJPNTVXdWZZVW51RS1RQlY1bEhtUE1xbE1sa18wX3cwX1Y4TjV6YjQyWFh6Y0I4TFJGbm84aklCSVVQeTg0alZpUER6S1k?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11OHhwX3BSek9LUW81WFJ4bDFrenNyQk81NVd1ZllVbnVFLVFCVjVsSG1QTXFsTWxrXzBfdzBfVjhONXpiNDJYWHpjQjhMUkZubzhqSUJJVVB5ODRqVmlQRHpLWdIBY0FVX3lxTE11OHhwX3BSek9LUW81WFJ4bDFrenNyQk81NVd1ZllVbnVFLVFCVjVsSG1QTXFsTWxrXzBfdzBfVjhONXpiNDJYWHpjQjhMUkZubzhqSUJJVVB5ODRqVmlQRHpLWQ?oc=5",
     "reportedAt": 1795171440000,
     "assumeSaudi": false,
     "firstSeen": 1795173636270
-   },
-   {
-    "id": "92472a0bbc26",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZXVJUW8yNXllX09WZUxsM05Ha0U5N0RKdWpsSnhaTVNraGZMci04OFhYa2k1dnN6SFM4dENNdEhtRlFRbWhMYThzQ3pUTzl1QWFQN1RrN0xFd1A0VDJwamRwNW16QWlOZElFNHVMcktVLWxIOGU5Zlg5RDJpRGlZN0huWTlNaDl5NXJhVU95dEQ5YmtnLW1PN1ZTUGttdHA5Z29VcUJDeWRqMllYNWxCWUpZbkpTUENINE5Jc2JB?oc=5",
-    "reportedAt": 1795168320000,
-    "assumeSaudi": false,
-    "firstSeen": 1795170032608
    },
    {
     "id": "58dc0c91ee10",
@@ -4118,20 +4165,6 @@
     "firstSeen": 1795124432191
    },
    {
-    "id": "d261ac8f46dc",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Mufti of Akkar Condemns Houthi Attacks on Saudi Arabia",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UbDhUVDA1NklWTkp6QUh3SndYZnpxU0JwUHppeTgwNmNwV2pTbDhNWENVYnhpdEtRZkprYVlBc3JyM2hRa0N2cktB?oc=5",
-    "reportedAt": 1795123343000,
-    "assumeSaudi": false,
-    "firstSeen": 1795114849952
-   },
-   {
     "id": "bf90d2292234",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -4228,6 +4261,20 @@
     "reportedAt": 1795115272000,
     "assumeSaudi": false,
     "firstSeen": 1795115433097
+   },
+   {
+    "id": "d261ac8f46dc",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Mufti of Akkar Condemns Houthi Attacks on Saudi Arabia",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UbDhUVDA1NklWTkp6QUh3SndYZnpxU0JwUHppeTgwNmNwV2pTbDhNWENVYnhpdEtRZkprYVlBc3JyM2hRa0N2cktB?oc=5",
+    "reportedAt": 1795114392000,
+    "assumeSaudi": false,
+    "firstSeen": 1795114849952
    },
    {
     "id": "d1cb469e7d85",
@@ -6043,6 +6090,12 @@
    {
     "articleIds": [
      "0bda6561039c"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "1b3eaa72f14a"
     ],
     "fromRule": true
    }
