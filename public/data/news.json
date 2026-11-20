@@ -1,15 +1,16 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-20T11:50:32.234Z",
-  "lastAttemptAt": "2026-11-20T11:50:32.234Z",
+  "lastSuccessAt": "2026-11-20T12:00:59.415Z",
+  "lastAttemptAt": "2026-11-20T12:00:59.415Z",
   "aiSummary": true,
-  "summaryAt": "2026-11-20T10:00:45.709Z",
+  "summaryAt": "2026-11-20T12:00:59.415Z",
   "aiError": null,
   "summaryKo": [
-   "리야드 금융지구의 80층 빌딩이 후티 미사일로 파손됐다고 사우디 민방위와 여러 언론이 보도했어요.",
-   "사우디 주도의 연합군은 후티가 발사한 미사일·드론을 요격했다고 발표했습니다(로이터·국영통신 등).",
-   "후티는 리야드의 공항·금융센터·석유시설 등을 표적으로 삼았다고 주장했으나 일부는 미확인입니다."
+   "리야드 80층 금융타워가 후티 미사일에 파손됐다고 국영통신과 로이터가 보도",
+   "연합군은 후티가 발사한 미사일·드론을 리야드·남부 등에서 요격했다고 국영통신·알자지라가 전함",
+   "후티는 공항·공군기지·금융센터·석유시설 등 보복 공격을 자칭했다고 로이터가 보도",
+   "파키스탄·바레인·아랍연맹이 후티의 사우디 공격을 규탄했다고 사우디 국영통신이 전함"
   ],
   "sources": [
    {
@@ -20,37 +21,43 @@
    {
     "name": "Reuters",
     "ok": true,
-    "count": 98
+    "count": 96,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 31
+    "count": 18,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 102
+    "count": 104,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 112
+    "count": 54,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 68
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 181
+    "count": 180
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 74
+    "count": 71,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "외교부 여행경보",
@@ -65,7 +72,8 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 69
+    "count": 31,
+    "note": "일부 주소 실패: HTTP 429"
    }
   ],
   "mofaLatest": [
@@ -405,6 +413,38 @@
    ]
   },
   {
+   "id": "06ed3e8eb6b4",
+   "articleIds": [
+    "92472a0bbc26"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "이란 전쟁 라이브: 후티, 사우디 수도에 대한 공격 격화 - Al Jazeera",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-20T10:20:32.608Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
+     "titleKo": "이란 전쟁 라이브: 후티, 사우디 수도에 대한 공격 격화 - Al Jazeera",
+     "summary": "",
+     "reportedAt": "2026-11-20T08:44:25.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRi1jbHExMHJIeE9XWF9DVmYzTWVHS3o3ajhLeDRTYkUySjNjLUJTeFNpcl9qVU5IQTZfQ2NuMnZqbmsxNzFSMUQ5RC1tNERhM1o4UEh5bU95VUJjN0F4OXdrQnNLY3lPaVlySUJNV3VVUGk2Z19aSm9WRlhwLUpXMS0xbjdBUERiRTk5V0xILXdEd2dlR2VCQ0xkS1FJaDdvLXVfcGpyUERkeVNRZjJCWS1GanFJT0xjam5mWkdR?oc=5"
+    }
+   ]
+  },
+  {
    "id": "63f61d937449",
    "articleIds": [
     "af3741e385b0"
@@ -433,38 +473,6 @@
      "reportedAt": "2026-11-20T08:38:47.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zSjY3a3c0OW9fZEJXTUdnbmo4NmYyNl81Qjl5QnBwTy1vcUpYdjBJamJ5UmxydGk5bk1iSlM5X2F1ZmdHVXNKRE9EcGFQQm03NDRQYkliRFE0TDBEcEV3ONIBYEFVX3lxTE4zSjY3a3c0OW9fZEJXTUdnbmo4NmYyNl81Qjl5QnBwTy1vcUpYdjBJamJ5UmxydGk5bk1iSlM5X2F1ZmdHVXNKRE9EcGFQQm03NDRQYkliRFE0TDBEcEV3OA?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "06ed3e8eb6b4",
-   "articleIds": [
-    "92472a0bbc26"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "이란 전쟁 라이브: 후티, 사우디 수도에 대한 공격 격화 - Al Jazeera",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-20T10:20:32.608Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
-     "titleKo": "이란 전쟁 라이브: 후티, 사우디 수도에 대한 공격 격화 - Al Jazeera",
-     "summary": "",
-     "reportedAt": "2026-11-20T08:02:20.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeld3RjRYaGhHaVlsQ2tBTGMzM0VuUWRDQ1lqeXFhNHFPd2xDR3kwdjE2WUhSM0dxaEpucDBySGdyZFkyOFgxOVdVTDByMEZENnlDN2tITk4ydkZLcG9hTGcxWGxmOEZxcDl4a0RYbFBtYVdLWk5zOFZfbGx2cWNhWWFuZmxGd1Nlc1NaQllTTFFCZ1hwT3Q1R0J4OUI5WU5JOEtWQ0RTb0kwSTRFX2kwU0JBcGI4elJ5VE1uTkhR?oc=5"
     }
    ]
   },
@@ -2681,9 +2689,9 @@
    "titleKo": "이란 전쟁 라이브: 후티, 사우디 수도에 대한 공격 격화 - Al Jazeera",
    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
    "summary": "",
-   "reportedAt": "2026-11-20T08:02:20.000Z",
+   "reportedAt": "2026-11-20T08:44:25.000Z",
    "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeld3RjRYaGhHaVlsQ2tBTGMzM0VuUWRDQ1lqeXFhNHFPd2xDR3kwdjE2WUhSM0dxaEpucDBySGdyZFkyOFgxOVdVTDByMEZENnlDN2tITk4ydkZLcG9hTGcxWGxmOEZxcDl4a0RYbFBtYVdLWk5zOFZfbGx2cWNhWWFuZmxGd1Nlc1NaQllTTFFCZ1hwT3Q1R0J4OUI5WU5JOEtWQ0RTb0kwSTRFX2kwU0JBcGI4elJ5VE1uTkhR?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRi1jbHExMHJIeE9XWF9DVmYzTWVHS3o3ajhLeDRTYkUySjNjLUJTeFNpcl9qVU5IQTZfQ2NuMnZqbmsxNzFSMUQ5RC1tNERhM1o4UEh5bU95VUJjN0F4OXdrQnNLY3lPaVlySUJNV3VVUGk2Z19aSm9WRlhwLUpXMS0xbjdBUERiRTk5V0xILXdEd2dlR2VCQ0xkS1FJaDdvLXVfcGpyUERkeVNRZjJCWS1GanFJT0xjam5mWkdR?oc=5"
   },
   {
    "id": "8443e9a9127b",
@@ -3489,7 +3497,7 @@
     "lang": "en",
     "outlet": "Arab News",
     "title": "Coalition asks civilians to evacuate Hodeidah port in Yemen",
-    "snippet": "The Joint Forces Command of the Coalition urged civilians in Yemen on Friday to evacuate the port of Hodeidah for their safety, identifying the area in a location map published alongside the alert. The move comes amid Saudi air defenses intercepted a series of drones and missiles launched by the terrorist Houthi militia targeting different parts of the Kingdom in recent days. The governor of Hodei",
+    "snippet": "The Joint Forces Command of the Coalition urged civilians in Yemen on Friday to evacuate the port of Hodeidah for their safety, identifying the area in a location map published alongside the alert. The move comes amid a series of recent interceptions by Saudi air defenses of drones and missiles launched by the terrorist Houthi militias towards different parts of the Kingdom. Hodeidah Governor Dr. ",
     "url": "https://www.arabnews.com/middle-east/coalition-asks-civilians-to-evacuate-hodeidah-port-in-yemen-3013147",
     "reportedAt": 1795173144000,
     "assumeSaudi": false,
@@ -3580,6 +3588,20 @@
     "firstSeen": 1795169430787
    },
    {
+    "id": "92472a0bbc26",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRi1jbHExMHJIeE9XWF9DVmYzTWVHS3o3ajhLeDRTYkUySjNjLUJTeFNpcl9qVU5IQTZfQ2NuMnZqbmsxNzFSMUQ5RC1tNERhM1o4UEh5bU95VUJjN0F4OXdrQnNLY3lPaVlySUJNV3VVUGk2Z19aSm9WRlhwLUpXMS0xbjdBUERiRTk5V0xILXdEd2dlR2VCQ0xkS1FJaDdvLXVfcGpyUERkeVNRZjJCWS1GanFJT0xjam5mWkdR?oc=5",
+    "reportedAt": 1795164265000,
+    "assumeSaudi": false,
+    "firstSeen": 1795170032608
+   },
+   {
     "id": "af3741e385b0",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -3592,20 +3614,6 @@
     "reportedAt": 1795163927000,
     "assumeSaudi": false,
     "firstSeen": 1795164634863
-   },
-   {
-    "id": "92472a0bbc26",
-    "feed": "Al Jazeera",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Al Jazeera",
-    "title": "Iran war live: Houthis escalate attacks on Saudi capital - Al Jazeera",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeld3RjRYaGhHaVlsQ2tBTGMzM0VuUWRDQ1lqeXFhNHFPd2xDR3kwdjE2WUhSM0dxaEpucDBySGdyZFkyOFgxOVdVTDByMEZENnlDN2tITk4ydkZLcG9hTGcxWGxmOEZxcDl4a0RYbFBtYVdLWk5zOFZfbGx2cWNhWWFuZmxGd1Nlc1NaQllTTFFCZ1hwT3Q1R0J4OUI5WU5JOEtWQ0RTb0kwSTRFX2kwU0JBcGI4elJ5VE1uTkhR?oc=5",
-    "reportedAt": 1795161740000,
-    "assumeSaudi": false,
-    "firstSeen": 1795170032608
    },
    {
     "id": "249b1dadb681",
@@ -5835,12 +5843,13 @@
    }
   ],
   "aiSummaryKo": [
-   "리야드 금융지구의 80층 빌딩이 후티 미사일로 파손됐다고 사우디 민방위와 여러 언론이 보도했어요.",
-   "사우디 주도의 연합군은 후티가 발사한 미사일·드론을 요격했다고 발표했습니다(로이터·국영통신 등).",
-   "후티는 리야드의 공항·금융센터·석유시설 등을 표적으로 삼았다고 주장했으나 일부는 미확인입니다."
+   "리야드 80층 금융타워가 후티 미사일에 파손됐다고 국영통신과 로이터가 보도",
+   "연합군은 후티가 발사한 미사일·드론을 리야드·남부 등에서 요격했다고 국영통신·알자지라가 전함",
+   "후티는 공항·공군기지·금융센터·석유시설 등 보복 공격을 자칭했다고 로이터가 보도",
+   "파키스탄·바레인·아랍연맹이 후티의 사우디 공격을 규탄했다고 사우디 국영통신이 전함"
   ],
   "lastAiAt": 1795168845709,
-  "summaryAt": "2026-11-20T10:00:45.709Z",
+  "summaryAt": "2026-11-20T12:00:59.415Z",
   "promptVersion": 4
  }
 }
