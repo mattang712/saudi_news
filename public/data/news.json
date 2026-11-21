@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-21T13:50:33.877Z",
-  "lastAttemptAt": "2026-11-21T13:50:33.877Z",
+  "lastSuccessAt": "2026-11-21T14:00:53.087Z",
+  "lastAttemptAt": "2026-11-21T14:00:53.087Z",
   "aiSummary": true,
   "summaryAt": "2026-11-21T12:20:33.478Z",
   "aiError": null,
@@ -16,7 +16,7 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 19
+    "count": 21
    },
    {
     "name": "Reuters",
@@ -31,27 +31,30 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 83
+    "count": 82,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 106
+    "count": 54,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 44
+    "count": 43
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 157
+    "count": 156
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 49
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "외교부 여행경보",
@@ -2803,16 +2806,15 @@
    ]
   },
   {
-   "id": "cab0bda9f224",
+   "id": "4b5892b49acc",
    "articleIds": [
-    "d03a01fed589",
     "e309d3ee4a65"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "multi",
+   "status": "single",
    "directive": null,
-   "title": "\"사우디, 후티와 장기전 대비…최대 6개월 더 이어질 것\"",
+   "title": "\"사우디, 예멘 후티와 장기전 대비…최대 6개월 지속 예상\"",
    "titleAuto": false,
    "regions": [
     "all"
@@ -2820,19 +2822,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-18T14:10:59.752Z",
+   "collectedAt": "2026-11-18T20:00:52.612Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "\"사우디, 후티와 장기전 대비…최대 6개월 더 이어질 것\"",
-     "titleKo": null,
-     "summary": "연합뉴스는 사우디가 후티와의 장기전 대비를 한다고 보도했어요.",
-     "reportedAt": "2026-11-18T13:59:48.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LcV9QankzQUYxOFFPOGt6ZU1yaXhRWEFHXzVSci01MWZoM3ZFM3J3Y3doU3JEc1pHa195OUNWOXk2UzJrUW5NZkh3RENsaE52R3VqaW1mOUNkRjJXOFo3Z9IBYEFVX3lxTE9LcV9QankzQUYxOFFPOGt6ZU1yaXhRWEFHXzVSci01MWZoM3ZFM3J3Y3doU3JEc1pHa195OUNWOXk2UzJrUW5NZkh3RENsaE52R3VqaW1mOUNkRjJXOFo3Zw?oc=5"
-    },
     {
      "outlet": "뉴스1",
      "cat": "kr",
@@ -5542,24 +5534,9 @@
     "reportedAt": 1795012174000,
     "assumeSaudi": false,
     "firstSeen": 1795013431750
-   },
-   {
-    "id": "d03a01fed589",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "연합뉴스",
-    "title": "\"사우디, 후티와 장기전 대비…최대 6개월 더 이어질 것\"",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LcV9QankzQUYxOFFPOGt6ZU1yaXhRWEFHXzVSci01MWZoM3ZFM3J3Y3doU3JEc1pHa195OUNWOXk2UzJrUW5NZkh3RENsaE52R3VqaW1mOUNkRjJXOFo3Z9IBYEFVX3lxTE9LcV9QankzQUYxOFFPOGt6ZU1yaXhRWEFHXzVSci01MWZoM3ZFM3J3Y3doU3JEc1pHa195OUNWOXk2UzJrUW5NZkh3RENsaE52R3VqaW1mOUNkRjJXOFo3Zw?oc=5",
-    "reportedAt": 1795010388000,
-    "assumeSaudi": false,
-    "firstSeen": 1795011059752
    }
   ],
   "summaries": {
-   "d03a01fed589": "연합뉴스는 사우디가 후티와의 장기전 대비를 한다고 보도했어요.",
    "2f1dffc39d08": "AP는 사우디 지원군이 예멘 후티에 대한 대대적 공격을 시작했다고 보도했어요.",
    "308975a20188": "Arab News는 사우디 요격체계가 후티 미사일을 파괴했다고 보도했어요.",
    "a2deb965510b": "사우디 통신도 리야드와 남부에서 UAV 2대를 요격했다고 보도했어요.",
@@ -5684,7 +5661,6 @@
   },
   "titlesKo": {
    "2f1dffc39d08": "AP: 사우디군, 예멘 후티에 대대적 공격 개시 보도",
-   "d03a01fed589": "연합뉴스: 사우디, 후티와 장기전 대비",
    "308975a20188": "사우디 방공이 리야드를 향한 후티 미사일을 격추했다고 보도",
    "a2deb965510b": "연합군: 리야드와 남부에서 UAV 2대 요격·파괴",
    "9019d17a3075": "세계일보: 사우디, 후티와 최대 6개월 장기전 대비",
@@ -6301,8 +6277,7 @@
    },
    {
     "articleIds": [
-     "e309d3ee4a65",
-     "d03a01fed589"
+     "e309d3ee4a65"
     ],
     "fromRule": true
    },
