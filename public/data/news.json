@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-21T00:30:41.744Z",
-  "lastAttemptAt": "2026-11-21T00:30:41.744Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-21T00:40:30.893Z",
+  "lastAttemptAt": "2026-11-21T00:40:30.893Z",
   "aiSummary": true,
   "summaryAt": "2026-11-20T22:50:31.937Z",
   "aiError": null,
@@ -15,33 +15,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 17
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 115
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 24
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 98
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 101
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 58
+    "count": 43,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +57,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 77
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 60
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -103,6 +111,38 @@
   ]
  },
  "events": [
+  {
+   "id": "3b7a20c1be29",
+   "articleIds": [
+    "93758ad3b459"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합 공중방어, 리야드 겨냥한 후티 탄도미사일 3발 요격",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-21T00:40:30.893Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition air defenses intercept 3 Houthi ballistic missiles targeting Riyadh",
+     "titleKo": "연합 공중방어, 리야드 겨냥한 후티 탄도미사일 3발 요격",
+     "summary": "",
+     "reportedAt": "2026-11-21T00:37:28.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-air-defenses-intercept-3-houthi-ballistic-missiles-targeting-riyadh-3013264"
+    }
+   ]
+  },
   {
    "id": "daf690ab3238",
    "articleIds": [
@@ -3817,6 +3857,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "93758ad3b459",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Coalition air defenses intercept 3 Houthi ballistic missiles targeting Riyadh",
+    "snippet": "RIYADH: Saudi air defenses intercepted and destroyed three ballistic missiles launched by Yemen’s Houthi militia toward Riyadh early Saturday, the Saudi-led coalition said, as the Kingdom faced a renewed wave of missile and drone attacks. Coalition spokesman Maj. Gen. Turki Al-Maliki announced the interceptions on X shortly after 2 a.m., following a Civil Defense alert issued at 1:53 a.m. warning ",
+    "url": "https://www.arabnews.com/saudi-arabia/coalition-air-defenses-intercept-3-houthi-ballistic-missiles-targeting-riyadh-3013264",
+    "reportedAt": 1795221448000,
+    "assumeSaudi": false,
+    "firstSeen": 1795221630893
+   },
+   {
     "id": "a09bbfe3f1c3",
     "feed": "Al Jazeera",
     "cat": "local",
@@ -5829,7 +5883,8 @@
    "d20080504d85": "수단, 리야드에 대한 공격을 규탄했다고 사우디 통신 보도",
    "e8d9788b238e": "아랍 내무장관회의 총장, 후티의 적대행위 규탄 발표",
    "a09bbfe3f1c3": "이란 전쟁 실시간: 사우디 주도 연합, 후티 미사일 격추",
-   "80c85dcfa324": "사우디아라비아, 리야드를 겨냥한 후티 미사일 3발 요격했다고 밝혀"
+   "80c85dcfa324": "사우디아라비아, 리야드를 겨냥한 후티 미사일 3발 요격했다고 밝혀",
+   "93758ad3b459": "연합 공중방어, 리야드 겨냥한 후티 탄도미사일 3발 요격"
   },
   "aiClusters": [
    {
@@ -6317,6 +6372,12 @@
    {
     "articleIds": [
      "80c85dcfa324"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "93758ad3b459"
     ],
     "fromRule": true
    }
