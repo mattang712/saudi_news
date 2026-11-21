@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "partial",
-  "lastSuccessAt": "2026-11-21T04:10:32.065Z",
-  "lastAttemptAt": "2026-11-21T04:10:32.065Z",
+  "lastSuccessAt": "2026-11-21T04:20:29.598Z",
+  "lastAttemptAt": "2026-11-21T04:20:29.598Z",
   "aiSummary": true,
   "summaryAt": "2026-11-21T03:10:34.905Z",
   "aiError": null,
@@ -16,27 +16,27 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 20
+    "count": 25
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 124
+    "count": 126
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 27
+    "count": 25
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 96
+    "count": 95
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 106
+    "count": 95
    },
    {
     "name": "Saudi Gazette",
@@ -55,38 +55,23 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": true,
-    "count": 0
+    "ok": false,
+    "count": 0,
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "외교부 안전공지",
     "ok": false,
     "count": 0,
-    "error": "HTTP 400 { \"OpenAPI_ServiceResponse\": { \"cmmMsgHeader\": { \"errMsg\": \""
+    "error": "접속 실패 (https: UND_ERR_CONNECT_TIMEOUT / http: UND_ERR_CONNECT_TIMEOUT)"
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 56
+    "count": 55
    }
   ],
-  "mofaLatest": [
-   {
-    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
-    "date": "2026-10-11",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-04-08",
-    "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
-    "date": "2026-03-20",
-    "outlet": "외교부 여행경보"
-   }
-  ]
+  "mofaLatest": []
  },
  "events": [
   {
@@ -300,8 +285,8 @@
     "80c85dcfa324",
     "0daaf096b908",
     "a09bbfe3f1c3",
-    "76b1f92c4fcf",
     "93758ad3b459",
+    "76b1f92c4fcf",
     "15a9ff604efc"
    ],
    "type": "missile",
@@ -350,16 +335,6 @@
      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss"
     },
     {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: Air Defenses Intercept, Destroy Three Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
-     "titleKo": "연합군: 테러 후티가 리야드를 향해 발사한 탄도미사일 3발 요격·파괴",
-     "summary": "연합군이 리야드를 향한 후티의 탄도미사일 3발을 요격·파괴했다고 국영통신이 보도했어요.",
-     "reportedAt": "2026-11-21T00:02:04.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yTWN6OW82b1RqSWsxRzdRUE54emRsY1JDc2pvUWlXNWZPSnZyQWtEa2p0bDVXOTdQWHJDb1JXRHdib3VVUFhwQXp3?oc=5"
-    },
-    {
      "outlet": "Arab News",
      "cat": "local",
      "title": "Coalition air defenses intercept 3 Houthi ballistic missiles targeting Riyadh",
@@ -368,6 +343,16 @@
      "reportedAt": "2026-11-21T00:37:28.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/coalition-air-defenses-intercept-3-houthi-ballistic-missiles-targeting-riyadh-3013264"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: Air Defenses Intercept, Destroy Three Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
+     "titleKo": "연합군: 테러 후티가 리야드를 향해 발사한 탄도미사일 3발 요격·파괴",
+     "summary": "연합군이 리야드를 향한 후티의 탄도미사일 3발을 요격·파괴했다고 국영통신이 보도했어요.",
+     "reportedAt": "2026-11-21T00:49:22.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1IeXF4d0syX1FoQm1hODRYV2g2YlctWHVSVHpBZllvU2NOYm16MUhQU3NkRWs2bXlYZTYxMDZLZG5rc2lq?oc=5"
     },
     {
      "outlet": "뉴시스",
@@ -429,7 +414,7 @@
      "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
      "titleKo": "트럼프가 이란과의 거래를 원한다고 말하고 사우디·후티가 교전",
      "summary": "미국 전반의 중동 소식 가운데 사우디와 후티 간 교전 소식이 포함됐다고 전해졌어요.",
-     "reportedAt": "2026-11-20T20:46:00.000Z",
+     "reportedAt": "2026-11-20T23:26:03.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5"
     }
@@ -541,6 +526,38 @@
      "reportedAt": "2026-11-20T19:40:52.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82ZnN5MWdKM29CNHVJRld2b3ZESGhhVHhKR3NtVDk1U1NLa255RkFvcGIxUktzMFV5R1E2LWxKSExSNHRWaFdHVjNR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "9156ae1497ee",
+   "articleIds": [
+    "0b3a479e36ea"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 연합군 “홍해 후티 반군 ‘무기 밀수 근거지’ 타격”",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-21T04:20:29.598Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "KBS",
+     "cat": "kr",
+     "title": "사우디 연합군 “홍해 후티 반군 ‘무기 밀수 근거지’ 타격”",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-11-20T18:38:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmS0RVN21vTGpEVFZuT1JFa2w5UVcxVTBrYV8yQWFOMHM5RFZVSlh5LUNXWGNNWFpRM0x3c0NyVWtoT2VmZ043cm5TVGVFUHMxcUpQRlBpdDlEc1k?oc=5"
     }
    ]
   },
@@ -3069,9 +3086,9 @@
    "titleKo": "연합군: 테러 후티가 리야드를 향해 발사한 탄도미사일 3발 요격·파괴",
    "title": "Coalition: Air Defenses Intercept, Destroy Three Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
    "summary": "연합군이 리야드를 향한 후티의 탄도미사일 3발을 요격·파괴했다고 국영통신이 보도했어요.",
-   "reportedAt": "2026-11-21T00:02:04.000Z",
+   "reportedAt": "2026-11-21T00:49:22.000Z",
    "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yTWN6OW82b1RqSWsxRzdRUE54emRsY1JDc2pvUWlXNWZPSnZyQWtEa2p0bDVXOTdQWHJDb1JXRHdib3VVUFhwQXp3?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1IeXF4d0syX1FoQm1hODRYV2g2YlctWHVSVHpBZllvU2NOYm16MUhQU3NkRWs2bXlYZTYxMDZLZG5rc2lq?oc=5"
   },
   {
    "id": "a09bbfe3f1c3",
@@ -4102,6 +4119,20 @@
     "firstSeen": 1795224033009
    },
    {
+    "id": "76b1f92c4fcf",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Coalition: Air Defenses Intercept, Destroy Three Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1IeXF4d0syX1FoQm1hODRYV2g2YlctWHVSVHpBZllvU2NOYm16MUhQU3NkRWs2bXlYZTYxMDZLZG5rc2lq?oc=5",
+    "reportedAt": 1795222162000,
+    "assumeSaudi": false,
+    "firstSeen": 1795227030260
+   },
+   {
     "id": "93758ad3b459",
     "feed": "Arab News",
     "cat": "local",
@@ -4114,20 +4145,6 @@
     "reportedAt": 1795221448000,
     "assumeSaudi": false,
     "firstSeen": 1795221630893
-   },
-   {
-    "id": "76b1f92c4fcf",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Coalition: Air Defenses Intercept, Destroy Three Ballistic Missiles Launched by Terrorist Houthi Militia Toward Riyadh",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yTWN6OW82b1RqSWsxRzdRUE54emRsY1JDc2pvUWlXNWZPSnZyQWtEa2p0bDVXOTdQWHJDb1JXRHdib3VVUFhwQXp3?oc=5",
-    "reportedAt": 1795219324000,
-    "assumeSaudi": false,
-    "firstSeen": 1795227030260
    },
    {
     "id": "a09bbfe3f1c3",
@@ -4172,6 +4189,20 @@
     "firstSeen": 1795221041744
    },
    {
+    "id": "3366748770fb",
+    "feed": "AP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AP",
+    "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
+    "reportedAt": 1795217163000,
+    "assumeSaudi": false,
+    "firstSeen": 1795208444191
+   },
+   {
     "id": "e8d9788b238e",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4184,20 +4215,6 @@
     "reportedAt": 1795210002000,
     "assumeSaudi": false,
     "firstSeen": 1795215031937
-   },
-   {
-    "id": "3366748770fb",
-    "feed": "AP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AP",
-    "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
-    "reportedAt": 1795207560000,
-    "assumeSaudi": false,
-    "firstSeen": 1795208444191
    },
    {
     "id": "d20080504d85",
@@ -4254,6 +4271,20 @@
     "reportedAt": 1795202213000,
     "assumeSaudi": false,
     "firstSeen": 1795188035806
+   },
+   {
+    "id": "0b3a479e36ea",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "KBS",
+    "title": "사우디 연합군 “홍해 후티 반군 ‘무기 밀수 근거지’ 타격”",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmS0RVN21vTGpEVFZuT1JFa2w5UVcxVTBrYV8yQWFOMHM5RFZVSlh5LUNXWGNNWFpRM0x3c0NyVWtoT2VmZ043cm5TVGVFUHMxcUpQRlBpdDlEc1k?oc=5",
+    "reportedAt": 1795199880000,
+    "assumeSaudi": false,
+    "firstSeen": 1795234829598
    },
    {
     "id": "a8445c0e4680",
@@ -6671,6 +6702,12 @@
    {
     "articleIds": [
      "10a2e0b2bd7d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "0b3a479e36ea"
     ],
     "fromRule": true
    }
