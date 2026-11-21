@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-21T04:00:46.480Z",
-  "lastAttemptAt": "2026-11-21T04:00:46.480Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-21T04:10:32.065Z",
+  "lastAttemptAt": "2026-11-21T04:10:32.065Z",
   "aiSummary": true,
   "summaryAt": "2026-11-21T03:10:34.905Z",
   "aiError": null,
@@ -16,27 +16,27 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 21
+    "count": 20
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 126
+    "count": 124
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 29
+    "count": 27
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 94
+    "count": 96
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 104
+    "count": 106
    },
    {
     "name": "Saudi Gazette",
@@ -60,14 +60,14 @@
    },
    {
     "name": "외교부 안전공지",
-    "ok": true,
-    "count": 1
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 400 { \"OpenAPI_ServiceResponse\": { \"cmmMsgHeader\": { \"errMsg\": \""
    },
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 7,
-    "note": "일부 주소 실패: HTTP 429"
+    "count": 56
    }
   ],
   "mofaLatest": [
@@ -85,21 +85,6 @@
     "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
     "date": "2026-03-20",
     "outlet": "외교부 여행경보"
-   },
-   {
-    "title": "리야드 시내 공격 관련 안전 유의(11.19.)",
-    "date": "2026-11-19",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-11-13",
-    "outlet": "외교부 안전공지"
-   },
-   {
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "date": "2026-11-11",
-    "outlet": "외교부 안전공지"
    }
   ]
  },
@@ -444,7 +429,7 @@
      "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
      "titleKo": "트럼프가 이란과의 거래를 원한다고 말하고 사우디·후티가 교전",
      "summary": "미국 전반의 중동 소식 가운데 사우디와 후티 간 교전 소식이 포함됐다고 전해졌어요.",
-     "reportedAt": "2026-11-20T23:26:03.000Z",
+     "reportedAt": "2026-11-20T20:46:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5"
     }
@@ -4187,20 +4172,6 @@
     "firstSeen": 1795221041744
    },
    {
-    "id": "3366748770fb",
-    "feed": "AP",
-    "cat": "wire",
-    "official": false,
-    "lang": "en",
-    "outlet": "AP",
-    "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
-    "reportedAt": 1795217163000,
-    "assumeSaudi": false,
-    "firstSeen": 1795208444191
-   },
-   {
     "id": "e8d9788b238e",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -4213,6 +4184,20 @@
     "reportedAt": 1795210002000,
     "assumeSaudi": false,
     "firstSeen": 1795215031937
+   },
+   {
+    "id": "3366748770fb",
+    "feed": "AP",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "AP",
+    "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
+    "reportedAt": 1795207560000,
+    "assumeSaudi": false,
+    "firstSeen": 1795208444191
    },
    {
     "id": "d20080504d85",
