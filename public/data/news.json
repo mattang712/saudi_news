@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "partial",
-  "lastSuccessAt": "2026-11-22T10:20:36.329Z",
-  "lastAttemptAt": "2026-11-22T10:20:36.329Z",
+  "status": "ok",
+  "lastSuccessAt": "2026-11-22T10:30:40.570Z",
+  "lastAttemptAt": "2026-11-22T10:30:40.570Z",
   "aiSummary": true,
   "summaryAt": "2026-11-22T09:00:46.832Z",
   "aiError": null,
@@ -25,7 +25,7 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 9
+    "count": 11
    },
    {
     "name": "AFP",
@@ -35,17 +35,17 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 94
+    "count": 93
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 41
+    "count": 42
    },
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 167
+    "count": 168
    },
    {
     "name": "Al Jazeera",
@@ -54,9 +54,8 @@
    },
    {
     "name": "외교부 여행경보",
-    "ok": false,
-    "count": 0,
-    "error": "HTTP 500 { \"OpenAPI_ServiceResponse\": { \"cmmMsgHeader\": { \"errMsg\": \""
+    "ok": true,
+    "count": 0
    },
    {
     "name": "외교부 안전공지",
@@ -66,10 +65,25 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 51
+    "count": 63
    }
   ],
   "mofaLatest": [
+   {
+    "title": "사우디아라비아 여행경보 상향 조정(3단계 출국권고)",
+    "date": "2026-10-11",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 주베일 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-04-08",
+    "outlet": "외교부 여행경보"
+   },
+   {
+    "title": "사우디아라비아 얀부 지역 여행경보 3단계(출국권고)로 상향",
+    "date": "2026-03-20",
+    "outlet": "외교부 여행경보"
+   },
    {
     "title": "리야드 시내 공격 관련 안전 유의(11.19.)",
     "date": "2026-11-19",
@@ -88,6 +102,81 @@
   ]
  },
  "events": [
+  {
+   "id": "f24afc656066",
+   "articleIds": [
+    "5d252d939334",
+    "64381d5c8edf"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "official",
+   "directive": null,
+   "title": "사우디아라비아, 바레인 민간 산업시설에 대한 이란의 공격 강력 규탄",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-22T10:30:40.570Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Saudi Arabia Strongly Condemns Iranian Attacks on Civilian Industrial Facility in Bahrain",
+     "titleKo": "사우디아라비아, 바레인 민간 산업시설에 대한 이란의 공격 강력 규탄",
+     "summary": "",
+     "reportedAt": "2026-11-22T10:20:45.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMT1NnYU1mSGl3MFlHWlk2QW8wcWZOWkNXY1B6LU1WUXJWQ21OQ0xPanpVODFEdmFhb2FkSE8yOE45RkVEX1BMb3R3?oc=5"
+    },
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Saudi Arabia Condemns Iranian Attacks on Bahrain",
+     "titleKo": "사우디아라비아, 바레인에 대한 이란의 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-11-22T10:28:15.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5344235"
+    }
+   ]
+  },
+  {
+   "id": "e1676d4d42f4",
+   "articleIds": [
+    "af632f1a14fd"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "official",
+   "directive": null,
+   "title": "연합군: 리야드 지역 향한 후티 UAV 요격·파괴",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-21T20:30:39.373Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Coalition: UAV Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+     "titleKo": "연합군: 리야드 지역 향한 후티 UAV 요격·파괴",
+     "summary": "사우디 연합군이 리야드 지역을 향한 후티 무인기(UAV)를 요격·파괴했다고 사우디 통신이 보도했어요.",
+     "reportedAt": "2026-11-22T10:25:38.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5CY1ZzTWN3Wi1KdFoxdXlEdkNIa3RILWZabHFIcHM5SVFVcldQREU2SmNyS2xTa0xoUEYyazBvcHVGdUZ3SmJ2cVBR?oc=5"
+    }
+   ]
+  },
   {
    "id": "78b53965e2e4",
    "articleIds": [
@@ -399,38 +488,6 @@
      "reportedAt": "2026-11-21T21:57:46.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NdHJyTTFqTTFxN0FiWFJqYXlFSi11NUYzSmQ1VUE4RXkwWVQyZDNqOWtmY3FnUzdENjhCYmZsbWtFNGx3RmllWUZpVnBkX3kwSmRaNFllR0JyQmtLcDVLSdIBeEFVX3lxTE1vZ2d4OXdrMTJWQmRVM2VSS29PWnhYYThrdTU0RjhWYmNudVVLOHFoY2FXM19fNktkcHh4eDRxWHBvUTB5X0l2WGFVNkFYZXJJcmRoTmd4c0E2REFTUks1Nmo0dkxVRk50YkYydEZrUDlFbTc2NFlxZQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "e1676d4d42f4",
-   "articleIds": [
-    "af632f1a14fd"
-   ],
-   "type": "drone",
-   "sev": "high",
-   "status": "official",
-   "directive": null,
-   "title": "연합군: 리야드 지역 향한 후티 UAV 요격·파괴",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-21T20:30:39.373Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Coalition: UAV Launched by Terrorist Houthi Militia toward Riyadh Region Intercepted and Destroyed",
-     "titleKo": "연합군: 리야드 지역 향한 후티 UAV 요격·파괴",
-     "summary": "사우디 연합군이 리야드 지역을 향한 후티 무인기(UAV)를 요격·파괴했다고 사우디 통신이 보도했어요.",
-     "reportedAt": "2026-11-21T19:36:22.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmWHRiLUI4cEcyYW9VbC0xY21JRm9LdXNrOUl2cVhza0hVMWotLU10YnhxMVRFcENwa2VWUkNwdTJEcXNPZDQ4U0dn?oc=5"
     }
    ]
   },
@@ -2506,6 +2563,60 @@
  ],
  "timeline": [
   {
+   "id": "64381d5c8edf",
+   "outlet": "Asharq Al-Awsat",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "사우디아라비아, 바레인에 대한 이란의 공격 규탄",
+   "title": "Saudi Arabia Condemns Iranian Attacks on Bahrain",
+   "summary": "",
+   "reportedAt": "2026-11-22T10:28:15.000Z",
+   "dateOnly": false,
+   "url": "https://english.aawsat.com/node/5344235"
+  },
+  {
+   "id": "af632f1a14fd",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "drone",
+   "sev": "high",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "연합군: 리야드 지역 향한 후티 UAV 요격·파괴",
+   "title": "Coalition: UAV Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+   "summary": "사우디 연합군이 리야드 지역을 향한 후티 무인기(UAV)를 요격·파괴했다고 사우디 통신이 보도했어요.",
+   "reportedAt": "2026-11-22T10:25:38.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5CY1ZzTWN3Wi1KdFoxdXlEdkNIa3RILWZabHFIcHM5SVFVcldQREU2SmNyS2xTa0xoUEYyazBvcHVGdUZ3SmJ2cVBR?oc=5"
+  },
+  {
+   "id": "5d252d939334",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "사우디아라비아, 바레인 민간 산업시설에 대한 이란의 공격 강력 규탄",
+   "title": "Saudi Arabia Strongly Condemns Iranian Attacks on Civilian Industrial Facility in Bahrain",
+   "summary": "",
+   "reportedAt": "2026-11-22T10:20:45.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMT1NnYU1mSGl3MFlHWlk2QW8wcWZOWkNXY1B6LU1WUXJWQ21OQ0xPanpVODFEdmFhb2FkSE8yOE45RkVEX1BMb3R3?oc=5"
+  },
+  {
    "id": "bb8eb92abfc2",
    "outlet": "Al Jazeera",
    "official": false,
@@ -2540,24 +2651,6 @@
    "reportedAt": "2026-11-21T23:59:03.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss"
-  },
-  {
-   "id": "af632f1a14fd",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "drone",
-   "sev": "high",
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "titleKo": "연합군: 리야드 지역 향한 후티 UAV 요격·파괴",
-   "title": "Coalition: UAV Launched by Terrorist Houthi Militia toward Riyadh Region Intercepted and Destroyed",
-   "summary": "사우디 연합군이 리야드 지역을 향한 후티 무인기(UAV)를 요격·파괴했다고 사우디 통신이 보도했어요.",
-   "reportedAt": "2026-11-21T19:36:22.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmWHRiLUI4cEcyYW9VbC0xY21JRm9LdXNrOUl2cVhza0hVMWotLU10YnhxMVRFcENwa2VWUkNwdTJEcXNPZDQ4U0dn?oc=5"
   },
   {
    "id": "cd90fe878a41",
@@ -3338,6 +3431,48 @@
  "_cache": {
   "articles": [
    {
+    "id": "64381d5c8edf",
+    "feed": "Asharq Al-Awsat",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Asharq Al-Awsat",
+    "title": "Saudi Arabia Condemns Iranian Attacks on Bahrain",
+    "snippet": "",
+    "url": "https://english.aawsat.com/node/5344235",
+    "reportedAt": 1795343295000,
+    "assumeSaudi": false,
+    "firstSeen": 1795343440570
+   },
+   {
+    "id": "af632f1a14fd",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Coalition: UAV Launched by Terrorist Houthi Militia Toward Riyadh Region Intercepted and Destroyed",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5CY1ZzTWN3Wi1KdFoxdXlEdkNIa3RILWZabHFIcHM5SVFVcldQREU2SmNyS2xTa0xoUEYyazBvcHVGdUZ3SmJ2cVBR?oc=5",
+    "reportedAt": 1795343138000,
+    "assumeSaudi": false,
+    "firstSeen": 1795293039373
+   },
+   {
+    "id": "5d252d939334",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Saudi Arabia Strongly Condemns Iranian Attacks on Civilian Industrial Facility in Bahrain",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMT1NnYU1mSGl3MFlHWlk2QW8wcWZOWkNXY1B6LU1WUXJWQ21OQ0xPanpVODFEdmFhb2FkSE8yOE45RkVEX1BMb3R3?oc=5",
+    "reportedAt": 1795342845000,
+    "assumeSaudi": false,
+    "firstSeen": 1795343440570
+   },
+   {
     "id": "004c6d225db7",
     "feed": "Arab News",
     "cat": "local",
@@ -3420,20 +3555,6 @@
     "reportedAt": 1795298266000,
     "assumeSaudi": false,
     "firstSeen": 1795299634422
-   },
-   {
-    "id": "af632f1a14fd",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Coalition: UAV Launched by Terrorist Houthi Militia toward Riyadh Region Intercepted and Destroyed",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmWHRiLUI4cEcyYW9VbC0xY21JRm9LdXNrOUl2cVhza0hVMWotLU10YnhxMVRFcENwa2VWUkNwdTJEcXNPZDQ4U0dn?oc=5",
-    "reportedAt": 1795289782000,
-    "assumeSaudi": false,
-    "firstSeen": 1795293039373
    },
    {
     "id": "cd90fe878a41",
@@ -4952,7 +5073,9 @@
    "3642c343fb45": "사우디, 이란의 바레인 민간시설 공격 규탄 보도",
    "55385b33088f": "사우디, 후티와 교전 격화…호데이다항 주말 대대적 폭격 보도",
    "06f32303059b": "사우디, 바레인 민간 산업시설에 대한 이란 공격 규탄…전면적 연대 재확인",
-   "004c6d225db7": "연합군, 리야드 지역 겨냥한 후티 드론 요격했다고 밝혀"
+   "004c6d225db7": "연합군, 리야드 지역 겨냥한 후티 드론 요격했다고 밝혀",
+   "64381d5c8edf": "사우디아라비아, 바레인에 대한 이란의 공격 규탄",
+   "5d252d939334": "사우디아라비아, 바레인 민간 산업시설에 대한 이란의 공격 강력 규탄"
   },
   "aiClusters": [
    {
@@ -5374,6 +5497,13 @@
    {
     "articleIds": [
      "004c6d225db7"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "64381d5c8edf",
+     "5d252d939334"
     ],
     "fromRule": true
    }
