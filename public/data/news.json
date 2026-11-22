@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-22T20:00:47.124Z",
-  "lastAttemptAt": "2026-11-22T20:00:47.124Z",
+  "lastSuccessAt": "2026-11-22T20:10:31.180Z",
+  "lastAttemptAt": "2026-11-22T20:10:31.180Z",
   "aiSummary": true,
   "summaryAt": "2026-11-22T18:10:42.380Z",
   "aiError": null,
@@ -16,22 +16,22 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 20
+    "count": 42
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 37
+    "count": 36
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 9
+    "count": 8
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 26
+    "count": 25
    },
    {
     "name": "Arab News",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 84
+    "count": 86
    }
   ],
   "mofaLatest": [
@@ -103,6 +103,38 @@
   ]
  },
  "events": [
+  {
+   "id": "3b7cc3f12779",
+   "articleIds": [
+    "d5add1008449"
+   ],
+   "type": "drone",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "사우디, 유엔 건물 타격한 수단 수도 드론 공격 규탄",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-22T20:10:31.180Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi Arabia condemns drone strikes on Sudan’s capital that hit UN building",
+     "titleKo": "사우디, 유엔 건물 타격한 수단 수도 드론 공격 규탄",
+     "summary": "",
+     "reportedAt": "2026-11-22T20:06:23.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-drone-strikes-on-sudans-capital-that-hit-un-building-3013587"
+    }
+   ]
+  },
   {
    "id": "4fee3ea193a8",
    "articleIds": [
@@ -2887,6 +2919,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "d5add1008449",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Saudi Arabia condemns drone strikes on Sudan’s capital that hit UN building",
+    "snippet": "RIYADH: Saudi Arabia condemned drone attacks on Sudan’s capital, Khartoum, on Sunday that struck homes and a UN building, causing civilian casualties and damaging property. The Saudi Foreign Ministry urged respect for international humanitarian law and the protection of civilians, civilian infrastructure and international organizations’ premises and staff. The ministry called for sparing Sudanese ",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-drone-strikes-on-sudans-capital-that-hit-un-building-3013587",
+    "reportedAt": 1795377983000,
+    "assumeSaudi": false,
+    "firstSeen": 1795378231180
+   },
+   {
     "id": "176845cb2f60",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4422,7 +4468,8 @@
    "938fbf2d938a": "연합군, 리야드를 향한 후티 탄도미사일 3발 요격",
    "e707d7f97a82": "후티의 경제 시설 공격과 사우디아라비아의 선택지",
    "aea891f0e43f": "이란 공격으로 바레인서 2명 부상…사우디, '범죄적' 공격 비난",
-   "8b5fb7e29fab": "연합군, 남부 지역 향해 발사된 후티 민병대 무인기 요격"
+   "8b5fb7e29fab": "연합군, 남부 지역 향해 발사된 후티 민병대 무인기 요격",
+   "d5add1008449": "사우디, 유엔 건물 타격한 수단 수도 드론 공격 규탄"
   },
   "aiClusters": [
    {
@@ -4786,6 +4833,12 @@
    {
     "articleIds": [
      "8b5fb7e29fab"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "d5add1008449"
     ],
     "fromRule": true
    }
