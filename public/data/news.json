@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-24T13:10:31.538Z",
-  "lastAttemptAt": "2026-11-24T13:10:31.538Z",
+  "lastSuccessAt": "2026-11-24T13:20:32.058Z",
+  "lastAttemptAt": "2026-11-24T13:20:32.058Z",
   "aiSummary": true,
   "summaryAt": "2026-11-24T11:30:43.201Z",
   "aiError": null,
@@ -15,7 +15,7 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 20
+    "count": 15
    },
    {
     "name": "Reuters",
@@ -25,8 +25,7 @@
    {
     "name": "AP",
     "ok": true,
-    "count": 13,
-    "note": "일부 주소 실패: HTTP 429"
+    "count": 14
    },
    {
     "name": "AFP",
@@ -36,8 +35,7 @@
    {
     "name": "Arab News",
     "ok": true,
-    "count": 89,
-    "note": "일부 주소 실패: HTTP 429"
+    "count": 93
    },
    {
     "name": "Saudi Gazette",
@@ -47,12 +45,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 181
+    "count": 180
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 31
+    "count": 30
    },
    {
     "name": "외교부 여행경보",
@@ -67,7 +65,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 66
+    "count": 64
    }
   ],
   "mofaLatest": [
@@ -133,6 +131,38 @@
      "reportedAt": "2026-11-24T13:08:51.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/coalition-says-skyscraper-at-riyadh-financial-district-targeted-in-cowardly-attack-3013857"
+    }
+   ]
+  },
+  {
+   "id": "ad36e53797a3",
+   "articleIds": [
+    "5ce78743e46f"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 리야드 금융지구 빌딩에 '테러 공격' 가해졌다고 밝혀",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-24T13:20:32.058Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition says tower in Riyadh's financial district subjected to 'terrorist attack'",
+     "titleKo": "연합군, 리야드 금융지구 빌딩에 '테러 공격' 가해졌다고 밝혀",
+     "summary": "",
+     "reportedAt": "2026-11-24T13:08:51.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-says-tower-in-riyadhs-financial-district-subjected-to-terrorist-attack-3013857"
     }
    ]
   },
@@ -1014,6 +1044,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "5ce78743e46f",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Coalition says tower in Riyadh's financial district subjected to 'terrorist attack'",
+    "snippet": "Coalition spokesperson Major General Turki Al Maliki said on Tuesday one of the towers at the Financial Center was targeted in a \"cowardly terrorist attack\", and the site of the attack is currently being investigated by the relevant authorities.",
+    "url": "https://www.arabnews.com/saudi-arabia/coalition-says-tower-in-riyadhs-financial-district-subjected-to-terrorist-attack-3013857",
+    "reportedAt": 1795525731000,
+    "assumeSaudi": false,
+    "firstSeen": 1795526432058
+   },
+   {
     "id": "6df3009b0ebf",
     "feed": "Arab News",
     "cat": "local",
@@ -1559,7 +1603,8 @@
    "168f8c2b8d0a": "후티 반군, 사우디 금융센터 등 타격 예고",
    "d516735b83d2": "예멘 후티군,22일 사우디 정유소 · 레이다시설 폭격 주장",
    "9571aad0ed62": "영국, 공격·수감자 학대 이유로 후티와 핵심 인사 4명 제재",
-   "6df3009b0ebf": "연합군, 리야드 금융지구의 마천루가 비겁한 공격 표적이었다고 주장"
+   "6df3009b0ebf": "연합군, 리야드 금융지구의 마천루가 비겁한 공격 표적이었다고 주장",
+   "5ce78743e46f": "연합군, 리야드 금융지구 빌딩에 '테러 공격' 가해졌다고 밝혀"
   },
   "aiClusters": [
    {
@@ -1697,6 +1742,12 @@
    {
     "articleIds": [
      "6df3009b0ebf"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "5ce78743e46f"
     ],
     "fromRule": true
    }
