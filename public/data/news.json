@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-24T16:50:31.437Z",
-  "lastAttemptAt": "2026-11-24T16:50:31.437Z",
+  "lastSuccessAt": "2026-11-24T17:00:58.113Z",
+  "lastAttemptAt": "2026-11-24T17:00:58.113Z",
   "aiSummary": true,
   "summaryAt": "2026-11-24T15:50:31.037Z",
   "aiError": null,
@@ -16,7 +16,8 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 15
+    "count": 16,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Reuters",
@@ -31,17 +32,18 @@
    {
     "name": "AFP",
     "ok": true,
-    "count": 5
+    "count": 6
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 107
+    "count": 105,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 50
+    "count": 51
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +53,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 74
+    "count": 77
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +68,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 65
+    "count": 60
    }
   ],
   "mofaLatest": [
@@ -103,6 +105,70 @@
   ]
  },
  "events": [
+  {
+   "id": "2cc967a342ff",
+   "articleIds": [
+    "8ff5975ec1da"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "사우디 최고층 PIF 타워 닷새 만에 또 피격…11명 부상",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-24T17:00:58.113Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "사우디 최고층 PIF 타워 닷새 만에 또 피격…11명 부상",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-11-24T16:49:42.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56SG1EY3BvMm12Z1VWZk0tT2prX0J0anVESVFlMkdveVMzam1GRU9tMEpzaHRFTldRNWVwVnpNdnBxbklyQ1p3RkxSQmZva0xOWElDV3YtVmFRc2xCRC1mSFRn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "7f06500c6d55",
+   "articleIds": [
+    "d79c27c8f17e"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "리야드 최고층 빌딩에 며칠 만에 두 번째 후티 공격…11명 부상",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-24T17:00:58.113Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Eleven hurt in second Houthi strike within days on Riyadh's tallest tower",
+     "titleKo": "리야드 최고층 빌딩에 며칠 만에 두 번째 후티 공격…11명 부상",
+     "summary": "",
+     "reportedAt": "2026-11-24T16:48:20.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2lRbHFjYmphSTFEMlhhRmVYd0dzWklmWmxFZFhMVG41LTJWdEZpNW9oYU5JUy1NS1ZORl80Wml6clJ6UnJOenN2TDBjSUpDbHRlVTdWNWpkdXZGejZwdTM4U1J3UWZyYnUzMzhMSGRKZWFwdjZUSFVLdTlRSWlMVVFtQ05kUDlQVGtEY1FXTHRXQmVfSmgzSndIWGxqZ2NRWXM4WjluTTgyallieG9JOXdISmlacFRUUDFiOUplaUZmNC1vUkJLSzZn?oc=5"
+    }
+   ]
+  },
   {
    "id": "9e8a7e3da931",
    "articleIds": [
@@ -1206,6 +1272,24 @@
  ],
  "timeline": [
   {
+   "id": "d79c27c8f17e",
+   "outlet": "Reuters",
+   "official": false,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "리야드 최고층 빌딩에 며칠 만에 두 번째 후티 공격…11명 부상",
+   "title": "Eleven hurt in second Houthi strike within days on Riyadh's tallest tower",
+   "summary": "",
+   "reportedAt": "2026-11-24T16:48:20.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2lRbHFjYmphSTFEMlhhRmVYd0dzWklmWmxFZFhMVG41LTJWdEZpNW9oYU5JUy1NS1ZORl80Wml6clJ6UnJOenN2TDBjSUpDbHRlVTdWNWpkdXZGejZwdTM4U1J3UWZyYnUzMzhMSGRKZWFwdjZUSFVLdTlRSWlMVVFtQ05kUDlQVGtEY1FXTHRXQmVfSmgzSndIWGxqZ2NRWXM4WjluTTgyallieG9JOXdISmlacFRUUDFiOUplaUZmNC1vUkJLSzZn?oc=5"
+  },
+  {
    "id": "da5556693e07",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -1551,6 +1635,34 @@
  "_cache": {
   "articles": [
    {
+    "id": "8ff5975ec1da",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "뉴스1",
+    "title": "사우디 최고층 PIF 타워 닷새 만에 또 피격…11명 부상",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56SG1EY3BvMm12Z1VWZk0tT2prX0J0anVESVFlMkdveVMzam1GRU9tMEpzaHRFTldRNWVwVnpNdnBxbklyQ1p3RkxSQmZva0xOWElDV3YtVmFRc2xCRC1mSFRn?oc=5",
+    "reportedAt": 1795538982000,
+    "assumeSaudi": false,
+    "firstSeen": 1795539658113
+   },
+   {
+    "id": "d79c27c8f17e",
+    "feed": "Reuters",
+    "cat": "wire",
+    "official": false,
+    "lang": "en",
+    "outlet": "Reuters",
+    "title": "Eleven hurt in second Houthi strike within days on Riyadh's tallest tower",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2lRbHFjYmphSTFEMlhhRmVYd0dzWklmWmxFZFhMVG41LTJWdEZpNW9oYU5JUy1NS1ZORl80Wml6clJ6UnJOenN2TDBjSUpDbHRlVTdWNWpkdXZGejZwdTM4U1J3UWZyYnUzMzhMSGRKZWFwdjZUSFVLdTlRSWlMVVFtQ05kUDlQVGtEY1FXTHRXQmVfSmgzSndIWGxqZ2NRWXM4WjluTTgyallieG9JOXdISmlacFRUUDFiOUplaUZmNC1vUkJLSzZn?oc=5",
+    "reportedAt": 1795538900000,
+    "assumeSaudi": false,
+    "firstSeen": 1795539658113
+   },
+   {
     "id": "da5556693e07",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -1789,20 +1901,6 @@
     "firstSeen": 1795534830718
    },
    {
-    "id": "a5c83094f1a7",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says tower in Riyadh's financial subjected to 'terrorist attack'",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVdTSUNISjA1N1VwRF9KQklmSVBjSmJ1bG9yUVZrM1dIZmNJVURQZ2JISm1yVkxxMnN0bml0S1lOZEFIV18takx1U1dnTzdlWDNnbHRQb1FPaUlZM2pVLUs5SXFmS0pjMVUtMzZWQWwxWHNreEZZeGJqejYwQldpelZSLXc5aE1WZEJNNWxSVjdxZFlYZmROdHRudUFvT0NpVVZLT3k0WUpwYmhQTFhpWXphTWVQdHFW?oc=5",
-    "reportedAt": 1795525731000,
-    "assumeSaudi": false,
-    "firstSeen": 1795527632019
-   },
-   {
     "id": "fae2b41ffcb1",
     "feed": "Arab News",
     "cat": "local",
@@ -1815,6 +1913,20 @@
     "reportedAt": 1795525731000,
     "assumeSaudi": false,
     "firstSeen": 1795534241731
+   },
+   {
+    "id": "a5c83094f1a7",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Coalition says tower in Riyadh's financial subjected to 'terrorist attack'",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVdTSUNISjA1N1VwRF9KQklmSVBjSmJ1bG9yUVZrM1dIZmNJVURQZ2JISm1yVkxxMnN0bml0S1lOZEFIV18takx1U1dnTzdlWDNnbHRQb1FPaUlZM2pVLUs5SXFmS0pjMVUtMzZWQWwxWHNreEZZeGJqejYwQldpelZSLXc5aE1WZEJNNWxSVjdxZFlYZmROdHRudUFvT0NpVVZLT3k0WUpwYmhQTFhpWXphTWVQdHFW?oc=5",
+    "reportedAt": 1795525731000,
+    "assumeSaudi": false,
+    "firstSeen": 1795527632019
    },
    {
     "id": "c6c7edceb38b",
@@ -2403,7 +2515,8 @@
    "023d3570ff48": "사우디 주도 연합, 리야드 금융지구 타워를 '테러 공격' 대상이라고 주장",
    "14324f3ef2e1": "사우디 주도 연합, 리야드 탑에 대한 '테러 공격' 규탄 - Al Jazeera",
    "33cb51047f08": "사우디 민방위, 후티의 리야드 타워 공격으로 11명 부상",
-   "da5556693e07": "민방위: 후티 테러 공격으로 리야드 금융지구 타워에서 11명 부상"
+   "da5556693e07": "민방위: 후티 테러 공격으로 리야드 금융지구 타워에서 11명 부상",
+   "d79c27c8f17e": "리야드 최고층 빌딩에 며칠 만에 두 번째 후티 공격…11명 부상"
   },
   "aiClusters": [
    {
@@ -2620,6 +2733,18 @@
    {
     "articleIds": [
      "da5556693e07"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "8ff5975ec1da"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "d79c27c8f17e"
     ],
     "fromRule": true
    }
