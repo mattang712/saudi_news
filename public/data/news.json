@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-25T16:50:38.047Z",
-  "lastAttemptAt": "2026-11-25T16:50:38.047Z",
+  "lastSuccessAt": "2026-11-25T17:00:45.715Z",
+  "lastAttemptAt": "2026-11-25T17:00:45.715Z",
   "aiSummary": true,
   "summaryAt": "2026-11-25T16:10:42.495Z",
   "aiError": null,
@@ -16,27 +16,29 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 35
+    "count": 17,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 121
+    "count": 117
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 12
+    "count": 11,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 14
+    "count": 13
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 131
+    "count": 132
    },
    {
     "name": "Saudi Gazette",
@@ -46,12 +48,13 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 186
+    "count": 187
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 51
+    "count": 46,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +69,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 74
+    "count": 59
    }
   ],
   "mofaLatest": [
@@ -103,6 +106,38 @@
   ]
  },
  "events": [
+  {
+   "id": "0d23d09a7f42",
+   "articleIds": [
+    "517bb5498f49"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "후티 투사체가 사우디아라비아 제잔 항구를 타격했다고 연합군이 밝혔다",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-25T17:00:45.715Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Houthi projectile hits Saudi Arabia’s Jazan port, coalition says",
+     "titleKo": "후티 투사체가 사우디아라비아 제잔 항구를 타격했다고 연합군이 밝혔다",
+     "summary": "",
+     "reportedAt": "2026-11-25T16:56:07.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/houthi-projectile-hits-saudi-arabias-jazan-port-coalition-says-3014031"
+    }
+   ]
+  },
   {
    "id": "b89da903595a",
    "articleIds": [
@@ -2672,6 +2707,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "517bb5498f49",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Houthi projectile hits Saudi Arabia’s Jazan port, coalition says",
+    "snippet": "A projectile fired by Yemen’s Houthi militia struck Jazan port in southwestern Saudi Arabia on Wednesday, causing minor damage, the coalition said. No civilian casualties were reported and authorities were working to identify the type of projectile used in the attack. The coalition did not provide further details about the damage. The incident comes amid escalating Houthi attacks on Saudi Arabia’s",
+    "url": "https://www.arabnews.com/saudi-arabia/houthi-projectile-hits-saudi-arabias-jazan-port-coalition-says-3014031",
+    "reportedAt": 1795625767000,
+    "assumeSaudi": false,
+    "firstSeen": 1795626045715
+   },
+   {
     "id": "f8fb8c427c38",
     "feed": "Arab News",
     "cat": "local",
@@ -4196,7 +4245,8 @@
    "f8fb8c427c38": "인도, 리야드 후티 공격 뒤 사우디에 '변함없는' 지지 재확인",
    "8a5392b83d46": "후티 추정의 사우디 정유시설 공격에 유가 상승",
    "091cbc3b149c": "사우디 타격으로 중동 증시 하락·관심은 미 연준",
-   "8d1a5cbc32ec": "인도, 리야드 금융지구 타워 공격 규탄"
+   "8d1a5cbc32ec": "인도, 리야드 금융지구 타워 공격 규탄",
+   "517bb5498f49": "후티 투사체가 사우디아라비아 제잔 항구를 타격했다고 연합군이 밝혔다"
   },
   "aiClusters": [
    {
@@ -4519,6 +4569,12 @@
    {
     "articleIds": [
      "19dfde1ba082"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "517bb5498f49"
     ],
     "fromRule": true
    }
