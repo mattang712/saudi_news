@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-25T09:20:30.446Z",
-  "lastAttemptAt": "2026-11-25T09:20:30.446Z",
+  "lastSuccessAt": "2026-11-25T09:30:40.642Z",
+  "lastAttemptAt": "2026-11-25T09:30:40.642Z",
   "aiSummary": true,
   "summaryAt": "2026-11-25T07:40:36.502Z",
   "aiError": null,
@@ -16,22 +16,23 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 28
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 155
+    "count": 151
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 15
+    "count": 13
    },
    {
     "name": "AFP",
     "ok": true,
-    "count": 3
+    "count": 4
    },
    {
     "name": "Arab News",
@@ -46,12 +47,12 @@
    {
     "name": "Asharq Al-Awsat",
     "ok": true,
-    "count": 180
+    "count": 182
    },
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 75
+    "count": 67
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +67,8 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 86
+    "count": 47,
+    "note": "일부 주소 실패: HTTP 429"
    }
   ],
   "mofaLatest": [
@@ -103,6 +105,38 @@
   ]
  },
  "events": [
+  {
+   "id": "757617f44009",
+   "articleIds": [
+    "6581d004675d"
+   ],
+   "type": "security",
+   "sev": "mid",
+   "status": "single",
+   "directive": null,
+   "title": "불타는 사우디 정유시설… 후티 진격에 美, 중동 안전 경보 발령",
+   "titleAuto": false,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-25T09:30:40.642Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "한국일보",
+     "cat": "kr",
+     "title": "불타는 사우디 정유시설… 후티 진격에 美, 중동 안전 경보 발령",
+     "titleKo": null,
+     "summary": "",
+     "reportedAt": "2026-11-25T09:03:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fZnczcVhqTFpvaXNDQURhU0ZNY0hadmRnTG5VMm93VmRRaDJkTmtMUEhHcGxXT2ExTDcyczVoWThVRDY5N0NDMjduQV9PelluQjZDSlBOWXJQWU9KelpVNy11YTlRUEcwUVN2RGJB?oc=5"
+    }
+   ]
+  },
   {
    "id": "eb3111a677a9",
    "articleIds": [
@@ -520,8 +554,8 @@
     "3884fc1181b9",
     "729619625c8e",
     "bd903e2d5331",
-    "1a47822ae05e",
     "b558727363bd",
+    "1a47822ae05e",
     "9df59bd189d1",
     "70318c84c41f",
     "9c887f9a3227"
@@ -593,16 +627,6 @@
      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5RWGR0YTFiYXB5cVNOOTgybGFBUTRhSFZ6N0Z3dmFRQS02WDFwczUtZWRUdVJUMm12NlZvZ0hWX2t3RlVkYVE?oc=5"
     },
     {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "[영상] 닷새 만에 또 뚫린 사우디 심장부…후티, 아덴 60㎞ 앞까지 진격",
-     "titleKo": null,
-     "summary": "후티가 아덴 인근까지 진격했으며 사우디 도심이 다시 뚫렸다고 보도했어요.",
-     "reportedAt": "2026-11-25T02:31:23.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1va0lBVVRCU1FJcGpsWm90VzFnWjl2dndyR2Vqck02RTFMeTFoR1FORkxyaEsxRXBZNTRieDdjZy11YkRUWnQzNjZMVFcxdF9QYlNqYkVWdVdPMW5tUjVzWtIBYEFVX3lxTE1va0lBVVRCU1FJcGpsWm90VzFnWjl2dndyR2Vqck02RTFMeTFoR1FORkxyaEsxRXBZNTRieDdjZy11YkRUWnQzNjZMVFcxdF9QYlNqYkVWdVdPMW5tUjVzWg?oc=5"
-    },
-    {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Arab Parliament Condemns Attack on Tower at King Abdullah Financial District in Riyadh",
@@ -611,6 +635,16 @@
      "reportedAt": "2026-11-25T02:32:59.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE85c2k4WWgxLVVia09MV1I0TGhmb0gweGVrU3dYci1SZXhMczR0MjRoZ1NmX013Y2hGdGN0SEoxLWNaVm85a0RKSURR?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "[영상] 닷새 만에 또 뚫린 사우디 심장부…후티, 아덴 60㎞ 앞까지 진격",
+     "titleKo": null,
+     "summary": "후티가 아덴 인근까지 진격했으며 사우디 도심이 다시 뚫렸다고 보도했어요.",
+     "reportedAt": "2026-11-25T02:33:56.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xSEdhekZmSVBRdWVuLXlDZUJDT1hIMEx1ckNpSkQxSDRFLWRJMkU1dklXTERQdlZJR0F4QTdlMGhvR0oyRTF3VmJoMWU5U295RTJKUnFKZ2pJempvbUx2eGhJYjVTY3RZTGpDTjJTempQMTRQ?oc=5"
     },
     {
      "outlet": "Reuters",
@@ -661,6 +695,7 @@
     "93c2061f42d8",
     "d6d7657e3bc6",
     "0cb011df6b6e",
+    "da5556693e07",
     "023d3570ff48",
     "e46e14491b95",
     "f0d93aa824e9",
@@ -674,7 +709,6 @@
     "85ecfa942887",
     "3c465e525e25",
     "dd2462683a48",
-    "da5556693e07",
     "f0cd5ce0e081",
     "70db98a56d8f",
     "3bbfb30daa94"
@@ -835,6 +869,16 @@
      "url": "https://saudigazette.com.sa/article/666501/saudi-arabia/coalition-riyadh-kafd-tower-targeted-in-terrorist-attack"
     },
     {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
+     "titleKo": "사우디 민방위가 리야드 타워 공격으로 11명 부상 발표",
+     "summary": "사우디 민방위가 리야드 금융지구 타워에서 11명이 다쳤다고 발표했다고 보도했어요.",
+     "reportedAt": "2026-11-24T15:04:56.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5"
+    },
+    {
      "outlet": "Reuters",
      "cat": "wire",
      "title": "Saudi-led coalition says tower in Riyadh finance district targeted by 'terrorist attack'",
@@ -963,16 +1007,6 @@
      "reportedAt": "2026-11-24T21:33:15.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3JsaU96a05ySk9rVHZIazNjQmt6Z2ZCZF9nRWFSVHVqa0s1LVhhRXhVc1VSMjNfWHhQTVZyZU9GZEtsZHRRVU5yVGVUYmVwZkRDNC1iSmYyWDc0UTdhV2pOenhuWDFkQ0ZWWkhwcTFoN2tsU3JjcllUWWJkcDBvUHU4MTAzSi0zX05oM0NLQVpua1VFNmJfcWE3cmh1al82V29SdDhCSkc4d9IBrwFBVV95cUxPQ1M5eHo1Rk9NaE5DM2hNbGF1akUxczVaekNKRWRUN3JxZ0ZJd05TYno2b2o2bVU0ZWJxWE5GWE5kT19lRHR6Z3k0TVpkaXFuY2dBMXNmaFE2YWpubno0VGZFUFlEbEJqY2NKODVWX09BVUpEUGZTXzRrY3RZWi1YUFdtaUN2amFOSm1sNXJRRzA3TW84Sk0wcUJYN1NCSEpKbV9ZZk8zNUtZSzJVdjFV?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
-     "titleKo": "사우디 민방위가 리야드 타워 공격으로 11명 부상 발표",
-     "summary": "사우디 민방위가 리야드 금융지구 타워에서 11명이 다쳤다고 발표했다고 보도했어요.",
-     "reportedAt": "2026-11-24T22:04:56.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5"
     },
     {
      "outlet": "YTN",
@@ -2172,24 +2206,6 @@
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBJRUhtRU9mZWJ4U1U2OHQ1eHNaTG9jamtaZWsxVDFPdVlmTFlSZEExUFdrRy0ya3VBM2c0NVQzYzZiM003dndFbkNR?oc=5"
   },
   {
-   "id": "da5556693e07",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "titleKo": "사우디 민방위가 리야드 타워 공격으로 11명 부상 발표",
-   "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
-   "summary": "사우디 민방위가 리야드 금융지구 타워에서 11명이 다쳤다고 발표했다고 보도했어요.",
-   "reportedAt": "2026-11-24T22:04:56.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5"
-  },
-  {
    "id": "290fb9ca3550",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -2368,6 +2384,24 @@
    "reportedAt": "2026-11-24T15:06:30.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2lRbHFjYmphSTFEMlhhRmVYd0dzWklmWmxFZFhMVG41LTJWdEZpNW9oYU5JUy1NS1ZORl80Wml6clJ6UnJOenN2TDBjSUpDbHRlVTdWNWpkdXZGejZwdTM4U1J3UWZyYnUzMzhMSGRKZWFwdjZUSFVLdTlRSWlMVVFtQ05kUDlQVGtEY1FXTHRXQmVfSmgzSndIWGxqZ2NRWXM4WjluTTgyallieG9JOXdISmlacFRUUDFiOUplaUZmNC1vUkJLSzZn?oc=5"
+  },
+  {
+   "id": "da5556693e07",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "titleKo": "사우디 민방위가 리야드 타워 공격으로 11명 부상 발표",
+   "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
+   "summary": "사우디 민방위가 리야드 금융지구 타워에서 11명이 다쳤다고 발표했다고 보도했어요.",
+   "reportedAt": "2026-11-24T15:04:56.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5"
   },
   {
    "id": "14324f3ef2e1",
@@ -2570,6 +2604,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "6581d004675d",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "한국일보",
+    "title": "불타는 사우디 정유시설… 후티 진격에 美, 중동 안전 경보 발령",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fZnczcVhqTFpvaXNDQURhU0ZNY0hadmRnTG5VMm93VmRRaDJkTmtMUEhHcGxXT2ExTDcyczVoWThVRDY5N0NDMjduQV9PelluQjZDSlBOWXJQWU9KelpVNy11YTlRUEcwUVN2RGJB?oc=5",
+    "reportedAt": 1795597380000,
+    "assumeSaudi": false,
+    "firstSeen": 1795599040642
+   },
    {
     "id": "67b42cb21882",
     "feed": "한국 주요 언론",
@@ -2795,6 +2843,20 @@
     "firstSeen": 1795575648176
    },
    {
+    "id": "1a47822ae05e",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "연합뉴스",
+    "title": "[영상] 닷새 만에 또 뚫린 사우디 심장부…후티, 아덴 60㎞ 앞까지 진격",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xSEdhekZmSVBRdWVuLXlDZUJDT1hIMEx1ckNpSkQxSDRFLWRJMkU1dklXTERQdlZJR0F4QTdlMGhvR0oyRTF3VmJoMWU5U295RTJKUnFKZ2pJempvbUx2eGhJYjVTY3RZTGpDTjJTempQMTRQ?oc=5",
+    "reportedAt": 1795574036000,
+    "assumeSaudi": false,
+    "firstSeen": 1795575035132
+   },
+   {
     "id": "b558727363bd",
     "feed": "SPA (사우디 국영통신)",
     "cat": "local",
@@ -2807,20 +2869,6 @@
     "reportedAt": 1795573979000,
     "assumeSaudi": false,
     "firstSeen": 1795577438481
-   },
-   {
-    "id": "1a47822ae05e",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "연합뉴스",
-    "title": "[영상] 닷새 만에 또 뚫린 사우디 심장부…후티, 아덴 60㎞ 앞까지 진격",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1va0lBVVRCU1FJcGpsWm90VzFnWjl2dndyR2Vqck02RTFMeTFoR1FORkxyaEsxRXBZNTRieDdjZy11YkRUWnQzNjZMVFcxdF9QYlNqYkVWdVdPMW5tUjVzWtIBYEFVX3lxTE1va0lBVVRCU1FJcGpsWm90VzFnWjl2dndyR2Vqck02RTFMeTFoR1FORkxyaEsxRXBZNTRieDdjZy11YkRUWnQzNjZMVFcxdF9QYlNqYkVWdVdPMW5tUjVzWg?oc=5",
-    "reportedAt": 1795573883000,
-    "assumeSaudi": false,
-    "firstSeen": 1795575035132
    },
    {
     "id": "8afe58cd2bec",
@@ -2933,20 +2981,6 @@
     "reportedAt": 1795558558000,
     "assumeSaudi": false,
     "firstSeen": 1795571432122
-   },
-   {
-    "id": "da5556693e07",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5",
-    "reportedAt": 1795557896000,
-    "assumeSaudi": false,
-    "firstSeen": 1795539031437
    },
    {
     "id": "736fd5b77ff4",
@@ -3255,6 +3289,20 @@
     "reportedAt": 1795532790000,
     "assumeSaudi": false,
     "firstSeen": 1795537235825
+   },
+   {
+    "id": "da5556693e07",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5",
+    "reportedAt": 1795532696000,
+    "assumeSaudi": false,
+    "firstSeen": 1795539031437
    },
    {
     "id": "0cb011df6b6e",
@@ -4338,6 +4386,12 @@
    {
     "articleIds": [
      "681915dbd91e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "6581d004675d"
     ],
     "fromRule": true
    }
