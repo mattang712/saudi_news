@@ -1,27 +1,27 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-26T20:40:33.139Z",
-  "lastAttemptAt": "2026-11-26T20:40:33.139Z",
+  "lastSuccessAt": "2026-11-26T20:50:33.654Z",
+  "lastAttemptAt": "2026-11-26T20:50:33.654Z",
   "aiSummary": true,
-  "summaryAt": "2026-11-26T18:50:30.733Z",
+  "summaryAt": "2026-11-26T20:50:33.654Z",
   "aiError": null,
   "summaryKo": [
-   "자잔 정유시설이 피격돼 연기와 가동 중단이 발생했다고 연합군과 언론이 보도했어요.",
-   "리야드를 향한 미사일과 드론이 요격되었다고 연합군과 언론이 전했어요.",
-   "젯다항 인근에서 드론이 요격되고 자잔항에 발사체가 떨어졌다고 발표되었어요.",
-   "외교부는 관련 공격을 언급하며 사우디 전역 여행경보 3단계를 발령했다고 공지했어요."
+   "자잔 정유시설이 후티의 공격으로 피해를 봤다고 연합과 언론이 보도했습니다.",
+   "자잔항과 젯다항 인근에서 후티의 발사체·드론이 요격되거나 낙탄이 있었다고 보도됩니다.",
+   "리야드 방향으로 발사된 미사일과 동부지역의 드론이 방공에 의해 요격되었다고 보도됩니다.",
+   "외교부가 항구·공항 이용 주의와 여행경보를 발령했다고 안내합니다."
   ],
   "sources": [
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 21
+    "count": 20
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 85
+    "count": 84
    },
    {
     "name": "AP",
@@ -51,7 +51,7 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 57
+    "count": 60
    },
    {
     "name": "외교부 여행경보",
@@ -66,7 +66,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 71
+    "count": 72
    }
   ],
   "mofaLatest": [
@@ -104,34 +104,223 @@
  },
  "events": [
   {
-   "id": "6900d702573f",
+   "id": "b1e72dd7712f",
    "articleIds": [
-    "183a98241639"
+    "5276750d0e5a",
+    "005a4870bad1",
+    "7825738fa28b",
+    "c727fa42f2ce",
+    "04ab21584585",
+    "24297620d191",
+    "aa59c3282e35",
+    "830677dfd24c",
+    "62939b8326c1",
+    "9900a604c6cb",
+    "c82262d9bcf2",
+    "9f6fd34d712f",
+    "88db44843f6d",
+    "409f468907eb",
+    "15c674e413fa",
+    "31af4c6c7005",
+    "1fcabda6507d",
+    "3b88b0641921"
    ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
+   "type": "energy",
+   "sev": "high",
+   "status": "multi",
    "directive": null,
-   "title": "사우디아라비아, 쿠웨이트에 대한 이란의 공격 강력 규탄",
-   "titleAuto": true,
+   "title": "국제유가 2~3% 상승…후티, 사우디 최대 정유시설 공격 주장",
+   "titleAuto": false,
    "regions": [
+    "jafurah",
+    "eastern",
     "riyadh"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "기사 대다수가 자잔(Jazan)과 정유시설 피해를 보도했으나 일부는 지역명을 직접 반복하지 않아 동부·자푸라 인근으로 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-26T20:10:35.963Z",
-   "aiNote": null,
+   "collectedAt": "2026-11-25T17:10:35.913Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "Asharq Al-Awsat",
+     "cat": "local",
+     "title": "Widespread Arab and Islamic Condemnation of Houthi Attack on Riyadh",
+     "titleKo": "사우디, 쿠웨이트에 대한 이란의 공격을 강력히 규탄",
+     "summary": "후티 공격에 대해 광범위한 아랍권 비난이 이어졌다고 전합니다.",
+     "reportedAt": "2026-11-25T17:10:21.000Z",
+     "dateOnly": false,
+     "url": "https://english.aawsat.com/node/5345652"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Oil prices rise over 1% after Houthis say they attacked Saudi refinery",
+     "titleKo": "후티 주장에 유가 1% 이상 상승",
+     "summary": "후티의 정유시설 공격 주장에 따라 유가가 1% 이상 올랐다고 보도합니다.",
+     "reportedAt": "2026-11-25T17:35:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVGl4Nzdfc01ReTB5TnAxUkVLTXlaRVFvbGM5aTZDOEtVUXlrVDQtMHJwcWh2WldoMnVyb0QxU1pEQUoyN09sNU1SZXR3NVUzdTZXeWpkdGNTZW95MUtmdjV3dWFxTEZsRW5WUlF1djVTTWZxUGVxcHhPNEptMnBEcmZ0MURhX0JxTDFqc19HblpWd2hLSEs5SXRYTXB6bzFwNzZqOUFTc1ZOM3ItVDFZWmM2a0R5YkxsdnlsMTZWQ1ZEUQ?oc=5"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Smoke covers Saudi Arabian oil refinery as Houthis claim attack",
+     "titleKo": "연기 뒤덮인 사우디 정유시설, 후티 공격 주장",
+     "summary": "후티가 사우디 정유시설을 공격했다고 주장하자 정유단지에서 연기가 관측되었다고 보도합니다.",
+     "reportedAt": "2026-11-25T17:45:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0ZzlhZk8tdlVzZHJvcExfX24zS1dteW9XYzdCajlfLVFja0c2czRhWEhWR1RURktJT2hNejUwZmpTSjM1SWEtbEtxdTloZklhZlVvZWItU3RyM0g0SmJaUTVscHRWWEE?oc=5"
+    },
+    {
+     "outlet": "뉴스1",
+     "cat": "kr",
+     "title": "국제유가 2~3% 상승…후티, 사우디 최대 정유시설 공격 주장",
+     "titleKo": null,
+     "summary": "후티가 사우디 최대 정유시설을 공격했다고 주장했다고 보도합니다.",
+     "reportedAt": "2026-11-25T20:48:18.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EMWcwZzJiUE54aUE1R0xQeFR1VHVZSlpGQTdsQ0p3XzJ2SVRackdvNklFRXc5TGxnQ0dHaXlYU2NRSUc1TVpTQnJDbnpzX2dWbl9Zd1JqYjA?oc=5"
+    },
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
+     "titleKo": null,
+     "summary": "국제유가가 후티의 사우디 정유시설 공격 보도로 상승했다고 전합니다.",
+     "reportedAt": "2026-11-25T20:51:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnhkV1ZXU3g5OWZOamFYTHg2VlVaWTVaU3JMZktROGYxVDNpanNLamphMW9RQUVYdXFDTU5JdzNHNE9lbmViaUxtb2t1c2hQODlTVkRYYzRVc1ZHbkl5N00ySzgxZmdyZTBBUTMwMDhMOTM1WlRMVldmSmFqRk9mTQ?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
+     "titleKo": null,
+     "summary": "후티의 정유시설 공격 보도로 브렌트유가 등 국제유가가 상승했다고 보도합니다.",
+     "reportedAt": "2026-11-25T20:51:23.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdXdJTmVrRWhFRmdSZm12a0xCUnJldUZ2OGUyOWdBeDZCUHRZZzFWb2M4ZFBRMlAxenpWNmpaOXo4d2xtWV9Ca3l6dGdHdm90WlNtaUY0NGgyR2fSAWBBVV95cUxPajduZS1rLUlLSjJUbkdOMmZzbFRveEhVbGZjWTZMZEM5NW1hZk4tdGJ1SE1nZWFkTllEektqQVRLMER6ak9vNWVYWGFkc1o0RkJIM245cE84U3hqeHFtZDg?oc=5"
+    },
+    {
+     "outlet": "MBC",
+     "cat": "kr",
+     "title": "국제유가, 후티 사우디 정유시설 공격에 급등‥브렌트 3.5%↑",
+     "titleKo": null,
+     "summary": "후티의 사우디 정유시설 공격 보도로 국제유가가 급등했다고 전합니다.",
+     "reportedAt": "2026-11-25T21:11:30.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xVUpzNEg5c2hoUXExRzAyaUJlQmJDV3hnNFZ2TFROYWFPa19lNUpzZ3lwN3pYV3lLU3lUS0hEdXNESk9yRGk2VnhLNTZVaWNMRTd0Z29UcUVQb0xWQXc5bnlneDA4NUxzeDBXUFhrUE9kN3BM0gF0QVVfeXFMTXFVSnM0SDlzaGhRcTFHMDJpQmVCYkNXeGc0VnZMVE5hYU9rX2U1SnNneXA3elhXeUtTeVRLSER1c0RKT3JEaTZWeEs1NlVpY0xFN3Rnb1RxRVBvTFZBdzlueWd4MDg1THN4MFdQWGtQT2Q3cEw?oc=5"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+     "titleKo": "후티, 홍해 항구 겨냥 공격 보도",
+     "summary": "후티가 홍해 항구를 겨냥한 공격을 했다고 보도하며 긴장이 고조되었다고 전합니다.",
+     "reportedAt": "2026-11-25T23:37:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGxhOFVRbGV4VWljWVZrRGUzSlRFN2dkQVc3dkVHWHZQdUlOYmVpbEpKdVdtYkdXRFVQVG11QlJleUZOeXZyVUdCRVg0UWw1YmVNUS02WlREdUJnVnBnRlF2TUJJM2hrUlNUSHUxRmF0YzRqM2QtR01kUUhvSHZHX25XeWRNZjdrMFF0VkRlVnMxbjNQOU1YcTl0cjJCNlZueGlOeXZIONIBrAFBVV95cUxPdEhLc01XWU5iX2xIa2VMdlBiZG1icV9TR1JsTGJJTl85Vkg2N25sY2JQYTJpb0tqYnhVRENFSUN5NkQxM3NBbG45WUQwdzk5UFB1LUFLRGUyeEExUkxlcW9UdUVBU2pteWVwdV9LMDhxbWZsb2lEVExfS0JmU0s5MVVrMVFaSHpoVnpSQTlTN0lSeEROZzFQMl9DemV6MFgxRkp0V1M2M0NoQm5J?oc=5"
+    },
+    {
+     "outlet": "한국경제",
+     "cat": "kr",
+     "title": "후티 사우디 정유시설 공격에 뛴 국제 유가…정유주, 동반 상승 [종목+]",
+     "titleKo": null,
+     "summary": "후티의 정유시설 공격 소식에 따라 정유주와 유가가 상승했다고 보도합니다.",
+     "reportedAt": "2026-11-26T00:46:03.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XUm8tdllzbnlGTHUza1JxMXYtaXJpbTlXTUFMWHRxbTBCS1AxalhpQTlSbm0ybW5OWmQ2RmlkWENxYXdjc1ZPR0VGZUUtUHhXaHNiODhMZ1FIUQ?oc=5"
+    },
+    {
+     "outlet": "연합뉴스",
+     "cat": "kr",
+     "title": "[영상] '검은 연기띠' 사우디 정유시설…후티 \"홍해 항구도 공격\"",
+     "titleKo": null,
+     "summary": "사우디 정유시설에서 검은 연기가 보였고 후티가 홍해 항구도 공격했다고 주장했다고 전합니다.",
+     "reportedAt": "2026-11-26T09:53:31.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KSjFSTUt3WWNhcEtxdHVaaW5ZTFFSYWZRdElGbEZha21xbE5SZGZiODhNVEhpSjR6RkdOcHV6dEJIbzRPNW5iZkl2S1IxVEREbVQtX1pWbzFYZFU1M2RzTkhlZnpQY1daV2VxeFMwVHNfRGFN?oc=5"
+    },
+    {
+     "outlet": "채널A",
+     "cat": "kr",
+     "title": "사우디 최대 정유시설 피격…서울만 한 검은 연기",
+     "titleKo": null,
+     "summary": "사우디 최대 정유시설이 피격돼 큰 연기가 일었다고 보도합니다.",
+     "reportedAt": "2026-11-26T10:32:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41em9XSUJwdk9fZ1RUWjFuVUl0Sk1xTy13cllSWnVtdTRNdjE2VHhBdkd4cXVyTFZ5THlpYm5JN1VGMHJOMURTS1dOVm9HSDRCR1AxdVR1cjFieEpOR2JjUFFid9IBY0FVX3lxTE41em9XSUJwdk9fZ1RUWjFuVUl0Sk1xTy13cllSWnVtdTRNdjE2VHhBdkd4cXVyTFZ5THlpYm5JN1VGMHJOMURTS1dOVm9HSDRCR1AxdVR1cjFieEpOR2JjUFFidw?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition strikes Houthi missile site after attack on Saudi Arabia's Jazan refinery",
+     "titleKo": "연합, 자잔 정유시설 공격 뒤 후티 미사일 기지 타격",
+     "summary": "연합이 자잔 정유시설 공격 후 후티 미사일 기지를 타격했다고 보도합니다.",
+     "reportedAt": "2026-11-26T15:19:01.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTGREYWpqQ0ZFVzlvNDRZOEUySERnYktHTHlEV3R2MU9OWF83ellfWThVbVpNOG5HRVljWGpjSTh4SkRYZm9sUzBVNVMxcXlIVEtqX2kxRnl6clAzdlVxT096QXJYWWNMek85ODdPTnBWQ3RUNERyQUpsQTJlb1JDNTBWNjhEc2FRZWlTb1JZVnB0aDZmYXlYZWV3ZDZreXlkSzNGcm5RdVAzTlJqTXZNaGo2eV9IbkxfRWxfdXBfTm45Y2tCZ2Zz?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Coalition: Houthis attacked Saudi Arabia's Jazan refinery",
+     "titleKo": "연합: 후티가 자잔 정유시설 공격",
+     "summary": "연합이 후티가 자잔 정유시설을 공격했다고 발표했다고 전합니다.",
+     "reportedAt": "2026-11-26T15:19:01.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/coalition-houthis-attacked-saudi-arabias-jazan-refinery-3014153"
+    },
     {
      "outlet": "Saudi Gazette",
      "cat": "local",
-     "title": "Saudi Arabia strongly condemns Iranian aggression on Kuwait",
-     "titleKo": "사우디아라비아, 쿠웨이트에 대한 이란의 공격 강력 규탄",
-     "summary": "",
-     "reportedAt": "2026-11-26T19:29:28.000Z",
+     "title": "Energy Ministry: One killed, several injured in Jazan refinery attack",
+     "titleKo": "에너지부: 자잔 정유시설 피격으로 1명 사망·여러명 부상",
+     "summary": "에너지부 소식통은 자잔 정유시설이 발사체에 맞아 네팔인 근로자 1명이 사망했다고 전했습니다.",
+     "reportedAt": "2026-11-26T15:35:51.000Z",
      "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666568/saudi-arabia/saudi-arabia-strongly-condemns-iranian-aggression-on-kuwait"
+     "url": "https://saudigazette.com.sa/article/666565/saudi-arabia/al-maliki-jazan-refinery-was-attacked-by-houthi-militia"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Al-Maliki: Jazan refinery was attacked by Houthi militia",
+     "titleKo": "연합 대변인: 자잔 정유시설을 후티가 공격",
+     "summary": "연합 대변인은 자잔 정유시설 공격이 후티의 소행이라고 발표했다고 보도합니다.",
+     "reportedAt": "2026-11-26T15:35:51.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666565/saudi-arabia/al-maliki-jazan-refinery-was-attacked-by-houthi-militia"
+    },
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery",
+     "titleKo": "아랍연합: 후티가 아람코 자잔 정유시설 공격",
+     "summary": "사우디 주도 연합이 후티가 자잔 정유시설을 공격했다고 발표했다고 전합니다.",
+     "reportedAt": "2026-11-26T16:05:09.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Houthi attack on Saudi Arabia's Jazan refinery kills Nepali worker",
+     "titleKo": "후티의 자잔 정유시설 공격으로 네팔인 근로자 1명 사망",
+     "summary": "후티의 자잔 정유시설 공격으로 네팔인 근로자가 사망했다고 보도합니다.",
+     "reportedAt": "2026-11-26T18:49:17.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/saudi-arabia/houthi-attack-on-saudi-arabias-jazan-refinery-kills-nepali-worker-3014153"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+     "titleKo": "사우디 자잔 정유시설 공격으로 1명 사망·가동 중단",
+     "summary": "자잔(Jazan) 정유시설 공격으로 1명이 사망하고 가동이 중단됐다고 보도합니다.",
+     "reportedAt": "2026-11-26T20:37:30.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZnZjhfSVBOMkp2VnNxeTh6ZHVxQmQ4X09jMnFmMFg1VUlhQ3RSTlVUN09RZEZpUlZFeV96MlpENFFwTHhoS0dEWTk5Q0U0Y2F0QS1Zb0Q0amNWMkw3cEs3S0d3Rml4QTV0ZExPXzVBaVRaTkZHVUpmYVVIbVk2SGtkcWtJLXVTUkk4Y2gxelVuUGtnU1BxM0gtN2J6ZF92SnJvczdjaGQxQkZad0RzZF9pb9IBuAFBVV95cUxPbDVuYThMckJDbU1vT3VsN21LaEc5ZVVQZVZKUjZzMWQ3UnlhbmxQZlZkVzdFUWZFbzVEZ1FkZ3hJSFMzY1dHRzdkYUF4MDIxOEpNckdiZHpHTXIxWGxQb3hHbFBGZ3VEZjdPZXBPVWJEejNFaHMzaVpBeER5aEZKYzZlVFVWSEVnLWpsSHA3cTBvY0pqM3YySXRNZGxhS1hGN0Z0VEtBb3dPNnFwQ2JXWnA5TFl2dDNX?oc=5"
     }
    ]
   },
@@ -153,7 +342,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-26T19:30:41.368Z",
-   "aiNote": null,
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "Arab News",
@@ -164,259 +353,6 @@
      "reportedAt": "2026-11-26T19:22:28.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/saudi-arabia/kingdom-leads-arab-condemnation-of-deadly-drone-attack-on-kuwait-3014178"
-    }
-   ]
-  },
-  {
-   "id": "455668643bd6",
-   "articleIds": [
-    "9f2e3db196fe"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "살만 국왕·왕세자, 기자 화재 참사에 대해 이집트 대통령에 조문",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T19:20:30.859Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "King Salman and Crown Prince offer condolences to Egyptian president over Giza fire tragedy",
-     "titleKo": "살만 국왕·왕세자, 기자 화재 참사에 대해 이집트 대통령에 조문",
-     "summary": "",
-     "reportedAt": "2026-11-26T18:56:13.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666567/saudi-arabia/king-salman-and-crown-prince-offer-condolences-to-egyptian-president-over-giza-fire-tragedy"
-    }
-   ]
-  },
-  {
-   "id": "496fc21dbc80",
-   "articleIds": [
-    "d10f75881f71",
-    "517bb5498f49",
-    "5276750d0e5a",
-    "005a4870bad1",
-    "7825738fa28b",
-    "5349daa4330a",
-    "c727fa42f2ce",
-    "24297620d191",
-    "aa59c3282e35",
-    "9900a604c6cb",
-    "c82262d9bcf2",
-    "9f6fd34d712f",
-    "88db44843f6d",
-    "31af4c6c7005",
-    "1fcabda6507d"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "multi",
-   "directive": null,
-   "title": "국제유가 2~3% 상승…후티, 사우디 최대 정유시설 공격 주장",
-   "titleAuto": false,
-   "regions": [
-    "jafurah",
-    "dammam",
-    "eastern",
-    "riyadh"
-   ],
-   "inferred": true,
-   "inferNote": "기사들에 자잔(Jazan) 지명이 있어 동부주 근처일 가능성은 낮지만 요청에 따라 관련 지역을 포함해 추정했습니다.",
-   "occurredAt": null,
-   "collectedAt": "2026-11-25T17:00:45.715Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Oil prices rise after Houthis claim attack on Saudi refinery",
-     "titleKo": "로이터: 후티의 정유시설 공격 주장에 유가 상승",
-     "summary": "후티가 정유시설을 공격했다고 주장한 뒤 유가가 상승했다고 보도했어요.",
-     "reportedAt": "2026-11-25T01:58:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVGl4Nzdfc01ReTB5TnAxUkVLTXlaRVFvbGM5aTZDOEtVUXlrVDQtMHJwcWh2WldoMnVyb0QxU1pEQUoyN09sNU1SZXR3NVUzdTZXeWpkdGNTZW95MUtmdjV3dWFxTEZsRW5WUlF1djVTTWZxUGVxcHhPNEptMnBEcmZ0MURhX0JxTDFqc19HblpWd2hLSEs5SXRYTXB6bzFwNzZqOUFTc1ZOM3ItVDFZWmM2a0R5YkxsdnlsMTZWQ1ZEUQ?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Houthi projectile hits Saudi Arabia’s Jazan port, coalition says",
-     "titleKo": "연합군: 자잔항에 후티 발사체가 떨어졌다고 밝혀",
-     "summary": "발사체가 자잔 항에 떨어졌다고 연합군이 밝혔다고 보도했어요.",
-     "reportedAt": "2026-11-25T16:56:07.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3BzNFlObkZLT0xCU1NQTURLbVF2ZVpwSlFaeWh5NUJsOVpkZV9ONFVPamwxSFRleEdRZ21kZ21IU2ZOcVJjck1EQWpBQzNDbWVVVmVjenR2cGx0YWRiOXlKUVRJTy10cG9RTHVlWFRfeV9IMG5XU3ZjTEtTdWlyNkliQUMtWXMyeTl3WDdxSThEYk90alJWdElDZ0F4RWpZQkotdGRTVzlZN0dT?oc=5"
-    },
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Widespread Arab and Islamic Condemnation of Houthi Attack on Riyadh",
-     "titleKo": "아랍·이슬람권, 후티의 리야드 공격 규탄",
-     "summary": "아랍권에서 리야드에 대한 후티 공격을 강하게 규탄했다고 보도했어요.",
-     "reportedAt": "2026-11-25T17:10:21.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5345652"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Oil prices rise over 1% after Houthis say they attacked Saudi refinery",
-     "titleKo": "후티, 사우디 정유시설 공격 주장에 유가 1%대 상승",
-     "summary": "후티의 공격 주장에 따라 유가가 1% 이상 올랐다고 보도했어요.",
-     "reportedAt": "2026-11-25T17:35:03.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVGl4Nzdfc01ReTB5TnAxUkVLTXlaRVFvbGM5aTZDOEtVUXlrVDQtMHJwcWh2WldoMnVyb0QxU1pEQUoyN09sNU1SZXR3NVUzdTZXeWpkdGNTZW95MUtmdjV3dWFxTEZsRW5WUlF1djVTTWZxUGVxcHhPNEptMnBEcmZ0MURhX0JxTDFqc19HblpWd2hLSEs5SXRYTXB6bzFwNzZqOUFTc1ZOM3ItVDFZWmM2a0R5YkxsdnlsMTZWQ1ZEUQ?oc=5"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Smoke covers Saudi Arabian oil refinery as Houthis claim attack",
-     "titleKo": "로이터: 후티, 사우디 정유시설 공격했다고 주장",
-     "summary": "정유시설에서 연기가 덮인 모습이 포착됐다고 보도했어요.",
-     "reportedAt": "2026-11-25T17:45:03.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0ZzlhZk8tdlVzZHJvcExfX24zS1dteW9XYzdCajlfLVFja0c2czRhWEhWR1RURktJT2hNejUwZmpTSjM1SWEtbEtxdTloZklhZlVvZWItU3RyM0g0SmJaUTVscHRWWEE?oc=5"
-    },
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Houthi projectile hits Jazan port, no injuries reported",
-     "titleKo": "후티 발사체가 자잔항에 떨어져 경미 피해 발생",
-     "summary": "자잔 항에 후티 발사체가 떨어져 경미한 피해가 발생했으나 인명 피해는 없었다고 연합군이 전했어요.",
-     "reportedAt": "2026-11-25T17:54:04.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666538/saudi-arabia/houthi-projectile-hits-jazan-port-no-injuries-reported"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "국제유가 2~3% 상승…후티, 사우디 최대 정유시설 공격 주장",
-     "titleKo": null,
-     "summary": "국제유가가 상승한 배경에 후티의 정유시설 공격 주장이 있다고 전했어요.",
-     "reportedAt": "2026-11-25T20:48:18.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EMWcwZzJiUE54aUE1R0xQeFR1VHVZSlpGQTdsQ0p3XzJ2SVRackdvNklFRXc5TGxnQ0dHaXlYU2NRSUc1TVpTQnJDbnpzX2dWbl9Zd1JqYjA?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
-     "titleKo": null,
-     "summary": "후티의 정유시설 공격을 계기로 국제유가가 급등했다고 전했어요.",
-     "reportedAt": "2026-11-25T20:51:23.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdXdJTmVrRWhFRmdSZm12a0xCUnJldUZ2OGUyOWdBeDZCUHRZZzFWb2M4ZFBRMlAxenpWNmpaOXo4d2xtWV9Ca3l6dGdHdm90WlNtaUY0NGgyR2fSAWBBVV95cUxPajduZS1rLUlLSjJUbkdOMmZzbFRveEhVbGZjWTZMZEM5NW1hZk4tdGJ1SE1nZWFkTllEektqQVRLMER6ak9vNWVYWGFkc1o0RkJIM245cE84U3hqeHFtZDg?oc=5"
-    },
-    {
-     "outlet": "MBC",
-     "cat": "kr",
-     "title": "국제유가, 후티 사우디 정유시설 공격에 급등‥브렌트 3.5%↑",
-     "titleKo": null,
-     "summary": "국제유가가 후티의 정유시설 공격 주장으로 급등했다고 보도했어요.",
-     "reportedAt": "2026-11-25T21:11:30.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xVUpzNEg5c2hoUXExRzAyaUJlQmJDV3hnNFZ2TFROYWFPa19lNUpzZ3lwN3pYV3lLU3lUS0hEdXNESk9yRGk2VnhLNTZVaWNMRTd0Z29UcUVQb0xWQXc5bnlneDA4NUxzeDBXUFhrUE9kN3BM0gF0QVVfeXFMTXFVSnM0SDlzaGhRcTFHMDJpQmVCYkNXeGc0VnZMVE5hYU9rX2U1SnNneXA3elhXeUtTeVRLSER1c0RKT3JEaTZWeEs1NlVpY0xFN3Rnb1RxRVBvTFZBdzlueWd4MDg1THN4MFdQWGtQT2Q3cEw?oc=5"
-    },
-    {
-     "outlet": "연합뉴스",
-     "cat": "kr",
-     "title": "[영상] '검은 연기띠' 사우디 정유시설…후티 \"홍해 항구도 공격\"",
-     "titleKo": null,
-     "summary": "영상 보도에서 정유시설에서 검은 연기띠가 관찰됐고 후티는 홍해 항구 공격도 주장했다고 알려졌어요.",
-     "reportedAt": "2026-11-26T09:53:31.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KSjFSTUt3WWNhcEtxdHVaaW5ZTFFSYWZRdElGbEZha21xbE5SZGZiODhNVEhpSjR6RkdOcHV6dEJIbzRPNW5iZkl2S1IxVEREbVQtX1pWbzFYZFU1M2RzTkhlZnpQY1daV2VxeFMwVHNfRGFN?oc=5"
-    },
-    {
-     "outlet": "채널A",
-     "cat": "kr",
-     "title": "사우디 최대 정유시설 피격…서울만 한 검은 연기",
-     "titleKo": null,
-     "summary": "사우디의 대형 정유시설에서 큰 검은 연기가 치솟았다고 전했어요.",
-     "reportedAt": "2026-11-26T10:32:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41em9XSUJwdk9fZ1RUWjFuVUl0Sk1xTy13cllSWnVtdTRNdjE2VHhBdkd4cXVyTFZ5THlpYm5JN1VGMHJOMURTS1dOVm9HSDRCR1AxdVR1cjFieEpOR2JjUFFid9IBY0FVX3lxTE41em9XSUJwdk9fZ1RUWjFuVUl0Sk1xTy13cllSWnVtdTRNdjE2VHhBdkd4cXVyTFZ5THlpYm5JN1VGMHJOMURTS1dOVm9HSDRCR1AxdVR1cjFieEpOR2JjUFFidw?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition strikes Houthi missile site after attack on Saudi Arabia's Jazan refinery",
-     "titleKo": "연합군, 자잔 정유시설 공격에 사용된 발사대 파괴",
-     "summary": "연합군이 자잔 정유시설 피격 뒤 후티의 미사일 기지를 타격했다고 보도했어요.",
-     "reportedAt": "2026-11-26T15:19:01.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTGREYWpqQ0ZFVzlvNDRZOEUySERnYktHTHlEV3R2MU9OWF83ellfWThVbVpNOG5HRVljWGpjSTh4SkRYZm9sUzBVNVMxcXlIVEtqX2kxRnl6clAzdlVxT096QXJYWWNMek85ODdPTnBWQ3RUNERyQUpsQTJlb1JDNTBWNjhEc2FRZWlTb1JZVnB0aDZmYXlYZWV3ZDZreXlkSzNGcm5RdVAzTlJqTXZNaGo2eV9IbkxfRWxfdXBfTm45Y2tCZ2Zz?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition: Houthis attacked Saudi Arabia's Jazan refinery",
-     "titleKo": "연합군: 후티가 자잔 정유시설 공격했다고 발표",
-     "summary": "연합군은 후티가 자잔 정유시설을 공격했다고 발표했어요.",
-     "reportedAt": "2026-11-26T15:19:01.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/coalition-houthis-attacked-saudi-arabias-jazan-refinery-3014153"
-    },
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery",
-     "titleKo": "사우디 주도 연합, 후티가 아람코의 자잔 정유공장 공격했다고 주장",
-     "summary": "사우디 주도 연합은 후티가 아람코의 자잔 정유시설을 공격했다고 밝혔어요.",
-     "reportedAt": "2026-11-26T16:05:09.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Houthi attack on Saudi Arabia's Jazan refinery kills Nepali worker",
-     "titleKo": "후티의 사우디아라비아 자잔 정유공장 공격으로 네팔인 노동자 사망",
-     "summary": "후티의 공격으로 자잔 정유시설이 피격되어 네팔 근로자 1명이 사망하고 여러 명이 부상했으며 일부 가동이 중단되었다고 보도했어요.",
-     "reportedAt": "2026-11-26T18:49:17.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/houthi-attack-on-saudi-arabias-jazan-refinery-kills-nepali-worker-3014153"
-    }
-   ]
-  },
-  {
-   "id": "786577d85289",
-   "articleIds": [
-    "c76d938cb85e"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티, 사우디 정유시설 이틀 연속 공격…네팔인 근로자 1명 사망",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T19:10:29.170Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "후티, 사우디 정유시설 이틀 연속 공격…네팔인 근로자 1명 사망",
-     "titleKo": null,
-     "summary": "",
-     "reportedAt": "2026-11-26T18:40:58.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tdjRJMEJaYldPNXZySGo3aXZ5WUppeUxPUG9KcFhKOW5YdlN0OG5NMDNHdEJ5UVRpMVhqUml4bk1rM0pNZFZvQ0tOc3dodEVUYmpSRHBuMGhIa3BLMTJ5UkZ3?oc=5"
     }
    ]
   },
@@ -453,90 +389,70 @@
    ]
   },
   {
-   "id": "8d867012d646",
+   "id": "4ae0f3136e79",
    "articleIds": [
-    "a1334aac6f61"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 지도부, 시시 대통령에 화재 희생자 애도 표해",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T18:10:33.374Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Saudi Leadership Offers Condolences to Sisi Over Fire Victims",
-     "titleKo": "사우디 지도부, 시시 대통령에 화재 희생자 애도 표해",
-     "summary": "사우디 지도부가 이집트 화재 희생자에게 위로의 뜻을 전했다고 보도했어요.",
-     "reportedAt": "2026-11-26T18:07:58.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5346093"
-    }
-   ]
-  },
-  {
-   "id": "02617184b2b7",
-   "articleIds": [
-    "d3c168c0a126"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디 지도자들, 기자 화재로 이집트 대통령에 조의 표해",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T16:50:34.826Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi leaders send condolences to Egypt’s president over Giza fire",
-     "titleKo": "사우디 지도자들, 기자 화재로 이집트 대통령에 조의 표해",
-     "summary": "사우디 국왕과 왕세제가 이집트 지자 화재 희생자들에게 애도를 표했다고 보도했어요.",
-     "reportedAt": "2026-11-26T16:41:05.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/saudi-leaders-send-condolences-to-egypts-president-over-giza-fire-3014166"
-    }
-   ]
-  },
-  {
-   "id": "fa40d4fe8983",
-   "articleIds": [
+    "da5556693e07",
+    "cf5be93b991e",
+    "8d1a5cbc32ec",
+    "f8fb8c427c38",
     "b9047b3302b8",
     "998618df4f0e"
    ],
-   "type": "security",
+   "type": "korean",
    "sev": "mid",
    "status": "official",
-   "directive": null,
-   "title": "사우디 외교차관이 후티 공격 관련 대사단에 설명했다고 발표",
+   "directive": "advice",
+   "title": "사우디 정부가 관련 외교·공식 입장을 발표",
    "titleAuto": true,
    "regions": [
     "riyadh"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "대부분 기사가 리야드의 외교부·국영통신 등 공식 발표를 보도해 리야드와 연관된 것으로 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-26T16:40:33.225Z",
+   "collectedAt": "2026-11-24T16:50:31.437Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
+     "titleKo": "민방위: 리야드 금융지구 타워 공격으로 11명 부상",
+     "summary": "민방위는 리야드 금융지구 타워 공격으로 11명이 다쳤다고 발표했습니다.",
+     "reportedAt": "2026-11-25T11:06:17.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Saudi, Bahraini defense officials discuss Houthi and Iranian attacks",
+     "titleKo": "사우디·바레인 군사논의, 후티·이란 공격 관련",
+     "summary": "사우디와 바레인이 후티·이란 공격에 관해 군사 논의를 했다고 전합니다.",
+     "reportedAt": "2026-11-25T11:48:55.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMnlHWk5VWkZTT2JsYVE5RVRoSk5sSmlHaEJmSnliUkhMZHF6dzJxWWpvQjRfOFV2eTllMFFrNGU5MkJ3UXQtdVJ1bG12SVBLQjlaRUJOUkcwTlg3LWY5VXBSZ1Z5LWFqemZvY3BkQnZxWHpDVFp3bXp6T2hYS2NTU1AteVRMUVhSLWJqd05UZ2xJYmxVRHV6X1VBalNwMzMzd1B5Zlg4OWJjWnV1VURyOFNWMA?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "India Condemns Attack on Financial District Tower in Riyadh",
+     "titleKo": "인도, 리야드 금융지구 타워 공격 규탄",
+     "summary": "인도가 리야드 금융지구 타워 공격을 규탄했다고 보도합니다.",
+     "reportedAt": "2026-11-25T13:53:07.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUy1iTS1JX19QcU9ROEFXOXJvMUtZTmUyOUtYa2puc1FBZGZzYjVWVEkyT0VhRnN1WVFtU1BLX2dwNFd6V0pKY2VR?oc=5"
+    },
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "India reaffirms ‘unwavering’ support to Saudi Arabia after Houthi attack on Riyadh",
+     "titleKo": "인도, 후티의 리야드 공격에 사우디에 대한 지지 재확인",
+     "summary": "인도가 리야드에 대한 후티 공격에 대해 사우디를 전폭 지지한다고 발표했다고 보도합니다.",
+     "reportedAt": "2026-11-25T13:54:14.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY0wtdWR2U3M5a3o4Z01TXzBfN0RMcjVBeVZXbFhTQTdvMGNQZnZiWllCZWNINTBiWl8tVDdRNk9feXJoUDdFSUlPOWFnZTdUYzZGbDJWNDVKUjlSS2VtOHR0dUNYYk5KT0dRaWp1ZmtxQjFDbENKWnNINEhCcFJnU3dybEtXaTBKdjR5UkJ4bkpiRGtrVGxKNDRzZjc3bWFDdFNNam9YbWl5RTUzZEV2MUEwc2ppZDEzT1JJ?oc=5"
+    },
     {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
@@ -560,122 +476,16 @@
    ]
   },
   {
-   "id": "cda79e931a26",
+   "id": "814206a87d85",
    "articleIds": [
-    "15c674e413fa"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "알말리키: Jazan 정유공장은 후티 민병대의 공격을 받았다",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T19:40:32.095Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Al-Maliki: Jazan refinery was attacked by Houthi militia",
-     "titleKo": "알말리키: Jazan 정유공장은 후티 민병대의 공격을 받았다",
-     "summary": "",
-     "reportedAt": "2026-11-26T15:35:51.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666565/saudi-arabia/al-maliki-jazan-refinery-was-attacked-by-houthi-militia"
-    }
-   ]
-  },
-  {
-   "id": "f881d7b9423b",
-   "articleIds": [
-    "409f468907eb"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "에너지부: 자잔 정유공장 공격으로 1명 사망·여러 명 부상",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T20:10:35.963Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Energy Ministry: One killed, several injured in Jazan refinery attack",
-     "titleKo": "에너지부: 자잔 정유공장 공격으로 1명 사망·여러 명 부상",
-     "summary": "",
-     "reportedAt": "2026-11-26T15:35:51.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666565/saudi-arabia/al-maliki-jazan-refinery-was-attacked-by-houthi-militia"
-    }
-   ]
-  },
-  {
-   "id": "119ff07311c3",
-   "articleIds": [
-    "216e7a22e59b",
-    "a1853112038f"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "official",
-   "directive": null,
-   "title": "사우디아라비아, 기자 화재에 대해 이집트에 위로 전해",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T13:20:36.854Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Asharq Al-Awsat",
-     "cat": "local",
-     "title": "Saudi Arabia Offers Condolences to Egypt Following Fire in Giza",
-     "titleKo": "사우디아라비아, 기자 화재에 대해 이집트에 위로 전해",
-     "summary": "사우디가 이집트 화재 희생자에게 애도를 표했다는 내용이에요.",
-     "reportedAt": "2026-11-26T13:13:40.000Z",
-     "dateOnly": false,
-     "url": "https://english.aawsat.com/node/5345978"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Saudi Arabia Offers Condolences to Egypt Following Fire in Giza",
-     "titleKo": "사우디, 기자 화재 피해에 이집트에 애도 표명",
-     "summary": "사우디가 이집트의 지자 화재 희생자들에게 애도를 표했다고 전했어요.",
-     "reportedAt": "2026-11-26T14:31:57.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1wbG5uQmtsRDBsOHJOVFhSekxMbzNNY2N0d3Y3UDRaUVlDUDJBenZBamtqU195YW8tNkpoSUxabDF2Nm4tQUhSRld3?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "d774e3e7bad1",
-   "articleIds": [
+    "de35d3345b41",
     "ba641d144bd3"
    ],
-   "type": "security",
-   "sev": "mid",
+   "type": "energy",
+   "sev": "high",
    "status": "single",
    "directive": null,
-   "title": "사우디 에너지 공격·해상 위험에 대부분의 걸프 시장 하락",
+   "title": "후티 공격 보도로 국제유가와 금융시장이 영향받았다고 보도",
    "titleAuto": true,
    "regions": [
     "all"
@@ -683,9 +493,19 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-26T15:10:38.430Z",
+   "collectedAt": "2026-11-26T09:10:33.587Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Most Gulf markets muted on Saudi energy strikes, maritime dangers",
+     "titleKo": "로이터: 걸프 시장, 사우디 에너지 타격 우려로 혼조",
+     "summary": "로이터는 걸프 시장이 사우디 에너지 타격 우려로 혼조를 보였다고 전했어요.",
+     "reportedAt": "2026-11-26T08:50:09.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGhLMnhJSlpva0NsUUJkNjhXaFZuUklkNHViOGxUR1daSGduN2xtejdtYnc2WEpfdDVFWS1pY0o3YTBvMWpTdDE3ekwzamhxaUpxSUVKbHVGZXlnOTE1amRuMG1xazZlMlR2RWVqb000NnYwV3VoVWxaSnY2dkFYYklJM3VhZEFKMm9ZbHhRNy01Q09ha2ZpMW9udXRpLUo1RFh6V1FUVTNIRGoxRnN5TEgwbE1udw?oc=5"
+    },
     {
      "outlet": "Reuters",
      "cat": "wire",
@@ -795,84 +615,52 @@
    ]
   },
   {
-   "id": "168eadb3e0eb",
+   "id": "fbda3d5f5fd0",
    "articleIds": [
-    "159c0c70d11c",
-    "9010f93a5dc1",
-    "cb69a292aec4",
-    "da5556693e07",
     "122c293dc36b",
-    "830677dfd24c",
+    "4eb56e46a199",
+    "1a58d9b3411e",
     "76a974b72d4f",
     "f42db72b8b5e",
     "9ff87fdeda86",
     "7b1dfcee57b6",
-    "106947387006",
     "1babbf1d3752",
+    "d4a499812858",
     "a17beabadfcf"
    ],
    "type": "missile",
    "sev": "high",
    "status": "official",
    "directive": null,
-   "title": "사우디 80층 마천루 닷새 만에 또 피격…정유시설까지 노린 후티(종합)",
-   "titleAuto": false,
+   "title": "사우디 방공이 리야드 방향 미사일과 드론을 요격했다고 발표",
+   "titleAuto": true,
    "regions": [
     "riyadh",
-    "eastern"
+    "eastern",
+    "airport"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "기사들이 리야드와 동부 지역의 요격을 보도하나 일부 보도는 지명을 일반적으로 표기해 지역 포함을 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-24T16:50:31.437Z",
+   "collectedAt": "2026-11-25T23:00:48.671Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
      "outlet": "AFP",
      "cat": "wire",
-     "title": "Yemen's Houthis claim attacks on Riyadh financial district, Saudi refinery",
-     "titleKo": "후티, 리야드 금융지구·정유시설 공격 주장",
-     "summary": "후티가 리야드 금융지구와 사우디 정유시설 공격을 주장했다고 AFP가 보도했어요.",
-     "reportedAt": "2026-11-25T10:03:06.000Z",
+     "title": "Saudis down missiles targeting capital after Yemen port strikes",
+     "titleKo": "사우디, 수도 향 미사일 격추 보도",
+     "summary": "사우디가 수도를 향한 미사일을 요격했다고 보도합니다.",
+     "reportedAt": "2026-11-25T21:41:16.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSUNxZFh2WTBxWVhHNWVMTTNJTzEweExXRkFBWEd2b1hzSG5CdGZzLS1RRTRXekplcHRfNVNIcFBDdDRfbm9pa1ZXcDhWLVk3djNWQ1ZLOF9LLTJ4R2djVEU0dU5ZR0xvaXE5dGFkMEZ4VFU4bjU5VXAxcjhMNUQ4LUtKUTV4TG1TQnZlZ2R5cVBHRGN4dEIxYVhudU1FSWdfVV9lci1vRmVBcl9DTnV6eG9CQTU3M1E?oc=5"
-    },
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "사우디 80층 마천루 닷새 만에 또 피격…정유시설까지 노린 후티(종합)",
-     "titleKo": null,
-     "summary": "사우디의 고층 건물이 여러 차례 피격되었고 정유시설까지 노려졌다고 보도했어요.",
-     "reportedAt": "2026-11-25T10:09:34.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11R3JJdkxYODM3VnBGcFZFbkE3cFNYOV9Vc1V3YU5CVVZPWFFyNnBHY05mUENPSnkxRFAzekRuTURKQjZaNHN3N00wekJuRTlqTE5iTXppMldTcFRIUkdOU2hR?oc=5"
-    },
-    {
-     "outlet": "채널A",
-     "cat": "kr",
-     "title": "사우디 최고층 빌딩 또 피격…후티, 아덴까지 위협",
-     "titleKo": null,
-     "summary": "사우디 최고층 빌딩이 또 피격되었다고 보도했어요.",
-     "reportedAt": "2026-11-25T10:33:00.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6Sk5SbGpONmVwZVhiYjBqZ1AwUUFWLWhMbi1BT2hvUl85ZEZNUk1HQUNxZDNsaWlUUUFZOVcza2pFWUpvOFJQVzFIU0xLR25FbnExaFVYNkQ4bjc1RHdJZnJNTdIBY0FVX3lxTFB6Sk5SbGpONmVwZVhiYjBqZ1AwUUFWLWhMbi1BT2hvUl85ZEZNUk1HQUNxZDNsaWlUUUFZOVcza2pFWUpvOFJQVzFIU0xLR25FbnExaFVYNkQ4bjc1RHdJZnJNTQ?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
-     "titleKo": "사우디 민방위: 리야드 금융지구 타워 피격으로 11명 부상",
-     "summary": "리야드 금융지구 타워에 대한 후티 공격으로 11명이 부상했다고 사우디 민방위가 발표했어요.",
-     "reportedAt": "2026-11-25T11:06:17.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMjRGUkFGcmNOMWcwRXZmTTNHeTkxdF9HampRRHlMTGVlcEpNMW5YdEdqNU1sVF8xX0JmYnBpaWNrd3ZsaDVQb2d6Qkpzbm13aXQ0TlVtS2pOZnpZV3JDM0N4UTFTRFRLaE5ncXlYS2o3TW5RMFQwUEtDN2d4N01ZSUJyZzFqdjhYM1pPYUliWUhQZWR3Z1doM3JZMHQwTHF2TTdfX0R3MDVyTmZCSElNZQ?oc=5"
     },
     {
      "outlet": "AFP",
      "cat": "wire",
-     "title": "Saudis down missiles targeting capital after Yemen port strikes",
-     "titleKo": "AFP: 수도 향한 미사일 격추 보도",
-     "summary": "예멘 항구 공격 후 리야드로 향한 미사일이 격추되었다고 AFP가 전했어요.",
+     "title": "Houthis say hit two Saudi ports in response to coalition strikes",
+     "titleKo": "후티, 사우디 두 항구 타격했다고 주장",
+     "summary": "후티가 사우디의 두 항구를 타격했다고 주장했다고 AFP가 보도합니다.",
      "reportedAt": "2026-11-25T21:41:16.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMjRGUkFGcmNOMWcwRXZmTTNHeTkxdF9HampRRHlMTGVlcEpNMW5YdEdqNU1sVF8xX0JmYnBpaWNrd3ZsaDVQb2d6Qkpzbm13aXQ0TlVtS2pOZnpZV3JDM0N4UTFTRFRLaE5ncXlYS2o3TW5RMFQwUEtDN2d4N01ZSUJyZzFqdjhYM1pPYUliWUhQZWR3Z1doM3JZMHQwTHF2TTdfX0R3MDVyTmZCSElNZQ?oc=5"
@@ -880,19 +668,19 @@
     {
      "outlet": "Al Jazeera",
      "cat": "local",
-     "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
-     "titleKo": "후티, 사우디 홍해 항구들 표적화 주장",
-     "summary": "후티가 홍해 항구들을 표적 삼아 공격을 확대했다고 알자지라가 보도했어요.",
-     "reportedAt": "2026-11-25T23:37:44.000Z",
+     "title": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
+     "titleKo": "사나 인근 공습·리야드 상공 요격 보도",
+     "summary": "사나 공항 인근 공습 후 폭발이 있었고 리야드 상공 미사일이 요격됐다고 보도합니다.",
+     "reportedAt": "2026-11-26T00:00:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGxhOFVRbGV4VWljWVZrRGUzSlRFN2dkQVc3dkVHWHZQdUlOYmVpbEpKdVdtYkdXRFVQVG11QlJleUZOeXZyVUdCRVg0UWw1YmVNUS02WlREdUJnVnBnRlF2TUJJM2hrUlNUSHUxRmF0YzRqM2QtR01kUUhvSHZHX25XeWRNZjdrMFF0VkRlVnMxbjNQOU1YcTl0cjJCNlZueGlOeXZIONIBrAFBVV95cUxPdEhLc01XWU5iX2xIa2VMdlBiZG1icV9TR1JsTGJJTl85Vkg2N25sY2JQYTJpb0tqYnhVRENFSUN5NkQxM3NBbG45WUQwdzk5UFB1LUFLRGUyeEExUkxlcW9UdUVBU2pteWVwdV9LMDhxbWZsb2lEVExfS0JmU0s5MVVrMVFaSHpoVnpSQTlTN0lSeEROZzFQMl9DemV6MFgxRkp0V1M2M0NoQm5J?oc=5"
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss"
     },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
      "title": "Explosion rocks Sanaa; missiles intercepted over Riyadh - Al Jazeera",
-     "titleKo": "알자지라: 사나 폭발·리야드 미사일 요격 보도",
-     "summary": "사나에서 폭발이 발생했고 리야드 상공에서 미사일이 요격됐다고 보도했어요.",
+     "titleKo": "사나 폭발과 리야드 미사일 요격 보도",
+     "summary": "사나에서 폭발이 있었고 리야드 상공의 미사일이 요격되었다고 전합니다.",
      "reportedAt": "2026-11-26T00:42:48.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMUpNdG5qZzJzMzl6THVYcE1leGNYX1haRkR5UE5uZExOTk9kU0JwLTVZQmROS0pmWFc5TGZhNXQwX3RYNUhSczk5N3piMXZQa1pxbEVCUHVpSVllNnoxTlNmTndPVjdIUVpNWE5ndUh4SF95NXhrb0JtbTF0WmMtZ0EwM2Zud2xFSlQ4bVVxRXY0QkZQMXNtalFRWFhsdGJKMGVyYW1FQzI2cnlUUEUxVGpNNWRPZlA4eEJNNnJDQ3hvdlRZSUxRWXB4Z19pUVk?oc=5"
@@ -901,8 +689,8 @@
      "outlet": "Al Jazeera",
      "cat": "local",
      "title": "missiles intercepted over Riyadh - Al Jazeera",
-     "titleKo": "알자지라: 리야드 상공에서 미사일 요격 보도",
-     "summary": "알자지라가 리야드 상공에서 미사일이 요격됐다고 보도했어요.",
+     "titleKo": "리야드 상공 미사일 요격 보도",
+     "summary": "리야드 상공에서 미사일이 요격되었다고 보도합니다.",
      "reportedAt": "2026-11-26T02:24:25.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRnJHZTlqMDJqMHBfSk0weXFQRGVEd3hhbFBZeTVJUV8tTW9aOXZlbEhrLTlDY2RkSjdVTjJUQzZGY3ZvN3dzeGl3YXdmV2l2VmMwRWFoYVh3Z3puWVp1WXRYeFljVjJxMWotaWZSMmpUTmdxNENjX1FVaE1kTU9QVDhXbGFmVHlYZWV6ZUp4VHRhVVVHQnJ4U2VWaEMyM0NIbWZjWlNnd0VMRXVnaDVNbnNMRGdoLXNjRWpuQTZURDg3Rkx3dUxDaHZMVFRhMk0?oc=5"
@@ -911,8 +699,8 @@
      "outlet": "Al Jazeera",
      "cat": "local",
      "title": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh - Al Jazeera",
-     "titleKo": "알자지라 생중계: 사나 폭발·리야드 미사일 요격",
-     "summary": "알자지라가 리야드 상공에서 미사일 요격 소식을 전했어요.",
+     "titleKo": "사나 폭발·리야드 상공 미사일 요격",
+     "summary": "사나에서 폭발이 발생했고 리야드 상공에서 미사일이 요격됐다고 보도합니다.",
      "reportedAt": "2026-11-26T02:24:25.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRnJHZTlqMDJqMHBfSk0weXFQRGVEd3hhbFBZeTVJUV8tTW9aOXZlbEhrLTlDY2RkSjdVTjJUQzZGY3ZvN3dzeGl3YXdmV2l2VmMwRWFoYVh3Z3puWVp1WXRYeFljVjJxMWotaWZSMmpUTmdxNENjX1FVaE1kTU9QVDhXbGFmVHlYZWV6ZUp4VHRhVVVHQnJ4U2VWaEMyM0NIbWZjWlNnd0VMRXVnaDVNbnNMRGdoLXNjRWpuQTZURDg3Rkx3dUxDaHZMVFRhMk0?oc=5"
@@ -921,38 +709,38 @@
      "outlet": "Asharq Al-Awsat",
      "cat": "local",
      "title": "Coalition Destroys 2 Ballistic Missiles Launched Toward Riyadh, 2 UAVs in Eastern Region",
-     "titleKo": "연합군: 리야드 향한 탄도미사일 2기·동부 UAV 2기 파괴",
-     "summary": "연합군이 리야드를 향한 2기의 탄도미사일과 동부 지역의 2대의 UAV를 파괴했다고 전했어요.",
+     "titleKo": "연합, 리야드 향 탄도미사일 2기·동부 UAV 2기 파괴",
+     "summary": "연합이 리야드 방향으로 발사된 2기의 탄도미사일과 동부지역 무인기 2기를 파괴했다고 전합니다.",
      "reportedAt": "2026-11-26T06:52:24.000Z",
      "dateOnly": false,
      "url": "https://english.aawsat.com/node/5345826"
     },
     {
-     "outlet": "머니투데이",
-     "cat": "kr",
-     "title": "사우디 '비전 2030' 상징 초고층 타워 또 후티 드론에 피격 - 머니투데이",
-     "titleKo": null,
-     "summary": "사우디의 초고층 타워가 후티 드론에 또 피격당했다고 보도했어요.",
-     "reportedAt": "2026-11-26T07:27:39.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTbTJHVkw5Yy1IVG5pZWVfeTB6SFhjSDFNY1ZXc0NKRksxLU1BWkZQT1Y2MXYteXpRUFN0eGtKQm5SdGdEdkcwSFFDbUlNa1J0emJpejRVakFDZWxmUDh2clRGcDZCSlFkelRTZElhMGNOOTNnV2fSAXtBVV95cUxNVl9IbmxmUmxNQ0NGNmQxMUhac2U0SjdMNllrc0trRDBleE0yQk1Wd0pYVm90TGpsQkZMLWpRV3pmWHp2NDRQMEV5aVd3R2thVm11YU1tS2h6c1dNNmdmZ2EzZDBsVFpQcmZiLW84dDc4eGRIMjM2OXFrcjg?oc=5"
-    },
-    {
      "outlet": "Saudi Gazette",
      "cat": "local",
      "title": "Saudi Air Defenses intercept Houthi missiles and drones fired at Riyadh, Eastern Province",
-     "titleKo": "사우디 공군: 리야드 향한 미사일·동부 드론 요격 발표",
-     "summary": "사우디 방공이 리야드를 향한 후티의 미사일 2기와 동부 지역의 드론 2기를 요격했다고 연합군이 발표했어요.",
+     "titleKo": "사우디 방공, 리야드 향 미사일·동부 드론 요격",
+     "summary": "사우디 방공이 리야드를 향한 미사일 2기와 동부지역 드론을 요격·파괴했다고 연합이 발표했습니다.",
      "reportedAt": "2026-11-26T07:49:37.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666552/saudi-arabia/saudi-air-defenses-intercept-houthi-missiles-and-drones-fired-at-riyadh-eastern-province"
     },
     {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "‘Symbolic’: Why did UK sanction Yemen’s Houthis amid attacks on Saudi?",
+     "titleKo": "영국 제재와 함께 리야드 상공 요격 소식 해설",
+     "summary": "영국의 후티 제재 관련 해설을 곁들여 리야드 상공 요격 소식을 전합니다.",
+     "reportedAt": "2026-11-26T12:13:40.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMGFNV09TZ3MzTkR6VjMwbFFjN05mRlpYNG9kX3Y0RUt2RTRRYkxZU3I2S05pQ3FwWHZ1WHlZZlVrb2lScHdoQzNQTURyQ0pNT2xtUUIzNDViOFdFbGZPX1RZa3pYS2k4QXoxUk03Q0U2T1hGVEd5Nm54NnZrR3lWc0ZTbDN0QlZVR29VZ2doZjNqZlJ6SHdMVGNCQUFLaElCZERjNEJ4ZzdXRTjSAbABQVVfeXFMTmNOM0tubjJXdkpRZ1hvSEp0aHhQcm1pcklJQ3c1ZXh6Ml9ua21FMGtFd0RJb21SUm5tN3dmdHJLeHZvZUFQcWY5c0s3QVZpT2tkdGs5SmpoS056ckI3MzBfRlpqb3VDTXgzeVBINFJCWFJrejB3RURSYjZYMTBWdWxMQmtnb3dESzlLVXQ3YUwyM2EycVFmQVJCSl90eGhGdllyZ3hNU0RmZTAwVDJELVI?oc=5"
+    },
+    {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Coalition: Air Defenses Intercept and Destroy Two Ballistic Missiles Launched by Terrorist Houthi Militia toward Riyadh",
-     "titleKo": "국영통신: 리야드 향한 탄도미사일 2기 요격",
-     "summary": "연합군은 리야드를 향한 탄도미사일 2기를 요격했다고 발표했어요.",
+     "titleKo": "국영통신: 리야드 향 탄도미사일 2기 요격",
+     "summary": "사우디 방공이 리야드를 향한 탄도미사일 2기를 요격·파괴했다고 국영통신이 보도합니다.",
      "reportedAt": "2026-11-26T12:38:07.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE95TUdxZ3ZIa1J4a2tlS3NGSzc3RDIyeWFPWlZJS21hSGdPdVFIdnlrVGNPU1dYMEtaTUtBdlVUTWtxbm5DaGFEc05B?oc=5"
@@ -960,265 +748,64 @@
    ]
   },
   {
-   "id": "9abd1934676c",
+   "id": "36ef51840919",
    "articleIds": [
-    "d4a499812858"
+    "58e499a6e5dd",
+    "cb69a292aec4",
+    "106947387006"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "single",
+   "status": "multi",
    "directive": null,
-   "title": "영국의 후티 제재 의미와 배경을 분석",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": "분석성 기사라 특정 지명이 명시되지 않아 일반 지역으로 두었습니다.",
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T12:20:31.479Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "‘Symbolic’: Why did UK sanction Yemen’s Houthis amid attacks on Saudi?",
-     "titleKo": "‘상징적’·왜 영국은 사우디에 대한 공격 중 예멘의 후티를 제재했나?",
-     "summary": "영국의 후티 제재가 상징적 조치라는 평가와 배경을 분석했다고 알자지라가 보도했요.",
-     "reportedAt": "2026-11-26T12:13:40.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMGFNV09TZ3MzTkR6VjMwbFFjN05mRlpYNG9kX3Y0RUt2RTRRYkxZU3I2S05pQ3FwWHZ1WHlZZlVrb2lScHdoQzNQTURyQ0pNT2xtUUIzNDViOFdFbGZPX1RZa3pYS2k4QXoxUk03Q0U2T1hGVEd5Nm54NnZrR3lWc0ZTbDN0QlZVR29VZ2doZjNqZlJ6SHdMVGNCQUFLaElCZERjNEJ4ZzdXRTjSAbABQVVfeXFMTmNOM0tubjJXdkpRZ1hvSEp0aHhQcm1pcklJQ3c1ZXh6Ml9ua21FMGtFd0RJb21SUm5tN3dmdHJLeHZvZUFQcWY5c0s3QVZpT2tkdGs5SmpoS056ckI3MzBfRlpqb3VDTXgzeVBINFJCWFJrejB3RURSYjZYMTBWdWxMQmtnb3dESzlLVXQ3YUwyM2EycVFmQVJCSl90eGhGdllyZ3hNU0RmZTAwVDJELVI?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "015bc56c782a",
-   "articleIds": [
-    "6b8ff848b74c"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디: 시리아 치안부대 테러 공격 규탄",
-   "titleAuto": true,
+   "title": "예멘서 공습에 26명 사망…사우디 고층 건물 또 피격",
+   "titleAuto": false,
    "regions": [
     "riyadh"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "보도들이 리야드 금융지구·초고층 타워 피해를 언급해 리야드 지역으로 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-26T09:40:32.207Z",
+   "collectedAt": "2026-11-25T00:50:33.145Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Saudi Arabia strongly condemns terrorist attack targeting Syrian security forces in Al-Hasakah",
-     "titleKo": "사우디: 시리아 치안부대 테러 공격 규탄",
-     "summary": "사우디는 시리아의 치안부대에 대한 테러 공격을 규탄했다는 보도가 나왔어요.",
-     "reportedAt": "2026-11-26T09:27:41.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666554/saudi-arabia/saudi-arabia-strongly-condemns-terrorist-attack-targeting-syrian-security-forces-in-al-hasakah"
-    }
-   ]
-  },
-  {
-   "id": "fcff3ca8f211",
-   "articleIds": [
-    "adacb63cb96c"
-   ],
-   "type": "fire",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "사우디아라비아, 기자의 치명적 유조선 폭발 사고에 대해 이집트에 조의 표해",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T09:30:40.166Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Saudi Gazette",
-     "cat": "local",
-     "title": "Saudi Arabia extends condolences to Egypt over deadly fuel tanker explosion in Giza",
-     "titleKo": "사우디아라비아, 기자의 치명적 유조선 폭발 사고에 대해 이집트에 조의 표해",
-     "summary": "사우디가 지자 유류 탱커 폭발 희생자들에게 애도를 전했다고 보도했어요.",
-     "reportedAt": "2026-11-26T09:18:42.000Z",
-     "dateOnly": false,
-     "url": "https://saudigazette.com.sa/article/666553/saudi-arabia/saudi-arabia-extends-condolences-to-egypt-over-deadly-fuel-tanker-explosion-in-giza"
-    }
-   ]
-  },
-  {
-   "id": "55642f744f5f",
-   "articleIds": [
-    "de35d3345b41"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "로이터: 걸프 시장, 사우디 에너지 타격 우려로 혼조",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T09:10:33.587Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Reuters",
-     "cat": "wire",
-     "title": "Most Gulf markets muted on Saudi energy strikes, maritime dangers",
-     "titleKo": "로이터: 걸프 시장, 사우디 에너지 타격 우려로 혼조",
-     "summary": "로이터는 걸프 시장이 사우디 에너지 타격 우려로 혼조를 보였다고 전했어요.",
-     "reportedAt": "2026-11-26T08:50:09.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGhLMnhJSlpva0NsUUJkNjhXaFZuUklkNHViOGxUR1daSGduN2xtejdtYnc2WEpfdDVFWS1pY0o3YTBvMWpTdDE3ekwzamhxaUpxSUVKbHVGZXlnOTE1amRuMG1xazZlMlR2RWVqb000NnYwV3VoVWxaSnY2dkFYYklJM3VhZEFKMm9ZbHhRNy01Q09ha2ZpMW9udXRpLUo1RFh6V1FUVTNIRGoxRnN5TEgwbE1udw?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "ae32b3bb6d14",
-   "articleIds": [
-    "62939b8326c1"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "후티 사우디 정유시설 공격에 뛴 국제 유가…정유주, 동반 상승 [종목+]",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T00:50:34.023Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "한국경제",
+     "outlet": "KBS",
      "cat": "kr",
-     "title": "후티 사우디 정유시설 공격에 뛴 국제 유가…정유주, 동반 상승 [종목+]",
+     "title": "예멘서 공습에 26명 사망…사우디 고층 건물 또 피격",
      "titleKo": null,
-     "summary": "후티의 정유시설 공격 소식에 따라 유가와 관련 주가가 올랐다고 전했어요.",
-     "reportedAt": "2026-11-26T00:46:03.000Z",
+     "summary": "사우디의 초고층 빌딩이 후티 드론에 맞았다고 보도합니다.",
+     "reportedAt": "2026-11-25T10:28:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XUm8tdllzbnlGTHUza1JxMXYtaXJpbTlXTUFMWHRxbTBCS1AxalhpQTlSbm0ybW5OWmQ2RmlkWENxYXdjc1ZPR0VGZUUtUHhXaHNiODhMZ1FIUQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "ed7ed634ae11",
-   "articleIds": [
-    "1a58d9b3411e"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "알자지라: 사나 공항 근처 공습 후 폭발",
-   "titleAuto": true,
-   "regions": [
-    "riyadh",
-    "airport"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-26T00:20:32.689Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zRU1JM0tuZU13OXROZzM1OVJiRUI0b2NGYV9nR3FGaUFvVDdDMzJVM0xQQ0NDdUhvcjF3TDFYYl9mZWE0dm9wZ3Nyd2o0TVNCM2hIX3VnNlNOQW4tLVdSZHR4SG8zUQ?oc=5"
+    },
     {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
-     "titleKo": "알자지라: 사나 공항 근처 공습 후 폭발",
-     "summary": "알자지라는 공항 근처 공습 후 사나에서 폭발이 일어났다고 보도했어요.",
-     "reportedAt": "2026-11-26T00:00:00.000Z",
-     "dateOnly": false,
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss"
-    }
-   ]
-  },
-  {
-   "id": "9219255e5ba3",
-   "articleIds": [
-    "4eb56e46a199"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "후티: 연합 공습 보복으로 사우디 항구 2곳 타격 주장",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-25T23:00:48.671Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "AFP",
-     "cat": "wire",
-     "title": "Houthis say hit two Saudi ports in response to coalition strikes",
-     "titleKo": "후티: 연합 공습 보복으로 사우디 항구 2곳 타격 주장",
-     "summary": "후티는 연합 공격에 대한 보복으로 두 개의 사우디 항구를 타격했다고 주장했어요.",
-     "reportedAt": "2026-11-25T21:41:16.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMjRGUkFGcmNOMWcwRXZmTTNHeTkxdF9HampRRHlMTGVlcEpNMW5YdEdqNU1sVF8xX0JmYnBpaWNrd3ZsaDVQb2d6Qkpzbm13aXQ0TlVtS2pOZnpZV3JDM0N4UTFTRFRLaE5ncXlYS2o3TW5RMFQwUEtDN2d4N01ZSUJyZzFqdjhYM1pPYUliWUhQZWR3Z1doM3JZMHQwTHF2TTdfX0R3MDVyTmZCSElNZQ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "38ea436700fc",
-   "articleIds": [
-    "04ab21584585"
-   ],
-   "type": "energy",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-25T21:00:45.969Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "한국경제",
+     "outlet": "채널A",
      "cat": "kr",
-     "title": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
+     "title": "사우디 최고층 빌딩 또 피격…후티, 아덴까지 위협",
      "titleKo": null,
-     "summary": "한국경제도 같은 내용으로 국제유가 상승을 보도했어요.",
-     "reportedAt": "2026-11-25T20:51:00.000Z",
+     "summary": "사우디 최고층 빌딩이 다시 피격됐다고 보도합니다.",
+     "reportedAt": "2026-11-25T10:33:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnhkV1ZXU3g5OWZOamFYTHg2VlVaWTVaU3JMZktROGYxVDNpanNLamphMW9RQUVYdXFDTU5JdzNHNE9lbmViaUxtb2t1c2hQODlTVkRYYzRVc1ZHbkl5N00ySzgxZmdyZTBBUTMwMDhMOTM1WlRMVldmSmFqRk9mTQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6Sk5SbGpONmVwZVhiYjBqZ1AwUUFWLWhMbi1BT2hvUl85ZEZNUk1HQUNxZDNsaWlUUUFZOVcza2pFWUpvOFJQVzFIU0xLR25FbnExaFVYNkQ4bjc1RHdJZnJNTdIBY0FVX3lxTFB6Sk5SbGpONmVwZVhiYjBqZ1AwUUFWLWhMbi1BT2hvUl85ZEZNUk1HQUNxZDNsaWlUUUFZOVcza2pFWUpvOFJQVzFIU0xLR25FbnExaFVYNkQ4bjc1RHdJZnJNTQ?oc=5"
+    },
+    {
+     "outlet": "머니투데이",
+     "cat": "kr",
+     "title": "사우디 '비전 2030' 상징 초고층 타워 또 후티 드론에 피격 - 머니투데이",
+     "titleKo": null,
+     "summary": "초고층 타워가 후티 드론에 또 피격되었다고 보도합니다.",
+     "reportedAt": "2026-11-26T07:27:39.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTbTJHVkw5Yy1IVG5pZWVfeTB6SFhjSDFNY1ZXc0NKRksxLU1BWkZQT1Y2MXYteXpRUFN0eGtKQm5SdGdEdkcwSFFDbUlNa1J0emJpejRVakFDZWxmUDh2clRGcDZCSlFkelRTZElhMGNOOTNnV2fSAXtBVV95cUxNVl9IbmxmUmxNQ0NGNmQxMUhac2U0SjdMNllrc0trRDBleE0yQk1Wd0pYVm90TGpsQkZMLWpRV3pmWHp2NDRQMEV5aVd3R2thVm11YU1tS2h6c1dNNmdmZ2EzZDBsVFpQcmZiLW84dDc4eGRIMjM2OXFrcjg?oc=5"
     }
    ]
   },
   {
-   "id": "646e0b2cb590",
+   "id": "8bacaa8cd8b7",
    "articleIds": [
+    "517bb5498f49",
+    "5349daa4330a",
     "9faa4b830e83",
     "8e3a56544480"
    ],
@@ -1226,24 +813,46 @@
    "sev": "mid",
    "status": "official",
    "directive": null,
-   "title": "후티가 젯다 항 인근에서 드론을 발사했다고 주장",
+   "title": "후티가 자잔항과 젯다 인근 포구를 공격했다고 발표",
    "titleAuto": true,
    "regions": [
+    "dammam",
     "jeddah",
+    "eastern",
     "riyadh"
    ],
-   "inferred": false,
-   "inferNote": null,
+   "inferred": true,
+   "inferNote": "기사에 자잔항과 젯다항이 나오나 일부 기사에서 서부·홍해 항구라고만 해 동부지역 포함 여부는 추정했어요.",
    "occurredAt": null,
-   "collectedAt": "2026-11-25T20:50:32.199Z",
+   "collectedAt": "2026-11-25T17:00:45.715Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Houthi projectile hits Saudi Arabia’s Jazan port, coalition says",
+     "titleKo": "연합: 자잔항에 후티 발사체 낙탄",
+     "summary": "자잔항에 후티의 발사체가 떨어졌다고 연합이 발표했다고 전합니다.",
+     "reportedAt": "2026-11-25T16:56:07.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3BzNFlObkZLT0xCU1NQTURLbVF2ZVpwSlFaeWh5NUJsOVpkZV9ONFVPamwxSFRleEdRZ21kZ21IU2ZOcVJjck1EQWpBQzNDbWVVVmVjenR2cGx0YWRiOXlKUVRJTy10cG9RTHVlWFRfeV9IMG5XU3ZjTEtTdWlyNkliQUMtWXMyeTl3WDdxSThEYk90alJWdElDZ0F4RWpZQkotdGRTVzlZN0dT?oc=5"
+    },
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Houthi projectile hits Jazan port, no injuries reported",
+     "titleKo": "후티 발사체, 자잔항에 낙탄…인명 피해 없어",
+     "summary": "자잔항에 후티 발사체가 떨어져 경미한 피해가 발생했으나 인명피해는 없었다고 보도합니다.",
+     "reportedAt": "2026-11-25T17:54:04.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666538/saudi-arabia/houthi-projectile-hits-jazan-port-no-injuries-reported"
+    },
     {
      "outlet": "SPA (사우디 국영통신)",
      "cat": "local",
      "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Vicinity of Jeddah Islamic Port",
-     "titleKo": "국영통신: 젯다 인근에서 후티 드론 요격·파괴",
-     "summary": "국영통신은 젯다 항 인근에서 후티가 발사한 UAV를 요격했다고 전했어요.",
+     "titleKo": "연합: 젯다항 인근 후티 무인기 요격·파괴",
+     "summary": "젯다항 인근에서 후티 무인기가 요격·파괴되었다고 연합이 발표했습니다.",
      "reportedAt": "2026-11-25T19:57:01.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wZVlza21aTDJOX00tRHVJakVXNG9ObkYwdGxnUjRXSkR3OTB0RWR2ME9mOTV4a3ZlU3ZHWFN6X2hmS0V4R1lwZXdB?oc=5"
@@ -1252,8 +861,8 @@
      "outlet": "Saudi Gazette",
      "cat": "local",
      "title": "Coalition intercepts Houthi drone in the vicinity of Jeddah Islamic Port",
-     "titleKo": "연합군: 젯다항 인근 드론 요격",
-     "summary": "연합군은 젯다 이슬람항 인근에서 후티의 드론을 요격했다고 발표했어요.",
+     "titleKo": "연합이 젯다 인근 드론 요격 발표",
+     "summary": "연합이 젯다 인근에서 후티 드론을 요격했다고 보도합니다.",
      "reportedAt": "2026-11-25T20:39:31.000Z",
      "dateOnly": false,
      "url": "https://saudigazette.com.sa/article/666541/saudi-arabia/coalition-intercepts-houthi-drone-in-the-vicinity-of-jeddah-islamic-port"
@@ -1261,36 +870,25 @@
    ]
   },
   {
-   "id": "100361a0a699",
+   "id": "304d211f9ad0",
    "articleIds": [
-    "91abd355a1e9",
     "1475258d0fd1"
    ],
    "type": "advisory",
    "sev": "mid",
    "status": "official",
    "directive": "advice",
-   "title": "후티 반군의 자잔항, 젯다항 공격 관련 신변 유의",
+   "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
    "titleAuto": false,
    "regions": [
     "airport"
    ],
-   "inferred": true,
-   "inferNote": "외교부 공지는 사우디 전역과 특정 항구를 언급해 지역을 일반적으로 추정했습니다.",
+   "inferred": false,
+   "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-26T16:00:49.866Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
-    {
-     "outlet": "외교부 안전공지",
-     "cat": "official",
-     "title": "후티 반군의 자잔항, 젯다항 공격 관련 신변 유의",
-     "titleKo": null,
-     "summary": "외교부는 후티의 자잔·젯다 항 공격 관련 신변 유의를 당부하고 사우디 전역에 여행경보 3단계를 발령했다고 공지했어요.",
-     "reportedAt": "2026-11-25T15:00:00.000Z",
-     "dateOnly": true,
-     "url": "https://www.0404.go.kr"
-    },
     {
      "outlet": "외교부 안전공지",
      "cat": "official",
@@ -1304,66 +902,34 @@
    ]
   },
   {
-   "id": "adebb1eb36bf",
+   "id": "c30ea906a906",
    "articleIds": [
-    "f8fb8c427c38"
+    "91abd355a1e9"
    ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "인도: 리야드 공격 이후 사우디 지지 재확인",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-25T14:00:49.521Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "India reaffirms ‘unwavering’ support to Saudi Arabia after Houthi attack on Riyadh",
-     "titleKo": "인도: 리야드 공격 이후 사우디 지지 재확인",
-     "summary": "인도는 리야드에 대한 후티 공격 이후 사우디 지지를 재확인했다고 보도했어요.",
-     "reportedAt": "2026-11-25T13:54:14.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY0wtdWR2U3M5a3o4Z01TXzBfN0RMcjVBeVZXbFhTQTdvMGNQZnZiWllCZWNINTBiWl8tVDdRNk9feXJoUDdFSUlPOWFnZTdUYzZGbDJWNDVKUjlSS2VtOHR0dUNYYk5KT0dRaWp1ZmtxQjFDbENKWnNINEhCcFJnU3dybEtXaTBKdjR5UkJ4bkpiRGtrVGxKNDRzZjc3bWFDdFNNam9YbWl5RTUzZEV2MUEwc2ppZDEzT1JJ?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "42c746e3e8fd",
-   "articleIds": [
-    "8d1a5cbc32ec"
-   ],
-   "type": "security",
+   "type": "korean",
    "sev": "mid",
    "status": "official",
-   "directive": null,
-   "title": "인도: 리야드 금융지구 타워 공격 규탄",
-   "titleAuto": true,
+   "directive": "advice",
+   "title": "후티 반군의 자잔항, 젯다항 공격 관련 신변 유의",
+   "titleAuto": false,
    "regions": [
-    "riyadh"
+    "all"
    ],
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-25T15:10:30.355Z",
+   "collectedAt": "2026-11-26T16:00:49.866Z",
    "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
    "sources": [
     {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "India Condemns Attack on Financial District Tower in Riyadh",
-     "titleKo": "인도: 리야드 금융지구 타워 공격 규탄",
-     "summary": "인도는 리야드 금융지구 타워 공격을 규탄했다고 보도했어요.",
-     "reportedAt": "2026-11-25T13:53:07.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUy1iTS1JX19QcU9ROEFXOXJvMUtZTmUyOUtYa2puc1FBZGZzYjVWVEkyT0VhRnN1WVFtU1BLX2dwNFd6V0pKY2VR?oc=5"
+     "outlet": "외교부 안전공지",
+     "cat": "official",
+     "title": "후티 반군의 자잔항, 젯다항 공격 관련 신변 유의",
+     "titleKo": null,
+     "summary": "외교부는 후티의 자잔·젯다 항 공격 관련 신변 유의를 당부하고 사우디 전역에 여행경보 3단계를 발령했다고 공지했어요.",
+     "reportedAt": "2026-11-25T15:00:00.000Z",
+     "dateOnly": true,
+     "url": "https://www.0404.go.kr"
     }
    ]
   },
@@ -1400,47 +966,15 @@
    ]
   },
   {
-   "id": "d27dd9532b0f",
+   "id": "f6ed5493bf8d",
    "articleIds": [
-    "cf5be93b991e"
+    "9010f93a5dc1"
    ],
-   "type": "security",
-   "sev": "mid",
+   "type": "energy",
+   "sev": "high",
    "status": "single",
    "directive": null,
-   "title": "사우디·바레인 국방당국, 후티·이란 공격 논의",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-25T11:50:36.017Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Saudi, Bahraini defense officials discuss Houthi and Iranian attacks",
-     "titleKo": "사우디·바레인 국방당국, 후티·이란 공격 논의",
-     "summary": "사우디와 바레인 국방당국이 후티·이란 관련 공격을 논의했다고 보도했어요.",
-     "reportedAt": "2026-11-25T11:48:55.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMnlHWk5VWkZTT2JsYVE5RVRoSk5sSmlHaEJmSnliUkhMZHF6dzJxWWpvQjRfOFV2eTllMFFrNGU5MkJ3UXQtdVJ1bG12SVBLQjlaRUJOUkcwTlg3LWY5VXBSZ1Z5LWFqemZvY3BkQnZxWHpDVFp3bXp6T2hYS2NTU1AteVRMUVhSLWJqd05UZ2xJYmxVRHV6X1VBalNwMzMzd1B5Zlg4OWJjWnV1VURyOFNWMA?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "73a6d01aa421",
-   "articleIds": [
-    "58e499a6e5dd"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "예멘서 공습에 26명 사망…사우디 고층 건물 또 피격",
+   "title": "사우디 80층 마천루 닷새 만에 또 피격…정유시설까지 노린 후티(종합)",
    "titleAuto": false,
    "regions": [
     "all"
@@ -1448,31 +982,64 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-25T00:50:33.145Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-11-25T10:20:32.497Z",
+   "aiNote": null,
    "sources": [
     {
-     "outlet": "KBS",
+     "outlet": "뉴스1",
      "cat": "kr",
-     "title": "예멘서 공습에 26명 사망…사우디 고층 건물 또 피격",
+     "title": "사우디 80층 마천루 닷새 만에 또 피격…정유시설까지 노린 후티(종합)",
      "titleKo": null,
-     "summary": "KBS는 예멘 공습으로 26명이 사망했고 사우디의 고층 건물이 또 피격됐다고 보도했어요.",
-     "reportedAt": "2026-11-25T10:28:00.000Z",
+     "summary": "사우디의 고층 건물이 여러 차례 피격되었고 정유시설까지 노려졌다고 보도했어요.",
+     "reportedAt": "2026-11-25T10:09:34.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zRU1JM0tuZU13OXROZzM1OVJiRUI0b2NGYV9nR3FGaUFvVDdDMzJVM0xQQ0NDdUhvcjF3TDFYYl9mZWE0dm9wZ3Nyd2o0TVNCM2hIX3VnNlNOQW4tLVdSZHR4SG8zUQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11R3JJdkxYODM3VnBGcFZFbkE3cFNYOV9Vc1V3YU5CVVZPWFFyNnBHY05mUENPSnkxRFAzekRuTURKQjZaNHN3N00wekJuRTlqTE5iTXppMldTcFRIUkdOU2hR?oc=5"
     }
    ]
   },
   {
-   "id": "1939d68b0d3e",
+   "id": "5111e69d71ec",
    "articleIds": [
+    "159c0c70d11c"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "claim",
+   "directive": null,
+   "title": "후티, 리야드 금융지구·정유시설 공격 주장",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-25T11:40:34.005Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "AFP",
+     "cat": "wire",
+     "title": "Yemen's Houthis claim attacks on Riyadh financial district, Saudi refinery",
+     "titleKo": "후티, 리야드 금융지구·정유시설 공격 주장",
+     "summary": "후티가 리야드 금융지구와 사우디 정유시설 공격을 주장했다고 AFP가 보도했어요.",
+     "reportedAt": "2026-11-25T10:03:06.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSUNxZFh2WTBxWVhHNWVMTTNJTzEweExXRkFBWEd2b1hzSG5CdGZzLS1RRTRXekplcHRfNVNIcFBDdDRfbm9pa1ZXcDhWLVk3djNWQ1ZLOF9LLTJ4R2djVEU0dU5ZR0xvaXE5dGFkMEZ4VFU4bjU5VXAxcjhMNUQ4LUtKUTV4TG1TQnZlZ2R5cVBHRGN4dEIxYVhudU1FSWdfVV9lci1vRmVBcl9DTnV6eG9CQTU3M1E?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "ae4cd9d45a33",
+   "articleIds": [
+    "6b7342a51474",
     "d3ae9268480a"
    ],
    "type": "security",
    "sev": "mid",
    "status": "single",
    "directive": null,
-   "title": "연합군: 호데이다 공습 뒤 후티 공격 요격 보도",
+   "title": "연합군의 요격 소식과 호데이다 공습 관련 보도",
    "titleAuto": true,
    "regions": [
     "all"
@@ -1480,9 +1047,19 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-25T11:10:37.550Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "collectedAt": "2026-11-25T08:40:32.476Z",
+   "aiNote": null,
    "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "cat": "local",
+     "title": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike",
+     "titleKo": "연합군의 요격 소식과 호데이다 공습 관련 보도",
+     "summary": "연합군의 요격 소식과 호데이다 공습 관련 보도가 나왔어요.",
+     "reportedAt": "2026-11-25T08:34:44.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTEVITC1LZkREZDRPbDhBOFk4TFN0eFZWSEk0RnJwUnR4aDFpb042SEwwcTRYXzNGSGhjcXg5S0lYMUQwcHRZSW1IU2gzYVRtY3pTenRONUl6bW9UNFItSk5YTXZwLWo4MkJTckxPdUQxUTJ4Mzl2Y1VTam84dllIU3hXOGdUOGhFRGpyUzRrQUU3RTI0blpwX05jSGI2bnRrRk9EMXAtTDVRTlpTRnfSAbMBQVVfeXFMTnBiR1EteFNjS2JTSjVyaF90TThMS2xpT2Nvd2wxbGtQLXE0aE9uNWkwNzExNjM2RHVxOEJEOTdFYnUwb2xLaElxdDZnZDVrc00zTGpfUGRZWWdGdFlOMUNsLXVKMmtoOUc1UVdtYi1CUEFqZUFsMGtvOEdJZjFXbEVhLTVPS0ZnUWdNb3BOV2ZHR2hOZjZQY2drZ3Y0QmFidUNLLWxCYTI3bU1GM3hVN0NqeVU?oc=5"
+    },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
@@ -1513,7 +1090,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-25T09:30:40.642Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "한국일보",
@@ -1545,7 +1122,7 @@
    "inferNote": null,
    "occurredAt": null,
    "collectedAt": "2026-11-25T08:50:40.155Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "aiNote": null,
    "sources": [
     {
      "outlet": "KBS",
@@ -1556,38 +1133,6 @@
      "reportedAt": "2026-11-25T08:38:00.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ra2FxdmRfV2Y4RHo5M3FCNjB3UTJ5MzliWGpaNjd6cUVlN09wQ1B5NVZsd1NoQ0Y5WnRiRmZtYmJJSVpBdlRwUjU4MzN3a2FYcmYtdmd4N3ZoTGs?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "6ab5c3a4d0be",
-   "articleIds": [
-    "6b7342a51474"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "연합군의 요격 소식과 호데이다 공습 관련 보도",
-   "titleAuto": true,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-25T08:40:32.476Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "cat": "local",
-     "title": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike",
-     "titleKo": "연합군의 요격 소식과 호데이다 공습 관련 보도",
-     "summary": "연합군의 요격 소식과 호데이다 공습 관련 보도가 나왔어요.",
-     "reportedAt": "2026-11-25T08:34:44.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTEVITC1LZkREZDRPbDhBOFk4TFN0eFZWSEk0RnJwUnR4aDFpb042SEwwcTRYXzNGSGhjcXg5S0lYMUQwcHRZSW1IU2gzYVRtY3pTenRONUl6bW9UNFItSk5YTXZwLWo4MkJTckxPdUQxUTJ4Mzl2Y1VTam84dllIU3hXOGdUOGhFRGpyUzRrQUU3RTI0blpwX05jSGI2bnRrRk9EMXAtTDVRTlpTRnfSAbMBQVVfeXFMTnBiR1EteFNjS2JTSjVyaF90TThMS2xpT2Nvd2wxbGtQLXE0aE9uNWkwNzExNjM2RHVxOEJEOTdFYnUwb2xLaElxdDZnZDVrc00zTGpfUGRZWWdGdFlOMUNsLXVKMmtoOUc1UVdtYi1CUEFqZUFsMGtvOEdJZjFXbEVhLTVPS0ZnUWdNb3BOV2ZHR2hOZjZQY2drZ3Y0QmFidUNLLWxCYTI3bU1GM3hVN0NqeVU?oc=5"
     }
    ]
   },
@@ -2242,6 +1787,38 @@
      "reportedAt": "2026-11-25T02:31:23.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1va0lBVVRCU1FJcGpsWm90VzFnWjl2dndyR2Vqck02RTFMeTFoR1FORkxyaEsxRXBZNTRieDdjZy11YkRUWnQzNjZMVFcxdF9QYlNqYkVWdVdPMW5tUjVzWtIBYEFVX3lxTE1va0lBVVRCU1FJcGpsWm90VzFnWjl2dndyR2Vqck02RTFMeTFoR1FORkxyaEsxRXBZNTRieDdjZy11YkRUWnQzNjZMVFcxdF9QYlNqYkVWdVdPMW5tUjVzWg?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "f7ff55337230",
+   "articleIds": [
+    "d10f75881f71"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "claim",
+   "directive": null,
+   "title": "로이터: 후티의 정유시설 공격 주장에 유가 상승",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-25T21:00:45.969Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "cat": "wire",
+     "title": "Oil prices rise after Houthis claim attack on Saudi refinery",
+     "titleKo": "로이터: 후티의 정유시설 공격 주장에 유가 상승",
+     "summary": "후티가 정유시설을 공격했다고 주장한 뒤 유가가 상승했다고 보도했어요.",
+     "reportedAt": "2026-11-25T01:58:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVGl4Nzdfc01ReTB5TnAxUkVLTXlaRVFvbGM5aTZDOEtVUXlrVDQtMHJwcWh2WldoMnVyb0QxU1pEQUoyN09sNU1SZXR3NVUzdTZXeWpkdGNTZW95MUtmdjV3dWFxTEZsRW5WUlF1djVTTWZxUGVxcHhPNEptMnBEcmZ0MURhX0JxTDFqc19HblpWd2hLSEs5SXRYTXB6bzFwNzZqOUFTc1ZOM3ItVDFZWmM2a0R5YkxsdnlsMTZWQ1ZEUQ?oc=5"
     }
    ]
   },
@@ -3204,6 +2781,24 @@
  ],
  "timeline": [
   {
+   "id": "3b88b0641921",
+   "outlet": "Al Jazeera",
+   "official": false,
+   "claim": false,
+   "type": "energy",
+   "sev": "high",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "사우디 자잔 정유시설 공격으로 1명 사망·가동 중단",
+   "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+   "summary": "자잔(Jazan) 정유시설 공격으로 1명이 사망하고 가동이 중단됐다고 보도합니다.",
+   "reportedAt": "2026-11-26T20:37:30.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZnZjhfSVBOMkp2VnNxeTh6ZHVxQmQ4X09jMnFmMFg1VUlhQ3RSTlVUN09RZEZpUlZFeV96MlpENFFwTHhoS0dEWTk5Q0U0Y2F0QS1Zb0Q0amNWMkw3cEs3S0d3Rml4QTV0ZExPXzVBaVRaTkZHVUpmYVVIbVk2SGtkcWtJLXVTUkk4Y2gxelVuUGtnU1BxM0gtN2J6ZF92SnJvczdjaGQxQkZad0RzZF9pb9IBuAFBVV95cUxPbDVuYThMckJDbU1vT3VsN21LaEc5ZVVQZVZKUjZzMWQ3UnlhbmxQZlZkVzdFUWZFbzVEZ1FkZ3hJSFMzY1dHRzdkYUF4MDIxOEpNckdiZHpHTXIxWGxQb3hHbFBGZ3VEZjdPZXBPVWJEejNFaHMzaVpBeER5aEZKYzZlVFVWSEVnLWpsSHA3cTBvY0pqM3YySXRNZGxhS1hGN0Z0VEtBb3dPNnFwQ2JXWnA5TFl2dDNX?oc=5"
+  },
+  {
    "id": "a1334aac6f61",
    "outlet": "Asharq Al-Awsat",
    "official": false,
@@ -3214,9 +2809,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "사우디 지도부, 시시 대통령에 화재 희생자 애도 표해",
+   "titleKo": "사우디 지도부, 이집트 대통령에 조의 전해",
    "title": "Saudi Leadership Offers Condolences to Sisi Over Fire Victims",
-   "summary": "사우디 지도부가 이집트 화재 희생자에게 위로의 뜻을 전했다고 보도했어요.",
+   "summary": "사우디 지도부가 이집트 대통령에게 조의를 표했다고 보도합니다.",
    "reportedAt": "2026-11-26T18:07:58.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5346093"
@@ -3232,9 +2827,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "사우디 주도 연합, 후티가 아람코의 자잔 정유공장 공격했다고 주장",
+   "titleKo": "아랍연합: 후티가 아람코 자잔 정유시설 공격",
    "title": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery",
-   "summary": "사우디 주도 연합은 후티가 아람코의 자잔 정유시설을 공격했다고 밝혔어요.",
+   "summary": "사우디 주도 연합이 후티가 자잔 정유시설을 공격했다고 발표했다고 전합니다.",
    "reportedAt": "2026-11-26T16:05:09.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5"
@@ -3268,9 +2863,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "사우디, 기자 화재 피해에 이집트에 애도 표명",
+   "titleKo": "사우디, 이집트 기자회견 희생자에 조의",
    "title": "Saudi Arabia Offers Condolences to Egypt Following Fire in Giza",
-   "summary": "사우디가 이집트의 지자 화재 희생자들에게 애도를 표했다고 전했어요.",
+   "summary": "사우디가 이집트 화재 희생자에 위로를 표했다고 보도합니다.",
    "reportedAt": "2026-11-26T14:31:57.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1wbG5uQmtsRDBsOHJOVFhSekxMbzNNY2N0d3Y3UDRaUVlDUDJBenZBamtqU195YW8tNkpoSUxabDF2Nm4tQUhSRld3?oc=5"
@@ -3304,9 +2899,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "사우디아라비아, 기자 화재에 대해 이집트에 위로 전해",
+   "titleKo": "사우디, 이집트 화재 희생자에 조의 표명",
    "title": "Saudi Arabia Offers Condolences to Egypt Following Fire in Giza",
-   "summary": "사우디가 이집트 화재 희생자에게 애도를 표했다는 내용이에요.",
+   "summary": "사우디가 이집트 화재에 대해 애도를 표했다고 보도합니다.",
    "reportedAt": "2026-11-26T13:13:40.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5345978"
@@ -3376,9 +2971,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "국영통신: 리야드 향한 탄도미사일 2기 요격",
+   "titleKo": "국영통신: 리야드 향 탄도미사일 2기 요격",
    "title": "Coalition: Air Defenses Intercept and Destroy Two Ballistic Missiles Launched by Terrorist Houthi Militia toward Riyadh",
-   "summary": "연합군은 리야드를 향한 탄도미사일 2기를 요격했다고 발표했어요.",
+   "summary": "사우디 방공이 리야드를 향한 탄도미사일 2기를 요격·파괴했다고 국영통신이 보도합니다.",
    "reportedAt": "2026-11-26T12:38:07.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE95TUdxZ3ZIa1J4a2tlS3NGSzc3RDIyeWFPWlZJS21hSGdPdVFIdnlrVGNPU1dYMEtaTUtBdlVUTWtxbm5DaGFEc05B?oc=5"
@@ -3394,9 +2989,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "‘상징적’·왜 영국은 사우디에 대한 공격 중 예멘의 후티를 제재했나?",
+   "titleKo": "영국 제재와 함께 리야드 상공 요격 소식 해설",
    "title": "‘Symbolic’: Why did UK sanction Yemen’s Houthis amid attacks on Saudi?",
-   "summary": "영국의 후티 제재가 상징적 조치라는 평가와 배경을 분석했다고 알자지라가 보도했요.",
+   "summary": "영국의 후티 제재 관련 해설을 곁들여 리야드 상공 요격 소식을 전합니다.",
    "reportedAt": "2026-11-26T12:13:40.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMGFNV09TZ3MzTkR6VjMwbFFjN05mRlpYNG9kX3Y0RUt2RTRRYkxZU3I2S05pQ3FwWHZ1WHlZZlVrb2lScHdoQzNQTURyQ0pNT2xtUUIzNDViOFdFbGZPX1RZa3pYS2k4QXoxUk03Q0U2T1hGVEd5Nm54NnZrR3lWc0ZTbDN0QlZVR29VZ2doZjNqZlJ6SHdMVGNCQUFLaElCZERjNEJ4ZzdXRTjSAbABQVVfeXFMTmNOM0tubjJXdkpRZ1hvSEp0aHhQcm1pcklJQ3c1ZXh6Ml9ua21FMGtFd0RJb21SUm5tN3dmdHJLeHZvZUFQcWY5c0s3QVZpT2tkdGs5SmpoS056ckI3MzBfRlpqb3VDTXgzeVBINFJCWFJrejB3RURSYjZYMTBWdWxMQmtnb3dESzlLVXQ3YUwyM2EycVFmQVJCSl90eGhGdllyZ3hNU0RmZTAwVDJELVI?oc=5"
@@ -3430,9 +3025,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "연합군: 리야드 향한 탄도미사일 2기·동부 UAV 2기 파괴",
+   "titleKo": "연합, 리야드 향 탄도미사일 2기·동부 UAV 2기 파괴",
    "title": "Coalition Destroys 2 Ballistic Missiles Launched Toward Riyadh, 2 UAVs in Eastern Region",
-   "summary": "연합군이 리야드를 향한 2기의 탄도미사일과 동부 지역의 2대의 UAV를 파괴했다고 전했어요.",
+   "summary": "연합이 리야드 방향으로 발사된 2기의 탄도미사일과 동부지역 무인기 2기를 파괴했다고 전합니다.",
    "reportedAt": "2026-11-26T06:52:24.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5345826"
@@ -3448,9 +3043,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "알자지라 생중계: 사나 폭발·리야드 미사일 요격",
+   "titleKo": "사나 폭발·리야드 상공 미사일 요격",
    "title": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh - Al Jazeera",
-   "summary": "알자지라가 리야드 상공에서 미사일 요격 소식을 전했어요.",
+   "summary": "사나에서 폭발이 발생했고 리야드 상공에서 미사일이 요격됐다고 보도합니다.",
    "reportedAt": "2026-11-26T02:24:25.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRnJHZTlqMDJqMHBfSk0weXFQRGVEd3hhbFBZeTVJUV8tTW9aOXZlbEhrLTlDY2RkSjdVTjJUQzZGY3ZvN3dzeGl3YXdmV2l2VmMwRWFoYVh3Z3puWVp1WXRYeFljVjJxMWotaWZSMmpUTmdxNENjX1FVaE1kTU9QVDhXbGFmVHlYZWV6ZUp4VHRhVVVHQnJ4U2VWaEMyM0NIbWZjWlNnd0VMRXVnaDVNbnNMRGdoLXNjRWpuQTZURDg3Rkx3dUxDaHZMVFRhMk0?oc=5"
@@ -3466,9 +3061,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "알자지라: 리야드 상공에서 미사일 요격 보도",
+   "titleKo": "리야드 상공 미사일 요격 보도",
    "title": "missiles intercepted over Riyadh - Al Jazeera",
-   "summary": "알자지라가 리야드 상공에서 미사일이 요격됐다고 보도했어요.",
+   "summary": "리야드 상공에서 미사일이 요격되었다고 보도합니다.",
    "reportedAt": "2026-11-26T02:24:25.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRnJHZTlqMDJqMHBfSk0weXFQRGVEd3hhbFBZeTVJUV8tTW9aOXZlbEhrLTlDY2RkSjdVTjJUQzZGY3ZvN3dzeGl3YXdmV2l2VmMwRWFoYVh3Z3puWVp1WXRYeFljVjJxMWotaWZSMmpUTmdxNENjX1FVaE1kTU9QVDhXbGFmVHlYZWV6ZUp4VHRhVVVHQnJ4U2VWaEMyM0NIbWZjWlNnd0VMRXVnaDVNbnNMRGdoLXNjRWpuQTZURDg3Rkx3dUxDaHZMVFRhMk0?oc=5"
@@ -3484,9 +3079,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "알자지라: 사나 폭발·리야드 미사일 요격 보도",
+   "titleKo": "사나 폭발과 리야드 미사일 요격 보도",
    "title": "Explosion rocks Sanaa; missiles intercepted over Riyadh - Al Jazeera",
-   "summary": "사나에서 폭발이 발생했고 리야드 상공에서 미사일이 요격됐다고 보도했어요.",
+   "summary": "사나에서 폭발이 있었고 리야드 상공의 미사일이 요격되었다고 전합니다.",
    "reportedAt": "2026-11-26T00:42:48.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMUpNdG5qZzJzMzl6THVYcE1leGNYX1haRkR5UE5uZExOTk9kU0JwLTVZQmROS0pmWFc5TGZhNXQwX3RYNUhSczk5N3piMXZQa1pxbEVCUHVpSVllNnoxTlNmTndPVjdIUVpNWE5ndUh4SF95NXhrb0JtbTF0WmMtZ0EwM2Zud2xFSlQ4bVVxRXY0QkZQMXNtalFRWFhsdGJKMGVyYW1FQzI2cnlUUEUxVGpNNWRPZlA4eEJNNnJDQ3hvdlRZSUxRWXB4Z19pUVk?oc=5"
@@ -3503,9 +3098,9 @@
     "airport"
    ],
    "inferred": false,
-   "titleKo": "알자지라: 사나 공항 근처 공습 후 폭발",
+   "titleKo": "사나 인근 공습·리야드 상공 요격 보도",
    "title": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
-   "summary": "알자지라는 공항 근처 공습 후 사나에서 폭발이 일어났다고 보도했어요.",
+   "summary": "사나 공항 인근 공습 후 폭발이 있었고 리야드 상공 미사일이 요격됐다고 보도합니다.",
    "reportedAt": "2026-11-26T00:00:00.000Z",
    "dateOnly": false,
    "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss"
@@ -3521,9 +3116,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "후티, 사우디 홍해 항구들 표적화 주장",
+   "titleKo": "후티, 홍해 항구 겨냥 공격 보도",
    "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
-   "summary": "후티가 홍해 항구들을 표적 삼아 공격을 확대했다고 알자지라가 보도했어요.",
+   "summary": "후티가 홍해 항구를 겨냥한 공격을 했다고 보도하며 긴장이 고조되었다고 전합니다.",
    "reportedAt": "2026-11-25T23:37:44.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGxhOFVRbGV4VWljWVZrRGUzSlRFN2dkQVc3dkVHWHZQdUlOYmVpbEpKdVdtYkdXRFVQVG11QlJleUZOeXZyVUdCRVg0UWw1YmVNUS02WlREdUJnVnBnRlF2TUJJM2hrUlNUSHUxRmF0YzRqM2QtR01kUUhvSHZHX25XeWRNZjdrMFF0VkRlVnMxbjNQOU1YcTl0cjJCNlZueGlOeXZIONIBrAFBVV95cUxPdEhLc01XWU5iX2xIa2VMdlBiZG1icV9TR1JsTGJJTl85Vkg2N25sY2JQYTJpb0tqYnhVRENFSUN5NkQxM3NBbG45WUQwdzk5UFB1LUFLRGUyeEExUkxlcW9UdUVBU2pteWVwdV9LMDhxbWZsb2lEVExfS0JmU0s5MVVrMVFaSHpoVnpSQTlTN0lSeEROZzFQMl9DemV6MFgxRkp0V1M2M0NoQm5J?oc=5"
@@ -3539,9 +3134,9 @@
     "jeddah"
    ],
    "inferred": false,
-   "titleKo": "국영통신: 젯다 인근에서 후티 드론 요격·파괴",
+   "titleKo": "연합: 젯다항 인근 후티 무인기 요격·파괴",
    "title": "Coalition: UAV Launched by Terrorist Houthi Militia Intercepted and Destroyed in Vicinity of Jeddah Islamic Port",
-   "summary": "국영통신은 젯다 항 인근에서 후티가 발사한 UAV를 요격했다고 전했어요.",
+   "summary": "젯다항 인근에서 후티 무인기가 요격·파괴되었다고 연합이 발표했습니다.",
    "reportedAt": "2026-11-25T19:57:01.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wZVlza21aTDJOX00tRHVJakVXNG9ObkYwdGxnUjRXSkR3OTB0RWR2ME9mOTV4a3ZlU3ZHWFN6X2hmS0V4R1lwZXdB?oc=5"
@@ -3557,9 +3152,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "로이터: 후티, 사우디 정유시설 공격했다고 주장",
+   "titleKo": "연기 뒤덮인 사우디 정유시설, 후티 공격 주장",
    "title": "Smoke covers Saudi Arabian oil refinery as Houthis claim attack",
-   "summary": "정유시설에서 연기가 덮인 모습이 포착됐다고 보도했어요.",
+   "summary": "후티가 사우디 정유시설을 공격했다고 주장하자 정유단지에서 연기가 관측되었다고 보도합니다.",
    "reportedAt": "2026-11-25T17:45:03.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0ZzlhZk8tdlVzZHJvcExfX24zS1dteW9XYzdCajlfLVFja0c2czRhWEhWR1RURktJT2hNejUwZmpTSjM1SWEtbEtxdTloZklhZlVvZWItU3RyM0g0SmJaUTVscHRWWEE?oc=5"
@@ -3575,9 +3170,9 @@
     "all"
    ],
    "inferred": false,
-   "titleKo": "후티, 사우디 정유시설 공격 주장에 유가 1%대 상승",
+   "titleKo": "후티 주장에 유가 1% 이상 상승",
    "title": "Oil prices rise over 1% after Houthis say they attacked Saudi refinery",
-   "summary": "후티의 공격 주장에 따라 유가가 1% 이상 올랐다고 보도했어요.",
+   "summary": "후티의 정유시설 공격 주장에 따라 유가가 1% 이상 올랐다고 보도합니다.",
    "reportedAt": "2026-11-25T17:35:03.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVGl4Nzdfc01ReTB5TnAxUkVLTXlaRVFvbGM5aTZDOEtVUXlrVDQtMHJwcWh2WldoMnVyb0QxU1pEQUoyN09sNU1SZXR3NVUzdTZXeWpkdGNTZW95MUtmdjV3dWFxTEZsRW5WUlF1djVTTWZxUGVxcHhPNEptMnBEcmZ0MURhX0JxTDFqc19HblpWd2hLSEs5SXRYTXB6bzFwNzZqOUFTc1ZOM3ItVDFZWmM2a0R5YkxsdnlsMTZWQ1ZEUQ?oc=5"
@@ -3593,9 +3188,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "아랍·이슬람권, 후티의 리야드 공격 규탄",
+   "titleKo": "사우디, 쿠웨이트에 대한 이란의 공격을 강력히 규탄",
    "title": "Widespread Arab and Islamic Condemnation of Houthi Attack on Riyadh",
-   "summary": "아랍권에서 리야드에 대한 후티 공격을 강하게 규탄했다고 보도했어요.",
+   "summary": "후티 공격에 대해 광범위한 아랍권 비난이 이어졌다고 전합니다.",
    "reportedAt": "2026-11-25T17:10:21.000Z",
    "dateOnly": false,
    "url": "https://english.aawsat.com/node/5345652"
@@ -3647,9 +3242,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "인도: 리야드 금융지구 타워 공격 규탄",
+   "titleKo": "인도, 리야드 금융지구 타워 공격 규탄",
    "title": "India Condemns Attack on Financial District Tower in Riyadh",
-   "summary": "인도는 리야드 금융지구 타워 공격을 규탄했다고 보도했어요.",
+   "summary": "인도가 리야드 금융지구 타워 공격을 규탄했다고 보도합니다.",
    "reportedAt": "2026-11-25T13:53:07.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUy1iTS1JX19QcU9ROEFXOXJvMUtZTmUyOUtYa2puc1FBZGZzYjVWVEkyT0VhRnN1WVFtU1BLX2dwNFd6V0pKY2VR?oc=5"
@@ -3683,9 +3278,9 @@
     "riyadh"
    ],
    "inferred": false,
-   "titleKo": "사우디 민방위: 리야드 금융지구 타워 피격으로 11명 부상",
+   "titleKo": "민방위: 리야드 금융지구 타워 공격으로 11명 부상",
    "title": "Civil Defense: 11 Injured in Houthi Terrorist Attack on Riyadh Financial District Tower",
-   "summary": "리야드 금융지구 타워에 대한 후티 공격으로 11명이 부상했다고 사우디 민방위가 발표했어요.",
+   "summary": "민방위는 리야드 금융지구 타워 공격으로 11명이 다쳤다고 발표했습니다.",
    "reportedAt": "2026-11-25T11:06:17.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QUTd0RjlZOGQzWWZIMjFRX29wdWZHeXVZZ29FVHVoWklsZEpCdHVLYTJweUtYbGhRNlFpN2hIQmxCc3VLSVg0TUF3?oc=5"
@@ -4287,6 +3882,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "3b88b0641921",
+    "feed": "Al Jazeera",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Al Jazeera",
+    "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZnZjhfSVBOMkp2VnNxeTh6ZHVxQmQ4X09jMnFmMFg1VUlhQ3RSTlVUN09RZEZpUlZFeV96MlpENFFwTHhoS0dEWTk5Q0U0Y2F0QS1Zb0Q0amNWMkw3cEs3S0d3Rml4QTV0ZExPXzVBaVRaTkZHVUpmYVVIbVk2SGtkcWtJLXVTUkk4Y2gxelVuUGtnU1BxM0gtN2J6ZF92SnJvczdjaGQxQkZad0RzZF9pb9IBuAFBVV95cUxPbDVuYThMckJDbU1vT3VsN21LaEc5ZVVQZVZKUjZzMWQ3UnlhbmxQZlZkVzdFUWZFbzVEZ1FkZ3hJSFMzY1dHRzdkYUF4MDIxOEpNckdiZHpHTXIxWGxQb3hHbFBGZ3VEZjdPZXBPVWJEejNFaHMzaVpBeER5aEZKYzZlVFVWSEVnLWpsSHA3cTBvY0pqM3YySXRNZGxhS1hGN0Z0VEtBb3dPNnFwQ2JXWnA5TFl2dDNX?oc=5",
+    "reportedAt": 1795725450000,
+    "assumeSaudi": false,
+    "firstSeen": 1795726233654
+   },
    {
     "id": "183a98241639",
     "feed": "Saudi Gazette",
@@ -6198,7 +5807,7 @@
    "d79c27c8f17e": "로이터는 후티의 공격으로 일주일 만에 리야드 최고층 타워가 또 피격돼 11명이 부상했다고 보도했어요.",
    "1f993db25864": "SPA는 GCC 사무총장이 리야드 금융지구 공격을 규탄했다고 보도했어요.",
    "34b966a73273": "기사에 요약이 없어 별도 요약을 만들 수 없습니다.",
-   "da5556693e07": "리야드 금융지구 타워에 대한 후티 공격으로 11명이 부상했다고 사우디 민방위가 발표했어요.",
+   "da5556693e07": "민방위는 리야드 금융지구 타워 공격으로 11명이 다쳤다고 발표했습니다.",
    "dcb5734d2e78": "기사에 요약이 없어 별도 요약을 만들 수 없습니다.",
    "766dc069b8fc": "한국경제도 리야드 최고층 빌딩 피격과 11명 부상 보도를 전했어요.",
    "f0d93aa824e9": "요약 없음",
@@ -6209,7 +5818,7 @@
    "0b6def7123cf": "사우디 민방위는 리야드 타워 공격으로 11명이 부상했다고 발표했다고 보도했어요.",
    "3884fc1181b9": "후티는 호데이다가 타격받자 제다 등 사우디 항구를 겨냥하겠다고 위협했다고 보도했어요.",
    "70db98a56d8f": "사우디 랜드마크가 미사일에 공격당한 장면을 보도했어요.",
-   "58e499a6e5dd": "KBS는 예멘 공습으로 26명이 사망했고 사우디의 고층 건물이 또 피격됐다고 보도했어요.",
+   "58e499a6e5dd": "사우디의 초고층 빌딩이 후티 드론에 맞았다고 보도합니다.",
    "1a47822ae05e": "연합뉴스 영상 보도는 후티 진격이 아덴 인근까지 왔다고 전했어요.",
    "8afe58cd2bec": "아시아경제는 루마이얀 아람코 회장의 방한이 취소됐고 공항 폐쇄 영향이 있다고 보도했어요.",
    "bd903e2d5331": "사우디 국영통신은 아랍연맹이 리야드 금융지구 타워 공격을 규탄했다고 전했어요.",
@@ -6217,7 +5826,7 @@
    "729619625c8e": "파키스탄이 리야드 금융지구 공격을 강력히 규탄했다고 보도했어요.",
    "14ccf15f7699": "아랍연맹 등 국제기구들이 리야드 타워 공격을 규탄했다고 보도했어요.",
    "2f032fe812f7": "영국이 후티의 공격에 대해 사우디 지지를 재확인했다고 보도됐어요.",
-   "106947387006": "사우디의 초고층 타워가 후티 드론에 또 피격당했다고 보도했어요.",
+   "106947387006": "초고층 타워가 후티 드론에 또 피격되었다고 보도합니다.",
    "9c887f9a3227": "뉴시스는 연합군의 호데이다 공습과 후티의 아덴 공세 임박 보도를 전했어요.",
    "9df59bd189d1": "로이터는 후티가 제다 등 홍해 항구들을 겨냥하겠다고 위협했다고 보도했어요.",
    "b558727363bd": "사우디 국영통신은 아랍의회가 리야드 금융지구 타워 공격을 규탄했다고 보도했어요.",
@@ -6237,61 +5846,65 @@
    "d0b425144693": "SBS는 후티가 사우디 홍해 항구를 모두 공격하겠다고 위협했다고 보도했어요.",
    "681915dbd91e": "걸프 증시가 사우디 공격 여파로 혼조세를 보였다고 보도했어요.",
    "38b86130325e": "사우디 80층 건물이 피해를 입었다고 보도했어요.",
-   "cf5be93b991e": "사우디와 바레인 국방당국이 후티·이란 관련 공격을 논의했다고 보도했어요.",
-   "cb69a292aec4": "사우디 최고층 빌딩이 또 피격되었다고 보도했어요.",
+   "cf5be93b991e": "사우디와 바레인이 후티·이란 공격에 관해 군사 논의를 했다고 전합니다.",
+   "cb69a292aec4": "사우디 최고층 빌딩이 다시 피격됐다고 보도합니다.",
    "9010f93a5dc1": "사우디의 고층 건물이 여러 차례 피격되었고 정유시설까지 노려졌다고 보도했어요.",
    "159c0c70d11c": "후티가 리야드 금융지구와 사우디 정유시설 공격을 주장했다고 AFP가 보도했어요.",
    "d3ae9268480a": "연합군은 호데이다 타격 이후 후티의 공격을 요격했다고 보도했어요.",
    "6c17c915b39e": "후티 반군이 라스 타누라 정유시설을 공격했다고 밝혔다고 로이터가 전했어요.",
-   "f8fb8c427c38": "인도는 리야드에 대한 후티 공격 이후 사우디 지지를 재확인했다고 보도했어요.",
-   "8d1a5cbc32ec": "인도는 리야드 금융지구 타워 공격을 규탄했다고 보도했어요.",
+   "f8fb8c427c38": "인도가 리야드에 대한 후티 공격에 대해 사우디를 전폭 지지한다고 발표했다고 보도합니다.",
+   "8d1a5cbc32ec": "인도가 리야드 금융지구 타워 공격을 규탄했다고 보도합니다.",
    "091cbc3b149c": "사우디에 대한 공격 여파로 걸프 증시가 혼조세를 보였다고 보도했어요.",
    "3bdfdd6e3aca": "후티 반군이 사우디 최대 정유시설을 공격했다고 주장했다고 로이터가 보도했어요.",
-   "005a4870bad1": "후티의 공격 주장에 따라 유가가 1% 이상 올랐다고 보도했어요.",
+   "005a4870bad1": "후티의 정유시설 공격 주장에 따라 유가가 1% 이상 올랐다고 보도합니다.",
    "8a5392b83d46": "유가가 후티의 의심스러운 정유시설 공격 보도 이후 상승했다고 전해졌어요.",
-   "5276750d0e5a": "아랍권에서 리야드에 대한 후티 공격을 강하게 규탄했다고 보도했어요.",
-   "517bb5498f49": "발사체가 자잔 항에 떨어졌다고 연합군이 밝혔다고 보도했어요.",
+   "5276750d0e5a": "후티 공격에 대해 광범위한 아랍권 비난이 이어졌다고 전합니다.",
+   "517bb5498f49": "자잔항에 후티의 발사체가 떨어졌다고 연합이 발표했다고 전합니다.",
    "0d0f02a3873e": "연합군은 자잔 항구에 후티 발사체가 떨어졌다고 발표했다고 Asharq Al-Awsat가 보도했어요.",
-   "8e3a56544480": "연합군은 젯다 이슬람항 인근에서 후티의 드론을 요격했다고 발표했어요.",
-   "5349daa4330a": "자잔 항에 후티 발사체가 떨어져 경미한 피해가 발생했으나 인명 피해는 없었다고 연합군이 전했어요.",
-   "7825738fa28b": "정유시설에서 연기가 덮인 모습이 포착됐다고 보도했어요.",
-   "4eb56e46a199": "후티는 연합 공격에 대한 보복으로 두 개의 사우디 항구를 타격했다고 주장했어요.",
-   "aa59c3282e35": "국제유가가 후티의 정유시설 공격 주장으로 급등했다고 보도했어요.",
-   "24297620d191": "후티의 정유시설 공격을 계기로 국제유가가 급등했다고 전했어요.",
-   "04ab21584585": "한국경제도 같은 내용으로 국제유가 상승을 보도했어요.",
-   "c727fa42f2ce": "국제유가가 상승한 배경에 후티의 정유시설 공격 주장이 있다고 전했어요.",
-   "9faa4b830e83": "국영통신은 젯다 항 인근에서 후티가 발사한 UAV를 요격했다고 전했어요.",
-   "62939b8326c1": "후티의 정유시설 공격 소식에 따라 유가와 관련 주가가 올랐다고 전했어요.",
-   "9ff87fdeda86": "알자지라가 리야드 상공에서 미사일 요격 소식을 전했어요.",
-   "1a58d9b3411e": "알자지라는 공항 근처 공습 후 사나에서 폭발이 일어났다고 보도했어요.",
-   "830677dfd24c": "후티가 홍해 항구들을 표적 삼아 공격을 확대했다고 알자지라가 보도했어요.",
-   "a17beabadfcf": "연합군은 리야드를 향한 탄도미사일 2기를 요격했다고 발표했어요.",
+   "8e3a56544480": "연합이 젯다 인근에서 후티 드론을 요격했다고 보도합니다.",
+   "5349daa4330a": "자잔항에 후티 발사체가 떨어져 경미한 피해가 발생했으나 인명피해는 없었다고 보도합니다.",
+   "7825738fa28b": "후티가 사우디 정유시설을 공격했다고 주장하자 정유단지에서 연기가 관측되었다고 보도합니다.",
+   "4eb56e46a199": "후티가 사우디의 두 항구를 타격했다고 주장했다고 AFP가 보도합니다.",
+   "aa59c3282e35": "후티의 사우디 정유시설 공격 보도로 국제유가가 급등했다고 전합니다.",
+   "24297620d191": "후티의 정유시설 공격 보도로 브렌트유가 등 국제유가가 상승했다고 보도합니다.",
+   "04ab21584585": "국제유가가 후티의 사우디 정유시설 공격 보도로 상승했다고 전합니다.",
+   "c727fa42f2ce": "후티가 사우디 최대 정유시설을 공격했다고 주장했다고 보도합니다.",
+   "9faa4b830e83": "젯다항 인근에서 후티 무인기가 요격·파괴되었다고 연합이 발표했습니다.",
+   "62939b8326c1": "후티의 정유시설 공격 소식에 따라 정유주와 유가가 상승했다고 보도합니다.",
+   "9ff87fdeda86": "사나에서 폭발이 발생했고 리야드 상공에서 미사일이 요격됐다고 보도합니다.",
+   "1a58d9b3411e": "사나 공항 인근 공습 후 폭발이 있었고 리야드 상공 미사일이 요격됐다고 보도합니다.",
+   "830677dfd24c": "후티가 홍해 항구를 겨냥한 공격을 했다고 보도하며 긴장이 고조되었다고 전합니다.",
+   "a17beabadfcf": "사우디 방공이 리야드를 향한 탄도미사일 2기를 요격·파괴했다고 국영통신이 보도합니다.",
    "d10f75881f71": "후티가 정유시설을 공격했다고 주장한 뒤 유가가 상승했다고 보도했어요.",
-   "76a974b72d4f": "사나에서 폭발이 발생했고 리야드 상공에서 미사일이 요격됐다고 보도했어요.",
+   "76a974b72d4f": "사나에서 폭발이 있었고 리야드 상공의 미사일이 요격되었다고 전합니다.",
    "69f2d386e3c2": "동일 내용이 중복 보도되어 자잔 항구에 발사체가 낙하했다고 전했어요.",
-   "7b1dfcee57b6": "연합군이 리야드를 향한 2기의 탄도미사일과 동부 지역의 2대의 UAV를 파괴했다고 전했어요.",
-   "f42db72b8b5e": "알자지라가 리야드 상공에서 미사일이 요격됐다고 보도했어요.",
-   "122c293dc36b": "예멘 항구 공격 후 리야드로 향한 미사일이 격추되었다고 AFP가 전했어요.",
+   "7b1dfcee57b6": "연합이 리야드 방향으로 발사된 2기의 탄도미사일과 동부지역 무인기 2기를 파괴했다고 전합니다.",
+   "f42db72b8b5e": "리야드 상공에서 미사일이 요격되었다고 보도합니다.",
+   "122c293dc36b": "사우디가 수도를 향한 미사일을 요격했다고 보도합니다.",
    "de35d3345b41": "로이터는 걸프 시장이 사우디 에너지 타격 우려로 혼조를 보였다고 전했어요.",
-   "1babbf1d3752": "사우디 방공이 리야드를 향한 후티의 미사일 2기와 동부 지역의 드론 2기를 요격했다고 연합군이 발표했어요.",
-   "c82262d9bcf2": "사우디의 대형 정유시설에서 큰 검은 연기가 치솟았다고 전했어요.",
-   "9900a604c6cb": "영상 보도에서 정유시설에서 검은 연기띠가 관찰됐고 후티는 홍해 항구 공격도 주장했다고 알려졌어요.",
-   "9f6fd34d712f": "연합군이 자잔 정유시설 피격 뒤 후티의 미사일 기지를 타격했다고 보도했어요.",
-   "88db44843f6d": "연합군은 후티가 자잔 정유시설을 공격했다고 발표했어요.",
+   "1babbf1d3752": "사우디 방공이 리야드를 향한 미사일 2기와 동부지역 드론을 요격·파괴했다고 연합이 발표했습니다.",
+   "c82262d9bcf2": "사우디 최대 정유시설이 피격돼 큰 연기가 일었다고 보도합니다.",
+   "9900a604c6cb": "사우디 정유시설에서 검은 연기가 보였고 후티가 홍해 항구도 공격했다고 주장했다고 전합니다.",
+   "9f6fd34d712f": "연합이 자잔 정유시설 공격 후 후티 미사일 기지를 타격했다고 보도합니다.",
+   "88db44843f6d": "연합이 후티가 자잔 정유시설을 공격했다고 발표했다고 전합니다.",
    "2cd7c52501b6": "중동 언론들이 연합군의 자잔 정유시설 공격 발표를 전했어요.",
    "91abd355a1e9": "외교부는 후티의 자잔·젯다 항 공격 관련 신변 유의를 당부하고 사우디 전역에 여행경보 3단계를 발령했다고 공지했어요.",
    "1475258d0fd1": "외교부는 사우디 서부·서남부 공항 이용에 차질이 있으니 항공편 운항 전 확인하라고 안내했어요.",
    "6b8ff848b74c": "사우디는 시리아의 치안부대에 대한 테러 공격을 규탄했다는 보도가 나왔어요.",
-   "1fcabda6507d": "후티의 공격으로 자잔 정유시설이 피격되어 네팔 근로자 1명이 사망하고 여러 명이 부상했으며 일부 가동이 중단되었다고 보도했어요.",
-   "31af4c6c7005": "사우디 주도 연합은 후티가 아람코의 자잔 정유시설을 공격했다고 밝혔어요.",
-   "d3c168c0a126": "사우디 국왕과 왕세제가 이집트 지자 화재 희생자들에게 애도를 표했다고 보도했어요.",
-   "a1853112038f": "사우디가 이집트의 지자 화재 희생자들에게 애도를 표했다고 전했어요.",
-   "216e7a22e59b": "사우디가 이집트 화재 희생자에게 애도를 표했다는 내용이에요.",
+   "1fcabda6507d": "후티의 자잔 정유시설 공격으로 네팔인 근로자가 사망했다고 보도합니다.",
+   "31af4c6c7005": "사우디 주도 연합이 후티가 자잔 정유시설을 공격했다고 발표했다고 전합니다.",
+   "d3c168c0a126": "사우디 지도부가 기자회견을 통해 이집트 화재 희생자에 조의를 표했다고 전합니다.",
+   "a1853112038f": "사우디가 이집트 화재 희생자에 위로를 표했다고 보도합니다.",
+   "216e7a22e59b": "사우디가 이집트 화재에 대해 애도를 표했다고 보도합니다.",
    "adacb63cb96c": "사우디가 지자 유류 탱커 폭발 희생자들에게 애도를 전했다고 보도했어요.",
-   "a1334aac6f61": "사우디 지도부가 이집트 화재 희생자에게 위로의 뜻을 전했다고 보도했어요.",
+   "a1334aac6f61": "사우디 지도부가 이집트 대통령에게 조의를 표했다고 보도합니다.",
    "998618df4f0e": "사우디 외교차관이 리야드에서 대사들에게 후티 공격 상황을 설명했다고 보도했어요.",
    "b9047b3302b8": "국영통신도 외교차관의 대사단 설명 사실을 보도했어요.",
-   "d4a499812858": "영국의 후티 제재가 상징적 조치라는 평가와 배경을 분석했다고 알자지라가 보도했요."
+   "d4a499812858": "영국의 후티 제재 관련 해설을 곁들여 리야드 상공 요격 소식을 전합니다.",
+   "3b88b0641921": "자잔(Jazan) 정유시설 공격으로 1명이 사망하고 가동이 중단됐다고 보도합니다.",
+   "409f468907eb": "에너지부 소식통은 자잔 정유시설이 발사체에 맞아 네팔인 근로자 1명이 사망했다고 전했습니다.",
+   "15c674e413fa": "연합 대변인은 자잔 정유시설 공격이 후티의 소행이라고 발표했다고 보도합니다.",
+   "c76d938cb85e": "한국 매체가 후티가 사우디 정유시설을 이틀 연속 공격해 네팔인 근로자 1명이 사망했다고 보도합니다."
   },
   "titlesKo": {
    "56b8eed99ebe": "연합이 남부 향한 후티 드론 격추 보도",
@@ -6312,7 +5925,7 @@
    "023d3570ff48": "사우디 연합군, 리야드 금융지구 타워를 '테러 공격' 표적이라 발표",
    "14324f3ef2e1": "연합이 리야드 타워 공격 규탄 보도",
    "33cb51047f08": "후티 공격으로 리야드 타워 11명 부상(사우디 민방위)",
-   "da5556693e07": "사우디 민방위: 리야드 금융지구 타워 피격으로 11명 부상",
+   "da5556693e07": "민방위: 리야드 금융지구 타워 공격으로 11명 부상",
    "d79c27c8f17e": "로이터: 후티, 리야드 최고층 타워에 또 타격해 11명 부상",
    "1f993db25864": "GCC 사무총장, 리야드 금융지구 공격 규탄",
    "9d996521dcad": "아랍국들, 리야드 타워 공격 규탄",
@@ -6332,7 +5945,7 @@
    "8dcce82f7795": "경보 없이 리야드 최고층 빌딩 또 피격",
    "3884fc1181b9": "후티, 호데이다 타격에 제다 등 홍해 항구 위협",
    "70db98a56d8f": "미사일에 공격당한 사우디 랜드마크 장면",
-   "58e499a6e5dd": "예멘 공습 사망자 보고와 사우디 고층 건물 피격 보도",
+   "58e499a6e5dd": "사우디 초고층 빌딩, 후티 드론에 또 피격",
    "729619625c8e": "파키스탄, 리야드 금융지구 공격 강력 규탄",
    "14ccf15f7699": "바레인, 리야드 금융지구 타워 공격 강력 규탄",
    "bd903e2d5331": "아랍연맹, 리야드 금융지구 타워 공격 규탄",
@@ -6342,7 +5955,7 @@
    "3bbfb30daa94": "연합군, 호데이다 항 공습 생중계",
    "b558727363bd": "아랍의회, 리야드 금융지구 타워 공격 규탄 발표",
    "290fb9ca3550": "무슬림세계연맹, 리야드 금융지구 타워 공격 규탄",
-   "106947387006": "사우디 '비전 2030' 상징 초고층 타워 또 후티 드론에 피격 - 머니투데이",
+   "106947387006": "초고층 타워, 후티 드론에 또 피격 보도",
    "ecf431f18e96": "과감해진 후티‥사우디 또 피격·예멘 풍전등화",
    "9c887f9a3227": "연합군 호데이다 공습과 후티의 아덴 공세 임박 보도",
    "1a47822ae05e": "후티 진격, 아덴 인근까지 진전 보도",
@@ -6356,102 +5969,126 @@
    "6c17c915b39e": "로이터: 후티, 라스 타누라 정유시설 공격했다고 주장",
    "d3ae9268480a": "연합군: 호데이다 공습 뒤 후티 공격 요격 보도",
    "159c0c70d11c": "후티, 리야드 금융지구·정유시설 공격 주장",
-   "cf5be93b991e": "사우디·바레인 국방당국, 후티·이란 공격 논의",
-   "f8fb8c427c38": "인도: 리야드 공격 이후 사우디 지지 재확인",
+   "cf5be93b991e": "사우디·바레인 군사논의, 후티·이란 공격 관련",
+   "f8fb8c427c38": "인도, 후티의 리야드 공격에 사우디에 대한 지지 재확인",
    "8a5392b83d46": "후티 주장에 따른 유가 상승 보도",
    "091cbc3b149c": "걸프 증시 혼조세, 사우디 공격 영향",
-   "8d1a5cbc32ec": "인도: 리야드 금융지구 타워 공격 규탄",
-   "517bb5498f49": "연합군: 자잔항에 후티 발사체가 떨어졌다고 밝혀",
-   "5276750d0e5a": "아랍·이슬람권, 후티의 리야드 공격 규탄",
+   "8d1a5cbc32ec": "인도, 리야드 금융지구 타워 공격 규탄",
+   "517bb5498f49": "연합: 자잔항에 후티 발사체 낙탄",
+   "5276750d0e5a": "사우디, 쿠웨이트에 대한 이란의 공격을 강력히 규탄",
    "0d0f02a3873e": "Asharq Al-Awsat: 자잔 항구에 발사체 낙하",
    "3bdfdd6e3aca": "로이터: 후티, 사우디 최대 정유시설 공격했다고 주장",
-   "005a4870bad1": "후티, 사우디 정유시설 공격 주장에 유가 1%대 상승",
+   "005a4870bad1": "후티 주장에 유가 1% 이상 상승",
    "651892a8c8f2": "후티, 홍해 사우디 항구 타격 주장",
    "5e53607dfa1f": "SBS: 후티, 홍해의 사우디 모든 항구 공격하겠다고 주장",
-   "7825738fa28b": "로이터: 후티, 사우디 정유시설 공격했다고 주장",
-   "5349daa4330a": "후티 발사체가 자잔항에 떨어져 경미 피해 발생",
-   "8e3a56544480": "연합군: 젯다항 인근 드론 요격",
-   "cb69a292aec4": "사우디 최고층 빌딩 또 피격…후티, 아덴까지 위협",
+   "7825738fa28b": "연기 뒤덮인 사우디 정유시설, 후티 공격 주장",
+   "5349daa4330a": "후티 발사체, 자잔항에 낙탄…인명 피해 없어",
+   "8e3a56544480": "연합이 젯다 인근 드론 요격 발표",
+   "cb69a292aec4": "사우디 최고층 빌딩 다시 피격 보도",
    "6581d004675d": "사우디 정유시설 화재와 미 경보 연계 보도",
    "67b42cb21882": "후티, 사우디 경제 심장부 연이은 공격 보도",
    "2b8a106bbed0": "후티, 사우디 경제 중심지 연달아 표적",
    "d10f75881f71": "로이터: 후티의 정유시설 공격 주장에 유가 상승",
-   "9faa4b830e83": "국영통신: 젯다 인근에서 후티 드론 요격·파괴",
+   "9faa4b830e83": "연합: 젯다항 인근 후티 무인기 요격·파괴",
    "69f2d386e3c2": "중복 보도: 자잔 항구에 발사체 낙하",
-   "4eb56e46a199": "후티: 연합 공습 보복으로 사우디 항구 2곳 타격 주장",
-   "aa59c3282e35": "국제유가, 후티 사우디 정유시설 공격에 급등‥브렌트 3.5%↑",
-   "24297620d191": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
-   "04ab21584585": "한국경제: 후티 정유시설 공격 주장에 유가 상승",
-   "c727fa42f2ce": "국제유가 2~3% 상승…후티, 사우디 최대 정유시설 공격 주장",
-   "830677dfd24c": "후티, 사우디 홍해 항구들 표적화 주장",
-   "1a58d9b3411e": "알자지라: 사나 공항 근처 공습 후 폭발",
-   "9ff87fdeda86": "알자지라 생중계: 사나 폭발·리야드 미사일 요격",
-   "a17beabadfcf": "국영통신: 리야드 향한 탄도미사일 2기 요격",
-   "76a974b72d4f": "알자지라: 사나 폭발·리야드 미사일 요격 보도",
-   "62939b8326c1": "후티 정유시설 공격 주장에 유가·정유주 급등",
+   "4eb56e46a199": "후티, 사우디 두 항구 타격했다고 주장",
+   "aa59c3282e35": "국제유가, 후티의 사우디 정유시설 공격에 급등",
+   "24297620d191": "국제유가, 후티의 사우디 정유시설 공격 소식에 상승",
+   "04ab21584585": "후티 공격 보도로 국제유가 상승",
+   "c727fa42f2ce": "후티, 사우디 최대 정유시설 공격 주장",
+   "830677dfd24c": "후티, 홍해 항구 겨냥 공격 보도",
+   "1a58d9b3411e": "사나 인근 공습·리야드 상공 요격 보도",
+   "9ff87fdeda86": "사나 폭발·리야드 상공 미사일 요격",
+   "a17beabadfcf": "국영통신: 리야드 향 탄도미사일 2기 요격",
+   "76a974b72d4f": "사나 폭발과 리야드 미사일 요격 보도",
+   "62939b8326c1": "후티의 정유시설 공격에 정유주·유가 동반 상승",
    "d0b425144693": "후티, 사우디 홍해 항구 모두 공격하겠다고 위협",
    "38b86130325e": "사우디 80층 건물 피해",
-   "f42db72b8b5e": "알자지라: 리야드 상공에서 미사일 요격 보도",
-   "122c293dc36b": "AFP: 수도 향한 미사일 격추 보도",
-   "7b1dfcee57b6": "연합군: 리야드 향한 탄도미사일 2기·동부 UAV 2기 파괴",
-   "1babbf1d3752": "사우디 공군: 리야드 향한 미사일·동부 드론 요격 발표",
+   "f42db72b8b5e": "리야드 상공 미사일 요격 보도",
+   "122c293dc36b": "사우디, 수도 향 미사일 격추 보도",
+   "7b1dfcee57b6": "연합, 리야드 향 탄도미사일 2기·동부 UAV 2기 파괴",
+   "1babbf1d3752": "사우디 방공, 리야드 향 미사일·동부 드론 요격",
    "de35d3345b41": "로이터: 걸프 시장, 사우디 에너지 타격 우려로 혼조",
    "9010f93a5dc1": "사우디 80층 마천루 닷새 만에 또 피격…정유시설까지 노린 후티(종합)",
    "adacb63cb96c": "사우디아라비아, 기자의 치명적 유조선 폭발 사고에 대해 이집트에 조의 표해",
    "6b8ff848b74c": "사우디: 시리아 치안부대 테러 공격 규탄",
-   "c82262d9bcf2": "사우디 최대 정유시설 피격…서울만 한 검은 연기",
-   "9900a604c6cb": "[영상] '검은 연기띠' 사우디 정유시설…후티 \"홍해 항구도 공격\"",
-   "d4a499812858": "‘상징적’·왜 영국은 사우디에 대한 공격 중 예멘의 후티를 제재했나?",
+   "c82262d9bcf2": "사우디 최대 정유시설 피격, 연기 관측",
+   "9900a604c6cb": "정유시설 검은 연기…후티 \"홍해 항구도 공격\"",
+   "d4a499812858": "영국 제재와 함께 리야드 상공 요격 소식 해설",
    "a2033c6b4c06": "사우디아라비아, 알-하사카의 시리아 보안군 시설에 대한 테러 공격 규탄",
-   "216e7a22e59b": "사우디아라비아, 기자 화재에 대해 이집트에 위로 전해",
+   "216e7a22e59b": "사우디, 이집트 화재 희생자에 조의 표명",
    "0e8ef9ff39ca": "사우디아라비아, 알-하사카 시리아 보안군 기지에 대한 테러 공격 규탄",
    "ba641d144bd3": "사우디 에너지 공격·해상 위험에 대부분의 걸프 시장 하락",
-   "88db44843f6d": "연합군: 후티가 자잔 정유시설 공격했다고 발표",
-   "a1853112038f": "사우디, 기자 화재 피해에 이집트에 애도 표명",
-   "9f6fd34d712f": "연합군, 자잔 정유시설 공격에 사용된 발사대 파괴",
+   "88db44843f6d": "연합: 후티가 자잔 정유시설 공격",
+   "a1853112038f": "사우디, 이집트 기자회견 희생자에 조의",
+   "9f6fd34d712f": "연합, 자잔 정유시설 공격 뒤 후티 미사일 기지 타격",
    "2cd7c52501b6": "중동 언론: 연합군의 자잔 정유시설 공격 발표 보도",
    "998618df4f0e": "부차관, 후티의 사우디아라비아 공격에 대해 대사들에게 설명",
    "91abd355a1e9": "후티 반군의 자잔항, 젯다항 공격 관련 신변 유의",
    "1475258d0fd1": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-   "d3c168c0a126": "사우디 지도자들, 기자 화재로 이집트 대통령에 조의 표해",
+   "d3c168c0a126": "사우디 지도부, 기자회견으로 이집트 화재 애도",
    "b9047b3302b8": "부외교장관, 후티의 사우디 공격에 대해 대사들에게 설명",
-   "31af4c6c7005": "사우디 주도 연합, 후티가 아람코의 자잔 정유공장 공격했다고 주장",
-   "a1334aac6f61": "사우디 지도부, 시시 대통령에 화재 희생자 애도 표해",
-   "1fcabda6507d": "후티의 사우디아라비아 자잔 정유공장 공격으로 네팔인 노동자 사망",
+   "31af4c6c7005": "아랍연합: 후티가 아람코 자잔 정유시설 공격",
+   "a1334aac6f61": "사우디 지도부, 이집트 대통령에 조의 전해",
+   "1fcabda6507d": "후티의 자잔 정유시설 공격으로 네팔인 근로자 1명 사망",
    "9f2e3db196fe": "살만 국왕·왕세자, 기자 화재 참사에 대해 이집트 대통령에 조문",
    "15cd032ddce7": "왕국, 쿠웨이트에 대한 치명적 드론 공격에 아랍권 규탄 주도",
-   "15c674e413fa": "알말리키: Jazan 정유공장은 후티 민병대의 공격을 받았다",
+   "15c674e413fa": "연합 대변인: 자잔 정유시설을 후티가 공격",
    "183a98241639": "사우디아라비아, 쿠웨이트에 대한 이란의 공격 강력 규탄",
-   "409f468907eb": "에너지부: 자잔 정유공장 공격으로 1명 사망·여러 명 부상"
+   "409f468907eb": "에너지부: 자잔 정유시설 피격으로 1명 사망·여러명 부상",
+   "3b88b0641921": "사우디 자잔 정유시설 공격으로 1명 사망·가동 중단",
+   "c76d938cb85e": "후티, 사우디 정유시설 이틀 연속 공격…네팔인 근로자 1명 사망"
   },
   "aiClusters": [
    {
     "articleIds": [
-     "1fcabda6507d",
-     "31af4c6c7005",
-     "9f6fd34d712f",
-     "88db44843f6d",
-     "c82262d9bcf2",
-     "9900a604c6cb",
-     "5349daa4330a",
      "7825738fa28b",
-     "517bb5498f49",
      "5276750d0e5a",
-     "24297620d191",
-     "d10f75881f71",
      "005a4870bad1",
      "c727fa42f2ce",
-     "aa59c3282e35"
+     "aa59c3282e35",
+     "24297620d191",
+     "04ab21584585",
+     "62939b8326c1",
+     "830677dfd24c",
+     "9900a604c6cb",
+     "c82262d9bcf2",
+     "3b88b0641921",
+     "31af4c6c7005",
+     "409f468907eb",
+     "15c674e413fa",
+     "9f6fd34d712f",
+     "88db44843f6d",
+     "1fcabda6507d"
     ],
-    "titleKo": "후티가 자잔(자잔) 정유시설을 공격했다고 주장",
+    "titleKo": "후티가 자잔 정유시설을 공격했다고 주장",
     "type": "energy",
     "regions": [
      "jafurah",
-     "dammam",
      "eastern"
     ],
     "regionInferred": true,
-    "inferNote": "기사들에 자잔(Jazan) 지명이 있어 동부주 근처일 가능성은 낮지만 요청에 따라 관련 지역을 포함해 추정했습니다.",
+    "inferNote": "기사 대다수가 자잔(Jazan)과 정유시설 피해를 보도했으나 일부는 지역명을 직접 반복하지 않아 동부·자푸라 인근으로 추정했어요.",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "5349daa4330a",
+     "517bb5498f49",
+     "9faa4b830e83",
+     "8e3a56544480"
+    ],
+    "titleKo": "후티가 자잔항과 젯다 인근 포구를 공격했다고 발표",
+    "type": "security",
+    "regions": [
+     "dammam",
+     "jeddah",
+     "eastern"
+    ],
+    "regionInferred": true,
+    "inferNote": "기사에 자잔항과 젯다항이 나오나 일부 기사에서 서부·홍해 항구라고만 해 동부지역 포함 여부는 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
@@ -6459,98 +6096,102 @@
    {
     "articleIds": [
      "1babbf1d3752",
-     "a17beabadfcf",
      "7b1dfcee57b6",
+     "a17beabadfcf",
      "f42db72b8b5e",
      "9ff87fdeda86",
      "76a974b72d4f",
+     "1a58d9b3411e",
      "122c293dc36b",
-     "da5556693e07",
-     "9010f93a5dc1",
-     "159c0c70d11c",
-     "830677dfd24c",
-     "106947387006",
-     "cb69a292aec4"
+     "4eb56e46a199",
+     "d4a499812858"
     ],
-    "titleKo": "후티가 리야드로 미사일·드론을 발사했다고 주장",
+    "titleKo": "사우디 방공이 리야드 방향 미사일과 드론을 요격했다고 발표",
     "type": "missile",
     "regions": [
      "riyadh",
      "eastern"
     ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "8e3a56544480",
-     "9faa4b830e83"
-    ],
-    "titleKo": "후티가 젯다 항 인근에서 드론을 발사했다고 주장",
-    "type": "security",
-    "regions": [
-     "jeddah"
-    ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "91abd355a1e9",
-     "1475258d0fd1"
-    ],
-    "titleKo": "외교부, 홍해 항구 공격 관련 사우디 전역 여행 경보 3단계 발령",
-    "type": "advisory",
-    "regions": [],
     "regionInferred": true,
-    "inferNote": "외교부 공지는 사우디 전역과 특정 항구를 언급해 지역을 일반적으로 추정했습니다.",
+    "inferNote": "기사들이 리야드와 동부 지역의 요격을 보도하나 일부 보도는 지명을 일반적으로 표기해 지역 포함을 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
+     "8d1a5cbc32ec",
+     "f8fb8c427c38",
+     "cf5be93b991e",
+     "da5556693e07",
      "998618df4f0e",
      "b9047b3302b8"
     ],
-    "titleKo": "사우디 외교차관이 후티 공격 관련 대사단에 설명했다고 발표",
+    "titleKo": "사우디 정부가 관련 외교·공식 입장을 발표",
+    "type": "korean",
+    "regions": [
+     "riyadh"
+    ],
+    "regionInferred": true,
+    "inferNote": "대부분 기사가 리야드의 외교부·국영통신 등 공식 발표를 보도해 리야드와 연관된 것으로 추정했어요.",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "1475258d0fd1"
+    ],
+    "titleKo": "외교부가 사우디 전역 여행경보와 공항 이용 주의를 안내",
+    "type": "advisory",
+    "regions": [
+     "airport"
+    ],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "ba641d144bd3",
+     "de35d3345b41"
+    ],
+    "titleKo": "후티 공격 보도로 국제유가와 금융시장이 영향받았다고 보도",
+    "type": "energy",
+    "regions": [],
+    "regionInferred": false,
+    "inferNote": "",
+    "claimOnly": false,
+    "evacuationOrder": false,
+    "occurredAt": null
+   },
+   {
+    "articleIds": [
+     "58e499a6e5dd",
+     "cb69a292aec4",
+     "106947387006"
+    ],
+    "titleKo": "사우디 고층 빌딩과 타워가 후티 드론에 피격됐다고 보도",
     "type": "security",
     "regions": [
      "riyadh"
     ],
-    "regionInferred": false,
-    "inferNote": "",
-    "claimOnly": false,
-    "evacuationOrder": false,
-    "occurredAt": null
-   },
-   {
-    "articleIds": [
-     "d4a499812858"
-    ],
-    "titleKo": "영국의 후티 제재 의미와 배경을 분석",
-    "type": "security",
-    "regions": [],
     "regionInferred": true,
-    "inferNote": "분석성 기사라 특정 지명이 명시되지 않아 일반 지역으로 두었습니다.",
+    "inferNote": "보도들이 리야드 금융지구·초고층 타워 피해를 언급해 리야드 지역으로 추정했어요.",
     "claimOnly": false,
     "evacuationOrder": false,
     "occurredAt": null
    },
    {
     "articleIds": [
-     "5ddb71a1ccb5"
+     "15cd032ddce7"
     ]
    },
    {
     "articleIds": [
-     "ba641d144bd3"
+     "5ddb71a1ccb5"
     ]
    },
    {
@@ -6570,42 +6211,7 @@
    },
    {
     "articleIds": [
-     "6b8ff848b74c"
-    ]
-   },
-   {
-    "articleIds": [
-     "de35d3345b41"
-    ]
-   },
-   {
-    "articleIds": [
-     "62939b8326c1"
-    ]
-   },
-   {
-    "articleIds": [
-     "1a58d9b3411e"
-    ]
-   },
-   {
-    "articleIds": [
-     "4eb56e46a199"
-    ]
-   },
-   {
-    "articleIds": [
-     "04ab21584585"
-    ]
-   },
-   {
-    "articleIds": [
-     "f8fb8c427c38"
-    ]
-   },
-   {
-    "articleIds": [
-     "8d1a5cbc32ec"
+     "91abd355a1e9"
     ]
    },
    {
@@ -6615,32 +6221,32 @@
    },
    {
     "articleIds": [
-     "cf5be93b991e"
-    ]
+     "9010f93a5dc1"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
-     "58e499a6e5dd"
-    ]
+     "159c0c70d11c"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
-     "d3ae9268480a"
-    ]
+     "d3ae9268480a",
+     "6b7342a51474"
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
      "6581d004675d"
-    ]
+    ],
+    "fromRule": true
    },
    {
     "articleIds": [
      "67b42cb21882"
-    ]
-   },
-   {
-    "articleIds": [
-     "6b7342a51474"
     ],
     "fromRule": true
    },
@@ -6756,6 +6362,12 @@
    {
     "articleIds": [
      "1a47822ae05e"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "d10f75881f71"
     ],
     "fromRule": true
    },
@@ -6916,77 +6528,16 @@
      "56b8eed99ebe"
     ],
     "fromRule": true
-   },
-   {
-    "articleIds": [
-     "a1334aac6f61"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "d3c168c0a126"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "a1853112038f",
-     "216e7a22e59b"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "adacb63cb96c"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "c76d938cb85e"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "9f2e3db196fe"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "15cd032ddce7"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "15c674e413fa"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "183a98241639"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "409f468907eb"
-    ],
-    "fromRule": true
    }
   ],
   "aiSummaryKo": [
-   "자잔 정유시설이 피격돼 연기와 가동 중단이 발생했다고 연합군과 언론이 보도했어요.",
-   "리야드를 향한 미사일과 드론이 요격되었다고 연합군과 언론이 전했어요.",
-   "젯다항 인근에서 드론이 요격되고 자잔항에 발사체가 떨어졌다고 발표되었어요.",
-   "외교부는 관련 공격을 언급하며 사우디 전역 여행경보 3단계를 발령했다고 공지했어요."
+   "자잔 정유시설이 후티의 공격으로 피해를 봤다고 연합과 언론이 보도했습니다.",
+   "자잔항과 젯다항 인근에서 후티의 발사체·드론이 요격되거나 낙탄이 있었다고 보도됩니다.",
+   "리야드 방향으로 발사된 미사일과 동부지역의 드론이 방공에 의해 요격되었다고 보도됩니다.",
+   "외교부가 항구·공항 이용 주의와 여행경보를 발령했다고 안내합니다."
   ],
-  "lastAiAt": 1795719030733,
-  "summaryAt": "2026-11-26T18:50:30.733Z",
+  "lastAiAt": 1795726233654,
+  "summaryAt": "2026-11-26T20:50:33.654Z",
   "promptVersion": 4
  }
 }
