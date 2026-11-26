@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-26T22:10:31.421Z",
-  "lastAttemptAt": "2026-11-26T22:10:31.421Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-26T22:20:35.586Z",
+  "lastAttemptAt": "2026-11-26T22:20:35.586Z",
   "aiSummary": true,
   "summaryAt": "2026-11-26T20:50:33.654Z",
   "aiError": null,
@@ -15,33 +15,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 22
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 79
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 13
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 429"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 5
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 128
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 64
+    "count": 41,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +57,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 62
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 70
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -132,6 +140,38 @@
      "reportedAt": "2026-11-26T21:37:04.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xZjFXcWE0Yjc5ZU1meVNOc0NrWHVodVNpcHoyazNxZnFjbzN5M296MWxoWkJMdmhmZ195OWFJSVloLThQeW9OQjQ2REJWSmszMWlJa1JERm9qMFYzOVhKSA?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "6c111cb6b109",
+   "articleIds": [
+    "eade934a2b16"
+   ],
+   "type": "missile",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "연합군, 예멘에서 후티 군사목표 50곳과 탄도미사일 발사대 파괴",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-26T22:20:35.586Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Coalition destroys 50 Houthi military targets and ballistic missile launcher in Yemen",
+     "titleKo": "연합군, 예멘에서 후티 군사목표 50곳과 탄도미사일 발사대 파괴",
+     "summary": "",
+     "reportedAt": "2026-11-26T21:20:43.000Z",
+     "dateOnly": false,
+     "url": "https://saudigazette.com.sa/article/666569/saudi-arabia/coalition-destroys-50-houthi-military-targets-and-ballistic-missile-launcher-in-yemen"
     }
    ]
   },
@@ -4278,6 +4318,20 @@
     "firstSeen": 1795729234366
    },
    {
+    "id": "eade934a2b16",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Coalition destroys 50 Houthi military targets and ballistic missile launcher in Yemen",
+    "snippet": "RIYADH — Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Restore Legitimacy in Yemen, said that a precision military operation was carried out to target the capabilities of the terrorist Houthi militia.\"We destroyed 50 legitimate military targets in Sanaa, Hodeidah, and Saada governorates,” he said. Al-Maliki also stated that the Coalition forces have destroyed a ballistic missile laun",
+    "url": "https://saudigazette.com.sa/article/666569/saudi-arabia/coalition-destroys-50-houthi-military-targets-and-ballistic-missile-launcher-in-yemen",
+    "reportedAt": 1795728043000,
+    "assumeSaudi": false,
+    "firstSeen": 1795731635586
+   },
+   {
     "id": "efbf2de8fa69",
     "feed": "Reuters",
     "cat": "wire",
@@ -6461,7 +6515,8 @@
    "409f468907eb": "에너지부: 자잔 정유시설 피격으로 1명 사망·여러명 부상",
    "3b88b0641921": "사우디 자잔 정유시설 공격으로 1명 사망·가동 중단",
    "c76d938cb85e": "후티, 사우디 정유시설 이틀 연속 공격…네팔인 근로자 1명 사망",
-   "efbf2de8fa69": "사우디 아람코의 자잔(Jazan) 정유공장 공격으로 노동자 사망·일부 가동 중단"
+   "efbf2de8fa69": "사우디 아람코의 자잔(Jazan) 정유공장 공격으로 노동자 사망·일부 가동 중단",
+   "eade934a2b16": "연합군, 예멘에서 후티 군사목표 50곳과 탄도미사일 발사대 파괴"
   },
   "aiClusters": [
    {
@@ -7017,6 +7072,12 @@
    {
     "articleIds": [
      "d6004de4bfae"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "eade934a2b16"
     ],
     "fromRule": true
    }
