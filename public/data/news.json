@@ -1,8 +1,8 @@
 {
  "meta": {
-  "status": "ok",
-  "lastSuccessAt": "2026-11-26T07:00:44.490Z",
-  "lastAttemptAt": "2026-11-26T07:00:44.490Z",
+  "status": "partial",
+  "lastSuccessAt": "2026-11-26T07:10:36.923Z",
+  "lastAttemptAt": "2026-11-26T07:10:36.923Z",
   "aiSummary": true,
   "summaryAt": "2026-11-26T07:00:44.490Z",
   "aiError": null,
@@ -15,33 +15,39 @@
   "sources": [
    {
     "name": "한국 주요 언론",
-    "ok": true,
-    "count": 25
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Reuters",
-    "ok": true,
-    "count": 88
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AP",
-    "ok": true,
-    "count": 12
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "AFP",
-    "ok": true,
-    "count": 15
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    },
    {
     "name": "Arab News",
     "ok": true,
-    "count": 128
+    "count": 50,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 59
+    "count": 41,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "Asharq Al-Awsat",
@@ -51,7 +57,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 109
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 503"
    },
    {
     "name": "외교부 여행경보",
@@ -65,8 +72,9 @@
    },
    {
     "name": "SPA (사우디 국영통신)",
-    "ok": true,
-    "count": 50
+    "ok": false,
+    "count": 0,
+    "error": "HTTP 503"
    }
   ],
   "mofaLatest": [
@@ -222,6 +230,38 @@
      "reportedAt": "2026-11-26T06:59:45.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/energy/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-3014091"
+    }
+   ]
+  },
+  {
+   "id": "26835f9ed16a",
+   "articleIds": [
+    "f6e4112b818d"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "claim",
+   "directive": null,
+   "title": "이란, 선박에 9차례 공격 주장에 따른 공급 우려로 유가 상승",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-26T07:10:36.923Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Arab News",
+     "cat": "local",
+     "title": "Oil rises on supply concerns as Iran claims 9 strikes on ships",
+     "titleKo": "이란, 선박에 9차례 공격 주장에 따른 공급 우려로 유가 상승",
+     "summary": "",
+     "reportedAt": "2026-11-26T06:59:45.000Z",
+     "dateOnly": false,
+     "url": "https://www.arabnews.com/energy/oil-rises-on-supply-concerns-as-iran-claims-9-strikes-on-ships-3014091"
     }
    ]
   },
@@ -2359,38 +2399,6 @@
      "url": "https://www.0404.go.kr"
     }
    ]
-  },
-  {
-   "id": "ea93a3263953",
-   "articleIds": [
-    "06df90edff2f"
-   ],
-   "type": "missile",
-   "sev": "high",
-   "status": "single",
-   "directive": null,
-   "title": "요격미사일 소진에 급해진 사우디…美 벗어나 韓·우크라 등 다변화",
-   "titleAuto": false,
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-23T07:20:36.372Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "뉴스1",
-     "cat": "kr",
-     "title": "요격미사일 소진에 급해진 사우디…美 벗어나 韓·우크라 등 다변화",
-     "titleKo": null,
-     "summary": "사우디가 요격미사일 소진 문제로 무기 공급처 다변화를 추진한다고 보도했어요.",
-     "reportedAt": "2026-11-23T07:09:25.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8ya1R5cUZzUkZ5Si1iX0x1ZjBuUTFEcXdnSzJBbHpuS29ud1Q5d2NTV3hNVTNVUEtaZVNfd0RzcHlTY2Rub3lLVjhvcVY0cFQwY0hkRGF4Z1QxbWtyYXBIQTF3?oc=5"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -3280,6 +3288,20 @@
  ],
  "_cache": {
   "articles": [
+   {
+    "id": "f6e4112b818d",
+    "feed": "Arab News",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Arab News",
+    "title": "Oil rises on supply concerns as Iran claims 9 strikes on ships",
+    "snippet": "SINGAPORE: Crude oil prices rose in early Asian trade on Thursday, extending gains from the previous session on supply concerns after Yemen’s Houthis said they had ​hit Saudi Arabia’s largest oil refinery and at least two ships hit ‌Iranian mines in the Strait of Hormuz. Brent crude futures were 10 cents, or 0.1 percent, higher at $94.71 a barrel by 04:37 a.m. Saudi time. US West Texas Intermediat",
+    "url": "https://www.arabnews.com/energy/oil-rises-on-supply-concerns-as-iran-claims-9-strikes-on-ships-3014091",
+    "reportedAt": 1795676385000,
+    "assumeSaudi": false,
+    "firstSeen": 1795677036923
+   },
    {
     "id": "34c9e775292f",
     "feed": "Arab News",
@@ -4781,25 +4803,10 @@
     "presetType": "korean",
     "assumeSaudi": true,
     "firstSeen": 1795623042495
-   },
-   {
-    "id": "06df90edff2f",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "뉴스1",
-    "title": "요격미사일 소진에 급해진 사우디…美 벗어나 韓·우크라 등 다변화",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8ya1R5cUZzUkZ5Si1iX0x1ZjBuUTFEcXdnSzJBbHpuS29ud1Q5d2NTV3hNVTNVUEtaZVNfd0RzcHlTY2Rub3lLVjhvcVY0cFQwY0hkRGF4Z1QxbWtyYXBIQTF3?oc=5",
-    "reportedAt": 1795417765000,
-    "assumeSaudi": false,
-    "firstSeen": 1795418436372
    }
   ],
   "summaries": {
    "e8d9788b238e": "아랍 내무장관회의가 후티의 적대행위를 규탄했다고 보도했어요.",
-   "06df90edff2f": "사우디가 요격미사일 소진 문제로 무기 공급처 다변화를 추진한다고 보도했어요.",
    "56b8eed99ebe": "연합이 남부 지역으로 향한 후티 드론을 격추했다고 보도했어요.",
    "8dcce82f7795": "경보 없이 리야드 최고층 빌딩이 또 피격됐다고 보도했어요.",
    "5ce78743e46f": "연합군이 리야드 타워가 테러 공격을 받았다고 보도했어요.",
@@ -4906,7 +4913,6 @@
   "titlesKo": {
    "e8d9788b238e": "아랍 내무장관회의, 후티 적대행위 규탄",
    "56b8eed99ebe": "연합이 남부 향한 후티 드론 격추 보도",
-   "06df90edff2f": "사우디, 요격미사일 소진에 무기 다변화 추진 보도",
    "6df3009b0ebf": "연합군 대변인, 리야드 금융지구 마천루가 표적됐다고",
    "5ce78743e46f": "연합군: 리야드 타워 테러 공격 보도",
    "a5c83094f1a7": "연합군: 리야드 금융지구 타워 테러 공격받아",
@@ -5006,7 +5012,8 @@
    "f42db72b8b5e": "리야드 상공 미사일 요격 보도",
    "122c293dc36b": "사우디, 예멘 항구공습 뒤 수도 겨냥 미사일 격추 보도",
    "34c9e775292f": "후티, 사우디 최대 정유시설과 선박들에 기습 타격 주장",
-   "7b1dfcee57b6": "연합군, 리야드 향한 탄도미사일 2발과 동부 UAV 2대 파괴 발표"
+   "7b1dfcee57b6": "연합군, 리야드 향한 탄도미사일 2발과 동부 UAV 2대 파괴 발표",
+   "f6e4112b818d": "이란, 선박에 9차례 공격 주장에 따른 공급 우려로 유가 상승"
   },
   "aiClusters": [
    {
@@ -5420,7 +5427,7 @@
    },
    {
     "articleIds": [
-     "06df90edff2f"
+     "f6e4112b818d"
     ],
     "fromRule": true
    }
