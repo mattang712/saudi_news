@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "lastSuccessAt": "2026-11-27T13:00:46.934Z",
-  "lastAttemptAt": "2026-11-27T13:00:46.934Z",
+  "lastSuccessAt": "2026-11-27T13:10:33.662Z",
+  "lastAttemptAt": "2026-11-27T13:10:33.662Z",
   "aiSummary": true,
   "summaryAt": "2026-11-27T11:50:30.804Z",
   "aiError": null,
@@ -15,17 +15,18 @@
    {
     "name": "한국 주요 언론",
     "ok": true,
-    "count": 15
+    "count": 25,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "Reuters",
     "ok": true,
-    "count": 59
+    "count": 60
    },
    {
     "name": "AP",
     "ok": true,
-    "count": 22
+    "count": 24
    },
    {
     "name": "AFP",
@@ -40,7 +41,7 @@
    {
     "name": "Saudi Gazette",
     "ok": true,
-    "count": 69
+    "count": 70
    },
    {
     "name": "Asharq Al-Awsat",
@@ -50,7 +51,8 @@
    {
     "name": "Al Jazeera",
     "ok": true,
-    "count": 58
+    "count": 55,
+    "note": "일부 주소 실패: HTTP 429"
    },
    {
     "name": "외교부 여행경보",
@@ -65,7 +67,7 @@
    {
     "name": "SPA (사우디 국영통신)",
     "ok": true,
-    "count": 81
+    "count": 84
    }
   ],
   "mofaLatest": [
@@ -102,6 +104,38 @@
   ]
  },
  "events": [
+  {
+   "id": "661a40608b74",
+   "articleIds": [
+    "f101f4b3b0b3"
+   ],
+   "type": "energy",
+   "sev": "high",
+   "status": "single",
+   "directive": null,
+   "title": "후티의 자잔 정유·항만 공격 후 사우디 공격에 대한 규탄 확산",
+   "titleAuto": true,
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-27T13:10:33.662Z",
+   "aiNote": null,
+   "sources": [
+    {
+     "outlet": "Saudi Gazette",
+     "cat": "local",
+     "title": "Condemnations mount over attacks on Saudi Arabia following Houthi strikes on Jazan refinery and port",
+     "titleKo": "후티의 자잔 정유·항만 공격 후 사우디 공격에 대한 규탄 확산",
+     "summary": "",
+     "reportedAt": "2026-11-27T12:55:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZ1pCWkUxaEpiSk4wcjNvUTlpN1FaVDBCZ0kzb2VJV3ZNVEhLX29WMU5ZTFRUYjlONF9fRmtWSTRNdGNTdExocWl3OUp6cWNtYTdBZFc5WGxhcGdSYmowNFNJSmd3alEwTVdJOFdqa1FZbjhXT2Y2YnEwdUN5WHdlVTR0ZXJRd2hEU2x5cW56czl5U2xHUE1YN19KbTVzSTE4Nk1RMlRkVFh1eWpZV0Q1VWI1ZHViNXo5RDFval9UblEtMG1jQTlmOXlTYThWbGh4amFqX2xCb2xDTnFlcmVKMFRlcjBlaTRWLWFOXw?oc=5"
+    }
+   ]
+  },
   {
    "id": "e9982f2898cd",
    "articleIds": [
@@ -286,49 +320,6 @@
      "reportedAt": "2026-11-27T11:40:46.000Z",
      "dateOnly": false,
      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE91RHFRVTBraV9zeTFyQXY3ejB0dzh1RXRHWDZTQ05zYmNIOXNZMEtvaGhEMktWNi1nc3VSTkk0a2VDa3BqLTYxd3FR?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "d9b5f1aba815",
-   "articleIds": [
-    "77a3e56a60e0",
-    "c8e11426466d"
-   ],
-   "type": "advisory",
-   "sev": "mid",
-   "status": "official",
-   "directive": "advice",
-   "title": "걸프·아랍국가들, 사우디 시설 공격 규탄을 발표",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-27T05:10:31.662Z",
-   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
-   "sources": [
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Bahrain Strongly Condemns Continued Terrorist Attacks by Iran-Backed Houthi Militia on Civilian and Economic Facilities in Saudi Arabia",
-     "titleKo": "바레인, 이란 지원 후티의 사우디 시설 공격 강력 규탄",
-     "summary": "바레인은 이란 지원 후티의 사우디 민간·경제 시설 공격을 강력히 규탄했다고 발표했어요.",
-     "reportedAt": "2026-11-27T04:54:46.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9BUS1YM1hFVzVlRWFhbGF1OS1IamRiUS1yd1JmNHRDUi1zdUxmNjFDWjU4X2pscl9NSnR3VVFMYUI0a1gwMXpxWnVn?oc=5"
-    },
-    {
-     "outlet": "SPA (사우디 국영통신)",
-     "cat": "local",
-     "title": "Algeria Condemns Attacks on Saudi Arabia's Vital and Civilian Facilities",
-     "titleKo": "알제리, 사우디 중요 시설 공격 규탄",
-     "summary": "알제리는 사우디의 민간·중요 시설에 대한 공격을 규탄했다고 발표했어요.",
-     "reportedAt": "2026-11-27T09:22:33.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90WWpBUjNaTTc2MUpRcURYRThOQjkySGxhbHpUVU4zM1poczhqQ2hSNEhPSzFFeWlLMk02aE5YX2pJVGtWR08zRldB?oc=5"
     }
    ]
   },
@@ -608,9 +599,9 @@
      "title": "후티 반군, 사우디 아람코 정유시설 공격…일부 가동 중단",
      "titleKo": null,
      "summary": "후티가 아람코 정유시설을 공격해 일부 가동이 중단됐다고 전했어요.",
-     "reportedAt": "2026-11-26T21:37:04.000Z",
+     "reportedAt": "2026-11-26T21:07:00.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xZjFXcWE0Yjc5ZU1meVNOc0NrWHVodVNpcHoyazNxZnFjbzN5M296MWxoWkJMdmhmZ195OWFJSVloLThQeW9OQjQ2REJWSmszMWlJa1JERm9qMFYzOVhKSA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMC1DSVV0M21vR29lMFZtN2pMbV9NRjc0RVFkM05NejN0Qm5nSTRFd1d4Tl85N09VOGp6WlZIVHc0blVPZ0ZCT0tNczZjc2lSWUY4ellTc01QdUVaTEtvTXVib0RtUEJlSWpvcWYxV3NqS0RRMDNDaWxnMU90UVU0NjFR?oc=5"
     },
     {
      "outlet": "뉴시스",
@@ -681,6 +672,49 @@
      "reportedAt": "2026-11-27T07:02:34.000Z",
      "dateOnly": false,
      "url": "https://www.arabnews.com/energy/oil-on-track-to-snap-3-week-losing-streak-over-supply-fears-3014225"
+    }
+   ]
+  },
+  {
+   "id": "d9b5f1aba815",
+   "articleIds": [
+    "c8e11426466d",
+    "77a3e56a60e0"
+   ],
+   "type": "advisory",
+   "sev": "mid",
+   "status": "official",
+   "directive": "advice",
+   "title": "걸프·아랍국가들, 사우디 시설 공격 규탄을 발표",
+   "titleAuto": true,
+   "regions": [
+    "riyadh"
+   ],
+   "inferred": false,
+   "inferNote": null,
+   "occurredAt": null,
+   "collectedAt": "2026-11-27T05:10:31.662Z",
+   "aiNote": "제목과 요약은 AI가 기사 내용만 보고 정리했어요.",
+   "sources": [
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Algeria Condemns Attacks on Saudi Arabia's Vital and Civilian Facilities",
+     "titleKo": "알제리, 사우디 중요 시설 공격 규탄",
+     "summary": "알제리는 사우디의 민간·중요 시설에 대한 공격을 규탄했다고 발표했어요.",
+     "reportedAt": "2026-11-27T02:21:00.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90WWpBUjNaTTc2MUpRcURYRThOQjkySGxhbHpUVU4zM1poczhqQ2hSNEhPSzFFeWlLMk02aE5YX2pJVGtWR08zRldB?oc=5"
+    },
+    {
+     "outlet": "SPA (사우디 국영통신)",
+     "cat": "local",
+     "title": "Bahrain Strongly Condemns Continued Terrorist Attacks by Iran-Backed Houthi Militia on Civilian and Economic Facilities in Saudi Arabia",
+     "titleKo": "바레인, 이란 지원 후티의 사우디 시설 공격 강력 규탄",
+     "summary": "바레인은 이란 지원 후티의 사우디 민간·경제 시설 공격을 강력히 규탄했다고 발표했어요.",
+     "reportedAt": "2026-11-27T04:54:46.000Z",
+     "dateOnly": false,
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9BUS1YM1hFVzVlRWFhbGF1OS1IamRiUS1yd1JmNHRDUi1zdUxmNjFDWjU4X2pscl9NSnR3VVFMYUI0a1gwMXpxWnVn?oc=5"
     }
    ]
   },
@@ -1137,9 +1171,9 @@
      "title": "[영상] '검은 연기띠' 사우디 정유시설…후티 \"홍해 항구도 공격\"",
      "titleKo": null,
      "summary": "정유시설에서 검은 연기가 보였고 후티가 홍해 항구 공격도 주장했다고 보도했어요.",
-     "reportedAt": "2026-11-26T09:53:31.000Z",
+     "reportedAt": "2026-11-26T09:30:42.000Z",
      "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSVA3ZEFIbEFTUTNnckhTbjd1TDVQOW51NWJubHBiRkF6UzR6ZEhXSUVwQUEzdnNEeTdaZmZSdnFVTllUakJiT282WVpScVRMWFhnQ3JuckxzQzlWZ2U1Q9IBYEFVX3lxTE1zSVA3ZEFIbEFTUTNnckhTbjd1TDVQOW51NWJubHBiRkF6UzR6ZEhXSUVwQUEzdnNEeTdaZmZSdnFVTllUakJiT282WVpScVRMWFhnQ3JuckxzQzlWZ2U1Qw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKS9IBYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKSw?oc=5"
     }
    ]
   },
@@ -3149,18 +3183,15 @@
    ]
   },
   {
-   "id": "5f22fcf0485a",
+   "id": "e7235e1fb6c9",
    "articleIds": [
-    "dfa45edf708f",
-    "fae2b41ffcb1",
-    "c6c7edceb38b",
     "33cb51047f08"
    ],
    "type": "security",
    "sev": "mid",
-   "status": "multi",
+   "status": "single",
    "directive": null,
-   "title": "후티의 리야드 타워 공격으로 11명 부상",
+   "title": "후티 공격으로 리야드 타워 11명 부상(사우디 민방위)",
    "titleAuto": true,
    "regions": [
     "riyadh"
@@ -3168,39 +3199,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-24T15:20:36.551Z",
+   "collectedAt": "2026-11-24T16:40:35.124Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "11 injured in Houthi attack on tower in Riyadh’s financial district",
-     "titleKo": "후티의 리야드 타워 공격으로 11명 부상",
-     "summary": "리야드 금융지구 타워에 대한 후티의 공격으로 11명이 부상했다고 보도됐어요.",
-     "reportedAt": "2026-11-24T13:08:51.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSm5HSE1KMnRpRWd2Qk4waTRWVVBfUzFwVjIweC1pZE9Ia0VueF8tSVdTT0RqN0VMSC02T19uQVNVdFBKR3hXVURWcUI3bGppR3J4WjNCVF82R0R0U002MVpQRG96NVotMU96MkctbmdPajR6WWtKSzhNV1RMai15bDc5eUVBb0tfVnEyX0pMTUQ0ZEJkdUt4MmVDbU14U0dMQVU0NU16WmRtOTduS29TZHh3?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "11 injured after Houthi attack on tower in Riyadh’s financial district",
-     "titleKo": "리야드 금융지구 타워 공격으로 11명 부상",
-     "summary": "해당 타워 공격으로 11명이 부상했다고 보도됐어요.",
-     "reportedAt": "2026-11-24T13:08:51.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON3Y4a0plTmhBdzZHeERsSUwtVG9UeVNXOU1BbEFBaGNXd3ZFdVFjczZBQ2I2bzNqbUFkQ3lBTUpCdlFuNUNDZTNnUUVCSjFRdGpRNE5EaGFvTVhSOGpWbnBRRmZVUTViaTBEVENpMTRYZ193TXJYNWpTMkp1VmxOaVE1SU5DSnlKZ2tpblBHZWV0TXJlUmZTazhQS1dqak5WRk04U2NPTnBxX1hpY20wRVE0dkJrUQ?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "11 injured after tower in Riyadh’s financial district targeted in ‘terrorist attack’",
-     "titleKo": "연합군, 리야드 타워에 테러 공격 있었다고 발표",
-     "summary": "연합군이 리야드 금융지구 타워에 대한 테러 공격을 발표했다고 보도했어요.",
-     "reportedAt": "2026-11-24T13:08:51.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/11-injured-after-tower-in-riyadhs-financial-district-targeted-in-terrorist-attack-3013857"
-    },
     {
      "outlet": "Al Jazeera",
      "cat": "local",
@@ -3353,10 +3354,8 @@
    ]
   },
   {
-   "id": "0e95fbc22d77",
+   "id": "ba102e383474",
    "articleIds": [
-    "a5c83094f1a7",
-    "5ce78743e46f",
     "276b32ebc680",
     "b604cfb1057f",
     "d6d7657e3bc6",
@@ -3366,7 +3365,7 @@
    "sev": "mid",
    "status": "multi",
    "directive": null,
-   "title": "연합군: 리야드 금융지구 타워 테러 공격받아",
+   "title": "리야드 금융지구 타워 테러 공격 발표",
    "titleAuto": true,
    "regions": [
     "riyadh"
@@ -3374,29 +3373,9 @@
    "inferred": false,
    "inferNote": null,
    "occurredAt": null,
-   "collectedAt": "2026-11-24T13:20:32.058Z",
+   "collectedAt": "2026-11-24T14:10:34.258Z",
    "aiNote": null,
    "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition says tower in Riyadh's financial subjected to 'terrorist attack'",
-     "titleKo": "연합군: 리야드 금융지구 타워 테러 공격받아",
-     "summary": "연합군은 리야드 금융지구 타워가 테러 공격을 받았다고 밝혔다고 보도됐어요.",
-     "reportedAt": "2026-11-24T13:08:51.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVdTSUNISjA1N1VwRF9KQklmSVBjSmJ1bG9yUVZrM1dIZmNJVURQZ2JISm1yVkxxMnN0bml0S1lOZEFIV18takx1U1dnTzdlWDNnbHRQb1FPaUlZM2pVLUs5SXFmS0pjMVUtMzZWQWwxWHNreEZZeGJqejYwQldpelZSLXc5aE1WZEJNNWxSVjdxZFlYZmROdHRudUFvT0NpVVZLT3k0WUpwYmhQTFhpWXphTWVQdHFW?oc=5"
-    },
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition says tower in Riyadh's financial district subjected to 'terrorist attack'",
-     "titleKo": "연합군: 리야드 타워 테러 공격 보도",
-     "summary": "연합군이 리야드 타워가 테러 공격을 받았다고 보도했어요.",
-     "reportedAt": "2026-11-24T13:08:51.000Z",
-     "dateOnly": false,
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGg4R3VOeWZfYnZJYmdLQnlfeTluNWE2YTdEYncxbm9CaXh4SXprczVMWmNCR29kTUY4c194VUxPdHBWY2w3aUpkTncwSmJsU1BtVXVISFJrdkwyWFA4RjhZZjdGeXpSSDJWdnJla3JTWlBnOEZrMDdncGhpTnhhaUtha2FIa1ViRmRGcHZsam41cVB1SXlHSXlvclRNdXNiemRhZHRDSWpGV1daMXhmS2JvQXVETDBVZGRELXMtQVFvcDh4?oc=5"
-    },
     {
      "outlet": "Arab News",
      "cat": "local",
@@ -3502,38 +3481,6 @@
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYWRscG14RDE4OVBLaGIwWjB6S0g3U1dpUGpia2w3eVJIc3JjajF1aDhHeVdxVDRGYjNyXzhpZXhmVlhYbmZTaU92UWcwZGRCdFZzZUpEOHV1VGN4TkhCcVRWeFJGa1hocFpyRDFXM3VEa0hCaHFBdTA4ZzZMMUJldkE5bk1KUHVobVN2b3oxVHNmdjNCSklxbE9rbGtqbmtSQzRxM3lzc3B6XzEwSG8tVkx3cElaMmZ0V0ZDaTI4M1VZMUk?oc=5"
     }
    ]
-  },
-  {
-   "id": "424048843564",
-   "articleIds": [
-    "6df3009b0ebf"
-   ],
-   "type": "security",
-   "sev": "mid",
-   "status": "single",
-   "directive": null,
-   "title": "연합군 대변인, 리야드 금융지구 마천루가 표적됐다고",
-   "titleAuto": true,
-   "regions": [
-    "riyadh"
-   ],
-   "inferred": false,
-   "inferNote": null,
-   "occurredAt": null,
-   "collectedAt": "2026-11-24T13:10:31.538Z",
-   "aiNote": null,
-   "sources": [
-    {
-     "outlet": "Arab News",
-     "cat": "local",
-     "title": "Coalition says skyscraper at Riyadh financial district targeted in cowardly attack",
-     "titleKo": "연합군 대변인, 리야드 금융지구 마천루가 표적됐다고",
-     "summary": "연합군 대변인이 리야드 금융지구의 마천루가 표적이 됐다고 말했다고 전했어요.",
-     "reportedAt": "2026-11-24T13:08:51.000Z",
-     "dateOnly": false,
-     "url": "https://www.arabnews.com/saudi-arabia/coalition-says-skyscraper-at-riyadh-financial-district-targeted-in-cowardly-attack-3013857"
-    }
-   ]
   }
  ],
  "timeline": [
@@ -3574,24 +3521,6 @@
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE91RHFRVTBraV9zeTFyQXY3ejB0dzh1RXRHWDZTQ05zYmNIOXNZMEtvaGhEMktWNi1nc3VSTkk0a2VDa3BqLTYxd3FR?oc=5"
   },
   {
-   "id": "c8e11426466d",
-   "outlet": "SPA (사우디 국영통신)",
-   "official": true,
-   "claim": false,
-   "type": "security",
-   "sev": "mid",
-   "regions": [
-    "all"
-   ],
-   "inferred": false,
-   "titleKo": "알제리, 사우디 중요 시설 공격 규탄",
-   "title": "Algeria Condemns Attacks on Saudi Arabia's Vital and Civilian Facilities",
-   "summary": "알제리는 사우디의 민간·중요 시설에 대한 공격을 규탄했다고 발표했어요.",
-   "reportedAt": "2026-11-27T09:22:33.000Z",
-   "dateOnly": false,
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90WWpBUjNaTTc2MUpRcURYRThOQjkySGxhbHpUVU4zM1poczhqQ2hSNEhPSzFFeWlLMk02aE5YX2pJVGtWR08zRldB?oc=5"
-  },
-  {
    "id": "77a3e56a60e0",
    "outlet": "SPA (사우디 국영통신)",
    "official": true,
@@ -3608,6 +3537,24 @@
    "reportedAt": "2026-11-27T04:54:46.000Z",
    "dateOnly": false,
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9BUS1YM1hFVzVlRWFhbGF1OS1IamRiUS1yd1JmNHRDUi1zdUxmNjFDWjU4X2pscl9NSnR3VVFMYUI0a1gwMXpxWnVn?oc=5"
+  },
+  {
+   "id": "c8e11426466d",
+   "outlet": "SPA (사우디 국영통신)",
+   "official": true,
+   "claim": false,
+   "type": "security",
+   "sev": "mid",
+   "regions": [
+    "all"
+   ],
+   "inferred": false,
+   "titleKo": "알제리, 사우디 중요 시설 공격 규탄",
+   "title": "Algeria Condemns Attacks on Saudi Arabia's Vital and Civilian Facilities",
+   "summary": "알제리는 사우디의 민간·중요 시설에 대한 공격을 규탄했다고 발표했어요.",
+   "reportedAt": "2026-11-27T02:21:00.000Z",
+   "dateOnly": false,
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90WWpBUjNaTTc2MUpRcURYRThOQjkySGxhbHpUVU4zM1poczhqQ2hSNEhPSzFFeWlLMk02aE5YX2pJVGtWR08zRldB?oc=5"
   },
   {
    "id": "efbf2de8fa69",
@@ -4712,6 +4659,20 @@
  "_cache": {
   "articles": [
    {
+    "id": "f101f4b3b0b3",
+    "feed": "Saudi Gazette",
+    "cat": "local",
+    "official": false,
+    "lang": "en",
+    "outlet": "Saudi Gazette",
+    "title": "Condemnations mount over attacks on Saudi Arabia following Houthi strikes on Jazan refinery and port",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZ1pCWkUxaEpiSk4wcjNvUTlpN1FaVDBCZ0kzb2VJV3ZNVEhLX29WMU5ZTFRUYjlONF9fRmtWSTRNdGNTdExocWl3OUp6cWNtYTdBZFc5WGxhcGdSYmowNFNJSmd3alEwTVdJOFdqa1FZbjhXT2Y2YnEwdUN5WHdlVTR0ZXJRd2hEU2x5cW56czl5U2xHUE1YN19KbTVzSTE4Nk1RMlRkVFh1eWpZV0Q1VWI1ZHViNXo5RDFval9UblEtMG1jQTlmOXlTYThWbGh4amFqX2xCb2xDTnFlcmVKMFRlcjBlaTRWLWFOXw?oc=5",
+    "reportedAt": 1795784100000,
+    "assumeSaudi": false,
+    "firstSeen": 1795785033662
+   },
+   {
     "id": "39c6b80d081d",
     "feed": "Al Jazeera",
     "cat": "local",
@@ -4738,20 +4699,6 @@
     "reportedAt": 1795779646000,
     "assumeSaudi": false,
     "firstSeen": 1795780230804
-   },
-   {
-    "id": "c8e11426466d",
-    "feed": "SPA (사우디 국영통신)",
-    "cat": "local",
-    "official": true,
-    "lang": "en",
-    "outlet": "SPA (사우디 국영통신)",
-    "title": "Algeria Condemns Attacks on Saudi Arabia's Vital and Civilian Facilities",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90WWpBUjNaTTc2MUpRcURYRThOQjkySGxhbHpUVU4zM1poczhqQ2hSNEhPSzFFeWlLMk02aE5YX2pJVGtWR08zRldB?oc=5",
-    "reportedAt": 1795771353000,
-    "assumeSaudi": false,
-    "firstSeen": 1795756231662
    },
    {
     "id": "54f5368b99fc",
@@ -4852,6 +4799,20 @@
     "firstSeen": 1795749633821
    },
    {
+    "id": "c8e11426466d",
+    "feed": "SPA (사우디 국영통신)",
+    "cat": "local",
+    "official": true,
+    "lang": "en",
+    "outlet": "SPA (사우디 국영통신)",
+    "title": "Algeria Condemns Attacks on Saudi Arabia's Vital and Civilian Facilities",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90WWpBUjNaTTc2MUpRcURYRThOQjkySGxhbHpUVU4zM1poczhqQ2hSNEhPSzFFeWlLMk02aE5YX2pJVGtWR08zRldB?oc=5",
+    "reportedAt": 1795746060000,
+    "assumeSaudi": false,
+    "firstSeen": 1795756231662
+   },
+   {
     "id": "27df5c55ecfe",
     "feed": "한국 주요 언론",
     "cat": "kr",
@@ -4908,20 +4869,6 @@
     "firstSeen": 1795734048159
    },
    {
-    "id": "d6004de4bfae",
-    "feed": "한국 주요 언론",
-    "cat": "kr",
-    "official": false,
-    "lang": "ko",
-    "outlet": "아시아경제",
-    "title": "후티 반군, 사우디 아람코 정유시설 공격…일부 가동 중단",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xZjFXcWE0Yjc5ZU1meVNOc0NrWHVodVNpcHoyazNxZnFjbzN5M296MWxoWkJMdmhmZ195OWFJSVloLThQeW9OQjQ2REJWSmszMWlJa1JERm9qMFYzOVhKSA?oc=5",
-    "reportedAt": 1795729024000,
-    "assumeSaudi": false,
-    "firstSeen": 1795729234366
-   },
-   {
     "id": "eade934a2b16",
     "feed": "Saudi Gazette",
     "cat": "local",
@@ -4934,6 +4881,20 @@
     "reportedAt": 1795728043000,
     "assumeSaudi": false,
     "firstSeen": 1795731635586
+   },
+   {
+    "id": "d6004de4bfae",
+    "feed": "한국 주요 언론",
+    "cat": "kr",
+    "official": false,
+    "lang": "ko",
+    "outlet": "아시아경제",
+    "title": "후티 반군, 사우디 아람코 정유시설 공격…일부 가동 중단",
+    "snippet": "",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMC1DSVV0M21vR29lMFZtN2pMbV9NRjc0RVFkM05NejN0Qm5nSTRFd1d4Tl85N09VOGp6WlZIVHc0blVPZ0ZCT0tNczZjc2lSWUY4ellTc01QdUVaTEtvTXVib0RtUEJlSWpvcWYxV3NqS0RRMDNDaWxnMU90UVU0NjFR?oc=5",
+    "reportedAt": 1795727220000,
+    "assumeSaudi": false,
+    "firstSeen": 1795729234366
    },
    {
     "id": "efbf2de8fa69",
@@ -5336,8 +5297,8 @@
     "outlet": "연합뉴스",
     "title": "[영상] '검은 연기띠' 사우디 정유시설…후티 \"홍해 항구도 공격\"",
     "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSVA3ZEFIbEFTUTNnckhTbjd1TDVQOW51NWJubHBiRkF6UzR6ZEhXSUVwQUEzdnNEeTdaZmZSdnFVTllUakJiT282WVpScVRMWFhnQ3JuckxzQzlWZ2U1Q9IBYEFVX3lxTE1zSVA3ZEFIbEFTUTNnckhTbjd1TDVQOW51NWJubHBiRkF6UzR6ZEhXSUVwQUEzdnNEeTdaZmZSdnFVTllUakJiT282WVpScVRMWFhnQ3JuckxzQzlWZ2U1Qw?oc=5",
-    "reportedAt": 1795686811000,
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKS9IBYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKSw?oc=5",
+    "reportedAt": 1795685442000,
     "assumeSaudi": false,
     "firstSeen": 1795686632800
    },
@@ -6774,105 +6735,15 @@
     "reportedAt": 1795526544000,
     "assumeSaudi": false,
     "firstSeen": 1795527632019
-   },
-   {
-    "id": "dfa45edf708f",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "11 injured in Houthi attack on tower in Riyadh’s financial district",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSm5HSE1KMnRpRWd2Qk4waTRWVVBfUzFwVjIweC1pZE9Ia0VueF8tSVdTT0RqN0VMSC02T19uQVNVdFBKR3hXVURWcUI3bGppR3J4WjNCVF82R0R0U002MVpQRG96NVotMU96MkctbmdPajR6WWtKSzhNV1RMai15bDc5eUVBb0tfVnEyX0pMTUQ0ZEJkdUt4MmVDbU14U0dMQVU0NU16WmRtOTduS29TZHh3?oc=5",
-    "reportedAt": 1795525731000,
-    "assumeSaudi": false,
-    "firstSeen": 1795534830718
-   },
-   {
-    "id": "fae2b41ffcb1",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "11 injured after Houthi attack on tower in Riyadh’s financial district",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON3Y4a0plTmhBdzZHeERsSUwtVG9UeVNXOU1BbEFBaGNXd3ZFdVFjczZBQ2I2bzNqbUFkQ3lBTUpCdlFuNUNDZTNnUUVCSjFRdGpRNE5EaGFvTVhSOGpWbnBRRmZVUTViaTBEVENpMTRYZ193TXJYNWpTMkp1VmxOaVE1SU5DSnlKZ2tpblBHZWV0TXJlUmZTazhQS1dqak5WRk04U2NPTnBxX1hpY20wRVE0dkJrUQ?oc=5",
-    "reportedAt": 1795525731000,
-    "assumeSaudi": false,
-    "firstSeen": 1795534241731
-   },
-   {
-    "id": "a5c83094f1a7",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says tower in Riyadh's financial subjected to 'terrorist attack'",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVdTSUNISjA1N1VwRF9KQklmSVBjSmJ1bG9yUVZrM1dIZmNJVURQZ2JISm1yVkxxMnN0bml0S1lOZEFIV18takx1U1dnTzdlWDNnbHRQb1FPaUlZM2pVLUs5SXFmS0pjMVUtMzZWQWwxWHNreEZZeGJqejYwQldpelZSLXc5aE1WZEJNNWxSVjdxZFlYZmROdHRudUFvT0NpVVZLT3k0WUpwYmhQTFhpWXphTWVQdHFW?oc=5",
-    "reportedAt": 1795525731000,
-    "assumeSaudi": false,
-    "firstSeen": 1795527632019
-   },
-   {
-    "id": "c6c7edceb38b",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "11 injured after tower in Riyadh’s financial district targeted in ‘terrorist attack’",
-    "snippet": "RIYADH: A tower in the Kingdom’s financial district was targeted in a terrorist attack, the Spokesperson for the Coalition to Restore Legitimacy in Yemen Maj. Gen. Turki Al-Malki said on Tuesday. Competent authorities are responding at the site, he added. Later on in the day, the Saudi Civil Defense said the attack resulted in 11 injuries. Those injured included two Saudi citizens, two residents o",
-    "url": "https://www.arabnews.com/saudi-arabia/11-injured-after-tower-in-riyadhs-financial-district-targeted-in-terrorist-attack-3013857",
-    "reportedAt": 1795525731000,
-    "assumeSaudi": false,
-    "firstSeen": 1795533636551
-   },
-   {
-    "id": "5ce78743e46f",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says tower in Riyadh's financial district subjected to 'terrorist attack'",
-    "snippet": "",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGg4R3VOeWZfYnZJYmdLQnlfeTluNWE2YTdEYncxbm9CaXh4SXprczVMWmNCR29kTUY4c194VUxPdHBWY2w3aUpkTncwSmJsU1BtVXVISFJrdkwyWFA4RjhZZjdGeXpSSDJWdnJla3JTWlBnOEZrMDdncGhpTnhhaUtha2FIa1ViRmRGcHZsam41cVB1SXlHSXlvclRNdXNiemRhZHRDSWpGV1daMXhmS2JvQXVETDBVZGRELXMtQVFvcDh4?oc=5",
-    "reportedAt": 1795525731000,
-    "assumeSaudi": false,
-    "firstSeen": 1795526432058
-   },
-   {
-    "id": "6df3009b0ebf",
-    "feed": "Arab News",
-    "cat": "local",
-    "official": false,
-    "lang": "en",
-    "outlet": "Arab News",
-    "title": "Coalition says skyscraper at Riyadh financial district targeted in cowardly attack",
-    "snippet": "The Saudi coalition spokesperson Major General Turki Al Maliki said a skyscraper at Riyadh financial district has been targeted.",
-    "url": "https://www.arabnews.com/saudi-arabia/coalition-says-skyscraper-at-riyadh-financial-district-targeted-in-cowardly-attack-3013857",
-    "reportedAt": 1795525731000,
-    "assumeSaudi": false,
-    "firstSeen": 1795525831538
    }
   ],
   "summaries": {
    "8dcce82f7795": "경보 없이 리야드 최고층 빌딩이 또 피격됐다고 보도했어요.",
-   "5ce78743e46f": "연합군이 리야드 타워가 테러 공격을 받았다고 보도했어요.",
-   "a5c83094f1a7": "연합군은 리야드 금융지구 타워가 테러 공격을 받았다고 밝혔다고 보도됐어요.",
-   "6df3009b0ebf": "연합군 대변인이 리야드 금융지구의 마천루가 표적이 됐다고 말했다고 전했어요.",
    "e46e14491b95": "요약 없음",
    "d6d7657e3bc6": "기사에 요약이 없어 별도 요약을 만들 수 없습니다.",
    "b604cfb1057f": "알자지라는 리야드 타워 공격 관련 연합군 규탄 보도를 전했어요.",
    "276b32ebc680": "연합이 리야드 금융지구의 한 타워가 테러 공격을 받았다고 전합니다.",
    "db0af38c258a": "MBC 등은 리야드 최고층 건물이 경보 없이 또 피격돼 부상자가 발생했다고 보도합니다.",
-   "dfa45edf708f": "리야드 금융지구 타워에 대한 후티의 공격으로 11명이 부상했다고 보도됐어요.",
-   "fae2b41ffcb1": "해당 타워 공격으로 11명이 부상했다고 보도됐어요.",
-   "c6c7edceb38b": "연합군이 리야드 금융지구 타워에 대한 테러 공격을 발표했다고 보도했어요.",
    "f0cd5ce0e081": "사우디의 80층 빌딩이 또 피격됐다고 전했어요.",
    "736fd5b77ff4": "연합군은 후티가 리야드 KAFD 타워를 드론으로 공격했다고 발표했어요.",
    "89107cfe2f47": "알자지라는 사우디 민방위 발표를 인용해 11명이 부상했다고 전했어요.",
@@ -7011,15 +6882,9 @@
    "0e8ef9ff39ca": "사우디는 알-하사카의 시리아 보안군 시설에 대한 테러 공격을 규탄했다고 보도했어요."
   },
   "titlesKo": {
-   "6df3009b0ebf": "연합군 대변인, 리야드 금융지구 마천루가 표적됐다고",
-   "5ce78743e46f": "연합군: 리야드 타워 테러 공격 보도",
-   "a5c83094f1a7": "연합군: 리야드 금융지구 타워 테러 공격받아",
    "276b32ebc680": "리야드 금융지구 타워 테러 공격 발표",
    "b604cfb1057f": "알자지라: 연합군, 리야드 타워에 대한 '테러 공격' 규탄",
    "d6d7657e3bc6": "연합: 리야드 KAFD 타워 '테러 공격' 받았다",
-   "c6c7edceb38b": "연합군, 리야드 타워에 테러 공격 있었다고 발표",
-   "fae2b41ffcb1": "리야드 금융지구 타워 공격으로 11명 부상",
-   "dfa45edf708f": "후티의 리야드 타워 공격으로 11명 부상",
    "e46e14491b95": "휴대전화 경고도 없었던 리야드 80층 건물 피격",
    "db0af38c258a": "리야드 최고층 빌딩 일주일 만에 또 피격·경보 없어",
    "f0d93aa824e9": "아랍권 매체들, 리야드 타워 11명 부상 보도",
@@ -7160,7 +7025,8 @@
    "7c9e141213a5": "무인기, 리야드 향해 발사됐으나 요격·파괴됐다고 연합군 발표",
    "54f5368b99fc": "후티, 사우디 석유인프라 연일 공습…사우디도 후티 항만 등 타격",
    "ac0fa5fb821b": "사우디 정유시설 공격 소식에 방산주 강세",
-   "39c6b80d081d": "사우디 공습, 예멘 타이즈서 ’민간인 11명’ 사망: 후티 매체"
+   "39c6b80d081d": "사우디 공습, 예멘 타이즈서 ’민간인 11명’ 사망: 후티 매체",
+   "f101f4b3b0b3": "후티의 자잔 정유·항만 공격 후 사우디 공격에 대한 규탄 확산"
   },
   "aiClusters": [
    {
@@ -7657,10 +7523,7 @@
    },
    {
     "articleIds": [
-     "33cb51047f08",
-     "dfa45edf708f",
-     "fae2b41ffcb1",
-     "c6c7edceb38b"
+     "33cb51047f08"
     ],
     "fromRule": true
    },
@@ -7694,9 +7557,7 @@
      "023d3570ff48",
      "d6d7657e3bc6",
      "b604cfb1057f",
-     "276b32ebc680",
-     "a5c83094f1a7",
-     "5ce78743e46f"
+     "276b32ebc680"
     ],
     "fromRule": true
    },
@@ -7709,12 +7570,6 @@
    {
     "articleIds": [
      "14324f3ef2e1"
-    ],
-    "fromRule": true
-   },
-   {
-    "articleIds": [
-     "6df3009b0ebf"
     ],
     "fromRule": true
    },
@@ -7764,6 +7619,12 @@
    {
     "articleIds": [
      "39c6b80d081d"
+    ],
+    "fromRule": true
+   },
+   {
+    "articleIds": [
+     "f101f4b3b0b3"
     ],
     "fromRule": true
    }
